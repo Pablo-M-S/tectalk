@@ -1,0 +1,575 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "medicina-pt-en",
+    "profession": "medicina",
+    "sourceLanguage": "PT",
+    "targetLanguage": "EN",
+    "title": "Inglês Médico",
+    "description": "Terminologia formal de documentação clínica em inglês, para profissionais de saúde.",
+    "position": 1
+  },
+  "morphemes": [
+    {
+      "form": "myo",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "músculo",
+        "en": "muscle"
+      }
+    },
+    {
+      "form": "cardium",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "coração",
+        "en": "heart"
+      }
+    },
+    {
+      "form": "peri",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "ao redor de",
+        "en": "around"
+      }
+    },
+    {
+      "form": "a",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "ausência de",
+        "en": "without"
+      }
+    },
+    {
+      "form": "rhythm",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "ritmo",
+        "en": "rhythm"
+      }
+    },
+    {
+      "form": "ia",
+      "kind": "SUFFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "condição, estado",
+        "en": "condition, state"
+      }
+    },
+    {
+      "form": "tachy",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "rápido",
+        "en": "fast"
+      }
+    },
+    {
+      "form": "brady",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "lento",
+        "en": "slow"
+      }
+    },
+    {
+      "form": "cardia",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "coração",
+        "en": "heart"
+      }
+    },
+    {
+      "form": "hyper",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "acima do normal, em excesso",
+        "en": "above normal, excessive"
+      }
+    },
+    {
+      "form": "tension",
+      "kind": "ROOT",
+      "origin": "LATIN",
+      "meanings": {
+        "pt": "pressão, tensão",
+        "en": "pressure, tension"
+      }
+    },
+    {
+      "form": "cardio",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "coração",
+        "en": "heart"
+      }
+    },
+    {
+      "form": "megaly",
+      "kind": "SUFFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "aumento de tamanho",
+        "en": "enlargement"
+      }
+    }
+  ],
+  "units": [
+    {
+      "slug": "cardiologia",
+      "title": "Cardiologia",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "anatomia-cardiaca",
+          "title": "Anatomia cardíaca",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio",
+                  "definition": "Uma das duas câmaras superiores do coração, responsável por receber o sangue que retorna das veias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "atrium",
+                  "definition": "One of the two upper chambers of the heart, which receive blood returning from the veins.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˈeɪtriəm/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The right atrium receives deoxygenated blood from the superior and inferior vena cava.",
+                  "answer": "atrium",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo",
+                  "definition": "Uma das duas câmaras inferiores do coração, responsável por bombear o sangue para as artérias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "ventricle",
+                  "definition": "One of the two lower chambers of the heart, which pump blood into the arteries.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˈvɛntrɪkəl/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The left ventricle ejects oxygenated blood into the aorta during systole.",
+                  "answer": "ventricle",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "aorta",
+              "locales": {
+                "PT": {
+                  "text": "aorta",
+                  "definition": "Maior artéria do corpo, que conduz o sangue oxigenado do ventrículo esquerdo para a circulação sistêmica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "aorta",
+                  "definition": "The largest artery in the body, carrying oxygenated blood from the left ventricle into the systemic circulation.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/eɪˈɔːrtə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A dissection of the ascending aorta was identified on contrast-enhanced CT.",
+                  "answer": "aorta",
+                  "documentType": "RADIOLOGY_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "myocardium",
+              "locales": {
+                "PT": {
+                  "text": "miocárdio",
+                  "definition": "Camada muscular média da parede do coração, responsável pela contração cardíaca.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "myocardium",
+                  "definition": "The thick muscular middle layer of the heart wall, responsible for cardiac contraction.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˌmaɪoʊˈkɑːrdiəm/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Ischemia causes necrosis of the myocardium if blood flow is not restored.",
+                  "answer": "myocardium",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "myo",
+                    "morpheme": "myo"
+                  },
+                  {
+                    "segment": "cardium",
+                    "morpheme": "cardium"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "pericardium",
+              "locales": {
+                "PT": {
+                  "text": "pericárdio",
+                  "definition": "Saco membranoso de dupla camada que envolve o coração e a raiz dos grandes vasos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pericardium",
+                  "definition": "The double-layered membranous sac that encloses the heart and the roots of the great vessels.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˌpɛrɪˈkɑːrdiəm/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Echocardiography revealed a small effusion within the pericardium.",
+                  "answer": "pericardium",
+                  "documentType": "ECHO_REPORT"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "peri",
+                    "morpheme": "peri"
+                  },
+                  {
+                    "segment": "cardium",
+                    "morpheme": "cardium"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "cardiac-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva cardíaca",
+                  "definition": "Estrutura que garante o fluxo sanguíneo unidirecional através das câmaras e vasos do coração.",
+                  "informalForms": [
+                    "válvula cardíaca"
+                  ],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cardiac valve",
+                  "definition": "A structure that ensures unidirectional blood flow through the chambers and vessels of the heart.",
+                  "informalForms": [
+                    "heart valve"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˈkɑːrdiæk vælv/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient underwent replacement of a stenotic cardiac valve.",
+                  "answer": "cardiac valve",
+                  "documentType": "SURGICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "condicoes-cardiacas",
+          "title": "Condições cardíacas",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "myocardial-infarction",
+              "locales": {
+                "PT": {
+                  "text": "infarto agudo do miocárdio",
+                  "definition": "Necrose do tecido miocárdico causada por isquemia prolongada, geralmente por oclusão de uma artéria coronária.",
+                  "informalForms": [
+                    "infarto",
+                    "ataque cardíaco"
+                  ],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "myocardial infarction",
+                  "definition": "Necrosis of myocardial tissue resulting from prolonged ischemia, typically due to occlusion of a coronary artery.",
+                  "informalForms": [
+                    "heart attack"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˌmaɪoʊˈkɑːrdiəl ɪnˈfɑːrkʃən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The ECG findings were consistent with acute myocardial infarction.",
+                  "answer": "myocardial infarction",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "arrhythmia",
+              "locales": {
+                "PT": {
+                  "text": "arritmia",
+                  "definition": "Alteração na frequência, no ritmo ou na condução dos impulsos elétricos do coração.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "arrhythmia",
+                  "definition": "An abnormality in the rate, rhythm, or conduction of the heart's electrical impulses.",
+                  "informalForms": [
+                    "irregular heartbeat"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/əˈrɪðmiə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The Holter monitor detected a sustained ventricular arrhythmia.",
+                  "answer": "arrhythmia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "ar",
+                    "morpheme": "a"
+                  },
+                  {
+                    "segment": "rhythm",
+                    "morpheme": "rhythm"
+                  },
+                  {
+                    "segment": "ia",
+                    "morpheme": "ia"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "tachycardia",
+              "locales": {
+                "PT": {
+                  "text": "taquicardia",
+                  "definition": "Frequência cardíaca de repouso superior a 100 batimentos por minuto em adultos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "tachycardia",
+                  "definition": "A resting heart rate exceeding 100 beats per minute in adults.",
+                  "informalForms": [
+                    "racing heart"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˌtækɪˈkɑːrdiə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient presented with sinus tachycardia at 120 beats per minute.",
+                  "answer": "tachycardia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "tachy",
+                    "morpheme": "tachy"
+                  },
+                  {
+                    "segment": "cardia",
+                    "morpheme": "cardia"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "bradycardia",
+              "locales": {
+                "PT": {
+                  "text": "bradicardia",
+                  "definition": "Frequência cardíaca de repouso inferior a 60 batimentos por minuto em adultos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "bradycardia",
+                  "definition": "A resting heart rate below 60 beats per minute in adults.",
+                  "informalForms": [
+                    "slow heartbeat"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˌbrædɪˈkɑːrdiə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Beta-blocker therapy may induce symptomatic bradycardia in elderly patients.",
+                  "answer": "bradycardia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "brady",
+                    "morpheme": "brady"
+                  },
+                  {
+                    "segment": "cardia",
+                    "morpheme": "cardia"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "hypertension",
+              "locales": {
+                "PT": {
+                  "text": "hipertensão arterial",
+                  "definition": "Elevação sustentada da pressão arterial, definida por valores persistentemente acima dos limites de referência.",
+                  "informalForms": [
+                    "pressão alta"
+                  ],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hypertension",
+                  "definition": "Sustained elevation of arterial blood pressure above the established reference thresholds.",
+                  "informalForms": [
+                    "high blood pressure"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˌhaɪpərˈtɛnʃən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient has a history of poorly controlled hypertension.",
+                  "answer": "hypertension",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "hyper",
+                    "morpheme": "hyper"
+                  },
+                  {
+                    "segment": "tension",
+                    "morpheme": "tension"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "cardiomegaly",
+              "locales": {
+                "PT": {
+                  "text": "cardiomegalia",
+                  "definition": "Aumento anormal do tamanho do coração, geralmente identificado em exames de imagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cardiomegaly",
+                  "definition": "Abnormal enlargement of the heart, typically identified on imaging studies.",
+                  "informalForms": [
+                    "enlarged heart"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "/ˌkɑːrdioʊˈmɛɡəli/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Chest radiography demonstrated cardiomegaly with pulmonary congestion.",
+                  "answer": "cardiomegaly",
+                  "documentType": "RADIOLOGY_REPORT"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "cardio",
+                    "morpheme": "cardio"
+                  },
+                  {
+                    "segment": "megaly",
+                    "morpheme": "megaly"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

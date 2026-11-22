@@ -1,0 +1,12 @@
+{
+  "name": "tectalk",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev:api": "pnpm --filter @tectalk/api start:dev",
+    "build:api": "pnpm --filter @tectalk/api build"
+  }
+}

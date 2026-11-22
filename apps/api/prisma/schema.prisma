@@ -1,0 +1,255 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Language {
+  PT
+  EN
+  ES
+  FR
+  ZH
+  JA
+}
+
+enum ContentStatus {
+  DRAFT
+  IN_REVIEW
+  PUBLISHED
+}
+
+enum PartOfSpeech {
+  NOUN
+  VERB
+  ADJECTIVE
+  ADVERB
+  PHRASE
+}
+
+enum AudioStatus {
+  NONE
+  PENDING
+  READY
+}
+
+enum MorphemeKind {
+  PREFIX
+  ROOT
+  SUFFIX
+}
+
+enum Etymology {
+  GREEK
+  LATIN
+  OTHER
+}
+
+model User {
+  id                String   @id @default(uuid()) @db.Uuid
+  email             String   @unique
+  passwordHash      String
+  displayName       String
+  interfaceLanguage Language @default(PT)
+  timezone          String   @default("America/Sao_Paulo")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  stats       UserStats?
+  completions LessonCompletion[]
+  cards       ReviewCard[]
+
+  @@map("users")
+}
+
+model UserStats {
+  userId        String  @id @db.Uuid
+  xp            Int     @default(0)
+  currentStreak Int     @default(0)
+  longestStreak Int     @default(0)
+  lastActiveOn  String? @db.VarChar(10)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_stats")
+}
+
+model Track {
+  id             String        @id @default(uuid()) @db.Uuid
+  slug           String        @unique
+  profession     String
+  sourceLanguage Language
+  targetLanguage Language
+  title          String
+  description    String
+  status         ContentStatus @default(DRAFT)
+  position       Int           @default(0)
+
+  units Unit[]
+  cards ReviewCard[]
+
+  @@unique([profession, sourceLanguage, targetLanguage])
+  @@map("tracks")
+}
+
+model Unit {
+  id       String @id @default(uuid()) @db.Uuid
+  trackId  String @db.Uuid
+  slug     String
+  title    String
+  position Int
+
+  track   Track    @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  lessons Lesson[]
+
+  @@unique([trackId, slug])
+  @@index([trackId, position])
+  @@map("units")
+}
+
+model Lesson {
+  id       String        @id @default(uuid()) @db.Uuid
+  unitId   String        @db.Uuid
+  slug     String
+  title    String
+  position Int
+  status   ContentStatus @default(DRAFT)
+
+  unit        Unit               @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  terms       LessonTerm[]
+  completions LessonCompletion[]
+
+  @@unique([unitId, slug])
+  @@index([unitId, position])
+  @@map("lessons")
+}
+
+model Term {
+  id     String        @id @default(uuid()) @db.Uuid
+  slug   String        @unique
+  domain String
+  status ContentStatus @default(DRAFT)
+
+  locales   TermLocale[]
+  examples  Example[]
+  morphemes TermMorpheme[]
+  lessons   LessonTerm[]
+  cards     ReviewCard[]
+
+  @@index([domain, status])
+  @@map("terms")
+}
+
+model TermLocale {
+  id            String       @id @default(uuid()) @db.Uuid
+  termId        String       @db.Uuid
+  language      Language
+  text          String
+  definition    String       @db.Text
+  informalForms String[]
+  partOfSpeech  PartOfSpeech @default(NOUN)
+  ipa           String?
+  audioUrl      String?
+  audioStatus   AudioStatus  @default(NONE)
+
+  term Term @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@unique([termId, language])
+  @@map("term_locales")
+}
+
+model Example {
+  id           String   @id @default(uuid()) @db.Uuid
+  termId       String   @db.Uuid
+  language     Language
+  sentence     String   @db.Text
+  answer       String
+  documentType String?
+
+  term Term @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@index([termId, language])
+  @@map("examples")
+}
+
+model Morpheme {
+  id       String       @id @default(uuid()) @db.Uuid
+  form     String       @unique
+  kind     MorphemeKind
+  origin   Etymology
+  meanings Json
+
+  usages TermMorpheme[]
+
+  @@map("morphemes")
+}
+
+model TermMorpheme {
+  termId     String   @db.Uuid
+  language   Language
+  position   Int
+  segment    String
+  morphemeId String   @db.Uuid
+
+  term     Term     @relation(fields: [termId], references: [id], onDelete: Cascade)
+  morpheme Morpheme @relation(fields: [morphemeId], references: [id], onDelete: Restrict)
+
+  @@id([termId, language, position])
+  @@index([morphemeId])
+  @@map("term_morphemes")
+}
+
+model LessonTerm {
+  lessonId String @db.Uuid
+  termId   String @db.Uuid
+  position Int
+
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  term   Term   @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@id([lessonId, termId])
+  @@index([lessonId, position])
+  @@map("lesson_terms")
+}
+
+model LessonCompletion {
+  id          String   @id @default(uuid()) @db.Uuid
+  userId      String   @db.Uuid
+  lessonId    String   @db.Uuid
+  score       Float
+  xpEarned    Int
+  completedAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@index([userId, lessonId])
+  @@map("lesson_completions")
+}
+
+model ReviewCard {
+  id            String    @id @default(uuid()) @db.Uuid
+  userId        String    @db.Uuid
+  termId        String    @db.Uuid
+  trackId       String    @db.Uuid
+  due           DateTime
+  stability     Float
+  difficulty    Float
+  elapsedDays   Int
+  scheduledDays Int
+  reps          Int
+  lapses        Int
+  state         Int
+  lastReview    DateTime?
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  term  Term  @relation(fields: [termId], references: [id], onDelete: Cascade)
+  track Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, termId, trackId])
+  @@index([userId, trackId, due])
+  @@map("review_cards")
+}
