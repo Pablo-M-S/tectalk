@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: tectalk-api
+    runtime: node
+    plan: free
+    region: ohio
+    branch: main
+    buildCommand: corepack enable && pnpm install --frozen-lockfile --prod=false && pnpm --filter @tectalk/api build
+    startCommand: pnpm --filter @tectalk/api start:prod
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN_DAYS
+        value: "30"
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: AUDIO_ENABLED
+        value: "false"
