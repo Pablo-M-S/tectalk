@@ -21,7 +21,7 @@ export default function TabsLayout() {
         sceneStyle: { backgroundColor: theme.bg },
       }}
     >
-      <Tabs.Screen name="index" options={{ title: 'Trilha', tabBarIcon: icon('map-outline') }} />
+      <Tabs.Screen name="trail" options={{ title: 'Trilha', tabBarIcon: icon('map-outline') }} />
       <Tabs.Screen name="review" options={{ title: 'Revisão', tabBarIcon: icon('repeat-outline') }} />
       <Tabs.Screen name="profile" options={{ title: 'Perfil', tabBarIcon: icon('person-outline') }} />
     </Tabs>
