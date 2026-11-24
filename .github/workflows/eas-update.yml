@@ -38,4 +38,4 @@ jobs:
       - name: Publicar atualização
         env:
           MESSAGE: ${{ github.event.head_commit.message || 'Atualização manual' }}
-        run: eas update --branch preview --message "$MESSAGE" --non-interactive
+        run: eas update --branch preview --environment preview --message "$MESSAGE" --non-interactive
