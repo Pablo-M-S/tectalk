@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "TecTalk",
+    "slug": "tectalk",
+    "scheme": "tectalk",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "android": {
+      "package": "com.nxl.tectalk",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0C2F2D"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0C2F2D"
+        }
+      ]
+    ],
+    "extra": {
+      "apiUrl": "https://tectalk-api.onrender.com",
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "9e0a83ed-4dd4-489a-b3bf-fea81805b2b7"
+      }
+    },
+    "owner": "pablo-m-s",
+    "updates": {
+      "url": "https://u.expo.dev/9e0a83ed-4dd4-489a-b3bf-fea81805b2b7"
+    },
+    "ios": {}
+  }
+}

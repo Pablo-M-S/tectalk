@@ -1,5 +1,7 @@
+# O app mobile (apps/mobile) usa npm e fica fora deste workspace de propósito:
+# o EAS Build instala as dependências dele de forma independente.
 packages:
-  - "apps/*"
+  - "apps/api"
   - "packages/*"
 
 onlyBuiltDependencies:
