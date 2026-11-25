@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Pressable, View } from 'react-native';
 import type { MatchPairsExercise } from '@/api/types';
 import { Text } from '@/components/Text';
-import { playSound } from '@/lib/sounds';
+import { cue } from '@/lib/feedback';
 import { radius, useTheme } from '@/theme/theme';
 import type { ExerciseProps } from './types';
 
@@ -31,10 +31,10 @@ export function MatchPairs({ exercise, locked, setEvaluator, submit }: ExerciseP
     if (!selectedLeft || locked) return;
     if (rightId === selectedLeft) {
       // O último par é coberto pelo som de acerto do exercício.
-      if (matched.length + 1 < exercise.left.length) playSound('pair');
+      if (matched.length + 1 < exercise.left.length) cue('pair');
       setMatched((list) => [...list, rightId]);
     } else {
-      playSound('wrong');
+      cue('wrong');
       setMistakes((list) => (list.includes(selectedLeft) ? list : [...list, selectedLeft]));
       setFlash(rightId);
       setTimeout(() => setFlash(null), 450);
@@ -55,7 +55,7 @@ export function MatchPairs({ exercise, locked, setEvaluator, submit }: ExerciseP
         disabled={done || locked}
         onPress={() => {
           if (side === 'left') {
-            playSound('tap');
+            cue('tap');
             setSelectedLeft(id);
           } else {
             pickRight(id);

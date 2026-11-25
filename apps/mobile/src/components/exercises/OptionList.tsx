@@ -1,7 +1,7 @@
 import { Pressable, View } from 'react-native';
 import type { Option } from '@/api/types';
 import { Text } from '@/components/Text';
-import { playSound } from '@/lib/sounds';
+import { cue } from '@/lib/feedback';
 import { radius, useTheme } from '@/theme/theme';
 
 interface Props {
@@ -36,7 +36,7 @@ export function OptionList({ options, selectedId, correctId, locked, onSelect }:
             accessibilityRole="button"
             disabled={locked}
             onPress={() => {
-              playSound('tap');
+              cue('tap');
               onSelect(option.id);
             }}
             style={{

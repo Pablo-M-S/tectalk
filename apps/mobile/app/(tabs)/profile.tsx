@@ -8,6 +8,7 @@ import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
 import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
+import { useHaptics } from '@/lib/feedback';
 import { useSound } from '@/lib/sounds';
 import { GOALS, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
 import { radius, useTheme } from '@/theme/theme';
@@ -29,6 +30,8 @@ export default function ProfileScreen() {
   const stats = useStats();
   const soundOn = useSound((state) => state.enabled);
   const setSoundOn = useSound((state) => state.setEnabled);
+  const vibrationOn = useHaptics((state) => state.enabled);
+  const setVibrationOn = useHaptics((state) => state.setEnabled);
 
   const checkUpdate = async () => {
     if (!Updates.isEnabled) {
@@ -87,6 +90,14 @@ export default function ProfileScreen() {
             <Switch
               value={soundOn}
               onValueChange={setSoundOn}
+              trackColor={{ true: theme.primary, false: theme.border }}
+            />
+          </View>
+          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Text variant="caption" tone="muted">Vibração</Text>
+            <Switch
+              value={vibrationOn}
+              onValueChange={setVibrationOn}
               trackColor={{ true: theme.primary, false: theme.border }}
             />
           </View>

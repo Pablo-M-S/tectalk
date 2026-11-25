@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
-import { playSound } from '@/lib/sounds';
+import { cue } from '@/lib/feedback';
 import { radius, useTheme } from '@/theme/theme';
 
 export default function ResultScreen() {
@@ -18,7 +18,7 @@ export default function ResultScreen() {
   const ratio = total > 0 ? correct / total : 0;
 
   useEffect(() => {
-    playSound('complete');
+    cue('complete');
   }, []);
 
   const headline = ratio >= 0.9 ? 'Excelente' : ratio >= 0.6 ? 'Bom trabalho' : 'Continue praticando';
