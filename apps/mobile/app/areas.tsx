@@ -18,12 +18,15 @@ type IconName = keyof typeof Ionicons.glyphMap;
 const ICONS: Record<string, IconName> = {
   medicina: 'medkit-outline',
   programacao: 'code-slash-outline',
+  engenharia: 'construct-outline',
+  construcao: 'hammer-outline',
+  hiragana: 'language-outline',
+  katakana: 'language-outline',
 };
 
 /** Áreas planejadas, mostradas para deixar claro que a plataforma vai além de uma profissão. */
 const UPCOMING: { title: string; icon: IconName }[] = [
   { title: 'Direito', icon: 'scale-outline' },
-  { title: 'Engenharia', icon: 'construct-outline' },
   { title: 'Arquitetura', icon: 'business-outline' },
   { title: 'Ciência', icon: 'flask-outline' },
 ];

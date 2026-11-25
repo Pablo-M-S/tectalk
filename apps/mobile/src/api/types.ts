@@ -92,6 +92,8 @@ export interface Reveal {
   text: string;
   definition: string;
   ipa: string | null;
+  romanization?: string | null;
+  translation?: string;
   informalForms: string[];
   usageNote: string | null;
   collocations: string[];

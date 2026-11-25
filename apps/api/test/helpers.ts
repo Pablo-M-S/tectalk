@@ -14,6 +14,7 @@ const locale = (text: string, extra: Partial<LocaleView> = {}): LocaleView => ({
   definition: `Definição de ${text}`,
   informalForms: [],
   ipa: null,
+  romanization: null,
   usageNote: null,
   collocations: [],
   audioUrl: null,

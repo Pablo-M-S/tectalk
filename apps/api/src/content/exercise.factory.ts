@@ -19,6 +19,7 @@ export interface LocaleView {
   definition: string;
   informalForms: string[];
   ipa: string | null;
+  romanization: string | null;
   usageNote: string | null;
   collocations: string[];
   audioUrl: string | null;
@@ -85,12 +86,36 @@ export class ExerciseFactory {
       text: term.target.text,
       definition: term.target.definition,
       ipa: term.target.ipa,
+      romanization: term.target.romanization,
+      translation: term.source.text,
       informalForms: term.target.informalForms,
       usageNote: term.target.usageNote,
       collocations: term.target.collocations,
       example: example ? example.sentence : null,
       translations: term.others ?? [],
     };
+  }
+
+  /**
+   * Texto de uma opção. Em idiomas sem alfabeto latino, a leitura (hiragana, pinyin)
+   * e o romaji vêm abaixo, para o aluno aprender a forma correta. Nunca repete o
+   * que já está no outro lado (nos alfabetos, o romaji é a própria pergunta).
+   */
+  private label(locale: LocaleView, other: LocaleView): string {
+    const reading = locale.ipa && !locale.ipa.startsWith('/') ? locale.ipa : null;
+    const extras = [reading, locale.romanization].filter(
+      (extra): extra is string => Boolean(extra) && extra !== locale.text && extra !== other.text,
+    );
+    return extras.length > 0 ? `${locale.text}\n${extras.join(' · ')}` : locale.text;
+  }
+
+  private hasReading(term: TermView): boolean {
+    return Boolean(term.target.romanization) || Boolean(term.target.ipa && !term.target.ipa.startsWith('/'));
+  }
+
+  /** Nos alfabetos, a definição entregaria a resposta; só vale digitar palavras. */
+  private canType(term: TermView): boolean {
+    return term.source.text !== term.target.romanization;
   }
 
   private usableExamples(term: TermView): ExampleView[] {
@@ -107,8 +132,25 @@ export class ExerciseFactory {
       termIds: [term.id],
       prompt: term.source.text,
       options: this.shuffle(
-        [term, ...distractors].map((t) => ({ id: t.id, text: t.target.text })),
+        [term, ...distractors].map((t) => ({ id: t.id, text: this.label(t.target, t.source) })),
       ),
+      correctOptionId: term.id,
+      reveal: this.reveal(term),
+    };
+  }
+
+  /** Vê o termo no idioma estudado e escolhe o significado. Só onde há leitura a aprender. */
+  reverseChoice(term: TermView, pool: TermView[]): MultipleChoiceExercise | null {
+    if (!this.hasReading(term)) return null;
+    const distractors = this.distractors(term, pool, 3).filter((t) => t.source.text !== term.source.text);
+    if (distractors.length === 0) return null;
+
+    return {
+      id: randomUUID(),
+      type: 'MULTIPLE_CHOICE',
+      termIds: [term.id],
+      prompt: this.label(term.target, term.source),
+      options: this.shuffle([term, ...distractors].map((t) => ({ id: t.id, text: t.source.text }))),
       correctOptionId: term.id,
       reveal: this.reveal(term),
     };
@@ -123,7 +165,7 @@ export class ExerciseFactory {
       type: 'MATCH_PAIRS',
       termIds: chosen.map((t) => t.id),
       left: this.shuffle(chosen.map((t) => ({ id: t.id, text: t.source.text }))),
-      right: this.shuffle(chosen.map((t) => ({ id: t.id, text: t.target.text }))),
+      right: this.shuffle(chosen.map((t) => ({ id: t.id, text: this.label(t.target, t.source) }))),
     };
   }
 
@@ -142,8 +184,14 @@ export class ExerciseFactory {
   /** O termo e, em idiomas sem teclado latino, a leitura (hiragana, pinyin). IPA não entra. */
   private acceptedAnswers(term: TermView): string[] {
     const reading = term.target.ipa;
-    const isReading = reading !== null && reading !== '' && !reading.startsWith('/');
-    return isReading ? [term.target.text, reading] : [term.target.text];
+    const accepted = [term.target.text];
+    if (reading && !reading.startsWith('/')) accepted.push(reading);
+    const romaji = term.target.romanization;
+    if (romaji) {
+      // "ou" e "uu" também podem ser digitados curtos: kōkyū = kokyuu = kokyu.
+      accepted.push(romaji, romaji.replace(/ou/g, 'o').replace(/uu/g, 'u'));
+    }
+    return [...new Set(accepted)];
   }
 
   fillBlank(term: TermView, pool: TermView[]): FillBlankExercise | null {
@@ -279,15 +327,16 @@ export class ExerciseFactory {
   buildLessonSession({ terms, pool, audioEnabled }: LessonSessionInput): Exercise[] {
     const segmentPool = this.segmentPool(pool);
 
-    const recognition = this.shuffle(terms)
-      .map((t) => this.multipleChoice(t, pool))
-      .filter(present);
+    const recognition = [
+      ...this.shuffle(terms).map((t) => this.multipleChoice(t, pool)),
+      ...this.shuffle(terms).map((t) => this.reverseChoice(t, pool)),
+    ].filter(present);
 
     const matching = [this.matchPairs(terms), this.fillBlanks(terms)].filter(present);
 
     const production = this.shuffle(
       terms.flatMap((t) => [
-        this.typeTerm(t),
+        this.canType(t) ? this.typeTerm(t) : null,
         this.fillBlank(t, pool),
         this.buildFromRoots(t, segmentPool),
         this.registerChoice(t, pool),
@@ -317,7 +366,8 @@ export class ExerciseFactory {
     for (const term of this.pick(terms, size)) {
       const options: Exercise[] = [
         this.multipleChoice(term, pool),
-        this.typeTerm(term),
+        this.reverseChoice(term, pool),
+        this.canType(term) ? this.typeTerm(term) : null,
         this.fillBlank(term, pool),
         this.buildFromRoots(term, segmentPool),
         this.registerChoice(term, pool),

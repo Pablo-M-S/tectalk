@@ -35,7 +35,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "へんすう"
+                  "ipa": "へんすう",
+                  "romanization": "hensuu"
                 }
               },
               "examples": [],
@@ -55,7 +56,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かんすう"
+                  "ipa": "かんすう",
+                  "romanization": "kansuu"
                 }
               },
               "examples": [],
@@ -74,7 +76,8 @@
                   "text": "パラメータ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "parameeta"
                 }
               },
               "examples": [],
@@ -94,7 +97,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ひきすう"
+                  "ipa": "ひきすう",
+                  "romanization": "hikisuu"
                 }
               },
               "examples": [],
@@ -114,7 +118,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "もどりち"
+                  "ipa": "もどりち",
+                  "romanization": "modorichi"
                 }
               },
               "examples": [],
@@ -133,7 +138,8 @@
                   "text": "ループ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ruupu"
                 }
               },
               "examples": [],
@@ -160,7 +166,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "はいれつ"
+                  "ipa": "はいれつ",
+                  "romanization": "hairetsu"
                 }
               },
               "examples": [],
@@ -179,7 +186,8 @@
                   "text": "ハッシュマップ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "hasshumappu"
                 }
               },
               "examples": [],
@@ -199,7 +207,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "もじれつ"
+                  "ipa": "もじれつ",
+                  "romanization": "mojiretsu"
                 }
               },
               "examples": [],
@@ -219,7 +228,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "しんぎち"
+                  "ipa": "しんぎち",
+                  "romanization": "shingichi"
                 }
               },
               "examples": [],
@@ -239,7 +249,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ヌルさんしょう"
+                  "ipa": "ヌルさんしょう",
+                  "romanization": "nurusanshou"
                 }
               },
               "examples": [],
@@ -259,7 +270,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "れいがい"
+                  "ipa": "れいがい",
+                  "romanization": "reigai"
                 }
               },
               "examples": [],
@@ -292,7 +304,8 @@
                   "text": "エンドポイント",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "endopointo"
                 }
               },
               "examples": [],
@@ -312,7 +325,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "いぞんかんけい"
+                  "ipa": "いぞんかんけい",
+                  "romanization": "izonkankei"
                 }
               },
               "examples": [],
@@ -332,7 +346,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ちゅうしょうか"
+                  "ipa": "ちゅうしょうか",
+                  "romanization": "chuushouka"
                 }
               },
               "examples": [],
@@ -351,7 +366,8 @@
                   "text": "ミドルウェア",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "midoruwea"
                 }
               },
               "examples": [],
@@ -370,7 +386,8 @@
                   "text": "スキーマ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sukiima"
                 }
               },
               "examples": [],
@@ -389,7 +406,8 @@
                   "text": "ペイロード",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "peiroodo"
                 }
               },
               "examples": [],
@@ -415,7 +433,8 @@
                   "text": "クエリ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kueri"
                 }
               },
               "examples": [],
@@ -434,7 +453,8 @@
                   "text": "トランザクション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "toranzakushon"
                 }
               },
               "examples": [],
@@ -453,7 +473,8 @@
                   "text": "インデックス",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "indekkusu"
                 }
               },
               "examples": [],
@@ -472,7 +493,8 @@
                   "text": "マイグレーション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "maigureeshon"
                 }
               },
               "examples": [],
@@ -491,7 +513,8 @@
                   "text": "キャッシュ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kyasshu"
                 }
               },
               "examples": [],
@@ -510,7 +533,8 @@
                   "text": "レイテンシ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "reitenshi"
                 }
               },
               "examples": [],
@@ -543,7 +567,8 @@
                   "text": "リポジトリ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ripojitori"
                 }
               },
               "examples": [],
@@ -562,7 +587,8 @@
                   "text": "コミット",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "komitto"
                 }
               },
               "examples": [],
@@ -581,7 +607,8 @@
                   "text": "ブランチ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "buranchi"
                 }
               },
               "examples": [],
@@ -600,7 +627,8 @@
                   "text": "マージコンフリクト",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "maajikonfurikuto"
                 }
               },
               "examples": [],
@@ -619,7 +647,8 @@
                   "text": "プルリクエスト",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pururikuesuto"
                 }
               },
               "examples": [],
@@ -638,7 +667,8 @@
                   "text": "ロールバック",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "roorubakku"
                 }
               },
               "examples": [],
@@ -664,7 +694,8 @@
                   "text": "リファクタリング",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "rifakutaringu"
                 }
               },
               "examples": [],
@@ -684,7 +715,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ひすいしょうか"
+                  "ipa": "ひすいしょうか",
+                  "romanization": "hisuishouka"
                 }
               },
               "examples": [],
@@ -704,7 +736,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ぎじゅつてきふさい"
+                  "ipa": "ぎじゅつてきふさい",
+                  "romanization": "gijutsutekifusai"
                 }
               },
               "examples": [],
@@ -723,7 +756,8 @@
                   "text": "リグレッション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "riguresshon"
                 }
               },
               "examples": [],
@@ -742,7 +776,8 @@
                   "text": "デプロイ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "depuroi"
                 }
               },
               "examples": [],
@@ -761,7 +796,8 @@
                   "text": "コードレビュー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "koodorebyuu"
                 }
               },
               "examples": [],
@@ -794,7 +830,8 @@
                   "text": "リクエスト",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "rikuesuto"
                 }
               },
               "examples": [],
@@ -813,7 +850,8 @@
                   "text": "レスポンス",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "resuponsu"
                 }
               },
               "examples": [],
@@ -832,7 +870,8 @@
                   "text": "ステータスコード",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "suteetasukoodo"
                 }
               },
               "examples": [],
@@ -852,7 +891,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "にんしょう"
+                  "ipa": "にんしょう",
+                  "romanization": "ninshou"
                 }
               },
               "examples": [],
@@ -871,7 +911,8 @@
                   "text": "トークン",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "tookun"
                 }
               },
               "examples": [],
@@ -891,7 +932,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "レートせいげん"
+                  "ipa": "レートせいげん",
+                  "romanization": "reetoseigen"
                 }
               },
               "examples": [],
@@ -925,7 +967,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "たんたいテスト"
+                  "ipa": "たんたいテスト",
+                  "romanization": "tantaitesuto"
                 }
               },
               "examples": [],
@@ -945,7 +988,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "けつごうテスト"
+                  "ipa": "けつごうテスト",
+                  "romanization": "ketsugoutesuto"
                 }
               },
               "examples": [],
@@ -964,7 +1008,8 @@
                   "text": "モック",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mokku"
                 }
               },
               "examples": [],
@@ -983,7 +1028,8 @@
                   "text": "コードカバレッジ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "koodokabarejji"
                 }
               },
               "examples": [],
@@ -1002,7 +1048,8 @@
                   "text": "アサーション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "asaashon"
                 }
               },
               "examples": [],
@@ -1022,7 +1069,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ふあんていなテスト"
+                  "ipa": "ふあんていなテスト",
+                  "romanization": "fuanteinatesuto"
                 }
               },
               "examples": [],
@@ -1055,7 +1103,8 @@
                   "text": "コンテナ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kontena"
                 }
               },
               "examples": [],
@@ -1074,7 +1123,8 @@
                   "text": "パイプライン",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "paipurain"
                 }
               },
               "examples": [],
@@ -1094,7 +1144,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かんきょうへんすう"
+                  "ipa": "かんきょうへんすう",
+                  "romanization": "kankyouhensuu"
                 }
               },
               "examples": [],
@@ -1113,7 +1164,8 @@
                   "text": "ロードバランサー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "roodobaransaa"
                 }
               },
               "examples": [],
@@ -1132,7 +1184,8 @@
                   "text": "スケーラビリティ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sukeerabiritei"
                 }
               },
               "examples": [],
@@ -1152,7 +1205,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かどうりつ"
+                  "ipa": "かどうりつ",
+                  "romanization": "kadouritsu"
                 }
               },
               "examples": [],
@@ -1185,7 +1239,8 @@
                   "text": "スタック",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sutakku"
                 }
               },
               "examples": [],
@@ -1204,7 +1259,8 @@
                   "text": "キュー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kyuu"
                 }
               },
               "examples": [],
@@ -1224,7 +1280,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "れんけつリスト"
+                  "ipa": "れんけつリスト",
+                  "romanization": "renketsurisuto"
                 }
               },
               "examples": [],
@@ -1244,7 +1301,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "さいき"
+                  "ipa": "さいき",
+                  "romanization": "saiki"
                 }
               },
               "examples": [],
@@ -1263,7 +1321,8 @@
                   "text": "アルゴリズム",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "arugorizumu"
                 }
               },
               "examples": [],
@@ -1283,7 +1342,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "じかんけいさんりょう"
+                  "ipa": "じかんけいさんりょう",
+                  "romanization": "jikankeisanryou"
                 }
               },
               "examples": [],
@@ -1317,7 +1377,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ぜいじゃくせい"
+                  "ipa": "ぜいじゃくせい",
+                  "romanization": "zeijakusei"
                 }
               },
               "examples": [],
@@ -1337,7 +1398,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "あんごうか"
+                  "ipa": "あんごうか",
+                  "romanization": "angouka"
                 }
               },
               "examples": [],
@@ -1357,7 +1419,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "にんか"
+                  "ipa": "にんか",
+                  "romanization": "ninka"
                 }
               },
               "examples": [],
@@ -1376,7 +1439,8 @@
                   "text": "SQLインジェクション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "SQL injekushon"
                 }
               },
               "examples": [],
@@ -1396,7 +1460,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "アクセスせいぎょ"
+                  "ipa": "アクセスせいぎょ",
+                  "romanization": "akusesuseigyo"
                 }
               },
               "examples": [],
@@ -1416,7 +1481,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かんさログ"
+                  "ipa": "かんさログ",
+                  "romanization": "kansarogu"
                 }
               },
               "examples": [],
@@ -1449,7 +1515,8 @@
                   "text": "スプリント",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "supurinto"
                 }
               },
               "examples": [],
@@ -1468,7 +1535,8 @@
                   "text": "バックログ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bakkurogu"
                 }
               },
               "examples": [],
@@ -1487,7 +1555,8 @@
                   "text": "デイリースクラム",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "deiriisukuramu"
                 }
               },
               "examples": [],
@@ -1506,7 +1575,8 @@
                   "text": "ステークホルダー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "suteekuhorudaa"
                 }
               },
               "examples": [],
@@ -1525,7 +1595,8 @@
                   "text": "ペアプログラミング",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "peapuroguramingu"
                 }
               },
               "examples": [],
@@ -1544,7 +1615,8 @@
                   "text": "レトロスペクティブ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "retorosupekuteibu"
                 }
               },
               "examples": [],

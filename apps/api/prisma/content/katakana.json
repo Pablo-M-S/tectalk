@@ -1,0 +1,1500 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "katakana-pt-ja",
+    "profession": "katakana",
+    "sourceLanguage": "PT",
+    "targetLanguage": "JA",
+    "title": "Katakana",
+    "description": "O alfabeto usado em palavras estrangeiras, como \"cateter\" e \"software\".",
+    "position": 29
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "katakana-basico",
+      "title": "Katakana: sons básicos",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "katakana-1",
+          "title": "Vogais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "katakana-a",
+              "locales": {
+                "PT": {
+                  "text": "a",
+                  "definition": "Katakana \"a\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ア",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "a"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-i",
+              "locales": {
+                "PT": {
+                  "text": "i",
+                  "definition": "Katakana \"i\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "イ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "i"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-u",
+              "locales": {
+                "PT": {
+                  "text": "u",
+                  "definition": "Katakana \"u\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ウ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "u"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-e",
+              "locales": {
+                "PT": {
+                  "text": "e",
+                  "definition": "Katakana \"e\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "エ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "e"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-o",
+              "locales": {
+                "PT": {
+                  "text": "o",
+                  "definition": "Katakana \"o\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "オ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "o"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-2",
+          "title": "Linha K",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "katakana-ka",
+              "locales": {
+                "PT": {
+                  "text": "ka",
+                  "definition": "Katakana \"ka\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "カ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ka"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ki",
+              "locales": {
+                "PT": {
+                  "text": "ki",
+                  "definition": "Katakana \"ki\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "キ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ki"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ku",
+              "locales": {
+                "PT": {
+                  "text": "ku",
+                  "definition": "Katakana \"ku\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ク",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ke",
+              "locales": {
+                "PT": {
+                  "text": "ke",
+                  "definition": "Katakana \"ke\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ケ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ke"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ko",
+              "locales": {
+                "PT": {
+                  "text": "ko",
+                  "definition": "Katakana \"ko\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ko"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-3",
+          "title": "Linha S",
+          "position": 3,
+          "terms": [
+            {
+              "slug": "katakana-sa",
+              "locales": {
+                "PT": {
+                  "text": "sa",
+                  "definition": "Katakana \"sa\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "サ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sa"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-shi",
+              "locales": {
+                "PT": {
+                  "text": "shi",
+                  "definition": "Katakana \"shi\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "シ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "shi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-su",
+              "locales": {
+                "PT": {
+                  "text": "su",
+                  "definition": "Katakana \"su\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "su"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-se",
+              "locales": {
+                "PT": {
+                  "text": "se",
+                  "definition": "Katakana \"se\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "セ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "se"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-so",
+              "locales": {
+                "PT": {
+                  "text": "so",
+                  "definition": "Katakana \"so\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ソ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "so"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-4",
+          "title": "Linha T",
+          "position": 4,
+          "terms": [
+            {
+              "slug": "katakana-ta",
+              "locales": {
+                "PT": {
+                  "text": "ta",
+                  "definition": "Katakana \"ta\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "タ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ta"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-chi",
+              "locales": {
+                "PT": {
+                  "text": "chi",
+                  "definition": "Katakana \"chi\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "チ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "chi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-tsu",
+              "locales": {
+                "PT": {
+                  "text": "tsu",
+                  "definition": "Katakana \"tsu\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ツ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "tsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-te",
+              "locales": {
+                "PT": {
+                  "text": "te",
+                  "definition": "Katakana \"te\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "テ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "te"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-to",
+              "locales": {
+                "PT": {
+                  "text": "to",
+                  "definition": "Katakana \"to\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "to"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-5",
+          "title": "Linha N",
+          "position": 5,
+          "terms": [
+            {
+              "slug": "katakana-na",
+              "locales": {
+                "PT": {
+                  "text": "na",
+                  "definition": "Katakana \"na\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ナ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "na"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ni",
+              "locales": {
+                "PT": {
+                  "text": "ni",
+                  "definition": "Katakana \"ni\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ニ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ni"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-nu",
+              "locales": {
+                "PT": {
+                  "text": "nu",
+                  "definition": "Katakana \"nu\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヌ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "nu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ne",
+              "locales": {
+                "PT": {
+                  "text": "ne",
+                  "definition": "Katakana \"ne\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ネ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ne"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-no",
+              "locales": {
+                "PT": {
+                  "text": "no",
+                  "definition": "Katakana \"no\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ノ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "no"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-6",
+          "title": "Linha H",
+          "position": 6,
+          "terms": [
+            {
+              "slug": "katakana-ha",
+              "locales": {
+                "PT": {
+                  "text": "ha",
+                  "definition": "Katakana \"ha\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ハ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ha"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-hi",
+              "locales": {
+                "PT": {
+                  "text": "hi",
+                  "definition": "Katakana \"hi\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヒ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "hi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-fu",
+              "locales": {
+                "PT": {
+                  "text": "fu",
+                  "definition": "Katakana \"fu\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "フ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "fu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-he",
+              "locales": {
+                "PT": {
+                  "text": "he",
+                  "definition": "Katakana \"he\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヘ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "he"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ho",
+              "locales": {
+                "PT": {
+                  "text": "ho",
+                  "definition": "Katakana \"ho\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ホ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ho"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-7",
+          "title": "Linha M",
+          "position": 7,
+          "terms": [
+            {
+              "slug": "katakana-ma",
+              "locales": {
+                "PT": {
+                  "text": "ma",
+                  "definition": "Katakana \"ma\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "マ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ma"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-mi",
+              "locales": {
+                "PT": {
+                  "text": "mi",
+                  "definition": "Katakana \"mi\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ミ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-mu",
+              "locales": {
+                "PT": {
+                  "text": "mu",
+                  "definition": "Katakana \"mu\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-me",
+              "locales": {
+                "PT": {
+                  "text": "me",
+                  "definition": "Katakana \"me\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "メ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "me"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-mo",
+              "locales": {
+                "PT": {
+                  "text": "mo",
+                  "definition": "Katakana \"mo\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "モ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-8",
+          "title": "Linha Y, W e N",
+          "position": 8,
+          "terms": [
+            {
+              "slug": "katakana-ya",
+              "locales": {
+                "PT": {
+                  "text": "ya",
+                  "definition": "Katakana \"ya\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヤ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ya"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-yu",
+              "locales": {
+                "PT": {
+                  "text": "yu",
+                  "definition": "Katakana \"yu\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ユ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "yu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-yo",
+              "locales": {
+                "PT": {
+                  "text": "yo",
+                  "definition": "Katakana \"yo\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヨ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "yo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-wa",
+              "locales": {
+                "PT": {
+                  "text": "wa",
+                  "definition": "Katakana \"wa\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ワ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "wa"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-wo",
+              "locales": {
+                "PT": {
+                  "text": "wo",
+                  "definition": "Katakana \"wo\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヲ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "wo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-n",
+              "locales": {
+                "PT": {
+                  "text": "n",
+                  "definition": "Katakana \"n\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "n"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-9",
+          "title": "Linha R",
+          "position": 9,
+          "terms": [
+            {
+              "slug": "katakana-ra",
+              "locales": {
+                "PT": {
+                  "text": "ra",
+                  "definition": "Katakana \"ra\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ラ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ra"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ri",
+              "locales": {
+                "PT": {
+                  "text": "ri",
+                  "definition": "Katakana \"ri\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ri"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ru",
+              "locales": {
+                "PT": {
+                  "text": "ru",
+                  "definition": "Katakana \"ru\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ru"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-re",
+              "locales": {
+                "PT": {
+                  "text": "re",
+                  "definition": "Katakana \"re\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "re"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ro",
+              "locales": {
+                "PT": {
+                  "text": "ro",
+                  "definition": "Katakana \"ro\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ロ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ro"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "katakana-marcados",
+      "title": "Katakana: sons com marca",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "katakana-10",
+          "title": "Linha G",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "katakana-ga",
+              "locales": {
+                "PT": {
+                  "text": "ga",
+                  "definition": "Katakana \"ga\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ガ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ga"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-gi",
+              "locales": {
+                "PT": {
+                  "text": "gi",
+                  "definition": "Katakana \"gi\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ギ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "gi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-gu",
+              "locales": {
+                "PT": {
+                  "text": "gu",
+                  "definition": "Katakana \"gu\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "グ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "gu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ge",
+              "locales": {
+                "PT": {
+                  "text": "ge",
+                  "definition": "Katakana \"ge\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ゲ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ge"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-go",
+              "locales": {
+                "PT": {
+                  "text": "go",
+                  "definition": "Katakana \"go\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ゴ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "go"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-11",
+          "title": "Linha Z",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "katakana-za",
+              "locales": {
+                "PT": {
+                  "text": "za",
+                  "definition": "Katakana \"za\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ザ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "za"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ji",
+              "locales": {
+                "PT": {
+                  "text": "ji",
+                  "definition": "Katakana \"ji\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ジ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ji"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-zu",
+              "locales": {
+                "PT": {
+                  "text": "zu",
+                  "definition": "Katakana \"zu\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ズ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "zu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ze",
+              "locales": {
+                "PT": {
+                  "text": "ze",
+                  "definition": "Katakana \"ze\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ゼ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ze"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-zo",
+              "locales": {
+                "PT": {
+                  "text": "zo",
+                  "definition": "Katakana \"zo\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ゾ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "zo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-12",
+          "title": "Linhas D e B",
+          "position": 3,
+          "terms": [
+            {
+              "slug": "katakana-da",
+              "locales": {
+                "PT": {
+                  "text": "da",
+                  "definition": "Katakana \"da\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ダ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "da"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-de",
+              "locales": {
+                "PT": {
+                  "text": "de",
+                  "definition": "Katakana \"de\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "de"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-do",
+              "locales": {
+                "PT": {
+                  "text": "do",
+                  "definition": "Katakana \"do\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ド",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "do"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-ba",
+              "locales": {
+                "PT": {
+                  "text": "ba",
+                  "definition": "Katakana \"ba\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ba"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-bi",
+              "locales": {
+                "PT": {
+                  "text": "bi",
+                  "definition": "Katakana \"bi\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ビ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-bu",
+              "locales": {
+                "PT": {
+                  "text": "bu",
+                  "definition": "Katakana \"bu\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ブ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-be",
+              "locales": {
+                "PT": {
+                  "text": "be",
+                  "definition": "Katakana \"be\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ベ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "be"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-bo",
+              "locales": {
+                "PT": {
+                  "text": "bo",
+                  "definition": "Katakana \"bo\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ボ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "katakana-13",
+          "title": "Linha P",
+          "position": 4,
+          "terms": [
+            {
+              "slug": "katakana-pa",
+              "locales": {
+                "PT": {
+                  "text": "pa",
+                  "definition": "Katakana \"pa\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pa"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-pi",
+              "locales": {
+                "PT": {
+                  "text": "pi",
+                  "definition": "Katakana \"pi\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ピ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-pu",
+              "locales": {
+                "PT": {
+                  "text": "pu",
+                  "definition": "Katakana \"pu\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "プ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-pe",
+              "locales": {
+                "PT": {
+                  "text": "pe",
+                  "definition": "Katakana \"pe\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ペ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pe"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "katakana-po",
+              "locales": {
+                "PT": {
+                  "text": "po",
+                  "definition": "Katakana \"po\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ポ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "po"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

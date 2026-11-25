@@ -169,6 +169,8 @@ model TermLocale {
   informalForms String[]
   partOfSpeech  PartOfSpeech @default(NOUN)
   ipa           String?
+  /** Romanização (romaji) para idiomas que não usam alfabeto latino. */
+  romanization  String?
   usageNote     String?      @db.Text
   collocations  String[]     @default([])
   audioUrl      String?

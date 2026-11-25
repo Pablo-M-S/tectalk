@@ -123,7 +123,12 @@ export default function OnboardingScreen() {
             router.back();
             return;
           }
-          const track = tracks.data?.find((t) => t.profession === profession && t.targetLanguage === language);
+          // Quem começa o japonês, em geral não conhece nem os alfabetos: começa pelo hiragana.
+          const alphabet = !user?.onboardedAt && language === 'JA'
+            ? tracks.data?.find((t) => t.slug === 'hiragana-pt-ja')
+            : undefined;
+          const track =
+            alphabet ?? tracks.data?.find((t) => t.profession === profession && t.targetLanguage === language);
           if (track) {
             select(track.slug);
             router.replace('/trail');

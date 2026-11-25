@@ -15,6 +15,7 @@ const localeSchema = z.object({
   informalForms: z.array(z.string()).default([]),
   partOfSpeech: z.nativeEnum(PartOfSpeech).default(PartOfSpeech.NOUN),
   ipa: z.string().optional(),
+  romanization: z.string().optional(),
   usageNote: z.string().optional(),
   collocations: z.array(z.string()).default([]),
 });

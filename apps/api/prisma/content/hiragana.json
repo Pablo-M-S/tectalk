@@ -1,0 +1,1500 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "hiragana-pt-ja",
+    "profession": "hiragana",
+    "sourceLanguage": "PT",
+    "targetLanguage": "JA",
+    "title": "Hiragana",
+    "description": "O primeiro alfabeto japonês. Aprenda os sons básicos antes das palavras.",
+    "position": 28
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "hiragana-basico",
+      "title": "Hiragana: sons básicos",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "hiragana-1",
+          "title": "Vogais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "hiragana-a",
+              "locales": {
+                "PT": {
+                  "text": "a",
+                  "definition": "Hiragana \"a\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "あ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "a"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-i",
+              "locales": {
+                "PT": {
+                  "text": "i",
+                  "definition": "Hiragana \"i\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "い",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "i"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-u",
+              "locales": {
+                "PT": {
+                  "text": "u",
+                  "definition": "Hiragana \"u\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "う",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "u"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-e",
+              "locales": {
+                "PT": {
+                  "text": "e",
+                  "definition": "Hiragana \"e\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "え",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "e"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-o",
+              "locales": {
+                "PT": {
+                  "text": "o",
+                  "definition": "Hiragana \"o\". As cinco vogais do japonês são curtas e firmes, como em português.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "お",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "o"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-2",
+          "title": "Linha K",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "hiragana-ka",
+              "locales": {
+                "PT": {
+                  "text": "ka",
+                  "definition": "Hiragana \"ka\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "か",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ka"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ki",
+              "locales": {
+                "PT": {
+                  "text": "ki",
+                  "definition": "Hiragana \"ki\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "き",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ki"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ku",
+              "locales": {
+                "PT": {
+                  "text": "ku",
+                  "definition": "Hiragana \"ku\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "く",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ke",
+              "locales": {
+                "PT": {
+                  "text": "ke",
+                  "definition": "Hiragana \"ke\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "け",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ke"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ko",
+              "locales": {
+                "PT": {
+                  "text": "ko",
+                  "definition": "Hiragana \"ko\". Soam como \"ca, qui, cu, que, co\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "こ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ko"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-3",
+          "title": "Linha S",
+          "position": 3,
+          "terms": [
+            {
+              "slug": "hiragana-sa",
+              "locales": {
+                "PT": {
+                  "text": "sa",
+                  "definition": "Hiragana \"sa\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "さ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sa"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-shi",
+              "locales": {
+                "PT": {
+                  "text": "shi",
+                  "definition": "Hiragana \"shi\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "し",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "shi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-su",
+              "locales": {
+                "PT": {
+                  "text": "su",
+                  "definition": "Hiragana \"su\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "す",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "su"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-se",
+              "locales": {
+                "PT": {
+                  "text": "se",
+                  "definition": "Hiragana \"se\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "せ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "se"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-so",
+              "locales": {
+                "PT": {
+                  "text": "so",
+                  "definition": "Hiragana \"so\". \"shi\" soa como \"xi\"; \"su\" é quase \"s\" com o u fraco.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "そ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "so"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-4",
+          "title": "Linha T",
+          "position": 4,
+          "terms": [
+            {
+              "slug": "hiragana-ta",
+              "locales": {
+                "PT": {
+                  "text": "ta",
+                  "definition": "Hiragana \"ta\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "た",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ta"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-chi",
+              "locales": {
+                "PT": {
+                  "text": "chi",
+                  "definition": "Hiragana \"chi\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ち",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "chi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-tsu",
+              "locales": {
+                "PT": {
+                  "text": "tsu",
+                  "definition": "Hiragana \"tsu\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "つ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "tsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-te",
+              "locales": {
+                "PT": {
+                  "text": "te",
+                  "definition": "Hiragana \"te\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "て",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "te"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-to",
+              "locales": {
+                "PT": {
+                  "text": "to",
+                  "definition": "Hiragana \"to\". \"chi\" soa como \"tchi\"; \"tsu\" tem o t colado no s.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "と",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "to"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-5",
+          "title": "Linha N",
+          "position": 5,
+          "terms": [
+            {
+              "slug": "hiragana-na",
+              "locales": {
+                "PT": {
+                  "text": "na",
+                  "definition": "Hiragana \"na\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "な",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "na"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ni",
+              "locales": {
+                "PT": {
+                  "text": "ni",
+                  "definition": "Hiragana \"ni\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "に",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ni"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-nu",
+              "locales": {
+                "PT": {
+                  "text": "nu",
+                  "definition": "Hiragana \"nu\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぬ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "nu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ne",
+              "locales": {
+                "PT": {
+                  "text": "ne",
+                  "definition": "Hiragana \"ne\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ね",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ne"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-no",
+              "locales": {
+                "PT": {
+                  "text": "no",
+                  "definition": "Hiragana \"no\". Soam como \"na, ni, nu, ne, no\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "の",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "no"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-6",
+          "title": "Linha H",
+          "position": 6,
+          "terms": [
+            {
+              "slug": "hiragana-ha",
+              "locales": {
+                "PT": {
+                  "text": "ha",
+                  "definition": "Hiragana \"ha\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "は",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ha"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-hi",
+              "locales": {
+                "PT": {
+                  "text": "hi",
+                  "definition": "Hiragana \"hi\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ひ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "hi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-fu",
+              "locales": {
+                "PT": {
+                  "text": "fu",
+                  "definition": "Hiragana \"fu\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ふ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "fu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-he",
+              "locales": {
+                "PT": {
+                  "text": "he",
+                  "definition": "Hiragana \"he\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "へ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "he"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ho",
+              "locales": {
+                "PT": {
+                  "text": "ho",
+                  "definition": "Hiragana \"ho\". \"fu\" fica entre f e h, soprado e leve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ほ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ho"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-7",
+          "title": "Linha M",
+          "position": 7,
+          "terms": [
+            {
+              "slug": "hiragana-ma",
+              "locales": {
+                "PT": {
+                  "text": "ma",
+                  "definition": "Hiragana \"ma\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ま",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ma"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-mi",
+              "locales": {
+                "PT": {
+                  "text": "mi",
+                  "definition": "Hiragana \"mi\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "み",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-mu",
+              "locales": {
+                "PT": {
+                  "text": "mu",
+                  "definition": "Hiragana \"mu\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "む",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-me",
+              "locales": {
+                "PT": {
+                  "text": "me",
+                  "definition": "Hiragana \"me\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "め",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "me"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-mo",
+              "locales": {
+                "PT": {
+                  "text": "mo",
+                  "definition": "Hiragana \"mo\". Soam como \"ma, mi, mu, me, mo\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "も",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-8",
+          "title": "Linha Y, W e N",
+          "position": 8,
+          "terms": [
+            {
+              "slug": "hiragana-ya",
+              "locales": {
+                "PT": {
+                  "text": "ya",
+                  "definition": "Hiragana \"ya\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "や",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ya"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-yu",
+              "locales": {
+                "PT": {
+                  "text": "yu",
+                  "definition": "Hiragana \"yu\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ゆ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "yu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-yo",
+              "locales": {
+                "PT": {
+                  "text": "yo",
+                  "definition": "Hiragana \"yo\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "よ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "yo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-wa",
+              "locales": {
+                "PT": {
+                  "text": "wa",
+                  "definition": "Hiragana \"wa\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "わ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "wa"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-wo",
+              "locales": {
+                "PT": {
+                  "text": "wo",
+                  "definition": "Hiragana \"wo\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "を",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "wo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-n",
+              "locales": {
+                "PT": {
+                  "text": "n",
+                  "definition": "Hiragana \"n\". \"wo\" lê-se \"o\"; \"n\" é o único som sem vogal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ん",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "n"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-9",
+          "title": "Linha R",
+          "position": 9,
+          "terms": [
+            {
+              "slug": "hiragana-ra",
+              "locales": {
+                "PT": {
+                  "text": "ra",
+                  "definition": "Hiragana \"ra\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ら",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ra"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ri",
+              "locales": {
+                "PT": {
+                  "text": "ri",
+                  "definition": "Hiragana \"ri\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "り",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ri"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ru",
+              "locales": {
+                "PT": {
+                  "text": "ru",
+                  "definition": "Hiragana \"ru\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "る",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ru"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-re",
+              "locales": {
+                "PT": {
+                  "text": "re",
+                  "definition": "Hiragana \"re\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "れ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "re"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ro",
+              "locales": {
+                "PT": {
+                  "text": "ro",
+                  "definition": "Hiragana \"ro\". O r é suave, entre o r e o l.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ろ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ro"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hiragana-marcados",
+      "title": "Hiragana: sons com marca",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "hiragana-10",
+          "title": "Linha G",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "hiragana-ga",
+              "locales": {
+                "PT": {
+                  "text": "ga",
+                  "definition": "Hiragana \"ga\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "が",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ga"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-gi",
+              "locales": {
+                "PT": {
+                  "text": "gi",
+                  "definition": "Hiragana \"gi\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぎ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "gi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-gu",
+              "locales": {
+                "PT": {
+                  "text": "gu",
+                  "definition": "Hiragana \"gu\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぐ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "gu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ge",
+              "locales": {
+                "PT": {
+                  "text": "ge",
+                  "definition": "Hiragana \"ge\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "げ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ge"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-go",
+              "locales": {
+                "PT": {
+                  "text": "go",
+                  "definition": "Hiragana \"go\". É a linha K com dois tracinhos: o som fica \"vozeado\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ご",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "go"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-11",
+          "title": "Linha Z",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "hiragana-za",
+              "locales": {
+                "PT": {
+                  "text": "za",
+                  "definition": "Hiragana \"za\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ざ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "za"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ji",
+              "locales": {
+                "PT": {
+                  "text": "ji",
+                  "definition": "Hiragana \"ji\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "じ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ji"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-zu",
+              "locales": {
+                "PT": {
+                  "text": "zu",
+                  "definition": "Hiragana \"zu\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ず",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "zu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ze",
+              "locales": {
+                "PT": {
+                  "text": "ze",
+                  "definition": "Hiragana \"ze\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぜ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ze"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-zo",
+              "locales": {
+                "PT": {
+                  "text": "zo",
+                  "definition": "Hiragana \"zo\". É a linha S com dois tracinhos. \"ji\" soa como \"dji\".",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぞ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "zo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-12",
+          "title": "Linhas D e B",
+          "position": 3,
+          "terms": [
+            {
+              "slug": "hiragana-da",
+              "locales": {
+                "PT": {
+                  "text": "da",
+                  "definition": "Hiragana \"da\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "だ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "da"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-de",
+              "locales": {
+                "PT": {
+                  "text": "de",
+                  "definition": "Hiragana \"de\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "で",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "de"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-do",
+              "locales": {
+                "PT": {
+                  "text": "do",
+                  "definition": "Hiragana \"do\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ど",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "do"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-ba",
+              "locales": {
+                "PT": {
+                  "text": "ba",
+                  "definition": "Hiragana \"ba\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ば",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ba"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-bi",
+              "locales": {
+                "PT": {
+                  "text": "bi",
+                  "definition": "Hiragana \"bi\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "び",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-bu",
+              "locales": {
+                "PT": {
+                  "text": "bu",
+                  "definition": "Hiragana \"bu\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぶ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-be",
+              "locales": {
+                "PT": {
+                  "text": "be",
+                  "definition": "Hiragana \"be\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "べ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "be"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-bo",
+              "locales": {
+                "PT": {
+                  "text": "bo",
+                  "definition": "Hiragana \"bo\". Linha T e linha H com dois tracinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぼ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "hiragana-13",
+          "title": "Linha P",
+          "position": 4,
+          "terms": [
+            {
+              "slug": "hiragana-pa",
+              "locales": {
+                "PT": {
+                  "text": "pa",
+                  "definition": "Hiragana \"pa\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぱ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pa"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-pi",
+              "locales": {
+                "PT": {
+                  "text": "pi",
+                  "definition": "Hiragana \"pi\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぴ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-pu",
+              "locales": {
+                "PT": {
+                  "text": "pu",
+                  "definition": "Hiragana \"pu\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぷ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-pe",
+              "locales": {
+                "PT": {
+                  "text": "pe",
+                  "definition": "Hiragana \"pe\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぺ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pe"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hiragana-po",
+              "locales": {
+                "PT": {
+                  "text": "po",
+                  "definition": "Hiragana \"po\". É a linha H com um círculo pequeno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ぽ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "po"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

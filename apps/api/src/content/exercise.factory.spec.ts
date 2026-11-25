@@ -218,3 +218,64 @@ describe('ExerciseFactory: traduções extras', () => {
     expect(new ExerciseFactory(seeded()).multipleChoice(term, pool)?.reveal?.translations).toEqual([]);
   });
 });
+
+describe('ExerciseFactory: japonês', () => {
+  const word = (id: string, pt: string, text: string, reading: string, romaji: string) => {
+    const term = makeTerm(id, pt, text);
+    term.target.ipa = reading;
+    term.target.romanization = romaji;
+    return term;
+  };
+  const kana = (id: string, romaji: string, text: string) => {
+    const term = makeTerm(id, romaji, text);
+    term.target.romanization = romaji;
+    return term;
+  };
+
+  it('mostra leitura e romaji nas opções de uma palavra', () => {
+    const terms = [
+      word('w1', 'viga', '梁', 'はり', 'hari'),
+      word('w2', 'pilar', '柱', 'はしら', 'hashira'),
+      word('w3', 'carga', '荷重', 'かじゅう', 'kajuu'),
+      word('w4', 'aço', '鋼', 'はがね', 'hagane'),
+    ];
+    const exercise = new ExerciseFactory(seeded()).multipleChoice(terms[0], terms)!;
+    expect(exercise.options.find((o) => o.id === 'w1')?.text).toBe('梁\nはり · hari');
+  });
+
+  it('não entrega a resposta nos alfabetos: a opção é só o caractere', () => {
+    const terms = [kana('k1', 'ka', 'か'), kana('k2', 'ki', 'き'), kana('k3', 'ku', 'く'), kana('k4', 'ke', 'け')];
+    const exercise = new ExerciseFactory(seeded()).multipleChoice(terms[0], terms)!;
+    expect(exercise.options.map((o) => o.text).sort()).toEqual(['か', 'き', 'く', 'け']);
+  });
+
+  it('pergunta o contrário: vê o termo e escolhe o significado', () => {
+    const terms = [
+      word('w1', 'viga', '梁', 'はり', 'hari'),
+      word('w2', 'pilar', '柱', 'はしら', 'hashira'),
+      word('w3', 'carga', '荷重', 'かじゅう', 'kajuu'),
+      word('w4', 'aço', '鋼', 'はがね', 'hagane'),
+    ];
+    const exercise = new ExerciseFactory(seeded()).reverseChoice(terms[0], terms)!;
+    expect(exercise.prompt).toBe('梁\nはり · hari');
+    expect(exercise.options.map((o) => o.text).sort()).toEqual(['aço', 'carga', 'pilar', 'viga']);
+    expect(exercise.correctOptionId).toBe('w1');
+  });
+
+  it('não gera o contrário para idiomas com alfabeto latino', () => {
+    const pool = [makeTerm('a', 'viga', 'beam'), makeTerm('b', 'pilar', 'column'), makeTerm('c', 'carga', 'load')];
+    expect(new ExerciseFactory(seeded()).reverseChoice(pool[0], pool)).toBeNull();
+  });
+
+  it('aceita hiragana, romaji e a forma curta do romaji ao digitar', () => {
+    const term = word('w5', 'espelho', '空気', 'くうき', 'kuuki');
+    expect(new ExerciseFactory(seeded()).typeTerm(term).acceptedAnswers).toEqual(['空気', 'くうき', 'kuuki', 'kuki']);
+  });
+
+  it('nos alfabetos não pede para digitar, pois a definição entregaria a resposta', () => {
+    const terms = [kana('k1', 'ka', 'か'), kana('k2', 'ki', 'き'), kana('k3', 'ku', 'く'), kana('k4', 'ke', 'け')];
+    const session = new ExerciseFactory(seeded()).buildLessonSession({ terms, pool: terms, audioEnabled: false });
+    expect(session.some((e) => e.type === 'TYPE_TERM')).toBe(false);
+    expect(session.some((e) => e.type === 'MULTIPLE_CHOICE')).toBe(true);
+  });
+});

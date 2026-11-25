@@ -60,7 +60,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "はり"
+                  "ipa": "はり",
+                  "romanization": "hari"
                 },
                 "ZH": {
                   "text": "梁",
@@ -124,7 +125,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "はしら"
+                  "ipa": "はしら",
+                  "romanization": "hashira"
                 },
                 "ZH": {
                   "text": "柱",
@@ -188,7 +190,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "きそ"
+                  "ipa": "きそ",
+                  "romanization": "kiso"
                 },
                 "ZH": {
                   "text": "地基",
@@ -252,7 +255,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かじゅう"
+                  "ipa": "かじゅう",
+                  "romanization": "kajuu"
                 },
                 "ZH": {
                   "text": "荷载",
@@ -316,7 +320,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "おうりょく"
+                  "ipa": "おうりょく",
+                  "romanization": "ouryoku"
                 },
                 "ZH": {
                   "text": "应力",
@@ -379,7 +384,8 @@
                   "text": "ひずみ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "hizumi"
                 },
                 "ZH": {
                   "text": "应变",
@@ -457,7 +463,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "はがね"
+                  "ipa": "はがね",
+                  "romanization": "hagane"
                 },
                 "ZH": {
                   "text": "钢",
@@ -521,7 +528,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "てっきんコンクリート"
+                  "ipa": "てっきんコンクリート",
+                  "romanization": "tekkinkonkuriito"
                 },
                 "ZH": {
                   "text": "钢筋混凝土",
@@ -585,7 +593,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ごうきん"
+                  "ipa": "ごうきん",
+                  "romanization": "goukin"
                 },
                 "ZH": {
                   "text": "合金",
@@ -649,7 +658,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ひっぱりつよさ"
+                  "ipa": "ひっぱりつよさ",
+                  "romanization": "hipparitsuyosa"
                 },
                 "ZH": {
                   "text": "抗拉强度",
@@ -715,7 +725,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ふしょく"
+                  "ipa": "ふしょく",
+                  "romanization": "fushoku"
                 },
                 "ZH": {
                   "text": "腐蚀",
@@ -779,7 +790,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ひろう"
+                  "ipa": "ひろう",
+                  "romanization": "hirou"
                 },
                 "ZH": {
                   "text": "疲劳",
@@ -859,7 +871,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "せっけいず"
+                  "ipa": "せっけいず",
+                  "romanization": "sekkeizu"
                 },
                 "ZH": {
                   "text": "图纸",
@@ -925,7 +938,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "しようしょ"
+                  "ipa": "しようしょ",
+                  "romanization": "shiyousho"
                 },
                 "ZH": {
                   "text": "规格",
@@ -989,7 +1003,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "こうさ"
+                  "ipa": "こうさ",
+                  "romanization": "kousa"
                 },
                 "ZH": {
                   "text": "公差",
@@ -1053,7 +1068,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "あんぜんりつ"
+                  "ipa": "あんぜんりつ",
+                  "romanization": "anzenritsu"
                 },
                 "ZH": {
                   "text": "安全系数",
@@ -1117,7 +1133,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かいてい"
+                  "ipa": "かいてい",
+                  "romanization": "kaitei"
                 },
                 "ZH": {
                   "text": "修订",
@@ -1181,7 +1198,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "てきごうせい"
+                  "ipa": "てきごうせい",
+                  "romanization": "tekigousei"
                 },
                 "ZH": {
                   "text": "合规",
@@ -1258,7 +1276,8 @@
                   "text": "トルク",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "toruku"
                 },
                 "ZH": {
                   "text": "扭矩",
@@ -1322,7 +1341,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "じくうけ"
+                  "ipa": "じくうけ",
+                  "romanization": "jikuuke"
                 },
                 "ZH": {
                   "text": "轴承",
@@ -1386,7 +1406,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "はぐるま"
+                  "ipa": "はぐるま",
+                  "romanization": "haguruma"
                 },
                 "ZH": {
                   "text": "齿轮",
@@ -1450,7 +1471,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "じく"
+                  "ipa": "じく",
+                  "romanization": "jiku"
                 },
                 "ZH": {
                   "text": "轴",
@@ -1513,7 +1535,8 @@
                   "text": "ポンプ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ponpu"
                 },
                 "ZH": {
                   "text": "泵",
@@ -1576,7 +1599,8 @@
                   "text": "バルブ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "barubu"
                 },
                 "ZH": {
                   "text": "阀门",
@@ -1654,7 +1678,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かいろ"
+                  "ipa": "かいろ",
+                  "romanization": "kairo"
                 },
                 "ZH": {
                   "text": "电路",
@@ -1718,7 +1743,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "でんあつ"
+                  "ipa": "でんあつ",
+                  "romanization": "denatsu"
                 },
                 "ZH": {
                   "text": "电压",
@@ -1782,7 +1808,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "でんりゅう"
+                  "ipa": "でんりゅう",
+                  "romanization": "denryuu"
                 },
                 "ZH": {
                   "text": "电流",
@@ -1846,7 +1873,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ていこう"
+                  "ipa": "ていこう",
+                  "romanization": "teikou"
                 },
                 "ZH": {
                   "text": "电阻",
@@ -1910,7 +1938,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "へんあつき"
+                  "ipa": "へんあつき",
+                  "romanization": "henatsuki"
                 },
                 "ZH": {
                   "text": "变压器",
@@ -1974,7 +2003,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "せっち"
+                  "ipa": "せっち",
+                  "romanization": "secchi"
                 },
                 "ZH": {
                   "text": "接地",
@@ -2051,7 +2081,8 @@
                   "text": "スケジュール",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sukejuuru"
                 },
                 "ZH": {
                   "text": "进度计划",
@@ -2114,7 +2145,8 @@
                   "text": "マイルストーン",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mairusutoon"
                 },
                 "ZH": {
                   "text": "里程碑",
@@ -2178,7 +2210,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "よさん"
+                  "ipa": "よさん",
+                  "romanization": "yosan"
                 },
                 "ZH": {
                   "text": "预算",
@@ -2241,7 +2274,8 @@
                   "text": "リスクアセスメント",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "risukuasesumento"
                 },
                 "ZH": {
                   "text": "风险评估",
@@ -2305,7 +2339,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "せいかぶつ"
+                  "ipa": "せいかぶつ",
+                  "romanization": "seikabutsu"
                 },
                 "ZH": {
                   "text": "交付成果",
@@ -2369,7 +2404,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "けんさ"
+                  "ipa": "けんさ",
+                  "romanization": "kensa"
                 },
                 "ZH": {
                   "text": "检验",

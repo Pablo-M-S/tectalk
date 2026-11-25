@@ -60,7 +60,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "へんすう"
+                  "ipa": "へんすう",
+                  "romanization": "hensuu"
                 },
                 "ZH": {
                   "text": "变量",
@@ -126,7 +127,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かんすう"
+                  "ipa": "かんすう",
+                  "romanization": "kansuu"
                 },
                 "ZH": {
                   "text": "函数",
@@ -191,7 +193,8 @@
                   "text": "パラメータ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "parameeta"
                 },
                 "ZH": {
                   "text": "形参",
@@ -258,7 +261,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ひきすう"
+                  "ipa": "ひきすう",
+                  "romanization": "hikisuu"
                 },
                 "ZH": {
                   "text": "实参",
@@ -324,7 +328,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "もどりち"
+                  "ipa": "もどりち",
+                  "romanization": "modorichi"
                 },
                 "ZH": {
                   "text": "返回值",
@@ -388,7 +393,8 @@
                   "text": "ループ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ruupu"
                 },
                 "ZH": {
                   "text": "循环",
@@ -462,7 +468,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "はいれつ"
+                  "ipa": "はいれつ",
+                  "romanization": "hairetsu"
                 },
                 "ZH": {
                   "text": "数组",
@@ -527,7 +534,8 @@
                   "text": "ハッシュマップ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "hasshumappu"
                 },
                 "ZH": {
                   "text": "哈希表",
@@ -594,7 +602,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "もじれつ"
+                  "ipa": "もじれつ",
+                  "romanization": "mojiretsu"
                 },
                 "ZH": {
                   "text": "字符串",
@@ -661,7 +670,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "しんぎち"
+                  "ipa": "しんぎち",
+                  "romanization": "shingichi"
                 },
                 "ZH": {
                   "text": "布尔值",
@@ -727,7 +737,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ヌルさんしょう"
+                  "ipa": "ヌルさんしょう",
+                  "romanization": "nurusanshou"
                 },
                 "ZH": {
                   "text": "空引用",
@@ -794,7 +805,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "れいがい"
+                  "ipa": "れいがい",
+                  "romanization": "reigai"
                 },
                 "ZH": {
                   "text": "异常",
@@ -873,7 +885,8 @@
                   "text": "エンドポイント",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "endopointo"
                 },
                 "ZH": {
                   "text": "端点",
@@ -940,7 +953,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "いぞんかんけい"
+                  "ipa": "いぞんかんけい",
+                  "romanization": "izonkankei"
                 },
                 "ZH": {
                   "text": "依赖",
@@ -1004,7 +1018,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ちゅうしょうか"
+                  "ipa": "ちゅうしょうか",
+                  "romanization": "chuushouka"
                 },
                 "ZH": {
                   "text": "抽象",
@@ -1067,7 +1082,8 @@
                   "text": "ミドルウェア",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "midoruwea"
                 },
                 "ZH": {
                   "text": "中间件",
@@ -1131,7 +1147,8 @@
                   "text": "スキーマ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sukiima"
                 },
                 "ZH": {
                   "text": "模式",
@@ -1196,7 +1213,8 @@
                   "text": "ペイロード",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "peiroodo"
                 },
                 "ZH": {
                   "text": "有效载荷",
@@ -1269,7 +1287,8 @@
                   "text": "クエリ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kueri"
                 },
                 "ZH": {
                   "text": "查询",
@@ -1332,7 +1351,8 @@
                   "text": "トランザクション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "toranzakushon"
                 },
                 "ZH": {
                   "text": "事务",
@@ -1395,7 +1415,8 @@
                   "text": "インデックス",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "indekkusu"
                 },
                 "ZH": {
                   "text": "索引",
@@ -1459,7 +1480,8 @@
                   "text": "マイグレーション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "maigureeshon"
                 },
                 "ZH": {
                   "text": "迁移",
@@ -1523,7 +1545,8 @@
                   "text": "キャッシュ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kyasshu"
                 },
                 "ZH": {
                   "text": "缓存",
@@ -1589,7 +1612,8 @@
                   "text": "レイテンシ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "reitenshi"
                 },
                 "ZH": {
                   "text": "延迟",
@@ -1668,7 +1692,8 @@
                   "text": "リポジトリ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "ripojitori"
                 },
                 "ZH": {
                   "text": "仓库",
@@ -1734,7 +1759,8 @@
                   "text": "コミット",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "komitto"
                 },
                 "ZH": {
                   "text": "提交",
@@ -1798,7 +1824,8 @@
                   "text": "ブランチ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "buranchi"
                 },
                 "ZH": {
                   "text": "分支",
@@ -1863,7 +1890,8 @@
                   "text": "マージコンフリクト",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "maajikonfurikuto"
                 },
                 "ZH": {
                   "text": "合并冲突",
@@ -1928,7 +1956,8 @@
                   "text": "プルリクエスト",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pururikuesuto"
                 },
                 "ZH": {
                   "text": "拉取请求",
@@ -1993,7 +2022,8 @@
                   "text": "ロールバック",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "roorubakku"
                 },
                 "ZH": {
                   "text": "回滚",
@@ -2065,7 +2095,8 @@
                   "text": "リファクタリング",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "rifakutaringu"
                 },
                 "ZH": {
                   "text": "重构",
@@ -2131,7 +2162,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ひすいしょうか"
+                  "ipa": "ひすいしょうか",
+                  "romanization": "hisuishouka"
                 },
                 "ZH": {
                   "text": "弃用",
@@ -2197,7 +2229,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ぎじゅつてきふさい"
+                  "ipa": "ぎじゅつてきふさい",
+                  "romanization": "gijutsutekifusai"
                 },
                 "ZH": {
                   "text": "技术债务",
@@ -2262,7 +2295,8 @@
                   "text": "リグレッション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "riguresshon"
                 },
                 "ZH": {
                   "text": "回归",
@@ -2327,7 +2361,8 @@
                   "text": "デプロイ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "depuroi"
                 },
                 "ZH": {
                   "text": "部署",
@@ -2392,7 +2427,8 @@
                   "text": "コードレビュー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "koodorebyuu"
                 },
                 "ZH": {
                   "text": "代码审查",
@@ -2471,7 +2507,8 @@
                   "text": "リクエスト",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "rikuesuto"
                 },
                 "ZH": {
                   "text": "请求",
@@ -2534,7 +2571,8 @@
                   "text": "レスポンス",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "resuponsu"
                 },
                 "ZH": {
                   "text": "响应",
@@ -2597,7 +2635,8 @@
                   "text": "ステータスコード",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "suteetasukoodo"
                 },
                 "ZH": {
                   "text": "状态码",
@@ -2663,7 +2702,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "にんしょう"
+                  "ipa": "にんしょう",
+                  "romanization": "ninshou"
                 },
                 "ZH": {
                   "text": "身份验证",
@@ -2726,7 +2766,8 @@
                   "text": "トークン",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "tookun"
                 },
                 "ZH": {
                   "text": "令牌",
@@ -2790,7 +2831,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "レートせいげん"
+                  "ipa": "レートせいげん",
+                  "romanization": "reetoseigen"
                 },
                 "ZH": {
                   "text": "速率限制",
@@ -2868,7 +2910,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "たんたいテスト"
+                  "ipa": "たんたいテスト",
+                  "romanization": "tantaitesuto"
                 },
                 "ZH": {
                   "text": "单元测试",
@@ -2932,7 +2975,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "けつごうテスト"
+                  "ipa": "けつごうテスト",
+                  "romanization": "ketsugoutesuto"
                 },
                 "ZH": {
                   "text": "集成测试",
@@ -2995,7 +3039,8 @@
                   "text": "モック",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mokku"
                 },
                 "ZH": {
                   "text": "模拟对象",
@@ -3058,7 +3103,8 @@
                   "text": "コードカバレッジ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "koodokabarejji"
                 },
                 "ZH": {
                   "text": "代码覆盖率",
@@ -3121,7 +3167,8 @@
                   "text": "アサーション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "asaashon"
                 },
                 "ZH": {
                   "text": "断言",
@@ -3185,7 +3232,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ふあんていなテスト"
+                  "ipa": "ふあんていなテスト",
+                  "romanization": "fuanteinatesuto"
                 },
                 "ZH": {
                   "text": "不稳定测试",
@@ -3262,7 +3310,8 @@
                   "text": "コンテナ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kontena"
                 },
                 "ZH": {
                   "text": "容器",
@@ -3325,7 +3374,8 @@
                   "text": "パイプライン",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "paipurain"
                 },
                 "ZH": {
                   "text": "流水线",
@@ -3389,7 +3439,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かんきょうへんすう"
+                  "ipa": "かんきょうへんすう",
+                  "romanization": "kankyouhensuu"
                 },
                 "ZH": {
                   "text": "环境变量",
@@ -3452,7 +3503,8 @@
                   "text": "ロードバランサー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "roodobaransaa"
                 },
                 "ZH": {
                   "text": "负载均衡器",
@@ -3515,7 +3567,8 @@
                   "text": "スケーラビリティ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sukeerabiritei"
                 },
                 "ZH": {
                   "text": "可扩展性",
@@ -3579,7 +3632,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かどうりつ"
+                  "ipa": "かどうりつ",
+                  "romanization": "kadouritsu"
                 },
                 "ZH": {
                   "text": "正常运行时间",
@@ -3656,7 +3710,8 @@
                   "text": "スタック",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sutakku"
                 },
                 "ZH": {
                   "text": "栈",
@@ -3719,7 +3774,8 @@
                   "text": "キュー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kyuu"
                 },
                 "ZH": {
                   "text": "队列",
@@ -3783,7 +3839,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "れんけつリスト"
+                  "ipa": "れんけつリスト",
+                  "romanization": "renketsurisuto"
                 },
                 "ZH": {
                   "text": "链表",
@@ -3847,7 +3904,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "さいき"
+                  "ipa": "さいき",
+                  "romanization": "saiki"
                 },
                 "ZH": {
                   "text": "递归",
@@ -3910,7 +3968,8 @@
                   "text": "アルゴリズム",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "arugorizumu"
                 },
                 "ZH": {
                   "text": "算法",
@@ -3974,7 +4033,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "じかんけいさんりょう"
+                  "ipa": "じかんけいさんりょう",
+                  "romanization": "jikankeisanryou"
                 },
                 "ZH": {
                   "text": "时间复杂度",
@@ -4052,7 +4112,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ぜいじゃくせい"
+                  "ipa": "ぜいじゃくせい",
+                  "romanization": "zeijakusei"
                 },
                 "ZH": {
                   "text": "漏洞",
@@ -4116,7 +4177,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "あんごうか"
+                  "ipa": "あんごうか",
+                  "romanization": "angouka"
                 },
                 "ZH": {
                   "text": "加密",
@@ -4180,7 +4242,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "にんか"
+                  "ipa": "にんか",
+                  "romanization": "ninka"
                 },
                 "ZH": {
                   "text": "授权",
@@ -4243,7 +4306,8 @@
                   "text": "SQLインジェクション",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "SQL injekushon"
                 },
                 "ZH": {
                   "text": "SQL注入",
@@ -4307,7 +4371,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "アクセスせいぎょ"
+                  "ipa": "アクセスせいぎょ",
+                  "romanization": "akusesuseigyo"
                 },
                 "ZH": {
                   "text": "访问控制",
@@ -4371,7 +4436,8 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "かんさログ"
+                  "ipa": "かんさログ",
+                  "romanization": "kansarogu"
                 },
                 "ZH": {
                   "text": "审计日志",
@@ -4448,7 +4514,8 @@
                   "text": "スプリント",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "supurinto"
                 },
                 "ZH": {
                   "text": "冲刺",
@@ -4511,7 +4578,8 @@
                   "text": "バックログ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bakkurogu"
                 },
                 "ZH": {
                   "text": "待办列表",
@@ -4576,7 +4644,8 @@
                   "text": "デイリースクラム",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "deiriisukuramu"
                 },
                 "ZH": {
                   "text": "每日站会",
@@ -4639,7 +4708,8 @@
                   "text": "ステークホルダー",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "suteekuhorudaa"
                 },
                 "ZH": {
                   "text": "利益相关者",
@@ -4702,7 +4772,8 @@
                   "text": "ペアプログラミング",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "peapuroguramingu"
                 },
                 "ZH": {
                   "text": "结对编程",
@@ -4765,7 +4836,8 @@
                   "text": "レトロスペクティブ",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "romanization": "retorosupekuteibu"
                 },
                 "ZH": {
                   "text": "回顾会议",

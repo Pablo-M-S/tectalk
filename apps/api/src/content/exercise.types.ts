@@ -36,6 +36,10 @@ export interface Reveal {
   text: string;
   definition: string;
   ipa: string | null;
+  /** Romaji (japonês). */
+  romanization: string | null;
+  /** Significado no idioma de origem. */
+  translation: string;
   informalForms: string[];
   /** Como o termo é usado: registro, contexto, armadilhas (no idioma de origem). */
   usageNote: string | null;

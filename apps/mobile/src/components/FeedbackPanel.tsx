@@ -5,7 +5,7 @@ import { Button } from './Button';
 import { CorrectThumb } from './CorrectThumb';
 import { SpeakButton } from './SpeakButton';
 import { Text } from './Text';
-import { speak, stopSpeaking, useSpeech } from '@/lib/speech';
+import { speak, stopSpeaking, studiedLanguage, useSpeech } from '@/lib/speech';
 import { useTheme } from '@/theme/theme';
 
 interface Props {
@@ -19,7 +19,9 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
   const theme = useTheme();
   const reveal = exercise.reveal;
   const autoPlay = useSpeech((state) => state.autoPlay);
-  const spoken = reveal?.text;
+  // No japonês a voz lê o hiragana, que não erra a leitura do kanji.
+  const spoken =
+    studiedLanguage() === 'JA' && reveal?.ipa && !reveal.ipa.startsWith('/') ? reveal.ipa : reveal?.text;
 
   // Ao mostrar o termo correto, a pronúncia toca sozinha (se ativada no Perfil).
   useEffect(() => {
@@ -63,10 +65,17 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
             {!correct ? <Text variant="caption" tone="muted">Resposta correta</Text> : null}
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
               <Text variant="title" style={{ flexShrink: 1 }}>{reveal.text}</Text>
-              <SpeakButton text={reveal.text} />
-              <SpeakButton text={reveal.text} pace="slow" label="Devagar" />
+              <SpeakButton text={spoken ?? reveal.text} />
+              <SpeakButton text={spoken ?? reveal.text} pace="slow" label="Devagar" />
             </View>
-            {reveal.ipa ? <Text variant="caption" tone="muted">{reveal.ipa}</Text> : null}
+            {reveal.ipa || reveal.romanization ? (
+              <Text variant="body" tone="muted">
+                {[reveal.ipa, reveal.romanization].filter(Boolean).join('  ·  ')}
+              </Text>
+            ) : null}
+            {reveal.translation && reveal.translation !== reveal.romanization ? (
+              <Text variant="caption">Tradução: {reveal.translation}</Text>
+            ) : null}
             {reveal.definition ? <Text variant="caption" tone="muted">{reveal.definition}</Text> : null}
           </View>
 

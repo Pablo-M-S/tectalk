@@ -160,6 +160,7 @@ export class ExerciseService {
       definition: locale.definition,
       informalForms: locale.informalForms,
       ipa: locale.ipa,
+      romanization: locale.romanization,
       usageNote: locale.usageNote,
       collocations: locale.collocations,
       audioUrl: locale.audioUrl,
