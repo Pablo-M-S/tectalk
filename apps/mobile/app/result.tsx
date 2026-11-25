@@ -1,8 +1,10 @@
+import { useEffect } from 'react';
 import { View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
+import { playSound } from '@/lib/sounds';
 import { radius, useTheme } from '@/theme/theme';
 
 export default function ResultScreen() {
@@ -14,6 +16,10 @@ export default function ResultScreen() {
   const total = Number(params.total ?? 0);
   const streak = Number(params.streak ?? 0);
   const ratio = total > 0 ? correct / total : 0;
+
+  useEffect(() => {
+    playSound('complete');
+  }, []);
 
   const headline = ratio >= 0.9 ? 'Excelente' : ratio >= 0.6 ? 'Bom trabalho' : 'Continue praticando';
   const note =

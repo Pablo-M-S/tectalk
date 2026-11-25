@@ -8,6 +8,7 @@ import { queryClient } from '@/api/queryClient';
 import { useAuth } from '@/auth/store';
 import { AppDrawer } from '@/components/AppDrawer';
 import { UpdateBanner } from '@/components/UpdateBanner';
+import { initSound } from '@/lib/sounds';
 import { useTheme } from '@/theme/theme';
 
 void SplashScreen.preventAutoHideAsync();
@@ -19,6 +20,7 @@ export default function RootLayout() {
 
   useEffect(() => {
     warmUp();
+    void initSound();
     void bootstrap();
   }, [bootstrap]);
 

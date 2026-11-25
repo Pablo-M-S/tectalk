@@ -1,4 +1,4 @@
-import { Alert, ScrollView, View } from 'react-native';
+import { Alert, ScrollView, Switch, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Constants from 'expo-constants';
@@ -8,6 +8,7 @@ import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
 import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
+import { useSound } from '@/lib/sounds';
 import { GOALS, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
 import { radius, useTheme } from '@/theme/theme';
 
@@ -26,6 +27,8 @@ export default function ProfileScreen() {
   const user = useAuth((state) => state.user);
   const signOut = useAuth((state) => state.signOut);
   const stats = useStats();
+  const soundOn = useSound((state) => state.enabled);
+  const setSoundOn = useSound((state) => state.setEnabled);
 
   const checkUpdate = async () => {
     if (!Updates.isEnabled) {
@@ -79,6 +82,14 @@ export default function ProfileScreen() {
             label="Meta diária"
             value={GOALS.find((g) => g.minutes === user?.dailyGoalMinutes)?.hint.replace(' por dia', '') ?? '—'}
           />
+          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Text variant="caption" tone="muted">Sons dos exercícios</Text>
+            <Switch
+              value={soundOn}
+              onValueChange={setSoundOn}
+              trackColor={{ true: theme.primary, false: theme.border }}
+            />
+          </View>
           <Row label="Lembretes" value={user?.remindersEnabled ? 'Ativados' : 'Desativados'} />
           <Button
             label="Editar preferências"

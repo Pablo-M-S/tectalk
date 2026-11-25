@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Pressable, View } from 'react-native';
 import type { BuildFromRootsExercise } from '@/api/types';
 import { Text } from '@/components/Text';
+import { playSound } from '@/lib/sounds';
 import { radius, useTheme } from '@/theme/theme';
 import { singleTerm, type ExerciseProps } from './types';
 
@@ -25,7 +26,10 @@ export function BuildFromRoots({ exercise, locked, setEvaluator }: ExerciseProps
     <Pressable
       key={index}
       disabled={locked}
-      onPress={onPress}
+      onPress={() => {
+        playSound('tap');
+        onPress();
+      }}
       style={{
         paddingHorizontal: 16,
         paddingVertical: 12,

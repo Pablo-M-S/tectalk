@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import type { Exercise, ExerciseResult } from '@/api/types';
+import { playSound } from '@/lib/sounds';
 import { useTheme } from '@/theme/theme';
 import { Button } from './Button';
 import { BuildFromRoots } from './exercises/BuildFromRoots';
@@ -63,6 +64,7 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
       if (answered.current || !current) return;
       answered.current = true;
       setOutcome(result);
+      playSound(result.correct ? 'correct' : 'wrong');
       Haptics.notificationAsync(
         result.correct ? Haptics.NotificationFeedbackType.Success : Haptics.NotificationFeedbackType.Error,
       ).catch(() => {});

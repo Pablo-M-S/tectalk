@@ -1,6 +1,7 @@
 import { Pressable, View } from 'react-native';
 import type { Option } from '@/api/types';
 import { Text } from '@/components/Text';
+import { playSound } from '@/lib/sounds';
 import { radius, useTheme } from '@/theme/theme';
 
 interface Props {
@@ -34,7 +35,10 @@ export function OptionList({ options, selectedId, correctId, locked, onSelect }:
             key={option.id}
             accessibilityRole="button"
             disabled={locked}
-            onPress={() => onSelect(option.id)}
+            onPress={() => {
+              playSound('tap');
+              onSelect(option.id);
+            }}
             style={{
               minHeight: 56,
               justifyContent: 'center',
