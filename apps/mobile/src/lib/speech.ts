@@ -49,6 +49,12 @@ export const useSpeech = create<SpeechState>((set) => ({
 
 const normalize = (value: string) => value.toLowerCase().replace('_', '-');
 
+/** O Android lista também vozes cujo pacote ainda não foi baixado; essas não tocam nada. */
+const flags = (voice: Speech.Voice) => voice as unknown as { isNotInstalled?: boolean; isNetworkConnectionRequired?: boolean; features?: string[] };
+const isUsable = (voice: Speech.Voice) =>
+  !flags(voice).isNotInstalled && !(flags(voice).features ?? []).includes('notInstalled');
+const needsNetwork = (voice: Speech.Voice) => Boolean(flags(voice).isNetworkConnectionRequired);
+
 let voices: Speech.Voice[] | null = null;
 const voiceCache = new Map<string, string | null>();
 
@@ -71,12 +77,13 @@ async function pickVoice(language: Language): Promise<string | null> {
   if (voiceCache.has(locale)) return voiceCache.get(locale) ?? null;
   const prefix = locale.slice(0, 2);
   const ranked = (await loadVoices())
-    .filter((voice) => normalize(voice.language).startsWith(prefix))
+    .filter((voice) => normalize(voice.language).startsWith(prefix) && isUsable(voice))
     .map((voice) => ({
       id: voice.identifier,
       score:
         (normalize(voice.language) === normalize(locale) ? 4 : 0) +
-        (voice.quality === Speech.VoiceQuality.Enhanced ? 2 : 0),
+        (voice.quality === Speech.VoiceQuality.Enhanced ? 2 : 0) +
+        (needsNetwork(voice) ? 0 : 1),
     }))
     .sort((a, b) => b.score - a.score);
   const chosen = ranked[0]?.id ?? null;
@@ -105,18 +112,53 @@ export async function initSpeech(): Promise<void> {
 /** Idioma que a pessoa estuda, para que cada botão leia na língua certa. */
 export const studiedLanguage = (): Language => useAuth.getState().user?.targetLanguage ?? 'EN';
 
-/** Lê o texto em voz alta, interrompendo qualquer leitura em andamento. */
-export function speak(text: string, pace: SpeechPace = 'normal', language: Language = studiedLanguage()): void {
+const START_TIMEOUT_MS = 2500;
+
+/**
+ * Lê o texto em voz alta, interrompendo qualquer leitura em andamento. Se a voz escolhida não
+ * começar a falar, tenta de novo deixando o Android decidir; se ainda assim falhar, chama `onError`.
+ */
+export function speak(
+  text: string,
+  pace: SpeechPace = 'normal',
+  language: Language = studiedLanguage(),
+  onError?: () => void,
+): void {
   const value = text.trim();
   if (!value) return;
-  void pickVoice(language).then((voice) => {
+
+  const attempt = (voice: string | undefined, retry: boolean) => {
+    let started = false;
+    const fail = () => {
+      if (started) return;
+      started = true;
+      if (retry) attempt(undefined, false);
+      else onError?.();
+    };
+    const timer = setTimeout(fail, START_TIMEOUT_MS);
     try {
       Speech.stop();
-      Speech.speak(value, { language: VOICE_LOCALE[language], voice: voice ?? undefined, rate: RATE[pace], pitch: 1 });
+      Speech.speak(value, {
+        language: VOICE_LOCALE[language],
+        voice,
+        rate: RATE[pace],
+        pitch: 1,
+        onStart: () => {
+          started = true;
+          clearTimeout(timer);
+        },
+        onError: () => {
+          clearTimeout(timer);
+          fail();
+        },
+      });
     } catch {
-      // Sem voz disponível, o app segue funcionando em silêncio.
+      clearTimeout(timer);
+      fail();
     }
-  });
+  };
+
+  void pickVoice(language).then((voice) => attempt(voice ?? undefined, voice !== null));
 }
 
 export function stopSpeaking(): void {

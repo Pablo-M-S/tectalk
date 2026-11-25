@@ -191,7 +191,15 @@ export default function ProfileScreen() {
               label="Testar voz"
               variant="secondary"
               style={{ flex: 1 }}
-              onPress={() => user && speak(SAMPLE_SENTENCE[user.targetLanguage], 'normal', user.targetLanguage)}
+              onPress={() =>
+                user &&
+                speak(SAMPLE_SENTENCE[user.targetLanguage], 'normal', user.targetLanguage, () =>
+                  Alert.alert(
+                    'Voz indisponível',
+                    'Não foi possível tocar a voz. Confira o volume de mídia e baixe o pacote do idioma em "Configurar voz".',
+                  ),
+                )
+              }
             />
             <Button label="Configurar voz" variant="secondary" style={{ flex: 1 }} onPress={openVoiceSettings} />
           </View>
