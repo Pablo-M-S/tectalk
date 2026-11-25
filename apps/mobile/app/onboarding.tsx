@@ -8,8 +8,10 @@ import type { Language, ProficiencyLevel } from '@/api/types';
 import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
 import { ProgressBar } from '@/components/ProgressBar';
+import { ReminderTimePicker } from '@/components/ReminderTimePicker';
 import { Text } from '@/components/Text';
 import { GOALS, LANGUAGES, LEVELS, PROFESSIONS } from '@/lib/profile';
+import { requestReminderPermission, useReminderTime } from '@/lib/reminders';
 import { useSelection } from '@/state/selection';
 import { radius, useTheme } from '@/theme/theme';
 
@@ -85,6 +87,8 @@ export default function OnboardingScreen() {
     user?.onboardedAt ? user.remindersEnabled : null,
   );
   const [error, setError] = useState<string | null>(null);
+  const reminderTime = useReminderTime((state) => state.time);
+  const setReminderTime = useReminderTime((state) => state.setTime);
 
   const step = STEPS[index];
   const available = useMemo(() => new Set(tracks.data?.map((t) => t.profession)), [tracks.data]);
@@ -209,7 +213,17 @@ export default function OnboardingScreen() {
                 label="Sim, quero lembretes"
                 icon="notifications-outline"
                 selected={reminders === true}
-                onPress={() => setReminders(true)}
+                onPress={() => {
+                  setReminders(true);
+                  void requestReminderPermission().then((granted) => {
+                    if (!granted) {
+                      setReminders(false);
+                      setError('Para receber lembretes, permita as notificações nas configurações do aplicativo.');
+                    } else {
+                      setError(null);
+                    }
+                  });
+                }}
               />
               <Choice
                 label="Agora não"
@@ -217,8 +231,14 @@ export default function OnboardingScreen() {
                 selected={reminders === false}
                 onPress={() => setReminders(false)}
               />
+              {reminders === true ? (
+                <View style={{ gap: 10 }}>
+                  <Text variant="label" tone="muted">Horário do lembrete</Text>
+                  <ReminderTimePicker value={reminderTime} onChange={setReminderTime} />
+                </View>
+              ) : null}
               <Text variant="caption" tone="muted">
-                Sua escolha fica salva. O envio das notificações será ativado em uma próxima versão do app.
+                Você pode mudar o horário ou desativar quando quiser, no Perfil.
               </Text>
             </>
           )}

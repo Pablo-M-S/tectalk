@@ -9,6 +9,8 @@ import { useAuth } from '@/auth/store';
 import { AppDrawer } from '@/components/AppDrawer';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { initFeedback } from '@/lib/feedback';
+import { initReminders, syncReminders, useReminderTime } from '@/lib/reminders';
+import { initSpeech } from '@/lib/speech';
 import { initTheme } from '@/theme/mode';
 import { useScheme, useTheme } from '@/theme/theme';
 
@@ -19,13 +21,23 @@ export default function RootLayout() {
   const scheme = useScheme();
   const status = useAuth((state) => state.status);
   const bootstrap = useAuth((state) => state.bootstrap);
+  const remindersEnabled = useAuth((state) => state.user?.remindersEnabled ?? false);
+  const reminderTime = useReminderTime((state) => state.time);
 
   useEffect(() => {
     warmUp();
     void initFeedback();
+    void initSpeech();
+    void initReminders();
     void initTheme();
     void bootstrap();
   }, [bootstrap]);
+
+  // Mantém os lembretes agendados de acordo com a preferência da conta e o horário escolhido.
+  useEffect(() => {
+    if (status === 'signedIn') void syncReminders(remindersEnabled, reminderTime);
+    if (status === 'signedOut') void syncReminders(false, reminderTime);
+  }, [status, remindersEnabled, reminderTime]);
 
   useEffect(() => {
     if (status !== 'loading') void SplashScreen.hideAsync();

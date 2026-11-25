@@ -1,8 +1,11 @@
+import { useEffect } from 'react';
 import { ScrollView, View } from 'react-native';
 import type { Exercise } from '@/api/types';
 import { Button } from './Button';
 import { CorrectThumb } from './CorrectThumb';
+import { SpeakButton } from './SpeakButton';
 import { Text } from './Text';
+import { speak, stopSpeaking, useSpeech } from '@/lib/speech';
 import { useTheme } from '@/theme/theme';
 
 interface Props {
@@ -15,6 +18,14 @@ interface Props {
 export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props) {
   const theme = useTheme();
   const reveal = exercise.reveal;
+  const autoPlay = useSpeech((state) => state.autoPlay);
+  const spoken = reveal?.text;
+
+  // Ao mostrar o termo correto, a pronúncia toca sozinha (se ativada no Perfil).
+  useEffect(() => {
+    if (autoPlay && spoken) speak(spoken);
+    return stopSpeaking;
+  }, [autoPlay, spoken]);
 
   return (
     <View
@@ -37,14 +48,21 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
         <ScrollView style={{ maxHeight: 280 }} contentContainerStyle={{ gap: 10 }} showsVerticalScrollIndicator={false}>
           <View style={{ gap: 4 }}>
             {!correct ? <Text variant="caption" tone="muted">Resposta correta</Text> : null}
-            <Text variant="title">{reveal.text}</Text>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+              <Text variant="title" style={{ flexShrink: 1 }}>{reveal.text}</Text>
+              <SpeakButton text={reveal.text} />
+              <SpeakButton text={reveal.text} pace="slow" label="Devagar" />
+            </View>
             {reveal.ipa ? <Text variant="caption" tone="muted">{reveal.ipa}</Text> : null}
             <Text variant="caption" tone="muted">{reveal.definition}</Text>
           </View>
 
           {reveal.example ? (
             <View style={{ gap: 2 }}>
-              <Text variant="label" tone="muted">Em uso</Text>
+              <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                <Text variant="label" tone="muted">Em uso</Text>
+                <SpeakButton text={reveal.example} />
+              </View>
               <Text variant="caption" style={{ fontStyle: 'italic' }}>{reveal.example}</Text>
             </View>
           ) : null}

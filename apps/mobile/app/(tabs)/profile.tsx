@@ -3,13 +3,16 @@ import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Constants from 'expo-constants';
 import * as Updates from 'expo-updates';
-import { useStats } from '@/api/hooks';
+import { useStats, useUpdateProfile } from '@/api/hooks';
 import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
+import { ReminderTimePicker } from '@/components/ReminderTimePicker';
 import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
 import { useHaptics } from '@/lib/feedback';
+import { requestReminderPermission, useReminderTime } from '@/lib/reminders';
 import { useSound } from '@/lib/sounds';
+import { useSpeech } from '@/lib/speech';
 import { GOALS, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
 import { useThemeMode, type ThemeMode } from '@/theme/mode';
 import { radius, useTheme } from '@/theme/theme';
@@ -78,6 +81,19 @@ export default function ProfileScreen() {
   const setSoundOn = useSound((state) => state.setEnabled);
   const vibrationOn = useHaptics((state) => state.enabled);
   const setVibrationOn = useHaptics((state) => state.setEnabled);
+  const autoSpeak = useSpeech((state) => state.autoPlay);
+  const setAutoSpeak = useSpeech((state) => state.setAutoPlay);
+  const reminderTime = useReminderTime((state) => state.time);
+  const setReminderTime = useReminderTime((state) => state.setTime);
+  const updateProfile = useUpdateProfile();
+
+  const toggleReminders = async (enabled: boolean) => {
+    if (enabled && !(await requestReminderPermission())) {
+      Alert.alert('Lembretes', 'Permita as notificações nas configurações do aplicativo para receber os avisos.');
+      return;
+    }
+    updateProfile.mutate({ remindersEnabled: enabled });
+  };
 
   const checkUpdate = async () => {
     if (!Updates.isEnabled) {
@@ -147,7 +163,23 @@ export default function ProfileScreen() {
               trackColor={{ true: theme.primary, false: theme.border }}
             />
           </View>
-          <Row label="Lembretes" value={user?.remindersEnabled ? 'Ativados' : 'Desativados'} />
+          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Text variant="caption" tone="muted">Ler palavras em voz alta</Text>
+            <Switch
+              value={autoSpeak}
+              onValueChange={setAutoSpeak}
+              trackColor={{ true: theme.primary, false: theme.border }}
+            />
+          </View>
+          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Text variant="caption" tone="muted">Lembrete diário</Text>
+            <Switch
+              value={user?.remindersEnabled ?? false}
+              onValueChange={(value) => void toggleReminders(value)}
+              trackColor={{ true: theme.primary, false: theme.border }}
+            />
+          </View>
+          {user?.remindersEnabled ? <ReminderTimePicker value={reminderTime} onChange={setReminderTime} /> : null}
           <Button
             label="Editar preferências"
             variant="secondary"
