@@ -9,6 +9,7 @@ const SOURCES = {
   tap: require('../../assets/sounds/tap.wav'),
   pair: require('../../assets/sounds/pair.wav'),
   burst: require('../../assets/sounds/burst.wav'),
+  fire: require('../../assets/sounds/fire.wav'),
 } as const;
 
 export type SoundName = keyof typeof SOURCES;

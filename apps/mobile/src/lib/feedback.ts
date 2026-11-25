@@ -22,6 +22,7 @@ const vibrate: Record<SoundName, () => Promise<void>> = {
   tap: () => Haptics.selectionAsync(),
   pair: () => Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light),
   burst: () => Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy),
+  fire: () => Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium),
   correct: () => Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success),
   wrong: () => Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error),
   complete: () => Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success),
