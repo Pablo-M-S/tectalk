@@ -28,6 +28,8 @@ const STEPS = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 interface Props {
   title: string;
   subtitle: string;
+  /** Chamado com a tela ainda coberta, para o próximo exercício já estar no lugar. */
+  onReveal: () => void;
   onDone: () => void;
 }
 
@@ -36,7 +38,7 @@ interface Props {
  * com traços de velocidade, até a pessoa tocar na tela; então explode em estrelas
  * menores que caem para os lados, para fora da tela, e a sessão continua.
  */
-export function StreakCelebration({ title, subtitle, onDone }: Props) {
+export function StreakCelebration({ title, subtitle, onReveal, onDone }: Props) {
   const theme = useTheme();
   const { width, height } = useWindowDimensions();
   const starSize = Math.min(width * 0.52, 230);
@@ -51,6 +53,7 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
   const shake = useRef(new Animated.Value(0)).current;
   const burst = useRef(new Animated.Value(0)).current;
   const anchor = useRef(new Animated.Value(0)).current;
+  const linesAlpha = useRef(new Animated.Value(1)).current;
   const overlay = useRef(new Animated.Value(1)).current;
   const lineClocks = useRef(LINES.map(() => new Animated.Value(0))).current;
 
@@ -70,17 +73,20 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
   const particles = useMemo(
     () =>
       Array.from({ length: PARTICLE_COUNT }, (_, i) => {
-        // Ângulos espalhados por toda a volta, com variação para não parecer um desenho regular.
-        const angle = (i / PARTICLE_COUNT) * Math.PI * 2 + (((i * 7) % 5) - 2) * 0.11;
-        const reach = width * (0.5 + 0.13 * ((i * 3) % 6));
-        const kick = 300 + 55 * ((i * 5) % 4);
-        const v0 = Math.sin(angle) * kick;
-        const fall = height * (0.55 + 0.09 * ((i * 2) % 5));
+        // Metade sai para cada lado, em ângulos bem diferentes: algumas sobem antes de cair,
+        // outras disparam retas ou já descem. Todas saem pela lateral da tela.
+        const dir = i % 2 === 0 ? -1 : 1;
+        const lift = ((i * 37) % 100) / 100;
+        const elevation = ((-25 + lift * 95) * Math.PI) / 180;
+        const reach = dir * width * (0.95 + 0.17 * ((i * 3) % 5));
+        const kick = 360 + 60 * (i % 3);
+        const v0 = -Math.sin(elevation) * kick;
+        const fall = height * (0.22 + 0.11 * ((i * 2) % 5));
         const g = 2 * (fall - v0);
         return {
           size: starSize * (0.2 + 0.045 * (i % 4)),
-          spin: (i % 2 === 0 ? -1 : 1) * (320 + 90 * (i % 3)),
-          x: STEPS.map((t) => Math.cos(angle) * reach * t),
+          spin: dir * (420 + 110 * (i % 3)),
+          x: STEPS.map((t) => reach * (1 - (1 - t) * (1 - t))),
           y: STEPS.map((t) => v0 * t + 0.5 * g * t * t),
         };
       }),
@@ -150,6 +156,7 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
     stopAll();
 
     if (reduceMotion.current) {
+      onReveal();
       onDone();
       return;
     }
@@ -162,11 +169,14 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
       Animated.timing(shake, { toValue: 1, duration: SHAKE_MS, easing: Easing.linear, useNativeDriver: true }),
       Animated.timing(text, { toValue: 0, duration: 220, useNativeDriver: true }),
       Animated.timing(hint, { toValue: 0, duration: 120, useNativeDriver: true }),
+      Animated.timing(linesAlpha, { toValue: 0, duration: 140, useNativeDriver: true }),
     ]).start(() => {
       cue('burst');
       alive.setValue(0);
       Animated.timing(burst, { toValue: 1, duration: BURST_MS, easing: Easing.linear, useNativeDriver: true }).start(() => {
-        Animated.timing(overlay, { toValue: 0, duration: 140, useNativeDriver: true }).start(() => onDone());
+        // O próximo exercício entra por baixo da tela cheia; só então ela esmaece, sem trocar de tela à vista.
+        onReveal();
+        Animated.timing(overlay, { toValue: 0, duration: 220, useNativeDriver: true }).start(() => onDone());
       });
     });
   };
@@ -201,7 +211,10 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
               height: line.h,
               borderRadius: line.w,
               backgroundColor: '#F5B83D',
-              opacity: lineClocks[index].interpolate({ inputRange: [0, 0.15, 0.8, 1], outputRange: [0, 0.9, 0.9, 0] }),
+              opacity: Animated.multiply(
+                lineClocks[index].interpolate({ inputRange: [0, 0.15, 0.8, 1], outputRange: [0, 0.9, 0.9, 0] }),
+                linesAlpha,
+              ),
               transform: [
                 { translateY: lineClocks[index].interpolate({ inputRange: [0, 1], outputRange: [0, -height * 0.7] }) },
                 { scaleY: lineClocks[index].interpolate({ inputRange: [0, 1], outputRange: [0.5, 1.6] }) },

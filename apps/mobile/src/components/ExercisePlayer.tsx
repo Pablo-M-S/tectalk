@@ -162,10 +162,8 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
         <StreakCelebration
           title={celebration.title}
           subtitle={celebration.subtitle}
-          onDone={() => {
-            celebration.advance();
-            setCelebration(null);
-          }}
+          onReveal={celebration.advance}
+          onDone={() => setCelebration(null)}
         />
       ) : null}
     </SafeAreaView>
