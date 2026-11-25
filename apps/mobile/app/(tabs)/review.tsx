@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useFocusEffect, useRouter } from 'expo-router';
 import { useActiveTrack, useDueCount } from '@/api/hooks';
 import { Button } from '@/components/Button';
+import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
 import { radius, useTheme } from '@/theme/theme';
 
@@ -24,6 +25,7 @@ export default function ReviewScreen() {
 
   return (
     <SafeAreaView edges={['top']} style={{ flex: 1, backgroundColor: theme.bg, padding: 20, gap: 24 }}>
+      <TopBar />
       <View style={{ gap: 6 }}>
         <Text variant="label" tone="primary">Revisão espaçada</Text>
         <Text variant="display">Fixe o que já estudou</Text>

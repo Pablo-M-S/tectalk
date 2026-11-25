@@ -3,7 +3,21 @@ import { JwtService } from '@nestjs/jwt';
 import { Prisma, User } from '@prisma/client';
 import { argon2id, hash, verify } from 'argon2';
 import { PrismaService } from '../prisma/prisma.service';
-import { LoginInput, RegisterInput } from './auth.schemas';
+import { LoginInput, RegisterInput, UpdateProfileInput } from './auth.schemas';
+
+const toPublicUser = (user: User) => ({
+  id: user.id,
+  email: user.email,
+  displayName: user.displayName,
+  interfaceLanguage: user.interfaceLanguage,
+  timezone: user.timezone,
+  profession: user.profession,
+  targetLanguage: user.targetLanguage,
+  level: user.level,
+  dailyGoalMinutes: user.dailyGoalMinutes,
+  remindersEnabled: user.remindersEnabled,
+  onboardedAt: user.onboardedAt,
+});
 
 @Injectable()
 export class AuthService {
@@ -44,31 +58,27 @@ export class AuthService {
   }
 
   async profile(userId: string) {
-    const user = await this.prisma.user.findUniqueOrThrow({
+    const user = await this.prisma.user.findUniqueOrThrow({ where: { id: userId } });
+    return toPublicUser(user);
+  }
+
+  async updateProfile(userId: string, input: UpdateProfileInput) {
+    const { completeOnboarding, ...fields } = input;
+    const user = await this.prisma.user.update({
       where: { id: userId },
-      select: {
-        id: true,
-        email: true,
-        displayName: true,
-        interfaceLanguage: true,
-        timezone: true,
-        createdAt: true,
+      data: {
+        ...fields,
+        ...(completeOnboarding ? { onboardedAt: new Date() } : {}),
       },
     });
-    return user;
+    return toPublicUser(user);
   }
 
   private async openSession(user: User) {
     const accessToken = await this.jwt.signAsync({ sub: user.id, email: user.email });
     return {
       accessToken,
-      user: {
-        id: user.id,
-        email: user.email,
-        displayName: user.displayName,
-        interfaceLanguage: user.interfaceLanguage,
-        timezone: user.timezone,
-      },
+      user: toPublicUser(user),
     };
   }
 }

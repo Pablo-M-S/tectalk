@@ -6,6 +6,7 @@ import { Redirect, useRouter } from 'expo-router';
 import { useActiveTrack, useStats, useTrack } from '@/api/hooks';
 import type { LessonNode } from '@/api/types';
 import { Text } from '@/components/Text';
+import { TopBar } from '@/components/TopBar';
 import { ErrorState, LoadingState } from '@/components/States';
 import { formatPercent } from '@/lib/text';
 import { radius, useTheme } from '@/theme/theme';
@@ -105,6 +106,7 @@ export default function TrailScreen() {
         contentContainerStyle={{ padding: 20, paddingBottom: 40, gap: 24 }}
         refreshControl={<RefreshControl refreshing={refreshing} onRefresh={() => void refresh()} tintColor={theme.primary} />}
       >
+        <TopBar />
         <View style={{ gap: 6 }}>
           <Pressable
             accessibilityRole="button"

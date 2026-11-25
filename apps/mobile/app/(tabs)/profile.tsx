@@ -1,11 +1,14 @@
 import { Alert, ScrollView, View } from 'react-native';
+import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Constants from 'expo-constants';
 import * as Updates from 'expo-updates';
 import { useStats } from '@/api/hooks';
 import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
+import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
+import { GOALS, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
 import { radius, useTheme } from '@/theme/theme';
 
 function Row({ label, value }: { label: string; value: string }) {
@@ -19,6 +22,7 @@ function Row({ label, value }: { label: string; value: string }) {
 
 export default function ProfileScreen() {
   const theme = useTheme();
+  const router = useRouter();
   const user = useAuth((state) => state.user);
   const signOut = useAuth((state) => state.signOut);
   const stats = useStats();
@@ -53,6 +57,7 @@ export default function ProfileScreen() {
   return (
     <SafeAreaView edges={['top']} style={{ flex: 1, backgroundColor: theme.bg }}>
       <ScrollView contentContainerStyle={{ padding: 20, paddingBottom: 40, gap: 20 }}>
+        <TopBar />
         <View style={{ gap: 4 }}>
           <Text variant="display">{user?.displayName ?? 'Perfil'}</Text>
           {user ? <Text tone="muted">{user.email}</Text> : null}
@@ -63,6 +68,23 @@ export default function ProfileScreen() {
           <Row label="XP total" value={String(stats.data?.xp ?? 0)} />
           <Row label="Sequência atual" value={`${stats.data?.currentStreak ?? 0} dias`} />
           <Row label="Maior sequência" value={`${stats.data?.longestStreak ?? 0} dias`} />
+        </View>
+
+        <View style={card}>
+          <Text variant="label" tone="muted">Preferências de estudo</Text>
+          <Row label="Idioma" value={user ? languageLabel(user.targetLanguage) : '—'} />
+          <Row label="Profissão" value={professionLabel(user?.profession)} />
+          <Row label="Nível" value={levelLabel(user?.level)} />
+          <Row
+            label="Meta diária"
+            value={GOALS.find((g) => g.minutes === user?.dailyGoalMinutes)?.hint.replace(' por dia', '') ?? '—'}
+          />
+          <Row label="Lembretes" value={user?.remindersEnabled ? 'Ativados' : 'Desativados'} />
+          <Button
+            label="Editar preferências"
+            variant="secondary"
+            onPress={() => router.push({ pathname: '/onboarding', params: { edit: '1' } })}
+          />
         </View>
 
         <View style={card}>

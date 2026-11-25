@@ -4,6 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { useActiveTrack } from '@/api/hooks';
 import { Button } from '@/components/Button';
+import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
 import { radius, useTheme } from '@/theme/theme';
 
@@ -21,6 +22,7 @@ export default function PracticeScreen() {
 
   return (
     <SafeAreaView edges={['top']} style={{ flex: 1, backgroundColor: theme.bg, padding: 20, gap: 24 }}>
+      <TopBar />
       <View style={{ gap: 6 }}>
         <Text variant="label" tone="primary">Prática livre</Text>
         <Text variant="display">Use o que aprendeu</Text>

@@ -1,4 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import { useAuth } from '@/auth/store';
 import { useSelection } from '@/state/selection';
 import { request } from './client';
 import type {
@@ -6,6 +7,8 @@ import type {
   DueResponse,
   ExerciseResult,
   LessonSession,
+  ProfileUpdate,
+  User,
   PracticeSession,
   ReviewResponse,
   Stats,
@@ -131,5 +134,13 @@ export function useSubmitReview(slug: string | undefined) {
         body: { results },
       }),
     onSuccess: refresh,
+  });
+}
+
+export function useUpdateProfile() {
+  return useMutation({
+    mutationFn: (input: ProfileUpdate) =>
+      request<User>('/v1/auth/me', { method: 'PATCH', body: input }),
+    onSuccess: (user) => useAuth.getState().setUser(user),
   });
 }

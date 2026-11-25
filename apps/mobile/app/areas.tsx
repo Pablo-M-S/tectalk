@@ -6,6 +6,7 @@ import { useRouter } from 'expo-router';
 import { useTracks } from '@/api/hooks';
 import type { TrackSummary } from '@/api/types';
 import { useAuth } from '@/auth/store';
+import { TopBar } from '@/components/TopBar';
 import { ProgressBar } from '@/components/ProgressBar';
 import { ErrorState, LoadingState } from '@/components/States';
 import { Text } from '@/components/Text';
@@ -116,6 +117,7 @@ export default function AreasScreen() {
           />
         }
       >
+        <TopBar />
         <View style={{ gap: 6 }}>
           <Text variant="label" tone="primary">{name ? `Olá, ${name.split(' ')[0]}` : 'TecTalk'}</Text>
           <Text variant="display">Qual área você quer dominar?</Text>

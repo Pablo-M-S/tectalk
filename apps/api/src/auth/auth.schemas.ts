@@ -1,4 +1,4 @@
-import { Language } from '@prisma/client';
+import { Language, ProficiencyLevel } from '@prisma/client';
 import { z } from 'zod';
 
 const timezone = z.string().refine((value) => {
@@ -30,3 +30,22 @@ export const loginSchema = z.object({
 
 export type RegisterInput = z.infer<typeof registerSchema>;
 export type LoginInput = z.infer<typeof loginSchema>;
+
+export const updateProfileSchema = z.object({
+  displayName: z.string().trim().min(2, 'Informe seu nome').max(60).optional(),
+  profession: z
+    .string()
+    .trim()
+    .toLowerCase()
+    .regex(/^[a-z][a-z-]{1,29}$/, 'Profissão inválida')
+    .nullable()
+    .optional(),
+  targetLanguage: z.nativeEnum(Language).optional(),
+  level: z.nativeEnum(ProficiencyLevel).optional(),
+  dailyGoalMinutes: z.number().int().min(5).max(180).optional(),
+  remindersEnabled: z.boolean().optional(),
+  /** Marca o onboarding como concluído. */
+  completeOnboarding: z.boolean().optional(),
+});
+
+export type UpdateProfileInput = z.infer<typeof updateProfileSchema>;

@@ -1,8 +1,15 @@
-import { Body, Controller, Get, HttpCode, Post, UseGuards } from '@nestjs/common';
+import { Body, Controller, Get, HttpCode, Patch, Post, UseGuards } from '@nestjs/common';
 import { Throttle } from '@nestjs/throttler';
 import { AuthUser, CurrentUser } from '../common/current-user.decorator';
 import { ZodValidationPipe } from '../common/zod-validation.pipe';
-import { LoginInput, loginSchema, RegisterInput, registerSchema } from './auth.schemas';
+import {
+  LoginInput,
+  loginSchema,
+  RegisterInput,
+  registerSchema,
+  UpdateProfileInput,
+  updateProfileSchema,
+} from './auth.schemas';
 import { AuthService } from './auth.service';
 import { JwtAuthGuard } from './jwt-auth.guard';
 
@@ -27,5 +34,14 @@ export class AuthController {
   @UseGuards(JwtAuthGuard)
   me(@CurrentUser() user: AuthUser) {
     return this.auth.profile(user.id);
+  }
+
+  @Patch('me')
+  @UseGuards(JwtAuthGuard)
+  updateProfile(
+    @CurrentUser() user: AuthUser,
+    @Body(new ZodValidationPipe(updateProfileSchema)) body: UpdateProfileInput,
+  ) {
+    return this.auth.updateProfile(user.id, body);
   }
 }

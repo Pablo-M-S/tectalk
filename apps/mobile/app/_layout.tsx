@@ -6,6 +6,7 @@ import { QueryClientProvider } from '@tanstack/react-query';
 import { warmUp } from '@/api/client';
 import { queryClient } from '@/api/queryClient';
 import { useAuth } from '@/auth/store';
+import { AppDrawer } from '@/components/AppDrawer';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { useTheme } from '@/theme/theme';
 
@@ -34,6 +35,7 @@ export default function RootLayout() {
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: theme.bg } }}>
         <Stack.Screen name="index" />
         <Stack.Protected guard={signedIn}>
+          <Stack.Screen name="onboarding" options={{ gestureEnabled: false }} />
           <Stack.Screen name="areas" />
           <Stack.Screen name="(tabs)" />
           <Stack.Screen name="lesson/[id]" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
@@ -45,6 +47,7 @@ export default function RootLayout() {
           <Stack.Screen name="(auth)" />
         </Stack.Protected>
       </Stack>
+      {signedIn ? <AppDrawer /> : null}
       <UpdateBanner />
     </QueryClientProvider>
   );

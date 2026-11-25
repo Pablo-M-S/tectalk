@@ -1,11 +1,29 @@
 export type Language = 'PT' | 'EN' | 'ES' | 'FR' | 'ZH' | 'JA';
 
+export type ProficiencyLevel = 'BEGINNER' | 'BASIC' | 'INTERMEDIATE' | 'ADVANCED';
+
 export interface User {
   id: string;
   email: string;
   displayName: string;
   interfaceLanguage: Language;
   timezone: string;
+  profession: string | null;
+  targetLanguage: Language;
+  level: ProficiencyLevel | null;
+  dailyGoalMinutes: number | null;
+  remindersEnabled: boolean;
+  onboardedAt: string | null;
+}
+
+export interface ProfileUpdate {
+  displayName?: string;
+  profession?: string | null;
+  targetLanguage?: Language;
+  level?: ProficiencyLevel;
+  dailyGoalMinutes?: number;
+  remindersEnabled?: boolean;
+  completeOnboarding?: boolean;
 }
 
 export interface Session {
