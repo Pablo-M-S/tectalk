@@ -15,6 +15,8 @@ import { RegisterChoice } from './exercises/RegisterChoice';
 import { TypeTerm } from './exercises/TypeTerm';
 import type { AnswerOutcome } from './exercises/types';
 import { FeedbackPanel } from './FeedbackPanel';
+import { celebrationMessage, milestoneFor } from '@/lib/streak';
+import { StreakCelebration } from './StreakCelebration';
 import { ProgressBar } from './ProgressBar';
 import { Text } from './Text';
 
@@ -46,10 +48,12 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
   const [outcome, setOutcome] = useState<AnswerOutcome | null>(null);
   const [ready, setReady] = useState(false);
   const [answeredCount, setAnsweredCount] = useState(0);
+  const [celebration, setCelebration] = useState<{ title: string; subtitle: string; advance: () => void } | null>(null);
 
   const evaluator = useRef<(() => AnswerOutcome) | null>(null);
   const answered = useRef(false);
   const results = useRef<ExerciseResult[]>([]);
+  const streak = useRef(0);
 
   const setEvaluator = useCallback((fn: (() => AnswerOutcome) | null) => {
     evaluator.current = fn;
@@ -64,6 +68,7 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
       answered.current = true;
       setOutcome(result);
       cue(result.correct ? 'correct' : 'wrong');
+      streak.current = result.correct ? streak.current + 1 : 0;
       if (!current.retry) {
         results.current.push(...result.results);
         setAnsweredCount((count) => count + 1);
@@ -88,9 +93,18 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
       onFinish(results.current);
       return;
     }
-    answered.current = false;
-    setOutcome(null);
-    setCursor(cursor + 1);
+    const advance = () => {
+      answered.current = false;
+      setOutcome(null);
+      setCursor(cursor + 1);
+    };
+
+    const milestone = outcome.correct ? milestoneFor(streak.current) : null;
+    if (milestone !== null) {
+      setCelebration({ ...celebrationMessage(milestone), advance });
+      return;
+    }
+    advance();
   };
 
   const confirmClose = () =>
@@ -143,6 +157,17 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
           </View>
         )}
       </KeyboardAvoidingView>
+
+      {celebration ? (
+        <StreakCelebration
+          title={celebration.title}
+          subtitle={celebration.subtitle}
+          onDone={() => {
+            celebration.advance();
+            setCelebration(null);
+          }}
+        />
+      ) : null}
     </SafeAreaView>
   );
 }

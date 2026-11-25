@@ -1,6 +1,7 @@
 import { ScrollView, View } from 'react-native';
 import type { Exercise } from '@/api/types';
 import { Button } from './Button';
+import { CorrectThumb } from './CorrectThumb';
 import { Text } from './Text';
 import { useTheme } from '@/theme/theme';
 
@@ -25,9 +26,12 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
         backgroundColor: correct ? theme.successSoft : theme.dangerSoft,
       }}
     >
-      <Text variant="label" tone={correct ? 'success' : 'danger'}>
-        {correct ? 'Correto' : 'Quase lá'}
-      </Text>
+      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', minHeight: 44 }}>
+        <Text variant="label" tone={correct ? 'success' : 'danger'}>
+          {correct ? 'Correto' : 'Quase lá'}
+        </Text>
+        {correct ? <CorrectThumb /> : null}
+      </View>
 
       {reveal ? (
         <ScrollView style={{ maxHeight: 280 }} contentContainerStyle={{ gap: 10 }} showsVerticalScrollIndicator={false}>
