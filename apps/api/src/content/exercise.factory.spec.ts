@@ -116,6 +116,35 @@ describe('ExerciseFactory', () => {
     });
   });
 
+  describe('fillBlanks', () => {
+    it('gera de 2 a 3 frases e um banco com o termo de cada uma', () => {
+      const exercise = factory.fillBlanks(pool)!;
+      expect(exercise.sentences.length).toBeGreaterThanOrEqual(2);
+      expect(exercise.sentences.length).toBeLessThanOrEqual(3);
+      expect(exercise.tiles.map((t) => t.id).sort()).toEqual(exercise.sentences.map((s) => s.id).sort());
+      expect(exercise.termIds.sort()).toEqual(exercise.sentences.map((s) => s.id).sort());
+    });
+
+    it('devolve as frases completas quando cada termo vai para a sua lacuna', () => {
+      const exercise = factory.fillBlanks(pool)!;
+      for (const sentence of exercise.sentences) {
+        const tile = exercise.tiles.find((t) => t.id === sentence.id)!;
+        const full = sentence.before + tile.text + sentence.after;
+        expect(byId(sentence.id).examples.some((e) => e.sentence === full)).toBe(true);
+      }
+    });
+
+    it('não repete o mesmo termo no banco de palavras', () => {
+      const exercise = factory.fillBlanks(pool)!;
+      expect(new Set(exercise.tiles.map((t) => t.text)).size).toBe(exercise.tiles.length);
+    });
+
+    it('devolve null quando há menos de dois termos com exemplo', () => {
+      expect(factory.fillBlanks([byId('t1')])).toBeNull();
+      expect(factory.fillBlanks([byId('t6'), byId('t1')])).toBeNull();
+    });
+  });
+
   describe('buildLessonSession', () => {
     it('respeita o limite de 20 exercícios e começa por reconhecimento', () => {
       const session = factory.buildLessonSession({ terms: pool, pool, audioEnabled: false });
@@ -137,10 +166,11 @@ describe('ExerciseFactory', () => {
   describe('buildPracticeSession', () => {
     it('gera no máximo 12 exercícios por termo mais um de associação', () => {
       const session = factory.buildPracticeSession({ terms: pool, pool, audioEnabled: false });
-      const single = session.filter((e) => e.type !== 'MATCH_PAIRS');
+      const single = session.filter((e) => e.type !== 'MATCH_PAIRS' && e.type !== 'FILL_BLANKS');
       expect(single.length).toBeLessThanOrEqual(12);
       expect(single).toHaveLength(pool.length);
       expect(session.filter((e) => e.type === 'MATCH_PAIRS')).toHaveLength(1);
+      expect(session.filter((e) => e.type === 'FILL_BLANKS')).toHaveLength(1);
     });
 
     it('não monta associação com menos de 4 termos', () => {
@@ -150,7 +180,9 @@ describe('ExerciseFactory', () => {
 
     it('cada termo aparece uma vez', () => {
       const session = factory.buildPracticeSession({ terms: pool, pool, audioEnabled: false });
-      const ids = session.filter((e) => e.type !== 'MATCH_PAIRS').map((e) => e.termIds[0]);
+      const ids = session
+        .filter((e) => e.type !== 'MATCH_PAIRS' && e.type !== 'FILL_BLANKS')
+        .map((e) => e.termIds[0]);
       expect(new Set(ids).size).toBe(ids.length);
     });
   });

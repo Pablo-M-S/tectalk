@@ -8,6 +8,7 @@ import { useTheme } from '@/theme/theme';
 import { Button } from './Button';
 import { BuildFromRoots } from './exercises/BuildFromRoots';
 import { FillBlank } from './exercises/FillBlank';
+import { FillBlanks } from './exercises/FillBlanks';
 import { MatchPairs } from './exercises/MatchPairs';
 import { MultipleChoice } from './exercises/MultipleChoice';
 import { OrderSentence } from './exercises/OrderSentence';
@@ -147,6 +148,7 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
           {exercise.type === 'BUILD_FROM_ROOTS' && <BuildFromRoots exercise={exercise} {...shared} />}
           {exercise.type === 'REGISTER_CHOICE' && <RegisterChoice exercise={exercise} {...shared} />}
           {exercise.type === 'ORDER_SENTENCE' && <OrderSentence exercise={exercise} {...shared} />}
+          {exercise.type === 'FILL_BLANKS' && <FillBlanks exercise={exercise} {...shared} />}
         </ScrollView>
 
         {outcome ? (

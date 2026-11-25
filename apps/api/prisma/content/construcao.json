@@ -1,0 +1,1469 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "construcao-pt-en",
+    "profession": "construcao",
+    "sourceLanguage": "PT",
+    "targetLanguage": "EN",
+    "title": "Inglês para Construção Civil",
+    "description": "O inglês do canteiro de obras: ferramentas, materiais, alvenaria, fundação, acabamento e segurança.",
+    "position": 4
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "ferramentas",
+      "title": "Ferramentas",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "ferramentas-manuais",
+          "title": "Ferramentas manuais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "trowel",
+              "locales": {
+                "PT": {
+                  "text": "colher de pedreiro",
+                  "definition": "Ferramenta manual de lâmina chata usada para espalhar argamassa, reboco ou cimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "trowel",
+                  "definition": "A small hand tool with a flat blade used to spread mortar, plaster or cement.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Brick trowel assenta tijolos; plastering trowel é a desempenadeira de aço usada no reboco.",
+                  "collocations": [
+                    "brick trowel",
+                    "pointing trowel",
+                    "plastering trowel",
+                    "steel trowel"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "He spread the mortar with a trowel.",
+                  "answer": "trowel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Clean the trowel before the cement hardens.",
+                  "answer": "trowel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "spirit-level",
+              "locales": {
+                "PT": {
+                  "text": "nível de bolha",
+                  "definition": "Ferramenta com um tubo de líquido e uma bolha de ar que confere se uma superfície está nivelada ou aprumada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "spirit level",
+                  "definition": "A tool with a liquid-filled tube and an air bubble used to check that a surface is horizontal or vertical.",
+                  "informalForms": [
+                    "level"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Nos EUA se diz apenas level. O verbo to level significa nivelar.",
+                  "collocations": [
+                    "use a spirit level",
+                    "check with a spirit level",
+                    "long spirit level",
+                    "level bubble"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Check the wall with a spirit level.",
+                  "answer": "spirit level",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The spirit level shows that the shelf is crooked.",
+                  "answer": "spirit level",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "plumb-line",
+              "locales": {
+                "PT": {
+                  "text": "prumo",
+                  "definition": "Fio com um peso na ponta usado para conferir se uma parede ou poste está perfeitamente vertical.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "plumb line",
+                  "definition": "A string with a weight on the end used to check that a wall or post is perfectly vertical.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plumb significa perfeitamente vertical: the wall is plumb. Out of plumb é desaprumado.",
+                  "collocations": [
+                    "hang a plumb line",
+                    "plumb bob",
+                    "plumb and level",
+                    "check plumb"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Hang a plumb line to check the corner.",
+                  "answer": "plumb line",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The plumb line shows the wall leans slightly.",
+                  "answer": "plumb line",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "wheelbarrow",
+              "locales": {
+                "PT": {
+                  "text": "carrinho de mão",
+                  "definition": "Pequeno carrinho de uma roda e duas alças usado para transportar cargas pesadas na obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "wheelbarrow",
+                  "definition": "A small cart with one wheel and two handles used to move heavy loads around a site.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pronúncia /ˈwiːlˌbæroʊ/. Barrow sozinho também designa o carrinho, mas é menos comum.",
+                  "collocations": [
+                    "push a wheelbarrow",
+                    "load a wheelbarrow",
+                    "wheelbarrow of cement",
+                    "wheelbarrow wheel"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Fill the wheelbarrow with sand.",
+                  "answer": "wheelbarrow",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He pushed the wheelbarrow across the site.",
+                  "answer": "wheelbarrow",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "chisel",
+              "locales": {
+                "PT": {
+                  "text": "talhadeira",
+                  "definition": "Ferramenta de ponta afiada, golpeada com martelo, usada para cortar ou dar forma a pedra, tijolo ou metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "chisel",
+                  "definition": "A tool with a sharp edge, struck with a hammer, used to cut or shape stone, brick or metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Cold chisel serve para metal e concreto; wood chisel (formão) é para madeira.",
+                  "collocations": [
+                    "cold chisel",
+                    "masonry chisel",
+                    "sharpen a chisel",
+                    "hammer and chisel"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Use a chisel to remove the old tile.",
+                  "answer": "chisel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He cut a channel in the wall with a chisel.",
+                  "answer": "chisel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "sledgehammer",
+              "locales": {
+                "PT": {
+                  "text": "marreta",
+                  "definition": "Martelo pesado de cabo longo usado em demolição e para cravar estacas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sledgehammer",
+                  "definition": "A heavy hammer with a long handle used for demolition and driving stakes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Mallet é o martelo de borracha ou madeira, mais leve.",
+                  "collocations": [
+                    "swing a sledgehammer",
+                    "demolition sledgehammer",
+                    "sledgehammer handle",
+                    "heavy sledgehammer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "They broke the old wall with a sledgehammer.",
+                  "answer": "sledgehammer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A sledgehammer is too heavy for fine work.",
+                  "answer": "sledgehammer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "materiais",
+      "title": "Materiais",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "materiais-basicos",
+          "title": "Materiais básicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "cement",
+              "locales": {
+                "PT": {
+                  "text": "cimento",
+                  "definition": "Pó fino que endurece quando misturado com água e une areia e pedra em concreto ou argamassa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cement",
+                  "definition": "A fine powder that hardens when mixed with water and binds sand and stone into concrete or mortar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Cement é só o pó ligante; concrete é a mistura pronta. Muita gente confunde os dois em inglês.",
+                  "collocations": [
+                    "Portland cement",
+                    "bag of cement",
+                    "cement mix",
+                    "cement dust"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Mix one part cement with three parts sand.",
+                  "answer": "cement",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Store the cement in a dry place.",
+                  "answer": "cement",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "mortar",
+              "locales": {
+                "PT": {
+                  "text": "argamassa",
+                  "definition": "Mistura de cimento, areia e água usada para unir tijolos ou pedras.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "mortar",
+                  "definition": "A mixture of cement, sand and water used to bond bricks or stones.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Mortar une as peças; plaster reveste a parede por dentro; render é o reboco externo.",
+                  "collocations": [
+                    "mix mortar",
+                    "mortar joint",
+                    "bed of mortar",
+                    "mortar mix"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Apply mortar to the brick before laying it.",
+                  "answer": "mortar",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The mortar between the bricks is cracking.",
+                  "answer": "mortar",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "concrete",
+              "locales": {
+                "PT": {
+                  "text": "concreto",
+                  "definition": "Material de construção duro feito pela mistura de cimento, areia, brita e água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "concrete",
+                  "definition": "A hard building material made by mixing cement, sand, gravel and water.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Ready-mix concrete é o concreto usinado. Como adjetivo: a concrete floor é um piso de concreto.",
+                  "collocations": [
+                    "pour concrete",
+                    "ready-mix concrete",
+                    "concrete slab",
+                    "precast concrete"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The workers poured the concrete at dawn.",
+                  "answer": "concrete",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cure the concrete for at least seven days.",
+                  "answer": "concrete",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "brick",
+              "locales": {
+                "PT": {
+                  "text": "tijolo",
+                  "definition": "Bloco retangular de argila cozida usado para levantar paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "brick",
+                  "definition": "A rectangular block of fired clay used to build walls.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Block é o bloco maior, em geral de concreto (concrete block). Brick é o tijolo de argila.",
+                  "collocations": [
+                    "clay brick",
+                    "hollow brick",
+                    "brick wall",
+                    "brick by brick"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Lay the first course of brick along the line.",
+                  "answer": "brick",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each brick weighs about three kilograms.",
+                  "answer": "brick",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "sand",
+              "locales": {
+                "PT": {
+                  "text": "areia",
+                  "definition": "Grãos soltos de rocha usados em argamassa, concreto e aterros.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sand",
+                  "definition": "Loose grains of rock used in mortar, concrete and as fill.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sharp sand (areia grossa) serve para concreto; soft sand, para argamassa e reboco. Gravel é a brita.",
+                  "collocations": [
+                    "fine sand",
+                    "coarse sand",
+                    "sharp sand",
+                    "builder's sand"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Wash the sand before mixing the mortar.",
+                  "answer": "sand",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Fine sand gives a smoother plaster.",
+                  "answer": "sand",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "rebar",
+              "locales": {
+                "PT": {
+                  "text": "vergalhão",
+                  "definition": "Barra de aço embutida no concreto para resistir à tração e evitar fissuras.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "rebar",
+                  "definition": "A steel bar embedded in concrete to resist tension and cracking.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação de reinforcing bar. Rebar cage é a armadura montada; stirrup é o estribo.",
+                  "collocations": [
+                    "steel rebar",
+                    "rebar cage",
+                    "rebar spacing",
+                    "tie rebar"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Tie the rebar before pouring the concrete.",
+                  "answer": "rebar",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The rebar must have enough cover to avoid rust.",
+                  "answer": "rebar",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alvenaria",
+      "title": "Alvenaria",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "paredes-e-contrapiso",
+          "title": "Paredes e contrapiso",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "masonry",
+              "locales": {
+                "PT": {
+                  "text": "alvenaria",
+                  "definition": "Construção feita de unidades como tijolos, blocos ou pedras unidas com argamassa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "masonry",
+                  "definition": "Construction made of individual units such as bricks, blocks or stone bonded with mortar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Mason é o pedreiro; stonemason trabalha com pedra e bricklayer assenta tijolos.",
+                  "collocations": [
+                    "masonry wall",
+                    "masonry work",
+                    "stone masonry",
+                    "masonry contractor"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The house has load-bearing masonry walls.",
+                  "answer": "masonry",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He specializes in brick and stone masonry.",
+                  "answer": "masonry",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "course",
+              "locales": {
+                "PT": {
+                  "text": "fiada",
+                  "definition": "Camada horizontal contínua de tijolos ou blocos em uma parede.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "course",
+                  "definition": "A continuous horizontal layer of bricks or blocks in a wall.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Damp-proof course (DPC) é a barreira de umidade na base da parede.",
+                  "collocations": [
+                    "first course",
+                    "brick course",
+                    "damp-proof course",
+                    "stagger the courses"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Lay the second course so the joints are staggered.",
+                  "answer": "course",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Check each course with the level before continuing.",
+                  "answer": "course",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "lintel",
+              "locales": {
+                "PT": {
+                  "text": "verga",
+                  "definition": "Viga horizontal colocada sobre uma porta ou janela para suportar a parede acima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "lintel",
+                  "definition": "A horizontal beam placed above a door or window opening to carry the wall above it.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O equivalente abaixo da janela é a sill (peitoril).",
+                  "collocations": [
+                    "concrete lintel",
+                    "steel lintel",
+                    "window lintel",
+                    "lintel beam"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A concrete lintel supports the wall above the window.",
+                  "answer": "lintel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Install the lintel before building the next course.",
+                  "answer": "lintel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "joint",
+              "locales": {
+                "PT": {
+                  "text": "junta",
+                  "definition": "Espaço entre dois tijolos ou blocos, em geral preenchido com argamassa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "joint",
+                  "definition": "The space between two bricks or blocks, usually filled with mortar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Expansion joint (junta de dilatação) permite que a estrutura se mova. Pointing é o acabamento das juntas.",
+                  "collocations": [
+                    "mortar joint",
+                    "expansion joint",
+                    "flush joint",
+                    "tooling a joint"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Finish the joint with the pointing trowel.",
+                  "answer": "joint",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A cracked joint lets water into the wall.",
+                  "answer": "joint",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "plaster",
+              "locales": {
+                "PT": {
+                  "text": "reboco (gesso)",
+                  "definition": "Mistura aplicada em camada fina sobre paredes e tetos para dar uma superfície lisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "plaster",
+                  "definition": "A mixture applied in a thin layer to walls or ceilings to give a smooth surface.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Skim coat é a camada fina final. Nos EUA, o drywall substitui o plaster em muitas casas.",
+                  "collocations": [
+                    "lime plaster",
+                    "plaster coat",
+                    "plaster finish",
+                    "skim plaster"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Apply two coats of plaster to the wall.",
+                  "answer": "plaster",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The plaster cracked as it dried.",
+                  "answer": "plaster",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "screed",
+              "locales": {
+                "PT": {
+                  "text": "contrapiso",
+                  "definition": "Camada fina de cimento e areia espalhada sobre a laje para criar uma superfície lisa e nivelada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "screed",
+                  "definition": "A thin layer of cement and sand spread over a floor slab to create a smooth, level surface.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Screeding é o ato de nivelar. A laje é o slab; o screed é a camada de regularização.",
+                  "collocations": [
+                    "floor screed",
+                    "liquid screed",
+                    "screed thickness",
+                    "lay a screed"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The screed must dry completely before the tiles go down.",
+                  "answer": "screed",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Level the screed with a long straightedge.",
+                  "answer": "screed",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estrutura-da-obra",
+      "title": "Estrutura da obra",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "fundacao-e-concreto",
+          "title": "Fundação e concreto",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "footing",
+              "locales": {
+                "PT": {
+                  "text": "sapata",
+                  "definition": "Base alargada de uma fundação que distribui a carga de uma parede ou pilar sobre o solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "footing",
+                  "definition": "The wide base of a foundation that spreads the load of a wall or column over the soil.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Strip footing fica sob paredes; pad footing, sob pilares. Foundation é o conjunto.",
+                  "collocations": [
+                    "concrete footing",
+                    "strip footing",
+                    "footing depth",
+                    "pad footing"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Dig the trench for the footing first.",
+                  "answer": "footing",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The footing must reach firm soil.",
+                  "answer": "footing",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "slab",
+              "locales": {
+                "PT": {
+                  "text": "laje",
+                  "definition": "Placa horizontal e plana de concreto que forma um piso, uma cobertura ou uma fundação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "slab",
+                  "definition": "A flat, horizontal plate of concrete forming a floor, roof or foundation.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Slab on grade é a laje apoiada direto no solo. Precast slab é a laje pré-moldada.",
+                  "collocations": [
+                    "concrete slab",
+                    "floor slab",
+                    "slab on grade",
+                    "roof slab"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The slab was poured in one day.",
+                  "answer": "slab",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cracks appeared in the ground floor slab.",
+                  "answer": "slab",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "formwork",
+              "locales": {
+                "PT": {
+                  "text": "fôrma",
+                  "definition": "Molde provisório onde o concreto é lançado até endurecer.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "formwork",
+                  "definition": "The temporary mold into which concrete is poured until it hardens.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No Reino Unido também se diz shuttering. Strip é desformar.",
+                  "collocations": [
+                    "install formwork",
+                    "strip the formwork",
+                    "timber formwork",
+                    "formwork panel"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Remove the formwork after seven days.",
+                  "answer": "formwork",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The formwork must be braced to resist the pressure of wet concrete.",
+                  "answer": "formwork",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "curing",
+              "locales": {
+                "PT": {
+                  "text": "cura",
+                  "definition": "Manter o concreto úmido e em temperatura adequada enquanto ele ganha resistência.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "curing",
+                  "definition": "Keeping concrete moist and at a suitable temperature while it gains strength.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Curing é diferente de drying: o concreto ganha resistência por reação química com a água.",
+                  "collocations": [
+                    "curing time",
+                    "concrete curing",
+                    "moist curing",
+                    "curing compound"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Proper curing prevents cracks in the slab.",
+                  "answer": "curing",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cover the slab with wet burlap during curing.",
+                  "answer": "curing",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "waterproofing",
+              "locales": {
+                "PT": {
+                  "text": "impermeabilização",
+                  "definition": "Tratamento de uma superfície ou estrutura para que a água não passe por ela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "waterproofing",
+                  "definition": "Treating a surface or structure so that water cannot pass through it.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Damp proofing protege contra umidade ascendente; waterproofing, contra água sob pressão.",
+                  "collocations": [
+                    "waterproofing membrane",
+                    "basement waterproofing",
+                    "apply waterproofing",
+                    "waterproofing layer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The basement needs new waterproofing.",
+                  "answer": "waterproofing",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Apply the waterproofing before backfilling.",
+                  "answer": "waterproofing",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "excavation",
+              "locales": {
+                "PT": {
+                  "text": "escavação",
+                  "definition": "Processo de cavar e retirar terra para preparar o terreno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "excavation",
+                  "definition": "The process of digging and removing soil to prepare a site.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Excavator é a escavadeira; trench é a vala. Backfill é o reaterro.",
+                  "collocations": [
+                    "deep excavation",
+                    "trench excavation",
+                    "excavation work",
+                    "excavation permit"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The excavation for the foundation took three days.",
+                  "answer": "excavation",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Shore the excavation to prevent a collapse.",
+                  "answer": "excavation",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "acabamento",
+      "title": "Acabamento",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "revestimentos-e-pintura",
+          "title": "Revestimentos e pintura",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "tile",
+              "locales": {
+                "PT": {
+                  "text": "azulejo (piso cerâmico)",
+                  "definition": "Peça fina de cerâmica, pedra ou outro material usada para revestir pisos e paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "tile",
+                  "definition": "A thin piece of ceramic, stone or other material used to cover floors and walls.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tiler é quem assenta azulejo. Tile adhesive é a argamassa colante.",
+                  "collocations": [
+                    "ceramic tile",
+                    "floor tile",
+                    "wall tile",
+                    "tile adhesive"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Lay the tile with a 3 mm gap.",
+                  "answer": "tile",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A cracked tile must be replaced.",
+                  "answer": "tile",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "grout",
+              "locales": {
+                "PT": {
+                  "text": "rejunte",
+                  "definition": "Pasta parecida com argamassa usada para preencher os espaços entre azulejos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "grout",
+                  "definition": "A thin mortar-like paste used to fill the gaps between tiles.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também é verbo: to grout. Grout line é a linha entre os azulejos.",
+                  "collocations": [
+                    "tile grout",
+                    "grout line",
+                    "epoxy grout",
+                    "grout the tiles"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Apply the grout with a rubber float.",
+                  "answer": "grout",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The grout turned dark because of mold.",
+                  "answer": "grout",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "drywall",
+              "locales": {
+                "PT": {
+                  "text": "drywall (gesso acartonado)",
+                  "definition": "Painel de gesso entre folhas de papel, usado em paredes e tetos internos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "drywall",
+                  "definition": "A panel made of gypsum plaster between sheets of paper, used for interior walls and ceilings.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo americano. No Reino Unido: plasterboard. Joint compound é a massa de acabamento das juntas.",
+                  "collocations": [
+                    "hang drywall",
+                    "drywall panel",
+                    "drywall joint compound",
+                    "drywall screw"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "They installed drywall in the new office.",
+                  "answer": "drywall",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Fill the screw holes in the drywall.",
+                  "answer": "drywall",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "skirting-board",
+              "locales": {
+                "PT": {
+                  "text": "rodapé",
+                  "definition": "Tábua fixada na base de uma parede interna, onde ela encontra o piso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "skirting board",
+                  "definition": "A board fixed along the bottom of an interior wall where it meets the floor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Nos EUA se diz baseboard. Shoe molding cobre a junta com o piso.",
+                  "collocations": [
+                    "fit a skirting board",
+                    "wooden skirting board",
+                    "skirting board height",
+                    "paint skirting boards"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Paint the skirting board after the walls.",
+                  "answer": "skirting board",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The skirting board hides the gap at the floor.",
+                  "answer": "skirting board",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "sealant",
+              "locales": {
+                "PT": {
+                  "text": "selante (vedante)",
+                  "definition": "Material flexível usado para preencher frestas e impedir vazamentos de ar ou água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sealant",
+                  "definition": "A flexible material used to fill gaps and prevent leaks of air or water.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Caulk é o termo americano para um selante parecido; caulking gun é a pistola de aplicação.",
+                  "collocations": [
+                    "silicone sealant",
+                    "apply sealant",
+                    "sealant gun",
+                    "waterproof sealant"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Apply sealant around the window frame.",
+                  "answer": "sealant",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The old sealant has cracked and must be replaced.",
+                  "answer": "sealant",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "primer",
+              "locales": {
+                "PT": {
+                  "text": "primer (fundo preparador)",
+                  "definition": "Primeira demão de tinta ou líquido aplicada para melhorar a aderência e o acabamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "primer",
+                  "definition": "A first coat of paint or liquid applied to a surface to improve adhesion and finish.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sequência: primer e depois paint. Undercoat é a demão de base antes da final.",
+                  "collocations": [
+                    "apply primer",
+                    "wall primer",
+                    "primer coat",
+                    "stain-blocking primer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Apply a coat of primer before painting.",
+                  "answer": "primer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The primer seals the porous wall.",
+                  "answer": "primer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "seguranca-na-obra",
+      "title": "Segurança na obra",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "protecao-no-canteiro",
+          "title": "Proteção no canteiro",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "hard-hat",
+              "locales": {
+                "PT": {
+                  "text": "capacete",
+                  "definition": "Capacete rígido usado em obras para proteger a cabeça.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hard hat",
+                  "definition": "A rigid protective helmet worn on construction sites to protect the head.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz safety helmet. Hard hat area indica onde o uso é obrigatório.",
+                  "collocations": [
+                    "wear a hard hat",
+                    "safety helmet",
+                    "hard hat area",
+                    "hard hat required"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Everyone must wear a hard hat on site.",
+                  "answer": "hard hat",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The hard hat saved him from a head injury.",
+                  "answer": "hard hat",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "safety-harness",
+              "locales": {
+                "PT": {
+                  "text": "cinto de segurança (tipo paraquedista)",
+                  "definition": "Equipamento vestido pelo trabalhador para evitar quedas de altura, preso a um ponto de ancoragem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "safety harness",
+                  "definition": "Equipment worn by a worker to prevent falls from height, attached to an anchor point.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Lanyard é o talabarte que liga o harness ao ponto de ancoragem. Trabalho em altura exige harness.",
+                  "collocations": [
+                    "fall arrest harness",
+                    "wear a safety harness",
+                    "anchor point",
+                    "lanyard"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Wear a safety harness when working on the roof.",
+                  "answer": "safety harness",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Inspect the safety harness before each use.",
+                  "answer": "safety harness",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "protective-equipment",
+              "locales": {
+                "PT": {
+                  "text": "equipamento de proteção",
+                  "definition": "Roupas e acessórios usados para proteger o trabalhador de lesões e riscos à saúde.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "protective equipment",
+                  "definition": "Clothing and gear worn to protect a worker from injury or health hazards.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sigla: PPE (no Brasil, EPI). Inclui capacete, luvas, óculos, botas e protetor auricular.",
+                  "collocations": [
+                    "personal protective equipment",
+                    "wear protective equipment",
+                    "PPE",
+                    "protective equipment checklist"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Personal protective equipment is mandatory in this area.",
+                  "answer": "protective equipment",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Check that your protective equipment is in good condition.",
+                  "answer": "protective equipment",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "foreman",
+              "locales": {
+                "PT": {
+                  "text": "mestre de obras",
+                  "definition": "Trabalhador experiente responsável por uma equipe em um canteiro de obras.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "foreman",
+                  "definition": "A skilled worker in charge of a crew on a construction site.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Foreman supervisiona a equipe; site manager gerencia a obra toda. Crew leader é a forma neutra quanto ao gênero.",
+                  "collocations": [
+                    "site foreman",
+                    "report to the foreman",
+                    "foreman's instructions",
+                    "construction foreman"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The foreman assigned the tasks for the day.",
+                  "answer": "foreman",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Report any accident to the foreman immediately.",
+                  "answer": "foreman",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "scaffolding",
+              "locales": {
+                "PT": {
+                  "text": "andaime",
+                  "definition": "Estrutura provisória de tubos e plataformas usada para alcançar áreas altas durante a obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "scaffolding",
+                  "definition": "A temporary structure of poles and platforms used to reach high areas during construction.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É incontável: scaffolding. Uma peça isolada é a scaffold.",
+                  "collocations": [
+                    "erect scaffolding",
+                    "scaffolding tower",
+                    "scaffolding platform",
+                    "dismantle scaffolding"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The scaffolding must be inspected every week.",
+                  "answer": "scaffolding",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Workers climbed the scaffolding to paint the facade.",
+                  "answer": "scaffolding",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "hazard",
+              "locales": {
+                "PT": {
+                  "text": "perigo (fonte de risco)",
+                  "definition": "Algo com potencial de causar dano ou lesão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hazard",
+                  "definition": "Something that has the potential to cause harm or injury.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Hazard é a fonte do dano; risk é a probabilidade de o dano ocorrer.",
+                  "collocations": [
+                    "safety hazard",
+                    "trip hazard",
+                    "fire hazard",
+                    "identify a hazard"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Loose cables are a trip hazard.",
+                  "answer": "hazard",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Report every hazard to the safety officer.",
+                  "answer": "hazard",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

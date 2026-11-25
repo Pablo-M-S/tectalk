@@ -1507,6 +1507,1464 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "web-e-apis",
+      "title": "Web e APIs",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "requisicoes-http",
+          "title": "Requisições HTTP",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "request",
+              "locales": {
+                "PT": {
+                  "text": "requisição",
+                  "definition": "Mensagem enviada por um cliente a um servidor pedindo um recurso ou uma ação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "request",
+                  "definition": "A message sent by a client to a server asking for a resource or an action.",
+                  "informalForms": [
+                    "call"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No contexto web: HTTP request. A resposta é a response. Não confunda com feature request, que é um pedido de nova funcionalidade.",
+                  "collocations": [
+                    "send a request",
+                    "HTTP request",
+                    "request body",
+                    "request timeout"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The server rejected the request because of a missing header.",
+                  "answer": "request",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each request must include a valid access token.",
+                  "answer": "request",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "response",
+              "locales": {
+                "PT": {
+                  "text": "resposta (HTTP)",
+                  "definition": "Mensagem devolvida pelo servidor ao cliente depois de uma requisição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "response",
+                  "definition": "The message a server sends back to a client after a request.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pareada com request. Response time é o tempo de resposta; response code é o status (200, 404...).",
+                  "collocations": [
+                    "HTTP response",
+                    "response time",
+                    "error response",
+                    "response body"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The API returns a JSON response.",
+                  "answer": "response",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A slow response degrades the user experience.",
+                  "answer": "response",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "status-code",
+              "locales": {
+                "PT": {
+                  "text": "código de status",
+                  "definition": "Número de três dígitos que indica o resultado de uma requisição HTTP.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "status code",
+                  "definition": "A three-digit number that tells whether an HTTP request succeeded or failed.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Famílias: 2xx sucesso, 3xx redirecionamento, 4xx erro do cliente e 5xx erro do servidor.",
+                  "collocations": [
+                    "HTTP status code",
+                    "return a status code",
+                    "error status code",
+                    "status code 200"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A 404 status code means the resource was not found.",
+                  "answer": "status code",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The service returned a 500 status code during peak hours.",
+                  "answer": "status code",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "authentication",
+              "locales": {
+                "PT": {
+                  "text": "autenticação",
+                  "definition": "Processo de confirmar a identidade de quem está acessando um sistema.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "authentication",
+                  "definition": "The process of verifying who a user or system claims to be.",
+                  "informalForms": [
+                    "login check"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Authentication = quem você é; authorization = o que você pode fazer. A abreviação informal auth mistura os dois.",
+                  "collocations": [
+                    "two-factor authentication",
+                    "token-based authentication",
+                    "authentication failure",
+                    "user authentication"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Two-factor authentication is required for admin accounts.",
+                  "answer": "authentication",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The endpoint fails when authentication is missing.",
+                  "answer": "authentication",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "token",
+              "locales": {
+                "PT": {
+                  "text": "token",
+                  "definition": "Cadeia de caracteres que representa a identidade ou a permissão de um usuário, usada no lugar da senha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "token",
+                  "definition": "A string of characters that represents a user's identity or permissions, used instead of a password.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em APIs: access token (curta duração) e refresh token (renova o acesso).",
+                  "collocations": [
+                    "access token",
+                    "refresh token",
+                    "token expires",
+                    "bearer token"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The access token expires after one hour.",
+                  "answer": "token",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Refresh the token before sending the next request.",
+                  "answer": "token",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "rate-limit",
+              "locales": {
+                "PT": {
+                  "text": "limite de requisições",
+                  "definition": "Número máximo de requisições que um cliente pode fazer em um intervalo de tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "rate limit",
+                  "definition": "The maximum number of requests a client may make to an API in a given period.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O erro típico é HTTP 429 (Too Many Requests). O verbo para reduzir o ritmo é throttle.",
+                  "collocations": [
+                    "exceed the rate limit",
+                    "rate limit error",
+                    "apply a rate limit",
+                    "rate limit header"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The client exceeded the rate limit and received a 429 error.",
+                  "answer": "rate limit",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We added a rate limit to protect the public endpoint.",
+                  "answer": "rate limit",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "testes",
+      "title": "Testes automatizados",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "tipos-de-teste",
+          "title": "Tipos de teste",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "unit-test",
+              "locales": {
+                "PT": {
+                  "text": "teste unitário",
+                  "definition": "Teste automatizado que verifica o comportamento de uma pequena parte isolada do código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "unit test",
+                  "definition": "An automated test that checks the behavior of a small, isolated piece of code.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em code review: add a test, cover this case. Testes maiores: integration test e end-to-end (E2E) test.",
+                  "collocations": [
+                    "write a unit test",
+                    "unit test coverage",
+                    "pass a unit test",
+                    "failing unit test"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Please add a unit test for this edge case.",
+                  "answer": "unit test",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The unit test fails when the input is empty.",
+                  "answer": "unit test",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "integration-test",
+              "locales": {
+                "PT": {
+                  "text": "teste de integração",
+                  "definition": "Teste que verifica se vários componentes funcionam corretamente em conjunto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "integration test",
+                  "definition": "A test that checks whether several components work correctly together.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Fica entre o unit test e o end-to-end test. Costuma ser mais lento por usar banco de dados ou serviços reais.",
+                  "collocations": [
+                    "run integration tests",
+                    "integration test suite",
+                    "write an integration test",
+                    "failing integration test"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "An integration test verifies that the API talks to the database correctly.",
+                  "answer": "integration test",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The integration test runs against a staging environment.",
+                  "answer": "integration test",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "mock",
+              "locales": {
+                "PT": {
+                  "text": "mock (objeto simulado)",
+                  "definition": "Objeto que imita uma dependência real durante um teste, para isolar o código testado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "mock",
+                  "definition": "A fake object that imitates a real dependency during a test so the code under test stays isolated.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: to mock a dependency. Termos parentes: stub (devolve dados fixos) e spy (registra as chamadas).",
+                  "collocations": [
+                    "mock an object",
+                    "mock service",
+                    "mock data",
+                    "mock response"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Use a mock instead of calling the payment service.",
+                  "answer": "mock",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The test passes only because the mock always returns success.",
+                  "answer": "mock",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "code-coverage",
+              "locales": {
+                "PT": {
+                  "text": "cobertura de código",
+                  "definition": "Porcentagem do código executada pelos testes automatizados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "code coverage",
+                  "definition": "The percentage of code that is executed by automated tests.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Coverage alto não prova qualidade: mede o que foi executado, não o que foi verificado.",
+                  "collocations": [
+                    "increase code coverage",
+                    "coverage report",
+                    "code coverage threshold",
+                    "line coverage"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The team requires 80 percent code coverage before merging.",
+                  "answer": "code coverage",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "High code coverage does not guarantee good tests.",
+                  "answer": "code coverage",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "assertion",
+              "locales": {
+                "PT": {
+                  "text": "asserção",
+                  "definition": "Verificação em um teste que compara o resultado obtido com o esperado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "assertion",
+                  "definition": "A statement in a test that compares the actual result with the expected one.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: assert (assert that x equals y). Bibliotecas de teste trazem assertions como expect e assertEquals.",
+                  "collocations": [
+                    "assertion error",
+                    "failed assertion",
+                    "add an assertion",
+                    "assertion library"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The assertion fails because the total is off by one.",
+                  "answer": "assertion",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Add an assertion to check the error message.",
+                  "answer": "assertion",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "flaky-test",
+              "locales": {
+                "PT": {
+                  "text": "teste instável",
+                  "definition": "Teste que às vezes passa e às vezes falha sem nenhuma mudança no código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "flaky test",
+                  "definition": "A test that sometimes passes and sometimes fails without any change in the code.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Causas comuns: horário, ordem de execução e rede. O substantivo é flakiness.",
+                  "collocations": [
+                    "fix a flaky test",
+                    "quarantine a flaky test",
+                    "flaky test failure",
+                    "flaky tests"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "That flaky test keeps breaking our pipeline.",
+                  "answer": "flaky test",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We quarantined the flaky test until it is fixed.",
+                  "answer": "flaky test",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "infraestrutura",
+      "title": "Infraestrutura",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "entrega-e-operacao",
+          "title": "Entrega e operação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "container",
+              "locales": {
+                "PT": {
+                  "text": "contêiner",
+                  "definition": "Pacote isolado que reúne uma aplicação e tudo de que ela precisa para rodar, igual em qualquer ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "container",
+                  "definition": "An isolated package that bundles an application with everything it needs to run, identically in any environment.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Container é a instância em execução; image é o modelo imutável usado para criá-lo.",
+                  "collocations": [
+                    "Docker container",
+                    "container image",
+                    "run a container",
+                    "container registry"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The service runs in a Docker container.",
+                  "answer": "container",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Restart the container if the health check fails.",
+                  "answer": "container",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "pipeline",
+              "locales": {
+                "PT": {
+                  "text": "pipeline (CI/CD)",
+                  "definition": "Sequência automática de etapas, como compilar, testar e publicar, executada a cada mudança no código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pipeline",
+                  "definition": "An automated sequence of steps such as build, test and deploy that runs on every code change.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Costuma-se dizer CI/CD pipeline. Dizer que a pipeline is green ou red indica sucesso ou falha.",
+                  "collocations": [
+                    "CI/CD pipeline",
+                    "pipeline fails",
+                    "pipeline stage",
+                    "trigger a pipeline"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The pipeline failed at the test stage.",
+                  "answer": "pipeline",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A green pipeline is required before merging.",
+                  "answer": "pipeline",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "environment-variable",
+              "locales": {
+                "PT": {
+                  "text": "variável de ambiente",
+                  "definition": "Valor de configuração definido fora do código e lido pela aplicação ao iniciar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "environment variable",
+                  "definition": "A configuration value set outside the code and read by the application at startup.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação informal: env var. Nunca versione segredos: use environment variables ou um secrets manager.",
+                  "collocations": [
+                    "set an environment variable",
+                    "read an environment variable",
+                    "environment variable file",
+                    "production environment variable"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Store secrets in an environment variable, not in the code.",
+                  "answer": "environment variable",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The app reads the database URL from an environment variable.",
+                  "answer": "environment variable",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "load-balancer",
+              "locales": {
+                "PT": {
+                  "text": "balanceador de carga",
+                  "definition": "Componente que distribui as requisições entre vários servidores para evitar sobrecarga.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "load balancer",
+                  "definition": "A component that distributes incoming requests across several servers to prevent overload.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Health check é o teste periódico que mostra ao balanceador quais instâncias estão saudáveis.",
+                  "collocations": [
+                    "application load balancer",
+                    "configure a load balancer",
+                    "load balancer health check",
+                    "behind a load balancer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The load balancer routes traffic to healthy instances only.",
+                  "answer": "load balancer",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We placed a load balancer in front of the API.",
+                  "answer": "load balancer",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "scalability",
+              "locales": {
+                "PT": {
+                  "text": "escalabilidade",
+                  "definition": "Capacidade de um sistema de manter o desempenho conforme a demanda cresce.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "scalability",
+                  "definition": "The ability of a system to keep performing well as demand grows.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vertical scaling = máquina maior; horizontal scaling = mais máquinas. O adjetivo é scalable.",
+                  "collocations": [
+                    "horizontal scalability",
+                    "scalability issue",
+                    "improve scalability",
+                    "scalability test"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The main concern is scalability under peak load.",
+                  "answer": "scalability",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Good scalability means performance holds as traffic grows.",
+                  "answer": "scalability",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "uptime",
+              "locales": {
+                "PT": {
+                  "text": "disponibilidade (tempo em operação)",
+                  "definition": "Porcentagem do tempo em que um serviço está funcionando e acessível.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "uptime",
+                  "definition": "The percentage of time a service is running and available.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O oposto é downtime. O SLA costuma definir o uptime garantido.",
+                  "collocations": [
+                    "99.9 percent uptime",
+                    "uptime guarantee",
+                    "monitor uptime",
+                    "maintain uptime"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The contract guarantees 99.9 percent uptime.",
+                  "answer": "uptime",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Our uptime dropped after the database outage.",
+                  "answer": "uptime",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estruturas-de-dados",
+      "title": "Estruturas de dados",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "estruturas-e-algoritmos",
+          "title": "Estruturas e algoritmos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "stack",
+              "locales": {
+                "PT": {
+                  "text": "pilha",
+                  "definition": "Estrutura de dados em que o último elemento inserido é o primeiro a sair (LIFO).",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "stack",
+                  "definition": "A data structure in which the last element added is the first one removed (LIFO).",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Operações: push e pop. Stack trace é o rastro de chamadas mostrado num erro; não é a estrutura em si.",
+                  "collocations": [
+                    "push onto the stack",
+                    "pop from the stack",
+                    "call stack",
+                    "stack overflow"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Push the value onto the stack.",
+                  "answer": "stack",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The error occurred because the stack overflowed.",
+                  "answer": "stack",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "queue",
+              "locales": {
+                "PT": {
+                  "text": "fila",
+                  "definition": "Estrutura de dados em que o primeiro elemento inserido é o primeiro a sair (FIFO).",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "queue",
+                  "definition": "A data structure in which the first element added is the first one removed (FIFO).",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Operações: enqueue e dequeue. Uma message queue (RabbitMQ, SQS) desacopla serviços.",
+                  "collocations": [
+                    "message queue",
+                    "job queue",
+                    "enqueue and dequeue",
+                    "queue is full"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Messages wait in the queue until a worker is free.",
+                  "answer": "queue",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Add the job to the queue.",
+                  "answer": "queue",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "linked-list",
+              "locales": {
+                "PT": {
+                  "text": "lista encadeada",
+                  "definition": "Estrutura de dados em que cada elemento guarda uma referência para o próximo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "linked list",
+                  "definition": "A data structure in which each element holds a reference to the next one.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Cada elemento é um node. Ao contrário do array, não permite acesso direto por índice.",
+                  "collocations": [
+                    "singly linked list",
+                    "doubly linked list",
+                    "traverse a linked list",
+                    "linked list node"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Insertion in a linked list takes constant time at the head.",
+                  "answer": "linked list",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Reverse the linked list in place.",
+                  "answer": "linked list",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "recursion",
+              "locales": {
+                "PT": {
+                  "text": "recursão",
+                  "definition": "Técnica em que uma função resolve um problema chamando a si mesma com entradas menores.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "recursion",
+                  "definition": "A technique in which a function solves a problem by calling itself on smaller inputs.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Toda recursão precisa de um base case. O adjetivo é recursive e o verbo é recurse.",
+                  "collocations": [
+                    "base case",
+                    "recursive call",
+                    "infinite recursion",
+                    "tail recursion"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The tree traversal is implemented with recursion.",
+                  "answer": "recursion",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Without a base case, recursion never ends.",
+                  "answer": "recursion",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "algorithm",
+              "locales": {
+                "PT": {
+                  "text": "algoritmo",
+                  "definition": "Sequência finita e bem definida de passos para resolver um problema.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "algorithm",
+                  "definition": "A finite, well-defined sequence of steps for solving a problem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pronúncia /ˈælɡərɪðəm/. Em entrevistas técnicas fala-se em algorithm design.",
+                  "collocations": [
+                    "sorting algorithm",
+                    "search algorithm",
+                    "design an algorithm",
+                    "algorithm complexity"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "We replaced the sorting algorithm to improve performance.",
+                  "answer": "algorithm",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "This algorithm runs in linear time.",
+                  "answer": "algorithm",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "time-complexity",
+              "locales": {
+                "PT": {
+                  "text": "complexidade de tempo",
+                  "definition": "Medida de como o tempo de execução de um algoritmo cresce conforme a entrada aumenta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "time complexity",
+                  "definition": "A measure of how the running time of an algorithm grows as the input grows.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Usa-se a notação Big O. Space complexity é o equivalente para memória.",
+                  "collocations": [
+                    "linear time complexity",
+                    "constant time complexity",
+                    "analyze time complexity",
+                    "worst-case time complexity"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The time complexity of binary search is O(log n).",
+                  "answer": "time complexity",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Reduce the time complexity before optimizing the code.",
+                  "answer": "time complexity",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "seguranca",
+      "title": "Segurança",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "seguranca-de-aplicacoes",
+          "title": "Segurança de aplicações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "vulnerability",
+              "locales": {
+                "PT": {
+                  "text": "vulnerabilidade",
+                  "definition": "Falha em um software ou sistema que um atacante pode explorar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "vulnerability",
+                  "definition": "A weakness in software or a system that an attacker could exploit.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Exploit é o ataque que usa a vulnerability. CVE é o identificador público e patch é a correção.",
+                  "collocations": [
+                    "critical vulnerability",
+                    "security vulnerability",
+                    "exploit a vulnerability",
+                    "vulnerability scan"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A critical vulnerability was found in the login module.",
+                  "answer": "vulnerability",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Patch the vulnerability before the next release.",
+                  "answer": "vulnerability",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "encryption",
+              "locales": {
+                "PT": {
+                  "text": "criptografia",
+                  "definition": "Processo de transformar dados em um formato codificado que só pessoas autorizadas conseguem ler.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "encryption",
+                  "definition": "The process of converting data into a coded form so that only authorized parties can read it.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "At rest = parado no disco; in transit = trafegando. A encryption é reversível com a chave; o hashing não.",
+                  "collocations": [
+                    "end-to-end encryption",
+                    "encryption key",
+                    "encryption at rest",
+                    "encrypt data"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Data in transit is protected by TLS encryption.",
+                  "answer": "encryption",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Enable encryption at rest for the database.",
+                  "answer": "encryption",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "authorization",
+              "locales": {
+                "PT": {
+                  "text": "autorização",
+                  "definition": "Processo de decidir o que um usuário já autenticado tem permissão de fazer.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "authorization",
+                  "definition": "The process of deciding what an authenticated user is allowed to do.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vem depois da authentication. O erro 403 Forbidden indica falha de authorization; 401 indica falta de authentication.",
+                  "collocations": [
+                    "role-based authorization",
+                    "authorization check",
+                    "authorization header",
+                    "fail authorization"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The request failed authorization because the user lacks the admin role.",
+                  "answer": "authorization",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Role-based authorization limits access to sensitive data.",
+                  "answer": "authorization",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "sql-injection",
+              "locales": {
+                "PT": {
+                  "text": "injeção de SQL",
+                  "definition": "Ataque em que código SQL malicioso é inserido em um campo para manipular o banco de dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "SQL injection",
+                  "definition": "An attack in which malicious SQL code is inserted into an input to manipulate a database.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pronuncia-se 'sequel' ou 'ess-kiu-el', por isso se escreve a SQL ou an SQL conforme quem fala.",
+                  "collocations": [
+                    "prevent SQL injection",
+                    "SQL injection attack",
+                    "SQL injection vulnerability",
+                    "parameterized query"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Parameterized queries prevent SQL injection.",
+                  "answer": "SQL injection",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The audit found an SQL injection risk in the search form.",
+                  "answer": "SQL injection",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "access-control",
+              "locales": {
+                "PT": {
+                  "text": "controle de acesso",
+                  "definition": "Regras e mecanismos que definem quem pode ver ou usar cada recurso de um sistema.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "access control",
+                  "definition": "The rules and mechanisms that determine who can view or use resources in a system.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "RBAC = role-based access control. ACL = access control list.",
+                  "collocations": [
+                    "role-based access control",
+                    "access control list",
+                    "access control policy",
+                    "enforce access control"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Strict access control limits who can read patient records.",
+                  "answer": "access control",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We reviewed the access control policy last quarter.",
+                  "answer": "access control",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "audit-log",
+              "locales": {
+                "PT": {
+                  "text": "registro de auditoria",
+                  "definition": "Registro de quem fez o quê e quando em um sistema, mantido para segurança e responsabilização.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "audit log",
+                  "definition": "A record of who did what and when in a system, kept for security and accountability.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Registra eventos de segurança. Não confunda com application log, que é o log técnico da aplicação.",
+                  "collocations": [
+                    "write to the audit log",
+                    "audit log entry",
+                    "review the audit log",
+                    "immutable audit log"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The audit log shows who changed the permission.",
+                  "answer": "audit log",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Every deletion is written to the audit log.",
+                  "answer": "audit log",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "trabalho-em-equipe",
+      "title": "Trabalho em equipe",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "metodos-ageis",
+          "title": "Métodos ágeis",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "sprint",
+              "locales": {
+                "PT": {
+                  "text": "sprint",
+                  "definition": "Período curto e fixo, de uma a quatro semanas, em que a equipe entrega um conjunto planejado de trabalho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sprint",
+                  "definition": "A short, fixed period, usually one to four weeks, in which a team completes a planned set of work.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Faz parte do Scrum. A sprint planning abre; a sprint review e a retrospective fecham.",
+                  "collocations": [
+                    "sprint planning",
+                    "sprint review",
+                    "sprint goal",
+                    "current sprint"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "We planned too many tasks for this sprint.",
+                  "answer": "sprint",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The feature is scheduled for the next sprint.",
+                  "answer": "sprint",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "backlog",
+              "locales": {
+                "PT": {
+                  "text": "backlog",
+                  "definition": "Lista priorizada de tudo o que ainda precisa ser feito em um produto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "backlog",
+                  "definition": "A prioritized list of work that still needs to be done on a product.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Backlog grooming, ou refinement, é revisar e priorizar os itens.",
+                  "collocations": [
+                    "product backlog",
+                    "sprint backlog",
+                    "backlog grooming",
+                    "backlog item"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The bug was added to the backlog.",
+                  "answer": "backlog",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Groom the backlog before the planning meeting.",
+                  "answer": "backlog",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "standup",
+              "locales": {
+                "PT": {
+                  "text": "reunião diária (daily)",
+                  "definition": "Reunião curta e diária em que o time compartilha o andamento, os planos e os impedimentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "standup",
+                  "definition": "A short daily team meeting to share progress, plans and blockers.",
+                  "informalForms": [
+                    "daily meeting"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se escreve stand-up. Formato clássico: yesterday, today, blockers.",
+                  "collocations": [
+                    "daily standup",
+                    "standup meeting",
+                    "give a standup update",
+                    "skip standup"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "I will mention the blocker at tomorrow's standup.",
+                  "answer": "standup",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The standup starts at 9:30 sharp.",
+                  "answer": "standup",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "stakeholder",
+              "locales": {
+                "PT": {
+                  "text": "parte interessada",
+                  "definition": "Pessoa ou grupo com interesse em um projeto ou afetado pelo seu resultado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "stakeholder",
+                  "definition": "A person or group with an interest in a project or affected by its outcome.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Inclui clientes, gestores e usuários. Stakeholder buy-in é conseguir o apoio dessas pessoas.",
+                  "collocations": [
+                    "key stakeholder",
+                    "stakeholder meeting",
+                    "stakeholder buy-in",
+                    "manage stakeholders"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "We presented the roadmap to the key stakeholders.",
+                  "answer": "stakeholder",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Every stakeholder must approve the scope change.",
+                  "answer": "stakeholder",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "pair-programming",
+              "locales": {
+                "PT": {
+                  "text": "programação em par",
+                  "definition": "Prática em que duas pessoas desenvolvem juntas no mesmo computador, uma escrevendo e a outra revisando.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pair programming",
+                  "definition": "A practice in which two developers work together at one workstation, one writing code and the other reviewing it.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Os papéis são driver (escreve) e navigator (revisa). Mob programming é o mesmo com o time todo.",
+                  "collocations": [
+                    "practice pair programming",
+                    "remote pair programming",
+                    "pair programming session",
+                    "mob programming"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "We solved the bug through pair programming.",
+                  "answer": "pair programming",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Use pair programming to onboard new developers.",
+                  "answer": "pair programming",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "retrospective",
+              "locales": {
+                "PT": {
+                  "text": "retrospectiva",
+                  "definition": "Reunião no fim de uma sprint para refletir sobre o que funcionou e o que melhorar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "retrospective",
+                  "definition": "A team meeting held at the end of a sprint to reflect on what went well and what to improve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação informal: retro. Formatos populares: start/stop/continue e mad/sad/glad.",
+                  "collocations": [
+                    "sprint retrospective",
+                    "run a retrospective",
+                    "retrospective meeting",
+                    "retrospective action item"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "In the retrospective, we agreed to shorten code reviews.",
+                  "answer": "retrospective",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The retrospective revealed recurring communication problems.",
+                  "answer": "retrospective",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

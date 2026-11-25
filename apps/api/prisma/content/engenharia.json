@@ -1,0 +1,1473 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "engenharia-pt-en",
+    "profession": "engenharia",
+    "sourceLanguage": "PT",
+    "targetLanguage": "EN",
+    "title": "Inglês para Engenharia",
+    "description": "O vocabulário de projetos, estruturas, materiais, máquinas e gestão de obras usado em documentos técnicos internacionais.",
+    "position": 3
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "estruturas",
+      "title": "Estruturas",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "elementos-estruturais",
+          "title": "Elementos estruturais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "beam",
+              "locales": {
+                "PT": {
+                  "text": "viga",
+                  "definition": "Elemento estrutural horizontal que suporta cargas e as transfere para pilares ou paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "beam",
+                  "definition": "A horizontal structural element that carries loads and transfers them to columns or walls.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Span é o vão entre apoios. Cuidado: beam também significa feixe de luz.",
+                  "collocations": [
+                    "steel beam",
+                    "load-bearing beam",
+                    "beam deflection",
+                    "I-beam"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The steel beam supports the floor above.",
+                  "answer": "beam",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Calculate the maximum deflection of the beam.",
+                  "answer": "beam",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "column",
+              "locales": {
+                "PT": {
+                  "text": "pilar",
+                  "definition": "Elemento estrutural vertical que leva as cargas da estrutura acima até a fundação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "column",
+                  "definition": "A vertical structural member that carries compressive loads from the structure above down to the foundation.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em engenharia, column é elemento estrutural, não decorativo. Columns e beams formam o frame (pórtico).",
+                  "collocations": [
+                    "concrete column",
+                    "load-bearing column",
+                    "column spacing",
+                    "steel column"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each column carries part of the roof load.",
+                  "answer": "column",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cracks appeared at the base of the column.",
+                  "answer": "column",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "foundation",
+              "locales": {
+                "PT": {
+                  "text": "fundação",
+                  "definition": "Parte da estrutura que transfere o peso da construção para o solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "foundation",
+                  "definition": "The part of a structure that transfers its weight to the ground.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tipos: shallow (sapatas, radier) e deep (estacas). Settlement é o recalque.",
+                  "collocations": [
+                    "shallow foundation",
+                    "deep foundation",
+                    "foundation design",
+                    "foundation settlement"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The foundation was designed for soft clay soil.",
+                  "answer": "foundation",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Water infiltration weakened the foundation.",
+                  "answer": "foundation",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "load",
+              "locales": {
+                "PT": {
+                  "text": "carga",
+                  "definition": "Força ou peso que uma estrutura precisa suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "load",
+                  "definition": "A force or weight that a structure must support.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Dead load = peso próprio; live load = cargas variáveis (pessoas, móveis). Load combination reúne os casos de projeto.",
+                  "collocations": [
+                    "dead load",
+                    "live load",
+                    "wind load",
+                    "load-bearing"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The beam must carry a live load of 5 kN per square meter.",
+                  "answer": "load",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Wind load governs the design of tall buildings.",
+                  "answer": "load",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "stress",
+              "locales": {
+                "PT": {
+                  "text": "tensão (mecânica)",
+                  "definition": "Força interna por unidade de área que surge em um material quando ele é carregado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "stress",
+                  "definition": "The internal force per unit area that develops inside a material when it is loaded.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Unidade: pascal (Pa). Não confunda com strain, a deformação relativa.",
+                  "collocations": [
+                    "tensile stress",
+                    "compressive stress",
+                    "shear stress",
+                    "stress concentration"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The stress at the weld exceeds the allowable limit.",
+                  "answer": "stress",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Residual stress remains after the welding process.",
+                  "answer": "stress",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "strain",
+              "locales": {
+                "PT": {
+                  "text": "deformação",
+                  "definition": "Variação relativa da forma ou do tamanho de um material sob carga.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "strain",
+                  "definition": "The relative change in shape or size of a material under load.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É adimensional (mm/mm ou %). A stress-strain curve relaciona tensão e deformação.",
+                  "collocations": [
+                    "elastic strain",
+                    "plastic strain",
+                    "strain gauge",
+                    "strain rate"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A strain gauge measured the deformation of the beam.",
+                  "answer": "strain",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Elastic strain disappears when the load is removed.",
+                  "answer": "strain",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "materiais",
+      "title": "Materiais",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "materiais-de-engenharia",
+          "title": "Materiais de engenharia",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "steel",
+              "locales": {
+                "PT": {
+                  "text": "aço",
+                  "definition": "Liga resistente de ferro e carbono muito usada em construção e indústria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "steel",
+                  "definition": "A strong alloy of iron and carbon widely used in construction and manufacturing.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Incontável: steel. Para tipos diferentes usa-se steels. Rebar é a barra de aço usada em concreto.",
+                  "collocations": [
+                    "structural steel",
+                    "stainless steel",
+                    "carbon steel",
+                    "steel grade"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Structural steel was chosen for the bridge deck.",
+                  "answer": "steel",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The weld joins two plates of carbon steel.",
+                  "answer": "steel",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "reinforced-concrete",
+              "locales": {
+                "PT": {
+                  "text": "concreto armado",
+                  "definition": "Concreto combinado com barras de aço para resistir à tração.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "reinforced concrete",
+                  "definition": "Concrete combined with steel bars so that it can resist tension.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O concreto resiste bem à compressão e o aço, à tração. Prestressed concrete é concreto protendido.",
+                  "collocations": [
+                    "reinforced concrete beam",
+                    "prestressed concrete",
+                    "concrete cover",
+                    "reinforced concrete structure"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The slab is made of reinforced concrete.",
+                  "answer": "reinforced concrete",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cover the bars properly to protect the reinforced concrete from corrosion.",
+                  "answer": "reinforced concrete",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "alloy",
+              "locales": {
+                "PT": {
+                  "text": "liga metálica",
+                  "definition": "Metal formado pela combinação de dois ou mais elementos, sendo ao menos um deles metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "alloy",
+                  "definition": "A metal made by combining two or more elements, at least one of which is a metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Exemplos: steel (ferro e carbono), brass (cobre e zinco) e bronze (cobre e estanho).",
+                  "collocations": [
+                    "aluminum alloy",
+                    "titanium alloy",
+                    "alloy steel",
+                    "high-strength alloy"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "An aluminum alloy reduces the weight of the frame.",
+                  "answer": "alloy",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "This alloy resists corrosion in marine environments.",
+                  "answer": "alloy",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "tensile-strength",
+              "locales": {
+                "PT": {
+                  "text": "resistência à tração",
+                  "definition": "Maior tensão de tração que um material suporta antes de romper.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "tensile strength",
+                  "definition": "The maximum pulling stress a material can withstand before it breaks.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Yield strength é o limite de escoamento: a partir dele a deformação passa a ser permanente.",
+                  "collocations": [
+                    "ultimate tensile strength",
+                    "high tensile strength",
+                    "test tensile strength",
+                    "yield strength"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cable has a tensile strength of 1,770 MPa.",
+                  "answer": "tensile strength",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Heat treatment increases the tensile strength of the alloy.",
+                  "answer": "tensile strength",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "corrosion",
+              "locales": {
+                "PT": {
+                  "text": "corrosão",
+                  "definition": "Destruição gradual de um metal por reação química com o ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "corrosion",
+                  "definition": "The gradual destruction of a metal by chemical reaction with its environment.",
+                  "informalForms": [
+                    "rust"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Rust é a corrosão do ferro; corrosion é o termo geral para metais.",
+                  "collocations": [
+                    "prevent corrosion",
+                    "corrosion resistance",
+                    "galvanic corrosion",
+                    "corrosion protection"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Galvanized coating protects the pipe from corrosion.",
+                  "answer": "corrosion",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Pitting corrosion was found on the tank wall.",
+                  "answer": "corrosion",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "fatigue",
+              "locales": {
+                "PT": {
+                  "text": "fadiga",
+                  "definition": "Dano progressivo em um material causado por cargas repetidas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "fatigue",
+                  "definition": "Progressive damage in a material caused by repeated loading and unloading.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Fatigue life é o número de ciclos até a falha. Fora da engenharia, fatigue significa cansaço.",
+                  "collocations": [
+                    "fatigue failure",
+                    "fatigue life",
+                    "fatigue crack",
+                    "fatigue test"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The shaft failed due to fatigue after millions of cycles.",
+                  "answer": "fatigue",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cracks started at the weld toe because of fatigue.",
+                  "answer": "fatigue",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "projeto-e-documentacao",
+      "title": "Projeto e documentação",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "documentos-de-projeto",
+          "title": "Documentos de projeto",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "blueprint",
+              "locales": {
+                "PT": {
+                  "text": "planta (projeto técnico)",
+                  "definition": "Desenho técnico detalhado que mostra o projeto de uma estrutura ou máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "blueprint",
+                  "definition": "A detailed technical drawing that shows the design of a structure or machine.",
+                  "informalForms": [
+                    "plan"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Hoje se usa mais drawing ou plan; blueprint tem tom clássico e também sentido figurado de modelo.",
+                  "collocations": [
+                    "follow the blueprint",
+                    "architectural blueprint",
+                    "blueprint revision",
+                    "read a blueprint"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The contractor followed the blueprint closely.",
+                  "answer": "blueprint",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Changes to the blueprint need written approval.",
+                  "answer": "blueprint",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "specification",
+              "locales": {
+                "PT": {
+                  "text": "especificação",
+                  "definition": "Descrição detalhada dos requisitos, materiais e normas que um produto ou serviço deve cumprir.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "specification",
+                  "definition": "A detailed description of the requirements, materials and standards a product or work must meet.",
+                  "informalForms": [
+                    "spec"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A abreviação informal é spec. Data sheet descreve as características de um produto.",
+                  "collocations": [
+                    "technical specification",
+                    "material specification",
+                    "meet the specification",
+                    "specification sheet"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The supplier must meet the technical specification.",
+                  "answer": "specification",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The specification requires a minimum concrete strength of 30 MPa.",
+                  "answer": "specification",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "tolerance",
+              "locales": {
+                "PT": {
+                  "text": "tolerância",
+                  "definition": "Variação permitida em uma dimensão ou propriedade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "tolerance",
+                  "definition": "The permitted variation in a dimension or property.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tight tolerance indica pouca variação permitida. Out of tolerance é estar fora da faixa.",
+                  "collocations": [
+                    "dimensional tolerance",
+                    "tight tolerance",
+                    "within tolerance",
+                    "tolerance range"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The part is within the specified tolerance.",
+                  "answer": "tolerance",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A tolerance of 0.05 mm is required for the bearing seat.",
+                  "answer": "tolerance",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "safety-factor",
+              "locales": {
+                "PT": {
+                  "text": "fator de segurança",
+                  "definition": "Razão entre a resistência de um projeto e a carga que ele deve suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "safety factor",
+                  "definition": "The ratio between the strength of a design and the load it is expected to carry.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz factor of safety (FoS). Safety margin é a folga acima do exigido.",
+                  "collocations": [
+                    "apply a safety factor",
+                    "minimum safety factor",
+                    "factor of safety",
+                    "safety margin"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "We applied a safety factor of 1.5 to the cable.",
+                  "answer": "safety factor",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A higher safety factor increases cost.",
+                  "answer": "safety factor",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão (de documento)",
+                  "definition": "Nova versão de um desenho ou documento que incorpora alterações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "revision",
+                  "definition": "A new version of a drawing or document that incorporates changes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Aparece no carimbo do desenho como Rev. A, B, C. Revision cloud marca o que mudou.",
+                  "collocations": [
+                    "latest revision",
+                    "revision history",
+                    "revision number",
+                    "issue a revision"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Please use revision C of the drawing.",
+                  "answer": "revision",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each revision must be approved by the lead engineer.",
+                  "answer": "revision",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "compliance",
+              "locales": {
+                "PT": {
+                  "text": "conformidade",
+                  "definition": "Atendimento aos requisitos de leis, normas ou especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "compliance",
+                  "definition": "Meeting the requirements of laws, standards or specifications.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O adjetivo é compliant: the design is compliant with the standard.",
+                  "collocations": [
+                    "regulatory compliance",
+                    "ensure compliance",
+                    "compliance audit",
+                    "in compliance with"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The design must be in compliance with the building code.",
+                  "answer": "compliance",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A compliance audit is scheduled for next month.",
+                  "answer": "compliance",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mecanica",
+      "title": "Mecânica e máquinas",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "componentes-mecanicos",
+          "title": "Componentes mecânicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "torque",
+              "locales": {
+                "PT": {
+                  "text": "torque",
+                  "definition": "Força de rotação que tende a girar um objeto em torno de um eixo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "torque",
+                  "definition": "A rotational force that tends to turn an object around an axis.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Unidade: N·m (newton-metro). Torque wrench é a chave de torque.",
+                  "collocations": [
+                    "tightening torque",
+                    "peak torque",
+                    "torque wrench",
+                    "torque specification"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Tighten the bolt to a torque of 40 N·m.",
+                  "answer": "torque",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The motor delivers high torque at low speed.",
+                  "answer": "torque",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "bearing",
+              "locales": {
+                "PT": {
+                  "text": "rolamento (mancal)",
+                  "definition": "Peça que apoia um eixo em rotação e reduz o atrito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "bearing",
+                  "definition": "A machine part that supports a rotating shaft and reduces friction.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Ball bearing é o rolamento de esferas. Fora da mecânica, bearing também significa orientação, direção.",
+                  "collocations": [
+                    "ball bearing",
+                    "roller bearing",
+                    "bearing failure",
+                    "bearing housing"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The bearing overheated because of poor lubrication.",
+                  "answer": "bearing",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Replace the bearing if you hear a grinding noise.",
+                  "answer": "bearing",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "gear",
+              "locales": {
+                "PT": {
+                  "text": "engrenagem",
+                  "definition": "Roda dentada que transmite movimento e torque entre eixos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "gear",
+                  "definition": "A toothed wheel that transmits motion and torque between shafts.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gear ratio é a relação de transmissão. Gearbox é a caixa de engrenagens (redutor ou câmbio).",
+                  "collocations": [
+                    "gear ratio",
+                    "helical gear",
+                    "gear tooth",
+                    "gear train"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The pump is driven by a gear on the motor shaft.",
+                  "answer": "gear",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A worn gear caused the vibration.",
+                  "answer": "gear",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "shaft",
+              "locales": {
+                "PT": {
+                  "text": "eixo",
+                  "definition": "Barra rotativa que transmite potência de uma parte da máquina para outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "shaft",
+                  "definition": "A rotating bar that transmits power from one part of a machine to another.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Axle é o eixo de rodas, que sustenta peso; shaft transmite torque.",
+                  "collocations": [
+                    "drive shaft",
+                    "shaft alignment",
+                    "shaft seal",
+                    "rotating shaft"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The shaft is supported by two bearings.",
+                  "answer": "shaft",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Misalignment of the shaft damages the coupling.",
+                  "answer": "shaft",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "pump",
+              "locales": {
+                "PT": {
+                  "text": "bomba",
+                  "definition": "Máquina que movimenta líquidos ou gases por pressão ou sucção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pump",
+                  "definition": "A machine that moves liquids or gases by pressure or suction.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Centrifugal pump é o tipo mais comum. Priming é encher a bomba de fluido antes de operar.",
+                  "collocations": [
+                    "centrifugal pump",
+                    "pump capacity",
+                    "submersible pump",
+                    "pump failure"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The pump delivers 50 liters per minute.",
+                  "answer": "pump",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Check the pump for leaks before startup.",
+                  "answer": "pump",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "valve",
+              "locales": {
+                "PT": {
+                  "text": "válvula",
+                  "definition": "Dispositivo que controla o fluxo de um líquido ou gás ao abrir, fechar ou bloquear parcialmente uma passagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "valve",
+                  "definition": "A device that controls the flow of a liquid or gas by opening, closing or partly blocking a passage.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Check valve permite fluxo em um só sentido. Relief valve alivia o excesso de pressão.",
+                  "collocations": [
+                    "check valve",
+                    "relief valve",
+                    "ball valve",
+                    "shut-off valve"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Close the valve before removing the filter.",
+                  "answer": "valve",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The relief valve opens when pressure exceeds the limit.",
+                  "answer": "valve",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eletrica",
+      "title": "Elétrica",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "fundamentos-eletricos",
+          "title": "Fundamentos elétricos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "circuit",
+              "locales": {
+                "PT": {
+                  "text": "circuito",
+                  "definition": "Caminho fechado pelo qual a corrente elétrica pode circular.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "circuit",
+                  "definition": "A closed path through which electric current can flow.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Circuit breaker é o disjuntor. Short circuit (curto-circuito) é um caminho de baixa resistência.",
+                  "collocations": [
+                    "short circuit",
+                    "open circuit",
+                    "circuit breaker",
+                    "electrical circuit"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A short circuit tripped the breaker.",
+                  "answer": "circuit",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Test the circuit with a multimeter.",
+                  "answer": "circuit",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "voltage",
+              "locales": {
+                "PT": {
+                  "text": "tensão elétrica",
+                  "definition": "Diferença de potencial elétrico entre dois pontos, medida em volts.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "voltage",
+                  "definition": "The electrical potential difference between two points, measured in volts.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em português, tensão também é stress na mecânica. Em eletricidade, traduza por voltage.",
+                  "collocations": [
+                    "high voltage",
+                    "voltage drop",
+                    "rated voltage",
+                    "voltage regulator"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The sensor operates at a voltage of 5 V.",
+                  "answer": "voltage",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A voltage drop was measured along the cable.",
+                  "answer": "voltage",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "current",
+              "locales": {
+                "PT": {
+                  "text": "corrente elétrica",
+                  "definition": "Fluxo de carga elétrica por um condutor, medido em ampères.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "current",
+                  "definition": "The flow of electric charge through a conductor, measured in amperes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "AC e DC. Current também é adjetivo, 'atual': the current version.",
+                  "collocations": [
+                    "alternating current",
+                    "direct current",
+                    "rated current",
+                    "current flow"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The current rises when the load increases.",
+                  "answer": "current",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A high current can overheat the wire.",
+                  "answer": "current",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "resistance",
+              "locales": {
+                "PT": {
+                  "text": "resistência elétrica",
+                  "definition": "Oposição que um material oferece à passagem da corrente elétrica, medida em ohms.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "resistance",
+                  "definition": "The opposition a material offers to the flow of electric current, measured in ohms.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O componente é o resistor. Em materiais, resistance também é resistência mecânica.",
+                  "collocations": [
+                    "electrical resistance",
+                    "insulation resistance",
+                    "resistance value",
+                    "low resistance"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The resistance of the wire increases with temperature.",
+                  "answer": "resistance",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Measure the resistance with a multimeter.",
+                  "answer": "resistance",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "transformer",
+              "locales": {
+                "PT": {
+                  "text": "transformador",
+                  "definition": "Dispositivo que altera a tensão da corrente alternada entre dois circuitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "transformer",
+                  "definition": "A device that changes the voltage of alternating current between two circuits.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Step-up aumenta a tensão; step-down reduz. Substation é a subestação.",
+                  "collocations": [
+                    "power transformer",
+                    "step-up transformer",
+                    "step-down transformer",
+                    "transformer substation"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The transformer steps the voltage down to 220 V.",
+                  "answer": "transformer",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Oil leaked from the transformer.",
+                  "answer": "transformer",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "grounding",
+              "locales": {
+                "PT": {
+                  "text": "aterramento",
+                  "definition": "Ligação de um sistema elétrico à terra para proteger pessoas e equipamentos contra falhas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "grounding",
+                  "definition": "Connecting an electrical system to the earth to protect people and equipment from faults.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No Reino Unido se diz earthing. O fio terra é o ground wire.",
+                  "collocations": [
+                    "grounding system",
+                    "grounding rod",
+                    "grounding conductor",
+                    "proper grounding"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Proper grounding protects workers from electric shock.",
+                  "answer": "grounding",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Check the grounding before energizing the panel.",
+                  "answer": "grounding",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-de-projetos",
+      "title": "Gestão de projetos",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "planejamento-e-controle",
+          "title": "Planejamento e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schedule",
+              "locales": {
+                "PT": {
+                  "text": "cronograma",
+                  "definition": "Plano que lista as tarefas e as datas em que devem ser concluídas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "schedule",
+                  "definition": "A plan that lists tasks and the dates by which they must be completed.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "On schedule significa no prazo. Timeline é a linha do tempo; schedule traz datas e responsáveis.",
+                  "collocations": [
+                    "behind schedule",
+                    "ahead of schedule",
+                    "project schedule",
+                    "tight schedule"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The project is two weeks behind schedule.",
+                  "answer": "schedule",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We revised the schedule after the delay.",
+                  "answer": "schedule",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "milestone",
+              "locales": {
+                "PT": {
+                  "text": "marco (de projeto)",
+                  "definition": "Ponto importante de um projeto, em geral a conclusão de uma fase.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "milestone",
+                  "definition": "A significant point in a project, often marking the completion of a major phase.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Milestone payment é o pagamento atrelado à conclusão de uma etapa.",
+                  "collocations": [
+                    "reach a milestone",
+                    "project milestone",
+                    "milestone payment",
+                    "key milestone"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Foundation work is the first milestone.",
+                  "answer": "milestone",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The client pays when each milestone is approved.",
+                  "answer": "milestone",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "budget",
+              "locales": {
+                "PT": {
+                  "text": "orçamento (previsto)",
+                  "definition": "Estimativa do dinheiro disponível ou necessário para um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "budget",
+                  "definition": "An estimate of the money available or needed for a project.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Quote ou estimate é o orçamento comercial, o preço proposto; budget é o valor planejado ou disponível.",
+                  "collocations": [
+                    "over budget",
+                    "within budget",
+                    "project budget",
+                    "budget approval"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The project stayed within budget.",
+                  "answer": "budget",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A change in scope will increase the budget.",
+                  "answer": "budget",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "risk-assessment",
+              "locales": {
+                "PT": {
+                  "text": "avaliação de riscos",
+                  "definition": "Processo sistemático de identificar perigos e avaliar a probabilidade e a gravidade de cada um.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "risk assessment",
+                  "definition": "A systematic process of identifying hazards and judging how likely and how serious they are.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Carry out ou conduct a risk assessment são os verbos usuais. Mitigation é a medida que reduz o risco.",
+                  "collocations": [
+                    "carry out a risk assessment",
+                    "risk assessment report",
+                    "site risk assessment",
+                    "hazard identification"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A risk assessment is required before work at height.",
+                  "answer": "risk assessment",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The team updated the risk assessment after the incident.",
+                  "answer": "risk assessment",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "deliverable",
+              "locales": {
+                "PT": {
+                  "text": "entregável",
+                  "definition": "Resultado concreto e verificável que deve ser produzido e entregue em um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "deliverable",
+                  "definition": "A tangible or verifiable result that must be produced and handed over in a project.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Costuma aparecer no plural: deliverables. O scope define quais deliverables fazem parte do contrato.",
+                  "collocations": [
+                    "project deliverable",
+                    "key deliverable",
+                    "deliverable list",
+                    "meet a deliverable"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The final report is the main deliverable.",
+                  "answer": "deliverable",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each deliverable has a due date.",
+                  "answer": "deliverable",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "inspection",
+              "locales": {
+                "PT": {
+                  "text": "inspeção (vistoria)",
+                  "definition": "Exame formal de um trabalho ou equipamento para verificar se atende aos requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "inspection",
+                  "definition": "A formal examination of work or equipment to check that it meets requirements.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Inspector é quem inspeciona. Pass e fail the inspection significam ser aprovado ou reprovado.",
+                  "collocations": [
+                    "site inspection",
+                    "pass an inspection",
+                    "quality inspection",
+                    "inspection report"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The inspector approved the weld after the inspection.",
+                  "answer": "inspection",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A final inspection is scheduled before handover.",
+                  "answer": "inspection",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

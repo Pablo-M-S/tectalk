@@ -13,6 +13,7 @@ export const EXERCISE_TYPES = [
   'BUILD_FROM_ROOTS',
   'REGISTER_CHOICE',
   'ORDER_SENTENCE',
+  'FILL_BLANKS',
   'LISTEN_AND_TYPE',
 ] as const;
 
@@ -87,6 +88,15 @@ export interface OrderSentenceExercise extends ExerciseBase<'ORDER_SENTENCE'> {
   solution: string[];
 }
 
+/**
+ * Completar frases: cada frase tem uma lacuna e o banco de palavras traz os termos.
+ * O `id` de cada frase é o id do termo que a completa, e o mesmo id está no tile correto.
+ */
+export interface FillBlanksExercise extends ExerciseBase<'FILL_BLANKS'> {
+  sentences: { id: string; before: string; after: string }[];
+  tiles: Option[];
+}
+
 export interface ListenAndTypeExercise extends ExerciseBase<'LISTEN_AND_TYPE'> {
   audioUrl: string;
   acceptedAnswers: string[];
@@ -100,4 +110,5 @@ export type Exercise =
   | BuildFromRootsExercise
   | RegisterChoiceExercise
   | OrderSentenceExercise
+  | FillBlanksExercise
   | ListenAndTypeExercise;

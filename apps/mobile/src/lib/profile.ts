@@ -15,6 +15,7 @@ export const PROFESSIONS: ProfessionOption[] = [
   { slug: 'programacao', label: 'Programação', icon: 'code-slash-outline' },
   { slug: 'direito', label: 'Direito', icon: 'scale-outline' },
   { slug: 'engenharia', label: 'Engenharia', icon: 'construct-outline' },
+  { slug: 'construcao', label: 'Construção civil', icon: 'hammer-outline' },
   { slug: 'arquitetura', label: 'Arquitetura', icon: 'business-outline' },
   { slug: 'ciencia', label: 'Ciência', icon: 'flask-outline' },
   { slug: 'outra', label: 'Outra profissão', icon: 'ellipsis-horizontal-circle-outline' },

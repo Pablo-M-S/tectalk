@@ -3,6 +3,7 @@ import {
   BuildFromRootsExercise,
   Exercise,
   FillBlankExercise,
+  FillBlanksExercise,
   ListenAndTypeExercise,
   MatchPairsExercise,
   MultipleChoiceExercise,
@@ -52,6 +53,7 @@ const PRACTICE_SIZE = 12;
 const MIN_SENTENCE_WORDS = 4;
 const MAX_SENTENCE_WORDS = 14;
 const BLANK = '_____';
+const BLANKS_SIZE = 3;
 
 const present = <T>(value: T | null | undefined): value is T => value != null;
 
@@ -216,6 +218,40 @@ export class ExerciseFactory {
     };
   }
 
+  /** Completar frases com um banco de palavras: cada termo volta ao seu contexto de uso. */
+  fillBlanks(terms: TermView[], size = BLANKS_SIZE): FillBlanksExercise | null {
+    const seen = new Set<string>();
+    const picked: { term: TermView; example: ExampleView }[] = [];
+    for (const term of this.shuffle(terms)) {
+      const [example] = this.pick(this.usableExamples(term), 1);
+      if (!example || seen.has(term.target.text)) continue;
+      seen.add(term.target.text);
+      picked.push({ term, example });
+      if (picked.length === size) break;
+    }
+    if (picked.length < 2) return null;
+
+    const sentences = picked.map(({ term, example }) => {
+      const at = example.sentence.indexOf(example.answer);
+      return {
+        id: term.id,
+        before: example.sentence.slice(0, at),
+        after: example.sentence.slice(at + example.answer.length),
+      };
+    });
+    const tiles = picked.map(({ term }) => ({ id: term.id, text: term.target.text }));
+    let shuffled = this.shuffle(tiles);
+    if (shuffled.every((tile, index) => tile.id === tiles[index].id)) shuffled = [...shuffled].reverse();
+
+    return {
+      id: randomUUID(),
+      type: 'FILL_BLANKS',
+      termIds: picked.map(({ term }) => term.id),
+      sentences,
+      tiles: shuffled,
+    };
+  }
+
   listenAndType(term: TermView): ListenAndTypeExercise | null {
     if (!term.target.audioReady || !term.target.audioUrl) return null;
     return {
@@ -236,7 +272,7 @@ export class ExerciseFactory {
       .map((t) => this.multipleChoice(t, pool))
       .filter(present);
 
-    const matching = [this.matchPairs(terms)].filter(present);
+    const matching = [this.matchPairs(terms), this.fillBlanks(terms)].filter(present);
 
     const production = this.shuffle(
       terms.flatMap((t) => [
@@ -288,8 +324,8 @@ export class ExerciseFactory {
       exercises.push(chosen);
     }
 
-    const matching = terms.length >= 4 ? this.matchPairs(terms) : null;
-    return matching ? this.shuffle([...exercises, matching]) : exercises;
+    const extras = [terms.length >= 4 ? this.matchPairs(terms) : null, this.fillBlanks(terms)].filter(present);
+    return extras.length > 0 ? this.shuffle([...exercises, ...extras]) : exercises;
   }
 
   private segmentPool(pool: TermView[]): string[] {

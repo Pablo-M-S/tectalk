@@ -147,6 +147,12 @@ export interface OrderSentenceExercise extends Base {
   solution: string[];
 }
 
+export interface FillBlanksExercise extends Base {
+  type: 'FILL_BLANKS';
+  sentences: { id: string; before: string; after: string }[];
+  tiles: Option[];
+}
+
 export interface ListenAndTypeExercise extends Base {
   type: 'LISTEN_AND_TYPE';
   audioUrl: string;
@@ -161,6 +167,7 @@ export type Exercise =
   | BuildFromRootsExercise
   | RegisterChoiceExercise
   | OrderSentenceExercise
+  | FillBlanksExercise
   | ListenAndTypeExercise;
 
 export interface LessonSession {

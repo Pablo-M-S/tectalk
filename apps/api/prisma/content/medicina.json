@@ -1665,6 +1665,1506 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "neurologia",
+      "title": "Neurologia",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "condicoes-neurologicas",
+          "title": "Condições neurológicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "stroke",
+              "locales": {
+                "PT": {
+                  "text": "AVC (acidente vascular cerebral)",
+                  "definition": "Interrupção do fluxo de sangue em uma região do cérebro, por obstrução ou ruptura de um vaso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "stroke",
+                  "definition": "Sudden loss of blood supply to part of the brain, caused by a blocked or ruptured vessel.",
+                  "informalForms": [
+                    "brain attack"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Dois tipos: ischemic (obstrução) e hemorrhagic (sangramento). Em documentos use stroke ou cerebrovascular accident (CVA); brain attack é coloquial.",
+                  "collocations": [
+                    "ischemic stroke",
+                    "hemorrhagic stroke",
+                    "stroke unit",
+                    "stroke risk"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient was admitted with an acute ischemic stroke.",
+                  "answer": "stroke",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Risk factors for stroke include hypertension and atrial fibrillation.",
+                  "answer": "stroke",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "seizure",
+              "locales": {
+                "PT": {
+                  "text": "crise convulsiva",
+                  "definition": "Descarga elétrica anormal e súbita no cérebro, que pode causar convulsões, alteração de consciência ou ambos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "seizure",
+                  "definition": "A sudden, abnormal burst of electrical activity in the brain that may cause convulsions or altered awareness.",
+                  "informalForms": [
+                    "fit"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Seizure é o evento; epilepsy é a doença de crises recorrentes. Convulsion é o movimento muscular, que nem toda seizure tem.",
+                  "collocations": [
+                    "have a seizure",
+                    "seizure disorder",
+                    "focal seizure",
+                    "seizure activity"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "He had a generalized tonic-clonic seizure lasting two minutes.",
+                  "answer": "seizure",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Anticonvulsant therapy was started after the first seizure.",
+                  "answer": "seizure",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "migraine",
+              "locales": {
+                "PT": {
+                  "text": "enxaqueca",
+                  "definition": "Dor de cabeça intensa e pulsátil, em geral de um lado, muitas vezes com náusea e sensibilidade à luz.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "migraine",
+                  "definition": "A severe, throbbing headache, usually on one side, often with nausea and sensitivity to light.",
+                  "informalForms": [
+                    "really bad headache"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Aura é o conjunto de sintomas visuais ou sensoriais que antecede a dor. Migraine não é sinônimo de headache comum.",
+                  "collocations": [
+                    "migraine with aura",
+                    "chronic migraine",
+                    "migraine attack",
+                    "migraine headache"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "She reports a throbbing migraine with photophobia.",
+                  "answer": "migraine",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Triptans are used to abort an acute migraine attack.",
+                  "answer": "migraine",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "neuropathy",
+              "locales": {
+                "PT": {
+                  "text": "neuropatia",
+                  "definition": "Lesão ou disfunção dos nervos, que causa dormência, formigamento, fraqueza ou dor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "neuropathy",
+                  "definition": "Damage or dysfunction of the nerves that causes numbness, tingling, weakness or pain.",
+                  "informalForms": [
+                    "nerve damage"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Quase sempre vem qualificada: peripheral, diabetic, sensory. Neuropathic pain é a dor causada pela lesão do nervo.",
+                  "collocations": [
+                    "peripheral neuropathy",
+                    "diabetic neuropathy",
+                    "neuropathic pain",
+                    "sensory neuropathy"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Diabetic neuropathy often begins with numbness in the feet.",
+                  "answer": "neuropathy",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Nerve conduction studies confirmed peripheral neuropathy.",
+                  "answer": "neuropathy",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "dementia",
+              "locales": {
+                "PT": {
+                  "text": "demência",
+                  "definition": "Declínio progressivo da memória e de outras funções cognitivas, grave o bastante para atrapalhar a vida diária.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "dementia",
+                  "definition": "A progressive decline in memory and other thinking abilities, severe enough to interfere with daily life.",
+                  "informalForms": [
+                    "senility"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Dementia é a síndrome; Alzheimer's disease é uma das causas. Evite senile e senility: soam ultrapassados e pejorativos.",
+                  "collocations": [
+                    "early-onset dementia",
+                    "vascular dementia",
+                    "dementia care",
+                    "diagnosed with dementia"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The family reported a gradual onset of dementia over three years.",
+                  "answer": "dementia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Alzheimer's disease is the most common cause of dementia.",
+                  "answer": "dementia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "concussion",
+              "locales": {
+                "PT": {
+                  "text": "concussão cerebral",
+                  "definition": "Lesão cerebral leve causada por pancada ou sacudida na cabeça, com alteração temporária da função do cérebro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "concussion",
+                  "definition": "A mild traumatic brain injury caused by a blow or jolt to the head that temporarily affects brain function.",
+                  "informalForms": [
+                    "knock on the head"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Concussion é a forma leve de traumatic brain injury (TBI). No esporte fala-se em concussion protocol.",
+                  "collocations": [
+                    "suffer a concussion",
+                    "concussion protocol",
+                    "post-concussion syndrome",
+                    "mild concussion"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The player was removed from the match with a suspected concussion.",
+                  "answer": "concussion",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cognitive rest is advised for the first days after a concussion.",
+                  "answer": "concussion",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gastroenterologia",
+      "title": "Gastroenterologia",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "condicoes-digestivas",
+          "title": "Condições digestivas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gastritis",
+              "locales": {
+                "PT": {
+                  "text": "gastrite",
+                  "definition": "Inflamação da mucosa que reveste o estômago.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "gastritis",
+                  "definition": "Inflammation of the lining of the stomach.",
+                  "informalForms": [
+                    "stomach inflammation"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O sufixo -itis indica inflamação e gastr- indica estômago. Aparece com frequência em laudos de endoscopia.",
+                  "collocations": [
+                    "chronic gastritis",
+                    "acute gastritis",
+                    "erosive gastritis",
+                    "H. pylori gastritis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Endoscopy revealed erosive gastritis in the gastric antrum.",
+                  "answer": "gastritis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Long-term NSAID use is a common cause of gastritis.",
+                  "answer": "gastritis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "peptic-ulcer",
+              "locales": {
+                "PT": {
+                  "text": "úlcera péptica",
+                  "definition": "Ferida na mucosa do estômago ou do duodeno, causada em geral pela bactéria H. pylori ou por anti-inflamatórios.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "peptic ulcer",
+                  "definition": "An open sore in the lining of the stomach or the first part of the small intestine.",
+                  "informalForms": [
+                    "stomach ulcer"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Subtipos: gastric ulcer (estômago) e duodenal ulcer (duodeno). A doença chama-se peptic ulcer disease (PUD).",
+                  "collocations": [
+                    "bleeding peptic ulcer",
+                    "perforated peptic ulcer",
+                    "duodenal ulcer",
+                    "peptic ulcer disease"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A bleeding peptic ulcer was identified during the endoscopy.",
+                  "answer": "peptic ulcer",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Proton pump inhibitors promote healing of a peptic ulcer.",
+                  "answer": "peptic ulcer",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "cirrhosis",
+              "locales": {
+                "PT": {
+                  "text": "cirrose",
+                  "definition": "Substituição progressiva do tecido saudável do fígado por cicatriz, que prejudica seu funcionamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cirrhosis",
+                  "definition": "Progressive scarring of the liver that replaces healthy tissue and impairs its function.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Compensated = sem complicações; decompensated = com ascite, encefalopatia ou sangramento. A pronúncia é /sɪˈroʊsɪs/.",
+                  "collocations": [
+                    "liver cirrhosis",
+                    "compensated cirrhosis",
+                    "decompensated cirrhosis",
+                    "cirrhosis of the liver"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Chronic alcohol use led to decompensated cirrhosis.",
+                  "answer": "cirrhosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The ultrasound findings were consistent with cirrhosis.",
+                  "answer": "cirrhosis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "hepatitis",
+              "locales": {
+                "PT": {
+                  "text": "hepatite",
+                  "definition": "Inflamação do fígado, causada por vírus, álcool, medicamentos ou doenças autoimunes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hepatitis",
+                  "definition": "Inflammation of the liver, caused by viruses, alcohol, medications or autoimmune disease.",
+                  "informalForms": [
+                    "liver infection"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O tipo vem com letra: hepatitis A, B, C. É um substantivo incontável: hepatitis is, não hepatitis are.",
+                  "collocations": [
+                    "viral hepatitis",
+                    "hepatitis B",
+                    "chronic hepatitis",
+                    "autoimmune hepatitis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Serology was positive for hepatitis B.",
+                  "answer": "hepatitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Autoimmune hepatitis was suspected after liver enzymes remained elevated.",
+                  "answer": "hepatitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "appendicitis",
+              "locales": {
+                "PT": {
+                  "text": "apendicite",
+                  "definition": "Inflamação do apêndice, que costuma causar dor abdominal e exige cirurgia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "appendicitis",
+                  "definition": "Inflammation of the appendix, usually causing abdominal pain and often requiring surgery.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A cirurgia chama-se appendectomy. Sinal clássico: dor que migra para o quadrante inferior direito (right lower quadrant).",
+                  "collocations": [
+                    "acute appendicitis",
+                    "perforated appendicitis",
+                    "appendicitis pain",
+                    "suspected appendicitis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Acute appendicitis was confirmed on abdominal ultrasound.",
+                  "answer": "appendicitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The child was taken to surgery for perforated appendicitis.",
+                  "answer": "appendicitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "gastroesophageal-reflux",
+              "locales": {
+                "PT": {
+                  "text": "refluxo gastroesofágico",
+                  "definition": "Retorno do conteúdo do estômago para o esôfago, causando queimação e irritação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "gastroesophageal reflux",
+                  "definition": "The backward flow of stomach contents into the esophagus, causing heartburn and irritation.",
+                  "informalForms": [
+                    "heartburn"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A doença chama-se GERD (gastroesophageal reflux disease). Heartburn é o sintoma de queimação, usado na fala do dia a dia.",
+                  "collocations": [
+                    "gastroesophageal reflux disease",
+                    "reflux symptoms",
+                    "reflux esophagitis",
+                    "GERD"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Chronic gastroesophageal reflux may lead to Barrett's esophagus.",
+                  "answer": "gastroesophageal reflux",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Lifestyle changes are the first step in treating gastroesophageal reflux.",
+                  "answer": "gastroesophageal reflux",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "endocrinologia",
+      "title": "Endocrinologia",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "diabetes-e-tireoide",
+          "title": "Diabetes e tireoide",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "diabetes-mellitus",
+              "locales": {
+                "PT": {
+                  "text": "diabetes mellitus",
+                  "definition": "Doença crônica em que o corpo não controla bem a glicose no sangue por falta de insulina ou resistência a ela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "diabetes mellitus",
+                  "definition": "A chronic condition in which the body cannot regulate blood glucose properly because of too little insulin or insulin resistance.",
+                  "informalForms": [
+                    "sugar"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em prontuários: DM. Type 1 é autoimune; type 2 envolve resistência à insulina. Na fala comum basta diabetes.",
+                  "collocations": [
+                    "type 1 diabetes mellitus",
+                    "type 2 diabetes mellitus",
+                    "gestational diabetes",
+                    "diabetes management"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "He has a ten-year history of type 2 diabetes mellitus.",
+                  "answer": "diabetes mellitus",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Poorly controlled diabetes mellitus increases the risk of kidney disease.",
+                  "answer": "diabetes mellitus",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "insulin",
+              "locales": {
+                "PT": {
+                  "text": "insulina",
+                  "definition": "Hormônio produzido pelo pâncreas que permite às células usar a glicose do sangue.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "insulin",
+                  "definition": "A hormone made by the pancreas that allows cells to take up glucose from the blood.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo incontável: insulin, sem plural. Tipos: rapid-acting e long-acting insulin.",
+                  "collocations": [
+                    "insulin resistance",
+                    "insulin therapy",
+                    "basal insulin",
+                    "insulin pump"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient requires insulin before each meal.",
+                  "answer": "insulin",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "In type 1 diabetes, insulin must be replaced by injection.",
+                  "answer": "insulin",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "hypothyroidism",
+              "locales": {
+                "PT": {
+                  "text": "hipotireoidismo",
+                  "definition": "Condição em que a tireoide produz menos hormônio do que o corpo precisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hypothyroidism",
+                  "definition": "A condition in which the thyroid gland produces too little thyroid hormone.",
+                  "informalForms": [
+                    "underactive thyroid"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Hypo- indica falta; hyper-, excesso. Cuidado para não trocar hypothyroidism por hyperthyroidism em laudos.",
+                  "collocations": [
+                    "primary hypothyroidism",
+                    "subclinical hypothyroidism",
+                    "hypothyroidism treatment",
+                    "congenital hypothyroidism"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Fatigue and weight gain led to a diagnosis of hypothyroidism.",
+                  "answer": "hypothyroidism",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Levothyroxine is the standard treatment for hypothyroidism.",
+                  "answer": "hypothyroidism",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "hyperthyroidism",
+              "locales": {
+                "PT": {
+                  "text": "hipertireoidismo",
+                  "definition": "Condição em que a tireoide produz hormônio em excesso, acelerando o metabolismo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hyperthyroidism",
+                  "definition": "A condition in which the thyroid gland produces too much thyroid hormone, speeding up metabolism.",
+                  "informalForms": [
+                    "overactive thyroid"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sintomas típicos: tremor, perda de peso e taquicardia. Hyper- indica excesso.",
+                  "collocations": [
+                    "overt hyperthyroidism",
+                    "subclinical hyperthyroidism",
+                    "hyperthyroidism symptoms",
+                    "treat hyperthyroidism"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Weight loss and palpitations suggested hyperthyroidism.",
+                  "answer": "hyperthyroidism",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Graves' disease is the most common cause of hyperthyroidism.",
+                  "answer": "hyperthyroidism",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "glycemia",
+              "locales": {
+                "PT": {
+                  "text": "glicemia",
+                  "definition": "Concentração de glicose no sangue.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "glycemia",
+                  "definition": "The concentration of glucose in the blood.",
+                  "informalForms": [
+                    "blood sugar"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em inglês clínico também se usa blood glucose. Glycemia é mais formal e comum em artigos. Hypoglycemia é a glicemia baixa.",
+                  "collocations": [
+                    "fasting glycemia",
+                    "capillary glycemia",
+                    "glycemia control",
+                    "glycemia level"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Fasting glycemia was 126 mg/dL on two occasions.",
+                  "answer": "glycemia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Close monitoring of glycemia is needed during insulin therapy.",
+                  "answer": "glycemia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "obesity",
+              "locales": {
+                "PT": {
+                  "text": "obesidade",
+                  "definition": "Condição de excesso de gordura corporal que aumenta o risco de outras doenças.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "obesity",
+                  "definition": "A medical condition marked by excess body fat that raises the risk of other diseases.",
+                  "informalForms": [
+                    "being very overweight"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Define-se por BMI (body mass index) a partir de 30. Em documentos use obesity ou overweight, não fat.",
+                  "collocations": [
+                    "morbid obesity",
+                    "childhood obesity",
+                    "obesity-related disease",
+                    "class III obesity"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Severe obesity was documented in the patient's medical history.",
+                  "answer": "obesity",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Bariatric surgery may be considered for class III obesity.",
+                  "answer": "obesity",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "exames-laboratoriais",
+      "title": "Exames laboratoriais",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "exames-de-sangue-e-urina",
+          "title": "Exames de sangue e urina",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "complete-blood-count",
+              "locales": {
+                "PT": {
+                  "text": "hemograma completo",
+                  "definition": "Exame que mede as células do sangue: glóbulos vermelhos, brancos e plaquetas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "complete blood count",
+                  "definition": "A blood test that measures red cells, white cells and platelets.",
+                  "informalForms": [
+                    "blood test"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação: CBC. Quase sempre vem com differential, a contagem diferencial dos leucócitos.",
+                  "collocations": [
+                    "order a complete blood count",
+                    "abnormal complete blood count",
+                    "CBC",
+                    "differential count"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A complete blood count showed mild anemia.",
+                  "answer": "complete blood count",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Order a complete blood count before the procedure.",
+                  "answer": "complete blood count",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "hemoglobin",
+              "locales": {
+                "PT": {
+                  "text": "hemoglobina",
+                  "definition": "Proteína dos glóbulos vermelhos que transporta oxigênio pelo corpo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hemoglobin",
+                  "definition": "The protein in red blood cells that carries oxygen around the body.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Valores aparecem em g/dL. HbA1c é a hemoglobina glicada, usada no acompanhamento do diabetes.",
+                  "collocations": [
+                    "low hemoglobin",
+                    "hemoglobin level",
+                    "glycated hemoglobin",
+                    "fetal hemoglobin"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient's hemoglobin dropped from 13 to 9 g/dL overnight.",
+                  "answer": "hemoglobin",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Low hemoglobin suggests anemia.",
+                  "answer": "hemoglobin",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "creatinine",
+              "locales": {
+                "PT": {
+                  "text": "creatinina",
+                  "definition": "Substância eliminada pelos rins, cuja dosagem no sangue avalia a função renal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "creatinine",
+                  "definition": "A waste product filtered by the kidneys whose level in the blood reflects kidney function.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Marcador da função renal. Creatinine clearance estima a filtração dos rins (GFR).",
+                  "collocations": [
+                    "serum creatinine",
+                    "creatinine clearance",
+                    "elevated creatinine",
+                    "creatinine level"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Serum creatinine rose to 2.4 mg/dL.",
+                  "answer": "creatinine",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The dose was adjusted according to creatinine clearance.",
+                  "answer": "creatinine",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "serum",
+              "locales": {
+                "PT": {
+                  "text": "soro (sanguíneo)",
+                  "definition": "Parte líquida do sangue depois de retirados as células e os fatores de coagulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "serum",
+                  "definition": "The clear liquid part of blood after cells and clotting factors have been removed.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em português soro também é a solução intravenosa; em inglês essa é saline. Serum é só o componente do sangue.",
+                  "collocations": [
+                    "serum sodium",
+                    "serum albumin",
+                    "serum level",
+                    "serum sample"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The sample was centrifuged to separate the serum.",
+                  "answer": "serum",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Elevated serum sodium was found on admission.",
+                  "answer": "serum",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "urinalysis",
+              "locales": {
+                "PT": {
+                  "text": "exame de urina",
+                  "definition": "Conjunto de testes feitos na urina para detectar infecção, doença renal e outras alterações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "urinalysis",
+                  "definition": "A set of tests performed on urine to detect infection, kidney disease and other conditions.",
+                  "informalForms": [
+                    "urine test"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Na prática é incontável, mas aceita artigo: a urinalysis. Urine culture é outro exame: procura bactérias.",
+                  "collocations": [
+                    "routine urinalysis",
+                    "urinalysis results",
+                    "abnormal urinalysis",
+                    "dipstick urinalysis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The urinalysis showed leukocytes and nitrites.",
+                  "answer": "urinalysis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A urinalysis is routine before elective surgery.",
+                  "answer": "urinalysis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "culture",
+              "locales": {
+                "PT": {
+                  "text": "cultura (microbiológica)",
+                  "definition": "Exame que faz crescer micro-organismos de uma amostra para identificar a causa de uma infecção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "culture",
+                  "definition": "A laboratory test that grows microorganisms from a sample to identify the cause of an infection.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em medicina, culture é exame de laboratório, não cultura no sentido social. Culture and sensitivity mostra quais antibióticos funcionam.",
+                  "collocations": [
+                    "blood culture",
+                    "urine culture",
+                    "wound culture",
+                    "culture and sensitivity"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Blood cultures were drawn before antibiotics were started.",
+                  "answer": "culture",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The wound culture grew Staphylococcus aureus.",
+                  "answer": "culture",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "diagnostico-por-imagem",
+      "title": "Diagnóstico por imagem",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "exames-de-imagem",
+          "title": "Exames de imagem",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "ultrasound",
+              "locales": {
+                "PT": {
+                  "text": "ultrassonografia",
+                  "definition": "Exame de imagem que usa ondas sonoras de alta frequência para mostrar estruturas internas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "ultrasound",
+                  "definition": "An imaging method that uses high-frequency sound waves to produce pictures of structures inside the body.",
+                  "informalForms": [
+                    "scan"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Ultrasound-guided indica procedimento guiado pelo exame. No Reino Unido também se diz scan; sonogram é a imagem obtida.",
+                  "collocations": [
+                    "abdominal ultrasound",
+                    "ultrasound scan",
+                    "ultrasound-guided",
+                    "transvaginal ultrasound"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "An abdominal ultrasound revealed gallstones.",
+                  "answer": "ultrasound",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The ultrasound was performed at 20 weeks of gestation.",
+                  "answer": "ultrasound",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "computed-tomography",
+              "locales": {
+                "PT": {
+                  "text": "tomografia computadorizada",
+                  "definition": "Exame que combina raios X de vários ângulos para formar imagens em cortes do corpo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "computed tomography",
+                  "definition": "An imaging method that combines X-rays taken from many angles to create cross-sectional images of the body.",
+                  "informalForms": [
+                    "CT scan"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação universal: CT (CAT scan nos EUA). Em documentos formais use o termo por extenso na primeira menção.",
+                  "collocations": [
+                    "CT scan",
+                    "chest computed tomography",
+                    "contrast-enhanced",
+                    "head computed tomography"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A computed tomography of the chest showed no consolidation.",
+                  "answer": "computed tomography",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Contrast-enhanced computed tomography is recommended for staging.",
+                  "answer": "computed tomography",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "magnetic-resonance-imaging",
+              "locales": {
+                "PT": {
+                  "text": "ressonância magnética",
+                  "definition": "Exame que usa campo magnético e ondas de rádio, sem radiação, para produzir imagens detalhadas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "magnetic resonance imaging",
+                  "definition": "An imaging method that uses a magnetic field and radio waves, without radiation, to produce detailed pictures.",
+                  "informalForms": [
+                    "MRI scan"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação: MRI. Não usa radiação ionizante, ao contrário da CT e do X-ray.",
+                  "collocations": [
+                    "MRI",
+                    "brain magnetic resonance imaging",
+                    "MRI contraindication",
+                    "MRI findings"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The magnetic resonance imaging showed a small disc herniation at L4-L5.",
+                  "answer": "magnetic resonance imaging",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Patients with pacemakers may be unable to undergo magnetic resonance imaging.",
+                  "answer": "magnetic resonance imaging",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "radiograph",
+              "locales": {
+                "PT": {
+                  "text": "radiografia",
+                  "definition": "Imagem do interior do corpo obtida com raios X.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "radiograph",
+                  "definition": "An image of the inside of the body made using X-rays.",
+                  "informalForms": [
+                    "X-ray"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Radiograph é o termo formal; X-ray é o termo comum, que também nomeia a radiação.",
+                  "collocations": [
+                    "chest radiograph",
+                    "plain radiograph",
+                    "radiograph findings",
+                    "take a radiograph"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A chest radiograph showed no acute abnormality.",
+                  "answer": "radiograph",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The radiograph revealed a fracture of the distal radius.",
+                  "answer": "radiograph",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "contrast",
+              "locales": {
+                "PT": {
+                  "text": "contraste",
+                  "definition": "Substância injetada ou ingerida para destacar estruturas em exames de imagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "contrast",
+                  "definition": "A substance given by mouth or injection to make certain structures stand out on imaging.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "With contrast e without contrast aparecem no pedido do exame. Contrast media é o termo técnico do agente.",
+                  "collocations": [
+                    "intravenous contrast",
+                    "contrast agent",
+                    "contrast allergy",
+                    "with and without contrast"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The scan was repeated after intravenous contrast.",
+                  "answer": "contrast",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Check for contrast allergy before the exam.",
+                  "answer": "contrast",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "lesion",
+              "locales": {
+                "PT": {
+                  "text": "lesão",
+                  "definition": "Área de tecido com alteração anormal causada por doença ou trauma.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "lesion",
+                  "definition": "An area of tissue that has been damaged or altered by disease or injury.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Lesion não implica gravidade: pode ser benigna ou maligna. Para ferimento causado por trauma, prefira injury ou wound.",
+                  "collocations": [
+                    "skin lesion",
+                    "suspicious lesion",
+                    "benign lesion",
+                    "malignant lesion"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A hypodense lesion was seen in the right hepatic lobe.",
+                  "answer": "lesion",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The lesion measures 8 mm and has well-defined margins.",
+                  "answer": "lesion",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-clinica",
+      "title": "História clínica",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "registro-do-atendimento",
+          "title": "Registro do atendimento",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "chief-complaint",
+              "locales": {
+                "PT": {
+                  "text": "queixa principal",
+                  "definition": "Motivo principal pelo qual o paciente procura atendimento, em geral registrado nas palavras dele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "chief complaint",
+                  "definition": "The main reason a patient seeks medical care, usually recorded in the patient's own words.",
+                  "informalForms": [
+                    "main problem"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação: CC. No Reino Unido usa-se presenting complaint. Vem no início do prontuário.",
+                  "collocations": [
+                    "record the chief complaint",
+                    "presenting complaint",
+                    "chief complaint of",
+                    "main complaint"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The chief complaint was chest pain for two hours.",
+                  "answer": "chief complaint",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Document the chief complaint before the physical exam.",
+                  "answer": "chief complaint",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "medical-history",
+              "locales": {
+                "PT": {
+                  "text": "histórico médico",
+                  "definition": "Registro das doenças, cirurgias, alergias e tratamentos anteriores do paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "medical history",
+                  "definition": "A record of a patient's past illnesses, surgeries, allergies and treatments.",
+                  "informalForms": [
+                    "health background"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em prontuários: past medical history (PMH). Family history e social history são seções separadas.",
+                  "collocations": [
+                    "past medical history",
+                    "family medical history",
+                    "relevant medical history",
+                    "medical history form"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Her medical history includes hypertension and asthma.",
+                  "answer": "medical history",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Please review the medical history with the patient.",
+                  "answer": "medical history",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "physical-examination",
+              "locales": {
+                "PT": {
+                  "text": "exame físico",
+                  "definition": "Avaliação do paciente feita pelo médico com observação, palpação, percussão e ausculta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "physical examination",
+                  "definition": "An assessment of the patient by the clinician using observation, palpation, percussion and auscultation.",
+                  "informalForms": [
+                    "checkup"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação: PE, ou apenas exam. O que o médico observa são signs; o que o paciente relata são symptoms.",
+                  "collocations": [
+                    "perform a physical examination",
+                    "physical examination findings",
+                    "focused physical examination",
+                    "normal physical examination"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The physical examination revealed mild abdominal tenderness.",
+                  "answer": "physical examination",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A thorough physical examination was performed on admission.",
+                  "answer": "physical examination",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "vital-signs",
+              "locales": {
+                "PT": {
+                  "text": "sinais vitais",
+                  "definition": "Medidas básicas do estado do corpo: temperatura, pulso, respiração, pressão arterial e saturação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "vital signs",
+                  "definition": "Basic measurements of the body's state: temperature, pulse, respiration, blood pressure and oxygen saturation.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sempre no plural: vital signs. Os registros costumam trazer temperature, heart rate, respiratory rate, blood pressure e SpO2.",
+                  "collocations": [
+                    "stable vital signs",
+                    "check vital signs",
+                    "abnormal vital signs",
+                    "monitor vital signs"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient's vital signs were stable on arrival.",
+                  "answer": "vital signs",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Monitor vital signs every four hours.",
+                  "answer": "vital signs",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "informed-consent",
+              "locales": {
+                "PT": {
+                  "text": "consentimento informado",
+                  "definition": "Autorização dada pelo paciente depois de receber explicação clara sobre riscos, benefícios e alternativas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "informed consent",
+                  "definition": "Permission given by a patient after being told clearly about the risks, benefits and alternatives of a procedure.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Obtain informed consent é a expressão padrão. O formulário é o consent form.",
+                  "collocations": [
+                    "obtain informed consent",
+                    "written informed consent",
+                    "informed consent form",
+                    "withdraw consent"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Written informed consent was obtained before the procedure.",
+                  "answer": "informed consent",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The surgeon explained the risks while obtaining informed consent.",
+                  "answer": "informed consent",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "discharge-summary",
+              "locales": {
+                "PT": {
+                  "text": "resumo de alta",
+                  "definition": "Documento que resume a internação, o tratamento realizado e as orientações dadas ao paciente na saída.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "discharge summary",
+                  "definition": "A document that summarizes a hospital stay, the treatment given and the instructions for after leaving.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Discharge é a alta hospitalar. O documento costuma ser enviado ao médico de referência (referring physician).",
+                  "collocations": [
+                    "write a discharge summary",
+                    "discharge instructions",
+                    "discharge planning",
+                    "discharge summary template"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Please review the discharge summary before the follow-up visit.",
+                  "answer": "discharge summary",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The discharge summary lists all medications at discharge.",
+                  "answer": "discharge summary",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -44,7 +44,20 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
         {correct ? <CorrectThumb /> : null}
       </View>
 
-      {reveal ? (
+      {exercise.type === 'FILL_BLANKS' ? (
+        <ScrollView style={{ maxHeight: 280 }} contentContainerStyle={{ gap: 10 }} showsVerticalScrollIndicator={false}>
+          <Text variant="label" tone="muted">{correct ? 'Frases completas' : 'Como ficam as frases'}</Text>
+          {exercise.sentences.map((sentence) => {
+            const full = sentence.before + (exercise.tiles.find((tile) => tile.id === sentence.id)?.text ?? '') + sentence.after;
+            return (
+              <View key={sentence.id} style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                <Text style={{ flex: 1, fontStyle: 'italic' }}>{full}</Text>
+                <SpeakButton text={full} />
+              </View>
+            );
+          })}
+        </ScrollView>
+      ) : reveal ? (
         <ScrollView style={{ maxHeight: 280 }} contentContainerStyle={{ gap: 10 }} showsVerticalScrollIndicator={false}>
           <View style={{ gap: 4 }}>
             {!correct ? <Text variant="caption" tone="muted">Resposta correta</Text> : null}
