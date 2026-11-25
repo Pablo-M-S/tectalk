@@ -1,4 +1,4 @@
-import { Alert, Linking, Platform, Pressable, ScrollView, Switch, View } from 'react-native';
+import { Alert, Pressable, ScrollView, Switch, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Constants from 'expo-constants';
@@ -12,8 +12,8 @@ import { Text } from '@/components/Text';
 import { useHaptics } from '@/lib/feedback';
 import { requestReminderPermission, useReminderTime } from '@/lib/reminders';
 import { useSound } from '@/lib/sounds';
-import { speak, useSpeech } from '@/lib/speech';
-import { GOALS, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
+import { SAMPLE_SENTENCE, openVoiceSettings, refreshVoices, speak, useSpeech } from '@/lib/speech';
+import { GOALS, LANGUAGES, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
 import { useThemeMode, type ThemeMode } from '@/theme/mode';
 import { radius, useTheme } from '@/theme/theme';
 
@@ -83,7 +83,7 @@ export default function ProfileScreen() {
   const setVibrationOn = useHaptics((state) => state.setEnabled);
   const autoSpeak = useSpeech((state) => state.autoPlay);
   const setAutoSpeak = useSpeech((state) => state.setAutoPlay);
-  const voiceMissing = useSpeech((state) => state.voiceMissing);
+  const voices = useSpeech((state) => state.installed);
   const reminderTime = useReminderTime((state) => state.time);
   const setReminderTime = useReminderTime((state) => state.setTime);
   const updateProfile = useUpdateProfile();
@@ -172,27 +172,30 @@ export default function ProfileScreen() {
               trackColor={{ true: theme.primary, false: theme.border }}
             />
           </View>
-          {voiceMissing ? (
-            <Text variant="caption" tone="danger">
-              Seu aparelho não tem voz em inglês instalada. Abra as configurações de voz e baixe o inglês (EUA).
-            </Text>
-          ) : null}
+          <View style={{ gap: 6 }}>
+            <Text variant="caption" tone="muted">Vozes instaladas no aparelho</Text>
+            {LANGUAGES.map((item) => {
+              const ready = voices[item.code];
+              return (
+                <View key={item.code} style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                  <Text variant="caption">{item.label}</Text>
+                  <Text variant="caption" tone={ready === false ? 'danger' : 'muted'}>
+                    {ready === undefined ? 'verificando…' : ready ? 'instalada' : 'não instalada'}
+                  </Text>
+                </View>
+              );
+            })}
+          </View>
           <View style={{ flexDirection: 'row', gap: 10 }}>
             <Button
               label="Testar voz"
               variant="secondary"
               style={{ flex: 1 }}
-              onPress={() => speak('Please review the discharge summary before the procedure.')}
+              onPress={() => user && speak(SAMPLE_SENTENCE[user.targetLanguage], 'normal', user.targetLanguage)}
             />
-            {Platform.OS === 'android' ? (
-              <Button
-                label="Configurar voz"
-                variant="secondary"
-                style={{ flex: 1 }}
-                onPress={() => void Linking.sendIntent('com.android.settings.TTS_SETTINGS').catch(() => Linking.openSettings())}
-              />
-            ) : null}
+            <Button label="Configurar voz" variant="secondary" style={{ flex: 1 }} onPress={openVoiceSettings} />
           </View>
+          <Button label="Verificar vozes de novo" variant="ghost" onPress={() => void refreshVoices()} />
           <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
             <Text variant="caption" tone="muted">Lembrete diário</Text>
             <Switch

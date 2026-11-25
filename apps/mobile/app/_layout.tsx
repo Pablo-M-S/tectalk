@@ -11,6 +11,7 @@ import { UpdateBanner } from '@/components/UpdateBanner';
 import { initFeedback } from '@/lib/feedback';
 import { initReminders, syncReminders, useReminderTime } from '@/lib/reminders';
 import { initSpeech } from '@/lib/speech';
+import { useVoiceGuard } from '@/lib/voice-guard';
 import { initTheme } from '@/theme/mode';
 import { useScheme, useTheme } from '@/theme/theme';
 
@@ -23,6 +24,7 @@ export default function RootLayout() {
   const bootstrap = useAuth((state) => state.bootstrap);
   const remindersEnabled = useAuth((state) => state.user?.remindersEnabled ?? false);
   const reminderTime = useReminderTime((state) => state.time);
+  useVoiceGuard();
 
   useEffect(() => {
     warmUp();
