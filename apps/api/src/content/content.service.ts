@@ -7,8 +7,9 @@ export type LessonStatus = 'LOCKED' | 'AVAILABLE' | 'COMPLETED';
 export class ContentService {
   constructor(private readonly prisma: PrismaService) {}
 
-  listTracks() {
-    return this.prisma.track.findMany({
+  /** Catálogo de áreas, com o progresso do usuário em cada uma. */
+  async listTracks(userId: string) {
+    const tracks = await this.prisma.track.findMany({
       where: { status: 'PUBLISHED' },
       orderBy: { position: 'asc' },
       select: {
@@ -19,8 +20,29 @@ export class ContentService {
         profession: true,
         sourceLanguage: true,
         targetLanguage: true,
-        _count: { select: { units: true } },
+        units: {
+          select: {
+            lessons: {
+              where: { status: 'PUBLISHED' },
+              select: {
+                id: true,
+                _count: { select: { terms: true } },
+                completions: { where: { userId }, select: { id: true }, take: 1 },
+              },
+            },
+          },
+        },
       },
+    });
+
+    return tracks.map(({ units, ...track }) => {
+      const lessons = units.flatMap((unit) => unit.lessons);
+      return {
+        ...track,
+        lessonCount: lessons.length,
+        completedCount: lessons.filter((lesson) => lesson.completions.length > 0).length,
+        termCount: lessons.reduce((sum, lesson) => sum + lesson._count.terms, 0),
+      };
     });
   }
 

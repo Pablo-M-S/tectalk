@@ -1,0 +1,1512 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "programacao-pt-en",
+    "profession": "programacao",
+    "sourceLanguage": "PT",
+    "targetLanguage": "EN",
+    "title": "Inglês para Programadores",
+    "description": "O vocabulário e o jeito de escrever de quem trabalha com software em equipes internacionais: código, revisões, documentação e incidentes.",
+    "position": 2
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "fundamentos",
+      "title": "Fundamentos",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "estruturas-basicas",
+          "title": "Estruturas básicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "variable",
+              "locales": {
+                "PT": {
+                  "text": "variável",
+                  "definition": "Nome associado a um local de memória que guarda um valor que pode mudar durante a execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "variable",
+                  "definition": "A named storage location that holds a value which may change during program execution.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: declare (cria o nome), assign (dá o valor) e initialize a variable. Em code review nomes ruins são criticados: rename this variable to something descriptive.",
+                  "collocations": [
+                    "declare a variable",
+                    "assign a value to a variable",
+                    "global variable",
+                    "local variable"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The variable is declared but never used.",
+                  "answer": "variable",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Rename this variable to something more descriptive.",
+                  "answer": "variable",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "function",
+              "locales": {
+                "PT": {
+                  "text": "função",
+                  "definition": "Bloco de código nomeado e reutilizável que executa uma tarefa, pode receber dados e pode devolver um resultado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "function",
+                  "definition": "A named, reusable block of code that performs a task, may take inputs and may return a result.",
+                  "informalForms": [
+                    "chunk of code"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: define e call (ou invoke) a function. Dentro de uma classe, a função chama-se method. Pure function é a que não tem efeitos colaterais.",
+                  "collocations": [
+                    "call a function",
+                    "define a function",
+                    "pure function",
+                    "callback function"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "This function validates the email before saving the user.",
+                  "answer": "function",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Extract the logic into a separate function.",
+                  "answer": "function",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "parameter",
+              "locales": {
+                "PT": {
+                  "text": "parâmetro",
+                  "definition": "Variável nomeada na declaração de uma função que recebe o valor passado na chamada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "parameter",
+                  "definition": "A named variable in a function's definition that receives a value when the function is called.",
+                  "informalForms": [
+                    "param"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Parameter está na definição; argument é o valor passado na chamada. Muita gente troca os dois, mas em documentação a distinção importa.",
+                  "collocations": [
+                    "function parameter",
+                    "default parameter",
+                    "optional parameter",
+                    "required parameter"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The second parameter is optional and defaults to zero.",
+                  "answer": "parameter",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Add a parameter to control the timeout.",
+                  "answer": "parameter",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "argument",
+              "locales": {
+                "PT": {
+                  "text": "argumento",
+                  "definition": "Valor concreto fornecido a uma função no momento da chamada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "argument",
+                  "definition": "The actual value supplied to a function when it is called.",
+                  "informalForms": [
+                    "arg"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Argument é o valor passado; parameter é o nome na definição. Verbo comum: pass an argument. Não é o sentido de discussão.",
+                  "collocations": [
+                    "pass an argument",
+                    "command-line argument",
+                    "invalid argument",
+                    "missing argument"
+                  ],
+                  "ipa": "/ˈɑːrɡjumənt/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Pass the user ID as the first argument.",
+                  "answer": "argument",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The function throws an error when the argument is null.",
+                  "answer": "argument",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "return-value",
+              "locales": {
+                "PT": {
+                  "text": "valor de retorno",
+                  "definition": "Resultado que uma função devolve a quem a chamou.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "return value",
+                  "definition": "The result that a function sends back to its caller.",
+                  "informalForms": [
+                    "output"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: return a value. Diz-se the function returns X e the return value is X. Funções sem retorno retornam void, nothing ou undefined.",
+                  "collocations": [
+                    "check the return value",
+                    "ignore the return value",
+                    "return type",
+                    "non-zero return value"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Always check the return value of this call.",
+                  "answer": "return value",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The return value is a list of active users.",
+                  "answer": "return value",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "loop",
+              "locales": {
+                "PT": {
+                  "text": "laço de repetição",
+                  "definition": "Estrutura que executa um bloco de código repetidamente, enquanto uma condição for verdadeira ou para cada item de uma coleção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "loop",
+                  "definition": "A control structure that repeats a block of code while a condition holds or for each item in a collection.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tipos: for loop e while loop. Problemas típicos: infinite loop (nunca termina) e off-by-one error. Verbos: iterate over ou loop through a collection.",
+                  "collocations": [
+                    "for loop",
+                    "while loop",
+                    "infinite loop",
+                    "loop through"
+                  ],
+                  "ipa": "/luːp/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "An infinite loop caused the server to hang.",
+                  "answer": "loop",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Use a loop to process each record.",
+                  "answer": "loop",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "dados-e-erros",
+          "title": "Dados e erros",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "array",
+              "locales": {
+                "PT": {
+                  "text": "vetor",
+                  "definition": "Coleção ordenada de elementos acessados por índice numérico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "array",
+                  "definition": "An ordered collection of elements accessed by a numeric index.",
+                  "informalForms": [
+                    "list of items"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Na maioria das linguagens os índices começam em zero (zero-based indexing). Erro clássico: index out of bounds.",
+                  "collocations": [
+                    "empty array",
+                    "array of strings",
+                    "iterate over an array",
+                    "array index"
+                  ],
+                  "ipa": "/əˈreɪ/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The function returns an empty array when nothing matches.",
+                  "answer": "array",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Access the first element of the array by index zero.",
+                  "answer": "array",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "hash-map",
+              "locales": {
+                "PT": {
+                  "text": "mapa de hash",
+                  "definition": "Estrutura que associa chaves a valores e permite buscar um valor rapidamente pela chave.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hash map",
+                  "definition": "A data structure that maps keys to values and allows fast lookup by key.",
+                  "informalForms": [
+                    "dict"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em Python chama-se dictionary; em Java, HashMap; em JavaScript, object ou Map. Termos ligados: key, value, lookup e collision.",
+                  "collocations": [
+                    "key-value pair",
+                    "hash collision",
+                    "look up a key",
+                    "constant-time lookup"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Store the results in a hash map keyed by user ID.",
+                  "answer": "hash map",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each key in the hash map must be unique.",
+                  "answer": "hash map",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "string",
+              "locales": {
+                "PT": {
+                  "text": "cadeia de caracteres",
+                  "definition": "Sequência de caracteres usada para representar texto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "string",
+                  "definition": "A sequence of characters used to represent text.",
+                  "informalForms": [
+                    "text"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: concatenate, parse, trim e split a string. Empty string não é o mesmo que null. Em documentação: string literal e string interpolation.",
+                  "collocations": [
+                    "concatenate strings",
+                    "empty string",
+                    "string literal",
+                    "parse a string"
+                  ],
+                  "ipa": "/strɪŋ/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The API expects the date as an ISO 8601 string.",
+                  "answer": "string",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Trim the string before comparing it.",
+                  "answer": "string",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "boolean",
+              "locales": {
+                "PT": {
+                  "text": "booleano",
+                  "definition": "Tipo de dado com apenas dois valores possíveis: verdadeiro ou falso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "boolean",
+                  "definition": "A data type with only two possible values: true or false.",
+                  "informalForms": [
+                    "true/false flag"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O nome vem de George Boole; escreve-se com inicial minúscula, exceto no início da frase. Nomes comuns: boolean flag e is_active.",
+                  "collocations": [
+                    "boolean flag",
+                    "boolean expression",
+                    "boolean value",
+                    "return a boolean"
+                  ],
+                  "ipa": "/ˈbuːliən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The method returns a boolean indicating whether the user is active.",
+                  "answer": "boolean",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Use a boolean flag to toggle the feature.",
+                  "answer": "boolean",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "null-reference",
+              "locales": {
+                "PT": {
+                  "text": "referência nula",
+                  "definition": "Referência que não aponta para nenhum objeto; usá-la como se apontasse causa um erro em tempo de execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "null reference",
+                  "definition": "A reference that points to no object; using it as if it did causes a runtime error.",
+                  "informalForms": [
+                    "missing object"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Erro clássico: NullPointerException (Java) ou cannot read properties of null (JavaScript). Verbo: dereference. Defesas: null check e guard clause.",
+                  "collocations": [
+                    "null reference exception",
+                    "null check",
+                    "dereference a null reference",
+                    "guard clause"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Dereferencing a null reference crashed the service.",
+                  "answer": "null reference",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Add a guard clause to avoid a null reference.",
+                  "answer": "null reference",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "exception",
+              "locales": {
+                "PT": {
+                  "text": "exceção",
+                  "definition": "Evento anormal durante a execução que interrompe o fluxo normal e pode ser tratado pelo código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "exception",
+                  "definition": "An abnormal event during execution that interrupts normal flow and can be handled by the code.",
+                  "informalForms": [
+                    "crash"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: throw (lançar), catch e handle an exception. Nunca swallow an exception (capturar sem tratar nem registrar).",
+                  "collocations": [
+                    "throw an exception",
+                    "catch an exception",
+                    "unhandled exception",
+                    "exception handling"
+                  ],
+                  "ipa": "/ɪkˈsɛpʃən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The service threw an unhandled exception at startup.",
+                  "answer": "exception",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Catch the exception and log the stack trace.",
+                  "answer": "exception",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "arquitetura",
+      "title": "Arquitetura e dados",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "arquitetura-de-software",
+          "title": "Arquitetura de software",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "endpoint",
+              "locales": {
+                "PT": {
+                  "text": "endpoint",
+                  "definition": "URL específica de uma API que recebe requisições e devolve uma resposta para uma operação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "endpoint",
+                  "definition": "A specific URL of an API that receives requests and returns a response for an operation.",
+                  "informalForms": [
+                    "URL"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: expose, call e hit an endpoint. Costuma vir com o método HTTP: a GET endpoint. Em muitos frameworks o equivalente é route.",
+                  "collocations": [
+                    "REST endpoint",
+                    "expose an endpoint",
+                    "call an endpoint",
+                    "health check endpoint"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The /users endpoint returns a paginated list.",
+                  "answer": "endpoint",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Expose a new endpoint for password reset.",
+                  "answer": "endpoint",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "dependency",
+              "locales": {
+                "PT": {
+                  "text": "dependência",
+                  "definition": "Biblioteca ou módulo externo de que um software precisa para funcionar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "dependency",
+                  "definition": "An external library or module that a piece of software needs in order to work.",
+                  "informalForms": [
+                    "lib"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: add, install, update e remove a dependency. Transitive dependency é a dependência de uma dependência. Em segurança: vulnerable dependency.",
+                  "collocations": [
+                    "add a dependency",
+                    "transitive dependency",
+                    "update dependencies",
+                    "dependency injection"
+                  ],
+                  "ipa": "/dɪˈpɛndənsi/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Upgrading the dependency fixed the security vulnerability.",
+                  "answer": "dependency",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Remove the unused dependency from package.json.",
+                  "answer": "dependency",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "abstraction",
+              "locales": {
+                "PT": {
+                  "text": "abstração",
+                  "definition": "Ocultação dos detalhes de implementação atrás de uma interface simples, expondo só o essencial.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "abstraction",
+                  "definition": "Hiding implementation details behind a simple interface so that only the essentials are exposed.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Aparece em layer of abstraction e leaky abstraction (a que expõe o que deveria esconder). Em revisões: the wrong level of abstraction.",
+                  "collocations": [
+                    "layer of abstraction",
+                    "leaky abstraction",
+                    "level of abstraction",
+                    "abstraction layer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The repository pattern adds a layer of abstraction over the database.",
+                  "answer": "abstraction",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "This leaky abstraction exposes the SQL dialect.",
+                  "answer": "abstraction",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "middleware",
+              "locales": {
+                "PT": {
+                  "text": "middleware",
+                  "definition": "Camada de software entre a requisição recebida e o tratamento final no servidor, usada para tarefas transversais como autenticação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "middleware",
+                  "definition": "A software layer between an incoming request and the final handler, used for cross-cutting tasks such as authentication.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em Express e NestJS é comum dizer a logging middleware. Verbos típicos: register e apply middleware.",
+                  "collocations": [
+                    "authentication middleware",
+                    "register middleware",
+                    "logging middleware",
+                    "middleware chain"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The authentication middleware rejects requests without a valid token.",
+                  "answer": "middleware",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Register the middleware before the route handlers.",
+                  "answer": "middleware",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "schema",
+              "locales": {
+                "PT": {
+                  "text": "esquema",
+                  "definition": "Descrição formal da estrutura dos dados: campos, tipos e restrições.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "schema",
+                  "definition": "A formal description of how data is structured: fields, types and constraints.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em banco de dados é a estrutura das tabelas; em APIs, a forma do JSON. Verbos: define, validate against e update a schema.",
+                  "collocations": [
+                    "database schema",
+                    "JSON schema",
+                    "schema validation",
+                    "schema change"
+                  ],
+                  "ipa": "/ˈskiːmə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The request body is validated against a JSON schema.",
+                  "answer": "schema",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A schema change requires a database migration.",
+                  "answer": "schema",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "payload",
+              "locales": {
+                "PT": {
+                  "text": "carga útil",
+                  "definition": "Dados transportados no corpo de uma requisição ou mensagem, excluindo cabeçalhos e metadados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "payload",
+                  "definition": "The data carried in the body of a request or message, excluding headers and metadata.",
+                  "informalForms": [
+                    "request body"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em logs e documentação: request payload e response payload. Verbos: send, parse e validate the payload.",
+                  "collocations": [
+                    "request payload",
+                    "JSON payload",
+                    "validate the payload",
+                    "payload size"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The payload exceeds the maximum allowed size.",
+                  "answer": "payload",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Validate the payload before processing the request.",
+                  "answer": "payload",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "dados-e-desempenho",
+          "title": "Dados e desempenho",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "query",
+              "locales": {
+                "PT": {
+                  "text": "consulta",
+                  "definition": "Instrução que solicita ou manipula dados em um banco de dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "query",
+                  "definition": "A statement that requests or manipulates data in a database.",
+                  "informalForms": [
+                    "SQL call"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo e verbo: run a query, to query a table. Desempenho: slow query e optimize a query. Query string é outra coisa: parte da URL.",
+                  "collocations": [
+                    "run a query",
+                    "slow query",
+                    "optimize a query",
+                    "query plan"
+                  ],
+                  "ipa": "/ˈkwɪəri/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A slow query was blocking the connection pool.",
+                  "answer": "query",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Run the query against the staging database.",
+                  "answer": "query",
+                  "documentType": "CODE_REVIEW"
+                }
+              ]
+            },
+            {
+              "slug": "transaction",
+              "locales": {
+                "PT": {
+                  "text": "transação",
+                  "definition": "Conjunto de operações no banco de dados tratado como unidade indivisível: ou todas ocorrem, ou nenhuma.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "transaction",
+                  "definition": "A group of database operations treated as one unit: either all succeed or none do.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: begin, commit e roll back a transaction. Propriedades: ACID. Em revisões: wrap both updates in a transaction.",
+                  "collocations": [
+                    "begin a transaction",
+                    "commit a transaction",
+                    "roll back a transaction",
+                    "database transaction"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Wrap both updates in a single transaction.",
+                  "answer": "transaction",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The transaction was rolled back after the constraint violation.",
+                  "answer": "transaction",
+                  "documentType": "POSTMORTEM"
+                }
+              ]
+            },
+            {
+              "slug": "index",
+              "locales": {
+                "PT": {
+                  "text": "índice",
+                  "definition": "Estrutura auxiliar que acelera buscas em uma coluna ou conjunto de colunas de uma tabela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "index",
+                  "definition": "An auxiliary structure that speeds up lookups on a column or set of columns in a table.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: indexes (banco de dados) ou indices (matemática). Verbos: create, add e drop an index. Custo: acelera leituras e desacelera escritas.",
+                  "collocations": [
+                    "create an index",
+                    "composite index",
+                    "unique index",
+                    "missing index"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Adding an index reduced the query time from two seconds to twenty milliseconds.",
+                  "answer": "index",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A missing index caused a full table scan.",
+                  "answer": "index",
+                  "documentType": "POSTMORTEM"
+                }
+              ]
+            },
+            {
+              "slug": "migration",
+              "locales": {
+                "PT": {
+                  "text": "migração",
+                  "definition": "Script versionado que altera a estrutura do banco de dados de forma controlada e reproduzível.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "migration",
+                  "definition": "A versioned script that changes the database structure in a controlled, repeatable way.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Data migration move dados; migration de schema altera a estrutura. Verbos: write, run, apply e revert a migration.",
+                  "collocations": [
+                    "run a migration",
+                    "apply migrations",
+                    "revert a migration",
+                    "database migration"
+                  ],
+                  "ipa": "/maɪˈɡreɪʃən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Run the migration before deploying the new version.",
+                  "answer": "migration",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The migration adds a nullable column to the orders table.",
+                  "answer": "migration",
+                  "documentType": "PULL_REQUEST"
+                }
+              ]
+            },
+            {
+              "slug": "cache",
+              "locales": {
+                "PT": {
+                  "text": "cache",
+                  "definition": "Armazenamento temporário de dados usados com frequência, para evitar recalculá-los ou buscá-los de novo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cache",
+                  "definition": "Temporary storage of frequently used data to avoid recomputing or refetching it.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também é verbo: cache the result. Pronuncia-se como cash. Problemas típicos: stale cache e cache invalidation.",
+                  "collocations": [
+                    "cache hit",
+                    "cache miss",
+                    "invalidate the cache",
+                    "stale cache"
+                  ],
+                  "ipa": "/kæʃ/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A cache miss forces a trip to the database.",
+                  "answer": "cache",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Clear the cache after updating the configuration.",
+                  "answer": "cache",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "latency",
+              "locales": {
+                "PT": {
+                  "text": "latência",
+                  "definition": "Tempo entre o envio de uma requisição e o recebimento do início da resposta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "latency",
+                  "definition": "The time between sending a request and receiving the start of the response.",
+                  "informalForms": [
+                    "lag"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Mede-se em milissegundos; p99 latency é o tempo abaixo do qual ficam 99% das requisições. Não confunda com throughput (volume por tempo).",
+                  "collocations": [
+                    "low latency",
+                    "high latency",
+                    "network latency",
+                    "p99 latency"
+                  ],
+                  "ipa": "/ˈleɪtənsi/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "High latency was observed between the API and the database.",
+                  "answer": "latency",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The new region reduces latency for users in Brazil.",
+                  "answer": "latency",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "engenharia",
+      "title": "Engenharia na prática",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "controle-de-versao",
+          "title": "Controle de versão",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "repository",
+              "locales": {
+                "PT": {
+                  "text": "repositório",
+                  "definition": "Local onde o código do projeto e todo o seu histórico de alterações são armazenados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "repository",
+                  "definition": "The place where a project's code and its full change history are stored.",
+                  "informalForms": [
+                    "repo"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Repo é comum em conversa e na linha de comando; em documentos formais escreva repository. Verbos: clone, fork e initialize a repository.",
+                  "collocations": [
+                    "clone a repository",
+                    "remote repository",
+                    "private repository",
+                    "initialize a repository"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Clone the repository and install the dependencies.",
+                  "answer": "repository",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The repository contains the full commit history.",
+                  "answer": "repository",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "commit",
+              "locales": {
+                "PT": {
+                  "text": "commit",
+                  "definition": "Registro de um conjunto de alterações no histórico de versões, acompanhado de uma mensagem que as descreve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "commit",
+                  "definition": "A recorded set of changes in the version history, together with a message describing them.",
+                  "informalForms": [
+                    "save point"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo e verbo: make a commit, commit the changes. Mensagens usam o imperativo (Fix null check, não Fixed). Atomic commit contém uma única mudança lógica.",
+                  "collocations": [
+                    "commit message",
+                    "atomic commit",
+                    "commit history",
+                    "squash commits"
+                  ],
+                  "ipa": "/kəˈmɪt/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Write a clear commit message in the imperative mood.",
+                  "answer": "commit",
+                  "documentType": "COMMIT_MESSAGE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each commit should contain one logical change.",
+                  "answer": "commit",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "branch",
+              "locales": {
+                "PT": {
+                  "text": "ramificação",
+                  "definition": "Linha independente de desenvolvimento que permite alterar o código sem afetar a linha principal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "branch",
+                  "definition": "An independent line of development that lets you change code without affecting the main line.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: create, check out, switch to e delete a branch. A principal costuma ser main (default branch). Feature branch isola uma funcionalidade.",
+                  "collocations": [
+                    "feature branch",
+                    "create a branch",
+                    "default branch",
+                    "delete a branch"
+                  ],
+                  "ipa": "/bræntʃ/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Create a feature branch from main.",
+                  "answer": "branch",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Protected branch rules require approval before merging.",
+                  "answer": "branch",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "merge-conflict",
+              "locales": {
+                "PT": {
+                  "text": "conflito de merge",
+                  "definition": "Situação em que o sistema de versões não consegue combinar automaticamente alterações concorrentes nas mesmas linhas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "merge conflict",
+                  "definition": "A situation where the version control system cannot automatically combine concurrent changes to the same lines.",
+                  "informalForms": [
+                    "conflicts"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: resolve e hit a merge conflict. Diz-se there is a merge conflict in file X. A resolução é manual: escolher qual versão manter.",
+                  "collocations": [
+                    "resolve a merge conflict",
+                    "hit a merge conflict",
+                    "conflict markers",
+                    "rebase conflict"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Resolve the merge conflict before requesting a review.",
+                  "answer": "merge conflict",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The merge conflict was caused by two edits to the same line.",
+                  "answer": "merge conflict",
+                  "documentType": "POSTMORTEM"
+                }
+              ]
+            },
+            {
+              "slug": "pull-request",
+              "locales": {
+                "PT": {
+                  "text": "pull request",
+                  "definition": "Pedido para incorporar alterações de uma branch em outra, aberto para revisão pela equipe.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pull request",
+                  "definition": "A request to merge changes from one branch into another, opened for the team to review.",
+                  "informalForms": [
+                    "PR"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abrevia-se PR. Verbos: open, review, approve e merge a pull request. No GitLab o equivalente é merge request. Boa descrição: o que mudou e por quê.",
+                  "collocations": [
+                    "open a pull request",
+                    "review a pull request",
+                    "approve a pull request",
+                    "merge a pull request"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Open a pull request and request a review from two teammates.",
+                  "answer": "pull request",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The pull request was approved and merged.",
+                  "answer": "pull request",
+                  "documentType": "PULL_REQUEST"
+                }
+              ]
+            },
+            {
+              "slug": "rollback",
+              "locales": {
+                "PT": {
+                  "text": "reversão",
+                  "definition": "Retorno a uma versão ou a um estado anterior e estável após uma alteração problemática.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "rollback",
+                  "definition": "Returning to a previous, stable version or state after a problematic change.",
+                  "informalForms": [
+                    "undo the deploy"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo: a rollback. Verbo em duas palavras: roll back (we rolled back the release). Em plano de deploy: rollback plan.",
+                  "collocations": [
+                    "initiate a rollback",
+                    "rollback plan",
+                    "automatic rollback",
+                    "roll back a release"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The team initiated a rollback after error rates spiked.",
+                  "answer": "rollback",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A tested rollback plan reduces deployment risk.",
+                  "answer": "rollback",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "qualidade-e-producao",
+          "title": "Qualidade e produção",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "refactoring",
+              "locales": {
+                "PT": {
+                  "text": "refatoração",
+                  "definition": "Reorganização do código interno para melhorar sua clareza sem alterar o comportamento externo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "refactoring",
+                  "definition": "Restructuring existing code to improve its clarity without changing its external behavior.",
+                  "informalForms": [
+                    "cleaning up the code"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: to refactor. Refactoring não muda o comportamento; se muda, é uma alteração funcional. Convém ter testes antes de começar.",
+                  "collocations": [
+                    "refactor a module",
+                    "large-scale refactoring",
+                    "safe refactoring",
+                    "refactoring without changing behavior"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "This pull request is a refactoring with no functional changes.",
+                  "answer": "refactoring",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Extensive refactoring is needed before adding new features.",
+                  "answer": "refactoring",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "deprecation",
+              "locales": {
+                "PT": {
+                  "text": "descontinuação",
+                  "definition": "Marcação de um recurso como obsoleto: ainda disponível, mas com remoção planejada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "deprecation",
+                  "definition": "Marking a feature as obsolete: still available but scheduled for removal.",
+                  "informalForms": [
+                    "retiring it"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: to deprecate; adjetivo: deprecated. Costuma vir com prazo: deprecated in v2, removed in v3. Deprecation warning aparece em logs e compiladores.",
+                  "collocations": [
+                    "deprecation warning",
+                    "deprecation notice",
+                    "deprecation policy",
+                    "deprecate an API"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The deprecation of the v1 API is scheduled for March.",
+                  "answer": "deprecation",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A deprecation warning is logged on every call.",
+                  "answer": "deprecation",
+                  "documentType": "DOCUMENTATION"
+                }
+              ]
+            },
+            {
+              "slug": "technical-debt",
+              "locales": {
+                "PT": {
+                  "text": "dívida técnica",
+                  "definition": "Custo futuro de retrabalho acumulado por escolher uma solução rápida em vez da melhor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "technical debt",
+                  "definition": "The future cost of rework accumulated by choosing a quick solution over a better one.",
+                  "informalForms": [
+                    "messy code"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Metáfora financeira: take on technical debt, pay down technical debt. Não é sinônimo de bug: é o custo de manter e alterar o sistema.",
+                  "collocations": [
+                    "pay down technical debt",
+                    "accumulate technical debt",
+                    "technical debt backlog",
+                    "take on technical debt"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "We took on technical debt to meet the launch deadline.",
+                  "answer": "technical debt",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Paying down technical debt is part of every sprint.",
+                  "answer": "technical debt",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "regression",
+              "locales": {
+                "PT": {
+                  "text": "regressão",
+                  "definition": "Defeito em algo que antes funcionava, introduzido por uma alteração posterior.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "regression",
+                  "definition": "A defect in functionality that previously worked, introduced by a later change.",
+                  "informalForms": [
+                    "it broke again"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Regression test verifica que o comportamento antigo continua correto. Em bug reports: this is a regression introduced in v2.3.",
+                  "collocations": [
+                    "regression test",
+                    "introduce a regression",
+                    "regression bug",
+                    "performance regression"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The latest release introduced a regression in the login flow.",
+                  "answer": "regression",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A regression test now covers this scenario.",
+                  "answer": "regression",
+                  "documentType": "PULL_REQUEST"
+                }
+              ]
+            },
+            {
+              "slug": "deployment",
+              "locales": {
+                "PT": {
+                  "text": "implantação",
+                  "definition": "Processo de colocar uma nova versão do software em um ambiente, como homologação ou produção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "deployment",
+                  "definition": "The process of releasing a new version of software to an environment such as staging or production.",
+                  "informalForms": [
+                    "pushing to prod"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: to deploy (deploy to production). Release é a versão; deployment é o ato de colocá-la no ar. Termos: deployment pipeline e continuous deployment.",
+                  "collocations": [
+                    "deploy to production",
+                    "deployment pipeline",
+                    "continuous deployment",
+                    "zero-downtime deployment"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The deployment to production completed without errors.",
+                  "answer": "deployment",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A zero-downtime deployment avoids interrupting users.",
+                  "answer": "deployment",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "code-review",
+              "locales": {
+                "PT": {
+                  "text": "revisão de código",
+                  "definition": "Exame do código por outra pessoa antes de ser incorporado, para achar falhas e melhorar a qualidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "code review",
+                  "definition": "Examination of code by another person before it is merged, to find defects and improve quality.",
+                  "informalForms": [
+                    "second pair of eyes"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbos: request, leave e address review comments. Boas práticas: nit: para detalhes menores e LGTM (looks good to me) para aprovar.",
+                  "collocations": [
+                    "request a code review",
+                    "review comments",
+                    "address review feedback",
+                    "LGTM"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Every change must pass a code review before merging.",
+                  "answer": "code review",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "She left detailed comments during the code review.",
+                  "answer": "code review",
+                  "documentType": "PULL_REQUEST"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

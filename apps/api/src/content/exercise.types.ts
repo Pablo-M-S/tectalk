@@ -11,6 +11,8 @@ export const EXERCISE_TYPES = [
   'TYPE_TERM',
   'FILL_BLANK',
   'BUILD_FROM_ROOTS',
+  'REGISTER_CHOICE',
+  'ORDER_SENTENCE',
   'LISTEN_AND_TYPE',
 ] as const;
 
@@ -27,6 +29,11 @@ export interface Reveal {
   definition: string;
   ipa: string | null;
   informalForms: string[];
+  /** Como o termo é usado: registro, contexto, armadilhas (no idioma de origem). */
+  usageNote: string | null;
+  collocations: string[];
+  /** Frase real de uso, quando existir. */
+  example: string | null;
 }
 
 interface ExerciseBase<T extends ExerciseType> {
@@ -66,6 +73,20 @@ export interface BuildFromRootsExercise extends ExerciseBase<'BUILD_FROM_ROOTS'>
   breakdown: { segment: string; meaning: string }[];
 }
 
+/** Troca de registro: de uma expressão coloquial para o termo formal de documentos. */
+export interface RegisterChoiceExercise extends ExerciseBase<'REGISTER_CHOICE'> {
+  prompt: string;
+  options: Option[];
+  correctOptionId: string;
+}
+
+/** Monta uma frase profissional real, palavra por palavra. */
+export interface OrderSentenceExercise extends ExerciseBase<'ORDER_SENTENCE'> {
+  prompt: string;
+  tiles: string[];
+  solution: string[];
+}
+
 export interface ListenAndTypeExercise extends ExerciseBase<'LISTEN_AND_TYPE'> {
   audioUrl: string;
   acceptedAnswers: string[];
@@ -77,4 +98,6 @@ export type Exercise =
   | TypeTermExercise
   | FillBlankExercise
   | BuildFromRootsExercise
+  | RegisterChoiceExercise
+  | OrderSentenceExercise
   | ListenAndTypeExercise;

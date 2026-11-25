@@ -34,9 +34,11 @@ export default function RootLayout() {
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: theme.bg } }}>
         <Stack.Screen name="index" />
         <Stack.Protected guard={signedIn}>
+          <Stack.Screen name="areas" />
           <Stack.Screen name="(tabs)" />
           <Stack.Screen name="lesson/[id]" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
           <Stack.Screen name="review-session" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
+          <Stack.Screen name="practice-session" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
           <Stack.Screen name="result" options={{ presentation: 'fullScreenModal', gestureEnabled: false, animation: 'fade' }} />
         </Stack.Protected>
         <Stack.Protected guard={!signedIn}>

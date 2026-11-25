@@ -126,6 +126,96 @@
         "pt": "aumento de tamanho",
         "en": "enlargement"
       }
+    },
+    {
+      "form": "pneumon",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "pulmão",
+        "en": "lung"
+      }
+    },
+    {
+      "form": "bronch",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "brônquio, via aérea",
+        "en": "airway, bronchus"
+      }
+    },
+    {
+      "form": "itis",
+      "kind": "SUFFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "inflamação",
+        "en": "inflammation"
+      }
+    },
+    {
+      "form": "dys",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "difícil, anormal",
+        "en": "difficult, abnormal"
+      }
+    },
+    {
+      "form": "pnea",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "respiração",
+        "en": "breathing"
+      }
+    },
+    {
+      "form": "an",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "sem, ausência de",
+        "en": "without"
+      }
+    },
+    {
+      "form": "esthesia",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "sensação",
+        "en": "sensation"
+      }
+    },
+    {
+      "form": "dia",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "através de",
+        "en": "through"
+      }
+    },
+    {
+      "form": "pro",
+      "kind": "PREFIX",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "antes, à frente",
+        "en": "before, ahead"
+      }
+    },
+    {
+      "form": "gnosis",
+      "kind": "ROOT",
+      "origin": "GREEK",
+      "meanings": {
+        "pt": "conhecimento",
+        "en": "knowledge"
+      }
     }
   ],
   "units": [
@@ -153,7 +243,14 @@
                   "definition": "One of the two upper chambers of the heart, which receive blood returning from the veins.",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˈeɪtriəm/"
+                  "ipa": "/ˈeɪtriəm/",
+                  "usageNote": "Plural: atria. Em laudos aparece sempre com o lado: left atrium, right atrium. Não confunda com atrial appendage (aurícula).",
+                  "collocations": [
+                    "left atrium",
+                    "right atrium",
+                    "atrial fibrillation",
+                    "atrial septum"
+                  ]
                 }
               },
               "examples": [
@@ -162,6 +259,12 @@
                   "sentence": "The right atrium receives deoxygenated blood from the superior and inferior vena cava.",
                   "answer": "atrium",
                   "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The echocardiogram showed a dilated left atrium.",
+                  "answer": "atrium",
+                  "documentType": "IMAGING_REPORT"
                 }
               ]
             },
@@ -179,7 +282,14 @@
                   "definition": "One of the two lower chambers of the heart, which pump blood into the arteries.",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˈvɛntrɪkəl/"
+                  "ipa": "/ˈvɛntrɪkəl/",
+                  "usageNote": "Plural: ventricles. O adjetivo é ventricular (ventricular tachycardia). Também existem ventrículos no cérebro: lateral ventricle.",
+                  "collocations": [
+                    "left ventricle",
+                    "right ventricle",
+                    "ventricular hypertrophy",
+                    "ejection fraction"
+                  ]
                 }
               },
               "examples": [
@@ -188,6 +298,12 @@
                   "sentence": "The left ventricle ejects oxygenated blood into the aorta during systole.",
                   "answer": "ventricle",
                   "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Echocardiography demonstrated hypertrophy of the right ventricle.",
+                  "answer": "ventricle",
+                  "documentType": "IMAGING_REPORT"
                 }
               ]
             },
@@ -205,7 +321,14 @@
                   "definition": "The largest artery in the body, carrying oxygenated blood from the left ventricle into the systemic circulation.",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/eɪˈɔːrtə/"
+                  "ipa": "/eɪˈɔːrtə/",
+                  "usageNote": "Plural: aortas ou aortae. Segmentos: ascending, descending e abdominal aorta. Adjetivo: aortic (aortic stenosis).",
+                  "collocations": [
+                    "ascending aorta",
+                    "abdominal aorta",
+                    "aortic stenosis",
+                    "aortic dissection"
+                  ]
                 }
               },
               "examples": [
@@ -214,6 +337,12 @@
                   "sentence": "A dissection of the ascending aorta was identified on contrast-enhanced CT.",
                   "answer": "aorta",
                   "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An aneurysm of the abdominal aorta measuring 5.2 cm was noted.",
+                  "answer": "aorta",
+                  "documentType": "IMAGING_REPORT"
                 }
               ]
             },
@@ -231,7 +360,14 @@
                   "definition": "The thick muscular middle layer of the heart wall, responsible for cardiac contraction.",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˌmaɪoʊˈkɑːrdiəm/"
+                  "ipa": "/ˌmaɪoʊˈkɑːrdiəm/",
+                  "usageNote": "Plural: myocardia. Adjetivo: myocardial. Em prontuário: viable myocardium (recuperável) e ischemic myocardium.",
+                  "collocations": [
+                    "viable myocardium",
+                    "ischemic myocardium",
+                    "myocardial infarction",
+                    "myocardial perfusion"
+                  ]
                 }
               },
               "examples": [
@@ -240,6 +376,12 @@
                   "sentence": "Ischemia causes necrosis of the myocardium if blood flow is not restored.",
                   "answer": "myocardium",
                   "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cardiac MRI revealed extensive scarring of the myocardium.",
+                  "answer": "myocardium",
+                  "documentType": "IMAGING_REPORT"
                 }
               ],
               "segments": {
@@ -269,7 +411,13 @@
                   "definition": "The double-layered membranous sac that encloses the heart and the roots of the great vessels.",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˌpɛrɪˈkɑːrdiəm/"
+                  "ipa": "/ˌpɛrɪˈkɑːrdiəm/",
+                  "usageNote": "Plural: pericardia. Adjetivo: pericardial (pericardial effusion). Não confunda com epicardium, a camada interna do pericárdio.",
+                  "collocations": [
+                    "pericardial effusion",
+                    "pericardial tamponade",
+                    "pericardial window"
+                  ]
                 }
               },
               "examples": [
@@ -278,6 +426,12 @@
                   "sentence": "Echocardiography revealed a small effusion within the pericardium.",
                   "answer": "pericardium",
                   "documentType": "ECHO_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The surgeon opened the pericardium to relieve tamponade.",
+                  "answer": "pericardium",
+                  "documentType": "OPERATIVE_NOTE"
                 }
               ],
               "segments": {
@@ -311,7 +465,14 @@
                     "heart valve"
                   ],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˈkɑːrdiæk vælv/"
+                  "ipa": "/ˈkɑːrdiæk vælv/",
+                  "usageNote": "Em documentos, prefira o nome específico: mitral, aortic, tricuspid ou pulmonary valve. Heart valve é aceito ao falar com o paciente.",
+                  "collocations": [
+                    "mitral valve",
+                    "aortic valve",
+                    "valve replacement",
+                    "valvular disease"
+                  ]
                 }
               },
               "examples": [
@@ -320,6 +481,12 @@
                   "sentence": "The patient underwent replacement of a stenotic cardiac valve.",
                   "answer": "cardiac valve",
                   "documentType": "SURGICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Transcatheter repair of the cardiac valve was completed without complications.",
+                  "answer": "cardiac valve",
+                  "documentType": "OPERATIVE_NOTE"
                 }
               ]
             }
@@ -349,7 +516,14 @@
                     "heart attack"
                   ],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˌmaɪoʊˈkɑːrdiəl ɪnˈfɑːrkʃən/"
+                  "ipa": "/ˌmaɪoʊˈkɑːrdiəl ɪnˈfɑːrkʃən/",
+                  "usageNote": "Abrevia-se MI. Variantes: STEMI e NSTEMI. Heart attack é coloquial; em documentos use myocardial infarction, quase sempre com acute.",
+                  "collocations": [
+                    "acute myocardial infarction",
+                    "history of myocardial infarction",
+                    "STEMI",
+                    "NSTEMI"
+                  ]
                 }
               },
               "examples": [
@@ -358,6 +532,12 @@
                   "sentence": "The ECG findings were consistent with acute myocardial infarction.",
                   "answer": "myocardial infarction",
                   "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He was admitted with an ST-elevation myocardial infarction.",
+                  "answer": "myocardial infarction",
+                  "documentType": "ADMISSION_NOTE"
                 }
               ]
             },
@@ -377,13 +557,26 @@
                     "irregular heartbeat"
                   ],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/əˈrɪðmiə/"
+                  "ipa": "/əˈrɪðmiə/",
+                  "usageNote": "Plural: arrhythmias. Atenção à grafia: dois r e dois h. Existe também dysrhythmia, menos comum.",
+                  "collocations": [
+                    "cardiac arrhythmia",
+                    "ventricular arrhythmia",
+                    "life-threatening arrhythmia",
+                    "antiarrhythmic drug"
+                  ]
                 }
               },
               "examples": [
                 {
                   "language": "EN",
                   "sentence": "The Holter monitor detected a sustained ventricular arrhythmia.",
+                  "answer": "arrhythmia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cardiac arrhythmia was ruled out after 24 hours of monitoring.",
                   "answer": "arrhythmia",
                   "documentType": "CLINICAL_NOTE"
                 }
@@ -421,13 +614,26 @@
                     "racing heart"
                   ],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˌtækɪˈkɑːrdiə/"
+                  "ipa": "/ˌtækɪˈkɑːrdiə/",
+                  "usageNote": "Em adultos: frequência acima de 100 bpm. Sempre qualifique: sinus, supraventricular ou ventricular tachycardia.",
+                  "collocations": [
+                    "sinus tachycardia",
+                    "ventricular tachycardia",
+                    "supraventricular tachycardia",
+                    "reflex tachycardia"
+                  ]
                 }
               },
               "examples": [
                 {
                   "language": "EN",
                   "sentence": "The patient presented with sinus tachycardia at 120 beats per minute.",
+                  "answer": "tachycardia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Supraventricular tachycardia resolved after adenosine administration.",
                   "answer": "tachycardia",
                   "documentType": "CLINICAL_NOTE"
                 }
@@ -461,13 +667,26 @@
                     "slow heartbeat"
                   ],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˌbrædɪˈkɑːrdiə/"
+                  "ipa": "/ˌbrædɪˈkɑːrdiə/",
+                  "usageNote": "Em adultos: frequência abaixo de 60 bpm. Pode ser fisiológica em atletas; por isso symptomatic bradycardia é a expressão de alerta.",
+                  "collocations": [
+                    "sinus bradycardia",
+                    "symptomatic bradycardia",
+                    "severe bradycardia",
+                    "bradycardia in athletes"
+                  ]
                 }
               },
               "examples": [
                 {
                   "language": "EN",
                   "sentence": "Beta-blocker therapy may induce symptomatic bradycardia in elderly patients.",
+                  "answer": "bradycardia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Sinus bradycardia was noted in the trained athlete and required no treatment.",
                   "answer": "bradycardia",
                   "documentType": "CLINICAL_NOTE"
                 }
@@ -503,13 +722,26 @@
                     "high blood pressure"
                   ],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˌhaɪpərˈtɛnʃən/"
+                  "ipa": "/ˌhaɪpərˈtɛnʃən/",
+                  "usageNote": "Sem qualificador, refere-se à pressão arterial sistêmica. Existem também pulmonary hypertension e portal hypertension. O adjetivo é hypertensive.",
+                  "collocations": [
+                    "essential hypertension",
+                    "resistant hypertension",
+                    "pulmonary hypertension",
+                    "antihypertensive medication"
+                  ]
                 }
               },
               "examples": [
                 {
                   "language": "EN",
                   "sentence": "The patient has a history of poorly controlled hypertension.",
+                  "answer": "hypertension",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Lifestyle changes are first-line management for mild hypertension.",
                   "answer": "hypertension",
                   "documentType": "CLINICAL_NOTE"
                 }
@@ -543,7 +775,14 @@
                     "enlarged heart"
                   ],
                   "partOfSpeech": "NOUN",
-                  "ipa": "/ˌkɑːrdioʊˈmɛɡəli/"
+                  "ipa": "/ˌkɑːrdioʊˈmɛɡəli/",
+                  "usageNote": "É um achado de imagem, não um diagnóstico: descreve coração aumentado, em geral na radiografia (índice cardiotorácico acima de 0,5).",
+                  "collocations": [
+                    "mild cardiomegaly",
+                    "radiographic cardiomegaly",
+                    "cardiothoracic ratio",
+                    "cardiomegaly on chest X-ray"
+                  ]
                 }
               },
               "examples": [
@@ -552,6 +791,12 @@
                   "sentence": "Chest radiography demonstrated cardiomegaly with pulmonary congestion.",
                   "answer": "cardiomegaly",
                   "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Mild cardiomegaly was noted on the admission chest X-ray.",
+                  "answer": "cardiomegaly",
+                  "documentType": "IMAGING_REPORT"
                 }
               ],
               "segments": {
@@ -566,6 +811,856 @@
                   }
                 ]
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pneumologia",
+      "title": "Pneumologia",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "condicoes-respiratorias",
+          "title": "Condições respiratórias",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "pneumonia",
+              "locales": {
+                "PT": {
+                  "text": "pneumonia",
+                  "definition": "Infecção do parênquima pulmonar, causada por bactérias, vírus ou fungos, com inflamação dos alvéolos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pneumonia",
+                  "definition": "An infection that inflames the air sacs of one or both lungs, which may fill with fluid or pus.",
+                  "informalForms": [
+                    "lung infection"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Qualifique a origem: community-acquired, hospital-acquired ou aspiration pneumonia. Em prontuário o diagnóstico é pneumonia; lung infection é linguagem leiga.",
+                  "collocations": [
+                    "community-acquired pneumonia",
+                    "aspiration pneumonia",
+                    "lobar pneumonia",
+                    "ventilator-associated pneumonia"
+                  ],
+                  "ipa": "/njuːˈmoʊniə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Chest radiography revealed a right lower lobe pneumonia.",
+                  "answer": "pneumonia",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The patient was treated for community-acquired pneumonia with intravenous antibiotics.",
+                  "answer": "pneumonia",
+                  "documentType": "DISCHARGE_SUMMARY"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "pneumon",
+                    "morpheme": "pneumon"
+                  },
+                  {
+                    "segment": "ia",
+                    "morpheme": "ia"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "bronchitis",
+              "locales": {
+                "PT": {
+                  "text": "bronquite",
+                  "definition": "Inflamação dos brônquios, que causa tosse, produção de muco e, às vezes, chiado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "bronchitis",
+                  "definition": "Inflammation of the lining of the bronchial tubes, causing cough and mucus production.",
+                  "informalForms": [
+                    "chest cold"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Distinga acute bronchitis (em geral viral) de chronic bronchitis (tosse produtiva por pelo menos três meses em dois anos seguidos, parte da DPOC).",
+                  "collocations": [
+                    "acute bronchitis",
+                    "chronic bronchitis",
+                    "bronchitis exacerbation",
+                    "viral bronchitis"
+                  ],
+                  "ipa": "/brɒŋˈkaɪtɪs/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Acute bronchitis is usually viral and does not require antibiotics.",
+                  "answer": "bronchitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He has a long-standing diagnosis of chronic bronchitis.",
+                  "answer": "bronchitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "bronch",
+                    "morpheme": "bronch"
+                  },
+                  {
+                    "segment": "itis",
+                    "morpheme": "itis"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "asthma",
+              "locales": {
+                "PT": {
+                  "text": "asma",
+                  "definition": "Doença inflamatória crônica das vias aéreas, com episódios recorrentes de chiado, falta de ar e tosse.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "asthma",
+                  "definition": "A chronic inflammatory disease of the airways causing recurrent wheezing, breathlessness and cough.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O th é mudo na pronúncia. Para crise, o termo de prontuário é asthma exacerbation; asthma attack é aceito, porém menos técnico.",
+                  "collocations": [
+                    "asthma exacerbation",
+                    "bronchial asthma",
+                    "allergic asthma",
+                    "well-controlled asthma"
+                  ],
+                  "ipa": "/ˈæzmə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The child has well-controlled asthma on low-dose inhaled corticosteroids.",
+                  "answer": "asthma",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Spirometry confirmed reversible airflow obstruction consistent with asthma.",
+                  "answer": "asthma",
+                  "documentType": "PULMONARY_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "dyspnea",
+              "locales": {
+                "PT": {
+                  "text": "dispneia",
+                  "definition": "Sensação subjetiva de falta de ar ou de dificuldade para respirar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "dyspnea",
+                  "definition": "Subjective difficulty or discomfort in breathing; shortness of breath.",
+                  "informalForms": [
+                    "shortness of breath"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No Reino Unido: dyspnoea. Em notas abrevia-se SOB (shortness of breath) e quantifica-se: dyspnea on exertion, at rest ou paroxysmal nocturnal dyspnea.",
+                  "collocations": [
+                    "dyspnea on exertion",
+                    "dyspnea at rest",
+                    "paroxysmal nocturnal dyspnea",
+                    "acute dyspnea"
+                  ],
+                  "ipa": "/dɪspˈniːə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient reported progressive dyspnea on exertion over three weeks.",
+                  "answer": "dyspnea",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Acute dyspnea at rest prompted an urgent evaluation.",
+                  "answer": "dyspnea",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "dys",
+                    "morpheme": "dys"
+                  },
+                  {
+                    "segment": "pnea",
+                    "morpheme": "pnea"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "pulmonary-embolism",
+              "locales": {
+                "PT": {
+                  "text": "embolia pulmonar",
+                  "definition": "Obstrução de uma artéria pulmonar por um êmbolo, geralmente um coágulo originado nas veias profundas das pernas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pulmonary embolism",
+                  "definition": "Blockage of a pulmonary artery, usually by a blood clot that has travelled from the deep veins of the legs.",
+                  "informalForms": [
+                    "lung clot"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abrevia-se PE. Junto com DVT (deep vein thrombosis) forma o venous thromboembolism. O exame de confirmação é a CT pulmonary angiography.",
+                  "collocations": [
+                    "acute pulmonary embolism",
+                    "massive pulmonary embolism",
+                    "suspected pulmonary embolism",
+                    "CT pulmonary angiography"
+                  ],
+                  "ipa": "/ˈpʊlməˌnɛri ˈɛmbəlɪzəm/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "CT pulmonary angiography confirmed an acute pulmonary embolism.",
+                  "answer": "pulmonary embolism",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Anticoagulation was started immediately for suspected pulmonary embolism.",
+                  "answer": "pulmonary embolism",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "pleural-effusion",
+              "locales": {
+                "PT": {
+                  "text": "derrame pleural",
+                  "definition": "Acúmulo anormal de líquido no espaço entre as pleuras que envolvem o pulmão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pleural effusion",
+                  "definition": "An abnormal accumulation of fluid in the pleural space surrounding the lungs.",
+                  "informalForms": [
+                    "fluid around the lung"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Descreva lado e volume: small right pleural effusion, bilateral pleural effusions. Distingue-se transudato de exsudato pelos critérios de Light.",
+                  "collocations": [
+                    "small pleural effusion",
+                    "bilateral pleural effusions",
+                    "malignant pleural effusion",
+                    "thoracentesis"
+                  ],
+                  "ipa": "/ˈplʊərəl ɪˈfjuːʒən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Ultrasound showed a moderate left pleural effusion.",
+                  "answer": "pleural effusion",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Thoracentesis was performed to drain the pleural effusion.",
+                  "answer": "pleural effusion",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "procedimentos",
+      "title": "Procedimentos",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "procedimentos-clinicos",
+          "title": "Procedimentos clínicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "biopsy",
+              "locales": {
+                "PT": {
+                  "text": "biópsia",
+                  "definition": "Retirada de uma amostra de tecido ou de células para exame em laboratório.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "biopsy",
+                  "definition": "The removal of a sample of tissue or cells for examination under a microscope.",
+                  "informalForms": [
+                    "tissue sample"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: to biopsy; na voz passiva, the lesion was biopsied. Tipos: core needle, excisional, incisional e punch biopsy. O resultado vem no pathology report.",
+                  "collocations": [
+                    "core needle biopsy",
+                    "excisional biopsy",
+                    "bone marrow biopsy",
+                    "biopsy result"
+                  ],
+                  "ipa": "/ˈbaɪɒpsi/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A core needle biopsy of the breast mass was obtained under ultrasound guidance.",
+                  "answer": "biopsy",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The biopsy confirmed adenocarcinoma.",
+                  "answer": "biopsy",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "intubation",
+              "locales": {
+                "PT": {
+                  "text": "intubação",
+                  "definition": "Inserção de um tubo na traqueia, geralmente pela boca, para manter a via aérea e permitir ventilação mecânica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "intubation",
+                  "definition": "Insertion of a tube into the trachea to secure the airway and allow mechanical ventilation.",
+                  "informalForms": [
+                    "breathing tube placement"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: to intubate. Diz-se the patient was intubated. O oposto é extubation, a retirada do tubo.",
+                  "collocations": [
+                    "endotracheal intubation",
+                    "rapid sequence intubation",
+                    "difficult intubation",
+                    "prolonged intubation"
+                  ],
+                  "ipa": "/ˌɪntjuˈbeɪʃən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Rapid sequence intubation was performed due to respiratory failure.",
+                  "answer": "intubation",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Endotracheal intubation was uneventful.",
+                  "answer": "intubation",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "anesthesia",
+              "locales": {
+                "PT": {
+                  "text": "anestesia",
+                  "definition": "Perda reversível da sensibilidade, com ou sem perda de consciência, induzida para a realização de procedimentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "anesthesia",
+                  "definition": "A reversible loss of sensation, with or without loss of consciousness, induced for medical procedures.",
+                  "informalForms": [
+                    "being put to sleep"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "EUA: anesthesia; Reino Unido: anaesthesia. Tipos: general, regional (spinal, epidural) e local anesthesia. O profissional é o anesthesiologist.",
+                  "collocations": [
+                    "general anesthesia",
+                    "local anesthesia",
+                    "spinal anesthesia",
+                    "under anesthesia"
+                  ],
+                  "ipa": "/ˌænəsˈθiːʒə/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The procedure was performed under general anesthesia.",
+                  "answer": "anesthesia",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Local anesthesia with lidocaine was applied to the area.",
+                  "answer": "anesthesia",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "an",
+                    "morpheme": "an"
+                  },
+                  {
+                    "segment": "esthesia",
+                    "morpheme": "esthesia"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "catheter",
+              "locales": {
+                "PT": {
+                  "text": "cateter",
+                  "definition": "Tubo fino e flexível inserido em um vaso, cavidade ou órgão para administrar líquidos ou drenar secreções.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "catheter",
+                  "definition": "A thin, flexible tube inserted into a vein, cavity or organ to deliver fluids or drain secretions.",
+                  "informalForms": [
+                    "tube"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verbo: to catheterize. O procedimento chama-se catheterization (cardiac catheterization). Acesso periférico em notas: peripheral IV.",
+                  "collocations": [
+                    "central venous catheter",
+                    "urinary catheter",
+                    "indwelling catheter",
+                    "catheter insertion"
+                  ],
+                  "ipa": "/ˈkæθɪtər/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A central venous catheter was placed in the right internal jugular vein.",
+                  "answer": "catheter",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The urinary catheter was removed on postoperative day two.",
+                  "answer": "catheter",
+                  "documentType": "PROGRESS_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "suture",
+              "locales": {
+                "PT": {
+                  "text": "sutura",
+                  "definition": "Fio cirúrgico, ou a técnica de fechamento de uma ferida ou incisão com ele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "suture",
+                  "definition": "A stitch or series of stitches used to close a wound or surgical incision.",
+                  "informalForms": [
+                    "stitches"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo e verbo: to suture. Stitches é a forma coloquial. Em notas operatórias: the wound was closed with interrupted sutures.",
+                  "collocations": [
+                    "interrupted suture",
+                    "absorbable suture",
+                    "suture removal",
+                    "running suture"
+                  ],
+                  "ipa": "/ˈsuːtʃər/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The laceration required a single interrupted suture.",
+                  "answer": "suture",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each layer was closed with a running suture.",
+                  "answer": "suture",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "resection",
+              "locales": {
+                "PT": {
+                  "text": "ressecção",
+                  "definition": "Remoção cirúrgica de parte de um órgão ou de um tecido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "resection",
+                  "definition": "Surgical removal of part of an organ or tissue.",
+                  "informalForms": [
+                    "cutting out part of an organ"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Resection remove uma parte; excision remove uma lesão localizada; o sufixo -ectomy (appendectomy) remove o órgão inteiro. Verbo: to resect.",
+                  "collocations": [
+                    "surgical resection",
+                    "bowel resection",
+                    "wedge resection",
+                    "resection margin"
+                  ],
+                  "ipa": "/rɪˈsɛkʃən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The patient underwent a segmental resection of the sigmoid colon.",
+                  "answer": "resection",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Negative resection margins were achieved.",
+                  "answer": "resection",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "documentacao-clinica",
+      "title": "Linguagem do prontuário",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "raciocinio-clinico",
+          "title": "Raciocínio clínico",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "diagnosis",
+              "locales": {
+                "PT": {
+                  "text": "diagnóstico",
+                  "definition": "Identificação da doença ou condição que explica os sinais e sintomas do paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "diagnosis",
+                  "definition": "The identification of the disease or condition that explains a patient's signs and symptoms.",
+                  "informalForms": [
+                    "what's wrong"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: diagnoses (/-siːz/). Verbo: to diagnose; diz-se the patient was diagnosed with X. Em notas: working diagnosis (provisório) e final diagnosis.",
+                  "collocations": [
+                    "working diagnosis",
+                    "final diagnosis",
+                    "delayed diagnosis",
+                    "primary diagnosis"
+                  ],
+                  "ipa": "/ˌdaɪəɡˈnoʊsɪs/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The working diagnosis was community-acquired pneumonia.",
+                  "answer": "diagnosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A delayed diagnosis worsened the outcome.",
+                  "answer": "diagnosis",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "dia",
+                    "morpheme": "dia"
+                  },
+                  {
+                    "segment": "gnosis",
+                    "morpheme": "gnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "differential-diagnosis",
+              "locales": {
+                "PT": {
+                  "text": "diagnóstico diferencial",
+                  "definition": "Lista de condições possíveis que podem explicar os sintomas, a serem distinguidas por exames.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "differential diagnosis",
+                  "definition": "A list of possible conditions that could explain a patient's symptoms, to be distinguished by further tests.",
+                  "informalForms": [
+                    "possible causes"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviação: DDx. Em evoluções: The differential diagnosis includes… É uma lista de hipóteses, não uma conclusão.",
+                  "collocations": [
+                    "broad differential diagnosis",
+                    "differential diagnosis includes",
+                    "narrow the differential diagnosis",
+                    "wide differential diagnosis"
+                  ],
+                  "ipa": "/ˌdɪfəˈrɛnʃəl ˌdaɪəɡˈnoʊsɪs/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The differential diagnosis includes pulmonary embolism and pneumonia.",
+                  "answer": "differential diagnosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Laboratory tests helped narrow the differential diagnosis.",
+                  "answer": "differential diagnosis",
+                  "documentType": "CASE_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "prognosis",
+              "locales": {
+                "PT": {
+                  "text": "prognóstico",
+                  "definition": "Previsão do curso provável e do desfecho de uma doença.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "prognosis",
+                  "definition": "A prediction of the likely course and outcome of a disease.",
+                  "informalForms": [
+                    "chances of recovery"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: prognoses. Qualifique: good, poor ou guarded prognosis. Guarded indica cautela diante de incerteza. Não confunda com diagnosis.",
+                  "collocations": [
+                    "good prognosis",
+                    "poor prognosis",
+                    "guarded prognosis",
+                    "prognostic factor"
+                  ],
+                  "ipa": "/prɑːɡˈnoʊsɪs/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Early detection is associated with an excellent prognosis.",
+                  "answer": "prognosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The prognosis remains guarded given the extent of metastasis.",
+                  "answer": "prognosis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {
+                "EN": [
+                  {
+                    "segment": "pro",
+                    "morpheme": "pro"
+                  },
+                  {
+                    "segment": "gnosis",
+                    "morpheme": "gnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "slug": "etiology",
+              "locales": {
+                "PT": {
+                  "text": "etiologia",
+                  "definition": "Causa ou conjunto de causas de uma doença.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "etiology",
+                  "definition": "The cause or set of causes of a disease or condition.",
+                  "informalForms": [
+                    "what causes it"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Reino Unido: aetiology. Aparece em of unknown etiology (causa desconhecida) e viral etiology.",
+                  "collocations": [
+                    "unknown etiology",
+                    "infectious etiology",
+                    "viral etiology",
+                    "multifactorial etiology"
+                  ],
+                  "ipa": "/ˌiːtiˈɒlədʒi/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cardiomyopathy was of ischemic etiology.",
+                  "answer": "etiology",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Fever of unknown etiology prompted further investigation.",
+                  "answer": "etiology",
+                  "documentType": "CASE_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "comorbidity",
+              "locales": {
+                "PT": {
+                  "text": "comorbidade",
+                  "definition": "Doença ou condição adicional que coexiste com a condição principal do paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "comorbidity",
+                  "definition": "An additional disease or condition that coexists with a patient's primary condition.",
+                  "informalForms": [
+                    "other health problems"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: comorbidities. Aparece em multiple comorbidities e significant comorbidity. Enfatiza o impacto no manejo; a lista de antecedentes é a past medical history.",
+                  "collocations": [
+                    "multiple comorbidities",
+                    "significant comorbidity",
+                    "comorbidity burden",
+                    "common comorbidity"
+                  ],
+                  "ipa": "/ˌkoʊmɔːrˈbɪdɪti/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Surgery was deferred because of significant comorbidity.",
+                  "answer": "comorbidity",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Diabetes is a common comorbidity in patients with hypertension.",
+                  "answer": "comorbidity",
+                  "documentType": "CASE_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "contraindication",
+              "locales": {
+                "PT": {
+                  "text": "contraindicação",
+                  "definition": "Condição que torna desaconselhável um tratamento ou procedimento por risco de dano ao paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "contraindication",
+                  "definition": "A condition that makes a particular treatment or procedure inadvisable because of the risk of harm.",
+                  "informalForms": [
+                    "reason not to use it"
+                  ],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Distinga absolute de relative contraindication. Fórmula típica: X is contraindicated in patients with Y. Não confunda com adverse effect.",
+                  "collocations": [
+                    "absolute contraindication",
+                    "relative contraindication",
+                    "no known contraindications",
+                    "is contraindicated"
+                  ],
+                  "ipa": "/ˌkɒntrəˌɪndɪˈkeɪʃən/"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Active bleeding is an absolute contraindication to anticoagulation.",
+                  "answer": "contraindication",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The patient has a relative contraindication to MRI because of a pacemaker.",
+                  "answer": "contraindication",
+                  "documentType": "RADIOLOGY_REQUEST"
+                }
+              ]
             }
           ]
         }

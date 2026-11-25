@@ -13,13 +13,18 @@ export class ContentController {
   ) {}
 
   @Get('tracks')
-  listTracks() {
-    return this.content.listTracks();
+  listTracks(@CurrentUser() user: AuthUser) {
+    return this.content.listTracks(user.id);
   }
 
   @Get('tracks/:slug')
   getTrack(@Param('slug') slug: string, @CurrentUser() user: AuthUser) {
     return this.content.getTrack(slug, user.id);
+  }
+
+  @Get('tracks/:slug/practice')
+  practice(@Param('slug') slug: string, @CurrentUser() user: AuthUser) {
+    return this.exercises.buildPracticeSession(user.id, slug);
   }
 
   @Get('lessons/:id/session')

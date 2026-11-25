@@ -1,10 +1,12 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import { useSelection } from '@/state/selection';
 import { request } from './client';
 import type {
   CompleteResponse,
   DueResponse,
   ExerciseResult,
   LessonSession,
+  PracticeSession,
   ReviewResponse,
   Stats,
   TrackDetail,
@@ -18,14 +20,21 @@ export const queryKeys = {
   dueCount: (slug: string) => ['due-count', slug] as const,
 };
 
-export function useActiveTrack() {
-  const query = useQuery({
+export function useTracks() {
+  return useQuery({
     queryKey: queryKeys.tracks,
     queryFn: () => request<TrackSummary[]>('/v1/tracks'),
   });
-  const summary = query.data?.[0];
+}
+
+/** Área (profissão) escolhida pelo usuário na tela inicial. */
+export function useActiveTrack() {
+  const selected = useSelection((state) => state.slug);
+  const query = useTracks();
+  const summary = query.data?.find((track) => track.slug === selected);
   return {
     slug: summary?.slug,
+    selected,
     summary,
     isLoading: query.isPending,
     error: query.error,
@@ -68,6 +77,18 @@ export function useLessonSession(lessonId: string) {
   });
 }
 
+/** Prática livre: cada abertura gera uma sessão nova, com tipos de exercício variados. */
+export function usePracticeSession(slug: string | undefined) {
+  return useQuery({
+    queryKey: ['practice-session', slug],
+    queryFn: () => request<PracticeSession>(`/v1/tracks/${slug}/practice`),
+    enabled: Boolean(slug),
+    staleTime: Infinity,
+    gcTime: 0,
+    retry: 1,
+  });
+}
+
 export function useReviewSession(slug: string | undefined) {
   return useQuery({
     queryKey: ['review-session', slug],
@@ -83,6 +104,7 @@ function useRefreshProgress() {
   const client = useQueryClient();
   return () => {
     void client.invalidateQueries({ queryKey: ['track'] });
+    void client.invalidateQueries({ queryKey: ['tracks'] });
     void client.invalidateQueries({ queryKey: ['stats'] });
     void client.invalidateQueries({ queryKey: ['due-count'] });
   };

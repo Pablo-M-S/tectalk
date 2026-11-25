@@ -18,7 +18,7 @@ export function FillBlank({ exercise, locked, setEvaluator }: ExerciseProps<Fill
 
   return (
     <View style={{ gap: 24 }}>
-      <Text variant="label" tone="muted">Complete a frase clínica</Text>
+      <Text variant="label" tone="muted">Complete a frase profissional</Text>
       <View
         style={{
           padding: 20,

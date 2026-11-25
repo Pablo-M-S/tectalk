@@ -25,7 +25,7 @@ export default function ResultScreen() {
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg, padding: 24, justifyContent: 'space-between' }}>
       <View style={{ flex: 1, justifyContent: 'center', gap: 28 }}>
         <View style={{ gap: 8 }}>
-          <Text variant="label" tone="primary">{params.kind === 'review' ? 'Revisão concluída' : 'Lição concluída'}</Text>
+          <Text variant="label" tone="primary">{params.kind === 'review' ? 'Revisão concluída' : params.kind === 'practice' ? 'Prática concluída' : 'Lição concluída'}</Text>
           <Text variant="display">{headline}</Text>
           <Text tone="muted">{note}</Text>
         </View>
@@ -55,7 +55,7 @@ export default function ResultScreen() {
         </View>
       </View>
 
-      <Button label="Continuar" onPress={() => router.replace('/')} />
+      <Button label="Continuar" onPress={() => router.replace('/trail')} />
     </SafeAreaView>
   );
 }

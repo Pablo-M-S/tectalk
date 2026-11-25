@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Pressable, RefreshControl, ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import { useRouter } from 'expo-router';
+import { Redirect, useRouter } from 'expo-router';
 import { useActiveTrack, useStats, useTrack } from '@/api/hooks';
 import type { LessonNode } from '@/api/types';
 import { Text } from '@/components/Text';
@@ -86,6 +86,8 @@ export default function TrailScreen() {
     setRefreshing(false);
   };
 
+  if (!active.isLoading && !active.error && !active.slug) return <Redirect href="/areas" />;
+
   if (active.isLoading || (active.slug && track.isPending)) {
     return <LoadingState label="Conectando ao servidor…" />;
   }
@@ -104,9 +106,17 @@ export default function TrailScreen() {
         refreshControl={<RefreshControl refreshing={refreshing} onRefresh={() => void refresh()} tintColor={theme.primary} />}
       >
         <View style={{ gap: 6 }}>
-          {summary ? (
-            <Text variant="label" tone="primary">{`${summary.sourceLanguage} → ${summary.targetLanguage}`}</Text>
-          ) : null}
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => router.push('/areas')}
+            hitSlop={8}
+            style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}
+          >
+            <Ionicons name="grid-outline" size={14} color={theme.primary} />
+            <Text variant="label" tone="primary">
+              {summary ? `${summary.sourceLanguage} → ${summary.targetLanguage} · trocar de área` : 'Trocar de área'}
+            </Text>
+          </Pressable>
           <Text variant="display">{track.data.title}</Text>
           <Text tone="muted">{track.data.description}</Text>
         </View>

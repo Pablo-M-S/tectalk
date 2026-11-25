@@ -21,6 +21,9 @@ export interface TrackSummary {
   profession: string;
   sourceLanguage: Language;
   targetLanguage: Language;
+  lessonCount: number;
+  completedCount: number;
+  termCount: number;
 }
 
 export type LessonStatus = 'LOCKED' | 'AVAILABLE' | 'COMPLETED';
@@ -66,6 +69,9 @@ export interface Reveal {
   definition: string;
   ipa: string | null;
   informalForms: string[];
+  usageNote: string | null;
+  collocations: string[];
+  example: string | null;
 }
 
 interface Base {
@@ -109,6 +115,20 @@ export interface BuildFromRootsExercise extends Base {
   breakdown: { segment: string; meaning: string }[];
 }
 
+export interface RegisterChoiceExercise extends Base {
+  type: 'REGISTER_CHOICE';
+  prompt: string;
+  options: Option[];
+  correctOptionId: string;
+}
+
+export interface OrderSentenceExercise extends Base {
+  type: 'ORDER_SENTENCE';
+  prompt: string;
+  tiles: string[];
+  solution: string[];
+}
+
 export interface ListenAndTypeExercise extends Base {
   type: 'LISTEN_AND_TYPE';
   audioUrl: string;
@@ -121,10 +141,17 @@ export type Exercise =
   | TypeTermExercise
   | FillBlankExercise
   | BuildFromRootsExercise
+  | RegisterChoiceExercise
+  | OrderSentenceExercise
   | ListenAndTypeExercise;
 
 export interface LessonSession {
   lesson: { id: string; title: string };
+  exercises: Exercise[];
+}
+
+export interface PracticeSession {
+  studiedCount: number;
   exercises: Exercise[];
 }
 

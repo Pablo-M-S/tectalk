@@ -64,6 +64,43 @@ export class ExerciseService {
     };
   }
 
+  /**
+   * Prática livre: sessão nova a cada chamada, só com termos de lições que o
+   * usuário já concluiu, misturando todos os tipos de exercício.
+   */
+  async buildPracticeSession(userId: string, trackSlug: string) {
+    const track = await this.prisma.track.findFirst({
+      where: { slug: trackSlug, status: 'PUBLISHED' },
+    });
+    if (!track) throw new NotFoundException('Trilha não encontrada');
+
+    const studied = await this.prisma.lessonTerm.findMany({
+      where: {
+        lesson: {
+          status: 'PUBLISHED',
+          unit: { trackId: track.id },
+          completions: { some: { userId } },
+        },
+      },
+      select: { termId: true },
+      distinct: ['termId'],
+    });
+    const studiedIds = new Set(studied.map((row) => row.termId));
+    if (studiedIds.size === 0) return { studiedCount: 0, exercises: [] as Exercise[] };
+
+    const pool = await this.loadViews(track);
+    const terms = pool.filter((view) => studiedIds.has(view.id));
+
+    return {
+      studiedCount: terms.length,
+      exercises: this.factory.buildPracticeSession({
+        terms,
+        pool,
+        audioEnabled: this.audioEnabled,
+      }),
+    };
+  }
+
   /** Revisão: reconhecimento para cartões recentes, digitação para os consolidados. */
   async buildReviewSession(
     pair: LanguagePair,
@@ -104,13 +141,12 @@ export class ExerciseService {
     if (!source || !target) return null;
 
     const meaningKey = pair.sourceLanguage.toLowerCase();
-    const example = row.examples[0];
 
     return {
       id: row.id,
       source: this.localeView(source),
       target: this.localeView(target),
-      example: example ? { sentence: example.sentence, answer: example.answer } : null,
+      examples: row.examples.map((e) => ({ sentence: e.sentence, answer: e.answer })),
       parts: row.morphemes.map((m) => ({
         segment: m.segment,
         meaning: (m.morpheme.meanings as Record<string, string>)[meaningKey] ?? '',
@@ -124,6 +160,8 @@ export class ExerciseService {
       definition: locale.definition,
       informalForms: locale.informalForms,
       ipa: locale.ipa,
+      usageNote: locale.usageNote,
+      collocations: locale.collocations,
       audioUrl: locale.audioUrl,
       audioReady: locale.audioStatus === 'READY' && locale.audioUrl !== null,
     };

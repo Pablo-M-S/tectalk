@@ -22,6 +22,7 @@ export default function TabsLayout() {
       }}
     >
       <Tabs.Screen name="trail" options={{ title: 'Trilha', tabBarIcon: icon('map-outline') }} />
+      <Tabs.Screen name="practice" options={{ title: 'Prática', tabBarIcon: icon('shuffle-outline') }} />
       <Tabs.Screen name="review" options={{ title: 'Revisão', tabBarIcon: icon('repeat-outline') }} />
       <Tabs.Screen name="profile" options={{ title: 'Perfil', tabBarIcon: icon('person-outline') }} />
     </Tabs>

@@ -10,6 +10,8 @@ import { BuildFromRoots } from './exercises/BuildFromRoots';
 import { FillBlank } from './exercises/FillBlank';
 import { MatchPairs } from './exercises/MatchPairs';
 import { MultipleChoice } from './exercises/MultipleChoice';
+import { OrderSentence } from './exercises/OrderSentence';
+import { RegisterChoice } from './exercises/RegisterChoice';
 import { TypeTerm } from './exercises/TypeTerm';
 import type { AnswerOutcome } from './exercises/types';
 import { FeedbackPanel } from './FeedbackPanel';
@@ -131,6 +133,8 @@ export function ExercisePlayer({ exercises, submitting, onFinish, onClose }: Pro
           {exercise.type === 'TYPE_TERM' && <TypeTerm exercise={exercise} {...shared} />}
           {exercise.type === 'FILL_BLANK' && <FillBlank exercise={exercise} {...shared} />}
           {exercise.type === 'BUILD_FROM_ROOTS' && <BuildFromRoots exercise={exercise} {...shared} />}
+          {exercise.type === 'REGISTER_CHOICE' && <RegisterChoice exercise={exercise} {...shared} />}
+          {exercise.type === 'ORDER_SENTENCE' && <OrderSentence exercise={exercise} {...shared} />}
         </ScrollView>
 
         {outcome ? (

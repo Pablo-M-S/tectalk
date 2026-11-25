@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import {
   ContentStatus,
@@ -16,6 +16,8 @@ const localeSchema = z.object({
   informalForms: z.array(z.string()).default([]),
   partOfSpeech: z.nativeEnum(PartOfSpeech).default(PartOfSpeech.NOUN),
   ipa: z.string().optional(),
+  usageNote: z.string().optional(),
+  collocations: z.array(z.string()).default([]),
 });
 
 const termSchema = z.object({
@@ -118,15 +120,29 @@ function assertConsistent(content: Content): void {
 }
 
 async function main(): Promise<void> {
-  const file = process.argv[2]
-    ? resolve(process.argv[2])
-    : join(__dirname, 'content', 'medicina.json');
-
-  const content = contentSchema.parse(JSON.parse(readFileSync(file, 'utf-8')));
-  assertConsistent(content);
+  const contentDir = join(__dirname, 'content');
+  const files = process.argv[2]
+    ? [resolve(process.argv[2])]
+    : readdirSync(contentDir)
+        .filter((name) => name.endsWith('.json'))
+        .sort()
+        .map((name) => join(contentDir, name));
 
   const prisma = new PrismaClient();
   try {
+    for (const file of files) {
+      await seedFile(prisma, file);
+    }
+  } finally {
+    await prisma.$disconnect();
+  }
+}
+
+async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
+  const content = contentSchema.parse(JSON.parse(readFileSync(file, 'utf-8')));
+  assertConsistent(content);
+
+  {
     const counts = await prisma.$transaction(
       async (tx) => {
         const status = content.status;
@@ -229,8 +245,6 @@ async function main(): Promise<void> {
     console.log(
       `Seed concluído (${content.track.slug}): ${counts.termCount} termos, ${counts.morphemeCount} morfemas.`,
     );
-  } finally {
-    await prisma.$disconnect();
   }
 }
 

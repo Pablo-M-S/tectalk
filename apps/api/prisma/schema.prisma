@@ -152,6 +152,8 @@ model TermLocale {
   informalForms String[]
   partOfSpeech  PartOfSpeech @default(NOUN)
   ipa           String?
+  usageNote     String?      @db.Text
+  collocations  String[]     @default([])
   audioUrl      String?
   audioStatus   AudioStatus  @default(NONE)
 
