@@ -10,12 +10,13 @@ import { AppDrawer } from '@/components/AppDrawer';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { initFeedback } from '@/lib/feedback';
 import { initTheme } from '@/theme/mode';
-import { useTheme } from '@/theme/theme';
+import { useScheme, useTheme } from '@/theme/theme';
 
 void SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const theme = useTheme();
+  const scheme = useScheme();
   const status = useAuth((state) => state.status);
   const bootstrap = useAuth((state) => state.bootstrap);
 
@@ -35,7 +36,7 @@ export default function RootLayout() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <StatusBar style="auto" />
+      <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: theme.bg } }}>
         <Stack.Screen name="index" />
         <Stack.Protected guard={signedIn}>

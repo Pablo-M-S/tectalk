@@ -1,4 +1,5 @@
 import { useColorScheme } from 'react-native';
+import { resolveScheme, useThemeMode, type Scheme } from './mode';
 
 export interface Palette {
   bg: string;
@@ -48,8 +49,15 @@ const dark: Palette = {
   dangerSoft: '#34200F',
 };
 
+/** Esquema de cores em uso, já considerando a escolha manual do usuário. */
+export function useScheme(): Scheme {
+  const system = useColorScheme();
+  const mode = useThemeMode((state) => state.mode);
+  return resolveScheme(mode, system);
+}
+
 export function useTheme(): Palette {
-  return useColorScheme() === 'dark' ? dark : light;
+  return useScheme() === 'dark' ? dark : light;
 }
 
 export const radius = { sm: 10, md: 14, lg: 20 } as const;
