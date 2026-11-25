@@ -10,6 +10,7 @@ import {
   OrderSentenceExercise,
   RegisterChoiceExercise,
   Reveal,
+  Translation,
   TypeTermExercise,
 } from './exercise.types';
 
@@ -35,6 +36,8 @@ export interface TermView {
   target: LocaleView;
   examples: ExampleView[];
   parts: { segment: string; meaning: string }[];
+  /** Outros idiomas disponíveis para o termo, além do par estudado. */
+  others?: Translation[];
 }
 
 export interface LessonSessionInput {
@@ -86,6 +89,7 @@ export class ExerciseFactory {
       usageNote: term.target.usageNote,
       collocations: term.target.collocations,
       example: example ? example.sentence : null,
+      translations: term.others ?? [],
     };
   }
 

@@ -11,7 +11,7 @@ export const languageSchema = z.nativeEnum(Language);
 
 const localeSchema = z.object({
   text: z.string().min(1),
-  definition: z.string().min(1),
+  definition: z.string().default(''),
   informalForms: z.array(z.string()).default([]),
   partOfSpeech: z.nativeEnum(PartOfSpeech).default(PartOfSpeech.NOUN),
   ipa: z.string().optional(),
@@ -90,6 +90,9 @@ export function assertConsistent(content: Content): void {
         for (const language of [sourceLanguage, targetLanguage]) {
           if (!term.locales[language]) {
             throw new Error(`Termo "${term.slug}" sem tradução em ${language}`);
+          }
+          if (!term.locales[language].definition) {
+            throw new Error(`Termo "${term.slug}" sem definição em ${language}`);
           }
         }
 

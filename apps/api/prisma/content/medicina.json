@@ -251,6 +251,32 @@
                     "atrial fibrillation",
                     "atrial septum"
                   ]
+                },
+                "ES": {
+                  "text": "aurícula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorhof",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんぼう"
+                },
+                "ZH": {
+                  "text": "心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnfáng"
                 }
               },
               "examples": [
@@ -290,6 +316,32 @@
                     "ventricular hypertrophy",
                     "ejection fraction"
                   ]
+                },
+                "ES": {
+                  "text": "ventrículo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzkammer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんしつ"
+                },
+                "ZH": {
+                  "text": "心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnshì"
                 }
               },
               "examples": [
@@ -329,6 +381,32 @@
                     "aortic stenosis",
                     "aortic dissection"
                   ]
+                },
+                "ES": {
+                  "text": "aorta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Aorta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "大動脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だいどうみゃく"
+                },
+                "ZH": {
+                  "text": "主动脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhǔdòngmài"
                 }
               },
               "examples": [
@@ -368,6 +446,32 @@
                     "myocardial infarction",
                     "myocardial perfusion"
                   ]
+                },
+                "ES": {
+                  "text": "miocardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Myokard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心筋",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんきん"
+                },
+                "ZH": {
+                  "text": "心肌",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnjī"
                 }
               },
               "examples": [
@@ -418,6 +522,32 @@
                     "pericardial tamponade",
                     "pericardial window"
                   ]
+                },
+                "ES": {
+                  "text": "pericardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Perikard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんまく"
+                },
+                "ZH": {
+                  "text": "心包",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnbāo"
                 }
               },
               "examples": [
@@ -473,6 +603,32 @@
                     "valve replacement",
                     "valvular disease"
                   ]
+                },
+                "ES": {
+                  "text": "válvula cardíaca",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心臓弁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんぞうべん"
+                },
+                "ZH": {
+                  "text": "心脏瓣膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnzàng bànmó"
                 }
               },
               "examples": [
@@ -524,6 +680,32 @@
                     "STEMI",
                     "NSTEMI"
                   ]
+                },
+                "ES": {
+                  "text": "infarto de miocardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzinfarkt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心筋梗塞",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんきんこうそく"
+                },
+                "ZH": {
+                  "text": "心肌梗死",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnjī gěngsǐ"
                 }
               },
               "examples": [
@@ -565,6 +747,32 @@
                     "life-threatening arrhythmia",
                     "antiarrhythmic drug"
                   ]
+                },
+                "ES": {
+                  "text": "arritmia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzrhythmusstörung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "不整脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふせいみゃく"
+                },
+                "ZH": {
+                  "text": "心律失常",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnlǜ shīcháng"
                 }
               },
               "examples": [
@@ -622,6 +830,32 @@
                     "supraventricular tachycardia",
                     "reflex tachycardia"
                   ]
+                },
+                "ES": {
+                  "text": "taquicardia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Tachykardie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "頻脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひんみゃく"
+                },
+                "ZH": {
+                  "text": "心动过速",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīndòng guòsù"
                 }
               },
               "examples": [
@@ -675,6 +909,32 @@
                     "severe bradycardia",
                     "bradycardia in athletes"
                   ]
+                },
+                "ES": {
+                  "text": "bradicardia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bradykardie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "徐脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じょみゃく"
+                },
+                "ZH": {
+                  "text": "心动过缓",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīndòng guòhuǎn"
                 }
               },
               "examples": [
@@ -730,6 +990,32 @@
                     "pulmonary hypertension",
                     "antihypertensive medication"
                   ]
+                },
+                "ES": {
+                  "text": "hipertensión arterial",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bluthochdruck",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "高血圧",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうけつあつ"
+                },
+                "ZH": {
+                  "text": "高血压",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gāoxuèyā"
                 }
               },
               "examples": [
@@ -783,6 +1069,32 @@
                     "cardiothoracic ratio",
                     "cardiomegaly on chest X-ray"
                   ]
+                },
+                "ES": {
+                  "text": "cardiomegalia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kardiomegalie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心肥大",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんひだい"
+                },
+                "ZH": {
+                  "text": "心脏肥大",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnzàng féidà"
                 }
               },
               "examples": [
@@ -850,6 +1162,32 @@
                     "ventilator-associated pneumonia"
                   ],
                   "ipa": "/njuːˈmoʊniə/"
+                },
+                "ES": {
+                  "text": "neumonía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lungenentzündung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肺炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいえん"
+                },
+                "ZH": {
+                  "text": "肺炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèiyán"
                 }
               },
               "examples": [
@@ -903,6 +1241,32 @@
                     "viral bronchitis"
                   ],
                   "ipa": "/brɒŋˈkaɪtɪs/"
+                },
+                "ES": {
+                  "text": "bronquitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bronchitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "気管支炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きかんしえん"
+                },
+                "ZH": {
+                  "text": "支气管炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhīqìguǎnyán"
                 }
               },
               "examples": [
@@ -954,6 +1318,32 @@
                     "well-controlled asthma"
                   ],
                   "ipa": "/ˈæzmə/"
+                },
+                "ES": {
+                  "text": "asma",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Asthma",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "喘息",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぜんそく"
+                },
+                "ZH": {
+                  "text": "哮喘",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiàochuǎn"
                 }
               },
               "examples": [
@@ -995,6 +1385,32 @@
                     "acute dyspnea"
                   ],
                   "ipa": "/dɪspˈniːə/"
+                },
+                "ES": {
+                  "text": "disnea",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Atemnot",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "呼吸困難",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こきゅうこんなん"
+                },
+                "ZH": {
+                  "text": "呼吸困难",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hūxī kùnnan"
                 }
               },
               "examples": [
@@ -1048,6 +1464,32 @@
                     "CT pulmonary angiography"
                   ],
                   "ipa": "/ˈpʊlməˌnɛri ˈɛmbəlɪzəm/"
+                },
+                "ES": {
+                  "text": "embolia pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lungenembolie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肺塞栓症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいそくせんしょう"
+                },
+                "ZH": {
+                  "text": "肺栓塞",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèishuānsè"
                 }
               },
               "examples": [
@@ -1089,6 +1531,32 @@
                     "thoracentesis"
                   ],
                   "ipa": "/ˈplʊərəl ɪˈfjuːʒən/"
+                },
+                "ES": {
+                  "text": "derrame pleural",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pleuraerguss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "胸水",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きょうすい"
+                },
+                "ZH": {
+                  "text": "胸腔积液",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiōngqiāng jīyè"
                 }
               },
               "examples": [
@@ -1144,6 +1612,32 @@
                     "biopsy result"
                   ],
                   "ipa": "/ˈbaɪɒpsi/"
+                },
+                "ES": {
+                  "text": "biopsia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Biopsie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "生検",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいけん"
+                },
+                "ZH": {
+                  "text": "活检",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huójiǎn"
                 }
               },
               "examples": [
@@ -1185,6 +1679,32 @@
                     "prolonged intubation"
                   ],
                   "ipa": "/ˌɪntjuˈbeɪʃən/"
+                },
+                "ES": {
+                  "text": "intubación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Intubation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "挿管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "そうかん"
+                },
+                "ZH": {
+                  "text": "插管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chāguǎn"
                 }
               },
               "examples": [
@@ -1226,6 +1746,32 @@
                     "under anesthesia"
                   ],
                   "ipa": "/ˌænəsˈθiːʒə/"
+                },
+                "ES": {
+                  "text": "anestesia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Anästhesie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "麻酔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ますい"
+                },
+                "ZH": {
+                  "text": "麻醉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mázuì"
                 }
               },
               "examples": [
@@ -1279,6 +1825,31 @@
                     "catheter insertion"
                   ],
                   "ipa": "/ˈkæθɪtər/"
+                },
+                "ES": {
+                  "text": "catéter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Katheter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "カテーテル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "导管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dǎoguǎn"
                 }
               },
               "examples": [
@@ -1320,6 +1891,32 @@
                     "running suture"
                   ],
                   "ipa": "/ˈsuːtʃər/"
+                },
+                "ES": {
+                  "text": "sutura",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Naht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "縫合",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうごう"
+                },
+                "ZH": {
+                  "text": "缝合",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fénghé"
                 }
               },
               "examples": [
@@ -1361,6 +1958,32 @@
                     "resection margin"
                   ],
                   "ipa": "/rɪˈsɛkʃən/"
+                },
+                "ES": {
+                  "text": "resección",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Resektion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "切除",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せつじょ"
+                },
+                "ZH": {
+                  "text": "切除",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qiēchú"
                 }
               },
               "examples": [
@@ -1416,6 +2039,32 @@
                     "primary diagnosis"
                   ],
                   "ipa": "/ˌdaɪəɡˈnoʊsɪs/"
+                },
+                "ES": {
+                  "text": "diagnóstico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Diagnose",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "診断",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんだん"
+                },
+                "ZH": {
+                  "text": "诊断",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhěnduàn"
                 }
               },
               "examples": [
@@ -1469,6 +2118,32 @@
                     "wide differential diagnosis"
                   ],
                   "ipa": "/ˌdɪfəˈrɛnʃəl ˌdaɪəɡˈnoʊsɪs/"
+                },
+                "ES": {
+                  "text": "diagnóstico diferencial",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Differenzialdiagnose",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鑑別診断",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんべつしんだん"
+                },
+                "ZH": {
+                  "text": "鉴别诊断",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiànbié zhěnduàn"
                 }
               },
               "examples": [
@@ -1510,6 +2185,32 @@
                     "prognostic factor"
                   ],
                   "ipa": "/prɑːɡˈnoʊsɪs/"
+                },
+                "ES": {
+                  "text": "pronóstico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Prognose",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "予後",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "よご"
+                },
+                "ZH": {
+                  "text": "预后",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yùhòu"
                 }
               },
               "examples": [
@@ -1563,6 +2264,32 @@
                     "multifactorial etiology"
                   ],
                   "ipa": "/ˌiːtiˈɒlədʒi/"
+                },
+                "ES": {
+                  "text": "etiología",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ätiologie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "病因",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "びょういん"
+                },
+                "ZH": {
+                  "text": "病因",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bìngyīn"
                 }
               },
               "examples": [
@@ -1604,6 +2331,32 @@
                     "common comorbidity"
                   ],
                   "ipa": "/ˌkoʊmɔːrˈbɪdɪti/"
+                },
+                "ES": {
+                  "text": "comorbilidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Komorbidität",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "併存疾患",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "へいぞんしっかん"
+                },
+                "ZH": {
+                  "text": "共病",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gòngbìng"
                 }
               },
               "examples": [
@@ -1645,6 +2398,32 @@
                     "is contraindicated"
                   ],
                   "ipa": "/ˌkɒntrəˌɪndɪˈkeɪʃən/"
+                },
+                "ES": {
+                  "text": "contraindicación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kontraindikation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "禁忌",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きんき"
+                },
+                "ZH": {
+                  "text": "禁忌症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìnjìzhèng"
                 }
               },
               "examples": [
@@ -1699,6 +2478,32 @@
                     "stroke unit",
                     "stroke risk"
                   ]
+                },
+                "ES": {
+                  "text": "ictus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schlaganfall",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "脳卒中",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "のうそっちゅう"
+                },
+                "ZH": {
+                  "text": "脑卒中",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nǎocùzhòng"
                 }
               },
               "examples": [
@@ -1739,6 +2544,32 @@
                     "focal seizure",
                     "seizure activity"
                   ]
+                },
+                "ES": {
+                  "text": "crisis convulsiva",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Krampfanfall",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "てんかん発作",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てんかんほっさ"
+                },
+                "ZH": {
+                  "text": "癫痫发作",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diānxián fāzuò"
                 }
               },
               "examples": [
@@ -1779,6 +2610,32 @@
                     "migraine attack",
                     "migraine headache"
                   ]
+                },
+                "ES": {
+                  "text": "migraña",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Migräne",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "片頭痛",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "へんずつう"
+                },
+                "ZH": {
+                  "text": "偏头痛",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "piāntóutòng"
                 }
               },
               "examples": [
@@ -1819,6 +2676,32 @@
                     "neuropathic pain",
                     "sensory neuropathy"
                   ]
+                },
+                "ES": {
+                  "text": "neuropatía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Neuropathie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "神経障害",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんけいしょうがい"
+                },
+                "ZH": {
+                  "text": "神经病变",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shénjīng bìngbiàn"
                 }
               },
               "examples": [
@@ -1859,6 +2742,32 @@
                     "dementia care",
                     "diagnosed with dementia"
                   ]
+                },
+                "ES": {
+                  "text": "demencia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Demenz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "認知症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にんちしょう"
+                },
+                "ZH": {
+                  "text": "痴呆症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chīdāizhèng"
                 }
               },
               "examples": [
@@ -1899,6 +2808,32 @@
                     "post-concussion syndrome",
                     "mild concussion"
                   ]
+                },
+                "ES": {
+                  "text": "conmoción cerebral",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gehirnerschütterung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "脳震盪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "のうしんとう"
+                },
+                "ZH": {
+                  "text": "脑震荡",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nǎozhèndàng"
                 }
               },
               "examples": [
@@ -1953,6 +2888,32 @@
                     "erosive gastritis",
                     "H. pylori gastritis"
                   ]
+                },
+                "ES": {
+                  "text": "gastritis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gastritis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "胃炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いえん"
+                },
+                "ZH": {
+                  "text": "胃炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wèiyán"
                 }
               },
               "examples": [
@@ -1993,6 +2954,32 @@
                     "duodenal ulcer",
                     "peptic ulcer disease"
                   ]
+                },
+                "ES": {
+                  "text": "úlcera péptica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Magengeschwür",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "消化性潰瘍",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうかせいかいよう"
+                },
+                "ZH": {
+                  "text": "消化性溃疡",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiāohuàxìng kuìyáng"
                 }
               },
               "examples": [
@@ -2031,6 +3018,32 @@
                     "decompensated cirrhosis",
                     "cirrhosis of the liver"
                   ]
+                },
+                "ES": {
+                  "text": "cirrosis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Leberzirrhose",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肝硬変",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんこうへん"
+                },
+                "ZH": {
+                  "text": "肝硬化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gānyìnghuà"
                 }
               },
               "examples": [
@@ -2071,6 +3084,32 @@
                     "chronic hepatitis",
                     "autoimmune hepatitis"
                   ]
+                },
+                "ES": {
+                  "text": "hepatitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hepatitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肝炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんえん"
+                },
+                "ZH": {
+                  "text": "肝炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gānyán"
                 }
               },
               "examples": [
@@ -2109,6 +3148,32 @@
                     "appendicitis pain",
                     "suspected appendicitis"
                   ]
+                },
+                "ES": {
+                  "text": "apendicitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Blinddarmentzündung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "虫垂炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちゅうすいえん"
+                },
+                "ZH": {
+                  "text": "阑尾炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lánwěiyán"
                 }
               },
               "examples": [
@@ -2149,6 +3214,32 @@
                     "reflux esophagitis",
                     "GERD"
                   ]
+                },
+                "ES": {
+                  "text": "reflujo gastroesofágico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "gastroösophagealer Reflux",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "胃食道逆流",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いしょくどうぎゃくりゅう"
+                },
+                "ZH": {
+                  "text": "胃食管反流",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wèishíguǎn fǎnliú"
                 }
               },
               "examples": [
@@ -2203,6 +3294,32 @@
                     "gestational diabetes",
                     "diabetes management"
                   ]
+                },
+                "ES": {
+                  "text": "diabetes mellitus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Diabetes mellitus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "糖尿病",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とうにょうびょう"
+                },
+                "ZH": {
+                  "text": "糖尿病",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tángniàobìng"
                 }
               },
               "examples": [
@@ -2241,6 +3358,31 @@
                     "basal insulin",
                     "insulin pump"
                   ]
+                },
+                "ES": {
+                  "text": "insulina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Insulin",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インスリン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "胰岛素",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yídǎosù"
                 }
               },
               "examples": [
@@ -2281,6 +3423,32 @@
                     "hypothyroidism treatment",
                     "congenital hypothyroidism"
                   ]
+                },
+                "ES": {
+                  "text": "hipotiroidismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hypothyreose",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "甲状腺機能低下症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうじょうせんきのうていかしょう"
+                },
+                "ZH": {
+                  "text": "甲状腺功能减退",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiǎzhuàngxiàn gōngnéng jiǎntuì"
                 }
               },
               "examples": [
@@ -2321,6 +3489,32 @@
                     "hyperthyroidism symptoms",
                     "treat hyperthyroidism"
                   ]
+                },
+                "ES": {
+                  "text": "hipertiroidismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hyperthyreose",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "甲状腺機能亢進症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうじょうせんきのうこうしんしょう"
+                },
+                "ZH": {
+                  "text": "甲状腺功能亢进",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiǎzhuàngxiàn gōngnéng kàngjìn"
                 }
               },
               "examples": [
@@ -2361,6 +3555,32 @@
                     "glycemia control",
                     "glycemia level"
                   ]
+                },
+                "ES": {
+                  "text": "glucemia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Blutzucker",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "血糖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けっとう"
+                },
+                "ZH": {
+                  "text": "血糖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xuètáng"
                 }
               },
               "examples": [
@@ -2401,6 +3621,32 @@
                     "obesity-related disease",
                     "class III obesity"
                   ]
+                },
+                "ES": {
+                  "text": "obesidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Adipositas",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肥満",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひまん"
+                },
+                "ZH": {
+                  "text": "肥胖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "féipàng"
                 }
               },
               "examples": [
@@ -2455,6 +3701,32 @@
                     "CBC",
                     "differential count"
                   ]
+                },
+                "ES": {
+                  "text": "hemograma completo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "großes Blutbild",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "全血球計算",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぜんけっきゅうけいさん"
+                },
+                "ZH": {
+                  "text": "全血细胞计数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "quánxuè xìbāo jìshù"
                 }
               },
               "examples": [
@@ -2493,6 +3765,31 @@
                     "glycated hemoglobin",
                     "fetal hemoglobin"
                   ]
+                },
+                "ES": {
+                  "text": "hemoglobina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hämoglobin",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヘモグロビン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "血红蛋白",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xuèhóngdànbái"
                 }
               },
               "examples": [
@@ -2531,6 +3828,31 @@
                     "elevated creatinine",
                     "creatinine level"
                   ]
+                },
+                "ES": {
+                  "text": "creatinina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kreatinin",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "クレアチニン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "肌酐",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jīgān"
                 }
               },
               "examples": [
@@ -2569,6 +3891,32 @@
                     "serum level",
                     "serum sample"
                   ]
+                },
+                "ES": {
+                  "text": "suero",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Serum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "血清",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けっせい"
+                },
+                "ZH": {
+                  "text": "血清",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xuèqīng"
                 }
               },
               "examples": [
@@ -2609,6 +3957,32 @@
                     "abnormal urinalysis",
                     "dipstick urinalysis"
                   ]
+                },
+                "ES": {
+                  "text": "análisis de orina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Urinuntersuchung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "尿検査",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にょうけんさ"
+                },
+                "ZH": {
+                  "text": "尿液检查",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "niàoyè jiǎnchá"
                 }
               },
               "examples": [
@@ -2647,6 +4021,32 @@
                     "wound culture",
                     "culture and sensitivity"
                   ]
+                },
+                "ES": {
+                  "text": "cultivo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kultur",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "培養",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ばいよう"
+                },
+                "ZH": {
+                  "text": "培养",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "péiyǎng"
                 }
               },
               "examples": [
@@ -2701,6 +4101,32 @@
                     "ultrasound-guided",
                     "transvaginal ultrasound"
                   ]
+                },
+                "ES": {
+                  "text": "ecografía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ultraschall",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "超音波検査",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちょうおんぱけんさ"
+                },
+                "ZH": {
+                  "text": "超声检查",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chāoshēng jiǎnchá"
                 }
               },
               "examples": [
@@ -2741,6 +4167,31 @@
                     "contrast-enhanced",
                     "head computed tomography"
                   ]
+                },
+                "ES": {
+                  "text": "tomografía computarizada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Computertomographie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンピュータ断層撮影",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "计算机断层扫描",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìsuànjī duàncéng sǎomiáo"
                 }
               },
               "examples": [
@@ -2781,6 +4232,32 @@
                     "MRI contraindication",
                     "MRI findings"
                   ]
+                },
+                "ES": {
+                  "text": "resonancia magnética",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Magnetresonanztomographie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "磁気共鳴画像",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じききょうめいがぞう"
+                },
+                "ZH": {
+                  "text": "磁共振成像",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cígòngzhèn chéngxiàng"
                 }
               },
               "examples": [
@@ -2821,6 +4298,32 @@
                     "radiograph findings",
                     "take a radiograph"
                   ]
+                },
+                "ES": {
+                  "text": "radiografía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Röntgenaufnahme",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "X線写真",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "エックスせんしゃしん"
+                },
+                "ZH": {
+                  "text": "X光片",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "X guāngpiàn"
                 }
               },
               "examples": [
@@ -2859,6 +4362,32 @@
                     "contrast allergy",
                     "with and without contrast"
                   ]
+                },
+                "ES": {
+                  "text": "contraste",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kontrastmittel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "造影剤",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぞうえいざい"
+                },
+                "ZH": {
+                  "text": "造影剂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zàoyǐngjì"
                 }
               },
               "examples": [
@@ -2897,6 +4426,32 @@
                     "benign lesion",
                     "malignant lesion"
                   ]
+                },
+                "ES": {
+                  "text": "lesión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Läsion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "病変",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "びょうへん"
+                },
+                "ZH": {
+                  "text": "病灶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bìngzào"
                 }
               },
               "examples": [
@@ -2951,6 +4506,32 @@
                     "chief complaint of",
                     "main complaint"
                   ]
+                },
+                "ES": {
+                  "text": "motivo de consulta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hauptbeschwerde",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "主訴",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しゅそ"
+                },
+                "ZH": {
+                  "text": "主诉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhǔsù"
                 }
               },
               "examples": [
@@ -2991,6 +4572,32 @@
                     "relevant medical history",
                     "medical history form"
                   ]
+                },
+                "ES": {
+                  "text": "historial médico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Krankengeschichte",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "病歴",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "びょうれき"
+                },
+                "ZH": {
+                  "text": "病史",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bìngshǐ"
                 }
               },
               "examples": [
@@ -3031,6 +4638,32 @@
                     "focused physical examination",
                     "normal physical examination"
                   ]
+                },
+                "ES": {
+                  "text": "exploración física",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "körperliche Untersuchung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "身体診察",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんたいしんさつ"
+                },
+                "ZH": {
+                  "text": "体格检查",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tǐgé jiǎnchá"
                 }
               },
               "examples": [
@@ -3069,6 +4702,31 @@
                     "abnormal vital signs",
                     "monitor vital signs"
                   ]
+                },
+                "ES": {
+                  "text": "signos vitales",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vitalzeichen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バイタルサイン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "生命体征",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shēngmìng tǐzhēng"
                 }
               },
               "examples": [
@@ -3107,6 +4765,31 @@
                     "informed consent form",
                     "withdraw consent"
                   ]
+                },
+                "ES": {
+                  "text": "consentimiento informado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Einwilligung nach Aufklärung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インフォームド・コンセント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "知情同意",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhīqíng tóngyì"
                 }
               },
               "examples": [
@@ -3145,6 +4828,32 @@
                     "discharge planning",
                     "discharge summary template"
                   ]
+                },
+                "ES": {
+                  "text": "informe de alta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Entlassungsbericht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "退院サマリー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たいいんサマリー"
+                },
+                "ZH": {
+                  "text": "出院小结",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chūyuàn xiǎojié"
                 }
               },
               "examples": [

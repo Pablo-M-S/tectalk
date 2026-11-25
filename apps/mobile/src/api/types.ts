@@ -1,4 +1,4 @@
-export type Language = 'PT' | 'EN' | 'ES' | 'FR' | 'ZH' | 'JA';
+export type Language = 'PT' | 'EN' | 'ES' | 'FR' | 'ZH' | 'JA' | 'DE';
 
 export type ProficiencyLevel = 'BEGINNER' | 'BASIC' | 'INTERMEDIATE' | 'ADVANCED';
 
@@ -82,6 +82,12 @@ export interface Option {
   text: string;
 }
 
+export interface Translation {
+  language: Language;
+  text: string;
+  reading: string | null;
+}
+
 export interface Reveal {
   text: string;
   definition: string;
@@ -90,6 +96,7 @@ export interface Reveal {
   usageNote: string | null;
   collocations: string[];
   example: string | null;
+  translations?: Translation[];
 }
 
 interface Base {

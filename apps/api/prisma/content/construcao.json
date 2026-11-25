@@ -42,6 +42,31 @@
                     "plastering trowel",
                     "steel trowel"
                   ]
+                },
+                "ES": {
+                  "text": "paleta de albañil",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kelle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "こて",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "泥铲",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "níchǎn"
                 }
               },
               "examples": [
@@ -82,6 +107,32 @@
                     "long spirit level",
                     "level bubble"
                   ]
+                },
+                "ES": {
+                  "text": "nivel de burbuja",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Wasserwaage",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "水平器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "すいへいき"
+                },
+                "ZH": {
+                  "text": "水平仪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shuǐpíngyí"
                 }
               },
               "examples": [
@@ -120,6 +171,32 @@
                     "plumb and level",
                     "check plumb"
                   ]
+                },
+                "ES": {
+                  "text": "plomada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lot",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "下げ振り",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さげふり"
+                },
+                "ZH": {
+                  "text": "铅垂线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qiānchuíxiàn"
                 }
               },
               "examples": [
@@ -158,6 +235,32 @@
                     "wheelbarrow of cement",
                     "wheelbarrow wheel"
                   ]
+                },
+                "ES": {
+                  "text": "carretilla",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schubkarre",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "一輪車",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いちりんしゃ"
+                },
+                "ZH": {
+                  "text": "独轮车",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dúlúnchē"
                 }
               },
               "examples": [
@@ -196,6 +299,31 @@
                     "sharpen a chisel",
                     "hammer and chisel"
                   ]
+                },
+                "ES": {
+                  "text": "cincel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Meißel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "たがね",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "凿子",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "záozi"
                 }
               },
               "examples": [
@@ -234,6 +362,32 @@
                     "sledgehammer handle",
                     "heavy sledgehammer"
                   ]
+                },
+                "ES": {
+                  "text": "almádena",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorschlaghammer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "大ハンマー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "おおハンマー"
+                },
+                "ZH": {
+                  "text": "大锤",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dàchuí"
                 }
               },
               "examples": [
@@ -286,6 +440,31 @@
                     "cement mix",
                     "cement dust"
                   ]
+                },
+                "ES": {
+                  "text": "cemento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zement",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "セメント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "水泥",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shuǐní"
                 }
               },
               "examples": [
@@ -324,6 +503,31 @@
                     "bed of mortar",
                     "mortar mix"
                   ]
+                },
+                "ES": {
+                  "text": "mortero",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mörtel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "モルタル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "砂浆",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shājiāng"
                 }
               },
               "examples": [
@@ -362,6 +566,31 @@
                     "concrete slab",
                     "precast concrete"
                   ]
+                },
+                "ES": {
+                  "text": "hormigón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Beton",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンクリート",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "混凝土",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hùnníngtǔ"
                 }
               },
               "examples": [
@@ -400,6 +629,31 @@
                     "brick wall",
                     "brick by brick"
                   ]
+                },
+                "ES": {
+                  "text": "ladrillo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ziegel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レンガ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "砖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhuān"
                 }
               },
               "examples": [
@@ -438,6 +692,32 @@
                     "sharp sand",
                     "builder's sand"
                   ]
+                },
+                "ES": {
+                  "text": "arena",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sand",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "砂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "すな"
+                },
+                "ZH": {
+                  "text": "沙子",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shāzi"
                 }
               },
               "examples": [
@@ -476,6 +756,32 @@
                     "rebar spacing",
                     "tie rebar"
                   ]
+                },
+                "ES": {
+                  "text": "barra de refuerzo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bewehrungsstahl",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鉄筋",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てっきん"
+                },
+                "ZH": {
+                  "text": "钢筋",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gāngjīn"
                 }
               },
               "examples": [
@@ -528,6 +834,32 @@
                     "stone masonry",
                     "masonry contractor"
                   ]
+                },
+                "ES": {
+                  "text": "mampostería",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mauerwerk",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "組積造",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "そせきぞう"
+                },
+                "ZH": {
+                  "text": "砌体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qìtǐ"
                 }
               },
               "examples": [
@@ -566,6 +898,32 @@
                     "damp-proof course",
                     "stagger the courses"
                   ]
+                },
+                "ES": {
+                  "text": "hilada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mauerschicht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "段",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だん"
+                },
+                "ZH": {
+                  "text": "砌层",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qìcéng"
                 }
               },
               "examples": [
@@ -604,6 +962,31 @@
                     "window lintel",
                     "lintel beam"
                   ]
+                },
+                "ES": {
+                  "text": "dintel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sturz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "まぐさ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "过梁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòliáng"
                 }
               },
               "examples": [
@@ -642,6 +1025,32 @@
                     "flush joint",
                     "tooling a joint"
                   ]
+                },
+                "ES": {
+                  "text": "junta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fuge",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "目地",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "めじ"
+                },
+                "ZH": {
+                  "text": "接缝",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiēfèng"
                 }
               },
               "examples": [
@@ -680,6 +1089,32 @@
                     "plaster finish",
                     "skim plaster"
                   ]
+                },
+                "ES": {
+                  "text": "enlucido",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Putz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "漆喰",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しっくい"
+                },
+                "ZH": {
+                  "text": "抹灰",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mǒhuī"
                 }
               },
               "examples": [
@@ -718,6 +1153,32 @@
                     "screed thickness",
                     "lay a screed"
                   ]
+                },
+                "ES": {
+                  "text": "recrecido",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Estrich",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "均しモルタル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ならしモルタル"
+                },
+                "ZH": {
+                  "text": "找平层",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhǎopíngcéng"
                 }
               },
               "examples": [
@@ -770,6 +1231,31 @@
                     "footing depth",
                     "pad footing"
                   ]
+                },
+                "ES": {
+                  "text": "zapata",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Streifenfundament",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "フーチング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "基脚",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jījiǎo"
                 }
               },
               "examples": [
@@ -808,6 +1294,31 @@
                     "slab on grade",
                     "roof slab"
                   ]
+                },
+                "ES": {
+                  "text": "losa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bodenplatte",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スラブ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "楼板",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lóubǎn"
                 }
               },
               "examples": [
@@ -846,6 +1357,32 @@
                     "timber formwork",
                     "formwork panel"
                   ]
+                },
+                "ES": {
+                  "text": "encofrado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schalung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "型枠",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かたわく"
+                },
+                "ZH": {
+                  "text": "模板",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "móbǎn"
                 }
               },
               "examples": [
@@ -884,6 +1421,32 @@
                     "moist curing",
                     "curing compound"
                   ]
+                },
+                "ES": {
+                  "text": "curado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Nachbehandlung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "養生",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようじょう"
+                },
+                "ZH": {
+                  "text": "养护",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yǎnghù"
                 }
               },
               "examples": [
@@ -922,6 +1485,32 @@
                     "apply waterproofing",
                     "waterproofing layer"
                   ]
+                },
+                "ES": {
+                  "text": "impermeabilización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Abdichtung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "防水",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぼうすい"
+                },
+                "ZH": {
+                  "text": "防水",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fángshuǐ"
                 }
               },
               "examples": [
@@ -960,6 +1549,32 @@
                     "excavation work",
                     "excavation permit"
                   ]
+                },
+                "ES": {
+                  "text": "excavación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Aushub",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "掘削",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "くっさく"
+                },
+                "ZH": {
+                  "text": "开挖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kāiwā"
                 }
               },
               "examples": [
@@ -1012,6 +1627,31 @@
                     "wall tile",
                     "tile adhesive"
                   ]
+                },
+                "ES": {
+                  "text": "baldosa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fliese",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "タイル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "瓷砖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cízhuān"
                 }
               },
               "examples": [
@@ -1050,6 +1690,32 @@
                     "epoxy grout",
                     "grout the tiles"
                   ]
+                },
+                "ES": {
+                  "text": "lechada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fugenmasse",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "目地材",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "めじざい"
+                },
+                "ZH": {
+                  "text": "填缝剂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tiánfèngjì"
                 }
               },
               "examples": [
@@ -1088,6 +1754,32 @@
                     "drywall joint compound",
                     "drywall screw"
                   ]
+                },
+                "ES": {
+                  "text": "panel de yeso",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Trockenbauplatte",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "石膏ボード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せっこうボード"
+                },
+                "ZH": {
+                  "text": "石膏板",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shígāobǎn"
                 }
               },
               "examples": [
@@ -1126,6 +1818,32 @@
                     "skirting board height",
                     "paint skirting boards"
                   ]
+                },
+                "ES": {
+                  "text": "zócalo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sockelleiste",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "巾木",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はばき"
+                },
+                "ZH": {
+                  "text": "踢脚线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tījiǎoxiàn"
                 }
               },
               "examples": [
@@ -1164,6 +1882,32 @@
                     "sealant gun",
                     "waterproof sealant"
                   ]
+                },
+                "ES": {
+                  "text": "sellador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dichtstoff",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "シーリング材",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "シーリングざい"
+                },
+                "ZH": {
+                  "text": "密封胶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mìfēngjiāo"
                 }
               },
               "examples": [
@@ -1202,6 +1946,32 @@
                     "primer coat",
                     "stain-blocking primer"
                   ]
+                },
+                "ES": {
+                  "text": "imprimación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Grundierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "下塗り材",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "したぬりざい"
+                },
+                "ZH": {
+                  "text": "底漆",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dǐqī"
                 }
               },
               "examples": [
@@ -1254,6 +2024,31 @@
                     "hard hat area",
                     "hard hat required"
                   ]
+                },
+                "ES": {
+                  "text": "casco",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schutzhelm",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヘルメット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "安全帽",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ānquánmào"
                 }
               },
               "examples": [
@@ -1292,6 +2087,32 @@
                     "anchor point",
                     "lanyard"
                   ]
+                },
+                "ES": {
+                  "text": "arnés de seguridad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Auffanggurt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "安全帯",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あんぜんたい"
+                },
+                "ZH": {
+                  "text": "安全带",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ānquándài"
                 }
               },
               "examples": [
@@ -1330,6 +2151,32 @@
                     "PPE",
                     "protective equipment checklist"
                   ]
+                },
+                "ES": {
+                  "text": "equipo de protección",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schutzausrüstung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "保護具",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほごぐ"
+                },
+                "ZH": {
+                  "text": "防护装备",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fánghù zhuāngbèi"
                 }
               },
               "examples": [
@@ -1368,6 +2215,32 @@
                     "foreman's instructions",
                     "construction foreman"
                   ]
+                },
+                "ES": {
+                  "text": "capataz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorarbeiter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "現場監督",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "げんばかんとく"
+                },
+                "ZH": {
+                  "text": "工头",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngtóu"
                 }
               },
               "examples": [
@@ -1406,6 +2279,32 @@
                     "scaffolding platform",
                     "dismantle scaffolding"
                   ]
+                },
+                "ES": {
+                  "text": "andamio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gerüst",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "足場",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あしば"
+                },
+                "ZH": {
+                  "text": "脚手架",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiǎoshǒujià"
                 }
               },
               "examples": [
@@ -1444,6 +2343,32 @@
                     "fire hazard",
                     "identify a hazard"
                   ]
+                },
+                "ES": {
+                  "text": "peligro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gefahr",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "危険要因",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きけんよういん"
+                },
+                "ZH": {
+                  "text": "危险源",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wēixiǎnyuán"
                 }
               },
               "examples": [

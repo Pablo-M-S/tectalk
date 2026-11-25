@@ -42,6 +42,32 @@
                     "beam deflection",
                     "I-beam"
                   ]
+                },
+                "ES": {
+                  "text": "viga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Träger",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "梁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はり"
+                },
+                "ZH": {
+                  "text": "梁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "liáng"
                 }
               },
               "examples": [
@@ -80,6 +106,32 @@
                     "column spacing",
                     "steel column"
                   ]
+                },
+                "ES": {
+                  "text": "pilar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stütze",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "柱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はしら"
+                },
+                "ZH": {
+                  "text": "柱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhù"
                 }
               },
               "examples": [
@@ -118,6 +170,32 @@
                     "foundation design",
                     "foundation settlement"
                   ]
+                },
+                "ES": {
+                  "text": "cimentación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fundament",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "基礎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きそ"
+                },
+                "ZH": {
+                  "text": "地基",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dìjī"
                 }
               },
               "examples": [
@@ -156,6 +234,32 @@
                     "wind load",
                     "load-bearing"
                   ]
+                },
+                "ES": {
+                  "text": "carga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Last",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "荷重",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かじゅう"
+                },
+                "ZH": {
+                  "text": "荷载",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hèzài"
                 }
               },
               "examples": [
@@ -194,6 +298,32 @@
                     "shear stress",
                     "stress concentration"
                   ]
+                },
+                "ES": {
+                  "text": "esfuerzo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Spannung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "応力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "おうりょく"
+                },
+                "ZH": {
+                  "text": "应力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìnglì"
                 }
               },
               "examples": [
@@ -232,6 +362,31 @@
                     "strain gauge",
                     "strain rate"
                   ]
+                },
+                "ES": {
+                  "text": "deformación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dehnung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ひずみ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "应变",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìngbiàn"
                 }
               },
               "examples": [
@@ -284,6 +439,32 @@
                     "carbon steel",
                     "steel grade"
                   ]
+                },
+                "ES": {
+                  "text": "acero",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stahl",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鋼",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はがね"
+                },
+                "ZH": {
+                  "text": "钢",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gāng"
                 }
               },
               "examples": [
@@ -322,6 +503,32 @@
                     "concrete cover",
                     "reinforced concrete structure"
                   ]
+                },
+                "ES": {
+                  "text": "hormigón armado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stahlbeton",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鉄筋コンクリート",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てっきんコンクリート"
+                },
+                "ZH": {
+                  "text": "钢筋混凝土",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gāngjīn hùnníngtǔ"
                 }
               },
               "examples": [
@@ -360,6 +567,32 @@
                     "alloy steel",
                     "high-strength alloy"
                   ]
+                },
+                "ES": {
+                  "text": "aleación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Legierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "合金",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ごうきん"
+                },
+                "ZH": {
+                  "text": "合金",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "héjīn"
                 }
               },
               "examples": [
@@ -398,6 +631,32 @@
                     "test tensile strength",
                     "yield strength"
                   ]
+                },
+                "ES": {
+                  "text": "resistencia a la tracción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zugfestigkeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引張強さ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひっぱりつよさ"
+                },
+                "ZH": {
+                  "text": "抗拉强度",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kànglā qiángdù"
                 }
               },
               "examples": [
@@ -438,6 +697,32 @@
                     "galvanic corrosion",
                     "corrosion protection"
                   ]
+                },
+                "ES": {
+                  "text": "corrosión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Korrosion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "腐食",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふしょく"
+                },
+                "ZH": {
+                  "text": "腐蚀",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǔshí"
                 }
               },
               "examples": [
@@ -476,6 +761,32 @@
                     "fatigue crack",
                     "fatigue test"
                   ]
+                },
+                "ES": {
+                  "text": "fatiga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ermüdung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "疲労",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひろう"
+                },
+                "ZH": {
+                  "text": "疲劳",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "píláo"
                 }
               },
               "examples": [
@@ -530,6 +841,32 @@
                     "blueprint revision",
                     "read a blueprint"
                   ]
+                },
+                "ES": {
+                  "text": "plano",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bauplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "設計図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せっけいず"
+                },
+                "ZH": {
+                  "text": "图纸",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "túzhǐ"
                 }
               },
               "examples": [
@@ -570,6 +907,32 @@
                     "meet the specification",
                     "specification sheet"
                   ]
+                },
+                "ES": {
+                  "text": "especificación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Spezifikation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "仕様書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しようしょ"
+                },
+                "ZH": {
+                  "text": "规格",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guīgé"
                 }
               },
               "examples": [
@@ -608,6 +971,32 @@
                     "within tolerance",
                     "tolerance range"
                   ]
+                },
+                "ES": {
+                  "text": "tolerancia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Toleranz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "公差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうさ"
+                },
+                "ZH": {
+                  "text": "公差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngchā"
                 }
               },
               "examples": [
@@ -646,6 +1035,32 @@
                     "factor of safety",
                     "safety margin"
                   ]
+                },
+                "ES": {
+                  "text": "factor de seguridad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sicherheitsfaktor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "安全率",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あんぜんりつ"
+                },
+                "ZH": {
+                  "text": "安全系数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ānquán xìshù"
                 }
               },
               "examples": [
@@ -684,6 +1099,32 @@
                     "revision number",
                     "issue a revision"
                   ]
+                },
+                "ES": {
+                  "text": "revisión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Revision",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "改訂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいてい"
+                },
+                "ZH": {
+                  "text": "修订",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiūdìng"
                 }
               },
               "examples": [
@@ -722,6 +1163,32 @@
                     "compliance audit",
                     "in compliance with"
                   ]
+                },
+                "ES": {
+                  "text": "cumplimiento normativo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Konformität",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "適合性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てきごうせい"
+                },
+                "ZH": {
+                  "text": "合规",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "héguī"
                 }
               },
               "examples": [
@@ -774,6 +1241,31 @@
                     "torque wrench",
                     "torque specification"
                   ]
+                },
+                "ES": {
+                  "text": "par de torsión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Drehmoment",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "トルク",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "扭矩",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "niǔjǔ"
                 }
               },
               "examples": [
@@ -812,6 +1304,32 @@
                     "bearing failure",
                     "bearing housing"
                   ]
+                },
+                "ES": {
+                  "text": "rodamiento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lager",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "軸受",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じくうけ"
+                },
+                "ZH": {
+                  "text": "轴承",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhóuchéng"
                 }
               },
               "examples": [
@@ -850,6 +1368,32 @@
                     "gear tooth",
                     "gear train"
                   ]
+                },
+                "ES": {
+                  "text": "engranaje",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zahnrad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "歯車",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はぐるま"
+                },
+                "ZH": {
+                  "text": "齿轮",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chǐlún"
                 }
               },
               "examples": [
@@ -888,6 +1432,32 @@
                     "shaft seal",
                     "rotating shaft"
                   ]
+                },
+                "ES": {
+                  "text": "eje",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Welle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "軸",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じく"
+                },
+                "ZH": {
+                  "text": "轴",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhóu"
                 }
               },
               "examples": [
@@ -926,6 +1496,31 @@
                     "submersible pump",
                     "pump failure"
                   ]
+                },
+                "ES": {
+                  "text": "bomba",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pumpe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ポンプ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "泵",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bèng"
                 }
               },
               "examples": [
@@ -964,6 +1559,31 @@
                     "ball valve",
                     "shut-off valve"
                   ]
+                },
+                "ES": {
+                  "text": "válvula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ventil",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バルブ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "阀门",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fámén"
                 }
               },
               "examples": [
@@ -1016,6 +1636,32 @@
                     "circuit breaker",
                     "electrical circuit"
                   ]
+                },
+                "ES": {
+                  "text": "circuito",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stromkreis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "回路",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいろ"
+                },
+                "ZH": {
+                  "text": "电路",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànlù"
                 }
               },
               "examples": [
@@ -1054,6 +1700,32 @@
                     "rated voltage",
                     "voltage regulator"
                   ]
+                },
+                "ES": {
+                  "text": "tensión eléctrica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Spannung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電圧",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんあつ"
+                },
+                "ZH": {
+                  "text": "电压",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànyā"
                 }
               },
               "examples": [
@@ -1092,6 +1764,32 @@
                     "rated current",
                     "current flow"
                   ]
+                },
+                "ES": {
+                  "text": "corriente eléctrica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Strom",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電流",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんりゅう"
+                },
+                "ZH": {
+                  "text": "电流",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànliú"
                 }
               },
               "examples": [
@@ -1130,6 +1828,32 @@
                     "resistance value",
                     "low resistance"
                   ]
+                },
+                "ES": {
+                  "text": "resistencia eléctrica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Widerstand",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抵抗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ていこう"
+                },
+                "ZH": {
+                  "text": "电阻",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànzǔ"
                 }
               },
               "examples": [
@@ -1168,6 +1892,32 @@
                     "step-down transformer",
                     "transformer substation"
                   ]
+                },
+                "ES": {
+                  "text": "transformador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Transformator",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "変圧器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "へんあつき"
+                },
+                "ZH": {
+                  "text": "变压器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biànyāqì"
                 }
               },
               "examples": [
@@ -1206,6 +1956,32 @@
                     "grounding conductor",
                     "proper grounding"
                   ]
+                },
+                "ES": {
+                  "text": "puesta a tierra",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Erdung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "接地",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せっち"
+                },
+                "ZH": {
+                  "text": "接地",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiēdì"
                 }
               },
               "examples": [
@@ -1258,6 +2034,31 @@
                     "project schedule",
                     "tight schedule"
                   ]
+                },
+                "ES": {
+                  "text": "cronograma",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zeitplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スケジュール",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "进度计划",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìndù jìhuà"
                 }
               },
               "examples": [
@@ -1296,6 +2097,31 @@
                     "milestone payment",
                     "key milestone"
                   ]
+                },
+                "ES": {
+                  "text": "hito",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Meilenstein",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "マイルストーン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "里程碑",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lǐchéngbēi"
                 }
               },
               "examples": [
@@ -1334,6 +2160,32 @@
                     "project budget",
                     "budget approval"
                   ]
+                },
+                "ES": {
+                  "text": "presupuesto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Budget",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "予算",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "よさん"
+                },
+                "ZH": {
+                  "text": "预算",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yùsuàn"
                 }
               },
               "examples": [
@@ -1372,6 +2224,31 @@
                     "site risk assessment",
                     "hazard identification"
                   ]
+                },
+                "ES": {
+                  "text": "evaluación de riesgos",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Risikobewertung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リスクアセスメント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "风险评估",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēngxiǎn pínggū"
                 }
               },
               "examples": [
@@ -1410,6 +2287,32 @@
                     "deliverable list",
                     "meet a deliverable"
                   ]
+                },
+                "ES": {
+                  "text": "entregable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Arbeitsergebnis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "成果物",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいかぶつ"
+                },
+                "ZH": {
+                  "text": "交付成果",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiāofù chéngguǒ"
                 }
               },
               "examples": [
@@ -1448,6 +2351,32 @@
                     "quality inspection",
                     "inspection report"
                   ]
+                },
+                "ES": {
+                  "text": "inspección",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Inspektion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "検査",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんさ"
+                },
+                "ZH": {
+                  "text": "检验",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiǎnyàn"
                 }
               },
               "examples": [

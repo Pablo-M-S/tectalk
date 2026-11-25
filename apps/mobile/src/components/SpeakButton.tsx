@@ -1,5 +1,6 @@
 import { Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import type { Language } from '@/api/types';
 import { speak, type SpeechPace } from '@/lib/speech';
 import { Text } from './Text';
 import { useTheme } from '@/theme/theme';
@@ -8,10 +9,12 @@ interface Props {
   text: string;
   pace?: SpeechPace;
   label?: string;
+  /** Idioma da voz. Sem ele, usa o idioma estudado. */
+  language?: Language;
 }
 
 /** Botão de pronúncia. A versão `slow` lê pausadamente, para ouvir cada sílaba. */
-export function SpeakButton({ text, pace = 'normal', label }: Props) {
+export function SpeakButton({ text, pace = 'normal', label, language }: Props) {
   const theme = useTheme();
   const slow = pace === 'slow';
 
@@ -20,7 +23,7 @@ export function SpeakButton({ text, pace = 'normal', label }: Props) {
       accessibilityRole="button"
       accessibilityLabel={slow ? `Ouvir devagar: ${text}` : `Ouvir: ${text}`}
       hitSlop={8}
-      onPress={() => speak(text, pace)}
+      onPress={() => speak(text, pace, language)}
       style={({ pressed }) => ({
         flexDirection: 'row',
         alignItems: 'center',

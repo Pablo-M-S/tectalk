@@ -42,6 +42,32 @@
                     "global variable",
                     "local variable"
                   ]
+                },
+                "ES": {
+                  "text": "variable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Variable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "変数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "へんすう"
+                },
+                "ZH": {
+                  "text": "变量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biànliàng"
                 }
               },
               "examples": [
@@ -82,6 +108,32 @@
                     "pure function",
                     "callback function"
                   ]
+                },
+                "ES": {
+                  "text": "función",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Funktion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "関数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんすう"
+                },
+                "ZH": {
+                  "text": "函数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hánshù"
                 }
               },
               "examples": [
@@ -122,6 +174,31 @@
                     "optional parameter",
                     "required parameter"
                   ]
+                },
+                "ES": {
+                  "text": "parámetro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Parameter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パラメータ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "形参",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xíngcān"
                 }
               },
               "examples": [
@@ -163,6 +240,32 @@
                     "missing argument"
                   ],
                   "ipa": "/ˈɑːrɡjumənt/"
+                },
+                "ES": {
+                  "text": "argumento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Argument",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひきすう"
+                },
+                "ZH": {
+                  "text": "实参",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shícān"
                 }
               },
               "examples": [
@@ -203,6 +306,32 @@
                     "return type",
                     "non-zero return value"
                   ]
+                },
+                "ES": {
+                  "text": "valor de retorno",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rückgabewert",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "戻り値",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "もどりち"
+                },
+                "ZH": {
+                  "text": "返回值",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎnhuízhí"
                 }
               },
               "examples": [
@@ -242,6 +371,31 @@
                     "loop through"
                   ],
                   "ipa": "/luːp/"
+                },
+                "ES": {
+                  "text": "bucle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schleife",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ループ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "循环",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xúnhuán"
                 }
               },
               "examples": [
@@ -290,6 +444,32 @@
                     "array index"
                   ],
                   "ipa": "/əˈreɪ/"
+                },
+                "ES": {
+                  "text": "arreglo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Array",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "配列",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいれつ"
+                },
+                "ZH": {
+                  "text": "数组",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shùzǔ"
                 }
               },
               "examples": [
@@ -330,6 +510,31 @@
                     "look up a key",
                     "constant-time lookup"
                   ]
+                },
+                "ES": {
+                  "text": "tabla hash",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hashmap",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ハッシュマップ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "哈希表",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hāxībiǎo"
                 }
               },
               "examples": [
@@ -371,6 +576,32 @@
                     "parse a string"
                   ],
                   "ipa": "/strɪŋ/"
+                },
+                "ES": {
+                  "text": "cadena de texto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zeichenkette",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "文字列",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "もじれつ"
+                },
+                "ZH": {
+                  "text": "字符串",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zìfúchuàn"
                 }
               },
               "examples": [
@@ -412,6 +643,32 @@
                     "return a boolean"
                   ],
                   "ipa": "/ˈbuːliən/"
+                },
+                "ES": {
+                  "text": "booleano",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "boolescher Wert",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "真偽値",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんぎち"
+                },
+                "ZH": {
+                  "text": "布尔值",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bù'ěrzhí"
                 }
               },
               "examples": [
@@ -452,6 +709,32 @@
                     "dereference a null reference",
                     "guard clause"
                   ]
+                },
+                "ES": {
+                  "text": "referencia nula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Nullreferenz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヌル参照",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ヌルさんしょう"
+                },
+                "ZH": {
+                  "text": "空引用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kōng yǐnyòng"
                 }
               },
               "examples": [
@@ -493,6 +776,32 @@
                     "exception handling"
                   ],
                   "ipa": "/ɪkˈsɛpʃən/"
+                },
+                "ES": {
+                  "text": "excepción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausnahme",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "例外",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "れいがい"
+                },
+                "ZH": {
+                  "text": "异常",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìcháng"
                 }
               },
               "examples": [
@@ -547,6 +856,31 @@
                     "call an endpoint",
                     "health check endpoint"
                   ]
+                },
+                "ES": {
+                  "text": "punto final",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Endpunkt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "エンドポイント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "端点",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duāndiǎn"
                 }
               },
               "examples": [
@@ -588,6 +922,32 @@
                     "dependency injection"
                   ],
                   "ipa": "/dɪˈpɛndənsi/"
+                },
+                "ES": {
+                  "text": "dependencia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Abhängigkeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "依存関係",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いぞんかんけい"
+                },
+                "ZH": {
+                  "text": "依赖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yīlài"
                 }
               },
               "examples": [
@@ -626,6 +986,32 @@
                     "level of abstraction",
                     "abstraction layer"
                   ]
+                },
+                "ES": {
+                  "text": "abstracción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Abstraktion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抽象化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちゅうしょうか"
+                },
+                "ZH": {
+                  "text": "抽象",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chōuxiàng"
                 }
               },
               "examples": [
@@ -664,6 +1050,31 @@
                     "logging middleware",
                     "middleware chain"
                   ]
+                },
+                "ES": {
+                  "text": "middleware",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Middleware",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ミドルウェア",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "中间件",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhōngjiānjiàn"
                 }
               },
               "examples": [
@@ -703,6 +1114,31 @@
                     "schema change"
                   ],
                   "ipa": "/ˈskiːmə/"
+                },
+                "ES": {
+                  "text": "esquema",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schema",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スキーマ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "模式",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "móshì"
                 }
               },
               "examples": [
@@ -743,6 +1179,31 @@
                     "validate the payload",
                     "payload size"
                   ]
+                },
+                "ES": {
+                  "text": "carga útil",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Nutzlast",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ペイロード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "有效载荷",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yǒuxiào zàihè"
                 }
               },
               "examples": [
@@ -791,6 +1252,31 @@
                     "query plan"
                   ],
                   "ipa": "/ˈkwɪəri/"
+                },
+                "ES": {
+                  "text": "consulta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Abfrage",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "クエリ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "查询",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cháxún"
                 }
               },
               "examples": [
@@ -829,6 +1315,31 @@
                     "roll back a transaction",
                     "database transaction"
                   ]
+                },
+                "ES": {
+                  "text": "transacción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Transaktion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "トランザクション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "事务",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shìwù"
                 }
               },
               "examples": [
@@ -867,6 +1378,31 @@
                     "unique index",
                     "missing index"
                   ]
+                },
+                "ES": {
+                  "text": "índice",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Index",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インデックス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "索引",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "suǒyǐn"
                 }
               },
               "examples": [
@@ -906,6 +1442,31 @@
                     "database migration"
                   ],
                   "ipa": "/maɪˈɡreɪʃən/"
+                },
+                "ES": {
+                  "text": "migración",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Migration",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "マイグレーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "迁移",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qiānyí"
                 }
               },
               "examples": [
@@ -945,6 +1506,31 @@
                     "stale cache"
                   ],
                   "ipa": "/kæʃ/"
+                },
+                "ES": {
+                  "text": "caché",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Cache",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "キャッシュ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "缓存",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huǎncún"
                 }
               },
               "examples": [
@@ -986,6 +1572,31 @@
                     "p99 latency"
                   ],
                   "ipa": "/ˈleɪtənsi/"
+                },
+                "ES": {
+                  "text": "latencia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Latenz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レイテンシ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "延迟",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yánchí"
                 }
               },
               "examples": [
@@ -1040,6 +1651,31 @@
                     "private repository",
                     "initialize a repository"
                   ]
+                },
+                "ES": {
+                  "text": "repositorio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Repository",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リポジトリ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "仓库",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cāngkù"
                 }
               },
               "examples": [
@@ -1081,6 +1717,31 @@
                     "squash commits"
                   ],
                   "ipa": "/kəˈmɪt/"
+                },
+                "ES": {
+                  "text": "commit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Commit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コミット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "提交",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tíjiāo"
                 }
               },
               "examples": [
@@ -1120,6 +1781,31 @@
                     "delete a branch"
                   ],
                   "ipa": "/bræntʃ/"
+                },
+                "ES": {
+                  "text": "rama",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Branch",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ブランチ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "分支",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēnzhī"
                 }
               },
               "examples": [
@@ -1160,6 +1846,31 @@
                     "conflict markers",
                     "rebase conflict"
                   ]
+                },
+                "ES": {
+                  "text": "conflicto de fusión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Merge-Konflikt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "マージコンフリクト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "合并冲突",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hébìng chōngtū"
                 }
               },
               "examples": [
@@ -1200,6 +1911,31 @@
                     "approve a pull request",
                     "merge a pull request"
                   ]
+                },
+                "ES": {
+                  "text": "pull request",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pull-Request",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "プルリクエスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "拉取请求",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lāqǔ qǐngqiú"
                 }
               },
               "examples": [
@@ -1240,6 +1976,31 @@
                     "automatic rollback",
                     "roll back a release"
                   ]
+                },
+                "ES": {
+                  "text": "reversión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rollback",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ロールバック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "回滚",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huígǔn"
                 }
               },
               "examples": [
@@ -1287,6 +2048,31 @@
                     "safe refactoring",
                     "refactoring without changing behavior"
                   ]
+                },
+                "ES": {
+                  "text": "refactorización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Refactoring",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リファクタリング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "重构",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chónggòu"
                 }
               },
               "examples": [
@@ -1327,6 +2113,32 @@
                     "deprecation policy",
                     "deprecate an API"
                   ]
+                },
+                "ES": {
+                  "text": "obsolescencia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Deprecation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "非推奨化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひすいしょうか"
+                },
+                "ZH": {
+                  "text": "弃用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qìyòng"
                 }
               },
               "examples": [
@@ -1367,6 +2179,32 @@
                     "technical debt backlog",
                     "take on technical debt"
                   ]
+                },
+                "ES": {
+                  "text": "deuda técnica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "technische Schulden",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "技術的負債",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぎじゅつてきふさい"
+                },
+                "ZH": {
+                  "text": "技术债务",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìshù zhàiwù"
                 }
               },
               "examples": [
@@ -1407,6 +2245,31 @@
                     "regression bug",
                     "performance regression"
                   ]
+                },
+                "ES": {
+                  "text": "regresión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Regression",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リグレッション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "回归",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huíguī"
                 }
               },
               "examples": [
@@ -1447,6 +2310,31 @@
                     "continuous deployment",
                     "zero-downtime deployment"
                   ]
+                },
+                "ES": {
+                  "text": "despliegue",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Deployment",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デプロイ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "部署",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bùshǔ"
                 }
               },
               "examples": [
@@ -1487,6 +2375,31 @@
                     "address review feedback",
                     "LGTM"
                   ]
+                },
+                "ES": {
+                  "text": "revisión de código",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Code-Review",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コードレビュー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "代码审查",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dàimǎ shěnchá"
                 }
               },
               "examples": [
@@ -1541,6 +2454,31 @@
                     "request body",
                     "request timeout"
                   ]
+                },
+                "ES": {
+                  "text": "solicitud",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Anfrage",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リクエスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "请求",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qǐngqiú"
                 }
               },
               "examples": [
@@ -1579,6 +2517,31 @@
                     "error response",
                     "response body"
                   ]
+                },
+                "ES": {
+                  "text": "respuesta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Antwort",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レスポンス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "响应",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiǎngyìng"
                 }
               },
               "examples": [
@@ -1617,6 +2580,31 @@
                     "error status code",
                     "status code 200"
                   ]
+                },
+                "ES": {
+                  "text": "código de estado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Statuscode",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ステータスコード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "状态码",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhuàngtàimǎ"
                 }
               },
               "examples": [
@@ -1657,6 +2645,32 @@
                     "authentication failure",
                     "user authentication"
                   ]
+                },
+                "ES": {
+                  "text": "autenticación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Authentifizierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "認証",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にんしょう"
+                },
+                "ZH": {
+                  "text": "身份验证",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shēnfèn yànzhèng"
                 }
               },
               "examples": [
@@ -1695,6 +2709,31 @@
                     "token expires",
                     "bearer token"
                   ]
+                },
+                "ES": {
+                  "text": "token",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Token",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "トークン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "令牌",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lìngpái"
                 }
               },
               "examples": [
@@ -1733,6 +2772,32 @@
                     "apply a rate limit",
                     "rate limit header"
                   ]
+                },
+                "ES": {
+                  "text": "límite de tasa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ratenbegrenzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レート制限",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "レートせいげん"
+                },
+                "ZH": {
+                  "text": "速率限制",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sùlǜ xiànzhì"
                 }
               },
               "examples": [
@@ -1785,6 +2850,32 @@
                     "pass a unit test",
                     "failing unit test"
                   ]
+                },
+                "ES": {
+                  "text": "prueba unitaria",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Unit-Test",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "単体テスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たんたいテスト"
+                },
+                "ZH": {
+                  "text": "单元测试",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dānyuán cèshì"
                 }
               },
               "examples": [
@@ -1823,6 +2914,32 @@
                     "write an integration test",
                     "failing integration test"
                   ]
+                },
+                "ES": {
+                  "text": "prueba de integración",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Integrationstest",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "結合テスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けつごうテスト"
+                },
+                "ZH": {
+                  "text": "集成测试",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jíchéng cèshì"
                 }
               },
               "examples": [
@@ -1861,6 +2978,31 @@
                     "mock data",
                     "mock response"
                   ]
+                },
+                "ES": {
+                  "text": "mock",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mock",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "モック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "模拟对象",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mónǐ duìxiàng"
                 }
               },
               "examples": [
@@ -1899,6 +3041,31 @@
                     "code coverage threshold",
                     "line coverage"
                   ]
+                },
+                "ES": {
+                  "text": "cobertura de código",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Codeabdeckung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コードカバレッジ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "代码覆盖率",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dàimǎ fùgàilǜ"
                 }
               },
               "examples": [
@@ -1937,6 +3104,31 @@
                     "add an assertion",
                     "assertion library"
                   ]
+                },
+                "ES": {
+                  "text": "aserción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Assertion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アサーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "断言",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duànyán"
                 }
               },
               "examples": [
@@ -1975,6 +3167,32 @@
                     "flaky test failure",
                     "flaky tests"
                   ]
+                },
+                "ES": {
+                  "text": "prueba inestable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "instabiler Test",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "不安定なテスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふあんていなテスト"
+                },
+                "ZH": {
+                  "text": "不稳定测试",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bù wěndìng cèshì"
                 }
               },
               "examples": [
@@ -2027,6 +3245,31 @@
                     "run a container",
                     "container registry"
                   ]
+                },
+                "ES": {
+                  "text": "contenedor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Container",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンテナ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "容器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "róngqì"
                 }
               },
               "examples": [
@@ -2065,6 +3308,31 @@
                     "pipeline stage",
                     "trigger a pipeline"
                   ]
+                },
+                "ES": {
+                  "text": "pipeline",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pipeline",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パイプライン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "流水线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "liúshuǐxiàn"
                 }
               },
               "examples": [
@@ -2103,6 +3371,32 @@
                     "environment variable file",
                     "production environment variable"
                   ]
+                },
+                "ES": {
+                  "text": "variable de entorno",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Umgebungsvariable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "環境変数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんきょうへんすう"
+                },
+                "ZH": {
+                  "text": "环境变量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huánjìng biànliàng"
                 }
               },
               "examples": [
@@ -2141,6 +3435,31 @@
                     "load balancer health check",
                     "behind a load balancer"
                   ]
+                },
+                "ES": {
+                  "text": "balanceador de carga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Load Balancer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ロードバランサー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "负载均衡器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fùzài jūnhéngqì"
                 }
               },
               "examples": [
@@ -2179,6 +3498,31 @@
                     "improve scalability",
                     "scalability test"
                   ]
+                },
+                "ES": {
+                  "text": "escalabilidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Skalierbarkeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スケーラビリティ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "可扩展性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kě kuòzhǎnxìng"
                 }
               },
               "examples": [
@@ -2217,6 +3561,32 @@
                     "monitor uptime",
                     "maintain uptime"
                   ]
+                },
+                "ES": {
+                  "text": "tiempo de actividad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verfügbarkeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "稼働率",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かどうりつ"
+                },
+                "ZH": {
+                  "text": "正常运行时间",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhèngcháng yùnxíng shíjiān"
                 }
               },
               "examples": [
@@ -2269,6 +3639,31 @@
                     "call stack",
                     "stack overflow"
                   ]
+                },
+                "ES": {
+                  "text": "pila",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stack",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スタック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "栈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhàn"
                 }
               },
               "examples": [
@@ -2307,6 +3702,31 @@
                     "enqueue and dequeue",
                     "queue is full"
                   ]
+                },
+                "ES": {
+                  "text": "cola",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Warteschlange",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "キュー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "队列",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duìliè"
                 }
               },
               "examples": [
@@ -2345,6 +3765,32 @@
                     "traverse a linked list",
                     "linked list node"
                   ]
+                },
+                "ES": {
+                  "text": "lista enlazada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "verkettete Liste",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "連結リスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "れんけつリスト"
+                },
+                "ZH": {
+                  "text": "链表",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "liànbiǎo"
                 }
               },
               "examples": [
@@ -2383,6 +3829,32 @@
                     "infinite recursion",
                     "tail recursion"
                   ]
+                },
+                "ES": {
+                  "text": "recursión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rekursion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "再帰",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さいき"
+                },
+                "ZH": {
+                  "text": "递归",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dìguī"
                 }
               },
               "examples": [
@@ -2421,6 +3893,31 @@
                     "design an algorithm",
                     "algorithm complexity"
                   ]
+                },
+                "ES": {
+                  "text": "algoritmo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Algorithmus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アルゴリズム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "算法",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "suànfǎ"
                 }
               },
               "examples": [
@@ -2459,6 +3956,32 @@
                     "analyze time complexity",
                     "worst-case time complexity"
                   ]
+                },
+                "ES": {
+                  "text": "complejidad temporal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zeitkomplexität",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "時間計算量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じかんけいさんりょう"
+                },
+                "ZH": {
+                  "text": "时间复杂度",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shíjiān fùzádù"
                 }
               },
               "examples": [
@@ -2511,6 +4034,32 @@
                     "exploit a vulnerability",
                     "vulnerability scan"
                   ]
+                },
+                "ES": {
+                  "text": "vulnerabilidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schwachstelle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "脆弱性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぜいじゃくせい"
+                },
+                "ZH": {
+                  "text": "漏洞",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lòudòng"
                 }
               },
               "examples": [
@@ -2549,6 +4098,32 @@
                     "encryption at rest",
                     "encrypt data"
                   ]
+                },
+                "ES": {
+                  "text": "cifrado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verschlüsselung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "暗号化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あんごうか"
+                },
+                "ZH": {
+                  "text": "加密",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiāmì"
                 }
               },
               "examples": [
@@ -2587,6 +4162,32 @@
                     "authorization header",
                     "fail authorization"
                   ]
+                },
+                "ES": {
+                  "text": "autorización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Autorisierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "認可",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にんか"
+                },
+                "ZH": {
+                  "text": "授权",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shòuquán"
                 }
               },
               "examples": [
@@ -2625,6 +4226,31 @@
                     "SQL injection vulnerability",
                     "parameterized query"
                   ]
+                },
+                "ES": {
+                  "text": "inyección SQL",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "SQL-Injection",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "SQLインジェクション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "SQL注入",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "SQL zhùrù"
                 }
               },
               "examples": [
@@ -2663,6 +4289,32 @@
                     "access control policy",
                     "enforce access control"
                   ]
+                },
+                "ES": {
+                  "text": "control de acceso",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zugriffskontrolle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アクセス制御",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "アクセスせいぎょ"
+                },
+                "ZH": {
+                  "text": "访问控制",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎngwèn kòngzhì"
                 }
               },
               "examples": [
@@ -2701,6 +4353,32 @@
                     "review the audit log",
                     "immutable audit log"
                   ]
+                },
+                "ES": {
+                  "text": "registro de auditoría",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Prüfprotokoll",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "監査ログ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんさログ"
+                },
+                "ZH": {
+                  "text": "审计日志",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shěnjì rìzhì"
                 }
               },
               "examples": [
@@ -2753,6 +4431,31 @@
                     "sprint goal",
                     "current sprint"
                   ]
+                },
+                "ES": {
+                  "text": "sprint",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sprint",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スプリント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "冲刺",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chōngcì"
                 }
               },
               "examples": [
@@ -2791,6 +4494,31 @@
                     "backlog grooming",
                     "backlog item"
                   ]
+                },
+                "ES": {
+                  "text": "backlog",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Backlog",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バックログ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "待办列表",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dàibàn lièbiǎo"
                 }
               },
               "examples": [
@@ -2831,6 +4559,31 @@
                     "give a standup update",
                     "skip standup"
                   ]
+                },
+                "ES": {
+                  "text": "reunión diaria",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Daily",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デイリースクラム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "每日站会",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "měirì zhànhuì"
                 }
               },
               "examples": [
@@ -2869,6 +4622,31 @@
                     "stakeholder buy-in",
                     "manage stakeholders"
                   ]
+                },
+                "ES": {
+                  "text": "parte interesada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stakeholder",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ステークホルダー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "利益相关者",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lìyì xiāngguānzhě"
                 }
               },
               "examples": [
@@ -2907,6 +4685,31 @@
                     "pair programming session",
                     "mob programming"
                   ]
+                },
+                "ES": {
+                  "text": "programación en pareja",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pair Programming",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ペアプログラミング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "结对编程",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiéduì biānchéng"
                 }
               },
               "examples": [
@@ -2945,6 +4748,31 @@
                     "retrospective meeting",
                     "retrospective action item"
                   ]
+                },
+                "ES": {
+                  "text": "retrospectiva",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Retrospektive",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レトロスペクティブ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "回顾会议",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huígù huìyì"
                 }
               },
               "examples": [

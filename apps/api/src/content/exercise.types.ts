@@ -25,6 +25,13 @@ export interface Option {
 }
 
 /** Ponto de ensino exibido depois que o usuário responde. */
+/** Tradução do termo em outro idioma (ES, DE, JA, ZH...), com leitura quando existir. */
+export interface Translation {
+  language: string;
+  text: string;
+  reading: string | null;
+}
+
 export interface Reveal {
   text: string;
   definition: string;
@@ -35,6 +42,7 @@ export interface Reveal {
   collocations: string[];
   /** Frase real de uso, quando existir. */
   example: string | null;
+  translations: Translation[];
 }
 
 interface ExerciseBase<T extends ExerciseType> {

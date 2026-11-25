@@ -14,6 +14,7 @@ const VOICE_LOCALE: Record<Language, string> = {
   FR: 'fr-FR',
   ZH: 'zh-CN',
   JA: 'ja-JP',
+  DE: 'de-DE',
 };
 
 /** Frase de teste por idioma, no registro profissional que o app ensina. */
@@ -24,6 +25,7 @@ export const SAMPLE_SENTENCE: Record<Language, string> = {
   FR: 'Veuillez relire le compte rendu de sortie avant la procédure.',
   ZH: '请在手术前查看出院小结。',
   JA: '処置の前に退院サマリーを確認してください。',
+  DE: 'Bitte prüfen Sie den Entlassungsbericht vor dem Eingriff.',
 };
 
 const RATE = { normal: 0.92, slow: 0.55 } as const;

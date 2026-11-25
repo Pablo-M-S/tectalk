@@ -187,3 +187,22 @@ describe('ExerciseFactory', () => {
     });
   });
 });
+
+describe('ExerciseFactory: traduções extras', () => {
+  it('leva os outros idiomas do termo para o reveal', () => {
+    const term = makeTerm('t9', 'viga', 'beam');
+    term.others = [
+      { language: 'ES', text: 'viga', reading: null },
+      { language: 'JA', text: '梁', reading: 'はり' },
+    ];
+    const pool = [term, makeTerm('t10', 'pilar', 'column'), makeTerm('t11', 'carga', 'load'), makeTerm('t12', 'aço', 'steel')];
+    const exercise = new ExerciseFactory(seeded()).multipleChoice(term, pool);
+    expect(exercise?.reveal?.translations).toEqual(term.others);
+  });
+
+  it('devolve lista vazia quando o termo só tem o par estudado', () => {
+    const term = makeTerm('t13', 'viga', 'beam');
+    const pool = [term, makeTerm('t14', 'pilar', 'column'), makeTerm('t15', 'carga', 'load'), makeTerm('t16', 'aço', 'steel')];
+    expect(new ExerciseFactory(seeded()).multipleChoice(term, pool)?.reveal?.translations).toEqual([]);
+  });
+});

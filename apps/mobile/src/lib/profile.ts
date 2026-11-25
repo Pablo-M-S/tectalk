@@ -30,6 +30,7 @@ export const LANGUAGES: { code: Language; label: string; available: boolean }[] 
   { code: 'FR', label: 'Francês', available: false },
   { code: 'ZH', label: 'Chinês', available: false },
   { code: 'JA', label: 'Japonês', available: false },
+  { code: 'DE', label: 'Alemão', available: false },
 ];
 
 export const languageLabel = (code: Language): string =>
