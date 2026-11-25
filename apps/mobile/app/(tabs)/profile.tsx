@@ -14,6 +14,7 @@ import { requestReminderPermission, useReminderTime } from '@/lib/reminders';
 import { useSound } from '@/lib/sounds';
 import { SAMPLE_SENTENCE, openVoiceSettings, refreshVoices, speak, useSpeech } from '@/lib/speech';
 import { GOALS, LANGUAGES, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
+import { XpBar } from '@/components/XpBar';
 import { useThemeMode, type ThemeMode } from '@/theme/mode';
 import { radius, useTheme } from '@/theme/theme';
 
@@ -134,6 +135,7 @@ export default function ProfileScreen() {
 
         <View style={card}>
           <Text variant="label" tone="muted">Progresso</Text>
+          <XpBar xp={stats.data?.xp ?? 0} />
           <Row label="XP total" value={String(stats.data?.xp ?? 0)} />
           <Row label="Sequência atual" value={`${stats.data?.currentStreak ?? 0} dias`} />
           <Row label="Maior sequência" value={`${stats.data?.longestStreak ?? 0} dias`} />

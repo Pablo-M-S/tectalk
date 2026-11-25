@@ -4,18 +4,23 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Button } from '@/components/Button';
 import { Text } from '@/components/Text';
+import { XpBar } from '@/components/XpBar';
+import { xpProgress } from '@/lib/xp';
 import { cue } from '@/lib/feedback';
 import { radius, useTheme } from '@/theme/theme';
 
 export default function ResultScreen() {
   const theme = useTheme();
   const router = useRouter();
-  const params = useLocalSearchParams<{ kind: string; correct: string; total: string; xp: string; streak: string }>();
+  const params = useLocalSearchParams<{ kind: string; correct: string; total: string; xp: string; streak: string; xpTotal?: string }>();
 
   const correct = Number(params.correct ?? 0);
   const total = Number(params.total ?? 0);
   const streak = Number(params.streak ?? 0);
   const ratio = total > 0 ? correct / total : 0;
+  const gained = Number(params.xp ?? 0);
+  const xpTotal = params.xpTotal !== undefined ? Number(params.xpTotal) : undefined;
+  const levelUp = xpTotal !== undefined && xpProgress(xpTotal).level > xpProgress(xpTotal - gained).level;
 
   useEffect(() => {
     cue('complete');
@@ -59,6 +64,13 @@ export default function ResultScreen() {
             </View>
           ))}
         </View>
+
+        {xpTotal !== undefined ? (
+          <View style={{ gap: 8 }}>
+            <XpBar xp={xpTotal} from={Math.max(0, xpTotal - gained)} />
+            {levelUp ? <Text tone="primary" style={{ fontWeight: '600' }}>{`Você subiu para o nível ${xpProgress(xpTotal).level}!`}</Text> : null}
+          </View>
+        ) : null}
       </View>
 
       <Button label="Continuar" onPress={() => router.replace('/trail')} />

@@ -24,6 +24,7 @@ export default function PracticeSessionScreen() {
               total: String(data.total),
               xp: String(data.xpEarned),
               streak: String(data.stats.currentStreak),
+                xpTotal: String(data.stats.xp),
             },
           }),
         onError: (error) =>

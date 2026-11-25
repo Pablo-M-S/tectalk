@@ -7,6 +7,7 @@ import { useActiveTrack, useStats, useTrack } from '@/api/hooks';
 import type { LessonNode } from '@/api/types';
 import { Text } from '@/components/Text';
 import { TopBar } from '@/components/TopBar';
+import { XpBar } from '@/components/XpBar';
 import { ErrorState, LoadingState } from '@/components/States';
 import { formatPercent } from '@/lib/text';
 import { radius, useTheme } from '@/theme/theme';
@@ -124,9 +125,10 @@ export default function TrailScreen() {
         </View>
 
         <View style={{ flexDirection: 'row', gap: 10 }}>
-          <Chip icon="flame-outline" label={`${stats.data?.currentStreak ?? 0} dias seguidos`} />
-          <Chip icon="sparkles-outline" label={`${stats.data?.xp ?? 0} XP`} />
+          <Chip icon="calendar-outline" label={`${stats.data?.currentStreak ?? 0} dias seguidos`} />
         </View>
+
+        <XpBar xp={stats.data?.xp ?? 0} />
 
         {track.data.units.map((unit, index) => (
           <View key={unit.id} style={{ gap: 10 }}>
