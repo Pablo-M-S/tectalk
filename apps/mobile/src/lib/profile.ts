@@ -33,6 +33,9 @@ export const LANGUAGES: { code: Language; label: string; available: boolean }[] 
   { code: 'DE', label: 'Alemão', available: false },
 ];
 
+/** "em inglês", "em japonês"... */
+export const inLanguage = (code: Language): string => `em ${languageLabel(code).toLowerCase()}`;
+
 export const languageLabel = (code: Language): string =>
   LANGUAGES.find((l) => l.code === code)?.label ?? code;
 

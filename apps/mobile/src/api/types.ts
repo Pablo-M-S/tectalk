@@ -112,6 +112,8 @@ export interface MultipleChoiceExercise extends Base {
   prompt: string;
   options: Option[];
   correctOptionId: string;
+  direction?: 'FORWARD' | 'REVERSE';
+  alphabet?: boolean;
 }
 
 export interface MatchPairsExercise extends Base {

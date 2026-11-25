@@ -135,6 +135,8 @@ export class ExerciseFactory {
         [term, ...distractors].map((t) => ({ id: t.id, text: this.label(t.target, t.source) })),
       ),
       correctOptionId: term.id,
+      direction: 'FORWARD',
+      alphabet: !this.canType(term),
       reveal: this.reveal(term),
     };
   }
@@ -152,6 +154,8 @@ export class ExerciseFactory {
       prompt: this.label(term.target, term.source),
       options: this.shuffle([term, ...distractors].map((t) => ({ id: t.id, text: t.source.text }))),
       correctOptionId: term.id,
+      direction: 'REVERSE',
+      alphabet: !this.canType(term),
       reveal: this.reveal(term),
     };
   }

@@ -60,6 +60,10 @@ export interface MultipleChoiceExercise extends ExerciseBase<'MULTIPLE_CHOICE'> 
   prompt: string;
   options: Option[];
   correctOptionId: string;
+  /** FORWARD: vê o significado e escolhe o termo. REVERSE: vê o termo e escolhe o significado. */
+  direction: 'FORWARD' | 'REVERSE';
+  /** Verdadeiro nos cursos de alfabeto (hiragana, katakana): a pergunta é sobre o som. */
+  alphabet: boolean;
 }
 
 export interface MatchPairsExercise extends ExerciseBase<'MATCH_PAIRS'> {
