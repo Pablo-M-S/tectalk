@@ -1,0 +1,819 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "engenharia-pt-zh",
+    "profession": "engenharia",
+    "sourceLanguage": "PT",
+    "targetLanguage": "ZH",
+    "title": "Chinês para Engenharia",
+    "description": "O vocabulário profissional de engenharia em chinês, com leitura e pronúncia.",
+    "position": 43
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "estruturas",
+      "title": "Estruturas",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "elementos-estruturais",
+          "title": "Elementos estruturais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "beam",
+              "locales": {
+                "PT": {
+                  "text": "viga",
+                  "definition": "Elemento estrutural horizontal que suporta cargas e as transfere para pilares ou paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "梁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "liáng"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "column",
+              "locales": {
+                "PT": {
+                  "text": "pilar",
+                  "definition": "Elemento estrutural vertical que leva as cargas da estrutura acima até a fundação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "柱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhù"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "foundation",
+              "locales": {
+                "PT": {
+                  "text": "fundação",
+                  "definition": "Parte da estrutura que transfere o peso da construção para o solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "地基",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dìjī"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "load",
+              "locales": {
+                "PT": {
+                  "text": "carga",
+                  "definition": "Força ou peso que uma estrutura precisa suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "荷载",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hèzài"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "stress",
+              "locales": {
+                "PT": {
+                  "text": "tensão (mecânica)",
+                  "definition": "Força interna por unidade de área que surge em um material quando ele é carregado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "应力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìnglì"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "strain",
+              "locales": {
+                "PT": {
+                  "text": "deformação",
+                  "definition": "Variação relativa da forma ou do tamanho de um material sob carga.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "应变",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìngbiàn"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "materiais",
+      "title": "Materiais",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "materiais-de-engenharia",
+          "title": "Materiais de engenharia",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "steel",
+              "locales": {
+                "PT": {
+                  "text": "aço",
+                  "definition": "Liga resistente de ferro e carbono muito usada em construção e indústria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "钢",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gāng"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "reinforced-concrete",
+              "locales": {
+                "PT": {
+                  "text": "concreto armado",
+                  "definition": "Concreto combinado com barras de aço para resistir à tração.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "钢筋混凝土",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gāngjīn hùnníngtǔ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "alloy",
+              "locales": {
+                "PT": {
+                  "text": "liga metálica",
+                  "definition": "Metal formado pela combinação de dois ou mais elementos, sendo ao menos um deles metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "合金",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "héjīn"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "tensile-strength",
+              "locales": {
+                "PT": {
+                  "text": "resistência à tração",
+                  "definition": "Maior tensão de tração que um material suporta antes de romper.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "抗拉强度",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kànglā qiángdù"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "corrosion",
+              "locales": {
+                "PT": {
+                  "text": "corrosão",
+                  "definition": "Destruição gradual de um metal por reação química com o ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "腐蚀",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǔshí"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "fatigue",
+              "locales": {
+                "PT": {
+                  "text": "fadiga",
+                  "definition": "Dano progressivo em um material causado por cargas repetidas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "疲劳",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "píláo"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "projeto-e-documentacao",
+      "title": "Projeto e documentação",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "documentos-de-projeto",
+          "title": "Documentos de projeto",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "blueprint",
+              "locales": {
+                "PT": {
+                  "text": "planta (projeto técnico)",
+                  "definition": "Desenho técnico detalhado que mostra o projeto de uma estrutura ou máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "图纸",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "túzhǐ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "specification",
+              "locales": {
+                "PT": {
+                  "text": "especificação",
+                  "definition": "Descrição detalhada dos requisitos, materiais e normas que um produto ou serviço deve cumprir.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "规格",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guīgé"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "tolerance",
+              "locales": {
+                "PT": {
+                  "text": "tolerância",
+                  "definition": "Variação permitida em uma dimensão ou propriedade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "公差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngchā"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "safety-factor",
+              "locales": {
+                "PT": {
+                  "text": "fator de segurança",
+                  "definition": "Razão entre a resistência de um projeto e a carga que ele deve suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "安全系数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ānquán xìshù"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão (de documento)",
+                  "definition": "Nova versão de um desenho ou documento que incorpora alterações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "修订",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiūdìng"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "compliance",
+              "locales": {
+                "PT": {
+                  "text": "conformidade",
+                  "definition": "Atendimento aos requisitos de leis, normas ou especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "合规",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "héguī"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mecanica",
+      "title": "Mecânica e máquinas",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "componentes-mecanicos",
+          "title": "Componentes mecânicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "torque",
+              "locales": {
+                "PT": {
+                  "text": "torque",
+                  "definition": "Força de rotação que tende a girar um objeto em torno de um eixo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "扭矩",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "niǔjǔ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "bearing",
+              "locales": {
+                "PT": {
+                  "text": "rolamento (mancal)",
+                  "definition": "Peça que apoia um eixo em rotação e reduz o atrito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "轴承",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhóuchéng"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "gear",
+              "locales": {
+                "PT": {
+                  "text": "engrenagem",
+                  "definition": "Roda dentada que transmite movimento e torque entre eixos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "齿轮",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chǐlún"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "shaft",
+              "locales": {
+                "PT": {
+                  "text": "eixo",
+                  "definition": "Barra rotativa que transmite potência de uma parte da máquina para outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "轴",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhóu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pump",
+              "locales": {
+                "PT": {
+                  "text": "bomba",
+                  "definition": "Máquina que movimenta líquidos ou gases por pressão ou sucção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "泵",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bèng"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "valve",
+              "locales": {
+                "PT": {
+                  "text": "válvula",
+                  "definition": "Dispositivo que controla o fluxo de um líquido ou gás ao abrir, fechar ou bloquear parcialmente uma passagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "阀门",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fámén"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eletrica",
+      "title": "Elétrica",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "fundamentos-eletricos",
+          "title": "Fundamentos elétricos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "circuit",
+              "locales": {
+                "PT": {
+                  "text": "circuito",
+                  "definition": "Caminho fechado pelo qual a corrente elétrica pode circular.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "电路",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànlù"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "voltage",
+              "locales": {
+                "PT": {
+                  "text": "tensão elétrica",
+                  "definition": "Diferença de potencial elétrico entre dois pontos, medida em volts.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "电压",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànyā"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "current",
+              "locales": {
+                "PT": {
+                  "text": "corrente elétrica",
+                  "definition": "Fluxo de carga elétrica por um condutor, medido em ampères.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "电流",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànliú"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "resistance",
+              "locales": {
+                "PT": {
+                  "text": "resistência elétrica",
+                  "definition": "Oposição que um material oferece à passagem da corrente elétrica, medida em ohms.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "电阻",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànzǔ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "transformer",
+              "locales": {
+                "PT": {
+                  "text": "transformador",
+                  "definition": "Dispositivo que altera a tensão da corrente alternada entre dois circuitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "变压器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biànyāqì"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "grounding",
+              "locales": {
+                "PT": {
+                  "text": "aterramento",
+                  "definition": "Ligação de um sistema elétrico à terra para proteger pessoas e equipamentos contra falhas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "接地",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiēdì"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-de-projetos",
+      "title": "Gestão de projetos",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "planejamento-e-controle",
+          "title": "Planejamento e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schedule",
+              "locales": {
+                "PT": {
+                  "text": "cronograma",
+                  "definition": "Plano que lista as tarefas e as datas em que devem ser concluídas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "进度计划",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìndù jìhuà"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "milestone",
+              "locales": {
+                "PT": {
+                  "text": "marco (de projeto)",
+                  "definition": "Ponto importante de um projeto, em geral a conclusão de uma fase.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "里程碑",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lǐchéngbēi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "budget",
+              "locales": {
+                "PT": {
+                  "text": "orçamento (previsto)",
+                  "definition": "Estimativa do dinheiro disponível ou necessário para um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "预算",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yùsuàn"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "risk-assessment",
+              "locales": {
+                "PT": {
+                  "text": "avaliação de riscos",
+                  "definition": "Processo sistemático de identificar perigos e avaliar a probabilidade e a gravidade de cada um.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "风险评估",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēngxiǎn pínggū"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "deliverable",
+              "locales": {
+                "PT": {
+                  "text": "entregável",
+                  "definition": "Resultado concreto e verificável que deve ser produzido e entregue em um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "交付成果",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiāofù chéngguǒ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "inspection",
+              "locales": {
+                "PT": {
+                  "text": "inspeção (vistoria)",
+                  "definition": "Exame formal de um trabalho ou equipamento para verificar se atende aos requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "检验",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiǎnyàn"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

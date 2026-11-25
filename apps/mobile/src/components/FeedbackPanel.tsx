@@ -67,7 +67,7 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
               <SpeakButton text={reveal.text} pace="slow" label="Devagar" />
             </View>
             {reveal.ipa ? <Text variant="caption" tone="muted">{reveal.ipa}</Text> : null}
-            <Text variant="caption" tone="muted">{reveal.definition}</Text>
+            {reveal.definition ? <Text variant="caption" tone="muted">{reveal.definition}</Text> : null}
           </View>
 
           {reveal.example ? (

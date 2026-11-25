@@ -91,7 +91,7 @@ export function assertConsistent(content: Content): void {
           if (!term.locales[language]) {
             throw new Error(`Termo "${term.slug}" sem tradução em ${language}`);
           }
-          if (!term.locales[language].definition) {
+          if (language === sourceLanguage && !term.locales[language].definition) {
             throw new Error(`Termo "${term.slug}" sem definição em ${language}`);
           }
         }

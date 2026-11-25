@@ -134,9 +134,16 @@ export class ExerciseFactory {
       termIds: [term.id],
       prompt: term.source.definition,
       informalHint: term.target.informalForms[0],
-      acceptedAnswers: [term.target.text],
+      acceptedAnswers: this.acceptedAnswers(term),
       reveal: this.reveal(term),
     };
+  }
+
+  /** O termo e, em idiomas sem teclado latino, a leitura (hiragana, pinyin). IPA não entra. */
+  private acceptedAnswers(term: TermView): string[] {
+    const reading = term.target.ipa;
+    const isReading = reading !== null && reading !== '' && !reading.startsWith('/');
+    return isReading ? [term.target.text, reading] : [term.target.text];
   }
 
   fillBlank(term: TermView, pool: TermView[]): FillBlankExercise | null {

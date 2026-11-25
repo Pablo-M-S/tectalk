@@ -3,7 +3,7 @@ import { Pressable, ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useTracks, useUpdateProfile } from '@/api/hooks';
+import { useAllTracks, useUpdateProfile } from '@/api/hooks';
 import type { Language, ProficiencyLevel } from '@/api/types';
 import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
@@ -74,7 +74,7 @@ export default function OnboardingScreen() {
   const editing = edit === '1';
 
   const user = useAuth((state) => state.user);
-  const tracks = useTracks();
+  const tracks = useAllTracks();
   const select = useSelection((state) => state.select);
   const update = useUpdateProfile();
 
@@ -91,11 +91,15 @@ export default function OnboardingScreen() {
   const setReminderTime = useReminderTime((state) => state.setTime);
 
   const step = STEPS[index];
-  const available = useMemo(() => new Set(tracks.data?.map((t) => t.profession)), [tracks.data]);
+  const languagesWithTrack = useMemo(() => new Set(tracks.data?.map((t) => t.targetLanguage)), [tracks.data]);
+  const available = useMemo(
+    () => new Set(tracks.data?.filter((t) => t.targetLanguage === language).map((t) => t.profession)),
+    [tracks.data, language],
+  );
   const firstName = user?.displayName?.trim().split(' ')[0];
 
   const canContinue = {
-    language: language === 'EN',
+    language: languagesWithTrack.has(language),
     profession: profession !== null,
     level: level !== null,
     goal: goal !== null,
@@ -119,7 +123,7 @@ export default function OnboardingScreen() {
             router.back();
             return;
           }
-          const track = tracks.data?.find((t) => t.profession === profession);
+          const track = tracks.data?.find((t) => t.profession === profession && t.targetLanguage === language);
           if (track) {
             select(track.slug);
             router.replace('/trail');
@@ -144,7 +148,7 @@ export default function OnboardingScreen() {
   }[step];
 
   const subtitle = {
-    language: 'Os demais idiomas chegam em breve.',
+    language: 'Você pode trocar de idioma depois, no Perfil.',
     profession: 'Vamos começar pelo vocabulário da sua profissão.',
     level: 'Sem teste: é só para ajustarmos o ritmo.',
     goal: 'Constância vale mais que tempo. Você pode mudar isso depois.',
@@ -179,8 +183,8 @@ export default function OnboardingScreen() {
                 key={l.code}
                 label={l.label}
                 selected={language === l.code}
-                disabled={!l.available}
-                badge={l.available ? undefined : 'Em breve'}
+                disabled={!languagesWithTrack.has(l.code)}
+                badge={languagesWithTrack.has(l.code) ? undefined : 'Em breve'}
                 onPress={() => setLanguage(l.code)}
               />
             ))}

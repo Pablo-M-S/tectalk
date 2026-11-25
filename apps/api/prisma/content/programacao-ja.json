@@ -1,0 +1,1558 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "programacao-pt-ja",
+    "profession": "programacao",
+    "sourceLanguage": "PT",
+    "targetLanguage": "JA",
+    "title": "Japonês para Programação",
+    "description": "O vocabulário profissional de programação em japonês, com leitura e pronúncia.",
+    "position": 32
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "fundamentos",
+      "title": "Fundamentos",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "estruturas-basicas",
+          "title": "Estruturas básicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "variable",
+              "locales": {
+                "PT": {
+                  "text": "variável",
+                  "definition": "Nome associado a um local de memória que guarda um valor que pode mudar durante a execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "変数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "へんすう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "function",
+              "locales": {
+                "PT": {
+                  "text": "função",
+                  "definition": "Bloco de código nomeado e reutilizável que executa uma tarefa, pode receber dados e pode devolver um resultado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "関数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんすう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "parameter",
+              "locales": {
+                "PT": {
+                  "text": "parâmetro",
+                  "definition": "Variável nomeada na declaração de uma função que recebe o valor passado na chamada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パラメータ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "argument",
+              "locales": {
+                "PT": {
+                  "text": "argumento",
+                  "definition": "Valor concreto fornecido a uma função no momento da chamada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひきすう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "return-value",
+              "locales": {
+                "PT": {
+                  "text": "valor de retorno",
+                  "definition": "Resultado que uma função devolve a quem a chamou.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "戻り値",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "もどりち"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "loop",
+              "locales": {
+                "PT": {
+                  "text": "laço de repetição",
+                  "definition": "Estrutura que executa um bloco de código repetidamente, enquanto uma condição for verdadeira ou para cada item de uma coleção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ループ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "dados-e-erros",
+          "title": "Dados e erros",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "array",
+              "locales": {
+                "PT": {
+                  "text": "vetor",
+                  "definition": "Coleção ordenada de elementos acessados por índice numérico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "配列",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいれつ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hash-map",
+              "locales": {
+                "PT": {
+                  "text": "mapa de hash",
+                  "definition": "Estrutura que associa chaves a valores e permite buscar um valor rapidamente pela chave.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ハッシュマップ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "string",
+              "locales": {
+                "PT": {
+                  "text": "cadeia de caracteres",
+                  "definition": "Sequência de caracteres usada para representar texto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "文字列",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "もじれつ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "boolean",
+              "locales": {
+                "PT": {
+                  "text": "booleano",
+                  "definition": "Tipo de dado com apenas dois valores possíveis: verdadeiro ou falso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "真偽値",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんぎち"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "null-reference",
+              "locales": {
+                "PT": {
+                  "text": "referência nula",
+                  "definition": "Referência que não aponta para nenhum objeto; usá-la como se apontasse causa um erro em tempo de execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ヌル参照",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ヌルさんしょう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "exception",
+              "locales": {
+                "PT": {
+                  "text": "exceção",
+                  "definition": "Evento anormal durante a execução que interrompe o fluxo normal e pode ser tratado pelo código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "例外",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "れいがい"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "arquitetura",
+      "title": "Arquitetura e dados",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "arquitetura-de-software",
+          "title": "Arquitetura de software",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "endpoint",
+              "locales": {
+                "PT": {
+                  "text": "endpoint",
+                  "definition": "URL específica de uma API que recebe requisições e devolve uma resposta para uma operação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "エンドポイント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "dependency",
+              "locales": {
+                "PT": {
+                  "text": "dependência",
+                  "definition": "Biblioteca ou módulo externo de que um software precisa para funcionar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "依存関係",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いぞんかんけい"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "abstraction",
+              "locales": {
+                "PT": {
+                  "text": "abstração",
+                  "definition": "Ocultação dos detalhes de implementação atrás de uma interface simples, expondo só o essencial.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抽象化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちゅうしょうか"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "middleware",
+              "locales": {
+                "PT": {
+                  "text": "middleware",
+                  "definition": "Camada de software entre a requisição recebida e o tratamento final no servidor, usada para tarefas transversais como autenticação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ミドルウェア",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "schema",
+              "locales": {
+                "PT": {
+                  "text": "esquema",
+                  "definition": "Descrição formal da estrutura dos dados: campos, tipos e restrições.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スキーマ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "payload",
+              "locales": {
+                "PT": {
+                  "text": "carga útil",
+                  "definition": "Dados transportados no corpo de uma requisição ou mensagem, excluindo cabeçalhos e metadados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ペイロード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "dados-e-desempenho",
+          "title": "Dados e desempenho",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "query",
+              "locales": {
+                "PT": {
+                  "text": "consulta",
+                  "definition": "Instrução que solicita ou manipula dados em um banco de dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "クエリ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "transaction",
+              "locales": {
+                "PT": {
+                  "text": "transação",
+                  "definition": "Conjunto de operações no banco de dados tratado como unidade indivisível: ou todas ocorrem, ou nenhuma.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "トランザクション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "index",
+              "locales": {
+                "PT": {
+                  "text": "índice",
+                  "definition": "Estrutura auxiliar que acelera buscas em uma coluna ou conjunto de colunas de uma tabela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インデックス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "migration",
+              "locales": {
+                "PT": {
+                  "text": "migração",
+                  "definition": "Script versionado que altera a estrutura do banco de dados de forma controlada e reproduzível.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "マイグレーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "cache",
+              "locales": {
+                "PT": {
+                  "text": "cache",
+                  "definition": "Armazenamento temporário de dados usados com frequência, para evitar recalculá-los ou buscá-los de novo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "キャッシュ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "latency",
+              "locales": {
+                "PT": {
+                  "text": "latência",
+                  "definition": "Tempo entre o envio de uma requisição e o recebimento do início da resposta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レイテンシ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "engenharia",
+      "title": "Engenharia na prática",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "controle-de-versao",
+          "title": "Controle de versão",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "repository",
+              "locales": {
+                "PT": {
+                  "text": "repositório",
+                  "definition": "Local onde o código do projeto e todo o seu histórico de alterações são armazenados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リポジトリ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "commit",
+              "locales": {
+                "PT": {
+                  "text": "commit",
+                  "definition": "Registro de um conjunto de alterações no histórico de versões, acompanhado de uma mensagem que as descreve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コミット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "branch",
+              "locales": {
+                "PT": {
+                  "text": "ramificação",
+                  "definition": "Linha independente de desenvolvimento que permite alterar o código sem afetar a linha principal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ブランチ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "merge-conflict",
+              "locales": {
+                "PT": {
+                  "text": "conflito de merge",
+                  "definition": "Situação em que o sistema de versões não consegue combinar automaticamente alterações concorrentes nas mesmas linhas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "マージコンフリクト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pull-request",
+              "locales": {
+                "PT": {
+                  "text": "pull request",
+                  "definition": "Pedido para incorporar alterações de uma branch em outra, aberto para revisão pela equipe.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "プルリクエスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "rollback",
+              "locales": {
+                "PT": {
+                  "text": "reversão",
+                  "definition": "Retorno a uma versão ou a um estado anterior e estável após uma alteração problemática.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ロールバック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "qualidade-e-producao",
+          "title": "Qualidade e produção",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "refactoring",
+              "locales": {
+                "PT": {
+                  "text": "refatoração",
+                  "definition": "Reorganização do código interno para melhorar sua clareza sem alterar o comportamento externo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リファクタリング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "deprecation",
+              "locales": {
+                "PT": {
+                  "text": "descontinuação",
+                  "definition": "Marcação de um recurso como obsoleto: ainda disponível, mas com remoção planejada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "非推奨化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひすいしょうか"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "technical-debt",
+              "locales": {
+                "PT": {
+                  "text": "dívida técnica",
+                  "definition": "Custo futuro de retrabalho acumulado por escolher uma solução rápida em vez da melhor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "技術的負債",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぎじゅつてきふさい"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "regression",
+              "locales": {
+                "PT": {
+                  "text": "regressão",
+                  "definition": "Defeito em algo que antes funcionava, introduzido por uma alteração posterior.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リグレッション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "deployment",
+              "locales": {
+                "PT": {
+                  "text": "implantação",
+                  "definition": "Processo de colocar uma nova versão do software em um ambiente, como homologação ou produção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デプロイ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "code-review",
+              "locales": {
+                "PT": {
+                  "text": "revisão de código",
+                  "definition": "Exame do código por outra pessoa antes de ser incorporado, para achar falhas e melhorar a qualidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コードレビュー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "web-e-apis",
+      "title": "Web e APIs",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "requisicoes-http",
+          "title": "Requisições HTTP",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "request",
+              "locales": {
+                "PT": {
+                  "text": "requisição",
+                  "definition": "Mensagem enviada por um cliente a um servidor pedindo um recurso ou uma ação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リクエスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "response",
+              "locales": {
+                "PT": {
+                  "text": "resposta (HTTP)",
+                  "definition": "Mensagem devolvida pelo servidor ao cliente depois de uma requisição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レスポンス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "status-code",
+              "locales": {
+                "PT": {
+                  "text": "código de status",
+                  "definition": "Número de três dígitos que indica o resultado de uma requisição HTTP.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ステータスコード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "authentication",
+              "locales": {
+                "PT": {
+                  "text": "autenticação",
+                  "definition": "Processo de confirmar a identidade de quem está acessando um sistema.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "認証",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にんしょう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "token",
+              "locales": {
+                "PT": {
+                  "text": "token",
+                  "definition": "Cadeia de caracteres que representa a identidade ou a permissão de um usuário, usada no lugar da senha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "トークン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "rate-limit",
+              "locales": {
+                "PT": {
+                  "text": "limite de requisições",
+                  "definition": "Número máximo de requisições que um cliente pode fazer em um intervalo de tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レート制限",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "レートせいげん"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "testes",
+      "title": "Testes automatizados",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "tipos-de-teste",
+          "title": "Tipos de teste",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "unit-test",
+              "locales": {
+                "PT": {
+                  "text": "teste unitário",
+                  "definition": "Teste automatizado que verifica o comportamento de uma pequena parte isolada do código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "単体テスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たんたいテスト"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "integration-test",
+              "locales": {
+                "PT": {
+                  "text": "teste de integração",
+                  "definition": "Teste que verifica se vários componentes funcionam corretamente em conjunto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "結合テスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けつごうテスト"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "mock",
+              "locales": {
+                "PT": {
+                  "text": "mock (objeto simulado)",
+                  "definition": "Objeto que imita uma dependência real durante um teste, para isolar o código testado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "モック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "code-coverage",
+              "locales": {
+                "PT": {
+                  "text": "cobertura de código",
+                  "definition": "Porcentagem do código executada pelos testes automatizados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コードカバレッジ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "assertion",
+              "locales": {
+                "PT": {
+                  "text": "asserção",
+                  "definition": "Verificação em um teste que compara o resultado obtido com o esperado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アサーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "flaky-test",
+              "locales": {
+                "PT": {
+                  "text": "teste instável",
+                  "definition": "Teste que às vezes passa e às vezes falha sem nenhuma mudança no código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "不安定なテスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふあんていなテスト"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "infraestrutura",
+      "title": "Infraestrutura",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "entrega-e-operacao",
+          "title": "Entrega e operação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "container",
+              "locales": {
+                "PT": {
+                  "text": "contêiner",
+                  "definition": "Pacote isolado que reúne uma aplicação e tudo de que ela precisa para rodar, igual em qualquer ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンテナ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pipeline",
+              "locales": {
+                "PT": {
+                  "text": "pipeline (CI/CD)",
+                  "definition": "Sequência automática de etapas, como compilar, testar e publicar, executada a cada mudança no código.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パイプライン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "environment-variable",
+              "locales": {
+                "PT": {
+                  "text": "variável de ambiente",
+                  "definition": "Valor de configuração definido fora do código e lido pela aplicação ao iniciar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "環境変数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんきょうへんすう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "load-balancer",
+              "locales": {
+                "PT": {
+                  "text": "balanceador de carga",
+                  "definition": "Componente que distribui as requisições entre vários servidores para evitar sobrecarga.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ロードバランサー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "scalability",
+              "locales": {
+                "PT": {
+                  "text": "escalabilidade",
+                  "definition": "Capacidade de um sistema de manter o desempenho conforme a demanda cresce.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スケーラビリティ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "uptime",
+              "locales": {
+                "PT": {
+                  "text": "disponibilidade (tempo em operação)",
+                  "definition": "Porcentagem do tempo em que um serviço está funcionando e acessível.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "稼働率",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かどうりつ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estruturas-de-dados",
+      "title": "Estruturas de dados",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "estruturas-e-algoritmos",
+          "title": "Estruturas e algoritmos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "stack",
+              "locales": {
+                "PT": {
+                  "text": "pilha",
+                  "definition": "Estrutura de dados em que o último elemento inserido é o primeiro a sair (LIFO).",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スタック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "queue",
+              "locales": {
+                "PT": {
+                  "text": "fila",
+                  "definition": "Estrutura de dados em que o primeiro elemento inserido é o primeiro a sair (FIFO).",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "キュー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "linked-list",
+              "locales": {
+                "PT": {
+                  "text": "lista encadeada",
+                  "definition": "Estrutura de dados em que cada elemento guarda uma referência para o próximo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "連結リスト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "れんけつリスト"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "recursion",
+              "locales": {
+                "PT": {
+                  "text": "recursão",
+                  "definition": "Técnica em que uma função resolve um problema chamando a si mesma com entradas menores.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "再帰",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さいき"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "algorithm",
+              "locales": {
+                "PT": {
+                  "text": "algoritmo",
+                  "definition": "Sequência finita e bem definida de passos para resolver um problema.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アルゴリズム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "time-complexity",
+              "locales": {
+                "PT": {
+                  "text": "complexidade de tempo",
+                  "definition": "Medida de como o tempo de execução de um algoritmo cresce conforme a entrada aumenta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "時間計算量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じかんけいさんりょう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "seguranca",
+      "title": "Segurança",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "seguranca-de-aplicacoes",
+          "title": "Segurança de aplicações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "vulnerability",
+              "locales": {
+                "PT": {
+                  "text": "vulnerabilidade",
+                  "definition": "Falha em um software ou sistema que um atacante pode explorar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "脆弱性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぜいじゃくせい"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "encryption",
+              "locales": {
+                "PT": {
+                  "text": "criptografia",
+                  "definition": "Processo de transformar dados em um formato codificado que só pessoas autorizadas conseguem ler.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "暗号化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あんごうか"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "authorization",
+              "locales": {
+                "PT": {
+                  "text": "autorização",
+                  "definition": "Processo de decidir o que um usuário já autenticado tem permissão de fazer.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "認可",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にんか"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "sql-injection",
+              "locales": {
+                "PT": {
+                  "text": "injeção de SQL",
+                  "definition": "Ataque em que código SQL malicioso é inserido em um campo para manipular o banco de dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "SQLインジェクション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "access-control",
+              "locales": {
+                "PT": {
+                  "text": "controle de acesso",
+                  "definition": "Regras e mecanismos que definem quem pode ver ou usar cada recurso de um sistema.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アクセス制御",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "アクセスせいぎょ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "audit-log",
+              "locales": {
+                "PT": {
+                  "text": "registro de auditoria",
+                  "definition": "Registro de quem fez o quê e quando em um sistema, mantido para segurança e responsabilização.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "監査ログ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんさログ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "trabalho-em-equipe",
+      "title": "Trabalho em equipe",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "metodos-ageis",
+          "title": "Métodos ágeis",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "sprint",
+              "locales": {
+                "PT": {
+                  "text": "sprint",
+                  "definition": "Período curto e fixo, de uma a quatro semanas, em que a equipe entrega um conjunto planejado de trabalho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スプリント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "backlog",
+              "locales": {
+                "PT": {
+                  "text": "backlog",
+                  "definition": "Lista priorizada de tudo o que ainda precisa ser feito em um produto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バックログ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "standup",
+              "locales": {
+                "PT": {
+                  "text": "reunião diária (daily)",
+                  "definition": "Reunião curta e diária em que o time compartilha o andamento, os planos e os impedimentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デイリースクラム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "stakeholder",
+              "locales": {
+                "PT": {
+                  "text": "parte interessada",
+                  "definition": "Pessoa ou grupo com interesse em um projeto ou afetado pelo seu resultado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ステークホルダー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pair-programming",
+              "locales": {
+                "PT": {
+                  "text": "programação em par",
+                  "definition": "Prática em que duas pessoas desenvolvem juntas no mesmo computador, uma escrevendo e a outra revisando.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ペアプログラミング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "retrospective",
+              "locales": {
+                "PT": {
+                  "text": "retrospectiva",
+                  "definition": "Reunião no fim de uma sprint para refletir sobre o que funcionou e o que melhorar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レトロスペクティブ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

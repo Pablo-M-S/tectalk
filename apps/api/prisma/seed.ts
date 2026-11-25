@@ -91,14 +91,14 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
                 });
               }
 
-              await tx.example.deleteMany({ where: { termId: term.id } });
+              await tx.example.deleteMany({ where: { termId: term.id, language: content.track.targetLanguage } });
               if (termInput.examples.length > 0) {
                 await tx.example.createMany({
                   data: termInput.examples.map((e) => ({ termId: term.id, ...e })),
                 });
               }
 
-              await tx.termMorpheme.deleteMany({ where: { termId: term.id } });
+              await tx.termMorpheme.deleteMany({ where: { termId: term.id, language: content.track.targetLanguage } });
               for (const [key, parts] of Object.entries(termInput.segments)) {
                 const language = languageSchema.parse(key);
                 await tx.termMorpheme.createMany({

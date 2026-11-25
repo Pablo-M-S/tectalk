@@ -1,0 +1,1423 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "medicina-pt-es",
+    "profession": "medicina",
+    "sourceLanguage": "PT",
+    "targetLanguage": "ES",
+    "title": "Espanhol para Medicina e saúde",
+    "description": "O vocabulário profissional de medicina e saúde em espanhol, com leitura e pronúncia.",
+    "position": 11
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "cardiologia",
+      "title": "Cardiologia",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "anatomia-cardiaca",
+          "title": "Anatomia cardíaca",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio",
+                  "definition": "Uma das duas câmaras superiores do coração, responsável por receber o sangue que retorna das veias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "aurícula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo",
+                  "definition": "Uma das duas câmaras inferiores do coração, responsável por bombear o sangue para as artérias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ventrículo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "aorta",
+              "locales": {
+                "PT": {
+                  "text": "aorta",
+                  "definition": "Maior artéria do corpo, que conduz o sangue oxigenado do ventrículo esquerdo para a circulação sistêmica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "aorta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "myocardium",
+              "locales": {
+                "PT": {
+                  "text": "miocárdio",
+                  "definition": "Camada muscular média da parede do coração, responsável pela contração cardíaca.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "miocardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pericardium",
+              "locales": {
+                "PT": {
+                  "text": "pericárdio",
+                  "definition": "Saco membranoso de dupla camada que envolve o coração e a raiz dos grandes vasos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "pericardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "cardiac-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva cardíaca",
+                  "definition": "Estrutura que garante o fluxo sanguíneo unidirecional através das câmaras e vasos do coração.",
+                  "informalForms": [
+                    "válvula cardíaca"
+                  ],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "válvula cardíaca",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        },
+        {
+          "slug": "condicoes-cardiacas",
+          "title": "Condições cardíacas",
+          "position": 2,
+          "terms": [
+            {
+              "slug": "myocardial-infarction",
+              "locales": {
+                "PT": {
+                  "text": "infarto agudo do miocárdio",
+                  "definition": "Necrose do tecido miocárdico causada por isquemia prolongada, geralmente por oclusão de uma artéria coronária.",
+                  "informalForms": [
+                    "infarto",
+                    "ataque cardíaco"
+                  ],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "infarto de miocardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "arrhythmia",
+              "locales": {
+                "PT": {
+                  "text": "arritmia",
+                  "definition": "Alteração na frequência, no ritmo ou na condução dos impulsos elétricos do coração.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "arritmia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "tachycardia",
+              "locales": {
+                "PT": {
+                  "text": "taquicardia",
+                  "definition": "Frequência cardíaca de repouso superior a 100 batimentos por minuto em adultos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "taquicardia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "bradycardia",
+              "locales": {
+                "PT": {
+                  "text": "bradicardia",
+                  "definition": "Frequência cardíaca de repouso inferior a 60 batimentos por minuto em adultos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "bradicardia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hypertension",
+              "locales": {
+                "PT": {
+                  "text": "hipertensão arterial",
+                  "definition": "Elevação sustentada da pressão arterial, definida por valores persistentemente acima dos limites de referência.",
+                  "informalForms": [
+                    "pressão alta"
+                  ],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hipertensión arterial",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "cardiomegaly",
+              "locales": {
+                "PT": {
+                  "text": "cardiomegalia",
+                  "definition": "Aumento anormal do tamanho do coração, geralmente identificado em exames de imagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cardiomegalia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pneumologia",
+      "title": "Pneumologia",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "condicoes-respiratorias",
+          "title": "Condições respiratórias",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "pneumonia",
+              "locales": {
+                "PT": {
+                  "text": "pneumonia",
+                  "definition": "Infecção do parênquima pulmonar, causada por bactérias, vírus ou fungos, com inflamação dos alvéolos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "neumonía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "bronchitis",
+              "locales": {
+                "PT": {
+                  "text": "bronquite",
+                  "definition": "Inflamação dos brônquios, que causa tosse, produção de muco e, às vezes, chiado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "bronquitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "asthma",
+              "locales": {
+                "PT": {
+                  "text": "asma",
+                  "definition": "Doença inflamatória crônica das vias aéreas, com episódios recorrentes de chiado, falta de ar e tosse.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "asma",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "dyspnea",
+              "locales": {
+                "PT": {
+                  "text": "dispneia",
+                  "definition": "Sensação subjetiva de falta de ar ou de dificuldade para respirar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "disnea",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-embolism",
+              "locales": {
+                "PT": {
+                  "text": "embolia pulmonar",
+                  "definition": "Obstrução de uma artéria pulmonar por um êmbolo, geralmente um coágulo originado nas veias profundas das pernas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "embolia pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pleural-effusion",
+              "locales": {
+                "PT": {
+                  "text": "derrame pleural",
+                  "definition": "Acúmulo anormal de líquido no espaço entre as pleuras que envolvem o pulmão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "derrame pleural",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "procedimentos",
+      "title": "Procedimentos",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "procedimentos-clinicos",
+          "title": "Procedimentos clínicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "biopsy",
+              "locales": {
+                "PT": {
+                  "text": "biópsia",
+                  "definition": "Retirada de uma amostra de tecido ou de células para exame em laboratório.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "biopsia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "intubation",
+              "locales": {
+                "PT": {
+                  "text": "intubação",
+                  "definition": "Inserção de um tubo na traqueia, geralmente pela boca, para manter a via aérea e permitir ventilação mecânica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "intubación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "anesthesia",
+              "locales": {
+                "PT": {
+                  "text": "anestesia",
+                  "definition": "Perda reversível da sensibilidade, com ou sem perda de consciência, induzida para a realização de procedimentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "anestesia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "catheter",
+              "locales": {
+                "PT": {
+                  "text": "cateter",
+                  "definition": "Tubo fino e flexível inserido em um vaso, cavidade ou órgão para administrar líquidos ou drenar secreções.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "catéter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "suture",
+              "locales": {
+                "PT": {
+                  "text": "sutura",
+                  "definition": "Fio cirúrgico, ou a técnica de fechamento de uma ferida ou incisão com ele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "sutura",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "resection",
+              "locales": {
+                "PT": {
+                  "text": "ressecção",
+                  "definition": "Remoção cirúrgica de parte de um órgão ou de um tecido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "resección",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "documentacao-clinica",
+      "title": "Linguagem do prontuário",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "raciocinio-clinico",
+          "title": "Raciocínio clínico",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "diagnosis",
+              "locales": {
+                "PT": {
+                  "text": "diagnóstico",
+                  "definition": "Identificação da doença ou condição que explica os sinais e sintomas do paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "diagnóstico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "differential-diagnosis",
+              "locales": {
+                "PT": {
+                  "text": "diagnóstico diferencial",
+                  "definition": "Lista de condições possíveis que podem explicar os sintomas, a serem distinguidas por exames.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "diagnóstico diferencial",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "prognosis",
+              "locales": {
+                "PT": {
+                  "text": "prognóstico",
+                  "definition": "Previsão do curso provável e do desfecho de uma doença.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "pronóstico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "etiology",
+              "locales": {
+                "PT": {
+                  "text": "etiologia",
+                  "definition": "Causa ou conjunto de causas de uma doença.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "etiología",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "comorbidity",
+              "locales": {
+                "PT": {
+                  "text": "comorbidade",
+                  "definition": "Doença ou condição adicional que coexiste com a condição principal do paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "comorbilidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "contraindication",
+              "locales": {
+                "PT": {
+                  "text": "contraindicação",
+                  "definition": "Condição que torna desaconselhável um tratamento ou procedimento por risco de dano ao paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "contraindicación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "neurologia",
+      "title": "Neurologia",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "condicoes-neurologicas",
+          "title": "Condições neurológicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "stroke",
+              "locales": {
+                "PT": {
+                  "text": "AVC (acidente vascular cerebral)",
+                  "definition": "Interrupção do fluxo de sangue em uma região do cérebro, por obstrução ou ruptura de um vaso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ictus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "seizure",
+              "locales": {
+                "PT": {
+                  "text": "crise convulsiva",
+                  "definition": "Descarga elétrica anormal e súbita no cérebro, que pode causar convulsões, alteração de consciência ou ambos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "crisis convulsiva",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "migraine",
+              "locales": {
+                "PT": {
+                  "text": "enxaqueca",
+                  "definition": "Dor de cabeça intensa e pulsátil, em geral de um lado, muitas vezes com náusea e sensibilidade à luz.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "migraña",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "neuropathy",
+              "locales": {
+                "PT": {
+                  "text": "neuropatia",
+                  "definition": "Lesão ou disfunção dos nervos, que causa dormência, formigamento, fraqueza ou dor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "neuropatía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "dementia",
+              "locales": {
+                "PT": {
+                  "text": "demência",
+                  "definition": "Declínio progressivo da memória e de outras funções cognitivas, grave o bastante para atrapalhar a vida diária.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "demencia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "concussion",
+              "locales": {
+                "PT": {
+                  "text": "concussão cerebral",
+                  "definition": "Lesão cerebral leve causada por pancada ou sacudida na cabeça, com alteração temporária da função do cérebro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "conmoción cerebral",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gastroenterologia",
+      "title": "Gastroenterologia",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "condicoes-digestivas",
+          "title": "Condições digestivas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gastritis",
+              "locales": {
+                "PT": {
+                  "text": "gastrite",
+                  "definition": "Inflamação da mucosa que reveste o estômago.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "gastritis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "peptic-ulcer",
+              "locales": {
+                "PT": {
+                  "text": "úlcera péptica",
+                  "definition": "Ferida na mucosa do estômago ou do duodeno, causada em geral pela bactéria H. pylori ou por anti-inflamatórios.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "úlcera péptica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "cirrhosis",
+              "locales": {
+                "PT": {
+                  "text": "cirrose",
+                  "definition": "Substituição progressiva do tecido saudável do fígado por cicatriz, que prejudica seu funcionamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cirrosis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hepatitis",
+              "locales": {
+                "PT": {
+                  "text": "hepatite",
+                  "definition": "Inflamação do fígado, causada por vírus, álcool, medicamentos ou doenças autoimunes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hepatitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "appendicitis",
+              "locales": {
+                "PT": {
+                  "text": "apendicite",
+                  "definition": "Inflamação do apêndice, que costuma causar dor abdominal e exige cirurgia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "apendicitis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "gastroesophageal-reflux",
+              "locales": {
+                "PT": {
+                  "text": "refluxo gastroesofágico",
+                  "definition": "Retorno do conteúdo do estômago para o esôfago, causando queimação e irritação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "reflujo gastroesofágico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "endocrinologia",
+      "title": "Endocrinologia",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "diabetes-e-tireoide",
+          "title": "Diabetes e tireoide",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "diabetes-mellitus",
+              "locales": {
+                "PT": {
+                  "text": "diabetes mellitus",
+                  "definition": "Doença crônica em que o corpo não controla bem a glicose no sangue por falta de insulina ou resistência a ela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "diabetes mellitus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "insulin",
+              "locales": {
+                "PT": {
+                  "text": "insulina",
+                  "definition": "Hormônio produzido pelo pâncreas que permite às células usar a glicose do sangue.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "insulina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hypothyroidism",
+              "locales": {
+                "PT": {
+                  "text": "hipotireoidismo",
+                  "definition": "Condição em que a tireoide produz menos hormônio do que o corpo precisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hipotiroidismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hyperthyroidism",
+              "locales": {
+                "PT": {
+                  "text": "hipertireoidismo",
+                  "definition": "Condição em que a tireoide produz hormônio em excesso, acelerando o metabolismo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hipertiroidismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "glycemia",
+              "locales": {
+                "PT": {
+                  "text": "glicemia",
+                  "definition": "Concentração de glicose no sangue.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "glucemia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "obesity",
+              "locales": {
+                "PT": {
+                  "text": "obesidade",
+                  "definition": "Condição de excesso de gordura corporal que aumenta o risco de outras doenças.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "obesidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "exames-laboratoriais",
+      "title": "Exames laboratoriais",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "exames-de-sangue-e-urina",
+          "title": "Exames de sangue e urina",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "complete-blood-count",
+              "locales": {
+                "PT": {
+                  "text": "hemograma completo",
+                  "definition": "Exame que mede as células do sangue: glóbulos vermelhos, brancos e plaquetas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hemograma completo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hemoglobin",
+              "locales": {
+                "PT": {
+                  "text": "hemoglobina",
+                  "definition": "Proteína dos glóbulos vermelhos que transporta oxigênio pelo corpo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hemoglobina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "creatinine",
+              "locales": {
+                "PT": {
+                  "text": "creatinina",
+                  "definition": "Substância eliminada pelos rins, cuja dosagem no sangue avalia a função renal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "creatinina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "serum",
+              "locales": {
+                "PT": {
+                  "text": "soro (sanguíneo)",
+                  "definition": "Parte líquida do sangue depois de retirados as células e os fatores de coagulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "suero",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "urinalysis",
+              "locales": {
+                "PT": {
+                  "text": "exame de urina",
+                  "definition": "Conjunto de testes feitos na urina para detectar infecção, doença renal e outras alterações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "análisis de orina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "culture",
+              "locales": {
+                "PT": {
+                  "text": "cultura (microbiológica)",
+                  "definition": "Exame que faz crescer micro-organismos de uma amostra para identificar a causa de uma infecção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cultivo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "diagnostico-por-imagem",
+      "title": "Diagnóstico por imagem",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "exames-de-imagem",
+          "title": "Exames de imagem",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "ultrasound",
+              "locales": {
+                "PT": {
+                  "text": "ultrassonografia",
+                  "definition": "Exame de imagem que usa ondas sonoras de alta frequência para mostrar estruturas internas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ecografía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "computed-tomography",
+              "locales": {
+                "PT": {
+                  "text": "tomografia computadorizada",
+                  "definition": "Exame que combina raios X de vários ângulos para formar imagens em cortes do corpo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "tomografía computarizada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "magnetic-resonance-imaging",
+              "locales": {
+                "PT": {
+                  "text": "ressonância magnética",
+                  "definition": "Exame que usa campo magnético e ondas de rádio, sem radiação, para produzir imagens detalhadas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "resonancia magnética",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "radiograph",
+              "locales": {
+                "PT": {
+                  "text": "radiografia",
+                  "definition": "Imagem do interior do corpo obtida com raios X.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "radiografía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "contrast",
+              "locales": {
+                "PT": {
+                  "text": "contraste",
+                  "definition": "Substância injetada ou ingerida para destacar estruturas em exames de imagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "contraste",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "lesion",
+              "locales": {
+                "PT": {
+                  "text": "lesão",
+                  "definition": "Área de tecido com alteração anormal causada por doença ou trauma.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "lesión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "historia-clinica",
+      "title": "História clínica",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "registro-do-atendimento",
+          "title": "Registro do atendimento",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "chief-complaint",
+              "locales": {
+                "PT": {
+                  "text": "queixa principal",
+                  "definition": "Motivo principal pelo qual o paciente procura atendimento, em geral registrado nas palavras dele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "motivo de consulta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "medical-history",
+              "locales": {
+                "PT": {
+                  "text": "histórico médico",
+                  "definition": "Registro das doenças, cirurgias, alergias e tratamentos anteriores do paciente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "historial médico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "physical-examination",
+              "locales": {
+                "PT": {
+                  "text": "exame físico",
+                  "definition": "Avaliação do paciente feita pelo médico com observação, palpação, percussão e ausculta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "exploración física",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "vital-signs",
+              "locales": {
+                "PT": {
+                  "text": "sinais vitais",
+                  "definition": "Medidas básicas do estado do corpo: temperatura, pulso, respiração, pressão arterial e saturação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "signos vitales",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "informed-consent",
+              "locales": {
+                "PT": {
+                  "text": "consentimento informado",
+                  "definition": "Autorização dada pelo paciente depois de receber explicação clara sobre riscos, benefícios e alternativas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "consentimiento informado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "discharge-summary",
+              "locales": {
+                "PT": {
+                  "text": "resumo de alta",
+                  "definition": "Documento que resume a internação, o tratamento realizado e as orientações dadas ao paciente na saída.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "informe de alta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

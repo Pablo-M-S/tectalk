@@ -1,0 +1,783 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "engenharia-pt-es",
+    "profession": "engenharia",
+    "sourceLanguage": "PT",
+    "targetLanguage": "ES",
+    "title": "Espanhol para Engenharia",
+    "description": "O vocabulário profissional de engenharia em espanhol, com leitura e pronúncia.",
+    "position": 13
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "estruturas",
+      "title": "Estruturas",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "elementos-estruturais",
+          "title": "Elementos estruturais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "beam",
+              "locales": {
+                "PT": {
+                  "text": "viga",
+                  "definition": "Elemento estrutural horizontal que suporta cargas e as transfere para pilares ou paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "viga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "column",
+              "locales": {
+                "PT": {
+                  "text": "pilar",
+                  "definition": "Elemento estrutural vertical que leva as cargas da estrutura acima até a fundação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "pilar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "foundation",
+              "locales": {
+                "PT": {
+                  "text": "fundação",
+                  "definition": "Parte da estrutura que transfere o peso da construção para o solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cimentación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "load",
+              "locales": {
+                "PT": {
+                  "text": "carga",
+                  "definition": "Força ou peso que uma estrutura precisa suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "carga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "stress",
+              "locales": {
+                "PT": {
+                  "text": "tensão (mecânica)",
+                  "definition": "Força interna por unidade de área que surge em um material quando ele é carregado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "esfuerzo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "strain",
+              "locales": {
+                "PT": {
+                  "text": "deformação",
+                  "definition": "Variação relativa da forma ou do tamanho de um material sob carga.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "deformación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "materiais",
+      "title": "Materiais",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "materiais-de-engenharia",
+          "title": "Materiais de engenharia",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "steel",
+              "locales": {
+                "PT": {
+                  "text": "aço",
+                  "definition": "Liga resistente de ferro e carbono muito usada em construção e indústria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "acero",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "reinforced-concrete",
+              "locales": {
+                "PT": {
+                  "text": "concreto armado",
+                  "definition": "Concreto combinado com barras de aço para resistir à tração.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hormigón armado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "alloy",
+              "locales": {
+                "PT": {
+                  "text": "liga metálica",
+                  "definition": "Metal formado pela combinação de dois ou mais elementos, sendo ao menos um deles metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "aleación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "tensile-strength",
+              "locales": {
+                "PT": {
+                  "text": "resistência à tração",
+                  "definition": "Maior tensão de tração que um material suporta antes de romper.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "resistencia a la tracción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "corrosion",
+              "locales": {
+                "PT": {
+                  "text": "corrosão",
+                  "definition": "Destruição gradual de um metal por reação química com o ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "corrosión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "fatigue",
+              "locales": {
+                "PT": {
+                  "text": "fadiga",
+                  "definition": "Dano progressivo em um material causado por cargas repetidas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "fatiga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "projeto-e-documentacao",
+      "title": "Projeto e documentação",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "documentos-de-projeto",
+          "title": "Documentos de projeto",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "blueprint",
+              "locales": {
+                "PT": {
+                  "text": "planta (projeto técnico)",
+                  "definition": "Desenho técnico detalhado que mostra o projeto de uma estrutura ou máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "plano",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "specification",
+              "locales": {
+                "PT": {
+                  "text": "especificação",
+                  "definition": "Descrição detalhada dos requisitos, materiais e normas que um produto ou serviço deve cumprir.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "especificación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "tolerance",
+              "locales": {
+                "PT": {
+                  "text": "tolerância",
+                  "definition": "Variação permitida em uma dimensão ou propriedade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "tolerancia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "safety-factor",
+              "locales": {
+                "PT": {
+                  "text": "fator de segurança",
+                  "definition": "Razão entre a resistência de um projeto e a carga que ele deve suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "factor de seguridad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão (de documento)",
+                  "definition": "Nova versão de um desenho ou documento que incorpora alterações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "revisión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "compliance",
+              "locales": {
+                "PT": {
+                  "text": "conformidade",
+                  "definition": "Atendimento aos requisitos de leis, normas ou especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cumplimiento normativo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mecanica",
+      "title": "Mecânica e máquinas",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "componentes-mecanicos",
+          "title": "Componentes mecânicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "torque",
+              "locales": {
+                "PT": {
+                  "text": "torque",
+                  "definition": "Força de rotação que tende a girar um objeto em torno de um eixo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "par de torsión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "bearing",
+              "locales": {
+                "PT": {
+                  "text": "rolamento (mancal)",
+                  "definition": "Peça que apoia um eixo em rotação e reduz o atrito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "rodamiento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "gear",
+              "locales": {
+                "PT": {
+                  "text": "engrenagem",
+                  "definition": "Roda dentada que transmite movimento e torque entre eixos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "engranaje",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "shaft",
+              "locales": {
+                "PT": {
+                  "text": "eixo",
+                  "definition": "Barra rotativa que transmite potência de uma parte da máquina para outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "eje",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pump",
+              "locales": {
+                "PT": {
+                  "text": "bomba",
+                  "definition": "Máquina que movimenta líquidos ou gases por pressão ou sucção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "bomba",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "valve",
+              "locales": {
+                "PT": {
+                  "text": "válvula",
+                  "definition": "Dispositivo que controla o fluxo de um líquido ou gás ao abrir, fechar ou bloquear parcialmente uma passagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "válvula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eletrica",
+      "title": "Elétrica",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "fundamentos-eletricos",
+          "title": "Fundamentos elétricos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "circuit",
+              "locales": {
+                "PT": {
+                  "text": "circuito",
+                  "definition": "Caminho fechado pelo qual a corrente elétrica pode circular.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "circuito",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "voltage",
+              "locales": {
+                "PT": {
+                  "text": "tensão elétrica",
+                  "definition": "Diferença de potencial elétrico entre dois pontos, medida em volts.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "tensión eléctrica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "current",
+              "locales": {
+                "PT": {
+                  "text": "corrente elétrica",
+                  "definition": "Fluxo de carga elétrica por um condutor, medido em ampères.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "corriente eléctrica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "resistance",
+              "locales": {
+                "PT": {
+                  "text": "resistência elétrica",
+                  "definition": "Oposição que um material oferece à passagem da corrente elétrica, medida em ohms.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "resistencia eléctrica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "transformer",
+              "locales": {
+                "PT": {
+                  "text": "transformador",
+                  "definition": "Dispositivo que altera a tensão da corrente alternada entre dois circuitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "transformador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "grounding",
+              "locales": {
+                "PT": {
+                  "text": "aterramento",
+                  "definition": "Ligação de um sistema elétrico à terra para proteger pessoas e equipamentos contra falhas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "puesta a tierra",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-de-projetos",
+      "title": "Gestão de projetos",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "planejamento-e-controle",
+          "title": "Planejamento e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schedule",
+              "locales": {
+                "PT": {
+                  "text": "cronograma",
+                  "definition": "Plano que lista as tarefas e as datas em que devem ser concluídas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cronograma",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "milestone",
+              "locales": {
+                "PT": {
+                  "text": "marco (de projeto)",
+                  "definition": "Ponto importante de um projeto, em geral a conclusão de uma fase.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hito",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "budget",
+              "locales": {
+                "PT": {
+                  "text": "orçamento (previsto)",
+                  "definition": "Estimativa do dinheiro disponível ou necessário para um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "presupuesto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "risk-assessment",
+              "locales": {
+                "PT": {
+                  "text": "avaliação de riscos",
+                  "definition": "Processo sistemático de identificar perigos e avaliar a probabilidade e a gravidade de cada um.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "evaluación de riesgos",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "deliverable",
+              "locales": {
+                "PT": {
+                  "text": "entregável",
+                  "definition": "Resultado concreto e verificável que deve ser produzido e entregue em um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "entregable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "inspection",
+              "locales": {
+                "PT": {
+                  "text": "inspeção (vistoria)",
+                  "definition": "Exame formal de um trabalho ou equipamento para verificar se atende aos requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "inspección",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

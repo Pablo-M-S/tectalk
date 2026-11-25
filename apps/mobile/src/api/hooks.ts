@@ -23,10 +23,21 @@ export const queryKeys = {
   dueCount: (slug: string) => ['due-count', slug] as const,
 };
 
-export function useTracks() {
+/** Todas as trilhas publicadas, em qualquer idioma. */
+export function useAllTracks() {
   return useQuery({
     queryKey: queryKeys.tracks,
     queryFn: () => request<TrackSummary[]>('/v1/tracks'),
+  });
+}
+
+/** Trilhas do idioma que o usuário escolheu aprender. */
+export function useTracks() {
+  const language = useAuth((state) => state.user?.targetLanguage);
+  return useQuery({
+    queryKey: queryKeys.tracks,
+    queryFn: () => request<TrackSummary[]>('/v1/tracks'),
+    select: (tracks) => (language ? tracks.filter((track) => track.targetLanguage === language) : tracks),
   });
 }
 

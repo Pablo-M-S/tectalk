@@ -1,0 +1,783 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "construcao-pt-es",
+    "profession": "construcao",
+    "sourceLanguage": "PT",
+    "targetLanguage": "ES",
+    "title": "Espanhol para Construção civil",
+    "description": "O vocabulário profissional de construção civil em espanhol, com leitura e pronúncia.",
+    "position": 14
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "ferramentas",
+      "title": "Ferramentas",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "ferramentas-manuais",
+          "title": "Ferramentas manuais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "trowel",
+              "locales": {
+                "PT": {
+                  "text": "colher de pedreiro",
+                  "definition": "Ferramenta manual de lâmina chata usada para espalhar argamassa, reboco ou cimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "paleta de albañil",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "spirit-level",
+              "locales": {
+                "PT": {
+                  "text": "nível de bolha",
+                  "definition": "Ferramenta com um tubo de líquido e uma bolha de ar que confere se uma superfície está nivelada ou aprumada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "nivel de burbuja",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "plumb-line",
+              "locales": {
+                "PT": {
+                  "text": "prumo",
+                  "definition": "Fio com um peso na ponta usado para conferir se uma parede ou poste está perfeitamente vertical.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "plomada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "wheelbarrow",
+              "locales": {
+                "PT": {
+                  "text": "carrinho de mão",
+                  "definition": "Pequeno carrinho de uma roda e duas alças usado para transportar cargas pesadas na obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "carretilla",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "chisel",
+              "locales": {
+                "PT": {
+                  "text": "talhadeira",
+                  "definition": "Ferramenta de ponta afiada, golpeada com martelo, usada para cortar ou dar forma a pedra, tijolo ou metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cincel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "sledgehammer",
+              "locales": {
+                "PT": {
+                  "text": "marreta",
+                  "definition": "Martelo pesado de cabo longo usado em demolição e para cravar estacas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "almádena",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "materiais",
+      "title": "Materiais",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "materiais-basicos",
+          "title": "Materiais básicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "cement",
+              "locales": {
+                "PT": {
+                  "text": "cimento",
+                  "definition": "Pó fino que endurece quando misturado com água e une areia e pedra em concreto ou argamassa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cemento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "mortar",
+              "locales": {
+                "PT": {
+                  "text": "argamassa",
+                  "definition": "Mistura de cimento, areia e água usada para unir tijolos ou pedras.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "mortero",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "concrete",
+              "locales": {
+                "PT": {
+                  "text": "concreto",
+                  "definition": "Material de construção duro feito pela mistura de cimento, areia, brita e água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hormigón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "brick",
+              "locales": {
+                "PT": {
+                  "text": "tijolo",
+                  "definition": "Bloco retangular de argila cozida usado para levantar paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ladrillo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "sand",
+              "locales": {
+                "PT": {
+                  "text": "areia",
+                  "definition": "Grãos soltos de rocha usados em argamassa, concreto e aterros.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "arena",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "rebar",
+              "locales": {
+                "PT": {
+                  "text": "vergalhão",
+                  "definition": "Barra de aço embutida no concreto para resistir à tração e evitar fissuras.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "barra de refuerzo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alvenaria",
+      "title": "Alvenaria",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "paredes-e-contrapiso",
+          "title": "Paredes e contrapiso",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "masonry",
+              "locales": {
+                "PT": {
+                  "text": "alvenaria",
+                  "definition": "Construção feita de unidades como tijolos, blocos ou pedras unidas com argamassa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "mampostería",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "course",
+              "locales": {
+                "PT": {
+                  "text": "fiada",
+                  "definition": "Camada horizontal contínua de tijolos ou blocos em uma parede.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hilada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "lintel",
+              "locales": {
+                "PT": {
+                  "text": "verga",
+                  "definition": "Viga horizontal colocada sobre uma porta ou janela para suportar a parede acima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "dintel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "joint",
+              "locales": {
+                "PT": {
+                  "text": "junta",
+                  "definition": "Espaço entre dois tijolos ou blocos, em geral preenchido com argamassa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "junta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "plaster",
+              "locales": {
+                "PT": {
+                  "text": "reboco (gesso)",
+                  "definition": "Mistura aplicada em camada fina sobre paredes e tetos para dar uma superfície lisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "enlucido",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "screed",
+              "locales": {
+                "PT": {
+                  "text": "contrapiso",
+                  "definition": "Camada fina de cimento e areia espalhada sobre a laje para criar uma superfície lisa e nivelada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "recrecido",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estrutura-da-obra",
+      "title": "Estrutura da obra",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "fundacao-e-concreto",
+          "title": "Fundação e concreto",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "footing",
+              "locales": {
+                "PT": {
+                  "text": "sapata",
+                  "definition": "Base alargada de uma fundação que distribui a carga de uma parede ou pilar sobre o solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "zapata",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "slab",
+              "locales": {
+                "PT": {
+                  "text": "laje",
+                  "definition": "Placa horizontal e plana de concreto que forma um piso, uma cobertura ou uma fundação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "losa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "formwork",
+              "locales": {
+                "PT": {
+                  "text": "fôrma",
+                  "definition": "Molde provisório onde o concreto é lançado até endurecer.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "encofrado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "curing",
+              "locales": {
+                "PT": {
+                  "text": "cura",
+                  "definition": "Manter o concreto úmido e em temperatura adequada enquanto ele ganha resistência.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "curado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "waterproofing",
+              "locales": {
+                "PT": {
+                  "text": "impermeabilização",
+                  "definition": "Tratamento de uma superfície ou estrutura para que a água não passe por ela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "impermeabilización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "excavation",
+              "locales": {
+                "PT": {
+                  "text": "escavação",
+                  "definition": "Processo de cavar e retirar terra para preparar o terreno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "excavación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "acabamento",
+      "title": "Acabamento",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "revestimentos-e-pintura",
+          "title": "Revestimentos e pintura",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "tile",
+              "locales": {
+                "PT": {
+                  "text": "azulejo (piso cerâmico)",
+                  "definition": "Peça fina de cerâmica, pedra ou outro material usada para revestir pisos e paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "baldosa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "grout",
+              "locales": {
+                "PT": {
+                  "text": "rejunte",
+                  "definition": "Pasta parecida com argamassa usada para preencher os espaços entre azulejos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "lechada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "drywall",
+              "locales": {
+                "PT": {
+                  "text": "drywall (gesso acartonado)",
+                  "definition": "Painel de gesso entre folhas de papel, usado em paredes e tetos internos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "panel de yeso",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "skirting-board",
+              "locales": {
+                "PT": {
+                  "text": "rodapé",
+                  "definition": "Tábua fixada na base de uma parede interna, onde ela encontra o piso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "zócalo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "sealant",
+              "locales": {
+                "PT": {
+                  "text": "selante (vedante)",
+                  "definition": "Material flexível usado para preencher frestas e impedir vazamentos de ar ou água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "sellador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "primer",
+              "locales": {
+                "PT": {
+                  "text": "primer (fundo preparador)",
+                  "definition": "Primeira demão de tinta ou líquido aplicada para melhorar a aderência e o acabamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "imprimación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "seguranca-na-obra",
+      "title": "Segurança na obra",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "protecao-no-canteiro",
+          "title": "Proteção no canteiro",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "hard-hat",
+              "locales": {
+                "PT": {
+                  "text": "capacete",
+                  "definition": "Capacete rígido usado em obras para proteger a cabeça.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "casco",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "safety-harness",
+              "locales": {
+                "PT": {
+                  "text": "cinto de segurança (tipo paraquedista)",
+                  "definition": "Equipamento vestido pelo trabalhador para evitar quedas de altura, preso a um ponto de ancoragem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "arnés de seguridad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "protective-equipment",
+              "locales": {
+                "PT": {
+                  "text": "equipamento de proteção",
+                  "definition": "Roupas e acessórios usados para proteger o trabalhador de lesões e riscos à saúde.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "equipo de protección",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "foreman",
+              "locales": {
+                "PT": {
+                  "text": "mestre de obras",
+                  "definition": "Trabalhador experiente responsável por uma equipe em um canteiro de obras.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "capataz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "scaffolding",
+              "locales": {
+                "PT": {
+                  "text": "andaime",
+                  "definition": "Estrutura provisória de tubos e plataformas usada para alcançar áreas altas durante a obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "andamio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "hazard",
+              "locales": {
+                "PT": {
+                  "text": "perigo (fonte de risco)",
+                  "definition": "Algo com potencial de causar dano ou lesão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "peligro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -188,6 +188,18 @@ describe('ExerciseFactory', () => {
   });
 });
 
+describe('ExerciseFactory: leitura como resposta', () => {
+  it('aceita o termo e a leitura (hiragana/pinyin), mas não a transcrição IPA', () => {
+    const term = makeTerm('j1', 'viga', '梁');
+    term.target.ipa = 'はり';
+    expect(new ExerciseFactory(seeded()).typeTerm(term).acceptedAnswers).toEqual(['梁', 'はり']);
+
+    const english = makeTerm('e1', 'viga', 'beam');
+    english.target.ipa = '/biːm/';
+    expect(new ExerciseFactory(seeded()).typeTerm(english).acceptedAnswers).toEqual(['beam']);
+  });
+});
+
 describe('ExerciseFactory: traduções extras', () => {
   it('leva os outros idiomas do termo para o reveal', () => {
     const term = makeTerm('t9', 'viga', 'beam');

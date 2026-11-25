@@ -1,0 +1,812 @@
+{
+  "status": "PUBLISHED",
+  "track": {
+    "slug": "engenharia-pt-ja",
+    "profession": "engenharia",
+    "sourceLanguage": "PT",
+    "targetLanguage": "JA",
+    "title": "Japonês para Engenharia",
+    "description": "O vocabulário profissional de engenharia em japonês, com leitura e pronúncia.",
+    "position": 33
+  },
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "estruturas",
+      "title": "Estruturas",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "elementos-estruturais",
+          "title": "Elementos estruturais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "beam",
+              "locales": {
+                "PT": {
+                  "text": "viga",
+                  "definition": "Elemento estrutural horizontal que suporta cargas e as transfere para pilares ou paredes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "梁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はり"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "column",
+              "locales": {
+                "PT": {
+                  "text": "pilar",
+                  "definition": "Elemento estrutural vertical que leva as cargas da estrutura acima até a fundação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "柱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はしら"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "foundation",
+              "locales": {
+                "PT": {
+                  "text": "fundação",
+                  "definition": "Parte da estrutura que transfere o peso da construção para o solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "基礎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きそ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "load",
+              "locales": {
+                "PT": {
+                  "text": "carga",
+                  "definition": "Força ou peso que uma estrutura precisa suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "荷重",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かじゅう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "stress",
+              "locales": {
+                "PT": {
+                  "text": "tensão (mecânica)",
+                  "definition": "Força interna por unidade de área que surge em um material quando ele é carregado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "応力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "おうりょく"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "strain",
+              "locales": {
+                "PT": {
+                  "text": "deformação",
+                  "definition": "Variação relativa da forma ou do tamanho de um material sob carga.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ひずみ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "materiais",
+      "title": "Materiais",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "materiais-de-engenharia",
+          "title": "Materiais de engenharia",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "steel",
+              "locales": {
+                "PT": {
+                  "text": "aço",
+                  "definition": "Liga resistente de ferro e carbono muito usada em construção e indústria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鋼",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はがね"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "reinforced-concrete",
+              "locales": {
+                "PT": {
+                  "text": "concreto armado",
+                  "definition": "Concreto combinado com barras de aço para resistir à tração.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鉄筋コンクリート",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てっきんコンクリート"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "alloy",
+              "locales": {
+                "PT": {
+                  "text": "liga metálica",
+                  "definition": "Metal formado pela combinação de dois ou mais elementos, sendo ao menos um deles metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "合金",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ごうきん"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "tensile-strength",
+              "locales": {
+                "PT": {
+                  "text": "resistência à tração",
+                  "definition": "Maior tensão de tração que um material suporta antes de romper.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引張強さ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひっぱりつよさ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "corrosion",
+              "locales": {
+                "PT": {
+                  "text": "corrosão",
+                  "definition": "Destruição gradual de um metal por reação química com o ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "腐食",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふしょく"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "fatigue",
+              "locales": {
+                "PT": {
+                  "text": "fadiga",
+                  "definition": "Dano progressivo em um material causado por cargas repetidas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "疲労",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひろう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "projeto-e-documentacao",
+      "title": "Projeto e documentação",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "documentos-de-projeto",
+          "title": "Documentos de projeto",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "blueprint",
+              "locales": {
+                "PT": {
+                  "text": "planta (projeto técnico)",
+                  "definition": "Desenho técnico detalhado que mostra o projeto de uma estrutura ou máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "設計図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せっけいず"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "specification",
+              "locales": {
+                "PT": {
+                  "text": "especificação",
+                  "definition": "Descrição detalhada dos requisitos, materiais e normas que um produto ou serviço deve cumprir.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "仕様書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しようしょ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "tolerance",
+              "locales": {
+                "PT": {
+                  "text": "tolerância",
+                  "definition": "Variação permitida em uma dimensão ou propriedade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "公差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうさ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "safety-factor",
+              "locales": {
+                "PT": {
+                  "text": "fator de segurança",
+                  "definition": "Razão entre a resistência de um projeto e a carga que ele deve suportar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "安全率",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あんぜんりつ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão (de documento)",
+                  "definition": "Nova versão de um desenho ou documento que incorpora alterações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "改訂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいてい"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "compliance",
+              "locales": {
+                "PT": {
+                  "text": "conformidade",
+                  "definition": "Atendimento aos requisitos de leis, normas ou especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "適合性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てきごうせい"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mecanica",
+      "title": "Mecânica e máquinas",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "componentes-mecanicos",
+          "title": "Componentes mecânicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "torque",
+              "locales": {
+                "PT": {
+                  "text": "torque",
+                  "definition": "Força de rotação que tende a girar um objeto em torno de um eixo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "トルク",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "bearing",
+              "locales": {
+                "PT": {
+                  "text": "rolamento (mancal)",
+                  "definition": "Peça que apoia um eixo em rotação e reduz o atrito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "軸受",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じくうけ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "gear",
+              "locales": {
+                "PT": {
+                  "text": "engrenagem",
+                  "definition": "Roda dentada que transmite movimento e torque entre eixos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "歯車",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はぐるま"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "shaft",
+              "locales": {
+                "PT": {
+                  "text": "eixo",
+                  "definition": "Barra rotativa que transmite potência de uma parte da máquina para outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "軸",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じく"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pump",
+              "locales": {
+                "PT": {
+                  "text": "bomba",
+                  "definition": "Máquina que movimenta líquidos ou gases por pressão ou sucção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ポンプ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "valve",
+              "locales": {
+                "PT": {
+                  "text": "válvula",
+                  "definition": "Dispositivo que controla o fluxo de um líquido ou gás ao abrir, fechar ou bloquear parcialmente uma passagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バルブ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eletrica",
+      "title": "Elétrica",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "fundamentos-eletricos",
+          "title": "Fundamentos elétricos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "circuit",
+              "locales": {
+                "PT": {
+                  "text": "circuito",
+                  "definition": "Caminho fechado pelo qual a corrente elétrica pode circular.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "回路",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいろ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "voltage",
+              "locales": {
+                "PT": {
+                  "text": "tensão elétrica",
+                  "definition": "Diferença de potencial elétrico entre dois pontos, medida em volts.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電圧",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんあつ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "current",
+              "locales": {
+                "PT": {
+                  "text": "corrente elétrica",
+                  "definition": "Fluxo de carga elétrica por um condutor, medido em ampères.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電流",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんりゅう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "resistance",
+              "locales": {
+                "PT": {
+                  "text": "resistência elétrica",
+                  "definition": "Oposição que um material oferece à passagem da corrente elétrica, medida em ohms.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抵抗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ていこう"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "transformer",
+              "locales": {
+                "PT": {
+                  "text": "transformador",
+                  "definition": "Dispositivo que altera a tensão da corrente alternada entre dois circuitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "変圧器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "へんあつき"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "grounding",
+              "locales": {
+                "PT": {
+                  "text": "aterramento",
+                  "definition": "Ligação de um sistema elétrico à terra para proteger pessoas e equipamentos contra falhas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "接地",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せっち"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-de-projetos",
+      "title": "Gestão de projetos",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "planejamento-e-controle",
+          "title": "Planejamento e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schedule",
+              "locales": {
+                "PT": {
+                  "text": "cronograma",
+                  "definition": "Plano que lista as tarefas e as datas em que devem ser concluídas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スケジュール",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "milestone",
+              "locales": {
+                "PT": {
+                  "text": "marco (de projeto)",
+                  "definition": "Ponto importante de um projeto, em geral a conclusão de uma fase.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "マイルストーン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "budget",
+              "locales": {
+                "PT": {
+                  "text": "orçamento (previsto)",
+                  "definition": "Estimativa do dinheiro disponível ou necessário para um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "予算",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "よさん"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "risk-assessment",
+              "locales": {
+                "PT": {
+                  "text": "avaliação de riscos",
+                  "definition": "Processo sistemático de identificar perigos e avaliar a probabilidade e a gravidade de cada um.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リスクアセスメント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "deliverable",
+              "locales": {
+                "PT": {
+                  "text": "entregável",
+                  "definition": "Resultado concreto e verificável que deve ser produzido e entregue em um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "成果物",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいかぶつ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "inspection",
+              "locales": {
+                "PT": {
+                  "text": "inspeção (vistoria)",
+                  "definition": "Exame formal de um trabalho ou equipamento para verificar se atende aos requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "検査",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんさ"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
