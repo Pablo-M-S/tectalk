@@ -15,7 +15,10 @@
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
     "db:seed": "prisma db seed",
-    "db:init-migration": "mkdir -p prisma/migrations/0001_init && prisma migrate diff --from-empty --to-schema-datamodel prisma/schema.prisma --script > prisma/migrations/0001_init/migration.sql && printf 'provider = \"postgresql\"\\n' > prisma/migrations/migration_lock.toml"
+    "db:init-migration": "mkdir -p prisma/migrations/0001_init && prisma migrate diff --from-empty --to-schema-datamodel prisma/schema.prisma --script > prisma/migrations/0001_init/migration.sql && printf 'provider = \"postgresql\"\\n' > prisma/migrations/migration_lock.toml",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
@@ -45,5 +48,29 @@
     "prisma": "^6.0.0",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": ".",
+    "testRegex": "(src|test)/.*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.ts$": [
+        "ts-jest",
+        {
+          "tsconfig": "tsconfig.json"
+        }
+      ]
+    },
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/content/exercise.factory.ts",
+      "src/common/**/*.ts",
+      "src/auth/auth.schemas.ts",
+      "src/review/fsrs.service.ts"
+    ]
   }
 }

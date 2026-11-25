@@ -1,0 +1,74 @@
+# Ambiente local completo: PostgreSQL + API.
+#   docker compose up --build            sobe tudo (aplica as migrations ao iniciar)
+#   docker compose run --rm seed         carrega o conteúdo (medicina, programação…)
+#   docker compose run --rm test         roda os testes da API
+#   docker compose down -v               derruba e apaga o banco local
+
+name: tectalk
+
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: tectalk
+      POSTGRES_PASSWORD: tectalk
+      POSTGRES_DB: tectalk
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tectalk -d tectalk"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    environment: &api-env
+      NODE_ENV: production
+      PORT: "3000"
+      DATABASE_URL: postgresql://tectalk:tectalk@db:5432/tectalk
+      JWT_SECRET: ${JWT_SECRET:-desenvolvimento-local-troque-esta-chave-32-chars}
+      JWT_EXPIRES_IN_DAYS: "30"
+      CORS_ORIGINS: "*"
+      AUDIO_ENABLED: "false"
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:3000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 20s
+
+  seed:
+    profiles: ["tools"]
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    depends_on:
+      api:
+        condition: service_healthy
+    environment: *api-env
+    command: ["pnpm", "--filter", "@tectalk/api", "db:seed"]
+
+  test:
+    profiles: ["tools"]
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+      target: build
+    environment:
+      NODE_ENV: test
+      DATABASE_URL: postgresql://tectalk:tectalk@db:5432/tectalk
+      JWT_SECRET: teste-teste-teste-teste-teste-teste-12
+    command: ["pnpm", "--filter", "@tectalk/api", "test"]
+
+volumes:
+  pgdata:

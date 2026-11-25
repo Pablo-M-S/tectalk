@@ -9,6 +9,7 @@ import { useAuth } from '@/auth/store';
 import { AppDrawer } from '@/components/AppDrawer';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { initFeedback } from '@/lib/feedback';
+import { initTheme } from '@/theme/mode';
 import { useTheme } from '@/theme/theme';
 
 void SplashScreen.preventAutoHideAsync();
@@ -21,6 +22,7 @@ export default function RootLayout() {
   useEffect(() => {
     warmUp();
     void initFeedback();
+    void initTheme();
     void bootstrap();
   }, [bootstrap]);
 

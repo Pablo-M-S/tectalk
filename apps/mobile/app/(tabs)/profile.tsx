@@ -1,4 +1,4 @@
-import { Alert, ScrollView, Switch, View } from 'react-native';
+import { Alert, Pressable, ScrollView, Switch, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Constants from 'expo-constants';
@@ -11,6 +11,7 @@ import { Text } from '@/components/Text';
 import { useHaptics } from '@/lib/feedback';
 import { useSound } from '@/lib/sounds';
 import { GOALS, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
+import { useThemeMode, type ThemeMode } from '@/theme/mode';
 import { radius, useTheme } from '@/theme/theme';
 
 function Row({ label, value }: { label: string; value: string }) {
@@ -18,6 +19,51 @@ function Row({ label, value }: { label: string; value: string }) {
     <View style={{ flexDirection: 'row', justifyContent: 'space-between', gap: 16 }}>
       <Text variant="caption" tone="muted">{label}</Text>
       <Text variant="caption" style={{ flexShrink: 1, textAlign: 'right' }}>{value}</Text>
+    </View>
+  );
+}
+
+const THEME_OPTIONS: { mode: ThemeMode; label: string }[] = [
+  { mode: 'system', label: 'Sistema' },
+  { mode: 'light', label: 'Claro' },
+  { mode: 'dark', label: 'Escuro' },
+];
+
+function ThemePicker() {
+  const theme = useTheme();
+  const mode = useThemeMode((state) => state.mode);
+  const setMode = useThemeMode((state) => state.setMode);
+
+  return (
+    <View
+      accessibilityRole="radiogroup"
+      style={{ flexDirection: 'row', padding: 4, borderRadius: radius.md, backgroundColor: theme.surfaceAlt }}
+    >
+      {THEME_OPTIONS.map((option) => {
+        const active = option.mode === mode;
+        return (
+          <Pressable
+            key={option.mode}
+            accessibilityRole="radio"
+            accessibilityState={{ selected: active }}
+            onPress={() => setMode(option.mode)}
+            style={{
+              flex: 1,
+              minHeight: 40,
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRadius: radius.sm,
+              backgroundColor: active ? theme.surface : 'transparent',
+              borderWidth: active ? 1 : 0,
+              borderColor: theme.border,
+            }}
+          >
+            <Text variant="caption" tone={active ? 'text' : 'muted'} style={{ fontWeight: '600' }}>
+              {option.label}
+            </Text>
+          </Pressable>
+        );
+      })}
     </View>
   );
 }
@@ -107,6 +153,11 @@ export default function ProfileScreen() {
             variant="secondary"
             onPress={() => router.push({ pathname: '/onboarding', params: { edit: '1' } })}
           />
+        </View>
+
+        <View style={card}>
+          <Text variant="label" tone="muted">Aparência</Text>
+          <ThemePicker />
         </View>
 
         <View style={card}>

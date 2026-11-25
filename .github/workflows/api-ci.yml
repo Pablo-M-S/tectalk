@@ -1,0 +1,42 @@
+name: API CI
+
+# Roda os testes e a checagem de tipos da API em todo push/PR que mexe nela.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/api/**"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/api-ci.yml"
+  pull_request:
+    paths:
+      - "apps/api/**"
+      - "pnpm-lock.yaml"
+
+concurrency:
+  group: api-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Gerar o cliente do Prisma
+        run: pnpm --filter @tectalk/api db:generate
+
+      - name: Checar tipos
+        run: pnpm --filter @tectalk/api typecheck
+
+      - name: Testes
+        run: pnpm --filter @tectalk/api test
