@@ -26,7 +26,6 @@
           "microphonePermission": false
         }
       ],
-      "expo-speech",
       [
         "expo-notifications",
         {
