@@ -18,8 +18,11 @@ const LINES = [
   { x: 0.92, y: 0.68, h: 130, w: 3, ms: 580 },
 ];
 
-const PARTICLE_COUNT = 14;
-const BURST_MS = 1000;
+const PARTICLE_COUNT = 20;
+const SHAKE_MS = 520;
+const BURST_MS = 1100;
+const SHAKE_STEPS = Array.from({ length: 21 }, (_, i) => i / 20);
+const SHAKE_X = SHAKE_STEPS.map((_, i) => (i === 0 ? 0 : (i % 2 === 0 ? -1 : 1) * (2 + i * 0.7)));
 const STEPS = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
 interface Props {
@@ -45,6 +48,7 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
   const pulse = useRef(new Animated.Value(0)).current;
   const text = useRef(new Animated.Value(0)).current;
   const hint = useRef(new Animated.Value(0)).current;
+  const shake = useRef(new Animated.Value(0)).current;
   const burst = useRef(new Animated.Value(0)).current;
   const anchor = useRef(new Animated.Value(0)).current;
   const overlay = useRef(new Animated.Value(1)).current;
@@ -66,15 +70,17 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
   const particles = useMemo(
     () =>
       Array.from({ length: PARTICLE_COUNT }, (_, i) => {
-        const dir = i % 2 === 0 ? -1 : 1;
-        const dx = dir * width * (0.62 + 0.11 * (i % 5));
-        const v0 = -(240 + 40 * (i % 4));
-        const fall = height * 0.65;
+        // Ângulos espalhados por toda a volta, com variação para não parecer um desenho regular.
+        const angle = (i / PARTICLE_COUNT) * Math.PI * 2 + (((i * 7) % 5) - 2) * 0.11;
+        const reach = width * (0.5 + 0.13 * ((i * 3) % 6));
+        const kick = 300 + 55 * ((i * 5) % 4);
+        const v0 = Math.sin(angle) * kick;
+        const fall = height * (0.55 + 0.09 * ((i * 2) % 5));
         const g = 2 * (fall - v0);
         return {
-          size: starSize * (0.22 + 0.04 * (i % 4)),
-          spin: dir * (300 + 80 * (i % 3)),
-          x: STEPS.map((t) => dx * t),
+          size: starSize * (0.2 + 0.045 * (i % 4)),
+          spin: (i % 2 === 0 ? -1 : 1) * (320 + 90 * (i % 3)),
+          x: STEPS.map((t) => Math.cos(angle) * reach * t),
           y: STEPS.map((t) => v0 * t + 0.5 * g * t * t),
         };
       }),
@@ -148,16 +154,20 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
       return;
     }
 
-    cue('pair');
+    cue('tap');
     anchor.setValue(hopNow.current);
 
+    // 1) A estrela treme cada vez mais forte enquanto encolhe; 2) explode em estrelas menores.
     Animated.parallel([
-      Animated.timing(alive, { toValue: 0, duration: 60, useNativeDriver: true }),
+      Animated.timing(shake, { toValue: 1, duration: SHAKE_MS, easing: Easing.linear, useNativeDriver: true }),
       Animated.timing(text, { toValue: 0, duration: 220, useNativeDriver: true }),
       Animated.timing(hint, { toValue: 0, duration: 120, useNativeDriver: true }),
-      Animated.timing(burst, { toValue: 1, duration: BURST_MS, easing: Easing.linear, useNativeDriver: true }),
     ]).start(() => {
-      Animated.timing(overlay, { toValue: 0, duration: 140, useNativeDriver: true }).start(() => onDone());
+      cue('burst');
+      alive.setValue(0);
+      Animated.timing(burst, { toValue: 1, duration: BURST_MS, easing: Easing.linear, useNativeDriver: true }).start(() => {
+        Animated.timing(overlay, { toValue: 0, duration: 140, useNativeDriver: true }).start(() => onDone());
+      });
     });
   };
 
@@ -210,8 +220,9 @@ export function StreakCelebration({ title, subtitle, onDone }: Props) {
             opacity: Animated.multiply(pop, alive),
             transform: [
               { translateY: hop },
+              { translateX: shake.interpolate({ inputRange: SHAKE_STEPS, outputRange: SHAKE_X }) },
               { rotate: wiggle.interpolate({ inputRange: [-1, 1], outputRange: ['-8deg', '8deg'] }) },
-              { scale: Animated.multiply(pop, pulse.interpolate({ inputRange: [0, 1], outputRange: [1, 1.07] })) },
+              { scale: Animated.multiply(Animated.multiply(pop, pulse.interpolate({ inputRange: [0, 1], outputRange: [1, 1.07] })), shake.interpolate({ inputRange: [0, 1], outputRange: [1, 0.45] })) },
             ],
           }}
         />
