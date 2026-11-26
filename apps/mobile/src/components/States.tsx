@@ -3,12 +3,13 @@ import { ActivityIndicator, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTheme } from '@/theme/theme';
 import { Button } from './Button';
-import { Mascot } from './Mascot';
+import { Mascot, useMascots } from './Mascot';
 import { Text } from './Text';
 
 export function LoadingState({ label = 'Carregando…' }: { label?: string }) {
   const theme = useTheme();
   const [slow, setSlow] = useState(false);
+  const hasMascot = useMascots();
 
   useEffect(() => {
     const timer = setTimeout(() => setSlow(true), 6000);
@@ -16,10 +17,12 @@ export function LoadingState({ label = 'Carregando…' }: { label?: string }) {
   }, []);
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg, alignItems: 'center', justifyContent: 'center', padding: 32, gap: 14 }}>
-      <Mascot role="loading" height={170} halo />
-      <ActivityIndicator size="large" color={theme.primary} />
-      <Text variant="heading">{label}</Text>
+    <SafeAreaView
+      accessibilityLabel={label}
+      style={{ flex: 1, backgroundColor: theme.bg, alignItems: 'center', justifyContent: 'center', padding: 32, gap: 14 }}
+    >
+      {/* Só o personagem; o indicador gira apenas onde a área ainda não tem personagem. */}
+      {hasMascot ? <Mascot role="loading" height={220} halo /> : <ActivityIndicator size="large" color={theme.primary} />}
       {slow ? (
         <Text variant="caption" tone="muted" style={{ textAlign: 'center' }}>
           O servidor está acordando. Na primeira vez do dia isso pode levar cerca de 1 minuto.
