@@ -30,6 +30,24 @@ const ART = {
     martelo: { source: require('../../assets/characters/obra-martelo.webp'), ratio: 413 / 640 },
     prancheta: { source: require('../../assets/characters/obra-prancheta.webp'), ratio: 396 / 640 },
   },
+  adv: {
+    advogado: { source: require('../../assets/characters/dir-advogado.webp'), ratio: 424 / 640 },
+    advogada: { source: require('../../assets/characters/dir-advogada.webp'), ratio: 355 / 640 },
+    grisalho: { source: require('../../assets/characters/dir-grisalho.webp'), ratio: 333 / 640 },
+    colete: { source: require('../../assets/characters/dir-colete.webp'), ratio: 410 / 640 },
+  },
+  cien: {
+    frasco: { source: require('../../assets/characters/cie-frasco.webp'), ratio: 384 / 640 },
+    pensando: { source: require('../../assets/characters/cie-pensando.webp'), ratio: 311 / 640 },
+    oculos: { source: require('../../assets/characters/cie-oculos.webp'), ratio: 389 / 640 },
+    coque: { source: require('../../assets/characters/cie-coque.webp'), ratio: 281 / 640 },
+  },
+  arq: {
+    planta: { source: require('../../assets/characters/arq-planta.webp'), ratio: 399 / 640 },
+    capacete: { source: require('../../assets/characters/arq-capacete.webp'), ratio: 349 / 640 },
+    apontando: { source: require('../../assets/characters/arq-apontando.webp'), ratio: 401 / 640 },
+    grisalho: { source: require('../../assets/characters/arq-grisalho.webp'), ratio: 329 / 640 },
+  },
 } satisfies Record<string, Record<string, Art>>;
 
 /** Papel do personagem na tela; cada profissão escolhe a arte que representa o papel. */
@@ -71,6 +89,33 @@ const CAST: Record<string, Record<MascotRole, Art>> = {
     great: ART.obra.chapeu,
     good: ART.obra.martelo,
     bad: ART.obra.prancheta,
+  },
+  direito: {
+    intro: ART.adv.advogado,
+    loading: ART.adv.advogada,
+    right: ART.adv.colete,
+    wrong: ART.adv.grisalho,
+    great: ART.adv.advogado,
+    good: ART.adv.colete,
+    bad: ART.adv.grisalho,
+  },
+  ciencia: {
+    intro: ART.cien.frasco,
+    loading: ART.cien.pensando,
+    right: ART.cien.oculos,
+    wrong: ART.cien.coque,
+    great: ART.cien.frasco,
+    good: ART.cien.oculos,
+    bad: ART.cien.coque,
+  },
+  arquitetura: {
+    intro: ART.arq.apontando,
+    loading: ART.arq.capacete,
+    right: ART.arq.planta,
+    wrong: ART.arq.grisalho,
+    great: ART.arq.apontando,
+    good: ART.arq.planta,
+    bad: ART.arq.grisalho,
   },
 };
 
