@@ -43,7 +43,7 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
     >
       {mascots ? (
         <View pointerEvents="none" style={{ position: 'absolute', right: 18, bottom: '100%' }}>
-          <Mascot pose={correct ? 'escrevendo' : 'pensando'} height={150} visible={0.5} />
+          <Mascot role={correct ? 'right' : 'wrong'} height={150} visible={0.5} />
         </View>
       ) : null}
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', minHeight: 44 }}>

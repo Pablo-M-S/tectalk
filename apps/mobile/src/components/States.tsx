@@ -17,7 +17,7 @@ export function LoadingState({ label = 'Carregando…' }: { label?: string }) {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg, alignItems: 'center', justifyContent: 'center', padding: 32, gap: 14 }}>
-      <Mascot pose="lendo" height={170} halo />
+      <Mascot role="loading" height={170} halo />
       <ActivityIndicator size="large" color={theme.primary} />
       <Text variant="heading">{label}</Text>
       {slow ? (

@@ -2,24 +2,57 @@ import { Image, View, type ImageSourcePropType } from 'react-native';
 import { useActiveTrack } from '@/api/hooks';
 import { useTheme } from '@/theme/theme';
 
-/** Proporção (largura / altura) de cada arte, já recortada. */
-const POSES = {
-  apresentando: { source: require('../../assets/characters/medico-apresentando.webp') as ImageSourcePropType, ratio: 447 / 640 },
-  lendo: { source: require('../../assets/characters/medico-lendo.webp') as ImageSourcePropType, ratio: 413 / 640 },
-  escrevendo: { source: require('../../assets/characters/medico-escrevendo.webp') as ImageSourcePropType, ratio: 290 / 640 },
-  bracosCruzados: { source: require('../../assets/characters/medico-bracos-cruzados.webp') as ImageSourcePropType, ratio: 223 / 640 },
-  pensando: { source: require('../../assets/characters/medico-pensando.webp') as ImageSourcePropType, ratio: 245 / 640 },
-} as const;
+type Art = { source: ImageSourcePropType; ratio: number };
 
-export type MascotPose = keyof typeof POSES;
+/** Arte já recortada; ratio = largura / altura. */
+const ART = {
+  medico: {
+    apresentando: { source: require('../../assets/characters/medico-apresentando.webp'), ratio: 447 / 640 },
+    lendo: { source: require('../../assets/characters/medico-lendo.webp'), ratio: 413 / 640 },
+    escrevendo: { source: require('../../assets/characters/medico-escrevendo.webp'), ratio: 290 / 640 },
+    bracosCruzados: { source: require('../../assets/characters/medico-bracos-cruzados.webp'), ratio: 223 / 640 },
+    pensando: { source: require('../../assets/characters/medico-pensando.webp'), ratio: 245 / 640 },
+  },
+  dev: {
+    sorrindo: { source: require('../../assets/characters/dev-sorrindo.webp'), ratio: 524 / 640 },
+    sentado: { source: require('../../assets/characters/dev-sentado.webp'), ratio: 600 / 640 },
+    joinha: { source: require('../../assets/characters/dev-joinha.webp'), ratio: 371 / 640 },
+    fone: { source: require('../../assets/characters/dev-fone-notebook.webp'), ratio: 500 / 640 },
+  },
+} satisfies Record<string, Record<string, Art>>;
 
-/** Os personagens existentes são médicos: só aparecem no ensino de Medicina. */
+/** Papel do personagem na tela; cada profissão escolhe a arte que representa o papel. */
+export type MascotRole = 'intro' | 'loading' | 'right' | 'wrong' | 'great' | 'good' | 'bad';
+
+const CAST: Record<string, Record<MascotRole, Art>> = {
+  medicina: {
+    intro: ART.medico.apresentando,
+    loading: ART.medico.lendo,
+    right: ART.medico.escrevendo,
+    wrong: ART.medico.pensando,
+    great: ART.medico.bracosCruzados,
+    good: ART.medico.escrevendo,
+    bad: ART.medico.pensando,
+  },
+  programacao: {
+    intro: ART.dev.sorrindo,
+    loading: ART.dev.sentado,
+    right: ART.dev.joinha,
+    wrong: ART.dev.fone,
+    great: ART.dev.sorrindo,
+    good: ART.dev.joinha,
+    bad: ART.dev.fone,
+  },
+};
+
+/** Só profissões com elenco próprio têm personagens. */
 export function useMascots(): boolean {
-  return useActiveTrack().summary?.profession === 'medicina';
+  const profession = useActiveTrack().summary?.profession;
+  return profession !== undefined && profession in CAST;
 }
 
 interface Props {
-  pose: MascotPose;
+  role: MascotRole;
   /** Altura da arte inteira. */
   height: number;
   /** Fração de cima da arte que fica visível (1 = inteira). Útil para "espiar" sobre uma borda. */
@@ -28,13 +61,14 @@ interface Props {
   halo?: boolean;
 }
 
-/** Personagem do app. Não renderiza nada fora da trilha de Medicina. */
-export function Mascot({ pose, height, visible = 1, halo = false }: Props) {
+/** Personagem do app. Não renderiza nada em trilhas sem elenco. */
+export function Mascot({ role, height, visible = 1, halo = false }: Props) {
   const theme = useTheme();
-  const enabled = useMascots();
-  if (!enabled) return null;
+  const profession = useActiveTrack().summary?.profession;
+  const art = profession ? CAST[profession]?.[role] : undefined;
+  if (!art) return null;
 
-  const { source, ratio } = POSES[pose];
+  const { source, ratio } = art;
   const width = height * ratio;
   const shown = height * visible;
   const diameter = Math.max(width, shown) * 1.15;

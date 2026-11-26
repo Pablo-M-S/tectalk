@@ -126,7 +126,7 @@ export default function TrailScreen() {
               <Text variant="display">{track.data.title}</Text>
               <Text tone="muted">{track.data.description}</Text>
             </View>
-            <Mascot pose="apresentando" height={150} visible={0.62} halo />
+            <Mascot role="intro" height={150} visible={0.62} halo />
           </View>
         </View>
 
