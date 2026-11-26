@@ -100,8 +100,6 @@ export function AppDrawer() {
     action();
   };
 
-  const available = new Set(tracks.data?.map((track) => track.profession));
-  const upcoming = PROFESSIONS.filter((p) => p.slug !== 'outra' && !available.has(p.slug));
   const initial = (user?.displayName ?? '?').trim().charAt(0).toUpperCase();
 
   return (
@@ -154,12 +152,9 @@ export function AppDrawer() {
                 }
               />
             ))}
-            {upcoming.map((area) => (
-              <Item key={area.slug} icon={area.icon} label={area.label} caption="Em breve" disabled />
-            ))}
             <Item
-              icon="grid-outline"
-              label="Ver todas as áreas"
+              icon="add-circle-outline"
+              label="Iniciar nova carreira"
               onPress={() => go(() => router.navigate('/areas'))}
             />
 

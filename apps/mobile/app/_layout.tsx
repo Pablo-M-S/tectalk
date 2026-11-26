@@ -13,6 +13,7 @@ import { initBasicStats } from '@/lib/basic-stats';
 import { initReminders, syncReminders, useReminderTime } from '@/lib/reminders';
 import { initSpeech } from '@/lib/speech';
 import { useVoiceGuard } from '@/lib/voice-guard';
+import { initSelection } from '@/state/selection';
 import { initTheme } from '@/theme/mode';
 import { useScheme, useTheme } from '@/theme/theme';
 
@@ -34,6 +35,7 @@ export default function RootLayout() {
     void initReminders();
     void initBasicStats();
     void initTheme();
+    void initSelection();
     void bootstrap();
   }, [bootstrap]);
 
