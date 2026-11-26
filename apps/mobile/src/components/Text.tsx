@@ -20,5 +20,5 @@ interface Props extends TextProps {
 
 export function Text({ variant = 'body', tone = 'text', style, ...rest }: Props) {
   const theme = useTheme();
-  return <RNText {...rest} style={[variants[variant], { color: theme[tone] }, style]} />;
+  return <RNText {...rest} style={[variants[variant], { color: tone === 'primary' ? theme.primaryText : theme[tone] }, style]} />;
 }

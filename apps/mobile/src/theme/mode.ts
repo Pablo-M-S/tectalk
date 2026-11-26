@@ -18,7 +18,8 @@ interface ThemeModeState {
 
 // O tema é resolvido só em JavaScript (sem chamadas nativas): trocar de modo não pode derrubar o app.
 export const useThemeMode = create<ThemeModeState>((set) => ({
-  mode: 'system',
+  // Primeira abertura: tema claro. A escolha do usuário (inclusive "Sistema") fica salva.
+  mode: 'light',
   setMode: (mode) => {
     set({ mode });
     SecureStore.setItemAsync(THEME_KEY, mode).catch(() => {});

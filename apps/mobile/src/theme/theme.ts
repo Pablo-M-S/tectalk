@@ -11,6 +11,8 @@ export interface Palette {
   primary: string;
   onPrimary: string;
   primarySoft: string;
+  /** Cor do texto de destaque: igual ao primary quando ele já tem contraste, mais escura onde não tem. */
+  primaryText: string;
   /** Roxo do XP e dos níveis. */
   xp: string;
   xpSoft: string;
@@ -21,21 +23,22 @@ export interface Palette {
 }
 
 const light: Palette = {
-  bg: '#F6F5F1',
-  surface: '#FFFFFF',
-  surfaceAlt: '#EFEDE6',
-  text: '#14181F',
-  muted: '#5E6673',
-  border: '#E2DFD6',
-  primary: '#0B5D57',
+  bg: '#FAF6ED',
+  surface: '#FFFCF5',
+  surfaceAlt: '#F2EADB',
+  text: '#2A2018',
+  muted: '#7A6B5E',
+  border: '#E7DCC8',
+  primary: '#D97757',
   onPrimary: '#FFFFFF',
-  primarySoft: '#DCEBE9',
+  primarySoft: '#F7E1D5',
+  primaryText: '#B0502B',
   xp: '#7C3AED',
   xpSoft: '#E9DDFB',
   success: '#1E7F52',
-  successSoft: '#DDF0E5',
-  danger: '#B4400F',
-  dangerSoft: '#FBE6D9',
+  successSoft: '#E0F0E4',
+  danger: '#B3261E',
+  dangerSoft: '#F9E0DC',
 };
 
 const dark: Palette = {
@@ -48,6 +51,7 @@ const dark: Palette = {
   primary: '#4FD1C5',
   onPrimary: '#05221F',
   primarySoft: '#12302E',
+  primaryText: '#4FD1C5',
   xp: '#A855F7',
   xpSoft: '#2A1A45',
   success: '#3DD68C',
