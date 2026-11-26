@@ -1,6 +1,7 @@
 import { makePool, makeTerm, seeded } from '../../test/helpers';
 import { ExerciseFactory } from './exercise.factory';
 import { BASIC_WORDS, technicalShare } from './basic-english';
+import type { Exercise } from './exercise.types';
 
 describe('ExerciseFactory', () => {
   const pool = makePool();

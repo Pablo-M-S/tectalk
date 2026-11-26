@@ -4,6 +4,7 @@ import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
 import { AuthModule } from './auth/auth.module';
 import { ContentModule } from './content/content.module';
 import { HealthModule } from './health/health.module';
+import { NotebookModule } from './notebook/notebook.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { ProgressModule } from './progress/progress.module';
 import { ReviewModule } from './review/review.module';
@@ -18,6 +19,7 @@ import { StatsModule } from './stats/stats.module';
     StatsModule,
     ReviewModule,
     ProgressModule,
+    NotebookModule,
     HealthModule,
   ],
   providers: [{ provide: APP_GUARD, useClass: ThrottlerGuard }],

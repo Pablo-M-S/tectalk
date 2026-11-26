@@ -221,3 +221,33 @@ export interface ReviewResponse {
   xpEarned: number;
   stats: Stats;
 }
+
+export interface NotebookItem {
+  termId: string;
+  prompt: string;
+  hint: string;
+  touches: number;
+  mode: 'copy' | 'recall';
+  /** Só vem preenchido na hora de olhar e copiar. */
+  show: { text: string; reading: string | null; romanization: string | null } | null;
+}
+
+export interface NotebookState {
+  trackSlug: string;
+  targetLanguage: Language;
+  touchesPerDay: number;
+  batch: NotebookItem[];
+  masteredCount: number;
+  totalTerms: number;
+  finished: boolean;
+}
+
+export interface NotebookTouchResult {
+  correct: boolean;
+  accentsOff: boolean;
+  expected: string;
+  reading: string | null;
+  touches: number;
+  relearn: boolean;
+  dayDone: boolean;
+}

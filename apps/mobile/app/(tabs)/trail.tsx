@@ -147,6 +147,29 @@ export default function TrailScreen() {
 
         <XpBar xp={stats.data?.xp ?? 0} />
 
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => router.push('/notebook')}
+          style={({ pressed }) => ({
+            flexDirection: 'row',
+            alignItems: 'center',
+            gap: 14,
+            padding: 16,
+            borderRadius: radius.lg,
+            backgroundColor: theme.surface,
+            borderWidth: 1,
+            borderColor: theme.border,
+            opacity: pressed ? 0.85 : 1,
+          })}
+        >
+          <Ionicons name="create-outline" size={26} color={theme.primary} />
+          <View style={{ flex: 1 }}>
+            <Text variant="heading">Caderno de memorização</Text>
+            <Text variant="caption" tone="muted">4 palavras por vez, escritas ao longo do dia</Text>
+          </View>
+          <Ionicons name="chevron-forward" size={18} color={theme.muted} />
+        </Pressable>
+
         {track.data.units.map((unit, index) => (
           <View key={unit.id} style={{ gap: 10 }}>
             <Text variant="label" tone="muted">{`Unidade ${index + 1} · ${unit.title}`}</Text>

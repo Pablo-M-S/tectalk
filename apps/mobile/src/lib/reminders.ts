@@ -62,13 +62,56 @@ export async function requestReminderPermission(): Promise<boolean> {
   }
 }
 
+/** Cancela só os avisos de um tipo, para o lembrete diário e os do caderno não se apagarem. */
+async function cancelScheduled(kind: 'daily' | 'notebook'): Promise<void> {
+  const all = await Notifications.getAllScheduledNotificationsAsync();
+  await Promise.all(
+    all
+      .filter((n) => ((n.content.data as { kind?: string } | null)?.kind ?? 'daily') === kind)
+      .map((n) => Notifications.cancelScheduledNotificationAsync(n.identifier)),
+  );
+}
+
+const NOTEBOOK_TIMES = [
+  { hour: 12, minute: 30 },
+  { hour: 18, minute: 30 },
+];
+
+/**
+ * Avisos do caderno: duas vezes ao dia, lembram de escrever de novo as palavras do lote.
+ * Sem palavras (ou sem lembretes ativos) não deixa nada agendado.
+ */
+export async function syncNotebookReminders(enabled: boolean, words: string[]): Promise<void> {
+  try {
+    await cancelScheduled('notebook');
+    if (!enabled || words.length === 0) return;
+    const permission = await Notifications.getPermissionsAsync();
+    if (!permission.granted) return;
+    await ensureChannel();
+    await Promise.all(
+      NOTEBOOK_TIMES.map(({ hour, minute }) =>
+        Notifications.scheduleNotificationAsync({
+          content: {
+            title: 'Caderno de memorização',
+            body: `Escreva de novo, sem olhar: ${words.join(', ')}`,
+            data: { kind: 'notebook' },
+          },
+          trigger: { type: Notifications.SchedulableTriggerInputTypes.DAILY, hour, minute, channelId: CHANNEL_ID },
+        }),
+      ),
+    );
+  } catch {
+    // Falha ao agendar não deve afetar o estudo.
+  }
+}
+
 /**
  * Deixa agendado exatamente o que o usuário escolheu: sem lembretes, cancela tudo;
  * com lembretes, agenda um aviso por dia da semana no horário definido.
  */
 export async function syncReminders(enabled: boolean, time: ReminderTime): Promise<void> {
   try {
-    await Notifications.cancelAllScheduledNotificationsAsync();
+    await cancelScheduled('daily');
     if (!enabled) return;
 
     const permission = await Notifications.getPermissionsAsync();
@@ -80,7 +123,7 @@ export async function syncReminders(enabled: boolean, time: ReminderTime): Promi
       Array.from({ length: 7 }, (_, weekday) => {
         const { title, body } = messageForWeekday(weekday);
         return Notifications.scheduleNotificationAsync({
-          content: { title, body },
+          content: { title, body, data: { kind: 'daily' } },
           trigger: {
             type: Notifications.SchedulableTriggerInputTypes.WEEKLY,
             weekday: weekday + 1,

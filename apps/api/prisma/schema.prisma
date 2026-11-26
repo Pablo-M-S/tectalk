@@ -78,6 +78,7 @@ model User {
   stats       UserStats?
   completions LessonCompletion[]
   cards       ReviewCard[]
+  notebook    NotebookEntry[]
 
   @@map("users")
 }
@@ -105,8 +106,9 @@ model Track {
   status         ContentStatus @default(DRAFT)
   position       Int           @default(0)
 
-  units Unit[]
-  cards ReviewCard[]
+  units    Unit[]
+  cards    ReviewCard[]
+  notebook NotebookEntry[]
 
   @@unique([profession, sourceLanguage, targetLanguage])
   @@map("tracks")
@@ -155,6 +157,7 @@ model Term {
   morphemes TermMorpheme[]
   lessons   LessonTerm[]
   cards     ReviewCard[]
+  notebook  NotebookEntry[]
 
   @@index([domain, status])
   @@map("terms")
@@ -273,4 +276,33 @@ model ReviewCard {
   @@unique([userId, termId, trackId])
   @@index([userId, trackId, due])
   @@map("review_cards")
+}
+
+enum NotebookStatus {
+  LEARNING
+  MASTERED
+}
+
+/// Caderno de memorização: poucos termos por vez, escritos várias vezes ao dia.
+model NotebookEntry {
+  id          String         @id @default(uuid()) @db.Uuid
+  userId      String         @db.Uuid
+  termId      String         @db.Uuid
+  trackId     String         @db.Uuid
+  status      NotebookStatus @default(LEARNING)
+  /// Escritas concluídas no dia `touchDay`.
+  touches     Int            @default(0)
+  touchDay    String         @default("")
+  /// Erros seguidos ao escrever de memória.
+  misses      Int            @default(0)
+  masteredAt  DateTime?
+  createdAt   DateTime       @default(now())
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  term  Term  @relation(fields: [termId], references: [id], onDelete: Cascade)
+  track Track @relation(fields: [trackId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, termId, trackId])
+  @@index([userId, trackId, status])
+  @@map("notebook_entries")
 }

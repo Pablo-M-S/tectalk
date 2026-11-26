@@ -158,6 +158,13 @@ export function AppDrawer() {
               onPress={() => go(() => router.navigate('/areas'))}
             />
 
+            <Item
+              icon="create-outline"
+              label="Caderno de memorização"
+              caption="Poucas palavras, escritas várias vezes ao dia"
+              onPress={() => go(() => router.navigate('/notebook'))}
+            />
+
             <Section title="Conta" />
             <Item icon="person-outline" label="Perfil e progresso" onPress={() => go(() => router.navigate('/profile'))} />
             <Item

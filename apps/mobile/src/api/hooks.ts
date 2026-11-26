@@ -8,6 +8,8 @@ import type {
   DueResponse,
   ExerciseResult,
   LessonSession,
+  NotebookState,
+  NotebookTouchResult,
   ProfileUpdate,
   User,
   PracticeSession,
@@ -160,5 +162,34 @@ export function useUpdateProfile() {
     mutationFn: (input: ProfileUpdate) =>
       request<User>('/v1/auth/me', { method: 'PATCH', body: input }),
     onSuccess: (user) => useAuth.getState().setUser(user),
+  });
+}
+
+export function useNotebook(slug: string | undefined) {
+  return useQuery({
+    queryKey: ['notebook', slug ?? ''] as const,
+    queryFn: () => request<NotebookState>(`/v1/notebook/${slug}`),
+    enabled: Boolean(slug),
+  });
+}
+
+export function useNotebookTouch(slug: string | undefined) {
+  const client = useQueryClient();
+  return useMutation({
+    mutationFn: (input: { termId: string; answer: string }) =>
+      request<NotebookTouchResult>(`/v1/notebook/${slug}/touch`, { method: 'POST', body: input }),
+    onSuccess: () => client.invalidateQueries({ queryKey: ['notebook', slug ?? ''] }),
+  });
+}
+
+export function useNotebookMaster(slug: string | undefined) {
+  const client = useQueryClient();
+  return useMutation({
+    mutationFn: (termId: string) =>
+      request<NotebookState>(`/v1/notebook/${slug}/master`, { method: 'POST', body: { termId } }),
+    onSuccess: (state) => {
+      client.setQueryData(['notebook', slug ?? ''], state);
+      void client.invalidateQueries({ queryKey: ['due-count'] });
+    },
   });
 }
