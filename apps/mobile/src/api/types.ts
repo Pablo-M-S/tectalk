@@ -114,6 +114,8 @@ export interface MultipleChoiceExercise extends Base {
   correctOptionId: string;
   direction?: 'FORWARD' | 'REVERSE';
   alphabet?: boolean;
+  /** Palavra de inglês básico; não gera resultado de progresso do termo técnico. */
+  basic?: boolean;
 }
 
 export interface MatchPairsExercise extends Base {

@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { BASIC_WORDS, BasicWord } from './basic-english';
+import { BASIC_WORDS, BasicWord, meaningsClash, sentenceDistractors } from './basic-english';
 import {
   BuildFromRootsExercise,
   Exercise,
@@ -412,23 +412,31 @@ export class ExerciseFactory {
     return extras.length > 0 ? this.shuffle([...exercises, ...extras]) : exercises;
   }
 
-  /**
-   * Uma palavra do inglês básico dentro de uma frase com o termo técnico. O aluno completa a
-   * lacuna com a palavra do dia a dia; o termo técnico aparece em destaque, no centro da frase.
-   * Não conta para o progresso do termo: os resultados do exercício ficam de fora.
-   */
-  basicExercise(entry: BasicWord, term: TermView, others: BasicWord[] = BASIC_WORDS): FillBlankExercise | null {
+  private basicReveal(entry: BasicWord, example: string | null): Reveal {
+    return {
+      text: entry.word,
+      definition: '',
+      ipa: null,
+      romanization: null,
+      translation: entry.pt,
+      informalForms: [],
+      usageNote: entry.note,
+      collocations: [],
+      example,
+      translations: [],
+    };
+  }
+
+  /** Frase curta (3 ou 4 palavras) com o termo técnico: o aluno completa com a palavra básica. */
+  basicSentence(entry: BasicWord, term: TermView): FillBlankExercise | null {
+    if (entry.templates.length === 0) return null;
     const wordPattern = new RegExp(`\\b${entry.word}\\b`, 'i');
     if (wordPattern.test(term.target.text)) return null;
 
-    const template = this.pick(entry.templates, 1)[0];
-    const sentence = template.replace('{T}', `the ${term.target.text}`);
-    const distractors = this.pick(
-      others.filter((w) => w.group !== entry.group && w.word !== entry.word),
-      3,
-    );
+    const distractors = this.pick(sentenceDistractors(entry), 3);
     if (distractors.length < 3) return null;
 
+    const sentence = this.pick(entry.templates, 1)[0].replace('{T}', term.target.text);
     return {
       id: randomUUID(),
       type: 'FILL_BLANK',
@@ -436,21 +444,46 @@ export class ExerciseFactory {
       basic: true,
       highlight: term.target.text,
       sentence: sentence.replace(wordPattern, BLANK),
-      options: this.shuffle([entry, ...distractors].map((w) => ({ id: w.word, text: w.word }))),
+      options: this.shuffle([entry.word, ...distractors].map((word) => ({ id: word, text: word }))),
       correctOptionId: entry.word,
-      reveal: {
-        text: entry.word,
-        definition: '',
-        ipa: null,
-        romanization: null,
-        translation: entry.pt,
-        informalForms: [],
-        usageNote: entry.note,
-        collocations: [],
-        example: sentence,
-        translations: [],
-      },
+      reveal: this.basicReveal(entry, sentence),
     };
+  }
+
+  /** Palavra isolada em inglês e três significados em português para escolher. */
+  basicMeaning(entry: BasicWord, term?: TermView, bank: BasicWord[] = BASIC_WORDS): MultipleChoiceExercise | null {
+    const distractors = this.pick(
+      bank.filter((w) => w.word !== entry.word && !meaningsClash(entry, w)),
+      3,
+    );
+    if (distractors.length < 3) return null;
+
+    const wordPattern = new RegExp(`\\b${entry.word}\\b`, 'i');
+    const usable = term && !wordPattern.test(term.target.text) && entry.templates.length > 0;
+    const example = usable ? this.pick(entry.templates, 1)[0].replace('{T}', term.target.text) : null;
+
+    return {
+      id: randomUUID(),
+      type: 'MULTIPLE_CHOICE',
+      termIds: [],
+      basic: true,
+      prompt: entry.word,
+      options: this.shuffle([entry, ...distractors].map((w) => ({ id: w.word, text: w.pt }))),
+      correctOptionId: entry.word,
+      direction: 'REVERSE',
+      alphabet: false,
+      reveal: this.basicReveal(entry, example),
+    };
+  }
+
+  /**
+   * Um exercício de inglês básico. Palavras com frase curta alternam entre completar a frase
+   * (com o termo técnico no centro) e escolher o significado da palavra isolada; as demais
+   * aparecem só no significado. Nenhum deles conta para o progresso do termo técnico.
+   */
+  basicExercise(entry: BasicWord, term: TermView): Exercise | null {
+    const sentence = entry.templates.length > 0 && this.rng() < 0.5 ? this.basicSentence(entry, term) : null;
+    return sentence ?? this.basicMeaning(entry, term);
   }
 
   /**

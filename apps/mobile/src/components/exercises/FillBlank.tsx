@@ -3,9 +3,8 @@ import { View } from 'react-native';
 import type { FillBlankExercise } from '@/api/types';
 import { Text } from '@/components/Text';
 import { radius, useTheme } from '@/theme/theme';
-import { useBasicStats } from '@/lib/basic-stats';
 import { OptionList } from './OptionList';
-import { singleTerm, type ExerciseProps } from './types';
+import { answerOutcome, type ExerciseProps } from './types';
 
 /** Destaca o termo técnico dentro da frase de inglês básico. */
 function highlighted(sentence: string, term?: string) {
@@ -26,15 +25,7 @@ export function FillBlank({ exercise, locked, setEvaluator }: ExerciseProps<Fill
 
   useEffect(() => {
     setEvaluator(
-      selectedId
-        ? () => {
-            const correct = selectedId === exercise.correctOptionId;
-            if (!exercise.basic) return singleTerm(exercise, correct);
-            // Inglês básico: mede o desempenho no aparelho e não mexe no progresso do termo técnico.
-            useBasicStats.getState().record(correct);
-            return { correct, results: [] };
-          }
-        : null,
+      selectedId ? () => answerOutcome(exercise, selectedId === exercise.correctOptionId) : null,
     );
   }, [selectedId, exercise, setEvaluator]);
 

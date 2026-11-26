@@ -5,11 +5,12 @@ import { Text } from '@/components/Text';
 import { inLanguage } from '@/lib/profile';
 import { studiedLanguage } from '@/lib/speech';
 import { OptionList } from './OptionList';
-import { singleTerm, type ExerciseProps } from './types';
+import { answerOutcome, type ExerciseProps } from './types';
 
 /** A pergunta acompanha o idioma estudado e o sentido do exercício. */
 function question(exercise: MultipleChoiceExercise): string {
   const reverse = exercise.direction === 'REVERSE';
+  if (exercise.basic) return 'Inglês básico · o que significa?';
   if (exercise.alphabet) return reverse ? 'Qual é o som deste caractere?' : 'Qual caractere representa este som?';
   return reverse ? 'O que significa?' : `Como se diz ${inLanguage(studiedLanguage())}?`;
 }
@@ -19,7 +20,7 @@ export function MultipleChoice({ exercise, locked, setEvaluator }: ExerciseProps
 
   useEffect(() => {
     setEvaluator(
-      selectedId ? () => singleTerm(exercise, selectedId === exercise.correctOptionId) : null,
+      selectedId ? () => answerOutcome(exercise, selectedId === exercise.correctOptionId) : null,
     );
   }, [selectedId, exercise, setEvaluator]);
 

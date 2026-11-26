@@ -292,6 +292,7 @@ describe('inglês básico junto aos termos técnicos', () => {
   ].map((t) => ({ ...t, examples: [{ sentence: `Check the ${t.target.text} today.`, answer: t.target.text }] }));
   const build = (share: number) =>
     new ExerciseFactory(seeded()).buildLessonSession({ terms: pool, pool, audioEnabled: false, technicalShare: share });
+  const isBasic = (e: Exercise) => (e.type === 'FILL_BLANK' || e.type === 'MULTIPLE_CHOICE') && e.basic === true;
 
   it('define a parte técnica por nível: 50, 60, 70 e 100%', () => {
     expect(technicalShare('BEGINNER')).toBe(0.5);
@@ -302,7 +303,7 @@ describe('inglês básico junto aos termos técnicos', () => {
   });
 
   it('avançado e quem não informou o nível recebem só termos técnicos', () => {
-    expect(build(1).some((e) => e.type === 'FILL_BLANK' && e.basic)).toBe(false);
+    expect(build(1).some(isBasic)).toBe(false);
   });
 
   it('quem acerta o inglês básico migra para mais foco técnico', () => {
@@ -314,31 +315,34 @@ describe('inglês básico junto aos termos técnicos', () => {
 
   it('iniciante: metade da sessão é inglês básico e a sessão não passa de 24 exercícios', () => {
     const session = build(0.5);
-    const basics = session.filter((e) => e.type === 'FILL_BLANK' && e.basic);
     expect(session.length).toBeLessThanOrEqual(24);
-    expect(basics).toHaveLength(12);
+    expect(session.filter(isBasic)).toHaveLength(12);
   });
 
   it('intermediário: cerca de 70% de termos técnicos', () => {
     const session = build(0.7);
-    const technical = session.filter((e) => !(e.type === 'FILL_BLANK' && e.basic)).length;
+    const technical = session.filter((e) => !isBasic(e)).length;
     expect(technical / session.length).toBeGreaterThanOrEqual(0.65);
     expect(technical / session.length).toBeLessThanOrEqual(0.75);
   });
 
   it('o inglês básico fica espalhado, e a sessão sempre começa pelo termo técnico', () => {
     const session = build(0.5);
-    expect(session[0].type === 'FILL_BLANK' && session[0].basic).toBe(false);
-    const kinds = session.map((e) => (e.type === 'FILL_BLANK' && e.basic ? 'B' : 'T')).join('');
-    expect(kinds).not.toContain('BBB');
+    expect(isBasic(session[0])).toBe(false);
+    expect(session.map((e) => (isBasic(e) ? 'B' : 'T')).join('')).not.toContain('BBB');
   });
 
-  it('cada frase tem o termo técnico em destaque, uma lacuna e a resposta entre as opções', () => {
-    const basics = build(0.5).filter((e) => e.type === 'FILL_BLANK' && e.basic);
-    for (const exercise of basics) {
-      if (exercise.type !== 'FILL_BLANK') continue;
+  it('frase curta: no máximo 4 palavras, termo técnico em destaque, lacuna e resposta entre as opções', () => {
+    const factory = new ExerciseFactory(seeded());
+    const sentences = BASIC_WORDS.flatMap((entry) => {
+      const exercise = factory.basicSentence(entry, pool[0]);
+      return exercise ? [exercise] : [];
+    });
+    expect(sentences.length).toBeGreaterThan(30);
+    for (const exercise of sentences) {
+      expect(exercise.sentence.split(/\s+/).length).toBeLessThanOrEqual(5);
       expect(exercise.sentence).toContain('_____');
-      expect(exercise.sentence).toContain(`the ${exercise.highlight}`);
+      expect(exercise.sentence).toContain(exercise.highlight ?? '?');
       expect(exercise.options.map((o) => o.id)).toContain(exercise.correctOptionId);
       expect(exercise.options).toHaveLength(4);
       expect(exercise.termIds).toEqual([]);
@@ -346,12 +350,33 @@ describe('inglês básico junto aos termos técnicos', () => {
     }
   });
 
-  it('todas as frases-modelo têm a palavra exatamente uma vez e o marcador do termo', () => {
+  it('palavra isolada: a palavra em inglês e três significados em português', () => {
+    const factory = new ExerciseFactory(seeded());
+    const exercises = BASIC_WORDS.map((entry) => factory.basicMeaning(entry, pool[0])!);
+    for (const [index, exercise] of exercises.entries()) {
+      expect(exercise.prompt).toBe(BASIC_WORDS[index].word);
+      expect(exercise.options).toHaveLength(4);
+      expect(exercise.options.find((o) => o.id === exercise.correctOptionId)?.text).toBe(BASIC_WORDS[index].pt);
+      expect(new Set(exercise.options.map((o) => o.text)).size).toBe(4);
+      expect(exercise.termIds).toEqual([]);
+    }
+  });
+
+  it('palavras com tradução parecida não aparecem juntas como opções', () => {
+    const factory = new ExerciseFactory(seeded());
+    const yet = BASIC_WORDS.find((w) => w.word === 'yet')!;
+    for (let i = 0; i < 30; i++) {
+      const texts = factory.basicMeaning(yet)!.options.map((o) => o.text);
+      expect(texts.filter((t) => t.includes('ainda'))).toHaveLength(1);
+    }
+  });
+
+  it('as frases-modelo são curtas, têm a palavra uma vez e um único marcador do termo', () => {
     for (const entry of BASIC_WORDS) {
       for (const template of entry.templates) {
         expect(template.split('{T}')).toHaveLength(2);
-        const hits = template.match(new RegExp(`\\b${entry.word}\\b`, 'gi')) ?? [];
-        expect(hits).toHaveLength(1);
+        expect(template.split(/\s+/).length).toBeLessThanOrEqual(4);
+        expect(template.match(new RegExp(`\\b${entry.word}\\b`, 'gi')) ?? []).toHaveLength(1);
       }
     }
   });

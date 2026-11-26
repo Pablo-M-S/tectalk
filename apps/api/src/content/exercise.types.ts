@@ -62,6 +62,8 @@ export interface MultipleChoiceExercise extends ExerciseBase<'MULTIPLE_CHOICE'> 
   correctOptionId: string;
   /** FORWARD: vê o significado e escolhe o termo. REVERSE: vê o termo e escolhe o significado. */
   direction: 'FORWARD' | 'REVERSE';
+  /** Palavra de inglês básico, sem relação com o progresso dos termos técnicos. */
+  basic?: boolean;
   /** Verdadeiro nos cursos de alfabeto (hiragana, katakana): a pergunta é sobre o som. */
   alphabet: boolean;
 }
