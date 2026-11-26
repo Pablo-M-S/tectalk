@@ -34,10 +34,29 @@
                   "text": "Kelle",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kelle (plural: die Kellen). Usada para aplicar argamassa.",
+                  "collocations": [
+                    "Maurerkelle",
+                    "mit der Kelle auftragen",
+                    "Zahnkelle"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Maurer verteilte den Mörtel mit der Kelle.",
+                  "answer": "Kelle",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Mit einer Kelle mit runder Spitze lässt sich Putz auftragen.",
+                  "answer": "Kelle",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -53,10 +72,29 @@
                   "text": "Wasserwaage",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Wasserwaage (plural: die Wasserwaagen). Verifica horizontalidade ou verticalidade.",
+                  "collocations": [
+                    "Wasserwaage anlegen",
+                    "mit der Wasserwaage prüfen",
+                    "Laser-Wasserwaage"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Wand wurde mit der Wasserwaage geprüft.",
+                  "answer": "Wasserwaage",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Wasserwaage zeigt, dass der Boden waagerecht ist.",
+                  "answer": "Wasserwaage",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -72,10 +110,29 @@
                   "text": "Lot",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Lot (plural: die Lote); \"Senkblei\" é o peso. Mostra a vertical.",
+                  "collocations": [
+                    "Lot fällen",
+                    "mit dem Lot prüfen",
+                    "Senkblei"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Mit dem Lot prüft man, ob die Mauer senkrecht steht.",
+                  "answer": "Lot",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Polier hängte ein Lot auf, um die Stützen auszurichten.",
+                  "answer": "Lot",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -91,10 +148,29 @@
                   "text": "Schubkarre",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Schubkarre (plural: die Schubkarren). Transporta material na obra.",
+                  "collocations": [
+                    "Schubkarre füllen",
+                    "Schubkarre schieben",
+                    "Bauschubkarre"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Helfer fuhr den Sand mit einer Schubkarre.",
+                  "answer": "Schubkarre",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Schubkarre hat ein Luftrad und zwei Griffe.",
+                  "answer": "Schubkarre",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "text": "Meißel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Meißel (plural: die Meißel). Usado com martelo para cortar pedra ou concreto.",
+                  "collocations": [
+                    "Steinmeißel",
+                    "Meißel und Hammer",
+                    "Flachmeißel"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Mit einem Meißel wurde der Schlitz in die Wand gestemmt.",
+                  "answer": "Meißel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Meißel entfernte den überstehenden Beton.",
+                  "answer": "Meißel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -129,10 +224,29 @@
                   "text": "Vorschlaghammer",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Vorschlaghammer (plural: die Vorschlaghämmer). Martelo pesado para demolir.",
+                  "collocations": [
+                    "Vorschlaghammer",
+                    "mit dem Vorschlaghammer abbrechen",
+                    "fünf Kilogramm"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Trennwand wurde mit einem Vorschlaghammer abgerissen.",
+                  "answer": "Vorschlaghammer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Vorschlaghammer wiegt fünf Kilogramm und verlangt gute Technik.",
+                  "answer": "Vorschlaghammer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -162,10 +276,29 @@
                   "text": "Zement",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Zement. Ligante em pó; diferente de \"Beton\" (Zement, Sand, Kies e Wasser).",
+                  "collocations": [
+                    "Portlandzement",
+                    "Sack Zement",
+                    "Zement mischen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Sack Zement wiegt fünfundzwanzig Kilogramm.",
+                  "answer": "Zement",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Man mischt Zement mit Sand und Wasser zu Mörtel.",
+                  "answer": "Zement",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -181,10 +314,29 @@
                   "text": "Mörtel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Mörtel (plural: die Mörtel). Mistura de Zement, Sand e Wasser para assentar ou revestir.",
+                  "collocations": [
+                    "Zementmörtel",
+                    "Kalkmörtel",
+                    "Mörtel anrühren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Mörtel verbindet die Ziegel miteinander.",
+                  "answer": "Mörtel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Mörtel wurde aus einem Teil Zement und drei Teilen Sand angemischt.",
+                  "answer": "Mörtel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -200,10 +352,29 @@
                   "text": "Beton",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Beton. Mistura de cimento, agregados e água.",
+                  "collocations": [
+                    "frischer Beton",
+                    "Beton gießen",
+                    "Transportbeton"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Beton wird in die Schalung gegossen.",
+                  "answer": "Beton",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für die Bodenplatte wurden zehn Kubikmeter Beton bestellt.",
+                  "answer": "Beton",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -219,10 +390,29 @@
                   "text": "Ziegel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Ziegel (plural: die Ziegel); também \"Backstein\". Pode ser Hochlochziegel ou Vollziegel.",
+                  "collocations": [
+                    "Hochlochziegel",
+                    "Vollziegel",
+                    "Mauerziegel"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Maurer legte jeden Ziegel in eine Mörtelschicht.",
+                  "answer": "Ziegel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Ziegel ohne Löcher trägt mehr Druck als ein Lochziegel.",
+                  "answer": "Ziegel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -238,10 +428,29 @@
                   "text": "Sand",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Sand. Agregado fino; \"Flusssand\" e \"Brechsand\" têm usos diferentes.",
+                  "collocations": [
+                    "feiner Sand",
+                    "Flusssand",
+                    "gewaschener Sand"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Man mischt den Sand mit Zement und Wasser.",
+                  "answer": "Sand",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor dem Anmischen des Mörtels muss man den Sand sieben.",
+                  "answer": "Sand",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -257,10 +466,29 @@
                   "text": "Bewehrungsstahl",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Bewehrungsstahl; \"Betonstahl\" ou \"Armierungseisen\" na fala. Barras que reforçam o concreto.",
+                  "collocations": [
+                    "Bewehrungsstahl",
+                    "Bewehrung verlegen",
+                    "Rippenstahl"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Bewehrungsstahl wird mit Draht verbunden.",
+                  "answer": "Bewehrungsstahl",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "An jeder Ecke wurde ein Bewehrungsstahl mit zwölf Millimetern eingelegt.",
+                  "answer": "Bewehrungsstahl",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -290,10 +518,29 @@
                   "text": "Mauerwerk",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Mauerwerk (plural: die Mauerwerke). Alvenaria de pedra ou tijolo assentados com argamassa.",
+                  "collocations": [
+                    "Natursteinmauerwerk",
+                    "tragendes Mauerwerk",
+                    "Mauerwerk errichten"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Mauerwerk aus Naturstein prägt das alte Haus.",
+                  "answer": "Mauerwerk",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Mauerwerk trägt die Last des Dachs.",
+                  "answer": "Mauerwerk",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -309,10 +556,29 @@
                   "text": "Mauerschicht",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Mauerschicht; também \"Schicht\" ou \"Lage\". Linha horizontal de tijolos.",
+                  "collocations": [
+                    "erste Mauerschicht",
+                    "Schicht Ziegel",
+                    "Mauerschicht versetzen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die erste Mauerschicht liegt auf der Sperrschicht.",
+                  "answer": "Mauerschicht",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jede Mauerschicht wird um einen halben Stein versetzt.",
+                  "answer": "Mauerschicht",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -328,10 +594,29 @@
                   "text": "Sturz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Sturz (plural: die Stürze). Elemento horizontal sobre portas e janelas.",
+                  "collocations": [
+                    "Betonsturz",
+                    "Sturz über der Tür",
+                    "Sturz einbauen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Sturz trägt die Mauer über dem Fenster.",
+                  "answer": "Sturz",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Über der Tür wurde ein vorgefertigter Sturz eingebaut.",
+                  "answer": "Sturz",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -347,10 +632,29 @@
                   "text": "Fuge",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fuge (plural: die Fugen). Espaço entre peças: Dehnungsfuge, Arbeitsfuge.",
+                  "collocations": [
+                    "Dehnungsfuge",
+                    "Arbeitsfuge",
+                    "Fuge verfüllen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Fuge verhindert Risse durch Hitze.",
+                  "answer": "Fuge",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Fuge zwischen den Steinen wurde mit Mörtel gefüllt.",
+                  "answer": "Fuge",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -366,10 +670,29 @@
                   "text": "Putz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Putz. Revestimento de paredes com gesso ou argamassa fina.",
+                  "collocations": [
+                    "Innenputz",
+                    "Putz auftragen",
+                    "Kalkputz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Putz macht die Wand bereit zum Streichen.",
+                  "answer": "Putz",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Putz wurde in zwei dünnen Schichten aufgetragen.",
+                  "answer": "Putz",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -385,10 +708,29 @@
                   "text": "Estrich",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Estrich. Camada de regularização do piso.",
+                  "collocations": [
+                    "Zementestrich",
+                    "Estrich einbringen",
+                    "Fließestrich"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Estrich ebnet den Boden vor dem Parkett.",
+                  "answer": "Estrich",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Man muss eine Woche warten, bis der Estrich trocken ist.",
+                  "answer": "Estrich",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -418,10 +760,29 @@
                   "text": "Streifenfundament",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Streifenfundament (sob muros); \"Einzelfundament\" sob pilares.",
+                  "collocations": [
+                    "Streifenfundament",
+                    "Einzelfundament",
+                    "Fundament bewehren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Streifenfundament verteilt das Gewicht der Wand auf den Boden.",
+                  "answer": "Streifenfundament",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für das Haus wurde ein Streifenfundament betoniert.",
+                  "answer": "Streifenfundament",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -437,10 +798,29 @@
                   "text": "Bodenplatte",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Bodenplatte (plural: die Bodenplatten). Placa plana de concreto que apoia a edificação.",
+                  "collocations": [
+                    "Bodenplatte betonieren",
+                    "Stahlbetonplatte",
+                    "Plattenstärke"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Bodenplatte ist zwanzig Zentimeter dick.",
+                  "answer": "Bodenplatte",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für das ganze Haus wurde eine Bodenplatte gegossen.",
+                  "answer": "Bodenplatte",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -456,10 +836,29 @@
                   "text": "Schalung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Schalung (plural: die Schalungen). Molde provisório do concreto.",
+                  "collocations": [
+                    "Holzschalung",
+                    "Schalung entfernen",
+                    "ausschalen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Schalung muss dem Druck des frischen Betons standhalten.",
+                  "answer": "Schalung",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Schalung wurde nach sieben Tagen entfernt.",
+                  "answer": "Schalung",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -475,10 +874,29 @@
                   "text": "Nachbehandlung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Nachbehandlung (do concreto): mantê-lo úmido para ganhar resistência.",
+                  "collocations": [
+                    "Nachbehandlung des Betons",
+                    "Nachbehandlung mit Wasser",
+                    "Dauer der Nachbehandlung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Nachbehandlung des Betons dauert mindestens sieben Tage.",
+                  "answer": "Nachbehandlung",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für die Nachbehandlung wird die Platte zweimal täglich benetzt.",
+                  "answer": "Nachbehandlung",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -494,10 +912,29 @@
                   "text": "Abdichtung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Abdichtung (plural: die Abdichtungen). Evita infiltração em lajes, banheiros e muros.",
+                  "collocations": [
+                    "Dachabdichtung",
+                    "Abdichtung aufbringen",
+                    "Abdichtungsbahn"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Abdichtung der Terrasse verhinderte Feuchtigkeit.",
+                  "answer": "Abdichtung",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Bad wurde eine doppelte Abdichtung aufgetragen.",
+                  "answer": "Abdichtung",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -513,10 +950,29 @@
                   "text": "Aushub",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Aushub. Terra removida para fundações, valas ou porões.",
+                  "collocations": [
+                    "Aushub der Baugrube",
+                    "maschineller Aushub",
+                    "Aushubtiefe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Aushub erreichte drei Meter Tiefe.",
+                  "answer": "Aushub",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Bagger übernahm den Aushub für den Keller.",
+                  "answer": "Aushub",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -546,10 +1002,29 @@
                   "text": "Fliese",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fliese (plural: die Fliesen). Cerâmica de piso ou parede.",
+                  "collocations": [
+                    "Fliese verlegen",
+                    "Bodenfliese",
+                    "rutschfeste Fliese"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Fliese wurde mit drei Millimetern Abstand verlegt.",
+                  "answer": "Fliese",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Bad verhindert eine rutschfeste Fliese Stürze.",
+                  "answer": "Fliese",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -565,10 +1040,29 @@
                   "text": "Fugenmasse",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fugenmasse (também \"Fugenmörtel\"). Pasta que preenche juntas entre cerâmicas.",
+                  "collocations": [
+                    "Fugenmörtel",
+                    "mit Fugenmasse füllen",
+                    "wasserdichte Fugenmasse"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Fugenmasse füllt die Fugen zwischen den Fliesen.",
+                  "answer": "Fugenmasse",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Überschüssige Fugenmasse muss man vor dem Trocknen abwischen.",
+                  "answer": "Fugenmasse",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -584,10 +1078,29 @@
                   "text": "Trockenbauplatte",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Trockenbauplatte; \"Gipskartonplatte\" é o material mais comum. Paredes secas.",
+                  "collocations": [
+                    "Gipskartonplatte",
+                    "Trockenbauwand",
+                    "Trockenbauplatte schrauben"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Trockenbauplatte wird an das Metallprofil geschraubt.",
+                  "answer": "Trockenbauplatte",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Trockenbauplatte lässt sich leicht mit einem Cutter schneiden.",
+                  "answer": "Trockenbauplatte",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -603,10 +1116,29 @@
                   "text": "Sockelleiste",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Sockelleiste (plural: die Sockelleisten). Faixa na base da parede.",
+                  "collocations": [
+                    "Holzsockelleiste",
+                    "Sockelleiste anbringen",
+                    "Fußleiste"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Sockelleiste verdeckt den Übergang zwischen Boden und Wand.",
+                  "answer": "Sockelleiste",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im ganzen Raum wurde eine Sockelleiste aus Holz montiert.",
+                  "answer": "Sockelleiste",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1154,29 @@
                   "text": "Dichtstoff",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Dichtstoff; \"Silikon\" e \"Acryl\" são tipos. Veda contra água e ar.",
+                  "collocations": [
+                    "Dichtstoff auftragen",
+                    "Silikon",
+                    "elastischer Dichtstoff"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Dichtstoff verhindert, dass Wasser durch die Fuge eindringt.",
+                  "answer": "Dichtstoff",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Um das Fenster wurde ein flexibler Dichtstoff aufgetragen.",
+                  "answer": "Dichtstoff",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -641,10 +1192,29 @@
                   "text": "Grundierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Grundierung. Camada de fundo que melhora a aderência da tinta.",
+                  "collocations": [
+                    "Grundierung auftragen",
+                    "Tiefengrund",
+                    "Rostschutzgrundierung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Grundierung verbessert die Haftung der Farbe.",
+                  "answer": "Grundierung",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Auf das Metall wurde eine Grundierung gegen Rost aufgetragen.",
+                  "answer": "Grundierung",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -674,10 +1244,29 @@
                   "text": "Schutzhelm",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Schutzhelm (plural: die Schutzhelme). EPI obrigatório em obra.",
+                  "collocations": [
+                    "Schutzhelm tragen",
+                    "Helmpflicht",
+                    "Bauhelm"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Auf der Baustelle muss jeder einen Schutzhelm tragen.",
+                  "answer": "Schutzhelm",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Schutzhelm dämpft Stöße durch herabfallende Gegenstände.",
+                  "answer": "Schutzhelm",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -693,10 +1282,29 @@
                   "text": "Auffanggurt",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Auffanggurt (plural: die Auffanggurte). Usado em trabalhos em altura.",
+                  "collocations": [
+                    "Auffanggurt anlegen",
+                    "Absturzsicherung",
+                    "Höhenarbeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Auffanggurt wird in das Sicherungsseil eingehängt.",
+                  "answer": "Auffanggurt",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Auf dem Dach ist ein Auffanggurt vorgeschrieben.",
+                  "answer": "Auffanggurt",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -712,10 +1320,29 @@
                   "text": "Schutzausrüstung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Schutzausrüstung; a sigla é PSA (persönliche Schutzausrüstung).",
+                  "collocations": [
+                    "persönliche Schutzausrüstung",
+                    "Schutzausrüstung tragen",
+                    "PSA"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Schutzausrüstung umfasst Helm, Handschuhe und Stiefel.",
+                  "answer": "Schutzausrüstung",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ohne Schutzausrüstung darf niemand die Baustelle betreten.",
+                  "answer": "Schutzausrüstung",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -731,10 +1358,29 @@
                   "text": "Vorarbeiter",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Vorarbeiter (plural: die Vorarbeiter); também \"Polier\". Dirige os operários.",
+                  "collocations": [
+                    "Vorarbeiter der Kolonne",
+                    "mit dem Vorarbeiter sprechen",
+                    "Polier"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Vorarbeiter verteilt die Aufgaben an die Arbeiter.",
+                  "answer": "Vorarbeiter",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir fragten den Vorarbeiter, bevor wir die Reihenfolge änderten.",
+                  "answer": "Vorarbeiter",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -750,10 +1396,29 @@
                   "text": "Gerüst",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gerüst (plural: die Gerüste). Estrutura provisória para trabalhar em altura.",
+                  "collocations": [
+                    "Gerüst aufbauen",
+                    "Fassadengerüst",
+                    "Gerüst prüfen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gerüst umgibt die gesamte Fassade des Hauses.",
+                  "answer": "Gerüst",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor dem Aufstieg der Arbeiter wurde das Gerüst geprüft.",
+                  "answer": "Gerüst",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -769,10 +1434,29 @@
                   "text": "Gefahr",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Gefahr (plural: die Gefahren). Fonte potencial de dano; o \"Risiko\" é a probabilidade.",
+                  "collocations": [
+                    "Gefahr erkennen",
+                    "Absturzgefahr",
+                    "Gefahrenzeichen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die offene Grube ist eine Gefahr für Passanten.",
+                  "answer": "Gefahr",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Gefahr eines Absturzes wurde mit rotem Band markiert.",
+                  "answer": "Gefahr",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]

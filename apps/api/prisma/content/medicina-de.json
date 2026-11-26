@@ -34,10 +34,29 @@
                   "text": "Vorhof",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Vorhof, plural \"die Vorhöfe\". Costuma vir com o lado: linker Vorhof.",
+                  "collocations": [
+                    "linker Vorhof",
+                    "rechter Vorhof",
+                    "Vorhofflimmern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der rechte Vorhof nimmt das venöse Blut aus dem Körper auf.",
+                  "answer": "Vorhof",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Echokardiogramm zeigte einen erweiterten linken Vorhof.",
+                  "answer": "Vorhof",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -53,10 +72,29 @@
                   "text": "Herzkammer",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Herzkammer, plural \"die Herzkammern\". Em laudos: linke/rechte Herzkammer; em anatomia também \"Ventrikel\".",
+                  "collocations": [
+                    "linke Herzkammer",
+                    "rechte Herzkammer",
+                    "Herzkammerflimmern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die linke Herzkammer pumpt das Blut in die Aorta.",
+                  "answer": "Herzkammer",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im MRT zeigte sich eine Verdickung der rechten Herzkammer.",
+                  "answer": "Herzkammer",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -72,10 +110,29 @@
                   "text": "Aorta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Aorta (plural: die Aorten). Divide-se em Aorta ascendens e Aorta descendens; também \"Hauptschlagader\".",
+                  "collocations": [
+                    "aufsteigende Aorta",
+                    "absteigende Aorta",
+                    "Aortenaneurysma"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Aorta entspringt aus der linken Herzkammer.",
+                  "answer": "Aorta",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei dem Patienten wurde ein Aneurysma der Aorta im Bauchraum festgestellt.",
+                  "answer": "Aorta",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -91,10 +148,29 @@
                   "text": "Myokard",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Myokard, também \"Herzmuskel\" (masculino). Em laudos usa-se \"Myokard\".",
+                  "collocations": [
+                    "Myokardinfarkt",
+                    "Myokardschaden",
+                    "Myokardszintigrafie"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Myokard bildet die muskuläre Wand des Herzens.",
+                  "answer": "Myokard",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Biopsie bestätigte eine Entzündung im Myokard.",
+                  "answer": "Myokard",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "text": "Perikard",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Perikard, ou \"der Herzbeutel\" (masculino) na linguagem corrente.",
+                  "collocations": [
+                    "Perikarderguss",
+                    "Perikarditis",
+                    "Herzbeutel"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Perikard umhüllt das Herz und die großen Gefäße.",
+                  "answer": "Perikard",
+                  "documentType": "ECHO_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Ultraschall zeigte sich ein Erguss im Perikard.",
+                  "answer": "Perikard",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -131,10 +226,29 @@
                   "text": "Herzklappe",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Herzklappe (plural: die Herzklappen). Tipos: Mitralklappe, Aortenklappe, Trikuspidalklappe.",
+                  "collocations": [
+                    "künstliche Herzklappe",
+                    "Herzklappenfehler",
+                    "Herzklappenersatz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Herzklappe verhindert den Rückfluss des Blutes.",
+                  "answer": "Herzklappe",
+                  "documentType": "SURGICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Dem Patienten wurde eine mechanische Herzklappe eingesetzt.",
+                  "answer": "Herzklappe",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -160,10 +274,29 @@
                   "text": "Herzinfarkt",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Herzinfarkt. Termo técnico: Myokardinfarkt. Tipos: STEMI e NSTEMI.",
+                  "collocations": [
+                    "akuter Herzinfarkt",
+                    "Herzinfarkt erleiden",
+                    "Herzinfarkt-Risiko"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient wurde mit einem akuten Herzinfarkt eingeliefert.",
+                  "answer": "Herzinfarkt",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Familiäre Vorbelastung erhöht das Risiko für einen Herzinfarkt.",
+                  "answer": "Herzinfarkt",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -179,10 +312,29 @@
                   "text": "Herzrhythmusstörung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Herzrhythmusstörung (abreviação: HRST). O termo técnico \"Arrhythmie\" também aparece.",
+                  "collocations": [
+                    "Herzrhythmusstörung",
+                    "absolute Arrhythmie",
+                    "Herzrhythmusstörung behandeln"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das EKG zeigte eine Herzrhythmusstörung.",
+                  "answer": "Herzrhythmusstörung",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Medikament kontrolliert die Herzrhythmusstörung bei den meisten Patienten.",
+                  "answer": "Herzrhythmusstörung",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -198,10 +350,29 @@
                   "text": "Tachykardie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Tachykardie (plural: die Tachykardien). Frequência acima de 100 Schlägen pro Minute.",
+                  "collocations": [
+                    "Sinustachykardie",
+                    "ventrikuläre Tachykardie",
+                    "Tachykardie-Episode"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Patientin klagte über Herzklopfen und eine anhaltende Tachykardie.",
+                  "answer": "Tachykardie",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wegen einer supraventrikulären Tachykardie wurde Adenosin gegeben.",
+                  "answer": "Tachykardie",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -217,10 +388,29 @@
                   "text": "Bradykardie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Bradykardie. Frequência abaixo de 60 Schlägen pro Minute; em atletas pode ser normal.",
+                  "collocations": [
+                    "Sinusbradykardie",
+                    "symptomatische Bradykardie",
+                    "Herzschrittmacher"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das EKG zeigte eine ausgeprägte Bradykardie.",
+                  "answer": "Bradykardie",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Bradykardie führte zu Schwindel und einer kurzen Ohnmacht.",
+                  "answer": "Bradykardie",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -238,10 +428,29 @@
                   "text": "Bluthochdruck",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Bluthochdruck; termo técnico: arterielle Hypertonie.",
+                  "collocations": [
+                    "arterieller Bluthochdruck",
+                    "Bluthochdruck behandeln",
+                    "Blutdruckkontrolle"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Bei ihm wurde vor fünf Jahren ein Bluthochdruck festgestellt.",
+                  "answer": "Bluthochdruck",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Behandlung von Bluthochdruck erfordert regelmäßige Kontrollen.",
+                  "answer": "Bluthochdruck",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -257,10 +466,29 @@
                   "text": "Kardiomegalie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kardiomegalie. Achado de imagem: coração aumentado, visto no raio-X de tórax.",
+                  "collocations": [
+                    "leichte Kardiomegalie",
+                    "Kardiomegalie im Röntgenbild",
+                    "Herzvergrößerung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Auf dem Thoraxröntgen zeigte sich eine Kardiomegalie.",
+                  "answer": "Kardiomegalie",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Kardiomegalie weist oft auf eine chronische Überlastung hin.",
+                  "answer": "Kardiomegalie",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -290,10 +518,29 @@
                   "text": "Lungenentzündung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Lungenentzündung; termo médico: die Pneumonie. Nos laudos aparecem ambos.",
+                  "collocations": [
+                    "ambulant erworbene Lungenentzündung",
+                    "bakterielle Lungenentzündung",
+                    "Lungenentzündung behandeln"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient wurde wegen einer bakteriellen Lungenentzündung aufgenommen.",
+                  "answer": "Lungenentzündung",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Röntgenbild bestätigte eine Lungenentzündung im rechten Unterlappen.",
+                  "answer": "Lungenentzündung",
+                  "documentType": "DISCHARGE_SUMMARY"
+                }
+              ],
               "segments": {}
             },
             {
@@ -309,10 +556,29 @@
                   "text": "Bronchitis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Bronchitis, plural \"die Bronchitiden\". Pode ser akut ou chronisch.",
+                  "collocations": [
+                    "akute Bronchitis",
+                    "chronische Bronchitis",
+                    "Husten mit Auswurf"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine akute Bronchitis heilt meist ohne Antibiotika aus.",
+                  "answer": "Bronchitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jahrelanges Rauchen führte zu einer chronischen Bronchitis.",
+                  "answer": "Bronchitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -328,10 +594,29 @@
                   "text": "Asthma",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro ou masculino: das Asthma (mais comum); também \"Asthma bronchiale\".",
+                  "collocations": [
+                    "Asthma bronchiale",
+                    "Asthmaanfall",
+                    "Asthmaspray"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Er benutzt ein Spray, um das Asthma zu kontrollieren.",
+                  "answer": "Asthma",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei Kindern bessert sich das Asthma oft mit dem Alter.",
+                  "answer": "Asthma",
+                  "documentType": "PULMONARY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -347,10 +632,29 @@
                   "text": "Atemnot",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Atemnot, também \"Dyspnoe\" (técnico). Pode ser em Ruhe ou bei Belastung.",
+                  "collocations": [
+                    "Atemnot bei Belastung",
+                    "Atemnot in Ruhe",
+                    "plötzliche Atemnot"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Patientin kam wegen zunehmender Atemnot bei Belastung.",
+                  "answer": "Atemnot",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei plötzlicher Atemnot muss eine Lungenembolie ausgeschlossen werden.",
+                  "answer": "Atemnot",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -366,10 +670,29 @@
                   "text": "Lungenembolie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Lungenembolie (LE). Costuma vir com \"akute\" e termos como \"Antikoagulation\".",
+                  "collocations": [
+                    "akute Lungenembolie",
+                    "Verdacht auf Lungenembolie",
+                    "Antikoagulation"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Angio-CT bestätigte eine beidseitige Lungenembolie.",
+                  "answer": "Lungenembolie",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nach der Operation erhielt er Blutverdünner gegen eine Lungenembolie.",
+                  "answer": "Lungenembolie",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -385,10 +708,29 @@
                   "text": "Pleuraerguss",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Pleuraerguss. Acúmulo de líquido entre as pleuras; \"Erguss\" em geral é derrame.",
+                  "collocations": [
+                    "beidseitiger Pleuraerguss",
+                    "Pleurapunktion",
+                    "Pleuraerguss abpunktieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Röntgenbild zeigte einen Pleuraerguss rechts.",
+                  "answer": "Pleuraerguss",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Pleuraerguss wurde zur Untersuchung abpunktiert.",
+                  "answer": "Pleuraerguss",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -418,10 +760,29 @@
                   "text": "Biopsie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Biopsie (plural: die Biopsien). Em alemão, também \"Gewebeprobe\" (amostra de tecido).",
+                  "collocations": [
+                    "Gewebeprobe",
+                    "Leberbiopsie",
+                    "Ergebnis der Biopsie"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde eine Biopsie der verdächtigen Stelle durchgeführt.",
+                  "answer": "Biopsie",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Ergebnis der Biopsie liegt in einer Woche vor.",
+                  "answer": "Biopsie",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -437,10 +798,29 @@
                   "text": "Intubation",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Intubation. Costuma vir com \"endotracheal\" e \"Beatmung\".",
+                  "collocations": [
+                    "endotracheale Intubation",
+                    "schwierige Intubation",
+                    "maschinelle Beatmung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wegen des Atemversagens war eine Intubation notwendig.",
+                  "answer": "Intubation",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Anästhesist führte die Intubation ohne Komplikationen durch.",
+                  "answer": "Intubation",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -456,10 +836,29 @@
                   "text": "Anästhesie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Anästhesie, ou \"Narkose\" (anestesia geral). Tipos: Vollnarkose, Lokalanästhesie.",
+                  "collocations": [
+                    "Vollnarkose",
+                    "Lokalanästhesie",
+                    "Periduralanästhesie"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Für die Operation brauchte er eine Anästhesie.",
+                  "answer": "Anästhesie",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei der Geburt wird oft eine Anästhesie am Rücken eingesetzt.",
+                  "answer": "Anästhesie",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -475,10 +874,29 @@
                   "text": "Katheter",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Katheter (plural: die Katheter). Tipos: zentraler Venenkatheter (ZVK), Blasenkatheter.",
+                  "collocations": [
+                    "zentraler Venenkatheter",
+                    "Blasenkatheter",
+                    "Katheter legen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde ein Katheter in die Halsvene gelegt.",
+                  "answer": "Katheter",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Katheter wurde nach achtundvierzig Stunden entfernt.",
+                  "answer": "Katheter",
+                  "documentType": "PROGRESS_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -494,10 +912,29 @@
                   "text": "Naht",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Naht (plural: die Nähte). Também designa o fio cirúrgico. Verbo: nähen.",
+                  "collocations": [
+                    "Naht entfernen",
+                    "fortlaufende Naht",
+                    "Nahtmaterial"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Wunde wurde mit einer fortlaufenden Naht verschlossen.",
+                  "answer": "Naht",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Naht wird nach zehn Tagen entfernt.",
+                  "answer": "Naht",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -513,10 +950,29 @@
                   "text": "Resektion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Resektion. Retirada cirúrgica parcial; \"R0-Resektion\" = margens livres de tumor.",
+                  "collocations": [
+                    "operative Resektion",
+                    "Darmresektion",
+                    "Resektionsrand"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Resektion des Tumors erfolgte laparoskopisch.",
+                  "answer": "Resektion",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nach der Resektion war der Rand frei von Tumorzellen.",
+                  "answer": "Resektion",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -546,10 +1002,29 @@
                   "text": "Diagnose",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Diagnose (plural: die Diagnosen). Verbo: eine Diagnose stellen.",
+                  "collocations": [
+                    "Diagnose stellen",
+                    "Verdachtsdiagnose",
+                    "Frühdiagnose"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine frühe Diagnose verbessert die Prognose des Patienten.",
+                  "answer": "Diagnose",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Diagnose wurde durch eine Biopsie gesichert.",
+                  "answer": "Diagnose",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -565,10 +1040,29 @@
                   "text": "Differenzialdiagnose",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Differenzialdiagnose (ou Differentialdiagnose, ortografia antiga). Lista hipóteses a excluir.",
+                  "collocations": [
+                    "Differenzialdiagnose erstellen",
+                    "Differenzialdiagnosen abwägen",
+                    "in Frage kommende Differenzialdiagnose"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Zur Differenzialdiagnose gehören Infektion und Tumor.",
+                  "answer": "Differenzialdiagnose",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei diesem Krankheitsbild muss die Differenzialdiagnose erweitert werden.",
+                  "answer": "Differenzialdiagnose",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -584,10 +1078,29 @@
                   "text": "Prognose",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Prognose (plural: die Prognosen). Costuma vir com \"günstig\" ou \"ungünstig\".",
+                  "collocations": [
+                    "günstige Prognose",
+                    "ungünstige Prognose",
+                    "Prognose stellen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Prognose hängt vom Stadium der Erkrankung ab.",
+                  "answer": "Prognose",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Familie wurde eine zurückhaltende Prognose mitgeteilt.",
+                  "answer": "Prognose",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -603,10 +1116,29 @@
                   "text": "Ätiologie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ätiologie (com Ä). Causa de uma doença; \"unklare Ätiologie\" = causa desconhecida.",
+                  "collocations": [
+                    "unklare Ätiologie",
+                    "infektiöse Ätiologie",
+                    "Ätiologie abklären"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Ätiologie des Fiebers blieb ungeklärt.",
+                  "answer": "Ätiologie",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde eine Untersuchung veranlasst, um die Ätiologie zu klären.",
+                  "answer": "Ätiologie",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1154,29 @@
                   "text": "Komorbidität",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Komorbidität (plural: die Komorbiditäten). Também \"Begleiterkrankung\".",
+                  "collocations": [
+                    "Komorbidität erfassen",
+                    "Begleiterkrankung",
+                    "Komorbiditäten berücksichtigen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Komorbidität verschlechtert die Prognose.",
+                  "answer": "Komorbidität",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor der Therapie müssen Begleiterkrankungen und Komorbidität beurteilt werden.",
+                  "answer": "Komorbidität",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -641,10 +1192,29 @@
                   "text": "Kontraindikation",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kontraindikation (plural: die Kontraindikationen). Pode ser absolut ou relativ.",
+                  "collocations": [
+                    "absolute Kontraindikation",
+                    "relative Kontraindikation",
+                    "keine Kontraindikation"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Schwangerschaft ist eine absolute Kontraindikation für dieses Medikament.",
+                  "answer": "Kontraindikation",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für die Untersuchung besteht keine Kontraindikation.",
+                  "answer": "Kontraindikation",
+                  "documentType": "RADIOLOGY_REQUEST"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -674,10 +1244,29 @@
                   "text": "Schlaganfall",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Schlaganfall (plural: die Schlaganfälle). Termo técnico: Apoplex ou \"zerebrale Ischämie\".",
+                  "collocations": [
+                    "ischämischer Schlaganfall",
+                    "hämorrhagischer Schlaganfall",
+                    "Schlaganfall-Station"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient kam mit einem Schlaganfall auf die Stroke Unit.",
+                  "answer": "Schlaganfall",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein ischämischer Schlaganfall muss innerhalb weniger Stunden behandelt werden.",
+                  "answer": "Schlaganfall",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -693,10 +1282,29 @@
                   "text": "Krampfanfall",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Krampfanfall (plural: die Krampfanfälle); também \"epileptischer Anfall\".",
+                  "collocations": [
+                    "epileptischer Anfall",
+                    "Krampfanfall erleiden",
+                    "Anfallsfreiheit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient erlitt einen Krampfanfall von zwei Minuten Dauer.",
+                  "answer": "Krampfanfall",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nach der Umstellung der Medikation trat kein Krampfanfall mehr auf.",
+                  "answer": "Krampfanfall",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -712,10 +1320,29 @@
                   "text": "Migräne",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Migräne (com ä). Pode ser mit Aura.",
+                  "collocations": [
+                    "Migräne mit Aura",
+                    "chronische Migräne",
+                    "Migräneanfall"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Migräne mit Aura beginnt oft mit Sehstörungen.",
+                  "answer": "Migräne",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Stressvermeidung kann einer Migräne vorbeugen.",
+                  "answer": "Migräne",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -731,10 +1358,29 @@
                   "text": "Neuropathie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Neuropathie. Formas comuns: periphere e diabetische.",
+                  "collocations": [
+                    "periphere Neuropathie",
+                    "diabetische Neuropathie",
+                    "neuropathischer Schmerz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die diabetische Neuropathie verursacht Kribbeln in den Füßen.",
+                  "answer": "Neuropathie",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine periphere Neuropathie wurde durch eine Elektromyografie bestätigt.",
+                  "answer": "Neuropathie",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -750,10 +1396,29 @@
                   "text": "Demenz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Demenz (plural: die Demenzen). Subtipos: Alzheimer-Demenz, vaskuläre Demenz.",
+                  "collocations": [
+                    "vaskuläre Demenz",
+                    "Alzheimer-Demenz",
+                    "kognitive Einschränkung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Demenz beeinträchtigt das Gedächtnis und die Selbstständigkeit.",
+                  "answer": "Demenz",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Demenz wurde durch neuropsychologische Tests gesichert.",
+                  "answer": "Demenz",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -769,10 +1434,29 @@
                   "text": "Gehirnerschütterung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Gehirnerschütterung (abreviação: GE). Também \"Commotio cerebri\" em laudos.",
+                  "collocations": [
+                    "leichte Gehirnerschütterung",
+                    "Gehirnerschütterung erleiden",
+                    "Bettruhe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Er erlitt nach dem Fahrradsturz eine Gehirnerschütterung.",
+                  "answer": "Gehirnerschütterung",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nach einer Gehirnerschütterung wird körperliche Schonung empfohlen.",
+                  "answer": "Gehirnerschütterung",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -802,10 +1486,29 @@
                   "text": "Gastritis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Gastritis, plural \"die Gastritiden\". Pode ser akut, chronisch ou erosiv.",
+                  "collocations": [
+                    "akute Gastritis",
+                    "chronische Gastritis",
+                    "erosive Gastritis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Magenspiegelung zeigte eine erosive Gastritis.",
+                  "answer": "Gastritis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Schmerzmittel können eine akute Gastritis auslösen.",
+                  "answer": "Gastritis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -821,10 +1524,29 @@
                   "text": "Magengeschwür",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Magengeschwür (úlcera gástrica); \"Zwölffingerdarmgeschwür\" é a duodenal.",
+                  "collocations": [
+                    "Magengeschwür",
+                    "Zwölffingerdarmgeschwür",
+                    "Helicobacter pylori"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Magengeschwür steht oft mit einer Helicobacter-Infektion in Zusammenhang.",
+                  "answer": "Magengeschwür",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient wurde wegen einer Blutung aus einem Magengeschwür stationär aufgenommen.",
+                  "answer": "Magengeschwür",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -840,10 +1562,29 @@
                   "text": "Leberzirrhose",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Leberzirrhose (plural: die Leberzirrhosen). Costuma vir com \"dekompensiert\" ou \"kompensiert\".",
+                  "collocations": [
+                    "alkoholische Leberzirrhose",
+                    "dekompensierte Leberzirrhose",
+                    "Leberversagen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Leberzirrhose kann zu einem Leberversagen führen.",
+                  "answer": "Leberzirrhose",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei ihm wurde per Ultraschall eine alkoholische Leberzirrhose festgestellt.",
+                  "answer": "Leberzirrhose",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -859,10 +1600,29 @@
                   "text": "Hepatitis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Hepatitis, plural \"die Hepatitiden\". Tipos: Hepatitis A, B, C.",
+                  "collocations": [
+                    "Hepatitis B",
+                    "akute Hepatitis",
+                    "chronische Hepatitis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Impfung schützt vor Hepatitis B.",
+                  "answer": "Hepatitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine chronische Hepatitis kann in eine Zirrhose übergehen.",
+                  "answer": "Hepatitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -878,10 +1638,29 @@
                   "text": "Blinddarmentzündung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Blinddarmentzündung (termo técnico: Appendizitis). Na fala comum diz-se \"Blinddarm\".",
+                  "collocations": [
+                    "akute Blinddarmentzündung",
+                    "Appendizitis",
+                    "Blinddarm-Operation"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Bei Schmerzen rechts unten besteht der Verdacht auf eine Blinddarmentzündung.",
+                  "answer": "Blinddarmentzündung",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Blinddarmentzündung wurde laparoskopisch operiert.",
+                  "answer": "Blinddarmentzündung",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -897,10 +1676,29 @@
                   "text": "gastroösophagealer Reflux",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der gastroösophageale Reflux (adjetivo com declinação). Doença: Refluxkrankheit.",
+                  "collocations": [
+                    "gastroösophagealer Reflux",
+                    "Refluxkrankheit",
+                    "Protonenpumpenhemmer"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein gastroösophagealer Reflux verursacht Sodbrennen.",
+                  "answer": "gastroösophagealer Reflux",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein gastroösophagealer Reflux wird mit Protonenpumpenhemmern behandelt.",
+                  "answer": "gastroösophagealer Reflux",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -930,10 +1728,29 @@
                   "text": "Diabetes mellitus",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Diabetes mellitus (em fala comum \"Diabetes\"). Tipos: Typ 1, Typ 2, Gestationsdiabetes.",
+                  "collocations": [
+                    "Diabetes mellitus Typ 2",
+                    "Gestationsdiabetes",
+                    "Diabetes einstellen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Bei ihm wurde ein Diabetes mellitus Typ 2 festgestellt.",
+                  "answer": "Diabetes mellitus",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Beim Diabetes mellitus Typ 1 fehlt dem Körper das eigene Insulin.",
+                  "answer": "Diabetes mellitus",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -949,10 +1766,29 @@
                   "text": "Insulin",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Insulin. Tipos: schnellwirksames Insulin, Basalinsulin.",
+                  "collocations": [
+                    "Insulin spritzen",
+                    "Basalinsulin",
+                    "Insulindosis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient spritzt vor jeder Mahlzeit Insulin.",
+                  "answer": "Insulin",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Menge an Insulin richtet sich nach dem Blutzucker.",
+                  "answer": "Insulin",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -968,10 +1804,29 @@
                   "text": "Hypothyreose",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Hypothyreose (plural: die Hypothyreosen). Tratada com Levothyroxin.",
+                  "collocations": [
+                    "latente Hypothyreose",
+                    "Levothyroxin",
+                    "Schilddrüsenunterfunktion"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Hypothyreose wird mit Levothyroxin behandelt.",
+                  "answer": "Hypothyreose",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Müdigkeit und Gewichtszunahme sprechen für eine Hypothyreose.",
+                  "answer": "Hypothyreose",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -987,10 +1842,29 @@
                   "text": "Hyperthyreose",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Hyperthyreose. Causa típica: Morbus Basedow.",
+                  "collocations": [
+                    "Morbus Basedow",
+                    "Schilddrüsenüberfunktion",
+                    "thyreostatische Therapie"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Hyperthyreose beschleunigt den Stoffwechsel und führt zu Gewichtsverlust.",
+                  "answer": "Hyperthyreose",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Morbus Basedow ist eine häufige Ursache einer Hyperthyreose.",
+                  "answer": "Hyperthyreose",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1006,10 +1880,29 @@
                   "text": "Blutzucker",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Blutzucker (em laudos também \"Glukosewert\"). Medido em mg/dl.",
+                  "collocations": [
+                    "Blutzucker messen",
+                    "Nüchternblutzucker",
+                    "Blutzuckerkontrolle"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Blutzucker lag nüchtern bei 126 mg/dl.",
+                  "answer": "Blutzucker",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor jeder Mahlzeit wird der Blutzucker kontrolliert.",
+                  "answer": "Blutzucker",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1025,10 +1918,29 @@
                   "text": "Adipositas",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Adipositas (termo médico); na fala: \"Fettleibigkeit\". Critério: IMC ≥ 30.",
+                  "collocations": [
+                    "Adipositas Grad III",
+                    "Body-Mass-Index",
+                    "Fettleibigkeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Adipositas erhöht das Risiko für Herz-Kreislauf-Erkrankungen.",
+                  "answer": "Adipositas",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient wurde an ein Zentrum für Adipositas überwiesen.",
+                  "answer": "Adipositas",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1058,10 +1970,29 @@
                   "text": "großes Blutbild",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das große Blutbild (completo); o \"kleines Blutbild\" é o básico.",
+                  "collocations": [
+                    "großes Blutbild",
+                    "Blutbild abnehmen",
+                    "auffälliges Blutbild"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wegen des Verdachts auf Anämie wurde ein großes Blutbild veranlasst.",
+                  "answer": "großes Blutbild",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein großes Blutbild zeigte eine Leukozytose mit Neutrophilie.",
+                  "answer": "großes Blutbild",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1077,10 +2008,29 @@
                   "text": "Hämoglobin",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro ou masculino: das Hämoglobin (abreviação: Hb). Valor em g/dl.",
+                  "collocations": [
+                    "Hämoglobin-Wert",
+                    "niedriges Hämoglobin",
+                    "glykiertes Hämoglobin"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Hämoglobin der Patientin lag bei 9 g/dl.",
+                  "answer": "Hämoglobin",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das glykierte Hämoglobin zeigt den Verlauf der letzten drei Monate.",
+                  "answer": "Hämoglobin",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1096,10 +2046,29 @@
                   "text": "Kreatinin",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Kreatinin. Marcador renal; vem com \"glomeruläre Filtrationsrate\" (GFR).",
+                  "collocations": [
+                    "Kreatinin im Serum",
+                    "erhöhtes Kreatinin",
+                    "Nierenfunktion"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein erhöhtes Kreatinin weist auf eine Nierenschädigung hin.",
+                  "answer": "Kreatinin",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Kreatinin wurde wiederholt, um das Nierenversagen zu bestätigen.",
+                  "answer": "Kreatinin",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1115,10 +2084,29 @@
                   "text": "Serum",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Serum (plural: die Seren). Parte líquida do sangue sem fatores de coagulação.",
+                  "collocations": [
+                    "Serumspiegel",
+                    "Serum abnehmen",
+                    "Serumeiweiß"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Kaliumspiegel im Serum war normal.",
+                  "answer": "Serum",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Dem Patienten wurde Serum zur Untersuchung entnommen.",
+                  "answer": "Serum",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1134,10 +2122,29 @@
                   "text": "Urinuntersuchung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Urinuntersuchung; também \"Urinstatus\" (exame de rotina).",
+                  "collocations": [
+                    "Urinuntersuchung",
+                    "Urinprobe",
+                    "Urinstatus"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Bei Verdacht auf einen Infekt wurde eine Urinuntersuchung veranlasst.",
+                  "answer": "Urinuntersuchung",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Urinuntersuchung zeigte Eiweiß und rote Blutkörperchen.",
+                  "answer": "Urinuntersuchung",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1153,10 +2160,29 @@
                   "text": "Kultur",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kultur (microbiológica); \"Blutkultur\" é a mais pedida. Não confundir com \"cultura\" social.",
+                  "collocations": [
+                    "Blutkultur",
+                    "Urinkultur",
+                    "Antibiogramm"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Kultur war positiv für Staphylococcus aureus.",
+                  "answer": "Kultur",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Man wartet das Ergebnis der Kultur ab, bevor das Antibiotikum angepasst wird.",
+                  "answer": "Kultur",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1186,10 +2212,29 @@
                   "text": "Ultraschall",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Ultraschall; o exame: die Sonografie. Comum: \"Ultraschalluntersuchung\".",
+                  "collocations": [
+                    "Ultraschall des Bauches",
+                    "Sonografie",
+                    "Ultraschalluntersuchung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Ultraschall zeigte Gallensteine in der Gallenblase.",
+                  "answer": "Ultraschall",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde ein Ultraschall der Beinvenen durchgeführt.",
+                  "answer": "Ultraschall",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1205,10 +2250,29 @@
                   "text": "Computertomographie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Computertomographie (CT), também \"Computertomografie\" na nova ortografia.",
+                  "collocations": [
+                    "CT mit Kontrastmittel",
+                    "Computertomographie des Thorax",
+                    "CT-Befund"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Computertomographie schloss eine Hirnblutung aus.",
+                  "answer": "Computertomographie",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde eine Computertomographie des Bauches angefordert.",
+                  "answer": "Computertomographie",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1224,10 +2288,29 @@
                   "text": "Magnetresonanztomographie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Magnetresonanztomographie (MRT; na fala: \"Kernspin\").",
+                  "collocations": [
+                    "MRT des Kopfes",
+                    "Kernspintomographie",
+                    "MRT-Befund"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Magnetresonanztomographie des Kopfes zeigte keine Läsion.",
+                  "answer": "Magnetresonanztomographie",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Mit einem Herzschrittmacher ist eine Magnetresonanztomographie nur eingeschränkt möglich.",
+                  "answer": "Magnetresonanztomographie",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1243,10 +2326,29 @@
                   "text": "Röntgenaufnahme",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Röntgenaufnahme (plural: die Röntgenaufnahmen); também \"Röntgenbild\".",
+                  "collocations": [
+                    "Röntgenaufnahme des Thorax",
+                    "Röntgenbild",
+                    "Aufnahme in zwei Ebenen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Röntgenaufnahme des Thorax war unauffällig.",
+                  "answer": "Röntgenaufnahme",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nach dem Sturz wurde eine Röntgenaufnahme des Knies angefertigt.",
+                  "answer": "Röntgenaufnahme",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1262,10 +2364,29 @@
                   "text": "Kontrastmittel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Kontrastmittel (plural: die Kontrastmittel). Substância injetada para melhorar a imagem.",
+                  "collocations": [
+                    "Kontrastmittel spritzen",
+                    "jodhaltiges Kontrastmittel",
+                    "Kontrastmittelallergie"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Vor der CT wurde ein Kontrastmittel intravenös verabreicht.",
+                  "answer": "Kontrastmittel",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient hat eine Allergie gegen jodhaltiges Kontrastmittel.",
+                  "answer": "Kontrastmittel",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1281,10 +2402,29 @@
                   "text": "Läsion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Läsion (plural: die Läsionen). Alteração de tecido; descreva tamanho e local.",
+                  "collocations": [
+                    "Hautläsion",
+                    "verdächtige Läsion",
+                    "raumfordernde Läsion"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "In der rechten Leber wurde eine Läsion von zwei Zentimetern gefunden.",
+                  "answer": "Läsion",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Läsion der Haut sollte dermatologisch abgeklärt werden.",
+                  "answer": "Läsion",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1314,10 +2454,29 @@
                   "text": "Hauptbeschwerde",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Hauptbeschwerde (plural: die Hauptbeschwerden). Motivo da consulta, nas palavras do paciente.",
+                  "collocations": [
+                    "Hauptbeschwerde",
+                    "Aufnahmegrund",
+                    "Beschwerden erfragen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Hauptbeschwerde war Brustschmerz seit zwei Stunden.",
+                  "answer": "Hauptbeschwerde",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "In der Akte wird die Hauptbeschwerde des Patienten festgehalten.",
+                  "answer": "Hauptbeschwerde",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1333,10 +2492,29 @@
                   "text": "Krankengeschichte",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Krankengeschichte; \"Anamnese\" é a entrevista; \"Krankengeschichte\" também é o histórico.",
+                  "collocations": [
+                    "Krankengeschichte",
+                    "Anamnese erheben",
+                    "Vorerkrankungen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Krankengeschichte enthält eine frühere Knieoperation.",
+                  "answer": "Krankengeschichte",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor der Verordnung prüfen wir die Krankengeschichte.",
+                  "answer": "Krankengeschichte",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1352,10 +2530,29 @@
                   "text": "körperliche Untersuchung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die körperliche Untersuchung (adjetivo declinado). Também \"klinische Untersuchung\".",
+                  "collocations": [
+                    "körperliche Untersuchung",
+                    "klinische Untersuchung",
+                    "Untersuchungsbefund"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die körperliche Untersuchung ergab keine Warnzeichen.",
+                  "answer": "körperliche Untersuchung",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine körperliche Untersuchung ergab ein Herzgeräusch.",
+                  "answer": "körperliche Untersuchung",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1371,10 +2568,29 @@
                   "text": "Vitalzeichen",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: die Vitalzeichen. Temperatur, Puls, Blutdruck, Atemfrequenz, Sauerstoffsättigung.",
+                  "collocations": [
+                    "Vitalzeichen kontrollieren",
+                    "stabile Vitalzeichen",
+                    "Vitalzeichen messen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Vitalzeichen werden alle vier Stunden kontrolliert.",
+                  "answer": "Vitalzeichen",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient kam mit stabilen Vitalzeichen an.",
+                  "answer": "Vitalzeichen",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1390,10 +2606,29 @@
                   "text": "Einwilligung nach Aufklärung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Einwilligung nach Aufklärung (comum também \"Einverständniserklärung\"). Documento assinado antes de procedimentos.",
+                  "collocations": [
+                    "Einwilligung nach Aufklärung",
+                    "Einverständniserklärung",
+                    "schriftliche Einwilligung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient unterschrieb die Einwilligung nach Aufklärung vor der Operation.",
+                  "answer": "Einwilligung nach Aufklärung",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ohne die Einwilligung nach Aufklärung darf der Eingriff nicht stattfinden.",
+                  "answer": "Einwilligung nach Aufklärung",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1409,10 +2644,29 @@
                   "text": "Entlassungsbericht",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Entlassungsbericht (também \"Arztbrief\"). Resume diagnóstico, tratamento e seguimento.",
+                  "collocations": [
+                    "Entlassungsbericht",
+                    "Arztbrief",
+                    "Entlassungsbericht schreiben"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Entlassungsbericht enthält die Diagnose und die Therapie.",
+                  "answer": "Entlassungsbericht",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Arzt übergab dem Patienten den Entlassungsbericht.",
+                  "answer": "Entlassungsbericht",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]

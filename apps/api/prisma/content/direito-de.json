@@ -25,10 +25,29 @@
                   "text": "Gesetz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gesetz (plural: die Gesetze). Norma aprovada pelo legislativo; a \"Verordnung\" vem do executivo.",
+                  "collocations": [
+                    "Gesetz erlassen",
+                    "geltendes Gesetz",
+                    "Gesetz in Kraft setzen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gesetz trat am ersten Januar in Kraft.",
+                  "answer": "Gesetz",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Parlament verabschiedete ein Gesetz zum Schutz der Verbraucher.",
+                  "answer": "Gesetz",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -44,10 +63,29 @@
                   "text": "Verordnung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verordnung (plural: die Verordnungen). Norma administrativa que detalha uma lei.",
+                  "collocations": [
+                    "EU-Verordnung",
+                    "Verordnung erlassen",
+                    "Verordnung zur Datenschutzgrundlage"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Verordnung regelt die Einzelheiten des Gesetzes.",
+                  "answer": "Verordnung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Unternehmen veröffentlichte eine Verordnung zur Nutzung der Daten.",
+                  "answer": "Verordnung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -63,10 +101,29 @@
                   "text": "Gerichtsbarkeit",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Gerichtsbarkeit (também \"Zuständigkeit\" para competência).",
+                  "collocations": [
+                    "ordentliche Gerichtsbarkeit",
+                    "Zuständigkeit des Gerichts",
+                    "Verwaltungsgerichtsbarkeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Fall gehört zur ordentlichen Gerichtsbarkeit.",
+                  "answer": "Gerichtsbarkeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht erklärte, es habe keine Gerichtsbarkeit über die Sache.",
+                  "answer": "Gerichtsbarkeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -82,10 +139,29 @@
                   "text": "Präzedenzfall",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Präzedenzfall (plural: die Präzedenzfälle). Pesa menos que no common law; a \"ständige Rechtsprechung\" é a jurisprudência.",
+                  "collocations": [
+                    "Präzedenzfall schaffen",
+                    "ständige Rechtsprechung",
+                    "Präzedenzfall berufen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Urteil schafft einen Präzedenzfall für ähnliche Verfahren.",
+                  "answer": "Präzedenzfall",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Anwalt berief sich auf einen Präzedenzfall des Bundesgerichtshofs.",
+                  "answer": "Präzedenzfall",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -101,10 +177,29 @@
                   "text": "Gericht",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gericht (plural: die Gerichte). Níveis: Amtsgericht, Landgericht, Bundesgerichtshof.",
+                  "collocations": [
+                    "Amtsgericht",
+                    "vor Gericht erscheinen",
+                    "höheres Gericht"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht verkündete das Urteil im Februar.",
+                  "answer": "Gericht",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Verteidigung legte Berufung bei einem höheren Gericht ein.",
+                  "answer": "Gericht",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +215,29 @@
                   "text": "Gesetzgebung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Gesetzgebung. Atividade e conjunto de normas; \"Gesetzgebungsverfahren\" é o processo.",
+                  "collocations": [
+                    "geltende Gesetzgebung",
+                    "Arbeitsrecht",
+                    "Gesetzgebung reformieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Gesetzgebung schützt die Rechte der Arbeitnehmer.",
+                  "answer": "Gesetzgebung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Gesetzgebung wurde reformiert, um Investitionen zu erleichtern.",
+                  "answer": "Gesetzgebung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -153,10 +267,29 @@
                   "text": "Vertrag",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Vertrag (plural: die Verträge). Verbos: einen Vertrag schließen, kündigen.",
+                  "collocations": [
+                    "Vertrag schließen",
+                    "Arbeitsvertrag",
+                    "Vertrag kündigen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Beide Parteien unterzeichneten den Vertrag vor dem Notar.",
+                  "answer": "Vertrag",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Vertrag legt Preis und Lieferfrist fest.",
+                  "answer": "Vertrag",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -172,10 +305,29 @@
                   "text": "Klausel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Klausel (plural: die Klauseln). Cada disposição do contrato; \"AGB-Klausel\" abusiva é nula.",
+                  "collocations": [
+                    "Vertraulichkeitsklausel",
+                    "unwirksame Klausel",
+                    "Klausel streichen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Klausel zur Vertraulichkeit bindet beide Parteien.",
+                  "answer": "Klausel",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine unwirksame Klausel wurde aus dem Vertrag gestrichen.",
+                  "answer": "Klausel",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -191,10 +343,29 @@
                   "text": "Vertragsverletzung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Vertragsverletzung (plural: die Vertragsverletzungen). Descumprimento de contrato.",
+                  "collocations": [
+                    "schwere Vertragsverletzung",
+                    "Schadensersatz wegen Vertragsverletzung",
+                    "Vertragsbruch"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Vertragsverletzung berechtigt zur Kündigung des Vertrags.",
+                  "answer": "Vertragsverletzung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Unternehmen forderte Schadensersatz wegen der Vertragsverletzung.",
+                  "answer": "Vertragsverletzung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -210,10 +381,29 @@
                   "text": "Gegenleistung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Gegenleistung (plural: die Gegenleistungen). Aquilo que cada parte entrega em troca.",
+                  "collocations": [
+                    "angemessene Gegenleistung",
+                    "ohne Gegenleistung",
+                    "Leistung und Gegenleistung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Gegenleistung für den Dienst ist eine monatliche Gebühr.",
+                  "answer": "Gegenleistung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Vertrag ohne Gegenleistung kann eine Schenkung sein.",
+                  "answer": "Gegenleistung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +419,29 @@
                   "text": "Haftung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Haftung (plural: die Haftungen). Pode ser civil ou penal; \"GmbH\" = responsabilidade limitada.",
+                  "collocations": [
+                    "Haftung ausschließen",
+                    "beschränkte Haftung",
+                    "zivilrechtliche Haftung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Haftung deckt Schäden ab, die Dritten entstanden sind.",
+                  "answer": "Haftung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Gesellschafter einer GmbH haftet nur mit dem Kapital im Rahmen seiner Haftung.",
+                  "answer": "Haftung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -248,10 +457,29 @@
                   "text": "Schadloshaltung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Schadloshaltung (termo formal); no uso comum: \"Entschädigung\" ou \"Schadensersatz\".",
+                  "collocations": [
+                    "Freistellung",
+                    "Entschädigung",
+                    "Schadensersatz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Schadloshaltung sichert den Käufer gegen Forderungen Dritter ab.",
+                  "answer": "Schadloshaltung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Vertrag ist eine Schadloshaltung des Auftraggebers vorgesehen.",
+                  "answer": "Schadloshaltung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -281,10 +509,29 @@
                   "text": "Kläger",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Kläger (plural: die Kläger). Quem propõe a ação civil.",
+                  "collocations": [
+                    "Kläger und Beklagter",
+                    "Kläger trägt vor",
+                    "klagende Partei"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Kläger fordert die Zahlung der Schuld.",
+                  "answer": "Kläger",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Kläger legte Beweise für den erlittenen Schaden vor.",
+                  "answer": "Kläger",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -300,10 +547,29 @@
                   "text": "Beklagter",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Beklagte, uma forma nominalizada de adjetivo (ein Beklagter, der Beklagte). Em penal: Angeklagter.",
+                  "collocations": [
+                    "Beklagter",
+                    "Beklagte Partei",
+                    "Klage beantworten"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Beklagter bestritt die Tatsachen in der Verhandlung.",
+                  "answer": "Beklagter",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Als Beklagter erhält man den Termin der Verhandlung per Post.",
+                  "answer": "Beklagter",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -319,10 +585,29 @@
                   "text": "Klage",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Klage (plural: die Klagen). Escrito que inicia o processo civil; \"Klage einreichen\".",
+                  "collocations": [
+                    "Klage einreichen",
+                    "Klage erheben",
+                    "Klage abweisen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Unternehmen reichte eine Klage gegen seinen früheren Partner ein.",
+                  "answer": "Klage",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht ließ die Klage zu.",
+                  "answer": "Klage",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -338,10 +623,29 @@
                   "text": "Beweis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Beweis (plural: die Beweise). Tipos: Urkundenbeweis, Zeugenbeweis, Sachverständigenbeweis.",
+                  "collocations": [
+                    "Beweis erbringen",
+                    "Beweismittel",
+                    "Beweis würdigen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Staatsanwalt legte einen entscheidenden Beweis vor.",
+                  "answer": "Beweis",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Richter lehnte den Beweis ab, weil er rechtswidrig erlangt wurde.",
+                  "answer": "Beweis",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -357,10 +661,29 @@
                   "text": "Zeugenaussage",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zeugenaussage (plural: die Zeugenaussagen). Declaração de uma testemunha em juízo.",
+                  "collocations": [
+                    "Zeugenaussage machen",
+                    "glaubwürdige Zeugenaussage",
+                    "Zeugenaussage verweigern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zeugenaussage des Nachbarn bestätigte die Version des Opfers.",
+                  "answer": "Zeugenaussage",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde die Zeugenaussage von drei Augenzeugen verlangt.",
+                  "answer": "Zeugenaussage",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -376,10 +699,29 @@
                   "text": "Urteilsspruch",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Urteilsspruch; o termo comum é \"Urteil\" (sentença). \"Verdict\" do júri é raro na Alemanha, sem júri.",
+                  "collocations": [
+                    "Urteilsspruch verkünden",
+                    "Schuldspruch",
+                    "Freispruch"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht verkündete den Urteilsspruch nach zwei Tagen.",
+                  "answer": "Urteilsspruch",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Verteidigung rechnete nicht mit einem Urteilsspruch auf schuldig.",
+                  "answer": "Urteilsspruch",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -409,10 +751,29 @@
                   "text": "Verbrechen",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Verbrechen (plural: die Verbrechen). No Código Penal alemão: crime com pena mínima de um ano.",
+                  "collocations": [
+                    "ein Verbrechen begehen",
+                    "schweres Verbrechen",
+                    "Freiheitsstrafe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Raub mit Gewalt gilt als Verbrechen.",
+                  "answer": "Verbrechen",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Verbrechen gegen das Eigentum wird mit Freiheitsstrafe bestraft.",
+                  "answer": "Verbrechen",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -428,10 +789,29 @@
                   "text": "Vergehen",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Vergehen (plural: die Vergehen). Infração menos grave, com pena menor de um ano.",
+                  "collocations": [
+                    "geringfügiges Vergehen",
+                    "Geldstrafe",
+                    "Vergehen ahnden"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Diebstahl geringen Werts ist ein Vergehen.",
+                  "answer": "Vergehen",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Richter verhängte eine Geldstrafe für das Vergehen.",
+                  "answer": "Vergehen",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -447,10 +827,29 @@
                   "text": "Anklageschrift",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Anklageschrift (plural: die Anklageschriften). Peça da promotoria que formaliza a acusação.",
+                  "collocations": [
+                    "Anklageschrift einreichen",
+                    "Anklage erheben",
+                    "Anklageschrift zustellen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Staatsanwaltschaft reichte eine Anklageschrift wegen Betrugs ein.",
+                  "answer": "Anklageschrift",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Anklageschrift enthält drei verschiedene Straftaten.",
+                  "answer": "Anklageschrift",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -466,10 +865,29 @@
                   "text": "Kaution",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kaution (plural: die Kautionen). Garantia para responder em liberdade.",
+                  "collocations": [
+                    "gegen Kaution freilassen",
+                    "Kaution hinterlegen",
+                    "hohe Kaution"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht ließ den Angeklagten gegen Kaution frei.",
+                  "answer": "Kaution",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Kaution wurde auf fünfzigtausend Euro festgesetzt.",
+                  "answer": "Kaution",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -485,10 +903,29 @@
                   "text": "Strafe",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Strafe (plural: die Strafen). Pena imposta; \"Freiheitsstrafe\" = prisão, \"Geldstrafe\" = multa.",
+                  "collocations": [
+                    "Freiheitsstrafe",
+                    "Geldstrafe",
+                    "Strafe verbüßen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht verhängte eine Strafe von vier Jahren Haft.",
+                  "answer": "Strafe",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Strafe wurde vom höheren Gericht bestätigt.",
+                  "answer": "Strafe",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -504,10 +941,29 @@
                   "text": "Freispruch",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Freispruch (plural: die Freisprüche). Decisão que declara o acusado não culpado.",
+                  "collocations": [
+                    "Freispruch fordern",
+                    "Freispruch aus Mangel an Beweisen",
+                    "Freispruch erster Klasse"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht sprach den Angeklagten mit einem Freispruch frei.",
+                  "answer": "Freispruch",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Staatsanwaltschaft verlangte den Freispruch mangels Beweisen.",
+                  "answer": "Freispruch",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -537,10 +993,29 @@
                   "text": "Aktionär",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Aktionär (plural: die Aktionäre). Dono de ações; \"Hauptversammlung\" é a assembleia.",
+                  "collocations": [
+                    "Mehrheitsaktionär",
+                    "Hauptversammlung",
+                    "Rechte des Aktionärs"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Aktionär hat in der Hauptversammlung ein Stimmrecht.",
+                  "answer": "Aktionär",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der größte Aktionär kontrolliert vierzig Prozent des Unternehmens.",
+                  "answer": "Aktionär",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -556,10 +1031,29 @@
                   "text": "Fusion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fusion (plural: die Fusionen). De empresas; \"Verschmelzung\" é o termo jurídico.",
+                  "collocations": [
+                    "Fusion genehmigen",
+                    "Verschmelzung",
+                    "Fusion von Unternehmen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Fusion schuf den größten Versicherer des Landes.",
+                  "answer": "Fusion",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Aktionäre stimmten der Fusion auf der Hauptversammlung zu.",
+                  "answer": "Fusion",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -575,10 +1069,29 @@
                   "text": "Insolvenz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Insolvenz (plural: die Insolvenzen). Em direito alemão: \"Insolvenzverfahren\"; \"Konkurs\" é termo antigo.",
+                  "collocations": [
+                    "Insolvenz anmelden",
+                    "Insolvenzverfahren",
+                    "Zahlungsunfähigkeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Unternehmen meldete nach dem Verlust seines größten Kunden Insolvenz an.",
+                  "answer": "Insolvenz",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht eröffnete ein Verfahren wegen Insolvenz.",
+                  "answer": "Insolvenz",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -594,10 +1107,29 @@
                   "text": "Treuepflicht",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Treuepflicht (plural: die Treuepflichten). Dever de lealdade e boa-fé no interesse de outro.",
+                  "collocations": [
+                    "Treuepflicht verletzen",
+                    "Treuepflicht des Vorstands",
+                    "Sorgfalts- und Treuepflicht"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Vorstand hat eine Treuepflicht gegenüber den Aktionären.",
+                  "answer": "Treuepflicht",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Geschäftsführer verletzte seine Treuepflicht, als er den Interessenkonflikt verschwieg.",
+                  "answer": "Treuepflicht",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -613,10 +1145,29 @@
                   "text": "Sorgfaltsprüfung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Sorgfaltsprüfung; no meio empresarial é comum o termo inglês \"Due Diligence\".",
+                  "collocations": [
+                    "Sorgfaltsprüfung durchführen",
+                    "Due Diligence",
+                    "Prüfbericht"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Käufer führte vor dem Abschluss eine Sorgfaltsprüfung durch.",
+                  "answer": "Sorgfaltsprüfung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Sorgfaltsprüfung deckte verdeckte Schulden des Unternehmens auf.",
+                  "answer": "Sorgfaltsprüfung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -632,10 +1183,29 @@
                   "text": "geistiges Eigentum",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das geistige Eigentum. Inclui direitos autorais, patentes e marcas.",
+                  "collocations": [
+                    "geistiges Eigentum schützen",
+                    "Rechte an geistigem Eigentum",
+                    "Patent"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Man muss geistiges Eigentum durch Patente und Marken schützen.",
+                  "answer": "geistiges Eigentum",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Patentanmeldung sichert geistiges Eigentum an der Erfindung.",
+                  "answer": "geistiges Eigentum",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -665,10 +1235,29 @@
                   "text": "Anwaltsgeheimnis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Anwaltsgeheimnis (também \"anwaltliche Verschwiegenheit\"). O advogado não pode revelar o que o cliente confia.",
+                  "collocations": [
+                    "Anwaltsgeheimnis wahren",
+                    "Anwaltsgeheimnis verletzen",
+                    "anwaltliche Verschwiegenheit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Rechtsanwalt ist durch das Anwaltsgeheimnis geschützt.",
+                  "answer": "Anwaltsgeheimnis",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht erkannte an, dass das Anwaltsgeheimnis die Aussage verbot.",
+                  "answer": "Anwaltsgeheimnis",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -684,10 +1273,29 @@
                   "text": "eidesstattliche Erklärung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die eidesstattliche Erklärung (adjetivo declinado). Declaração com valor de prova, sob juramento.",
+                  "collocations": [
+                    "eidesstattliche Erklärung abgeben",
+                    "falsche eidesstattliche Erklärung",
+                    "Versicherung an Eides statt"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Zeuge gab eine eidesstattliche Erklärung vor dem Notar ab.",
+                  "answer": "eidesstattliche Erklärung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wer eine falsche eidesstattliche Erklärung abgibt, macht sich strafbar.",
+                  "answer": "eidesstattliche Erklärung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -703,10 +1311,29 @@
                   "text": "Vorladung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Vorladung (plural: die Vorladungen). Ordem para comparecer ou entregar documentos.",
+                  "collocations": [
+                    "Vorladung erhalten",
+                    "Vorladung als Zeuge",
+                    "Vorladung ignorieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Zeuge erhielt eine Vorladung für Montag.",
+                  "answer": "Vorladung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wer eine Vorladung ignoriert, riskiert ein Ordnungsgeld.",
+                  "answer": "Vorladung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -722,10 +1349,29 @@
                   "text": "Vergleich",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Vergleich (plural: die Vergleiche). Encerra o litígio por acordo; \"gerichtlicher Vergleich\".",
+                  "collocations": [
+                    "Vergleich schließen",
+                    "gerichtlicher Vergleich",
+                    "außergerichtlicher Vergleich"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Parteien schlossen vor der Verhandlung einen Vergleich.",
+                  "answer": "Vergleich",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Vergleich beendete einen Streit von drei Jahren.",
+                  "answer": "Vergleich",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -741,10 +1387,29 @@
                   "text": "einstweilige Verfügung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: einstweilige Verfügung (adjetivo declinado). Ordem urgente para evitar dano.",
+                  "collocations": [
+                    "einstweilige Verfügung beantragen",
+                    "einstweilige Verfügung erlassen",
+                    "Eilverfahren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Richter erließ eine einstweilige Verfügung, um die Bauarbeiten zu stoppen.",
+                  "answer": "einstweilige Verfügung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Unternehmen beantragte eine einstweilige Verfügung gegen die Veröffentlichung des Buches.",
+                  "answer": "einstweilige Verfügung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -760,10 +1425,29 @@
                   "text": "Rechtsberatung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Rechtsberatung. Aconselhamento jurídico; também o departamento jurídico.",
+                  "collocations": [
+                    "Rechtsberatung in Anspruch nehmen",
+                    "Rechtsabteilung",
+                    "Rechtsberatung einholen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Rechtsberatung prüfte den Vertrag vor der Unterschrift.",
+                  "answer": "Rechtsberatung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor der Antwort holten wir die Rechtsberatung der Firma ein.",
+                  "answer": "Rechtsberatung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]

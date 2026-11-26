@@ -34,10 +34,29 @@
                   "text": "Variable",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Variable (plural: die Variablen). Em código, nomes de variáveis costumam ser em inglês.",
+                  "collocations": [
+                    "Variable deklarieren",
+                    "globale Variable",
+                    "lokale Variable"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Man muss die Variable vor der Benutzung deklarieren.",
+                  "answer": "Variable",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Fehler entsteht durch eine nicht initialisierte Variable.",
+                  "answer": "Variable",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -53,10 +72,29 @@
                   "text": "Funktion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Funktion (plural: die Funktionen). Em código fica \"function\" ou \"def\"; no texto, \"Funktion\".",
+                  "collocations": [
+                    "Funktion aufrufen",
+                    "rekursive Funktion",
+                    "anonyme Funktion"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Funktion gibt die Summe der beiden Zahlen zurück.",
+                  "answer": "Funktion",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Funktion sollte nur eine Aufgabe erfüllen.",
+                  "answer": "Funktion",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -72,10 +110,29 @@
                   "text": "Parameter",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Parameter (plural: die Parameter). É o nome na definição; o valor passado é o \"Argument\".",
+                  "collocations": [
+                    "optionaler Parameter",
+                    "Parameter übergeben",
+                    "Eingabeparameter"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der zweite Parameter ist optional und hat den Standardwert null.",
+                  "answer": "Parameter",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Schnittstelle akzeptiert einen Parameter für die Suche in der URL.",
+                  "answer": "Parameter",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -91,10 +148,29 @@
                   "text": "Argument",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Argument (plural: die Argumente). É o valor concreto passado na chamada.",
+                  "collocations": [
+                    "Argument übergeben",
+                    "positionelles Argument",
+                    "Standardargument"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Bei jedem Aufruf wird ein Argument an die Funktion übergeben.",
+                  "answer": "Argument",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Skript bricht ab, wenn ein Argument fehlt.",
+                  "answer": "Argument",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "text": "Rückgabewert",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Rückgabewert (plural: die Rückgabewerte). Valor que a função devolve.",
+                  "collocations": [
+                    "Rückgabewert prüfen",
+                    "Typ des Rückgabewerts",
+                    "Rückgabewert ignorieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Rückgabewert der Funktion ist eine ganze Zahl.",
+                  "answer": "Rückgabewert",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Prüfe den Rückgabewert, bevor du fortfährst.",
+                  "answer": "Rückgabewert",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -129,10 +224,29 @@
                   "text": "Schleife",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Schleife (plural: die Schleifen). Tipos: for-Schleife, while-Schleife, Endlosschleife.",
+                  "collocations": [
+                    "Endlosschleife",
+                    "for-Schleife",
+                    "Schleife verlassen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Programm blieb in einer Schleife ohne Ende hängen.",
+                  "answer": "Schleife",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Liste wird mit einer Schleife durchlaufen.",
+                  "answer": "Schleife",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -155,10 +269,29 @@
                   "text": "Array",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Mantém-se \"Array\" em alemão (neutro: das Array), plural: die Arrays. Também \"Feld\" (arcaico).",
+                  "collocations": [
+                    "Array von Zahlen",
+                    "Array durchlaufen",
+                    "Länge des Arrays"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Array enthält die Kennungen der Benutzer.",
+                  "answer": "Array",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Man durchläuft das Array mit einer Schleife und addiert die Werte.",
+                  "answer": "Array",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -174,10 +307,29 @@
                   "text": "Hashmap",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Hashmap (ou Hash-Map); \"Hashtabelle\" é o termo acadêmico. Associa chaves a valores.",
+                  "collocations": [
+                    "Hashmap",
+                    "Schlüssel und Wert",
+                    "Hashtabelle"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Hashmap ermöglicht den Zugriff in konstanter Zeit.",
+                  "answer": "Hashmap",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Benutzer wird in einer Hashmap über seine E-Mail gespeichert.",
+                  "answer": "Hashmap",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -193,10 +345,29 @@
                   "text": "Zeichenkette",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zeichenkette (plural: die Zeichenketten). Em código: \"String\" (masculino).",
+                  "collocations": [
+                    "leere Zeichenkette",
+                    "Zeichenkette verketten",
+                    "Länge der Zeichenkette"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zeichenkette wird im JSON-Format empfangen.",
+                  "answer": "Zeichenkette",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wird geprüft, dass keine leere Zeichenkette ankommt.",
+                  "answer": "Zeichenkette",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -212,10 +383,29 @@
                   "text": "boolescher Wert",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "\"boolescher Wert\" (masculino): vem de George Boole, por isso minúsculo e com \"oo\". Valores: wahr/falsch.",
+                  "collocations": [
+                    "boolescher Wert",
+                    "boolesche Variable",
+                    "boolescher Ausdruck"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein boolescher Wert kann nur wahr oder falsch sein.",
+                  "answer": "boolescher Wert",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein boolescher Wert entscheidet, ob der Block läuft.",
+                  "answer": "boolescher Wert",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -231,10 +421,29 @@
                   "text": "Nullreferenz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Nullreferenz (plural: die Nullreferenzen). Causa clássica de erros como NullPointerException.",
+                  "collocations": [
+                    "Nullreferenz",
+                    "Nullreferenz vermeiden",
+                    "Fehler durch Nullreferenz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Anwendung stürzte wegen einer Nullreferenz ab.",
+                  "answer": "Nullreferenz",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Man verhindert eine Nullreferenz, indem man den Wert vorher prüft.",
+                  "answer": "Nullreferenz",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -250,10 +459,29 @@
                   "text": "Ausnahme",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ausnahme (plural: die Ausnahmen). Verbos: eine Ausnahme auslösen, abfangen.",
+                  "collocations": [
+                    "Ausnahme auslösen",
+                    "Ausnahme abfangen",
+                    "unbehandelte Ausnahme"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Server protokollierte eine unbehandelte Ausnahme.",
+                  "answer": "Ausnahme",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Ausnahme wird abgefangen, um dem Benutzer eine klare Meldung zu zeigen.",
+                  "answer": "Ausnahme",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -283,10 +511,29 @@
                   "text": "Endpunkt",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Endpunkt (plural: die Endpunkte); também se vê \"Endpoint\".",
+                  "collocations": [
+                    "Endpunkt der API",
+                    "öffentlicher Endpunkt",
+                    "Endpunkt aufrufen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Endpunkt der API liefert Daten im JSON-Format.",
+                  "answer": "Endpunkt",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Endpunkt, der Bestellungen anlegt, wurde dokumentiert.",
+                  "answer": "Endpunkt",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -302,10 +549,29 @@
                   "text": "Abhängigkeit",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Abhängigkeit (plural: die Abhängigkeiten). Pacote externo de que o projeto depende.",
+                  "collocations": [
+                    "Abhängigkeit aktualisieren",
+                    "externe Abhängigkeit",
+                    "Abhängigkeit installieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Man muss die Abhängigkeit aktualisieren, um die Schwachstelle zu schließen.",
+                  "answer": "Abhängigkeit",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Diese Abhängigkeit macht das Paket um zweihundert Kilobyte größer.",
+                  "answer": "Abhängigkeit",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -321,10 +587,29 @@
                   "text": "Abstraktion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Abstraktion (plural: die Abstraktionen). Oculta detalhes e expõe o essencial.",
+                  "collocations": [
+                    "Abstraktionsebene",
+                    "zu hohe Abstraktion",
+                    "Schicht der Abstraktion"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Schnittstelle ist eine Abstraktion, die die Datenbank verbirgt.",
+                  "answer": "Abstraktion",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine schlecht gewählte Abstraktion erschwert die Wartung des Codes.",
+                  "answer": "Abstraktion",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -340,10 +625,29 @@
                   "text": "Middleware",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Middleware. Fica entre a requisição e o manipulador final.",
+                  "collocations": [
+                    "Middleware hinzufügen",
+                    "Authentifizierungs-Middleware",
+                    "Reihenfolge der Middleware"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Middleware prüft das Token, bevor die Anfrage den Controller erreicht.",
+                  "answer": "Middleware",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir haben eine Middleware zum Protokollieren jeder Anfrage ergänzt.",
+                  "answer": "Middleware",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -359,10 +663,29 @@
                   "text": "Schema",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Schema (plural: die Schemata ou Schemas). Em bancos de dados: Datenbankschema.",
+                  "collocations": [
+                    "Datenbankschema",
+                    "JSON-Schema",
+                    "Schema validieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Schema legt die Tabellen und Spalten der Datenbank fest.",
+                  "answer": "Schema",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Schnittstelle lehnt jede Eingabe ab, die dem Schema nicht entspricht.",
+                  "answer": "Schema",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -378,10 +701,29 @@
                   "text": "Nutzlast",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Nutzlast (plural: die Nutzlasten). Parte de dados de uma mensagem; \"Payload\" também se usa.",
+                  "collocations": [
+                    "Nutzlast der Anfrage",
+                    "Größe der Nutzlast",
+                    "Nutzlast prüfen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Nutzlast der Anfrage enthält die Daten der Bestellung.",
+                  "answer": "Nutzlast",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Server begrenzt die Nutzlast auf ein Megabyte.",
+                  "answer": "Nutzlast",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -404,10 +746,29 @@
                   "text": "Abfrage",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Abfrage (plural: die Abfragen). Em SQL: \"SQL-Abfrage\". Também significa consulta em geral.",
+                  "collocations": [
+                    "SQL-Abfrage",
+                    "Abfrage ausführen",
+                    "Abfrage optimieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Abfrage auf die Tabelle der Bestellungen dauerte zehn Sekunden.",
+                  "answer": "Abfrage",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Abfrage wurde durch einen zusätzlichen Index beschleunigt.",
+                  "answer": "Abfrage",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -423,10 +784,29 @@
                   "text": "Transaktion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Transaktion (plural: die Transaktionen). Em bancos de dados: tudo ou nada (ACID).",
+                  "collocations": [
+                    "Transaktion starten",
+                    "Transaktion bestätigen",
+                    "Transaktion zurückrollen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Schlägt etwas fehl, wird die gesamte Transaktion zurückgerollt.",
+                  "answer": "Transaktion",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Transaktion stellt sicher, dass Zahlung und Bestand gemeinsam aktualisiert werden.",
+                  "answer": "Transaktion",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -442,10 +822,29 @@
                   "text": "Index",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Index (plural: die Indizes ou Indexe). Acelera consultas; também a posição em um array.",
+                  "collocations": [
+                    "Index anlegen",
+                    "eindeutiger Index",
+                    "zusammengesetzter Index"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Index auf der Spalte der E-Mail beschleunigt die Suche.",
+                  "answer": "Index",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der eindeutige Index verhindert doppelte Benutzernamen.",
+                  "answer": "Index",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -461,10 +860,29 @@
                   "text": "Migration",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Migration (plural: die Migrationen). Mudança versionada do esquema do banco.",
+                  "collocations": [
+                    "Migration ausführen",
+                    "Datenmigration",
+                    "Migration zurücknehmen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Migration fügt der Tabelle der Benutzer eine Spalte für das Datum hinzu.",
+                  "answer": "Migration",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor der Veröffentlichung läuft jede Migration auf dem Testserver.",
+                  "answer": "Migration",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -480,10 +898,29 @@
                   "text": "Cache",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino em alemão: der Cache (pronúncia \"késch\"); plural: die Caches. Guarda dados para acesso rápido.",
+                  "collocations": [
+                    "Cache leeren",
+                    "Cache-Speicher",
+                    "Cache invalidieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Cache speichert das Ergebnis, damit die Abfrage nicht wiederholt wird.",
+                  "answer": "Cache",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ändert sich der Preis, muss man den Cache invalidieren.",
+                  "answer": "Cache",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -499,10 +936,29 @@
                   "text": "Latenz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Latenz (plural: die Latenzen). Tempo entre pedido e resposta, em milissegundos.",
+                  "collocations": [
+                    "hohe Latenz",
+                    "Latenz der Verbindung",
+                    "Latenz senken"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Latenz zwischen den Servern beträgt zwanzig Millisekunden.",
+                  "answer": "Latenz",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Durch den Umzug des Servers in eine andere Region sank die Latenz.",
+                  "answer": "Latenz",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -532,10 +988,29 @@
                   "text": "Repository",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Repository (plural: die Repositories); a abreviação é \"Repo\".",
+                  "collocations": [
+                    "Repository klonen",
+                    "entferntes Repository",
+                    "privates Repository"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Repository wurde auf den lokalen Rechner geklont.",
+                  "answer": "Repository",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Repository enthält den Code und den Verlauf der Änderungen.",
+                  "answer": "Repository",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -551,10 +1026,29 @@
                   "text": "Commit",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Commit (plural: die Commits). Verbo: committen.",
+                  "collocations": [
+                    "Commit erstellen",
+                    "Commit-Nachricht",
+                    "atomarer Commit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Commit sollte genau eine Änderung beschreiben.",
+                  "answer": "Commit",
+                  "documentType": "COMMIT_MESSAGE"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Commit-Nachricht erklärt den Grund der Änderung.",
+                  "answer": "Commit",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -570,10 +1064,29 @@
                   "text": "Branch",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Branch (plural: die Branches); \"Zweig\" é a tradução literal, pouco usada.",
+                  "collocations": [
+                    "Branch erstellen",
+                    "Hauptbranch",
+                    "Branch zusammenführen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Für die Fehlerbehebung wurde ein neuer Branch angelegt.",
+                  "answer": "Branch",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Auf den Branch main gelangen nur geprüfte Änderungen.",
+                  "answer": "Branch",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -589,10 +1102,29 @@
                   "text": "Merge-Konflikt",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Merge-Konflikt (plural: die Merge-Konflikte). Quando dois branches mudam a mesma linha.",
+                  "collocations": [
+                    "Merge-Konflikt lösen",
+                    "Merge-Konflikt in der Datei",
+                    "Konflikte vermeiden"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Beim Zusammenführen trat ein Merge-Konflikt in der Konfigurationsdatei auf.",
+                  "answer": "Merge-Konflikt",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ich habe den Merge-Konflikt gelöst und beide Änderungen übernommen.",
+                  "answer": "Merge-Konflikt",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -608,10 +1140,29 @@
                   "text": "Pull-Request",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Pull-Request (abreviação: PR). Pedido de revisão e integração de mudanças.",
+                  "collocations": [
+                    "Pull-Request öffnen",
+                    "Pull-Request prüfen",
+                    "Pull-Request freigeben"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ich habe einen Pull-Request mit den Änderungen an der Zahlung geöffnet.",
+                  "answer": "Pull-Request",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Zwei Kollegen prüften den Pull-Request, bevor er zusammengeführt wurde.",
+                  "answer": "Pull-Request",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -627,10 +1178,29 @@
                   "text": "Rollback",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Rollback (plural: die Rollbacks). Volta o sistema ao estado anterior.",
+                  "collocations": [
+                    "Rollback durchführen",
+                    "Rollback-Plan",
+                    "automatischer Rollback"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Nach dem Fehler stellte ein Rollback die vorherige Version wieder her.",
+                  "answer": "Rollback",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor der Veröffentlichung bereiten wir einen Rollback-Plan vor.",
+                  "answer": "Rollback",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -653,10 +1223,29 @@
                   "text": "Refactoring",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Refactoring (plural: die Refactorings). Melhora a estrutura sem mudar o comportamento.",
+                  "collocations": [
+                    "Refactoring durchführen",
+                    "größeres Refactoring",
+                    "Tests vor dem Refactoring"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Refactoring vereinfachte das Modul, ohne sein Verhalten zu ändern.",
+                  "answer": "Refactoring",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor dem Refactoring schreiben wir Tests für das Modul.",
+                  "answer": "Refactoring",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -672,10 +1261,29 @@
                   "text": "Deprecation",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Deprecation; também \"Veraltung\" ou \"Abkündigung\" (aviso de remoção futura).",
+                  "collocations": [
+                    "Deprecation-Hinweis",
+                    "Deprecation ankündigen",
+                    "veraltete Funktion"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Deprecation der alten Version wurde sechs Monate vorher angekündigt.",
+                  "answer": "Deprecation",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Aufruf der Methode zeigt eine Warnung zur Deprecation.",
+                  "answer": "Deprecation",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -691,10 +1299,29 @@
                   "text": "technische Schulden",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: technische Schulden (feminino, sem singular usual). Atalhos que cobram \"juros\" depois.",
+                  "collocations": [
+                    "technische Schulden abbauen",
+                    "technische Schulden aufbauen",
+                    "hohe technische Schulden"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Team plant einen Sprint, um technische Schulden abzubauen.",
+                  "answer": "technische Schulden",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Hektische Auslieferung erzeugt technische Schulden, die später bezahlt werden müssen.",
+                  "answer": "technische Schulden",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -710,10 +1337,29 @@
                   "text": "Regression",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Regression (plural: die Regressionen). Falha de algo que funcionava antes.",
+                  "collocations": [
+                    "Regressionstest",
+                    "Regression einführen",
+                    "Leistungsregression"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die letzte Änderung führte eine Regression im Zahlungsmodul ein.",
+                  "answer": "Regression",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Tests entdeckten eine Regression vor der Veröffentlichung.",
+                  "answer": "Regression",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -729,10 +1375,29 @@
                   "text": "Deployment",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Deployment (plural: die Deployments). Levar uma versão ao ambiente; também \"Bereitstellung\".",
+                  "collocations": [
+                    "Deployment in Produktion",
+                    "kontinuierliches Deployment",
+                    "Bereitstellung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Deployment in Produktion findet dienstags statt.",
+                  "answer": "Deployment",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein automatisiertes Deployment verringert manuelle Fehler.",
+                  "answer": "Deployment",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -748,10 +1413,29 @@
                   "text": "Code-Review",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro ou masculino: der Code-Review (muito comum \"das Code-Review\"). Leitura crítica do código de outro membro.",
+                  "collocations": [
+                    "Code-Review durchführen",
+                    "Code-Review anfordern",
+                    "Kommentare im Code-Review"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Änderung durchläuft ein Code-Review, bevor sie zusammengeführt wird.",
+                  "answer": "Code-Review",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Code-Review wurde eine Sicherheitslücke entdeckt.",
+                  "answer": "Code-Review",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -781,10 +1465,29 @@
                   "text": "Anfrage",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Anfrage (plural: die Anfragen). Em HTTP: \"HTTP-Anfrage\".",
+                  "collocations": [
+                    "HTTP-Anfrage",
+                    "Anfrage senden",
+                    "fehlgeschlagene Anfrage"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Client sendet eine Anfrage mit dem Token an den Server.",
+                  "answer": "Anfrage",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Anfrage dauerte über dreißig Sekunden und lief in ein Timeout.",
+                  "answer": "Anfrage",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -800,10 +1503,29 @@
                   "text": "Antwort",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Antwort (plural: die Antworten). Em HTTP: \"HTTP-Antwort\", com status, headers e corpo.",
+                  "collocations": [
+                    "HTTP-Antwort",
+                    "Antwort des Servers",
+                    "Antwortzeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Antwort enthält den Statuscode und einen JSON-Body.",
+                  "answer": "Antwort",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nach dem letzten Update kam die Antwort viel später.",
+                  "answer": "Antwort",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -819,10 +1541,29 @@
                   "text": "Statuscode",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Statuscode (plural: die Statuscodes). Ex.: 200, 404, 500.",
+                  "collocations": [
+                    "Statuscode 404",
+                    "HTTP-Statuscode",
+                    "Statuscode zurückgeben"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Server lieferte den Statuscode 500.",
+                  "answer": "Statuscode",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Statuscode 201 zeigt an, dass die Ressource angelegt wurde.",
+                  "answer": "Statuscode",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -838,10 +1579,29 @@
                   "text": "Authentifizierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Authentifizierung. Confirma quem é o usuário; \"Autorisierung\" decide o que pode fazer.",
+                  "collocations": [
+                    "Zwei-Faktor-Authentifizierung",
+                    "Authentifizierung fehlgeschlagen",
+                    "Benutzerauthentifizierung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Authentifizierung mit zwei Faktoren schützt die Konten.",
+                  "answer": "Authentifizierung",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine fehlgeschlagene Authentifizierung liefert den Code 401.",
+                  "answer": "Authentifizierung",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -857,10 +1617,29 @@
                   "text": "Token",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Token (plural: die Token ou Tokens). Pode ser JWT, Zugriffstoken, Refresh-Token.",
+                  "collocations": [
+                    "Zugriffstoken",
+                    "abgelaufenes Token",
+                    "Token erneuern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Token läuft nach vierundzwanzig Stunden ab.",
+                  "answer": "Token",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Token wird im Header jeder Anfrage mitgesendet.",
+                  "answer": "Token",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -876,10 +1655,29 @@
                   "text": "Ratenbegrenzung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ratenbegrenzung (também \"Rate Limiting\"). Protege a API contra abuso.",
+                  "collocations": [
+                    "Ratenbegrenzung",
+                    "Ratenbegrenzung konfigurieren",
+                    "Fehler 429"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die API wendet eine Ratenbegrenzung von hundert Anfragen pro Minute an.",
+                  "answer": "Ratenbegrenzung",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei Überschreitung der Ratenbegrenzung liefert der Server den Fehler 429.",
+                  "answer": "Ratenbegrenzung",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -909,10 +1707,29 @@
                   "text": "Unit-Test",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Unit-Test (plural: die Unit-Tests); também \"Modultest\". Verifica uma unidade isolada.",
+                  "collocations": [
+                    "Unit-Test schreiben",
+                    "Unit-Test schlägt fehl",
+                    "Tests ausführen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede neue Funktion bekommt einen eigenen Unit-Test.",
+                  "answer": "Unit-Test",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Unit-Test schlägt fehl, sobald die Rabattberechnung geändert wird.",
+                  "answer": "Unit-Test",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -928,10 +1745,29 @@
                   "text": "Integrationstest",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Integrationstest (plural: die Integrationstests). Testa a interação entre módulos.",
+                  "collocations": [
+                    "Integrationstest",
+                    "Integrationstest mit Datenbank",
+                    "Test in der Pipeline"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Integrationstest prüft die Verbindung zur Datenbank.",
+                  "answer": "Integrationstest",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Integrationstest braucht länger als ein Unit-Test.",
+                  "answer": "Integrationstest",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -947,10 +1783,29 @@
                   "text": "Mock",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro ou masculino: das/der Mock (plural: die Mocks). Objeto que simula uma dependência.",
+                  "collocations": [
+                    "Mock erstellen",
+                    "Mock der Datenbank",
+                    "mit Mock simulieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Für den Test wurde ein Mock des Zahlungsdienstes erstellt.",
+                  "answer": "Mock",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Mock liefert immer dieselbe feste Antwort.",
+                  "answer": "Mock",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -966,10 +1821,29 @@
                   "text": "Codeabdeckung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Codeabdeckung (também \"Testabdeckung\"). Percentual do código executado pelos testes.",
+                  "collocations": [
+                    "Codeabdeckung",
+                    "Codeabdeckung erhöhen",
+                    "Bericht zur Codeabdeckung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Codeabdeckung des Projekts liegt bei achtzig Prozent.",
+                  "answer": "Codeabdeckung",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Team verlangt eine Mindest-Codeabdeckung vor dem Zusammenführen.",
+                  "answer": "Codeabdeckung",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -985,10 +1859,29 @@
                   "text": "Assertion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Assertion (plural: die Assertions). Verifica se algo é verdadeiro no teste.",
+                  "collocations": [
+                    "Assertion schlägt fehl",
+                    "Assertion hinzufügen",
+                    "Assertion im Test"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Assertion schlug fehl, weil der erwartete Wert anders war.",
+                  "answer": "Assertion",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Test sollte mindestens eine klare Assertion enthalten.",
+                  "answer": "Assertion",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1004,10 +1897,29 @@
                   "text": "instabiler Test",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: instabiler Test (adjetivo \"instabil\"); também \"flaky Test\". Falha e passa sem mudança no código.",
+                  "collocations": [
+                    "instabiler Test",
+                    "Test stabilisieren",
+                    "sporadischer Fehler"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein instabiler Test blockierte gestern das Deployment.",
+                  "answer": "instabiler Test",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein instabiler Test wurde markiert, damit man ihn später untersucht.",
+                  "answer": "instabiler Test",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1037,10 +1949,29 @@
                   "text": "Container",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Container (plural: die Container). Ambiente isolado, como o Docker.",
+                  "collocations": [
+                    "Docker-Container",
+                    "Container starten",
+                    "Container-Image"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Für jeden Test wird ein Container mit der Datenbank gestartet.",
+                  "answer": "Container",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Container bündelt die Anwendung mit ihren Abhängigkeiten.",
+                  "answer": "Container",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1056,10 +1987,29 @@
                   "text": "Pipeline",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Pipeline (plural: die Pipelines). Em CI/CD: build, testes e publicação automáticos.",
+                  "collocations": [
+                    "CI-Pipeline",
+                    "Pipeline ausführen",
+                    "Fehler in der Pipeline"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Pipeline baut den Code, führt die Tests aus und veröffentlicht das Image.",
+                  "answer": "Pipeline",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Fehler in der Pipeline verhindert eine neue Version.",
+                  "answer": "Pipeline",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1075,10 +2025,29 @@
                   "text": "Umgebungsvariable",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Umgebungsvariable (plural: die Umgebungsvariablen). Guarda configurações e segredos fora do código.",
+                  "collocations": [
+                    "Umgebungsvariable setzen",
+                    "geheime Umgebungsvariable",
+                    "Umgebungsvariablen lesen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Passwort der Datenbank steht in einer Umgebungsvariable.",
+                  "answer": "Umgebungsvariable",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Auf dem Produktionsserver fehlt noch eine Umgebungsvariable.",
+                  "answer": "Umgebungsvariable",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1094,10 +2063,29 @@
                   "text": "Load Balancer",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Load Balancer (ou Lastverteiler). Distribui requisições entre servidores.",
+                  "collocations": [
+                    "Load Balancer konfigurieren",
+                    "mehrere Server",
+                    "Lastverteilung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Load Balancer verteilt die Anfragen auf vier Server.",
+                  "answer": "Load Balancer",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Fällt ein Server aus, nutzt der Load Balancer ihn nicht mehr.",
+                  "answer": "Load Balancer",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1113,10 +2101,29 @@
                   "text": "Skalierbarkeit",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Skalierbarkeit. Capacidade de crescer sem perder desempenho.",
+                  "collocations": [
+                    "horizontale Skalierbarkeit",
+                    "Skalierbarkeit planen",
+                    "Problem mit der Skalierbarkeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die horizontale Skalierbarkeit erlaubt das Hinzufügen weiterer Server.",
+                  "answer": "Skalierbarkeit",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Entwurf muss die Skalierbarkeit von Anfang an berücksichtigen.",
+                  "answer": "Skalierbarkeit",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1132,10 +2139,29 @@
                   "text": "Verfügbarkeit",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verfügbarkeit (também \"Uptime\"). Percentual de tempo em que o serviço funciona.",
+                  "collocations": [
+                    "Verfügbarkeit des Dienstes",
+                    "hohe Verfügbarkeit",
+                    "Service-Level-Agreement"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Vertrag garantiert eine Verfügbarkeit von neunundneunzig Prozent.",
+                  "answer": "Verfügbarkeit",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Verfügbarkeit jedes Dienstes wird jede Minute gemessen.",
+                  "answer": "Verfügbarkeit",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1165,10 +2191,29 @@
                   "text": "Stack",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Stack (ou \"Stapel\"). Estrutura LIFO: o último a entrar é o primeiro a sair.",
+                  "collocations": [
+                    "Stack-Überlauf",
+                    "Element auf den Stack legen",
+                    "Aufrufstapel"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Beim Stack kommt das zuletzt eingefügte Element als Erstes heraus.",
+                  "answer": "Stack",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Rekursion ohne Ende lässt den Stack überlaufen.",
+                  "answer": "Stack",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1184,10 +2229,29 @@
                   "text": "Warteschlange",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Warteschlange (plural: die Warteschlangen). Estrutura FIFO; também fila de mensagens.",
+                  "collocations": [
+                    "Nachrichtenwarteschlange",
+                    "Aufgabe einreihen",
+                    "Warteschlange abarbeiten"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede neue Aufgabe wird am Ende der Warteschlange eingereiht.",
+                  "answer": "Warteschlange",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Warteschlange verteilt die Aufgaben auf mehrere Prozesse.",
+                  "answer": "Warteschlange",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1203,10 +2267,29 @@
                   "text": "verkettete Liste",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: verkettete Liste (adjetivo \"verkettet\"). Nós ligados por ponteiros.",
+                  "collocations": [
+                    "einfach verkettete Liste",
+                    "doppelt verkettete Liste",
+                    "verkettete Liste durchlaufen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine verkettete Liste besteht aus Knoten, und jeder Knoten zeigt auf den nächsten.",
+                  "answer": "verkettete Liste",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine verkettete Liste lässt sich am Anfang sehr schnell erweitern.",
+                  "answer": "verkettete Liste",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1222,10 +2305,29 @@
                   "text": "Rekursion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Rekursion (plural: die Rekursionen). Função que chama a si mesma.",
+                  "collocations": [
+                    "Abbruchbedingung der Rekursion",
+                    "endlose Rekursion",
+                    "Rekursionstiefe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Rekursion braucht eine Abbruchbedingung, um zu enden.",
+                  "answer": "Rekursion",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine endlose Rekursion verbraucht den gesamten Speicher.",
+                  "answer": "Rekursion",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1241,10 +2343,29 @@
                   "text": "Algorithmus",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Algorithmus (plural: die Algorithmen). Passos finitos para resolver um problema.",
+                  "collocations": [
+                    "Algorithmus entwerfen",
+                    "Sortieralgorithmus",
+                    "effizienter Algorithmus"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Algorithmus sortiert die Liste in logarithmischer Zeit.",
+                  "answer": "Algorithmus",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir haben zwei Versionen des Algorithmus für die Suche verglichen.",
+                  "answer": "Algorithmus",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1260,10 +2381,29 @@
                   "text": "Zeitkomplexität",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zeitkomplexität. Notação Big O: O(n), O(log n).",
+                  "collocations": [
+                    "lineare Zeitkomplexität",
+                    "Zeitkomplexität analysieren",
+                    "Zeitkomplexität des Algorithmus"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zeitkomplexität des Verfahrens ist linear.",
+                  "answer": "Zeitkomplexität",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei großen Eingaben spielt die Zeitkomplexität eine große Rolle.",
+                  "answer": "Zeitkomplexität",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1293,10 +2433,29 @@
                   "text": "Schwachstelle",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Schwachstelle (plural: die Schwachstellen). Falha explorável; também \"Sicherheitslücke\".",
+                  "collocations": [
+                    "kritische Schwachstelle",
+                    "Schwachstelle schließen",
+                    "Sicherheitslücke"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Audit fand eine kritische Schwachstelle in der Anmeldung.",
+                  "answer": "Schwachstelle",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Mit einem Sicherheitsupdate wurde die Schwachstelle behoben.",
+                  "answer": "Schwachstelle",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1312,10 +2471,29 @@
                   "text": "Verschlüsselung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verschlüsselung. Protege dados contra leitura por terceiros.",
+                  "collocations": [
+                    "Ende-zu-Ende-Verschlüsselung",
+                    "Verschlüsselung der Daten",
+                    "Schlüssel zur Verschlüsselung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Verschlüsselung schützt die Daten auf dem Weg durch das Netz.",
+                  "answer": "Verschlüsselung",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Passwort wird mit einer unumkehrbaren Verschlüsselung gespeichert.",
+                  "answer": "Verschlüsselung",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1331,10 +2509,29 @@
                   "text": "Autorisierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Autorisierung. Decide o que um usuário autenticado pode fazer.",
+                  "collocations": [
+                    "Autorisierung prüfen",
+                    "fehlende Autorisierung",
+                    "Fehler 403"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ohne die passende Autorisierung liefert der Server den Fehler 403.",
+                  "answer": "Autorisierung",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Autorisierung hängt von der Rolle des Benutzers ab.",
+                  "answer": "Autorisierung",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1350,10 +2547,29 @@
                   "text": "SQL-Injection",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die SQL-Injection (plural: die SQL-Injections). Ataque que insere comandos SQL na entrada.",
+                  "collocations": [
+                    "SQL-Injection verhindern",
+                    "Angriff durch SQL-Injection",
+                    "parametrisierte Abfragen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Parametrisierte Abfragen verhindern eine SQL-Injection.",
+                  "answer": "SQL-Injection",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Bericht warnt vor dem Risiko einer SQL-Injection im Formular.",
+                  "answer": "SQL-Injection",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1369,10 +2585,29 @@
                   "text": "Zugriffskontrolle",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zugriffskontrolle. Regras de quem pode ver ou alterar.",
+                  "collocations": [
+                    "rollenbasierte Zugriffskontrolle",
+                    "Zugriffskontrolle konfigurieren",
+                    "Zugriffskontrollliste"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zugriffskontrolle beschränkt jede Rolle auf die eigenen Daten.",
+                  "answer": "Zugriffskontrolle",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Zugriffskontrolle aller Endpunkte wurde überprüft.",
+                  "answer": "Zugriffskontrolle",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1388,10 +2623,29 @@
                   "text": "Prüfprotokoll",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Prüfprotokoll (também \"Audit-Log\"). Histórico de quem fez o quê e quando.",
+                  "collocations": [
+                    "Prüfprotokoll",
+                    "Prüfprotokoll einsehen",
+                    "Protokoll aufbewahren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Prüfprotokoll speichert jede Änderung der Berechtigungen.",
+                  "answer": "Prüfprotokoll",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Revision verlangte Zugriff auf das Prüfprotokoll der letzten zwölf Monate.",
+                  "answer": "Prüfprotokoll",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1421,10 +2675,29 @@
                   "text": "Sprint",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Sprint (plural: die Sprints). Ciclo curto de trabalho, em geral de duas semanas.",
+                  "collocations": [
+                    "Sprint planen",
+                    "Sprint-Ziel",
+                    "Sprint von zwei Wochen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Im nächsten Sprint soll das Zahlungsmodul fertig werden.",
+                  "answer": "Sprint",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Den nächsten Sprint planen wir am Montagmorgen.",
+                  "answer": "Sprint",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1440,10 +2713,29 @@
                   "text": "Backlog",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Backlog. Lista priorizada de trabalho do produto.",
+                  "collocations": [
+                    "Backlog priorisieren",
+                    "Einträge im Backlog",
+                    "ins Backlog aufnehmen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Team hat das Backlog vor dem Treffen priorisiert.",
+                  "answer": "Backlog",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Diese Verbesserung blieb im Backlog für das nächste Quartal.",
+                  "answer": "Backlog",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1459,10 +2751,29 @@
                   "text": "Daily",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No alemão usa-se \"Daily\" (neutro: das Daily). Reunião curta e diária, em pé.",
+                  "collocations": [
+                    "Daily",
+                    "tägliches Treffen",
+                    "am Daily teilnehmen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Daily beginnt um zehn Uhr.",
+                  "answer": "Daily",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Daily berichtet jeder, was er gestern gemacht hat und heute vorhat.",
+                  "answer": "Daily",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1478,10 +2789,29 @@
                   "text": "Stakeholder",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Stakeholder (plural: die Stakeholder); também \"Interessengruppe\". Quem é afetado pelo projeto.",
+                  "collocations": [
+                    "Stakeholder einbinden",
+                    "Stakeholder informieren",
+                    "Interessengruppe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Stakeholder erhält einen monatlichen Bericht.",
+                  "answer": "Stakeholder",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Geschäftsführung ist der wichtigste Stakeholder des Projekts.",
+                  "answer": "Stakeholder",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1497,10 +2827,29 @@
                   "text": "Pair Programming",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Pair Programming. Duas pessoas, um computador: Driver e Navigator.",
+                  "collocations": [
+                    "Pair Programming",
+                    "Sitzung im Pair Programming",
+                    "Driver und Navigator"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Pair Programming reduziert Fehler im Code.",
+                  "answer": "Pair Programming",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir lösten den Fehler in einer Sitzung im Pair Programming.",
+                  "answer": "Pair Programming",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1516,10 +2865,29 @@
                   "text": "Retrospektive",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Retrospektive (abreviação: Retro). Reunião ao fim do sprint para melhorar o processo.",
+                  "collocations": [
+                    "Sprint-Retrospektive",
+                    "Retrospektive moderieren",
+                    "Ergebnisse der Retrospektive"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Retrospektive deckte Probleme in der Kommunikation auf.",
+                  "answer": "Retrospektive",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jede Retrospektive endet mit drei konkreten Maßnahmen.",
+                  "answer": "Retrospektive",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]

@@ -27,10 +27,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かせつ",
-                  "romanization": "kasetsu"
+                  "romanization": "kasetsu",
+                  "usageNote": "Kango (仮 = provisório + 説 = teoria). \"Hipótese nula\" = 帰無仮説. Verbos: 仮説を立てる, 検証する.",
+                  "collocations": [
+                    "仮説を立てる",
+                    "仮説を検証する",
+                    "帰無仮説"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "研究者は、病気の原因について仮説を立てました。",
+                  "answer": "仮説",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "データは、この仮説を支持しています。",
+                  "answer": "仮説",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -48,10 +67,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じっけん",
-                  "romanization": "jikken"
+                  "romanization": "jikken",
+                  "usageNote": "Kango (実 = real + 験 = prova). Verbos: 実験を行う, 繰り返す. Também 実験室 = laboratório.",
+                  "collocations": [
+                    "実験を行う",
+                    "対照実験",
+                    "実験を繰り返す"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この実験は、三回繰り返しても同じ結果でした。",
+                  "answer": "実験",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "すべての実験は、ノートに記録します。",
+                  "answer": "実験",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -69,10 +107,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "どくりつへんすう",
-                  "romanization": "dokuritsuhensuu"
+                  "romanization": "dokuritsuhensuu",
+                  "usageNote": "Kango (独立 = independente + 変数). O pesquisador altera; contraste: 従属変数.",
+                  "collocations": [
+                    "従属変数",
+                    "独立変数を変化させる",
+                    "変数を制御する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "温度が、この研究の独立変数です。",
+                  "answer": "独立変数",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "独立変数を一つずつ変えて、結果を比べます。",
+                  "answer": "独立変数",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -90,10 +147,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "たいしょうぐん",
-                  "romanization": "taishougun"
+                  "romanization": "taishougun",
+                  "usageNote": "Kango (対照 = comparação + 群 = grupo). Também コントロール群. Contraste: 実験群.",
+                  "collocations": [
+                    "実験群",
+                    "コントロール群",
+                    "対照群と比較する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "対照群には、偽薬が与えられました。",
+                  "answer": "対照群",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "結果を対照群と比べて、効果を確認しました。",
+                  "answer": "対照群",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "deetasetto"
+                  "romanization": "deetasetto",
+                  "usageNote": "Gairaigo (データセット). Verbos: データセットを公開する, 解析する.",
+                  "collocations": [
+                    "データセットを公開する",
+                    "データセットを解析する",
+                    "オープンデータ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このデータセットには、一万件の観測が含まれます。",
+                  "answer": "データセット",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "他の研究者が再現できるように、データセットを公開しました。",
+                  "answer": "データセット",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -131,10 +226,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "さどく",
-                  "romanization": "sadoku"
+                  "romanization": "sadoku",
+                  "usageNote": "Kango (査 = examinar + 読 = ler). Abreviação de 査読 = leitura crítica por pares. Verbo: 査読を受ける.",
+                  "collocations": [
+                    "査読を受ける",
+                    "査読付き論文",
+                    "査読コメント"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "論文は二回の修正を経て、査読に通りました。",
+                  "answer": "査読",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "査読は、研究の質を守る大切な仕組みです。",
+                  "answer": "査読",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -166,10 +280,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひょうほん",
-                  "romanization": "hyouhon"
+                  "romanization": "hyouhon",
+                  "usageNote": "Kango (標本 = espécime/amostra). Contraste: 母集団 (população). \"Tamanho da amostra\" = 標本サイズ.",
+                  "collocations": [
+                    "母集団",
+                    "標本サイズ",
+                    "標本を抽出する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "標本には、さまざまな年齢の千人が含まれました。",
+                  "answer": "標本",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "小さな標本では、信頼できる結論は出せません。",
+                  "answer": "標本",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -187,10 +320,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "そうかん",
-                  "romanization": "soukan"
+                  "romanization": "soukan",
+                  "usageNote": "Kango (相 = mútuo + 関 = relação). \"Correlação não implica causalidade\" = 相関は因果ではない.",
+                  "collocations": [
+                    "正の相関",
+                    "相関係数",
+                    "相関を調べる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "勉強時間と成績には、正の相関があります。",
+                  "answer": "相関",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "二つの変数の間の相関は、弱いものでした。",
+                  "answer": "相関",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -208,10 +360,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひょうじゅんへんさ",
-                  "romanization": "hyoujunhensa"
+                  "romanization": "hyoujunhensa",
+                  "usageNote": "Kango (標準 + 偏差 = desvio). Medida de dispersão; símbolo σ.",
+                  "collocations": [
+                    "平均と標準偏差",
+                    "標準偏差が大きい",
+                    "ばらつき"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "平均は五で、標準偏差は二でした。",
+                  "answer": "標準偏差",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "標準偏差が大きいと、データが広く散らばっています。",
+                  "answer": "標準偏差",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +400,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "とうけいてきゆういせい",
-                  "romanization": "toukeitekiyuuisei"
+                  "romanization": "toukeitekiyuuisei",
+                  "usageNote": "Kango (統計的 + 有意 + 性). Verbo: 有意差がある (diferença significativa); p < 0,05.",
+                  "collocations": [
+                    "有意水準",
+                    "有意差がある",
+                    "統計的有意性を示す"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この結果には、統計的有意性が認められました。",
+                  "answer": "統計的有意性",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "二つのグループの差には、統計的有意性がありませんでした。",
+                  "answer": "統計的有意性",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -250,10 +440,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はずれち",
-                  "romanization": "hazurechi"
+                  "romanization": "hazurechi",
+                  "usageNote": "Kango (外 = fora + れ値). Escrito \"外れ値\" (はずれち); valor muito afastado dos demais.",
+                  "collocations": [
+                    "外れ値を除く",
+                    "外れ値を検出する",
+                    "異常値"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "一つの外れ値が、平均を大きく動かしました。",
+                  "answer": "外れ値",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "午後の測定には、明らかな外れ値がありました。",
+                  "answer": "外れ値",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -271,10 +480,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ごさはんい",
-                  "romanization": "gosahani"
+                  "romanization": "gosahani",
+                  "usageNote": "Kango (誤差 = erro + 範囲 = intervalo). Em pesquisas: 誤差の範囲 ±3%.",
+                  "collocations": [
+                    "誤差範囲を小さくする",
+                    "信頼区間",
+                    "プラスマイナス三パーセント"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この調査の誤差範囲は、プラスマイナス三パーセントです。",
+                  "answer": "誤差範囲",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "回答者を増やすと、誤差範囲は小さくなります。",
+                  "answer": "誤差範囲",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -306,10 +534,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しやく",
-                  "romanization": "shiyaku"
+                  "romanization": "shiyaku",
+                  "usageNote": "Kango (試 = testar + 薬 = remédio). Substância para análises; 試薬瓶 = frasco de reagente.",
+                  "collocations": [
+                    "試薬を加える",
+                    "試薬瓶",
+                    "酸性試薬"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "試薬をゆっくり溶液に加えました。",
+                  "answer": "試薬",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この試薬は、酸性の溶液で色が変わります。",
+                  "answer": "試薬",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -327,10 +574,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けんたい",
-                  "romanization": "kentai"
+                  "romanization": "kentai",
+                  "usageNote": "Kango (検 + 体 = corpo). Amostra clínica ou de laboratório (sangue, urina, tecido).",
+                  "collocations": [
+                    "検体を採取する",
+                    "検体を提出する",
+                    "血液検体"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "検体には、すべてラベルを付けます。",
+                  "answer": "検体",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "検体は、冷やした容器で検査室に届けられました。",
+                  "answer": "検体",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -348,10 +614,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "えんしんぶんりき",
-                  "romanization": "enshinbunriki"
+                  "romanization": "enshinbunriki",
+                  "usageNote": "Kango (遠心 = centrífugo + 分離 = separação + 機 = máquina). Verbo: 遠心分離する.",
+                  "collocations": [
+                    "遠心分離する",
+                    "遠心分離機にかける",
+                    "回転数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "遠心分離機は、血液から血漿を分けます。",
+                  "answer": "遠心分離機",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "試験管を十分間、遠心分離機にかけました。",
+                  "answer": "遠心分離機",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -368,10 +653,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "pipetto"
+                  "romanization": "pipetto",
+                  "usageNote": "Gairaigo (ピペット, do alemão). Tipos: マイクロピペット, ホールピペット.",
+                  "collocations": [
+                    "マイクロピペット",
+                    "ピペットで量る",
+                    "溶液を移す"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ピペットで溶液を一ミリリットル取りました。",
+                  "answer": "ピペット",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ピペットは、定期的に校正してください。",
+                  "answer": "ピペット",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -389,10 +693,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けんびきょう",
-                  "romanization": "kenbikyou"
+                  "romanization": "kenbikyou",
+                  "usageNote": "Kango (顕 = revelar + 微 = minúsculo + 鏡 = espelho/lente). Tipos: 光学顕微鏡, 電子顕微鏡.",
+                  "collocations": [
+                    "光学顕微鏡",
+                    "電子顕微鏡",
+                    "顕微鏡で観察する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "細胞を顕微鏡で観察しました。",
+                  "answer": "顕微鏡",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "顕微鏡の倍率を四百倍に上げました。",
+                  "answer": "顕微鏡",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -410,10 +733,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうせい",
-                  "romanization": "kousei"
+                  "romanization": "kousei",
+                  "usageNote": "Kango (校 = corrigir + 正 = certo). Verbo: 校正する. Em instrumentos: 較正 (variante técnica).",
+                  "collocations": [
+                    "校正する",
+                    "校正証明書",
+                    "定期校正"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "秤は毎月、校正を行います。",
+                  "answer": "校正",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "校正を間違えたため、すべての測定値がずれました。",
+                  "answer": "校正",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -445,10 +787,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "うんどうりょう",
-                  "romanization": "undouryou"
+                  "romanization": "undouryou",
+                  "usageNote": "Kango (運動 = movimento + 量 = quantidade). p = m·v; lei: 運動量保存の法則.",
+                  "collocations": [
+                    "運動量保存の法則",
+                    "運動量の変化",
+                    "運動量を求める"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "衝突の前後で、運動量は保存されます。",
+                  "answer": "運動量",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "速度が二倍になると、運動量も二倍になります。",
+                  "answer": "運動量",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -465,10 +826,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "entoropii"
+                  "romanization": "entoropii",
+                  "usageNote": "Gairaigo (エントロピー). Desordem; segunda lei da termodinâmica: aumenta num sistema isolado.",
+                  "collocations": [
+                    "エントロピー増大の法則",
+                    "エントロピーが増える",
+                    "熱力学"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "孤立した系では、エントロピーは減りません。",
+                  "answer": "エントロピー",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "氷が溶けるとき、水のエントロピーは増えます。",
+                  "answer": "エントロピー",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -486,10 +866,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しょくばい",
-                  "romanization": "shokubai"
+                  "romanization": "shokubai",
+                  "usageNote": "Kango (触 = tocar + 媒 = mediar). Acelera a reação sem se consumir; também o catalisador de automóveis.",
+                  "collocations": [
+                    "触媒を使う",
+                    "白金触媒",
+                    "反応を速める"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "触媒は、自分は変化せずに反応を速めます。",
+                  "answer": "触媒",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "混合物に白金の触媒を加えました。",
+                  "answer": "触媒",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -507,10 +906,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ようばい",
-                  "romanization": "youbai"
+                  "romanization": "youbai",
+                  "usageNote": "Kango (溶 = dissolver + 媒 = mediar). Tipos: 有機溶媒; \"água\" = 水 é solvente universal.",
+                  "collocations": [
+                    "有機溶媒",
+                    "溶媒に溶ける",
+                    "溶媒を蒸発させる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "水は、塩をよく溶かす優れた溶媒です。",
+                  "answer": "溶媒",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "溶媒を蒸発させて、純粋な固体を取り出しました。",
+                  "answer": "溶媒",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -528,10 +946,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かごうぶつ",
-                  "romanization": "kagoubutsu"
+                  "romanization": "kagoubutsu",
+                  "usageNote": "Kango (化 = transformar + 合 = unir + 物). Tipos: 有機化合物, 無機化合物.",
+                  "collocations": [
+                    "有機化合物",
+                    "無機化合物",
+                    "化合物を合成する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "水は、水素と酸素からできた化合物です。",
+                  "answer": "化合物",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "抗菌作用を持つ新しい化合物が合成されました。",
+                  "answer": "化合物",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -549,10 +986,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "どういたい",
-                  "romanization": "douitai"
+                  "romanization": "douitai",
+                  "usageNote": "Kango (同位 = mesma posição + 体). Ex.: 炭素14 (¹⁴C), 放射性同位体.",
+                  "collocations": [
+                    "放射性同位体",
+                    "安定同位体",
+                    "同位体比"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "炭素十四は、炭素の放射性の同位体です。",
+                  "answer": "同位体",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "安定した同位体は、放射線を出しません。",
+                  "answer": "同位体",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -584,10 +1040,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "いでんし",
-                  "romanization": "idenshi"
+                  "romanization": "idenshi",
+                  "usageNote": "Kango (遺 = legar + 伝 = transmitir + 子). Ex.: 遺伝子検査, 遺伝子組み換え.",
+                  "collocations": [
+                    "遺伝子検査",
+                    "遺伝子組み換え",
+                    "遺伝子の発現"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この遺伝子は、目の色を決めます。",
+                  "answer": "遺伝子",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "変異した遺伝子が、遺伝性の病気を起こすことがあります。",
+                  "answer": "遺伝子",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -605,10 +1080,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうそ",
-                  "romanization": "kouso"
+                  "romanization": "kouso",
+                  "usageNote": "Kango (酵 = fermentar + 素 = elemento). Ex.: 消化酵素, 酵素反応.",
+                  "collocations": [
+                    "消化酵素",
+                    "酵素反応",
+                    "酵素の働き"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "酵素は、デンプンを糖に分解します。",
+                  "answer": "酵素",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "酵素が働くには、適切な温度が必要です。",
+                  "answer": "酵素",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -626,10 +1120,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しぜんせんたく",
-                  "romanization": "shizensentaku"
+                  "romanization": "shizensentaku",
+                  "usageNote": "Kango (自然 + 選択 = seleção). Também 自然淘汰 (variante). Mecanismo da evolução de Darwin.",
+                  "collocations": [
+                    "自然淘汰",
+                    "自然選択説",
+                    "適応"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "自然選択は、環境に適応した個体を有利にします。",
+                  "answer": "自然選択",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ダーウィンは、進化を自然選択で説明しました。",
+                  "answer": "自然選択",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -647,10 +1160,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せいたいけい",
-                  "romanization": "seitaikei"
+                  "romanization": "seitaikei",
+                  "usageNote": "Kango (生態 = ecologia + 系 = sistema). Ex.: 海洋生態系, 生態系の保全.",
+                  "collocations": [
+                    "海洋生態系",
+                    "生態系の保全",
+                    "生態系のバランス"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "森林の伐採は、生態系に大きな影響を与えます。",
+                  "answer": "生態系",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この湖の生態系は、水温の変化に弱いです。",
+                  "answer": "生態系",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -668,10 +1200,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうごうせい",
-                  "romanization": "kougousei"
+                  "romanization": "kougousei",
+                  "usageNote": "Kango (光 = luz + 合成 = síntese). Ocorre nos cloroplastos: 葉緑体.",
+                  "collocations": [
+                    "葉緑体",
+                    "光合成を行う",
+                    "二酸化炭素"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "光合成は、葉の葉緑体で行われます。",
+                  "answer": "光合成",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "光が足りないと、光合成は進みません。",
+                  "answer": "光合成",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -689,10 +1240,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "とつぜんへんい",
-                  "romanization": "totsuzenheni"
+                  "romanization": "totsuzenheni",
+                  "usageNote": "Kango (突然 = súbito + 変異 = variação). Também abreviado 変異; ponto = 点変異.",
+                  "collocations": [
+                    "点変異",
+                    "遺伝子変異",
+                    "突然変異が起きる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "突然変異で、タンパク質の構造が変わりました。",
+                  "answer": "突然変異",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "細胞の培養中に、突然変異が自然に起きました。",
+                  "answer": "突然変異",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -724,10 +1294,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ようし",
-                  "romanization": "youshi"
+                  "romanization": "youshi",
+                  "usageNote": "Kango (要 = essencial + 旨 = significado). Resumo de artigo; também アブストラクト.",
+                  "collocations": [
+                    "要旨を書く",
+                    "論文の要旨",
+                    "アブストラクト"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "論文の要旨は、四百字以内にまとめます。",
+                  "answer": "要旨",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "本文をダウンロードする前に、要旨を読みました。",
+                  "answer": "要旨",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -745,10 +1334,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほうほうろん",
-                  "romanization": "houhouron"
+                  "romanization": "houhouron",
+                  "usageNote": "Kango (方法 + 論 = teoria). Aparece como 研究方法 (método de pesquisa) na fala.",
+                  "collocations": [
+                    "質的方法論",
+                    "量的方法論",
+                    "研究方法"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "量的な方法論では、数値の統計解析を行います。",
+                  "answer": "方法論",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "論文には、使った方法論が詳しく書かれています。",
+                  "answer": "方法論",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -766,10 +1374,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ちけん",
-                  "romanization": "chiken"
+                  "romanization": "chiken",
+                  "usageNote": "Kango (知 = saber + 見 = ver). Em artigos: 研究で得られた知見 (achados).",
+                  "collocations": [
+                    "重要な知見",
+                    "新たな知見",
+                    "知見を共有する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この研究は、老化に関する新たな知見をもたらしました。",
+                  "answer": "知見",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "研究チームは、得られた知見を学会で発表しました。",
+                  "answer": "知見",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -787,10 +1414,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "いんよう",
-                  "romanization": "inyou"
+                  "romanization": "inyou",
+                  "usageNote": "Kango (引 = puxar + 用 = usar). Verbo: 引用する. Formatos: APA, 参考文献.",
+                  "collocations": [
+                    "論文を引用する",
+                    "引用文献",
+                    "出典を明記する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "他の論文の文を使うときは、必ず引用を示します。",
+                  "answer": "引用",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この研究は、世界中で数千回引用されています。",
+                  "answer": "引用",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -808,10 +1454,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "げんかい",
-                  "romanization": "genkai"
+                  "romanization": "genkai",
+                  "usageNote": "Kango (限 = limite + 界 = fronteira). Em artigos: \"本研究の限界\" (limitação deste estudo).",
+                  "collocations": [
+                    "本研究の限界",
+                    "限界を示す",
+                    "研究の制約"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "本研究の限界は、標本が小さいことです。",
+                  "answer": "限界",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "著者は、考察の最後で限界を述べています。",
+                  "answer": "限界",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -829,10 +1494,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ついし",
-                  "romanization": "tsuishi"
+                  "romanization": "tsuishi",
+                  "usageNote": "Kango (追 = seguir + 試 = testar). Também 再現実験; \"crise da replicação\" = 再現性の危機.",
+                  "collocations": [
+                    "再現実験",
+                    "再現性の危機",
+                    "追試を行う"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "別の研究室による追試で、結果が確認されました。",
+                  "answer": "追試",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "多くの実験が、追試で再現されませんでした。",
+                  "answer": "追試",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]

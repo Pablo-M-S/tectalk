@@ -26,10 +26,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fǎlǜ"
+                  "ipa": "fǎlǜ",
+                  "usageNote": "Pinyin fǎlǜ (法 = lei + 律 = regra). Norma aprovada pelo legislativo (全国人大); contraste: 法规 (regulamentos).",
+                  "collocations": [
+                    "制定法律",
+                    "法律生效",
+                    "违反法律"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这部法律从四月一日起生效。",
+                  "answer": "法律",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "全国人民代表大会通过了保护消费者的法律。",
+                  "answer": "法律",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -46,10 +65,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tiáolì"
+                  "ipa": "tiáolì",
+                  "usageNote": "Pinyin tiáolì (条 = artigo + 例 = norma). Norma administrativa detalhada; também 规定.",
+                  "collocations": [
+                    "行政条例",
+                    "颁布条例",
+                    "管理条例"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项条例对法律的细节作了规定。",
+                  "answer": "条例",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "公司发布了数据使用方面的条例。",
+                  "answer": "条例",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -66,10 +104,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "guǎnxiáquán"
+                  "ipa": "guǎnxiáquán",
+                  "usageNote": "Pinyin guǎnxiáquán (管辖 = jurisdição + 权 = poder). Competência territorial ou material: 管辖法院.",
+                  "collocations": [
+                    "管辖法院",
+                    "专属管辖权",
+                    "争议管辖权"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个案件属于北京法院的管辖权范围。",
+                  "answer": "管辖权",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法院认为自己对该案没有管辖权。",
+                  "answer": "管辖权",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -86,10 +143,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiānlì"
+                  "ipa": "xiānlì",
+                  "usageNote": "Pinyin xiānlì (先 = anterior + 例 = exemplo). Na China, \"案例指导\" (casos-guia) têm papel semelhante.",
+                  "collocations": [
+                    "指导性案例",
+                    "援引先例",
+                    "创设先例"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个判决为类似案件开了先例。",
+                  "answer": "先例",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "律师援引最高法院的先例作为依据。",
+                  "answer": "先例",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -106,10 +182,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fǎyuàn"
+                  "ipa": "fǎyuàn",
+                  "usageNote": "Pinyin fǎyuàn (法 + 院 = tribunal). Níveis: 基层法院, 中级法院, 高级法院, 最高人民法院.",
+                  "collocations": [
+                    "基层法院",
+                    "向法院起诉",
+                    "最高人民法院"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法院在二月宣布了判决。",
+                  "answer": "法院",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "辩方向上级法院提出了上诉。",
+                  "answer": "法院",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -126,10 +221,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fǎguī"
+                  "ipa": "fǎguī",
+                  "usageNote": "Pinyin fǎguī (法 + 规 = norma). Conjunto de leis e regulamentos; 遵守法规 = cumprir a legislação.",
+                  "collocations": [
+                    "遵守法规",
+                    "行政法规",
+                    "法规修订"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这些法规保护劳动者的权利。",
+                  "answer": "法规",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了促进投资，相关法规做了修订。",
+                  "answer": "法规",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -160,10 +274,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hétong"
+                  "ipa": "hétong",
+                  "usageNote": "Pinyin hétong (合 = unir + 同 = igual). Verbos: 签订合同, 解除合同.",
+                  "collocations": [
+                    "签订合同",
+                    "解除合同",
+                    "劳动合同"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "双方在公证人面前签署了合同。",
+                  "answer": "合同",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "合同规定了价格和交货期。",
+                  "answer": "合同",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -180,10 +313,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tiáokuǎn"
+                  "ipa": "tiáokuǎn",
+                  "usageNote": "Pinyin tiáokuǎn (条 = artigo + 款 = item). Ex.: 第三条第二款; 保密条款.",
+                  "collocations": [
+                    "保密条款",
+                    "无效条款",
+                    "删除条款"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "保密条款对双方都有约束力。",
+                  "answer": "条款",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "被认定无效的条款已从合同中删除。",
+                  "answer": "条款",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -200,10 +352,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "wéiyuē"
+                  "ipa": "wéiyuē",
+                  "usageNote": "Pinyin wéiyuē (违 = violar + 约 = acordo). Verbo: 违约; 违约金 = multa contratual.",
+                  "collocations": [
+                    "违约金",
+                    "构成违约",
+                    "追究违约"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "严重的违约行为可以导致合同解除。",
+                  "answer": "违约",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "公司要求赔偿因违约造成的损失。",
+                  "answer": "违约",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -220,10 +391,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "duìjià"
+                  "ipa": "duìjià",
+                  "usageNote": "Pinyin duìjià (对 = em troca + 价 = valor). Aquilo que cada parte entrega; 无对价 = sem contraprestação.",
+                  "collocations": [
+                    "合理对价",
+                    "支付对价",
+                    "无偿"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项服务的对价是每月支付的费用。",
+                  "answer": "对价",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "没有对价的约定可能属于赠与。",
+                  "answer": "对价",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -240,10 +430,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zérèn"
+                  "ipa": "zérèn",
+                  "usageNote": "Pinyin zérèn (责 = culpa + 任 = dever). Tipos: 民事责任, 刑事责任; 有限责任公司 = Ltda.",
+                  "collocations": [
+                    "民事责任",
+                    "刑事责任",
+                    "有限责任公司"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "公司对这次事故承担责任。",
+                  "answer": "责任",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "有限公司的股东只在出资额范围内承担责任。",
+                  "answer": "责任",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -260,10 +469,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "péicháng"
+                  "ipa": "péicháng",
+                  "usageNote": "Pinyin péicháng (赔 = indenizar + 偿 = compensar). Também 补偿 (compensação). Em contratos: 赔偿条款.",
+                  "collocations": [
+                    "赔偿条款",
+                    "赔偿损失",
+                    "补偿"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "卖方承诺赔偿买方因第三方索赔造成的损失。",
+                  "answer": "赔偿",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "合同规定了对发包方的赔偿。",
+                  "answer": "赔偿",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -294,10 +522,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yuángào"
+                  "ipa": "yuángào",
+                  "usageNote": "Pinyin yuángào (原 = origem + 告 = acusar). Quem propõe a ação civil; 原告方.",
+                  "collocations": [
+                    "原告方",
+                    "原告和被告",
+                    "原告主张"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "原告要求偿还借款。",
+                  "answer": "原告",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "原告提交了证明损失的证据。",
+                  "answer": "原告",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -314,10 +561,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bèigào"
+                  "ipa": "bèigào",
+                  "usageNote": "Pinyin bèigào (被 = sofrer + 告). Em ações civis: 被告; em penal: 被告人 (acusado).",
+                  "collocations": [
+                    "被告人",
+                    "被告方",
+                    "被告抗辩"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "被告在庭上否认了事实。",
+                  "answer": "被告",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "开庭的时间已经通知被告。",
+                  "answer": "被告",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -334,10 +600,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "sùsòng"
+                  "ipa": "sùsòng",
+                  "usageNote": "Pinyin sùsòng (诉 = demandar + 讼 = litígio). Verbos: 提起诉讼, 撤回诉讼.",
+                  "collocations": [
+                    "提起诉讼",
+                    "撤回诉讼",
+                    "民事诉讼"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "公司对前合作伙伴提起了诉讼。",
+                  "answer": "诉讼",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法院受理了这起诉讼。",
+                  "answer": "诉讼",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -354,10 +639,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhèngjù"
+                  "ipa": "zhèngjù",
+                  "usageNote": "Pinyin zhèngjù (证 = provar + 据 = base). Tipos: 书证, 物证, 证人证言.",
+                  "collocations": [
+                    "提交证据",
+                    "关键证据",
+                    "证据不足"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "检察官提交了关键证据。",
+                  "answer": "证据",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "非法取得的证据不会被采纳。",
+                  "answer": "证据",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -374,10 +678,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhèngcí"
+                  "ipa": "zhèngcí",
+                  "usageNote": "Pinyin zhèngcí (证 + 词 = palavras). Também 证言. Verbo: 作证.",
+                  "collocations": [
+                    "作证",
+                    "证人证言",
+                    "可信的证词"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "邻居的证词证实了受害人的说法。",
+                  "answer": "证词",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法院要求三名目击者提供证词。",
+                  "answer": "证词",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -394,10 +717,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "cáijué"
+                  "ipa": "cáijué",
+                  "usageNote": "Pinyin cáijué (裁 = julgar + 决 = decidir). Decisão do tribunal; também 判决 (sentença).",
+                  "collocations": [
+                    "作出裁决",
+                    "终审裁决",
+                    "判决书"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法庭用了两天时间作出最终裁决。",
+                  "answer": "裁决",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这份裁决并非一致通过。",
+                  "answer": "裁决",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -428,10 +770,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhòngzuì"
+                  "ipa": "zhòngzuì",
+                  "usageNote": "Pinyin zhòngzuì (重 = grave + 罪 = crime). Contraste: 轻罪. Na China: 重大犯罪.",
+                  "collocations": [
+                    "犯重罪",
+                    "重大犯罪",
+                    "重罪案件"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "暴力抢劫属于重罪。",
+                  "answer": "重罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "他因侵犯财产的重罪被判有罪。",
+                  "answer": "重罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -448,10 +809,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qīngzuì"
+                  "ipa": "qīngzuì",
+                  "usageNote": "Pinyin qīngzuì (轻 = leve + 罪). Contraste: 重罪. Também 违法行为 (infração).",
+                  "collocations": [
+                    "构成轻罪",
+                    "罚金",
+                    "违法行为"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "小额盗窃一般被视为轻罪。",
+                  "answer": "轻罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法官对这项轻罪判处了罚金。",
+                  "answer": "轻罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -468,10 +848,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qǐsùshū"
+                  "ipa": "qǐsùshū",
+                  "usageNote": "Pinyin qǐsùshū (起诉 = acusar + 书 = documento). Peça do Ministério Público.",
+                  "collocations": [
+                    "提交起诉书",
+                    "提起公诉",
+                    "公诉人"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "检察院提交了涉嫌诈骗的起诉书。",
+                  "answer": "起诉书",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "起诉书中列出了三项不同的罪名。",
+                  "answer": "起诉书",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -488,10 +887,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bǎoshì"
+                  "ipa": "bǎoshì",
+                  "usageNote": "Pinyin bǎoshì (保 = garantir + 释 = soltar). Também 取保候审 (liberdade sob fiança).",
+                  "collocations": [
+                    "申请保释",
+                    "取保候审",
+                    "保释金"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法院批准了被告的保释。",
+                  "answer": "保释",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "保释金定为五十万元。",
+                  "answer": "保释",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -508,10 +926,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xíngfá"
+                  "ipa": "xíngfá",
+                  "usageNote": "Pinyin xíngfá (刑 = punição + 罚). Tipos: 有期徒刑 (prisão), 罚金, 死刑.",
+                  "collocations": [
+                    "有期徒刑",
+                    "罚金",
+                    "执行刑罚"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法院判处了四年有期徒刑的刑罚。",
+                  "answer": "刑罚",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "二审维持了原判的刑罚。",
+                  "answer": "刑罚",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -528,10 +965,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "wúzuì pànjué"
+                  "ipa": "wúzuì pànjué",
+                  "usageNote": "Pinyin wúzuì pànjué (无罪 = inocente + 判决). Decisão que declara inocente.",
+                  "collocations": [
+                    "作出无罪判决",
+                    "证据不足",
+                    "宣告无罪"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法院对被告作出了无罪判决。",
+                  "answer": "无罪判决",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "因为证据不足，检察院接受了无罪判决。",
+                  "answer": "无罪判决",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -562,10 +1018,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gǔdōng"
+                  "ipa": "gǔdōng",
+                  "usageNote": "Pinyin gǔdōng (股 = ações + 东 = dono). Assembleia: 股东大会; 大股东 = acionista majoritário.",
+                  "collocations": [
+                    "股东大会",
+                    "大股东",
+                    "股东权利"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每位股东在大会上都有表决权。",
+                  "answer": "股东",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "最大的股东持有公司百分之四十的股份。",
+                  "answer": "股东",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -582,10 +1057,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hébìng"
+                  "ipa": "hébìng",
+                  "usageNote": "Pinyin hébìng (合 + 并 = juntar). Também 吸收合并 (incorporação).",
+                  "collocations": [
+                    "企业合并",
+                    "吸收合并",
+                    "批准合并"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这次合并诞生了国内最大的保险公司。",
+                  "answer": "合并",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "股东大会赞成合并。",
+                  "answer": "合并",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -602,10 +1096,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "pòchǎn"
+                  "ipa": "pòchǎn",
+                  "usageNote": "Pinyin pòchǎn (破 = quebrar + 产 = patrimônio). Verbo: 申请破产; 破产清算.",
+                  "collocations": [
+                    "申请破产",
+                    "破产清算",
+                    "破产重整"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "失去最大客户后，公司宣告破产。",
+                  "answer": "破产",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法院受理了企业的破产申请。",
+                  "answer": "破产",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1135,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xìnyì yìwù"
+                  "ipa": "xìnyì yìwù",
+                  "usageNote": "Pinyin xìnyì yìwù (信义 = confiança e lealdade + 义务). Também 忠实义务, 勤勉义务.",
+                  "collocations": [
+                    "忠实义务",
+                    "违反信义义务",
+                    "勤勉义务"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "董事对股东负有信义义务。",
+                  "answer": "信义义务",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "总经理隐瞒利益冲突，违反了信义义务。",
+                  "answer": "信义义务",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -642,10 +1174,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jìnzhí diàochá"
+                  "ipa": "jìnzhí diàochá",
+                  "usageNote": "Pinyin jìnzhí diàochá (尽职 = zelo + 调查). Também 尽调 (abreviação).",
+                  "collocations": [
+                    "开展尽职调查",
+                    "尽调",
+                    "调查报告"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "买方在签约前进行了尽职调查。",
+                  "answer": "尽职调查",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "尽职调查发现了公司隐藏的债务。",
+                  "answer": "尽职调查",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -662,10 +1213,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhīshi chǎnquán"
+                  "ipa": "zhīshi chǎnquán",
+                  "usageNote": "Pinyin zhīshi chǎnquán (知识 + 产权 = direito de propriedade). Inclui 专利, 著作权, 商标.",
+                  "collocations": [
+                    "保护知识产权",
+                    "专利",
+                    "商标"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "知识产权保护作品和商标。",
+                  "answer": "知识产权",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "申请专利可以确保发明的知识产权。",
+                  "answer": "知识产权",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -696,10 +1266,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lǜshī bǎomì tèquán"
+                  "ipa": "lǜshī bǎomì tèquán",
+                  "usageNote": "Pinyin lǜshī bǎomì tèquán (律师 + 保密 = sigilo + 特权). Também 律师保密义务.",
+                  "collocations": [
+                    "律师保密义务",
+                    "主张特权",
+                    "客户通信"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "律师受律师保密特权保护。",
+                  "answer": "律师保密特权",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法院认可律师保密特权禁止了这项证言。",
+                  "answer": "律师保密特权",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -716,10 +1305,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xuānshìshū"
+                  "ipa": "xuānshìshū",
+                  "usageNote": "Pinyin xuānshìshū (宣誓 = jurar + 书). Declaração sob juramento; 公证 = cartório.",
+                  "collocations": [
+                    "签署宣誓书",
+                    "公证",
+                    "虚假陈述"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "证人在公证人面前签署了宣誓书。",
+                  "answer": "宣誓书",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "提交虚假宣誓书的人要受到处罚。",
+                  "answer": "宣誓书",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -736,10 +1344,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chuánpiào"
+                  "ipa": "chuánpiào",
+                  "usageNote": "Pinyin chuánpiào (传 = convocar + 票 = papel). Ordem para comparecer; 传唤 = convocar.",
+                  "collocations": [
+                    "送达传票",
+                    "传唤证人",
+                    "出庭"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "证人收到了周一的传票。",
+                  "answer": "传票",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "无视传票可能被处以罚款。",
+                  "answer": "传票",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -756,10 +1383,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "héjiě"
+                  "ipa": "héjiě",
+                  "usageNote": "Pinyin héjiě (和 = paz + 解 = resolver). Acordo; 调解 = mediação.",
+                  "collocations": [
+                    "达成和解",
+                    "调解",
+                    "庭外和解"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "双方在开庭前达成了和解。",
+                  "answer": "和解",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这次和解结束了三年的纠纷。",
+                  "answer": "和解",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -776,10 +1422,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jìnlìng"
+                  "ipa": "jìnlìng",
+                  "usageNote": "Pinyin jìnlìng (禁 = proibir + 令 = ordem). Ordem judicial para impedir; 诉前禁令.",
+                  "collocations": [
+                    "申请禁令",
+                    "诉前禁令",
+                    "颁发禁令"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法官颁发了停止施工的禁令。",
+                  "answer": "禁令",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "公司申请了禁止出版该书的禁令。",
+                  "answer": "禁令",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -796,10 +1461,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fǎlǜ gùwèn"
+                  "ipa": "fǎlǜ gùwèn",
+                  "usageNote": "Pinyin fǎlǜ gùwèn (法律 + 顾问 = consultor). Advogado ou departamento jurídico; 法务部.",
+                  "collocations": [
+                    "法务部",
+                    "聘请法律顾问",
+                    "咨询顾问"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "合同在签署前由法律顾问审核。",
+                  "answer": "法律顾问",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "回复之前，我们咨询了公司的法律顾问。",
+                  "answer": "法律顾问",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]

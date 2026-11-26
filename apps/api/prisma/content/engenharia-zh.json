@@ -35,10 +35,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "liáng"
+                  "ipa": "liáng",
+                  "usageNote": "Pinyin liáng (梁). Elemento horizontal que trabalha à flexão; 钢梁 (de aço), 主梁/次梁 (principal/secundária).",
+                  "collocations": [
+                    "钢梁",
+                    "主梁和次梁",
+                    "梁的弯曲"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "梁把楼板的荷载传给柱子。",
+                  "answer": "梁",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "屋顶的重量由这根钢梁来承担。",
+                  "answer": "梁",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -55,10 +74,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhù"
+                  "ipa": "zhù",
+                  "usageNote": "Pinyin zhù (柱). Elemento vertical; 混凝土柱, 钢柱. Em outros usos 柱 também é \"coluna\".",
+                  "collocations": [
+                    "混凝土柱",
+                    "钢柱",
+                    "柱距"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "一楼的柱支撑着上面各层的重量。",
+                  "answer": "柱",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "设计中，柱的间距定为六米。",
+                  "answer": "柱",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -75,10 +113,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dìjī"
+                  "ipa": "dìjī",
+                  "usageNote": "Pinyin dìjī (地 = terra + 基 = base). Tipos: 独立基础, 桩基础 (estacas). Também 基础 em sentido geral.",
+                  "collocations": [
+                    "桩基础",
+                    "地基承载力",
+                    "地基处理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "建筑的地基要根据土层强度来设计。",
+                  "answer": "地基",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "地基下沉可能使墙面开裂。",
+                  "answer": "地基",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -95,10 +152,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hèzài"
+                  "ipa": "hèzài",
+                  "usageNote": "Pinyin hèzài (荷 = carga + 载 = carregar). Tipos: 恒载, 活载, 风荷载, 地震荷载.",
+                  "collocations": [
+                    "恒载和活载",
+                    "风荷载",
+                    "承受荷载"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这块楼板的荷载限值是每平方米三百公斤。",
+                  "answer": "荷载",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "桥要承受车辆带来的荷载。",
+                  "answer": "荷载",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -115,10 +191,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yìnglì"
+                  "ipa": "yìnglì",
+                  "usageNote": "Pinyin yìnglì (应 = responder + 力 = força). Tensão mecânica (MPa), não \"estresse\". Tipos: 拉应力, 剪应力.",
+                  "collocations": [
+                    "拉应力",
+                    "剪应力",
+                    "许用应力"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "钢材的应力不能超过屈服点。",
+                  "answer": "应力",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "梁的跨中附近应力最大。",
+                  "answer": "应力",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -135,10 +230,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yìngbiàn"
+                  "ipa": "yìngbiàn",
+                  "usageNote": "Pinyin yìngbiàn (应 + 变 = mudar). Deformação relativa, sem unidade; 应变片 = extensômetro.",
+                  "collocations": [
+                    "应变片",
+                    "弹性应变",
+                    "测量应变"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "卸载后，弹性应变会消失。",
+                  "answer": "应变",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们用传感器测量了试件的应变。",
+                  "answer": "应变",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -169,10 +283,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gāng"
+                  "ipa": "gāng",
+                  "usageNote": "Pinyin gāng (钢). Liga de ferro e carbono; 不锈钢 = inox, 高强度钢 = aço de alta resistência.",
+                  "collocations": [
+                    "不锈钢",
+                    "高强度钢",
+                    "钢结构"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这座桥是用高强度的钢建造的。",
+                  "answer": "钢",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "钢的硬度会随着含碳量变化。",
+                  "answer": "钢",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -189,10 +322,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gāngjīn hùnníngtǔ"
+                  "ipa": "gāngjīn hùnníngtǔ",
+                  "usageNote": "Pinyin gāngjīn hùnníngtǔ (钢筋 = vergalhão + 混凝土). Sigla: RC. Compressão pelo concreto, tração pelo aço.",
+                  "collocations": [
+                    "钢筋混凝土结构",
+                    "钢筋混凝土板",
+                    "RC"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "钢筋混凝土把混凝土的抗压能力和钢筋的抗拉能力结合在一起。",
+                  "answer": "钢筋混凝土",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这栋公寓是钢筋混凝土建造的。",
+                  "answer": "钢筋混凝土",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -209,10 +361,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "héjīn"
+                  "ipa": "héjīn",
+                  "usageNote": "Pinyin héjīn (合 = combinar + 金 = metal). Exemplos: 铝合金, 钛合金.",
+                  "collocations": [
+                    "铝合金",
+                    "钛合金",
+                    "制造合金"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这种合金既轻又耐腐蚀。",
+                  "answer": "合金",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "飞机的机身使用轻质合金。",
+                  "answer": "合金",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +400,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "kànglā qiángdù"
+                  "ipa": "kànglā qiángdù",
+                  "usageNote": "Pinyin kànglā qiángdù (抗拉 = resistir à tração + 强度). Em MPa; ensaio: 拉伸试验.",
+                  "collocations": [
+                    "拉伸试验",
+                    "测量抗拉强度",
+                    "最低抗拉强度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这种钢材的抗拉强度是四百兆帕。",
+                  "answer": "抗拉强度",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "试件断裂之前的最大应力就是抗拉强度。",
+                  "answer": "抗拉强度",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -249,10 +439,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fǔshí"
+                  "ipa": "fǔshí",
+                  "usageNote": "Pinyin fǔshí (腐 = apodrecer + 蚀 = corroer). Tipos: 电偶腐蚀, 点蚀.",
+                  "collocations": [
+                    "防止腐蚀",
+                    "电偶腐蚀",
+                    "防腐涂层"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "靠海的桥梁更容易发生腐蚀。",
+                  "answer": "腐蚀",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "涂上防腐涂层后，能延缓钢结构的腐蚀。",
+                  "answer": "腐蚀",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -269,10 +478,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "píláo"
+                  "ipa": "píláo",
+                  "usageNote": "Pinyin píláo (疲 = cansado + 劳 = trabalho). Falha por ciclos repetidos: 疲劳断裂.",
+                  "collocations": [
+                    "疲劳断裂",
+                    "疲劳强度",
+                    "疲劳累积"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "反复的荷载会使金属产生疲劳。",
+                  "answer": "疲劳",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "检查时要寻找桥梁钢材因疲劳产生的裂纹。",
+                  "answer": "疲劳",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -303,10 +531,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "túzhǐ"
+                  "ipa": "túzhǐ",
+                  "usageNote": "Pinyin túzhǐ (图 = desenho + 纸 = papel). Desenho técnico; também 施工图.",
+                  "collocations": [
+                    "施工图",
+                    "看图纸",
+                    "设计图纸"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "图纸上标明了所有的尺寸。",
+                  "answer": "图纸",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "施工之前，请先核对图纸。",
+                  "answer": "图纸",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -323,10 +570,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "guīgé"
+                  "ipa": "guīgé",
+                  "usageNote": "Pinyin guīgé (规 = norma + 格 = padrão). Em documentos: 技术规格; também 技术规范.",
+                  "collocations": [
+                    "技术规格",
+                    "符合规格",
+                    "规格书"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "规格要求混凝土强度高于三十兆帕。",
+                  "answer": "规格",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "交付的零件符合合同的规格。",
+                  "answer": "规格",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -343,10 +609,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gōngchā"
+                  "ipa": "gōngchā",
+                  "usageNote": "Pinyin gōngchā (公 = oficial + 差 = diferença). Ex.: ±0,1 mm.",
+                  "collocations": [
+                    "尺寸公差",
+                    "公差范围",
+                    "超出公差"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个零件的公差是正负零点一毫米。",
+                  "answer": "公差",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "超出公差的产品被当作不合格品处理。",
+                  "answer": "公差",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -363,10 +648,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ānquán xìshù"
+                  "ipa": "ānquán xìshù",
+                  "usageNote": "Pinyin ānquán xìshù (安全 + 系数 = coeficiente). Razão entre resistência e carga de projeto.",
+                  "collocations": [
+                    "取安全系数",
+                    "最小安全系数",
+                    "安全裕度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "起重机的安全系数不得低于四。",
+                  "answer": "安全系数",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "设计时要留有足够的安全系数。",
+                  "answer": "安全系数",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -383,10 +687,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiūdìng"
+                  "ipa": "xiūdìng",
+                  "usageNote": "Pinyin xiūdìng (修 = emendar + 订 = revisar). Em desenhos: 修订记录, 版本 B.",
+                  "collocations": [
+                    "修订记录",
+                    "修订版本",
+                    "图纸修订"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这张图在上个月做过修订。",
+                  "answer": "修订",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每次修订都要记录日期和编号。",
+                  "answer": "修订",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -403,10 +726,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "héguī"
+                  "ipa": "héguī",
+                  "usageNote": "Pinyin héguī (合 = estar de acordo + 规 = norma). Em empresas: 合规部门; em obra: 符合标准.",
+                  "collocations": [
+                    "合规检查",
+                    "合规部门",
+                    "符合标准"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "公共建筑必须通过合规检查。",
+                  "answer": "合规",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "检查确认了设备的合规情况。",
+                  "answer": "合规",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -437,10 +779,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "niǔjǔ"
+                  "ipa": "niǔjǔ",
+                  "usageNote": "Pinyin niǔjù (扭 = torcer + 矩 = momento). Unidade N·m. Ferramenta: 扭矩扳手.",
+                  "collocations": [
+                    "扭矩扳手",
+                    "拧紧扭矩",
+                    "控制扭矩"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "螺栓要按规定的扭矩拧紧。",
+                  "answer": "扭矩",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "发动机的扭矩随转速变化。",
+                  "answer": "扭矩",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -457,10 +818,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhóuchéng"
+                  "ipa": "zhóuchéng",
+                  "usageNote": "Pinyin zhóuchéng (轴 = eixo + 承 = suportar). Tipos: 滚动轴承, 滑动轴承.",
+                  "collocations": [
+                    "滚动轴承",
+                    "滑动轴承",
+                    "更换轴承"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "轴承可以减少旋转轴的摩擦。",
+                  "answer": "轴承",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "因为有异响，所以更换了磨损的轴承。",
+                  "answer": "轴承",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -477,10 +857,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chǐlún"
+                  "ipa": "chǐlún",
+                  "usageNote": "Pinyin chǐlún (齿 = dente + 轮 = roda). Caixa de engrenagens = 变速箱/齿轮箱.",
+                  "collocations": [
+                    "啮合的齿轮",
+                    "斜齿轮",
+                    "减速器"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "齿轮把电机的转动传给车轮。",
+                  "answer": "齿轮",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "齿轮的齿断了，机器停了下来。",
+                  "answer": "齿轮",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -497,10 +896,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhóu"
+                  "ipa": "zhóu",
+                  "usageNote": "Pinyin zhóu (轴). Eixo que gira e transmite potência; também 传动轴, 电机轴.",
+                  "collocations": [
+                    "传动轴",
+                    "电机轴",
+                    "支撑轴"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "轴把电机的转动传给水泵。",
+                  "answer": "轴",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "检查时确认了轴没有松动。",
+                  "answer": "轴",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -517,10 +935,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bèng"
+                  "ipa": "bèng",
+                  "usageNote": "Pinyin bèng (泵). Tipos: 离心泵, 活塞泵; 水泵 = bomba d'água.",
+                  "collocations": [
+                    "离心泵",
+                    "水泵",
+                    "泵的流量"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "泵把水送到高处的水箱。",
+                  "answer": "泵",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "机房里安装了一台新泵。",
+                  "answer": "泵",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -537,10 +974,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fámén"
+                  "ipa": "fámén",
+                  "usageNote": "Pinyin fámén (阀 + 门 = porta). Controla o fluxo de líquidos e gases. Tipos: 安全阀, 止回阀.",
+                  "collocations": [
+                    "安全阀",
+                    "止回阀",
+                    "打开阀门"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "阀门可以泄掉多余的压力。",
+                  "answer": "阀门",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "拆管道之前，一定要关闭阀门。",
+                  "answer": "阀门",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -571,10 +1027,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "diànlù"
+                  "ipa": "diànlù",
+                  "usageNote": "Pinyin diànlù (电 + 路 = caminho). Série: 串联电路; paralelo: 并联电路.",
+                  "collocations": [
+                    "串联电路",
+                    "并联电路",
+                    "闭合电路"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个电路由十二伏电压供电。",
+                  "answer": "电路",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "过大的电流烧坏了控制电路。",
+                  "answer": "电路",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -591,10 +1066,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "diànyā"
+                  "ipa": "diànyā",
+                  "usageNote": "Pinyin diànyā (电 + 压 = pressão). Unidade: 伏特 (V). Na China: 220 V.",
+                  "collocations": [
+                    "测量电压",
+                    "电压降",
+                    "高电压"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "中国家庭用电的电压是二百二十伏。",
+                  "answer": "电压",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "电压下降会导致设备停机。",
+                  "answer": "电压",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -611,10 +1105,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "diànliú"
+                  "ipa": "diànliú",
+                  "usageNote": "Pinyin diànliú (电 + 流). Unidade: 安培 (A). 直流 e 交流.",
+                  "collocations": [
+                    "直流",
+                    "交流",
+                    "测量电流"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "电流变大，电线就会发热。",
+                  "answer": "电流",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "保险丝会在电流过大时切断电路。",
+                  "answer": "电流",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -631,10 +1144,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "diànzǔ"
+                  "ipa": "diànzǔ",
+                  "usageNote": "Pinyin diànzǔ (电 + 阻 = obstruir). Unidade: 欧姆 (Ω). Também designa o componente.",
+                  "collocations": [
+                    "测量电阻",
+                    "电阻器",
+                    "串联电阻"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "导线越长，电阻越大。",
+                  "answer": "电阻",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "在电路里串联了一个电阻来减小电流。",
+                  "answer": "电阻",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -651,10 +1183,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "biànyāqì"
+                  "ipa": "biànyāqì",
+                  "usageNote": "Pinyin biànyāqì (变压 = mudar a tensão + 器 = aparelho). Reduz ou aumenta a tensão.",
+                  "collocations": [
+                    "安装变压器",
+                    "降压",
+                    "配电变压器"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "变压器可以升高或降低电压。",
+                  "answer": "变压器",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "工厂门口放着一台大型变压器。",
+                  "answer": "变压器",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -671,10 +1222,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiēdì"
+                  "ipa": "jiēdì",
+                  "usageNote": "Pinyin jiēdì (接 = conectar + 地 = terra). Segurança elétrica; também 接地电阻.",
+                  "collocations": [
+                    "接地电阻",
+                    "保护接地",
+                    "接地线"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "接地可以保护人员免受触电。",
+                  "answer": "接地",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们测量了整个设备的接地情况。",
+                  "answer": "接地",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -705,10 +1275,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jìndù jìhuà"
+                  "ipa": "jìndù jìhuà",
+                  "usageNote": "Pinyin jìndù jìhuà (进度 = progresso + 计划). Cronograma de obra: 工期.",
+                  "collocations": [
+                    "进度计划",
+                    "按期完成",
+                    "工期延误"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "进度计划要求三月完成基础工程。",
+                  "answer": "进度计划",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "天气原因使进度计划推迟了一周。",
+                  "answer": "进度计划",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -725,10 +1314,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lǐchéngbēi"
+                  "ipa": "lǐchéngbēi",
+                  "usageNote": "Pinyin lǐchéngbēi (里程 = distância + 碑 = marco). Evento importante do projeto.",
+                  "collocations": [
+                    "达成里程碑",
+                    "项目里程碑",
+                    "设置里程碑"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "项目的第一个里程碑是完成基本设计。",
+                  "answer": "里程碑",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "团队比计划提前达成了里程碑。",
+                  "answer": "里程碑",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -745,10 +1353,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yùsuàn"
+                  "ipa": "yùsuàn",
+                  "usageNote": "Pinyin yùsuàn (预 = antecipar + 算 = calcular). Contraste: 决算 (resultado real).",
+                  "collocations": [
+                    "编制预算",
+                    "超出预算",
+                    "预算方案"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "今年的预算是两亿元。",
+                  "answer": "预算",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "追加的工程使预算超支了。",
+                  "answer": "预算",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -765,10 +1392,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fēngxiǎn pínggū"
+                  "ipa": "fēngxiǎn pínggū",
+                  "usageNote": "Pinyin fēngxiǎn pínggū (风险 = risco + 评估 = avaliação). Passos: identificar, avaliar, controlar.",
+                  "collocations": [
+                    "进行风险评估",
+                    "风险矩阵",
+                    "风险等级"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "作业前要先做风险评估。",
+                  "answer": "风险评估",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "风险评估发现了高处作业的危险。",
+                  "answer": "风险评估",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -785,10 +1431,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiāofù chéngguǒ"
+                  "ipa": "jiāofù chéngguǒ",
+                  "usageNote": "Pinyin jiāofù chéngguǒ (交付 = entregar + 成果 = resultado). Documento ou produto entregue ao cliente.",
+                  "collocations": [
+                    "交付成果验收",
+                    "交付物清单",
+                    "提交成果"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "合同里列出了每一项交付成果。",
+                  "answer": "交付成果",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每项交付成果在提交前都要审核。",
+                  "answer": "交付成果",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -805,10 +1470,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiǎnyàn"
+                  "ipa": "jiǎnyàn",
+                  "usageNote": "Pinyin jiǎnyàn (检 = examinar + 验 = verificar). Também 检查 (inspeção geral) e 验收 (aceitação).",
+                  "collocations": [
+                    "外观检验",
+                    "检验报告",
+                    "验收"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "检验时发现梁上有裂缝。",
+                  "answer": "检验",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "检验报告会交给业主。",
+                  "answer": "检验",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]

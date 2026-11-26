@@ -37,13 +37,13 @@ describe('conteúdo (seed)', () => {
     expect(new Set(slugs).size).toBe(slugs.length);
   });
 
-  describe.each(contents)('$name', ({ data }) => {
+  describe.each(contents)('$name', ({ name, data }) => {
     const terms = termsOf(data);
     const target = data.track.targetLanguage;
 
-    // DE, JA, ZH e os alfabetos ainda não têm nota de uso, combinações e exemplos:
-    // a regra passa a valer para cada idioma quando esse conteúdo for escrito.
-    const teachesUsage = target === 'EN' || target === 'ES';
+    // Os alfabetos (hiragana/katakana) ainda não têm nota de uso, combinações e exemplos.
+    const isAlphabet = /hiragana|katakana/.test(String(name));
+    const teachesUsage = !isAlphabet && ['EN', 'ES', 'DE', 'JA', 'ZH'].includes(target);
 
     (teachesUsage ? it : it.skip)('cada termo ensina o uso: nota, combinações e dois exemplos', () => {
       for (const term of terms) {

@@ -35,10 +35,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "biànliàng"
+                  "ipa": "biànliàng",
+                  "usageNote": "Pinyin biànliàng (变 = mudar + 量 = quantidade). Verbos: 声明变量, 给变量赋值.",
+                  "collocations": [
+                    "声明变量",
+                    "给变量赋值",
+                    "全局变量"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个变量保存当前用户的名字。",
+                  "answer": "变量",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "先声明变量，再给它赋初始值。",
+                  "answer": "变量",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -55,10 +74,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hánshù"
+                  "ipa": "hánshù",
+                  "usageNote": "Pinyin hánshù (函 = carta/envelope + 数). Verbos: 调用函数, 定义函数.",
+                  "collocations": [
+                    "调用函数",
+                    "定义函数",
+                    "纯函数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个函数用来计算含税价格。",
+                  "answer": "函数",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "同样的代码出现了三处，所以我把它提取成一个公共函数。",
+                  "answer": "函数",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -75,10 +113,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xíngcān"
+                  "ipa": "xíngcān",
+                  "usageNote": "Pinyin xíngcān (形 = forma + 参 = parâmetro). Variável na definição da função; contraste: 实参.",
+                  "collocations": [
+                    "形参列表",
+                    "默认形参",
+                    "定义形参"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个函数接收两个形参。",
+                  "answer": "形参",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "请在函数定义里给每个形参起一个清楚的名字。",
+                  "answer": "形参",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -95,10 +152,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shícān"
+                  "ipa": "shícān",
+                  "usageNote": "Pinyin shícān (实 = real + 参). Valor passado ao chamar a função; contraste: 形参.",
+                  "collocations": [
+                    "传递实参",
+                    "实参的顺序",
+                    "命令行参数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "调用函数时要传入两个实参。",
+                  "answer": "实参",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "实参的类型不对，所以程序报错了。",
+                  "answer": "实参",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -115,10 +191,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fǎnhuízhí"
+                  "ipa": "fǎnhuízhí",
+                  "usageNote": "Pinyin fǎnhuí zhí (返回 = retornar + 值). Também 返回结果.",
+                  "collocations": [
+                    "返回值类型",
+                    "获取返回值",
+                    "没有返回值"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个函数的返回值是订单总额。",
+                  "answer": "返回值",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "使用返回值之前，要先检查它是不是空。",
+                  "answer": "返回值",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -135,10 +230,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xúnhuán"
+                  "ipa": "xúnhuán",
+                  "usageNote": "Pinyin xúnhuán (循 = seguir + 环 = anel). Tipos: for循环, while循环; 死循环 = loop infinito.",
+                  "collocations": [
+                    "for循环",
+                    "死循环",
+                    "跳出循环"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "在循环中依次处理列表的每个元素。",
+                  "answer": "循环",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "结束条件写错了，程序进入了死循环。",
+                  "answer": "循环",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -162,10 +276,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shùzǔ"
+                  "ipa": "shùzǔ",
+                  "usageNote": "Pinyin shùzǔ (数 + 组 = grupo). Índice começa em 0; 元素 = elemento.",
+                  "collocations": [
+                    "数组元素",
+                    "遍历数组",
+                    "二维数组"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "数组的第一个元素下标是零。",
+                  "answer": "数组",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我往数组里添加了一个新的值。",
+                  "answer": "数组",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -182,10 +315,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hāxībiǎo"
+                  "ipa": "hāxībiǎo",
+                  "usageNote": "Pinyin hāxī biǎo (哈希 = hash + 表 = tabela). Também 散列表 (variante) e 字典 (Python).",
+                  "collocations": [
+                    "散列表",
+                    "键值对",
+                    "字典"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "哈希表可以根据键快速取出值。",
+                  "answer": "哈希表",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "以用户编号为键，把数据保存在哈希表里。",
+                  "answer": "哈希表",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -202,10 +354,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zìfúchuàn"
+                  "ipa": "zìfúchuàn",
+                  "usageNote": "Pinyin zìfúchuàn (字符 = caractere + 串 = cadeia). Verbos: 拼接字符串, 分割字符串.",
+                  "collocations": [
+                    "拼接字符串",
+                    "分割字符串",
+                    "字符串长度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "名字以字符串的形式保存。",
+                  "answer": "字符串",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我把两个字符串拼接成了一条消息。",
+                  "answer": "字符串",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -222,10 +393,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bù'ěrzhí"
+                  "ipa": "bù'ěrzhí",
+                  "usageNote": "Pinyin bù'ěr zhí (布尔 = Boole + 值). Valores: 真 (true) e 假 (false).",
+                  "collocations": [
+                    "布尔变量",
+                    "返回布尔值",
+                    "取反"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个函数用布尔值表示条件是否满足。",
+                  "answer": "布尔值",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "标志位用布尔值会更容易阅读。",
+                  "answer": "布尔值",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -242,10 +432,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "kōng yǐnyòng"
+                  "ipa": "kōng yǐnyòng",
+                  "usageNote": "Pinyin kōng yòngyòng (空 = vazio + 引用 = referência). Erro típico: 空指针异常.",
+                  "collocations": [
+                    "空指针异常",
+                    "空引用检查",
+                    "判空"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "空引用导致应用崩溃。",
+                  "answer": "空引用",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "使用对象之前，请先检查是不是空引用。",
+                  "answer": "空引用",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -262,10 +471,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yìcháng"
+                  "ipa": "yìcháng",
+                  "usageNote": "Pinyin yìcháng (异 = diferente + 常 = normal). Verbos: 抛出异常, 捕获异常.",
+                  "collocations": [
+                    "抛出异常",
+                    "捕获异常",
+                    "异常处理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "文件不存在时会抛出异常。",
+                  "answer": "异常",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这个异常先记录到日志，再统一处理。",
+                  "answer": "异常",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -296,10 +524,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "duāndiǎn"
+                  "ipa": "duāndiǎn",
+                  "usageNote": "Pinyin duāndiǎn (端 = extremidade + 点). Em API: 接口; \"ponto de acesso\" REST.",
+                  "collocations": [
+                    "接口地址",
+                    "调用端点",
+                    "公开端点"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个端点返回用户列表。",
+                  "answer": "端点",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我新增了一个端点，用来获取订单。",
+                  "answer": "端点",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -316,10 +563,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yīlài"
+                  "ipa": "yīlài",
+                  "usageNote": "Pinyin yīlài (依 = depender + 赖 = apoiar-se). Em projetos: 依赖包. \"Resolver dependências\" = 解决依赖.",
+                  "collocations": [
+                    "依赖包",
+                    "解决依赖",
+                    "循环依赖"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "库的版本不一致，造成了依赖问题。",
+                  "answer": "依赖",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "依赖越少，项目越容易维护。",
+                  "answer": "依赖",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -336,10 +602,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chōuxiàng"
+                  "ipa": "chōuxiàng",
+                  "usageNote": "Pinyin chōuxiàng (抽 = extrair + 象 = imagem). Substantivo; verbo: 抽象出.",
+                  "collocations": [
+                    "抽象类",
+                    "抽象出接口",
+                    "隐藏细节"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我把数据库访问抽象成一个接口，方便替换。",
+                  "answer": "抽象",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "过度的抽象反而会让代码难以阅读。",
+                  "answer": "抽象",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -356,10 +641,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhōngjiānjiàn"
+                  "ipa": "zhōngjiānjiàn",
+                  "usageNote": "Pinyin zhōngjiānjiàn (中间 = meio + 件 = componente). Intercepta pedidos (login, log).",
+                  "collocations": [
+                    "添加中间件",
+                    "认证中间件",
+                    "请求预处理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "中间件会在每个请求中验证用户。",
+                  "answer": "中间件",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我加了一个日志中间件，用来记录处理时间。",
+                  "answer": "中间件",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -376,10 +680,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "móshì"
+                  "ipa": "móshì",
+                  "usageNote": "Pinyin móshì (模 = molde + 式 = forma); também 架构. Em bancos e JSON Schema.",
+                  "collocations": [
+                    "定义模式",
+                    "模式校验",
+                    "数据库模式"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "收到的数据会按照模式进行校验。",
+                  "answer": "模式",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "表的结构写在模式文件里。",
+                  "answer": "模式",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -396,10 +719,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yǒuxiào zàihè"
+                  "ipa": "yǒuxiào zàihè",
+                  "usageNote": "Pinyin yǒuxiào zàihè (有效 = útil + 载荷 = carga). Corpo de dados da mensagem, sem cabeçalhos; também 请求体.",
+                  "collocations": [
+                    "请求体",
+                    "JSON载荷",
+                    "载荷大小"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "请求的有效载荷里包含订单详情。",
+                  "answer": "有效载荷",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "有效载荷过大，被服务器拒绝了。",
+                  "answer": "有效载荷",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -423,10 +765,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "cháxún"
+                  "ipa": "cháxún",
+                  "usageNote": "Pinyin cháxún (查 = procurar + 询 = perguntar). Verbo: 执行查询; \"SQL查询\".",
+                  "collocations": [
+                    "执行查询",
+                    "优化查询",
+                    "SQL查询"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个查询会列出用户的所有订单。",
+                  "answer": "查询",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "因为一个很慢的查询，页面显示变慢了。",
+                  "answer": "查询",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -443,10 +804,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shìwù"
+                  "ipa": "shìwù",
+                  "usageNote": "Pinyin shìwù (事 = assunto + 务 = tarefa). Propriedades ACID; verbos: 开启事务, 提交, 回滚.",
+                  "collocations": [
+                    "开启事务",
+                    "事务隔离",
+                    "事务处理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "两个更新会作为一个事务处理。",
+                  "answer": "事务",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "出现错误时，整个事务都会被撤销。",
+                  "answer": "事务",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -463,10 +843,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "suǒyǐn"
+                  "ipa": "suǒyǐn",
+                  "usageNote": "Pinyin suǒyǐn (索 = procurar + 引 = guiar). Em bancos de dados: 创建索引, 联合索引.",
+                  "collocations": [
+                    "创建索引",
+                    "联合索引",
+                    "索引失效"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "加上索引之后，搜索快了十倍。",
+                  "answer": "索引",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "经常查询的列最好建立索引。",
+                  "answer": "索引",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -483,10 +882,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qiānyí"
+                  "ipa": "qiānyí",
+                  "usageNote": "Pinyin qiānyí (迁 = mover + 移 = transferir). Mudanças versionadas do esquema; 执行迁移.",
+                  "collocations": [
+                    "执行迁移",
+                    "迁移文件",
+                    "数据迁移"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我创建了一个新增列的迁移。",
+                  "answer": "迁移",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "部署之前请先执行迁移。",
+                  "answer": "迁移",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -503,10 +921,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "huǎncún"
+                  "ipa": "huǎncún",
+                  "usageNote": "Pinyin huǎncún (缓 = lento + 存 = guardar). Verbos: 清除缓存, 命中缓存.",
+                  "collocations": [
+                    "清除缓存",
+                    "命中缓存",
+                    "缓存过期"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "结果存放在缓存里，下次可以更快返回。",
+                  "answer": "缓存",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "页面显示的是旧数据，所以我清除了缓存。",
+                  "answer": "缓存",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -523,10 +960,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yánchí"
+                  "ipa": "yánchí",
+                  "usageNote": "Pinyin yánchí (延 = estender + 迟 = tardio). Medida em milissegundos; 网络延迟.",
+                  "collocations": [
+                    "网络延迟",
+                    "降低延迟",
+                    "高延迟"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个接口的平均延迟是一百毫秒。",
+                  "answer": "延迟",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "访问国外服务器时，延迟会变大。",
+                  "answer": "延迟",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -557,10 +1013,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "cāngkù"
+                  "ipa": "cāngkù",
+                  "usageNote": "Pinyin cāngkù (仓 = armazém + 库). Em Git: 代码仓库; verbos: 克隆, 推送.",
+                  "collocations": [
+                    "克隆仓库",
+                    "远程仓库",
+                    "创建仓库"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "先克隆仓库，然后开始工作。",
+                  "answer": "仓库",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "项目的所有代码都在这个仓库里。",
+                  "answer": "仓库",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -577,10 +1052,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tíjiāo"
+                  "ipa": "tíjiāo",
+                  "usageNote": "Pinyin tíjiāo (提 = apresentar + 交 = entregar). Verbo: 提交代码; mensagem = 提交信息.",
+                  "collocations": [
+                    "提交代码",
+                    "提交信息",
+                    "提交记录"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "请写一条清楚说明改动的提交信息。",
+                  "answer": "提交",
+                  "documentType": "COMMIT_MESSAGE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每完成一个小功能，我就做一次提交。",
+                  "answer": "提交",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -597,10 +1091,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fēnzhī"
+                  "ipa": "fēnzhī",
+                  "usageNote": "Pinyin fēnzhī (分 = dividir + 支 = ramo). Verbos: 创建分支, 切换分支, 合并.",
+                  "collocations": [
+                    "创建分支",
+                    "切换分支",
+                    "主分支"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我为新功能创建了一个分支。",
+                  "answer": "分支",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "工作完成后，把分支合并到主线。",
+                  "answer": "分支",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -617,10 +1130,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hébìng chōngtū"
+                  "ipa": "hébìng chōngtū",
+                  "usageNote": "Pinyin hébìng chōngtū (合并 = fundir + 冲突 = conflito). Verbo: 解决冲突.",
+                  "collocations": [
+                    "解决冲突",
+                    "出现合并冲突",
+                    "手动合并"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "两个人修改了同一行，出现了合并冲突。",
+                  "answer": "合并冲突",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "请手动解决合并冲突，然后再提交。",
+                  "answer": "合并冲突",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -637,10 +1169,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lāqǔ qǐngqiú"
+                  "ipa": "lāqǔ qǐngqiú",
+                  "usageNote": "Pinyin lā qǔ qǐngqiú (拉取 = puxar + 请求). Abreviado PR; 合并请求 (MR) no GitLab.",
+                  "collocations": [
+                    "创建拉取请求",
+                    "审核拉取请求",
+                    "合并请求"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "修改完成后，我创建了拉取请求。",
+                  "answer": "拉取请求",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "请在拉取请求里写上测试结果。",
+                  "answer": "拉取请求",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -657,10 +1208,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "huígǔn"
+                  "ipa": "huígǔn",
+                  "usageNote": "Pinyin huígǔn (回 = voltar + 滚 = rolar). Verbo: 回滚版本. Também 撤销.",
+                  "collocations": [
+                    "回滚版本",
+                    "回滚步骤",
+                    "撤销"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "发现故障后，我们马上回滚了。",
+                  "answer": "回滚",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "事先确认回滚步骤会让人更安心。",
+                  "answer": "回滚",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -684,10 +1254,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chónggòu"
+                  "ipa": "chónggòu",
+                  "usageNote": "Pinyin chónggòu (重 = de novo + 构 = construir). Mudar a estrutura sem mudar o comportamento.",
+                  "collocations": [
+                    "代码重构",
+                    "重构旧代码",
+                    "先写测试"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "添加功能之前，我先做了重构。",
+                  "answer": "重构",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "有测试的话，重构就更放心。",
+                  "answer": "重构",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -704,10 +1293,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qìyòng"
+                  "ipa": "qìyòng",
+                  "usageNote": "Pinyin qìyòng (弃 = abandonar + 用 = usar). Adjetivo: 已弃用; 警告 = warning.",
+                  "collocations": [
+                    "已弃用",
+                    "弃用警告",
+                    "即将弃用"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个功能将在明年春天被弃用。",
+                  "answer": "弃用",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "看到弃用警告后，我迁移到了新的接口。",
+                  "answer": "弃用",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -724,10 +1332,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jìshù zhàiwù"
+                  "ipa": "jìshù zhàiwù",
+                  "usageNote": "Pinyin jìshù zhàiwù (技术 + 债务 = dívida). Metáfora: atalhos hoje, custo depois.",
+                  "collocations": [
+                    "偿还技术债务",
+                    "技术债务累积",
+                    "减少债务"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "因为赶工期，技术债务不断累积。",
+                  "answer": "技术债务",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们每个月都花一些时间偿还技术债务。",
+                  "answer": "技术债务",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -744,10 +1371,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "huíguī"
+                  "ipa": "huíguī",
+                  "usageNote": "Pinyin huíguī (回 = voltar + 归 = retornar). Testes: 回归测试; também 退化 (degradação).",
+                  "collocations": [
+                    "回归测试",
+                    "出现回归",
+                    "退化"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "上周的修改引发了回归。",
+                  "answer": "回归",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "自动化测试可以尽早发现回归。",
+                  "answer": "回归",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -764,10 +1410,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bùshǔ"
+                  "ipa": "bùshǔ",
+                  "usageNote": "Pinyin bùshǔ (部 = seção + 署 = designar). Verbo: 部署上线. Ambientes: 生产环境, 测试环境.",
+                  "collocations": [
+                    "部署上线",
+                    "自动部署",
+                    "生产环境"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我们每周三晚上进行部署。",
+                  "answer": "部署",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "持续集成成功之后，会自动开始部署。",
+                  "answer": "部署",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -784,10 +1449,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dàimǎ shěnchá"
+                  "ipa": "dàimǎ shěnchá",
+                  "usageNote": "Pinyin dàimǎ shěnchá (代码 + 审查 = revisão). Verbo: 审查代码; também 代码评审.",
+                  "collocations": [
+                    "审查代码",
+                    "代码评审",
+                    "提出意见"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "提交之前，请先接受代码审查。",
+                  "answer": "代码审查",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "在代码审查中，同事指出了命名问题。",
+                  "answer": "代码审查",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -818,10 +1502,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qǐngqiú"
+                  "ipa": "qǐngqiú",
+                  "usageNote": "Pinyin qǐngqiú (请 = pedir + 求). Métodos HTTP: GET, POST. Verbo: 发送请求.",
+                  "collocations": [
+                    "发送请求",
+                    "接收请求",
+                    "请求头"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "客户端向服务器发送请求。",
+                  "answer": "请求",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每秒的请求突然增加了。",
+                  "answer": "请求",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -838,10 +1541,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiǎngyìng"
+                  "ipa": "xiǎngyìng",
+                  "usageNote": "Pinyin xiǎngyìng (响 = ressoar + 应 = responder). Verbo: 返回响应. Tempo: 响应时间.",
+                  "collocations": [
+                    "返回响应",
+                    "响应格式",
+                    "响应时间"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "服务器以JSON格式返回响应。",
+                  "answer": "响应",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "响应很慢的原因是数据库。",
+                  "answer": "响应",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -858,10 +1580,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhuàngtàimǎ"
+                  "ipa": "zhuàngtàimǎ",
+                  "usageNote": "Pinyin zhuàngtài mǎ (状态 = estado + 码 = código). Exemplos: 200, 404, 500.",
+                  "collocations": [
+                    "返回状态码",
+                    "404错误",
+                    "检查状态码"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "页面不存在时，会返回状态码404。",
+                  "answer": "状态码",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "状态码是500时，说明服务器端出了问题。",
+                  "answer": "状态码",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -878,10 +1619,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shēnfèn yànzhèng"
+                  "ipa": "shēnfèn yànzhèng",
+                  "usageNote": "Pinyin shēnfèn yànzhèng (身份 = identidade + 验证 = verificação). Também 认证. Contraste: 授权.",
+                  "collocations": [
+                    "身份验证成功",
+                    "双因素验证",
+                    "认证"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "登录时会进行身份验证。",
+                  "answer": "身份验证",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们引入了双因素的身份验证，提高了安全性。",
+                  "answer": "身份验证",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -898,10 +1658,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lìngpái"
+                  "ipa": "lìngpái",
+                  "usageNote": "Pinyin lìngpái (令 = ordem + 牌 = placa). Tipos: 访问令牌, 刷新令牌.",
+                  "collocations": [
+                    "访问令牌",
+                    "签发令牌",
+                    "令牌过期"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "登录成功后，服务器会签发令牌。",
+                  "answer": "令牌",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "过期的令牌无法访问接口。",
+                  "answer": "令牌",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -918,10 +1697,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "sùlǜ xiànzhì"
+                  "ipa": "sùlǜ xiànzhì",
+                  "usageNote": "Pinyin sùlǜ xiànzhì (速率 = taxa + 限制). Erro típico: 429.",
+                  "collocations": [
+                    "触发速率限制",
+                    "设置速率限制",
+                    "429错误"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个接口每分钟有一百次的速率限制。",
+                  "answer": "速率限制",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "超过速率限制后，请求会被拒绝。",
+                  "answer": "速率限制",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -952,10 +1750,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dānyuán cèshì"
+                  "ipa": "dānyuán cèshì",
+                  "usageNote": "Pinyin dānyuán cèshì (单元 = unidade + 测试). Testa uma função isolada.",
+                  "collocations": [
+                    "编写单元测试",
+                    "运行单元测试",
+                    "测试用例"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我给这个函数写了单元测试。",
+                  "answer": "单元测试",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "所有单元测试通过之后，才可以合并。",
+                  "answer": "单元测试",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -972,10 +1789,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jíchéng cèshì"
+                  "ipa": "jíchéng cèshì",
+                  "usageNote": "Pinyin jíchéng cèshì (集成 = integração + 测试). Testa vários módulos juntos.",
+                  "collocations": [
+                    "集成测试环境",
+                    "执行集成测试",
+                    "端到端"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "集成测试会同时检查数据库和接口。",
+                  "answer": "集成测试",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "即使单元测试通过，集成测试也可能失败。",
+                  "answer": "集成测试",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -992,10 +1828,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "mónǐ duìxiàng"
+                  "ipa": "mónǐ duìxiàng",
+                  "usageNote": "Pinyin mónǐ duìxiàng (模拟 = simular + 对象). Verbo: 模拟 (mockar).",
+                  "collocations": [
+                    "创建模拟对象",
+                    "模拟外部接口",
+                    "桩"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "外部服务在测试中用模拟对象代替。",
+                  "answer": "模拟对象",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "测试中，数据库调用被换成了模拟对象。",
+                  "answer": "模拟对象",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1012,10 +1867,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dàimǎ fùgàilǜ"
+                  "ipa": "dàimǎ fùgàilǜ",
+                  "usageNote": "Pinyin dàimǎ fùgàilǜ (代码 + 覆盖率 = taxa de cobertura). Meta típica: 80%.",
+                  "collocations": [
+                    "测量覆盖率",
+                    "提高覆盖率",
+                    "覆盖率百分之八十"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个项目的代码覆盖率是百分之八十。",
+                  "answer": "代码覆盖率",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我给代码覆盖率低的部分补充了测试。",
+                  "answer": "代码覆盖率",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1032,10 +1906,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "duànyán"
+                  "ipa": "duànyán",
+                  "usageNote": "Pinyin duànyán (断 = decidir + 言 = palavra). Verifica o resultado esperado; verbo: 断言.",
+                  "collocations": [
+                    "编写断言",
+                    "断言失败",
+                    "预期结果"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "测试最后用断言检查结果。",
+                  "answer": "断言",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "断言失败，所以构建中断了。",
+                  "answer": "断言",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1052,10 +1945,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bù wěndìng cèshì"
+                  "ipa": "bù wěndìng cèshì",
+                  "usageNote": "Pinyin bù wěndìng cèshì (不稳定 = instável + 测试). Passa e falha sem mudar o código.",
+                  "collocations": [
+                    "修复不稳定测试",
+                    "重新运行",
+                    "偶发失败"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "同一份代码有时成功有时失败，这是不稳定测试。",
+                  "answer": "不稳定测试",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "因为不稳定测试，持续集成的结果不可信了。",
+                  "answer": "不稳定测试",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1086,10 +1998,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "róngqì"
+                  "ipa": "róngqì",
+                  "usageNote": "Pinyin róngqì (容 = conter + 器 = recipiente). Ligado ao Docker; verbos: 启动容器, 停止容器.",
+                  "collocations": [
+                    "启动容器",
+                    "Docker容器",
+                    "容器镜像"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "应用运行在容器里。",
+                  "answer": "容器",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我启动了一个新容器，确认配置。",
+                  "answer": "容器",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1106,10 +2037,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "liúshuǐxiàn"
+                  "ipa": "liúshuǐxiàn",
+                  "usageNote": "Pinyin liúshuǐxiàn (流水 = fluxo + 线 = linha). CI/CD: 构建 → 测试 → 部署.",
+                  "collocations": [
+                    "运行流水线",
+                    "持续集成流水线",
+                    "流水线失败"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "流水线会自动测试并部署代码。",
+                  "answer": "流水线",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "测试失败，所以流水线停了下来。",
+                  "answer": "流水线",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1126,10 +2076,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "huánjìng biànliàng"
+                  "ipa": "huánjìng biànliàng",
+                  "usageNote": "Pinyin huánjìng biànliàng (环境 + 变量). Para segredos e configuração, nunca no código.",
+                  "collocations": [
+                    "设置环境变量",
+                    "读取环境变量",
+                    "密钥"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "数据库的连接地址设置在环境变量里。",
+                  "answer": "环境变量",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "请从环境变量中读取密码。",
+                  "answer": "环境变量",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1146,10 +2115,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fùzài jūnhéngqì"
+                  "ipa": "fùzài jūnhéngqì",
+                  "usageNote": "Pinyin fùzài jūnhéng qì (负载 = carga + 均衡 = equilíbrio + 器). Distribui o tráfego.",
+                  "collocations": [
+                    "配置负载均衡器",
+                    "分发流量",
+                    "健康检查"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "负载均衡器把请求分配给多台服务器。",
+                  "answer": "负载均衡器",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我调整了负载均衡器的设置，加入了一台新服务器。",
+                  "answer": "负载均衡器",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1166,10 +2154,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "kě kuòzhǎnxìng"
+                  "ipa": "kě kuòzhǎnxìng",
+                  "usageNote": "Pinyin kě kuòzhǎn xìng (可 = possível + 扩展 = expandir + 性). Horizontal: 水平扩展.",
+                  "collocations": [
+                    "提高可扩展性",
+                    "水平扩展",
+                    "弹性伸缩"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个系统的可扩展性很好。",
+                  "answer": "可扩展性",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "用户增加时，良好的可扩展性让人放心。",
+                  "answer": "可扩展性",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1186,10 +2193,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhèngcháng yùnxíng shíjiān"
+                  "ipa": "zhèngcháng yùnxíng shíjiān",
+                  "usageNote": "Pinyin zhèngcháng yùnxíng shíjiān (正常 + 运行 + 时间). Em SLA: 可用性 99,9%.",
+                  "collocations": [
+                    "可用性",
+                    "年度正常运行时间",
+                    "九九点九"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项服务的正常运行时间达到百分之九十九点九。",
+                  "answer": "正常运行时间",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "故障减少之后，正常运行时间提高了。",
+                  "answer": "正常运行时间",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1220,10 +2246,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhàn"
+                  "ipa": "zhàn",
+                  "usageNote": "Pinyin zhàn (栈). Estrutura LIFO (último a entrar, primeiro a sair): 后进先出. Operações: 入栈, 出栈.",
+                  "collocations": [
+                    "入栈",
+                    "出栈",
+                    "后进先出"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "栈先取出最后放进去的数据。",
+                  "answer": "栈",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "函数的调用记录保存在栈里。",
+                  "answer": "栈",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1240,10 +2285,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "duìliè"
+                  "ipa": "duìliè",
+                  "usageNote": "Pinyin duìliè (队 = fila + 列). Estrutura FIFO: 先进先出. Operações: 入队, 出队.",
+                  "collocations": [
+                    "入队",
+                    "出队",
+                    "先进先出"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "队列按照先进来的顺序处理数据。",
+                  "answer": "队列",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "消息先放进队列，稍后统一处理。",
+                  "answer": "队列",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1260,10 +2324,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "liànbiǎo"
+                  "ipa": "liànbiǎo",
+                  "usageNote": "Pinyin liànbiǎo (链 = corrente + 表 = lista). Cada nó aponta para o seguinte: 节点, 指针.",
+                  "collocations": [
+                    "节点",
+                    "指针",
+                    "插入元素"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "链表中每个节点指向下一个节点。",
+                  "answer": "链表",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "在链表中间插入元素很容易。",
+                  "answer": "链表",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1280,10 +2363,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dìguī"
+                  "ipa": "dìguī",
+                  "usageNote": "Pinyin dìguī (递 = passar + 归 = voltar). Caso base: 终止条件; 递归调用.",
+                  "collocations": [
+                    "递归调用",
+                    "终止条件",
+                    "递归函数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "用递归可以把树结构的处理写得很短。",
+                  "answer": "递归",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "没有终止条件的话，递归会一直进行下去。",
+                  "answer": "递归",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1300,10 +2402,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "suànfǎ"
+                  "ipa": "suànfǎ",
+                  "usageNote": "Pinyin suànfǎ (算 = calcular + 法 = método). Verbos: 设计算法, 优化算法.",
+                  "collocations": [
+                    "设计算法",
+                    "排序算法",
+                    "优化算法"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个算法能很快地给大量数据排序。",
+                  "answer": "算法",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了缩短处理时间，我重新审视了算法。",
+                  "answer": "算法",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1320,10 +2441,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shíjiān fùzádù"
+                  "ipa": "shíjiān fùzádù",
+                  "usageNote": "Pinyin shíjiān fùzádù (时间 + 复杂度 = complexidade). Notação O(n), O(log n).",
+                  "collocations": [
+                    "估算复杂度",
+                    "大O表示法",
+                    "降低复杂度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这种方法的时间复杂度与数据量成正比。",
+                  "answer": "时间复杂度",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "时间复杂度太大，数据增加后会变慢。",
+                  "answer": "时间复杂度",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1354,10 +2494,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lòudòng"
+                  "ipa": "lòudòng",
+                  "usageNote": "Pinyin lòudòng (漏 = vazar + 洞 = buraco). Verbos: 修复漏洞, 利用漏洞.",
+                  "collocations": [
+                    "修复漏洞",
+                    "利用漏洞",
+                    "漏洞扫描"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "旧版本的库里发现了严重漏洞。",
+                  "answer": "漏洞",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "被攻击之前，必须修复漏洞。",
+                  "answer": "漏洞",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1374,10 +2533,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiāmì"
+                  "ipa": "jiāmì",
+                  "usageNote": "Pinyin jiāmì (加 = adicionar + 密 = segredo). Verbo: 加密; contrário: 解密.",
+                  "collocations": [
+                    "加密数据",
+                    "加密通信",
+                    "解密"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "密码会加密之后再保存。",
+                  "answer": "加密",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "对通信进行加密，对防止信息泄露很重要。",
+                  "answer": "加密",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1394,10 +2572,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shòuquán"
+                  "ipa": "shòuquán",
+                  "usageNote": "Pinyin shòuquán (授 = conceder + 权 = poder). Contraste: 身份验证 (quem é) × 授权 (o que pode).",
+                  "collocations": [
+                    "检查授权",
+                    "授予权限",
+                    "基于角色的授权"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "通过授权，只有管理员才能修改设置。",
+                  "answer": "授权",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "授权配置错误，导致别人的数据被看到了。",
+                  "answer": "授权",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1414,10 +2611,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "SQL zhùrù"
+                  "ipa": "SQL zhùrù",
+                  "usageNote": "Pinyin SQL zhùrù (SQL + 注入 = injeção). Prevenção: 参数化查询.",
+                  "collocations": [
+                    "防止SQL注入",
+                    "SQL注入攻击",
+                    "参数化查询"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "把输入的值直接拼进SQL，会有SQL注入的风险。",
+                  "answer": "SQL注入",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "使用参数化查询，就能防止SQL注入。",
+                  "answer": "SQL注入",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1434,10 +2650,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fǎngwèn kòngzhì"
+                  "ipa": "fǎngwèn kòngzhì",
+                  "usageNote": "Pinyin fǎngwèn kòngzhì (访问 = acesso + 控制). Modelo: RBAC 基于角色.",
+                  "collocations": [
+                    "设置访问控制",
+                    "访问控制列表",
+                    "权限管理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这份文件设置了访问控制。",
+                  "answer": "访问控制",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我重新检查了访问控制，删掉了不需要的权限。",
+                  "answer": "访问控制",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1454,10 +2689,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shěnjì rìzhì"
+                  "ipa": "shěnjì rìzhì",
+                  "usageNote": "Pinyin shěnjì rìzhì (审计 = auditoria + 日志 = log). Registra quem fez o quê e quando.",
+                  "collocations": [
+                    "记录审计日志",
+                    "查看审计日志",
+                    "操作记录"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "管理员的所有操作都会留在审计日志里。",
+                  "answer": "审计日志",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "调查非法访问时，审计日志很有用。",
+                  "answer": "审计日志",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1488,10 +2742,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chōngcì"
+                  "ipa": "chōngcì",
+                  "usageNote": "Pinyin chōngcì (冲刺, \"arranco\"). Ciclo curto de 1–2 semanas; 冲刺计划, 冲刺评审.",
+                  "collocations": [
+                    "冲刺计划",
+                    "冲刺评审",
+                    "开始冲刺"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "下一个冲刺要完成登录功能。",
+                  "answer": "冲刺",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "一个冲刺是两周，每次都会演示成果。",
+                  "answer": "冲刺",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1508,10 +2781,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dàibàn lièbiǎo"
+                  "ipa": "dàibàn lièbiǎo",
+                  "usageNote": "Pinyin dàibàn lièbiǎo (待办 = pendente + 列表). Também 产品待办事项.",
+                  "collocations": [
+                    "添加到待办列表",
+                    "整理待办列表",
+                    "排优先级"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "新的需求会被添加到待办列表。",
+                  "answer": "待办列表",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "团队每周都会重新排列待办列表的优先级。",
+                  "answer": "待办列表",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1528,10 +2820,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "měirì zhànhuì"
+                  "ipa": "měirì zhànhuì",
+                  "usageNote": "Pinyin měirì zhànhuì (每日 = diário + 站会 = reunião em pé). 15 minutos: ontem, hoje, bloqueios.",
+                  "collocations": [
+                    "参加每日站会",
+                    "同步进度",
+                    "站着开会"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每日站会每天早上九点开始，只开十五分钟。",
+                  "answer": "每日站会",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "昨天的工作和今天的计划，会在每日站会上分享。",
+                  "answer": "每日站会",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1548,10 +2859,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lìyì xiāngguānzhě"
+                  "ipa": "lìyì xiāngguānzhě",
+                  "usageNote": "Pinyin lìyì xiāngguān zhě (利益 = interesse + 相关 = relacionado + 者 = pessoa). Clientes, gestores.",
+                  "collocations": [
+                    "与利益相关者沟通",
+                    "主要利益相关者",
+                    "客户"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "先听取利益相关者的意见，再确定需求。",
+                  "answer": "利益相关者",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "管理层是重要的利益相关者之一。",
+                  "answer": "利益相关者",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1568,10 +2898,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiéduì biānchéng"
+                  "ipa": "jiéduì biānchéng",
+                  "usageNote": "Pinyin jiéduì biānchéng (结对 = em par + 编程). Papéis: 驾驶员 (digita) e 领航员 (revisa).",
+                  "collocations": [
+                    "结对编程",
+                    "驾驶员和领航员",
+                    "两人协作"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "结对编程时，两个人看着同一块屏幕开发。",
+                  "answer": "结对编程",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "新人通过结对编程学会了团队的写法。",
+                  "answer": "结对编程",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1588,10 +2937,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "huígù huìyì"
+                  "ipa": "huígù huìyì",
+                  "usageNote": "Pinyin huígù huìyì (回顾 = olhar para trás + 会议). No fim do sprint; também 复盘 (revisão a fundo).",
+                  "collocations": [
+                    "召开回顾会议",
+                    "复盘",
+                    "改进点"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "冲刺结束时会召开回顾会议。",
+                  "answer": "回顾会议",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "在回顾会议上，我们确定了下一个冲刺的改进措施。",
+                  "answer": "回顾会议",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]

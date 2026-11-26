@@ -26,10 +26,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "píngmiàntú"
+                  "ipa": "píngmiàntú",
+                  "usageNote": "Pinyin píngmiàntú (平面 = plano + 图 = desenho). Vista superior de um pavimento; 户型图 = planta da unidade.",
+                  "collocations": [
+                    "户型图",
+                    "绘制平面图",
+                    "一层平面图"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "平面图标示了各个房间的布局。",
+                  "answer": "平面图",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们根据一层平面图确认了厨房和客厅的位置。",
+                  "answer": "平面图",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -46,10 +65,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lìmiàntú"
+                  "ipa": "lìmiàntú",
+                  "usageNote": "Pinyin lìmiàntú (立面 = elevação + 图). Vistas: 南立面图, 北立面图.",
+                  "collocations": [
+                    "南立面图",
+                    "绘制立面图",
+                    "外观"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "立面图画出了外墙的高度和形状。",
+                  "answer": "立面图",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "立面图是按一比一百的比例绘制的。",
+                  "answer": "立面图",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -66,10 +104,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "pōumiàntú"
+                  "ipa": "pōumiàntú",
+                  "usageNote": "Pinyin pōumiàntú (剖面 = seção + 图). Corte vertical; 纵剖面, 横剖面.",
+                  "collocations": [
+                    "纵剖面",
+                    "横剖面",
+                    "绘制剖面图"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "剖面图显示了每一层的高度。",
+                  "answer": "剖面图",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "墙体的材料构成画在剖面图里。",
+                  "answer": "剖面图",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -86,10 +143,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zǒngpíngmiàntú"
+                  "ipa": "zǒngpíngmiàntú",
+                  "usageNote": "Pinyin zǒng píngmiàntú (总 = geral + 平面图). Mostra o terreno e a implantação; 红线 = limite do terreno.",
+                  "collocations": [
+                    "建筑红线",
+                    "总平面图",
+                    "建筑面积"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "总平面图标明了用地的边界。",
+                  "answer": "总平面图",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "申请施工许可需要提交总平面图。",
+                  "answer": "总平面图",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -106,10 +182,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bǐlìchǐ"
+                  "ipa": "bǐlìchǐ",
+                  "usageNote": "Pinyin bǐlìchǐ (比例尺). Ex.: 1:100, 1:50. Na China chama-se 比例 em desenhos e 比例尺 como a régua.",
+                  "collocations": [
+                    "标注比例尺",
+                    "比例一比一百",
+                    "比例尺换算"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "所有图纸的比例尺都是五十分之一。",
+                  "answer": "比例尺",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "画细部时适合用较大的比例尺。",
+                  "answer": "比例尺",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -126,10 +221,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "cǎotú"
+                  "ipa": "cǎotú",
+                  "usageNote": "Pinyin cǎotú (草 = rascunho + 图). Croqui das primeiras ideias; 手绘草图.",
+                  "collocations": [
+                    "手绘草图",
+                    "画草图",
+                    "方案草图"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "建筑师在会议上画了一张草图。",
+                  "answer": "草图",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们对着最初的草图讨论了入口的位置。",
+                  "answer": "草图",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -160,10 +274,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "wàilìmiàn"
+                  "ipa": "wàilìmiàn",
+                  "usageNote": "Pinyin wài lìmiàn (外 = externo + 立面 = face). Também 外观, 幕墙 (cortina de vidro).",
+                  "collocations": [
+                    "玻璃幕墙",
+                    "外立面改造",
+                    "外观设计"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "外立面朝向广场。",
+                  "answer": "外立面",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "老楼的外立面用铝板进行了翻新。",
+                  "answer": "外立面",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -180,10 +313,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yángtái"
+                  "ipa": "yángtái",
+                  "usageNote": "Pinyin yángtái (阳 = sol + 台 = plataforma). Plataforma saliente; 露台 = terraço.",
+                  "collocations": [
+                    "阳台栏杆",
+                    "露台",
+                    "走到阳台"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "阳台朝向街道，装着铁栏杆。",
+                  "answer": "阳台",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "从阳台能看到整个广场。",
+                  "answer": "阳台",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -200,10 +352,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lóutī"
+                  "ipa": "lóutī",
+                  "usageNote": "Pinyin lóutī (楼 = andar + 梯 = escada). Tipos: 旋转楼梯, 消防楼梯 (de emergência).",
+                  "collocations": [
+                    "旋转楼梯",
+                    "消防楼梯",
+                    "楼梯间"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "楼梯连接着一层和二层。",
+                  "answer": "楼梯",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "高层建筑需要设置第二部楼梯。",
+                  "answer": "楼梯",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -220,10 +391,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gǒngdǐng"
+                  "ipa": "gǒngdǐng",
+                  "usageNote": "Pinyin gǒngdǐng (拱 = arco + 顶 = teto). Cobertura curva; 十字拱 (de aresta), 筒拱 (de berço).",
+                  "collocations": [
+                    "十字拱",
+                    "筒拱",
+                    "砖砌拱顶"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "拱顶是用石头或砖砌成的弧形屋顶。",
+                  "answer": "拱顶",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "地下室上面覆盖着砖砌的拱顶。",
+                  "answer": "拱顶",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -240,10 +430,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhùláng"
+                  "ipa": "zhùláng",
+                  "usageNote": "Pinyin zhùláng (柱 = coluna + 廊 = galeria). Série de colunas regulares.",
+                  "collocations": [
+                    "古典柱廊",
+                    "大理石柱廊",
+                    "回廊"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "柱廊环绕着神庙的庭院。",
+                  "answer": "柱廊",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "大理石的柱廊支撑着入口的门厅。",
+                  "answer": "柱廊",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -260,10 +469,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yánkǒu"
+                  "ipa": "yánkǒu",
+                  "usageNote": "Pinyin yánkǒu (檐 = beiral + 口). Moldura saliente no topo da fachada; 飞檐 = beiral curvo (chinês tradicional).",
+                  "collocations": [
+                    "飞檐",
+                    "修复檐口",
+                    "装饰线脚"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "檐口装饰着墙的上沿，也能保护墙体不被雨淋。",
+                  "answer": "檐口",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "受损的檐口用新的石材修复了。",
+                  "answer": "檐口",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -294,10 +522,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fēnqū guīhuà"
+                  "ipa": "fēnqū guīhuà",
+                  "usageNote": "Pinyin fēnqū guīhuà (分区 = zonas + 规划 = planejamento). Define usos: 居住区, 商业区, 工业区.",
+                  "collocations": [
+                    "土地分区",
+                    "居住区",
+                    "工业区"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "分区规划决定了城市各区域的用途。",
+                  "answer": "分区规划",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "新的分区规划允许在市中心建更多住宅。",
+                  "answer": "分区规划",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -314,10 +561,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tuìxiàn"
+                  "ipa": "tuìxiàn",
+                  "usageNote": "Pinyin tuìxiàn (退 = recuar + 线 = linha). Em normas: 建筑退线 / 退界.",
+                  "collocations": [
+                    "建筑退线",
+                    "退界距离",
+                    "道路红线"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "建筑必须从道路红线退线三米。",
+                  "answer": "退线",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了保留一个小花园，侧面做了退线。",
+                  "answer": "退线",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -334,10 +600,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tǔdì lìyòng"
+                  "ipa": "tǔdì lìyòng",
+                  "usageNote": "Pinyin tǔdì lìyòng (土地 + 利用). Residencial, comercial, industrial, rural; 土地性质.",
+                  "collocations": [
+                    "土地性质",
+                    "土地利用规划",
+                    "用地类别"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "土地利用规划规定了每个地块的用途。",
+                  "answer": "土地利用",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了建住宅，申请变更了土地利用。",
+                  "answer": "土地利用",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -354,10 +639,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chéngshì mànyán"
+                  "ipa": "chéngshì mànyán",
+                  "usageNote": "Pinyin chéngshì mànyán (城市 + 蔓延 = espalhar-se). Expansão desordenada; 郊区化.",
+                  "collocations": [
+                    "遏制城市蔓延",
+                    "郊区化",
+                    "无序扩张"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "城市蔓延增加了交通和运输的成本。",
+                  "answer": "城市蔓延",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "规划的目标是遏制郊区的城市蔓延。",
+                  "answer": "城市蔓延",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -374,10 +678,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiējǐng"
+                  "ipa": "jiējǐng",
+                  "usageNote": "Pinyin jiējǐng (街 = rua + 景 = paisagem). Conjunto visual de uma rua.",
+                  "collocations": [
+                    "街景改造",
+                    "历史街景",
+                    "街景设计"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "步行街改变了这条路的街景。",
+                  "answer": "街景",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "绿树提升了街景，也带来了阴凉。",
+                  "answer": "街景",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -394,10 +717,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lǜdì"
+                  "ipa": "lǜdì",
+                  "usageNote": "Pinyin lǜdì (绿 = verde + 地 = terreno). Praças, parques, jardins; 公园 = parque.",
+                  "collocations": [
+                    "公共绿地",
+                    "绿地率",
+                    "公园"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个社区需要更多的绿地。",
+                  "answer": "绿地",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "小区的中央建起了一块新的绿地。",
+                  "answer": "绿地",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -428,10 +770,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zìrán cǎiguāng"
+                  "ipa": "zìrán cǎiguāng",
+                  "usageNote": "Pinyin zìrán cǎiguāng (自然 + 采光 = captar luz). Uso da luz do dia; 采光系数.",
+                  "collocations": [
+                    "采光系数",
+                    "优化自然采光",
+                    "窗地比"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "自然采光可以减少用电量。",
+                  "answer": "自然采光",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "大窗户改善了客厅的自然采光。",
+                  "answer": "自然采光",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -448,10 +809,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zìrán tōngfēng"
+                  "ipa": "zìrán tōngfēng",
+                  "usageNote": "Pinyin zìrán tōngfēng (自然 + 通风 = ventilação). Ventilação cruzada: 穿堂风.",
+                  "collocations": [
+                    "穿堂风",
+                    "利用自然通风",
+                    "通风设计"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "自然通风让室内无需空调也很凉爽。",
+                  "answer": "自然通风",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了帮助自然通风，规划了几个天井。",
+                  "answer": "自然通风",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -468,10 +848,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bèidòngshì shèjì"
+                  "ipa": "bèidòngshì shèjì",
+                  "usageNote": "Pinyin bèidòngshì shèjì (被动式 = passivo + 设计). Casa passiva: 被动房.",
+                  "collocations": [
+                    "被动房",
+                    "被动式节能",
+                    "太阳得热"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "被动式设计在冬天利用阳光取暖。",
+                  "answer": "被动式设计",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这座房子采用被动式设计，几乎不耗能。",
+                  "answer": "被动式设计",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -488,10 +887,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lǜsè wūdǐng"
+                  "ipa": "lǜsè wūdǐng",
+                  "usageNote": "Pinyin lǜsè wūdǐng (绿色 + 屋顶). Também 屋顶绿化 e 垂直绿化 (paredes verdes).",
+                  "collocations": [
+                    "屋顶绿化",
+                    "垂直绿化",
+                    "种植屋面"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "绿色屋顶能降低建筑的温度。",
+                  "answer": "绿色屋顶",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "停车场上方规划了一个绿色屋顶花园。",
+                  "answer": "绿色屋顶",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -508,10 +926,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "néngyuán xiàolǜ"
+                  "ipa": "néngyuán xiàolǜ",
+                  "usageNote": "Pinyin néngyuán xiàolǜ (能源 = energia + 效率). Também 节能 (economizar energia).",
+                  "collocations": [
+                    "提高能源效率",
+                    "节能",
+                    "能效等级"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "加强保温会提高建筑的能源效率。",
+                  "answer": "能源效率",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这栋大楼的能源效率获得了最高等级。",
+                  "answer": "能源效率",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -528,10 +965,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "rèshūshì"
+                  "ipa": "rèshūshì",
+                  "usageNote": "Pinyin rè shūshìdù (热 + 舒适 = conforto + 度). Sensação térmica agradável.",
+                  "collocations": [
+                    "热舒适度",
+                    "室内环境",
+                    "保温性能"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "设计的目标是全年稳定的热舒适。",
+                  "answer": "热舒适",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "冬天的热舒适取决于墙体的保温。",
+                  "answer": "热舒适",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -562,10 +1018,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bǐlì"
+                  "ipa": "bǐlì",
+                  "usageNote": "Pinyin bǐlì (比 = comparar + 例 = exemplo). Em design: 黄金比例 (áurea), 协调.",
+                  "collocations": [
+                    "黄金比例",
+                    "调整比例",
+                    "协调"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "外立面的比例让整体显得协调。",
+                  "answer": "比例",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "建筑师仔细研究了每扇窗的比例。",
+                  "answer": "比例",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -582,10 +1057,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "duìchèn"
+                  "ipa": "duìchèn",
+                  "usageNote": "Pinyin duìchèn (对 = par + 称 = chamar). Equilíbrio em torno de um eixo; 轴对称.",
+                  "collocations": [
+                    "轴对称",
+                    "打破对称",
+                    "中轴线"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "外立面的对称带来秩序感和庄严感。",
+                  "answer": "对称",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "花园围绕中轴线形成完美的对称。",
+                  "answer": "对称",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -602,10 +1096,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jíjiǎn zhǔyì"
+                  "ipa": "jíjiǎn zhǔyì",
+                  "usageNote": "Pinyin jíjiǎn zhǔyì (极简 = extremamente simples + 主义 = -ismo). Formas simples, poucos elementos.",
+                  "collocations": [
+                    "极简主义风格",
+                    "极简设计",
+                    "留白"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "极简主义的特点是线条简洁，装饰很少。",
+                  "answer": "极简主义",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这座白墙的房子是极简主义的例子。",
+                  "answer": "极简主义",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1135,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiāngtǔ jiànzhù"
+                  "ipa": "xiāngtǔ jiànzhù",
+                  "usageNote": "Pinyin xiāngtǔ jiànzhù (乡土 = vernáculo + 建筑). Tradicional local com materiais da região; 民居.",
+                  "collocations": [
+                    "乡土建筑",
+                    "民居",
+                    "地方材料"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "乡土建筑会随着当地气候而发展。",
+                  "answer": "乡土建筑",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "福建土楼是中国乡土建筑的代表。",
+                  "answer": "乡土建筑",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -642,10 +1174,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lìshǐ jiànzhù"
+                  "ipa": "lìshǐ jiànzhù",
+                  "usageNote": "Pinyin lìshǐ jiànzhù (历史 + 建筑). Protegido por lei; 文物保护单位 = unidade protegida.",
+                  "collocations": [
+                    "历史建筑保护",
+                    "文物保护单位",
+                    "修缮"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这座车站被列为历史建筑。",
+                  "answer": "历史建筑",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "改造历史建筑需要特别的许可。",
+                  "answer": "历史建筑",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -662,10 +1213,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiūfù"
+                  "ipa": "xiūfù",
+                  "usageNote": "Pinyin xiūfù (修 = consertar + 复 = restaurar). Restauro respeitando o valor histórico; 文物修复.",
+                  "collocations": [
+                    "文物修复",
+                    "修复工程",
+                    "修旧如旧"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "修复让教堂恢复了原来的样子。",
+                  "answer": "修复",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "修复工程离不开历史学家的参与。",
+                  "answer": "修复",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -696,10 +1266,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shèjì rènwùshū"
+                  "ipa": "shèjì rènwùshū",
+                  "usageNote": "Pinyin shèjì rènwùshū (设计 + 任务书 = documento de tarefas). Exigências do cliente para o projeto.",
+                  "collocations": [
+                    "编制设计任务书",
+                    "业主要求",
+                    "功能需求"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "设计任务书要求有四间卧室和一间书房。",
+                  "answer": "设计任务书",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "业主把设计任务书交给了设计院。",
+                  "answer": "设计任务书",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -716,10 +1305,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiànzhù móxíng"
+                  "ipa": "jiànzhù móxíng",
+                  "usageNote": "Pinyin jiànzhù móxíng (建筑 + 模型 = modelo). Material comum: 泡沫板.",
+                  "collocations": [
+                    "制作建筑模型",
+                    "沙盘",
+                    "展示模型"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "事务所展示了新美术馆的建筑模型。",
+                  "answer": "建筑模型",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "看建筑模型就能了解建筑的立体形状。",
+                  "answer": "建筑模型",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -736,10 +1344,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiànzhù xǔkězhèng"
+                  "ipa": "jiànzhù xǔkězhèng",
+                  "usageNote": "Pinyin jiànzhù xǔkězhèng (建筑 + 许可证 = alvará). Completo: 建设工程施工许可证.",
+                  "collocations": [
+                    "申请建筑许可证",
+                    "施工许可",
+                    "办理手续"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "市里在三月颁发了建筑许可证。",
+                  "answer": "建筑许可证",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "没有建筑许可证，不能开工。",
+                  "answer": "建筑许可证",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -756,10 +1383,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiàoguǒtú"
+                  "ipa": "xiàoguǒtú",
+                  "usageNote": "Pinyin xiàoguǒtú (效果 = efeito + 图). Imagem realista do projeto; 渲染 = renderizar (verbo).",
+                  "collocations": [
+                    "效果图",
+                    "渲染",
+                    "三维效果图"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "效果图能显示建成后的样子。",
+                  "answer": "效果图",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了客户，委托制作了外观的效果图。",
+                  "answer": "效果图",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -776,10 +1422,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiànchǎng jiānlǐ"
+                  "ipa": "xiànchǎng jiānlǐ",
+                  "usageNote": "Pinyin xiànchǎng jiānlǐ (现场 = obra + 监理 = supervisão). Também 工程监理.",
+                  "collocations": [
+                    "工程监理",
+                    "现场监理工程师",
+                    "旁站"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "现场监理检查是否按图纸施工。",
+                  "answer": "现场监理",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "建筑师担任了这座楼的现场监理。",
+                  "answer": "现场监理",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -796,10 +1461,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhāobiāo"
+                  "ipa": "zhāobiāo",
+                  "usageNote": "Pinyin zhāobiāo (招 = convocar + 标 = proposta). Concorrência pública; 投标 = apresentar proposta; 中标 = vencer.",
+                  "collocations": [
+                    "公开招标",
+                    "投标",
+                    "中标"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "市政府发布了新大桥的招标公告。",
+                  "answer": "招标",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这家公司在招标中以最低报价胜出。",
+                  "answer": "招标",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]

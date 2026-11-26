@@ -34,10 +34,29 @@
                   "text": "Träger",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Träger (plural: die Träger). Elemento horizontal que trabalha à flexão; de Stahl, Holz ou Beton.",
+                  "collocations": [
+                    "Stahlträger",
+                    "durchlaufender Träger",
+                    "Träger berechnen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Träger leitet die Last der Decke in die Stützen ein.",
+                  "answer": "Träger",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Träger wurde für das Gewicht des Dachs bemessen.",
+                  "answer": "Träger",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -53,10 +72,29 @@
                   "text": "Stütze",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Stütze (plural: die Stützen); em estruturas também \"Säule\" (mais decorativo). Elemento vertical.",
+                  "collocations": [
+                    "Betonstütze",
+                    "Stahlstütze",
+                    "tragende Stütze"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Stütze trägt die Last von zwei Trägern.",
+                  "answer": "Stütze",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Stütze an der Ecke wurde zusätzlich verstärkt.",
+                  "answer": "Stütze",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -72,10 +110,29 @@
                   "text": "Fundament",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Fundament (plural: die Fundamente). Parte que transmite a carga ao solo.",
+                  "collocations": [
+                    "Fundament gießen",
+                    "Tiefgründung",
+                    "Baugrundgutachten"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Fundament liegt auf tragfähigem Boden.",
+                  "answer": "Fundament",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor dem Bau wird ein Gutachten für das Fundament erstellt.",
+                  "answer": "Fundament",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -91,10 +148,29 @@
                   "text": "Last",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Last (plural: die Lasten). Tipos: ständige Last, Nutzlast, Windlast.",
+                  "collocations": [
+                    "ständige Last",
+                    "Windlast",
+                    "Tragfähigkeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die maximale Last der Konstruktion beträgt fünf Tonnen pro Meter.",
+                  "answer": "Last",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Entwurf berücksichtigt die Last des Windes auf der Fassade.",
+                  "answer": "Last",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "text": "Spannung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Spannung (mecânica; a elétrica é a mesma palavra, mas o contexto distingue). Força por unidade de área, em N/mm².",
+                  "collocations": [
+                    "Zugspannung",
+                    "Schubspannung",
+                    "zulässige Spannung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Spannung im Stahl darf die Streckgrenze nicht überschreiten.",
+                  "answer": "Spannung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Spannung ist in der Nähe der Auflager am größten.",
+                  "answer": "Spannung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -129,10 +224,29 @@
                   "text": "Dehnung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Dehnung (plural: die Dehnungen). Variação relativa de comprimento.",
+                  "collocations": [
+                    "elastische Dehnung",
+                    "plastische Dehnung",
+                    "Bruchdehnung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die elastische Dehnung verschwindet nach der Entlastung.",
+                  "answer": "Dehnung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "In der Mitte des Trägers wurde eine Dehnung von zwei Millimetern gemessen.",
+                  "answer": "Dehnung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -162,10 +276,29 @@
                   "text": "Stahl",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Stahl. Liga de ferro e carbono; \"Edelstahl\" é o inox.",
+                  "collocations": [
+                    "Baustahl",
+                    "Edelstahl",
+                    "hochfester Stahl"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Tragwerk wurde aus Stahl gefertigt.",
+                  "answer": "Stahl",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Rostfreier Stahl widersteht der Korrosion besser als normaler.",
+                  "answer": "Stahl",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -181,10 +314,29 @@
                   "text": "Stahlbeton",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Stahlbeton. Combina a compressão do Beton com a tração do aço.",
+                  "collocations": [
+                    "Stahlbetonbau",
+                    "Stahlbetonplatte",
+                    "bewehrter Beton"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Stahlbeton verbindet die Druckfestigkeit des Betons mit der Zugfestigkeit des Stahls.",
+                  "answer": "Stahlbeton",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Decke aus Stahlbeton ist zwanzig Zentimeter dick.",
+                  "answer": "Stahlbeton",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -200,10 +352,29 @@
                   "text": "Legierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Legierung (plural: die Legierungen). Mistura de metais, como bronze ou latão.",
+                  "collocations": [
+                    "Aluminiumlegierung",
+                    "Legierung herstellen",
+                    "leichte Legierung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Legierung ist leicht und beständig gegen Korrosion.",
+                  "answer": "Legierung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde eine Legierung mit höherer Hitzebeständigkeit gewählt.",
+                  "answer": "Legierung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -219,10 +390,29 @@
                   "text": "Zugfestigkeit",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zugfestigkeit. Tensão máxima antes da ruptura.",
+                  "collocations": [
+                    "Zugfestigkeit prüfen",
+                    "Zugversuch",
+                    "Mindestzugfestigkeit"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zugfestigkeit des Stahls beträgt vierhundert Megapascal.",
+                  "answer": "Zugfestigkeit",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Versuch ermittelt die Zugfestigkeit der Probe.",
+                  "answer": "Zugfestigkeit",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -238,10 +428,29 @@
                   "text": "Korrosion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Korrosion. Deterioração por reação química; ex.: galvanische Korrosion.",
+                  "collocations": [
+                    "galvanische Korrosion",
+                    "Korrosionsschutz",
+                    "Lochfraßkorrosion"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Korrosion schwächte die Stahlstäbe der Brücke.",
+                  "answer": "Korrosion",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Anstrich bremst die Korrosion.",
+                  "answer": "Korrosion",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -257,10 +466,29 @@
                   "text": "Ermüdung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ermüdung. Falha por cargas repetidas; \"Ermüdungsbruch\" é a ruptura.",
+                  "collocations": [
+                    "Ermüdungsbruch",
+                    "Materialermüdung",
+                    "Ermüdung des Werkstoffs"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Nach Millionen von Zyklen trat ein Bruch durch Ermüdung auf.",
+                  "answer": "Ermüdung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Auslegung der Welle berücksichtigt die Ermüdung des Werkstoffs.",
+                  "answer": "Ermüdung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -290,10 +518,29 @@
                   "text": "Bauplan",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Bauplan (plural: die Baupläne); também \"Zeichnung\". Desenho técnico de execução.",
+                  "collocations": [
+                    "Bauplan lesen",
+                    "Detailzeichnung",
+                    "Grundrissplan"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Bauplan zeigt die Lage jeder Stütze.",
+                  "answer": "Bauplan",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor dem Baubeginn muss man den Bauplan prüfen.",
+                  "answer": "Bauplan",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -309,10 +556,29 @@
                   "text": "Spezifikation",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Spezifikation (plural: die Spezifikationen); em obras, \"Leistungsbeschreibung\".",
+                  "collocations": [
+                    "technische Spezifikation",
+                    "Spezifikation einhalten",
+                    "Leistungsbeschreibung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Spezifikation fordert einen Beton mit mehr als dreißig Megapascal.",
+                  "answer": "Spezifikation",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Lieferant lieferte Material gemäß der Spezifikation.",
+                  "answer": "Spezifikation",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -328,10 +594,29 @@
                   "text": "Toleranz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Toleranz (plural: die Toleranzen). Variação aceitável, como ±0,1 mm.",
+                  "collocations": [
+                    "Maßtoleranz",
+                    "Fertigungstoleranz",
+                    "außerhalb der Toleranz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Bauteil liegt innerhalb der Toleranz aus dem Plan.",
+                  "answer": "Toleranz",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Charge wurde abgelehnt, weil sie außerhalb der Toleranz lag.",
+                  "answer": "Toleranz",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -347,10 +632,29 @@
                   "text": "Sicherheitsfaktor",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Sicherheitsfaktor (plural: die Sicherheitsfaktoren). Relação entre capacidade e carga prevista.",
+                  "collocations": [
+                    "Sicherheitsfaktor anwenden",
+                    "Mindestsicherheitsfaktor",
+                    "erforderlicher Sicherheitsfaktor"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Sicherheitsfaktor des Krans beträgt vier.",
+                  "answer": "Sicherheitsfaktor",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Norm verlangt einen höheren Sicherheitsfaktor für Stege.",
+                  "answer": "Sicherheitsfaktor",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -366,10 +670,29 @@
                   "text": "Revision",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Revision (plural: die Revisionen). Em documentos técnicos: Revision B.",
+                  "collocations": [
+                    "Revisionsstand",
+                    "Revision des Plans",
+                    "Revisionsverlauf"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Revision des Plans enthält die Änderungen des Kunden.",
+                  "answer": "Revision",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jede Revision trägt eine Nummer und das Ausgabedatum.",
+                  "answer": "Revision",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -385,10 +708,29 @@
                   "text": "Konformität",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Konformität; em empresas também \"Compliance\" (neutro). Conformidade com normas e leis.",
+                  "collocations": [
+                    "Konformität prüfen",
+                    "Konformitätserklärung",
+                    "Normenkonformität"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Konformität mit der Norm ist bei öffentlichen Bauten Pflicht.",
+                  "answer": "Konformität",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Prüfung bestätigte die Konformität der Anlage.",
+                  "answer": "Konformität",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -418,10 +760,29 @@
                   "text": "Drehmoment",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Drehmoment (plural: die Drehmomente). Unidade: N·m.",
+                  "collocations": [
+                    "Drehmoment einstellen",
+                    "Drehmomentschlüssel",
+                    "mit Drehmoment anziehen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Schrauben werden mit einem Drehmoment von vierzig Newtonmeter angezogen.",
+                  "answer": "Drehmoment",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Drehmoment des Motors steigt mit der Last.",
+                  "answer": "Drehmoment",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -437,10 +798,29 @@
                   "text": "Lager",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Lager (plural: die Lager). Reduz o atrito entre peças que giram; \"Wälzlager\".",
+                  "collocations": [
+                    "Wälzlager",
+                    "Lager wechseln",
+                    "Gleitlager"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Lager der Welle war wegen fehlender Schmierung verschlissen.",
+                  "answer": "Lager",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Zur Beseitigung des Geräuschs wurde das Lager ersetzt.",
+                  "answer": "Lager",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -456,10 +836,29 @@
                   "text": "Zahnrad",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Zahnrad (plural: die Zahnräder). Roda dentada; \"Getriebe\" é a caixa de engrenagens.",
+                  "collocations": [
+                    "Zahnrad",
+                    "Getriebe",
+                    "Schrägverzahnung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Zahnrad überträgt die Bewegung des Motors auf die Räder.",
+                  "answer": "Zahnrad",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Zahnrad mit Schrägverzahnung läuft leiser.",
+                  "answer": "Zahnrad",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -475,10 +874,29 @@
                   "text": "Welle",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Welle (plural: die Wellen). Peça que gira e transmite potência.",
+                  "collocations": [
+                    "Antriebswelle",
+                    "Motorwelle",
+                    "Welle lagern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Welle überträgt die Drehung des Motors auf die Pumpe.",
+                  "answer": "Welle",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde geprüft, dass die Welle kein Spiel hat.",
+                  "answer": "Welle",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -494,10 +912,29 @@
                   "text": "Pumpe",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Pumpe (plural: die Pumpen). Tipos: Kreiselpumpe, Kolbenpumpe.",
+                  "collocations": [
+                    "Kreiselpumpe",
+                    "Wasserpumpe",
+                    "Förderstrom der Pumpe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Pumpe fördert das Wasser in den Hochbehälter.",
+                  "answer": "Pumpe",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Maschinenraum wurde eine neue Pumpe eingebaut.",
+                  "answer": "Pumpe",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -513,10 +950,29 @@
                   "text": "Ventil",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Ventil (plural: die Ventile). Controla o fluxo: Sicherheitsventil, Rückschlagventil.",
+                  "collocations": [
+                    "Sicherheitsventil",
+                    "Rückschlagventil",
+                    "Ventil öffnen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Ventil lässt den überschüssigen Druck ab.",
+                  "answer": "Ventil",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor dem Ausbau der Leitung muss man das Ventil schließen.",
+                  "answer": "Ventil",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -546,10 +1002,29 @@
                   "text": "Stromkreis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Stromkreis (plural: die Stromkreise). Pode ser Reihenschaltung ou Parallelschaltung.",
+                  "collocations": [
+                    "geschlossener Stromkreis",
+                    "Reihenschaltung",
+                    "Parallelschaltung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Stromkreis wird mit zwölf Volt versorgt.",
+                  "answer": "Stromkreis",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Überlast beschädigte den Stromkreis der Steuerung.",
+                  "answer": "Stromkreis",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -565,10 +1040,29 @@
                   "text": "Spannung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Spannung (elétrica); unidade: Volt. Mesma palavra que a mecânica; contexto distingue.",
+                  "collocations": [
+                    "Netzspannung",
+                    "Spannungsabfall",
+                    "Hochspannung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Spannung im Netz beträgt zweihundertdreißig Volt.",
+                  "answer": "Spannung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Abfall der Spannung schaltete das Gerät aus.",
+                  "answer": "Spannung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -584,10 +1078,29 @@
                   "text": "Strom",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Strom (plural: die Ströme). Unidade: Ampere. Gleichstrom (CC) e Wechselstrom (CA).",
+                  "collocations": [
+                    "Gleichstrom",
+                    "Wechselstrom",
+                    "Strom messen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Strom fließt durch den Kupferleiter.",
+                  "answer": "Strom",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Sicherung unterbricht den Strom bei Überlast.",
+                  "answer": "Strom",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -603,10 +1116,29 @@
                   "text": "Widerstand",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Widerstand (plural: die Widerstände). Unidade: Ohm; também é o componente.",
+                  "collocations": [
+                    "elektrischer Widerstand",
+                    "Widerstand messen",
+                    "Reihenwiderstand"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Widerstand des Kabels steigt mit der Länge.",
+                  "answer": "Widerstand",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Widerstand wird mit einem Multimeter gemessen.",
+                  "answer": "Widerstand",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1154,29 @@
                   "text": "Transformator",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Transformator (plural: die Transformatoren); na fala \"Trafo\". Muda a tensão entre primário e secundário.",
+                  "collocations": [
+                    "Leistungstransformator",
+                    "Trafo",
+                    "Übersetzungsverhältnis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Transformator senkt die Netzspannung auf die Haushaltsspannung.",
+                  "answer": "Transformator",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Transformator für Drehstrom versorgt das ganze Werk.",
+                  "answer": "Transformator",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -641,10 +1192,29 @@
                   "text": "Erdung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Erdung. Segurança elétrica; também \"Schutzleiter\".",
+                  "collocations": [
+                    "Schutzerdung",
+                    "Erdungswiderstand",
+                    "Erdungsanlage"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Erdung schützt Menschen vor Stromschlägen.",
+                  "answer": "Erdung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Erdung des gesamten Gebäudes wurde gemessen.",
+                  "answer": "Erdung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -674,10 +1244,29 @@
                   "text": "Zeitplan",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Zeitplan (plural: die Zeitpläne). Datas e prazos de um projeto.",
+                  "collocations": [
+                    "Zeitplan einhalten",
+                    "Bauzeitenplan",
+                    "Verzug im Zeitplan"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Zeitplan sieht den Abschluss des Rohbaus im März vor.",
+                  "answer": "Zeitplan",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Verzug im Zeitplan verteuert die Baustelle.",
+                  "answer": "Zeitplan",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -693,10 +1282,29 @@
                   "text": "Meilenstein",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Meilenstein (plural: die Meilensteine). Evento importante do projeto.",
+                  "collocations": [
+                    "Meilenstein erreichen",
+                    "Projektmeilenstein",
+                    "Meilenstein planen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der erste Meilenstein des Projekts ist die Abgabe der Pläne.",
+                  "answer": "Meilenstein",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir erreichten den Meilenstein Fundament eine Woche früher.",
+                  "answer": "Meilenstein",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -712,10 +1320,29 @@
                   "text": "Budget",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Budget (plural: die Budgets). Previsto vs. real; \"Kostenplan\" também aparece.",
+                  "collocations": [
+                    "Budget einhalten",
+                    "Budget überschreiten",
+                    "Kostenplan"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Budget der Baustelle beträgt zwei Millionen Euro.",
+                  "answer": "Budget",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wegen der Wünsche des Kunden wurde das Budget überschritten.",
+                  "answer": "Budget",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -731,10 +1358,29 @@
                   "text": "Risikobewertung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Risikobewertung (também \"Gefährdungsbeurteilung\" na segurança do trabalho).",
+                  "collocations": [
+                    "Risikobewertung durchführen",
+                    "Gefährdungsbeurteilung",
+                    "Risikomatrix"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Risikobewertung ergab eine Absturzgefahr auf dem Dach.",
+                  "answer": "Risikobewertung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor Arbeitsbeginn wird die Risikobewertung aktualisiert.",
+                  "answer": "Risikobewertung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -750,10 +1396,29 @@
                   "text": "Arbeitsergebnis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Arbeitsergebnis (plural: die Arbeitsergebnisse); também \"Liefergegenstand\". Produto entregue ao cliente.",
+                  "collocations": [
+                    "Arbeitsergebnis abnehmen",
+                    "Liefergegenstand",
+                    "Abgabetermin"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jedes Arbeitsergebnis wird vor der Übergabe geprüft.",
+                  "answer": "Arbeitsergebnis",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das geotechnische Gutachten ist das erste Arbeitsergebnis des Vertrags.",
+                  "answer": "Arbeitsergebnis",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -769,10 +1434,29 @@
                   "text": "Inspektion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Inspektion (plural: die Inspektionen); em obra também \"Begehung\" (vistoria).",
+                  "collocations": [
+                    "Sichtprüfung",
+                    "Inspektionsbericht",
+                    "Begehung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Inspektion entdeckte Risse im Träger.",
+                  "answer": "Inspektion",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Bericht der Inspektion geht an den Eigentümer.",
+                  "answer": "Inspektion",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]

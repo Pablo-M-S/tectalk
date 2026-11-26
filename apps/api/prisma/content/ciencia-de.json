@@ -25,10 +25,29 @@
                   "text": "Hypothese",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Hypothese (plural: die Hypothesen). Afirmação a testar; \"Nullhypothese\" é H0.",
+                  "collocations": [
+                    "Hypothese aufstellen",
+                    "Nullhypothese",
+                    "Hypothese bestätigen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Team stellte eine Hypothese über die Ursache der Krankheit auf.",
+                  "answer": "Hypothese",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Daten erlaubten es, die Hypothese zu bestätigen.",
+                  "answer": "Hypothese",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -44,10 +63,29 @@
                   "text": "Experiment",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Experiment (plural: die Experimente). Procedimento controlado para testar uma hipótese.",
+                  "collocations": [
+                    "Experiment durchführen",
+                    "kontrolliertes Experiment",
+                    "Experiment wiederholen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Experiment wurde dreimal mit demselben Ergebnis wiederholt.",
+                  "answer": "Experiment",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jedes Experiment wird im Laborbuch dokumentiert.",
+                  "answer": "Experiment",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -63,10 +101,29 @@
                   "text": "unabhängige Variable",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die unabhängige Variable (adjetivo declinado). A que o pesquisador altera.",
+                  "collocations": [
+                    "unabhängige Variable",
+                    "abhängige Variable",
+                    "Variable verändern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Temperatur ist die unabhängige Variable der Studie.",
+                  "answer": "unabhängige Variable",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine unabhängige Variable wurde in jedem Versuch verändert.",
+                  "answer": "unabhängige Variable",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -82,10 +139,29 @@
                   "text": "Kontrollgruppe",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kontrollgruppe (plural: die Kontrollgruppen). Não recebe a intervenção, para comparar.",
+                  "collocations": [
+                    "Kontrollgruppe",
+                    "Versuchsgruppe",
+                    "mit der Kontrollgruppe vergleichen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Kontrollgruppe erhielt ein Placebo.",
+                  "answer": "Kontrollgruppe",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Man verglich die Ergebnisse mit denen der Kontrollgruppe.",
+                  "answer": "Kontrollgruppe",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -101,10 +177,29 @@
                   "text": "Datensatz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Datensatz (plural: die Datensätze). Coleção organizada de dados.",
+                  "collocations": [
+                    "Datensatz analysieren",
+                    "offener Datensatz",
+                    "Datensatz veröffentlichen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Datensatz enthält zehntausend Beobachtungen.",
+                  "answer": "Datensatz",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Datensatz wurde veröffentlicht, damit andere die Studie wiederholen können.",
+                  "answer": "Datensatz",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +215,29 @@
                   "text": "Peer-Review",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Peer-Review (ou \"Begutachtung durch Fachkollegen\"). Especialistas avaliam o artigo antes de publicar.",
+                  "collocations": [
+                    "Peer-Review bestehen",
+                    "Begutachtung",
+                    "Zeitschrift mit Peer-Review"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Artikel bestand das Peer-Review nach zwei Überarbeitungen.",
+                  "answer": "Peer-Review",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Peer-Review sichert eine Mindestqualität der Veröffentlichung.",
+                  "answer": "Peer-Review",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -153,10 +267,29 @@
                   "text": "Stichprobe",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Stichprobe (plural: die Stichproben). Parte da população estudada.",
+                  "collocations": [
+                    "repräsentative Stichprobe",
+                    "Stichprobengröße",
+                    "zufällige Stichprobe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Stichprobe umfasste tausend Teilnehmer verschiedenen Alters.",
+                  "answer": "Stichprobe",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine kleine Stichprobe erlaubt keine verlässlichen Schlüsse.",
+                  "answer": "Stichprobe",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -172,10 +305,29 @@
                   "text": "Korrelation",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Korrelation (plural: die Korrelationen). Relação entre variáveis; \"Korrelation ist keine Kausalität\".",
+                  "collocations": [
+                    "positive Korrelation",
+                    "Korrelationskoeffizient",
+                    "negative Korrelation"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Es gibt eine positive Korrelation zwischen Lernzeit und Noten.",
+                  "answer": "Korrelation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Korrelation zwischen beiden Variablen ist schwach.",
+                  "answer": "Korrelation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -191,10 +343,29 @@
                   "text": "Standardabweichung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Standardabweichung. Mede a dispersão dos dados.",
+                  "collocations": [
+                    "Mittelwert und Standardabweichung",
+                    "hohe Standardabweichung",
+                    "Streuung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Mittelwert war fünf und die Standardabweichung zwei.",
+                  "answer": "Standardabweichung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine hohe Standardabweichung zeigt stark gestreute Daten an.",
+                  "answer": "Standardabweichung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -210,10 +381,29 @@
                   "text": "statistische Signifikanz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die statistische Signifikanz (adjetivo declinado). Em geral p < 0,05.",
+                  "collocations": [
+                    "statistische Signifikanz",
+                    "Signifikanzniveau",
+                    "signifikantes Ergebnis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Ergebnisse erreichten statistische Signifikanz.",
+                  "answer": "statistische Signifikanz",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Unterschied hatte keine statistische Signifikanz.",
+                  "answer": "statistische Signifikanz",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +419,29 @@
                   "text": "Ausreißer",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Ausreißer (plural: die Ausreißer). Observação muito afastada das demais.",
+                  "collocations": [
+                    "Ausreißer entfernen",
+                    "Ausreißer erkennen",
+                    "Ausreißer im Datensatz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Ausreißer verzerrte den Mittelwert der Gruppe.",
+                  "answer": "Ausreißer",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "In der Messung vom Nachmittag fiel ein Ausreißer auf.",
+                  "answer": "Ausreißer",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -248,10 +457,29 @@
                   "text": "Fehlermarge",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fehlermarge; mais usado: \"Fehlertoleranz\" ou \"Stichprobenfehler\". Intervalo de incerteza.",
+                  "collocations": [
+                    "Fehlermarge von drei Prozent",
+                    "Fehlermarge verkleinern",
+                    "Stichprobenfehler"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Umfrage hat eine Fehlermarge von drei Prozent.",
+                  "answer": "Fehlermarge",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Mit mehr Teilnehmern sinkt die Fehlermarge.",
+                  "answer": "Fehlermarge",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -281,10 +509,29 @@
                   "text": "Reagenz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Reagenz (plural: die Reagenzien). Substância usada em reações e análises.",
+                  "collocations": [
+                    "chemisches Reagenz",
+                    "Reagenz zugeben",
+                    "Reagenzglas"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Reagenz wurde langsam zur Lösung gegeben.",
+                  "answer": "Reagenz",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Dieses Reagenz ändert im sauren Milieu die Farbe.",
+                  "answer": "Reagenz",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -300,10 +547,29 @@
                   "text": "Probe",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Probe (plural: die Proben). Amostra ou exemplar para análise.",
+                  "collocations": [
+                    "Probe entnehmen",
+                    "Probe beschriften",
+                    "Probe analysieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Probe wird vor der Analyse beschriftet.",
+                  "answer": "Probe",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Probe kam in einem gekühlten Behälter ins Labor.",
+                  "answer": "Probe",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -319,10 +585,29 @@
                   "text": "Zentrifuge",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zentrifuge (plural: die Zentrifugen). Separa componentes por densidade.",
+                  "collocations": [
+                    "Laborzentrifuge",
+                    "zentrifugieren",
+                    "Zentrifugenröhrchen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zentrifuge trennte das Plasma von den Zellen.",
+                  "answer": "Zentrifuge",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Röhrchen blieben zehn Minuten in der Zentrifuge.",
+                  "answer": "Zentrifuge",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -338,10 +623,29 @@
                   "text": "Pipette",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Pipette (plural: die Pipetten). Instrumento para medir e transferir pequenos volumes.",
+                  "collocations": [
+                    "Messpipette",
+                    "Mikropipette",
+                    "Pipette füllen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Mit einer Pipette wurde ein Milliliter Lösung entnommen.",
+                  "answer": "Pipette",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Pipette muss regelmäßig kalibriert werden.",
+                  "answer": "Pipette",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -357,10 +661,29 @@
                   "text": "Mikroskop",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Mikroskop (plural: die Mikroskope). Tipos: Lichtmikroskop, Elektronenmikroskop.",
+                  "collocations": [
+                    "Lichtmikroskop",
+                    "Elektronenmikroskop",
+                    "unter dem Mikroskop"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Probe wurde mit einem Mikroskop untersucht.",
+                  "answer": "Mikroskop",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Mikroskop zeigt feine Details der Zellen.",
+                  "answer": "Mikroskop",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -376,10 +699,29 @@
                   "text": "Kalibrierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kalibrierung. Ajusta um instrumento para medir com exatidão.",
+                  "collocations": [
+                    "Kalibrierung des Geräts",
+                    "Kalibrierzertifikat",
+                    "regelmäßige Kalibrierung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Kalibrierung der Waage erfolgt jeden Monat.",
+                  "answer": "Kalibrierung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Fehler bei der Kalibrierung verfälschte alle Messwerte.",
+                  "answer": "Kalibrierung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -409,10 +751,29 @@
                   "text": "Impuls",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Impuls (plural: die Impulse). Produto da massa pela velocidade.",
+                  "collocations": [
+                    "Impulserhaltung",
+                    "Impuls eines Körpers",
+                    "Impulsänderung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Impuls bleibt bei einem Stoß erhalten.",
+                  "answer": "Impuls",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Verdoppelt man die Geschwindigkeit, verdoppelt sich der Impuls.",
+                  "answer": "Impuls",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -428,10 +789,29 @@
                   "text": "Entropie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Entropie. Mede o grau de desordem; segundo a segunda lei, cresce em sistemas isolados.",
+                  "collocations": [
+                    "Entropie eines Systems",
+                    "Zunahme der Entropie",
+                    "zweiter Hauptsatz"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Entropie eines abgeschlossenen Systems nimmt nie ab.",
+                  "answer": "Entropie",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Schmelzendes Eis erhöht die Entropie des Wassers.",
+                  "answer": "Entropie",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -447,10 +827,29 @@
                   "text": "Katalysator",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Katalysator (plural: die Katalysatoren). Acelera a reação sem ser consumido; também o conversor catalítico do carro.",
+                  "collocations": [
+                    "chemischer Katalysator",
+                    "Reaktion beschleunigen",
+                    "Platinkatalysator"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Katalysator beschleunigt die Reaktion, ohne verbraucht zu werden.",
+                  "answer": "Katalysator",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Mischung wurde ein Katalysator aus Platin zugesetzt.",
+                  "answer": "Katalysator",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -466,10 +865,29 @@
                   "text": "Lösungsmittel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Lösungsmittel (plural: die Lösungsmittel). Substância que dissolve outra.",
+                  "collocations": [
+                    "organisches Lösungsmittel",
+                    "universelles Lösungsmittel",
+                    "Lösungsmittel verdampfen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wasser ist ein hervorragendes Lösungsmittel für Salze.",
+                  "answer": "Lösungsmittel",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Lösungsmittel wurde verdampft, um den reinen Feststoff zu erhalten.",
+                  "answer": "Lösungsmittel",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -485,10 +903,29 @@
                   "text": "Verbindung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verbindung (plural: die Verbindungen); \"chemische Verbindung\". Formada por elementos em proporção fixa.",
+                  "collocations": [
+                    "organische Verbindung",
+                    "anorganische Verbindung",
+                    "Verbindung synthetisieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wasser ist eine Verbindung aus Wasserstoff und Sauerstoff.",
+                  "answer": "Verbindung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Es wurde eine neue Verbindung mit antibakterieller Wirkung synthetisiert.",
+                  "answer": "Verbindung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -504,10 +941,29 @@
                   "text": "Isotop",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Isotop (plural: die Isotope). Átomos do mesmo elemento com número de nêutrons diferente.",
+                  "collocations": [
+                    "radioaktives Isotop",
+                    "stabiles Isotop",
+                    "Isotopenanalyse"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Kohlenstoff vierzehn ist ein radioaktives Isotop des Kohlenstoffs.",
+                  "answer": "Isotop",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein stabiles Isotop sendet keine Strahlung aus.",
+                  "answer": "Isotop",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -537,10 +993,29 @@
                   "text": "Gen",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gen (plural: die Gene). Unidade de herança que codifica uma proteína.",
+                  "collocations": [
+                    "dominantes Gen",
+                    "mutiertes Gen",
+                    "Genexpression"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein mutiertes Gen kann eine Erbkrankheit verursachen.",
+                  "answer": "Gen",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Dieses Gen steuert die Farbe der Augen.",
+                  "answer": "Gen",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -556,10 +1031,29 @@
                   "text": "Enzym",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Enzym (plural: die Enzyme). Proteína que acelera reações no organismo.",
+                  "collocations": [
+                    "Verdauungsenzym",
+                    "Enzymaktivität",
+                    "Enzym hemmen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Enzym spaltet Stärke in einfache Zucker.",
+                  "answer": "Enzym",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Enzym braucht eine passende Temperatur, um zu arbeiten.",
+                  "answer": "Enzym",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -575,10 +1069,29 @@
                   "text": "natürliche Selektion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die natürliche Selektion (adjetivo declinado); também \"natürliche Auslese\". Mecanismo da evolução.",
+                  "collocations": [
+                    "natürliche Selektion",
+                    "natürliche Auslese",
+                    "Selektionsdruck"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die natürliche Selektion begünstigt die am besten angepassten Individuen.",
+                  "answer": "natürliche Selektion",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Darwin erklärte die Evolution durch natürliche Selektion.",
+                  "answer": "natürliche Selektion",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -594,10 +1107,29 @@
                   "text": "Ökosystem",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Ökosystem (plural: die Ökosysteme). Seres vivos e ambiente que interagem.",
+                  "collocations": [
+                    "marines Ökosystem",
+                    "Gleichgewicht des Ökosystems",
+                    "Ökosystem schützen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das marine Ökosystem hängt von der Wassertemperatur ab.",
+                  "answer": "Ökosystem",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Massive Abholzung zerstörte das Gleichgewicht im Ökosystem.",
+                  "answer": "Ökosystem",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -613,10 +1145,29 @@
                   "text": "Photosynthese",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Photosynthese (ou \"Fotosynthese\" na ortografia nova). Plantas convertem luz, água e CO₂.",
+                  "collocations": [
+                    "Photosynthese der Pflanzen",
+                    "Licht und Photosynthese",
+                    "Chloroplasten"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Photosynthese findet in den Chloroplasten der Blätter statt.",
+                  "answer": "Photosynthese",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ohne Licht kommt die Photosynthese zum Erliegen.",
+                  "answer": "Photosynthese",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -632,10 +1183,29 @@
                   "text": "Mutation",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Mutation (plural: die Mutationen). Alteração do material genético.",
+                  "collocations": [
+                    "genetische Mutation",
+                    "spontane Mutation",
+                    "Punktmutation"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine genetische Mutation veränderte die Struktur des Proteins.",
+                  "answer": "Mutation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Mutation trat spontan in der Kolonie auf.",
+                  "answer": "Mutation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -665,10 +1235,29 @@
                   "text": "Zusammenfassung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zusammenfassung; em artigos científicos também \"Abstract\" (neutro). Resumo no início.",
+                  "collocations": [
+                    "Zusammenfassung des Artikels",
+                    "Abstract schreiben",
+                    "strukturierte Zusammenfassung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zusammenfassung des Artikels sollte zweihundert Wörter nicht überschreiten.",
+                  "answer": "Zusammenfassung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ich las die Zusammenfassung, bevor ich den Artikel herunterlud.",
+                  "answer": "Zusammenfassung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -684,10 +1273,29 @@
                   "text": "Methodik",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Methodik (também \"Methode\"). Descreve como a pesquisa foi feita.",
+                  "collocations": [
+                    "qualitative Methodik",
+                    "quantitative Methodik",
+                    "Methodik beschreiben"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die quantitative Methodik nutzt Zahlen und statistische Analyse.",
+                  "answer": "Methodik",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Artikel beschreibt die verwendete Methodik im Detail.",
+                  "answer": "Methodik",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -703,10 +1311,29 @@
                   "text": "Ergebnisse",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: die Ergebnisse (do singular \"das Ergebnis\"); também \"Befunde\". O que a pesquisa descobriu.",
+                  "collocations": [
+                    "wichtigste Ergebnisse",
+                    "Ergebnisse veröffentlichen",
+                    "Ergebnisse diskutieren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Ergebnisse der Studie erschienen in einer internationalen Zeitschrift.",
+                  "answer": "Ergebnisse",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die wichtigsten Ergebnisse bestätigen die ursprüngliche Hypothese.",
+                  "answer": "Ergebnisse",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -722,10 +1349,29 @@
                   "text": "Zitierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zitierung (plural: die Zitierungen); também \"Zitat\" (a citação em si) e \"Quellenangabe\".",
+                  "collocations": [
+                    "wörtliche Zitierung",
+                    "Zitierweise",
+                    "Quellenangabe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Aussage im Text braucht eine Zitierung der Quelle.",
+                  "answer": "Zitierung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die wörtliche Zitierung steht in Anführungszeichen mit Seitenangabe.",
+                  "answer": "Zitierung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -741,10 +1387,29 @@
                   "text": "Einschränkung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Einschränkung (plural: die Einschränkungen); também \"Limitation\". Limites do estudo.",
+                  "collocations": [
+                    "Einschränkung der Studie",
+                    "wichtigste Einschränkungen",
+                    "Einschränkung einräumen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Einschränkung der Studie war die kleine Stichprobe.",
+                  "answer": "Einschränkung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Autoren nennen diese Einschränkung am Ende der Diskussion.",
+                  "answer": "Einschränkung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -760,10 +1425,29 @@
                   "text": "Replikation",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Replikation (plural: die Replikationen). Repetir um estudo para confirmar resultados.",
+                  "collocations": [
+                    "Replikation der Studie",
+                    "erfolgreiche Replikation",
+                    "Replikationskrise"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Replikation der Studie bestätigte die ursprünglichen Ergebnisse.",
+                  "answer": "Replikation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Viele Experimente bestehen die unabhängige Replikation nicht.",
+                  "answer": "Replikation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]

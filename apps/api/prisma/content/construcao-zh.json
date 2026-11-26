@@ -35,10 +35,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "níchǎn"
+                  "ipa": "níchǎn",
+                  "usageNote": "Pinyin ní chǎn (泥 = barro + 铲 = pá). Também 抹刀; usada para aplicar argamassa.",
+                  "collocations": [
+                    "泥铲",
+                    "用抹刀抹平",
+                    "砌墙工具"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "泥瓦工用泥铲把砂浆抹在墙上。",
+                  "answer": "泥铲",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "圆头的泥铲适合涂抹灰泥。",
+                  "answer": "泥铲",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -55,10 +74,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shuǐpíngyí"
+                  "ipa": "shuǐpíngyí",
+                  "usageNote": "Pinyin shuǐpíng yí (水平 = horizontal + 仪 = instrumento). Também 水准器.",
+                  "collocations": [
+                    "水平仪",
+                    "用水平仪检查",
+                    "激光水平仪"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "用水平仪检查墙是否垂直。",
+                  "answer": "水平仪",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "水平仪的气泡在正中间，说明地面是水平的。",
+                  "answer": "水平仪",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -75,10 +113,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qiānchuíxiàn"
+                  "ipa": "qiānchuíxiàn",
+                  "usageNote": "Pinyin qiānchuí xiàn (铅垂 = prumo de chumbo + 线). Mostra a vertical; 垂直度 = verticalidade.",
+                  "collocations": [
+                    "吊铅垂线",
+                    "检查垂直度",
+                    "垂线"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "工人用铅垂线检查柱子是否垂直。",
+                  "answer": "铅垂线",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "师傅在墙上方挂了一根铅垂线来查看偏差。",
+                  "answer": "铅垂线",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -95,10 +152,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dúlúnchē"
+                  "ipa": "dúlúnchē",
+                  "usageNote": "Pinyin dúlúnchē (独轮 = uma roda + 车). Para transportar areia, concreto etc.",
+                  "collocations": [
+                    "推独轮车",
+                    "手推车",
+                    "运料"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "工人用独轮车运沙子。",
+                  "answer": "独轮车",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "独轮车适合在狭窄的工地运送材料。",
+                  "answer": "独轮车",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -115,10 +191,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "záozi"
+                  "ipa": "záozi",
+                  "usageNote": "Pinyin záozi (凿 = cinzel + 子). Usado com martelo para cortar pedra ou concreto.",
+                  "collocations": [
+                    "石凿",
+                    "凿子和锤子",
+                    "凿墙"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "师傅用凿子在墙上凿出了一道槽。",
+                  "answer": "凿子",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "凿子把多出来的混凝土凿掉了。",
+                  "answer": "凿子",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -135,10 +230,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dàchuí"
+                  "ipa": "dàchuí",
+                  "usageNote": "Pinyin dàchuí (大 + 锤 = martelo). Para demolição; 八磅锤 = martelo de 8 libras.",
+                  "collocations": [
+                    "抡大锤",
+                    "用大锤拆墙",
+                    "拆除"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "隔墙是用大锤砸掉的。",
+                  "answer": "大锤",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "大锤很重，请用正确的姿势挥动。",
+                  "answer": "大锤",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -169,10 +283,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shuǐní"
+                  "ipa": "shuǐní",
+                  "usageNote": "Pinyin shuǐní (水 = água + 泥 = lama). Ligante em pó; 水泥 ≠ 混凝土. Saco: 50 kg na China.",
+                  "collocations": [
+                    "普通硅酸盐水泥",
+                    "一袋水泥",
+                    "搅拌水泥"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "一袋水泥重五十公斤。",
+                  "answer": "水泥",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "把水泥、沙子和水混合就成了灰浆。",
+                  "answer": "水泥",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -189,10 +322,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shājiāng"
+                  "ipa": "shājiāng",
+                  "usageNote": "Pinyin shājiāng (砂 = areia + 浆 = pasta). Mistura de cimento, areia e água; 抹灰砂浆 para reboco.",
+                  "collocations": [
+                    "水泥砂浆",
+                    "搅拌砂浆",
+                    "砌筑砂浆"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "砂浆把一块块砖连接在一起。",
+                  "answer": "砂浆",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们把一份水泥和三份沙子调成了砂浆。",
+                  "answer": "砂浆",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -209,10 +361,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hùnníngtǔ"
+                  "ipa": "hùnníngtǔ",
+                  "usageNote": "Pinyin hùnníngtǔ (混凝 = misturar e solidificar + 土). Concreto fresco: 商品混凝土 (premix).",
+                  "collocations": [
+                    "商品混凝土",
+                    "浇筑混凝土",
+                    "混凝土强度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "混凝土被浇进模板里。",
+                  "answer": "混凝土",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了做地基，订购了十立方米的混凝土。",
+                  "answer": "混凝土",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +400,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhuān"
+                  "ipa": "zhuān",
+                  "usageNote": "Pinyin zhuān (砖), um só caractere. Material básico de alvenaria. Tipos: 红砖, 空心砖, 实心砖.",
+                  "collocations": [
+                    "红砖",
+                    "空心砖",
+                    "砌砖"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "工人一块一块地砌砖，同时抹上砂浆。",
+                  "answer": "砖",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "实心的砖比空心的承压更强。",
+                  "answer": "砖",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -249,10 +439,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shāzi"
+                  "ipa": "shāzi",
+                  "usageNote": "Pinyin shāzi (沙子). Agregado fino; 河沙, 机制砂. Na construção: 细骨料.",
+                  "collocations": [
+                    "河沙",
+                    "机制砂",
+                    "筛沙子"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "沙子要和水泥、水一起搅拌。",
+                  "answer": "沙子",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "调砂浆之前，要先把沙子过筛。",
+                  "answer": "沙子",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -269,10 +478,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gāngjīn"
+                  "ipa": "gāngjīn",
+                  "usageNote": "Pinyin gāngjīn (钢 + 筋 = nervura). Tipos: 螺纹钢; verbo: 绑扎钢筋 (amarrar).",
+                  "collocations": [
+                    "螺纹钢",
+                    "绑扎钢筋",
+                    "钢筋笼"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "钢筋要用铁丝牢牢绑扎。",
+                  "answer": "钢筋",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每个角都放入了直径十二毫米的钢筋。",
+                  "answer": "钢筋",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -303,10 +531,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qìtǐ"
+                  "ipa": "qìtǐ",
+                  "usageNote": "Pinyin qìtǐ (砌 = assentar + 体 = corpo). Também 砖石砌体; 加筋砌体 = reforçado.",
+                  "collocations": [
+                    "砖砌体",
+                    "配筋砌体",
+                    "砌体结构"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "砌体承受着屋顶的荷载。",
+                  "answer": "砌体",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这座老房子是石材砌体建成的。",
+                  "answer": "砌体",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -323,10 +570,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qìcéng"
+                  "ipa": "qìcéng",
+                  "usageNote": "Pinyin qìcéng (砌 + 层 = camada). Também 一皮砖 (uma fiada).",
+                  "collocations": [
+                    "第一皮",
+                    "砌层的错缝",
+                    "砖层"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "墙的第一个砌层放在防潮层上。",
+                  "answer": "砌层",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每个砌层要错开半块砖砌筑。",
+                  "answer": "砌层",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -343,10 +609,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "guòliáng"
+                  "ipa": "guòliáng",
+                  "usageNote": "Pinyin guòliáng (过 = passar + 梁 = viga). Sobre portas e janelas; 预制过梁.",
+                  "collocations": [
+                    "预制过梁",
+                    "窗过梁",
+                    "洞口"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "过梁承担着窗户上方墙体的重量。",
+                  "answer": "过梁",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "门上安装了预制的混凝土过梁。",
+                  "answer": "过梁",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -363,10 +648,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiēfèng"
+                  "ipa": "jiēfèng",
+                  "usageNote": "Pinyin jiēfèng (接 = unir + 缝 = fresta). Também 伸缩缝 (junta de dilatação), 施工缝 (de construção).",
+                  "collocations": [
+                    "伸缩缝",
+                    "施工缝",
+                    "勾缝"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "接缝可以防止热胀冷缩引起的墙面开裂。",
+                  "answer": "接缝",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "石头之间的接缝用砂浆填满了。",
+                  "answer": "接缝",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -383,10 +687,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "mǒhuī"
+                  "ipa": "mǒhuī",
+                  "usageNote": "Pinyin mǒhuī (抹 = untar + 灰 = cal/gesso). Reboco de parede; 内墙抹灰, 石灰抹灰.",
+                  "collocations": [
+                    "内墙抹灰",
+                    "石灰抹灰",
+                    "抹灰层"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "抹灰让墙面准备好刷漆。",
+                  "answer": "抹灰",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "师傅分两次薄薄地做了抹灰。",
+                  "answer": "抹灰",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -403,10 +726,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhǎopíngcéng"
+                  "ipa": "zhǎopíngcéng",
+                  "usageNote": "Pinyin zhǎopíngcéng (找平 = nivelar + 层). Camada de regularização do piso.",
+                  "collocations": [
+                    "水泥找平",
+                    "找平层施工",
+                    "地面找平"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "找平层可以消除地面的高低不平。",
+                  "answer": "找平层",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "等找平层干了以后，再铺木地板。",
+                  "answer": "找平层",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -437,10 +779,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jījiǎo"
+                  "ipa": "jījiǎo",
+                  "usageNote": "Pinyin jījiǎo (基 = base + 脚 = pé). Parte alargada sob pilares; também 独立基础.",
+                  "collocations": [
+                    "独立基础",
+                    "基脚配筋",
+                    "条形基础"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "基脚把柱子的荷载分散到更大的地基面积上。",
+                  "answer": "基脚",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这根柱子下面有一个边长两米的基脚。",
+                  "answer": "基脚",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -457,10 +818,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lóubǎn"
+                  "ipa": "lóubǎn",
+                  "usageNote": "Pinyin lóubǎn (楼 = andar + 板 = placa). Placa de concreto; também 底板 (radier).",
+                  "collocations": [
+                    "现浇楼板",
+                    "楼板配筋",
+                    "底板"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "楼板的厚度是二十厘米。",
+                  "answer": "楼板",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每一层都浇筑了混凝土楼板。",
+                  "answer": "楼板",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -477,10 +857,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "móbǎn"
+                  "ipa": "móbǎn",
+                  "usageNote": "Pinyin mùbǎn (模板). Molde provisório do concreto; 拆模 = desmoldar.",
+                  "collocations": [
+                    "拆模",
+                    "木模板",
+                    "模板支撑"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "模板必须承受新浇混凝土的压力。",
+                  "answer": "模板",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "混凝土浇筑七天后拆除了模板。",
+                  "answer": "模板",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -497,10 +896,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yǎnghù"
+                  "ipa": "yǎnghù",
+                  "usageNote": "Pinyin yǎnghù (养 = nutrir + 护 = proteger). Manter o concreto úmido; 洒水养护.",
+                  "collocations": [
+                    "洒水养护",
+                    "养护期",
+                    "覆盖养护"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "混凝土的养护至少要七天。",
+                  "answer": "养护",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了养护，每天给楼板洒两次水。",
+                  "answer": "养护",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -517,10 +935,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fángshuǐ"
+                  "ipa": "fángshuǐ",
+                  "usageNote": "Pinyin fángshuǐ (防 = impedir + 水). Ex.: 屋面防水, 卫生间防水.",
+                  "collocations": [
+                    "屋面防水",
+                    "卫生间防水",
+                    "防水卷材"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "阳台做好防水，才不会漏雨。",
+                  "answer": "防水",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "浴室做了两遍防水。",
+                  "answer": "防水",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -537,10 +974,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "kāiwā"
+                  "ipa": "kāiwā",
+                  "usageNote": "Pinyin kāiwā (开 = abrir + 挖 = cavar). Também 土方开挖.",
+                  "collocations": [
+                    "土方开挖",
+                    "基坑开挖",
+                    "开挖深度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "地下室的开挖深度是三米。",
+                  "answer": "开挖",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "挖掘机负责整个场地的开挖。",
+                  "answer": "开挖",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -571,10 +1027,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "cízhuān"
+                  "ipa": "cízhuān",
+                  "usageNote": "Pinyin cízhuān (瓷 = porcelana + 砖). Para piso ou parede; 防滑瓷砖 = antiderrapante.",
+                  "collocations": [
+                    "防滑瓷砖",
+                    "铺瓷砖",
+                    "墙面瓷砖"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "浴室选用了防滑的瓷砖。",
+                  "answer": "瓷砖",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "师傅每块瓷砖之间留三毫米的缝隙。",
+                  "answer": "瓷砖",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -591,10 +1066,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tiánfèngjì"
+                  "ipa": "tiánfèngjì",
+                  "usageNote": "Pinyin tiánfèngjì (填缝 = preencher a junta + 剂). Também 勾缝剂. Rejunte de azulejos.",
+                  "collocations": [
+                    "勾缝剂",
+                    "防水填缝剂",
+                    "填缝"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "填缝剂把瓷砖之间的缝隙填满。",
+                  "answer": "填缝剂",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "多余的填缝剂要在干之前擦掉。",
+                  "answer": "填缝剂",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -611,10 +1105,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shígāobǎn"
+                  "ipa": "shígāobǎn",
+                  "usageNote": "Pinyin shígāobǎn (石膏 = gesso + 板). Também 纸面石膏板; paredes internas.",
+                  "collocations": [
+                    "纸面石膏板",
+                    "石膏板隔墙",
+                    "轻钢龙骨"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "石膏板用螺丝固定在金属龙骨上。",
+                  "answer": "石膏板",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "石膏板用美工刀就能轻松切开。",
+                  "answer": "石膏板",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -631,10 +1144,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tījiǎoxiàn"
+                  "ipa": "tījiǎoxiàn",
+                  "usageNote": "Pinyin tījiǎoxiàn (踢脚 = chute no pé + 线). Faixa na base da parede.",
+                  "collocations": [
+                    "安装踢脚线",
+                    "木踢脚线",
+                    "地面与墙面的交接"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "踢脚线遮住了地面和墙之间的接缝。",
+                  "answer": "踢脚线",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "整个房间装上了白色的踢脚线。",
+                  "answer": "踢脚线",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -651,10 +1183,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "mìfēngjiāo"
+                  "ipa": "mìfēngjiāo",
+                  "usageNote": "Pinyin mìfēngjiāo (密封 = vedar + 胶 = cola). Silicone, acrílico etc.; 玻璃胶.",
+                  "collocations": [
+                    "打密封胶",
+                    "玻璃胶",
+                    "防水密封"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "密封胶防止水从缝隙渗入。",
+                  "answer": "密封胶",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "窗框周围打上了一圈柔软的密封胶。",
+                  "answer": "密封胶",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -671,10 +1222,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dǐqī"
+                  "ipa": "dǐqī",
+                  "usageNote": "Pinyin dǐqī (底 = base + 漆 = tinta). Camada de fundo para melhor aderência.",
+                  "collocations": [
+                    "刷底漆",
+                    "防锈底漆",
+                    "增强附着力"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "底漆能让面漆附着得更牢。",
+                  "answer": "底漆",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "金属部分先刷了一层防锈的底漆。",
+                  "answer": "底漆",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -705,10 +1275,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ānquánmào"
+                  "ipa": "ānquánmào",
+                  "usageNote": "Pinyin ānquánmào (安全 + 帽 = chapéu). EPI obrigatório em obra.",
+                  "collocations": [
+                    "戴安全帽",
+                    "必须佩戴",
+                    "安全帽标准"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "进入施工现场的人都要戴安全帽。",
+                  "answer": "安全帽",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "安全帽能保护头部免受坠落物的伤害。",
+                  "answer": "安全帽",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -725,10 +1314,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "ānquándài"
+                  "ipa": "ānquándài",
+                  "usageNote": "Pinyin ānquándài (安全 + 带 = cinto). Usado em trabalho em altura; 高处作业.",
+                  "collocations": [
+                    "系安全带",
+                    "高处作业",
+                    "生命绳"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "在屋顶上必须系安全带。",
+                  "answer": "安全带",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "请把安全带的挂钩牢牢挂在生命绳上。",
+                  "answer": "安全带",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -745,10 +1353,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fánghù zhuāngbèi"
+                  "ipa": "fánghù zhuāngbèi",
+                  "usageNote": "Pinyin fánghù zhuāngbèi (防护 = proteção + 装备). Também 个人防护用品 (EPI).",
+                  "collocations": [
+                    "个人防护装备",
+                    "佩戴防护装备",
+                    "护目镜"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "防护装备包括安全帽、手套和安全鞋。",
+                  "answer": "防护装备",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "没有防护装备的人不得进入现场。",
+                  "answer": "防护装备",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -765,10 +1392,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gōngtóu"
+                  "ipa": "gōngtóu",
+                  "usageNote": "Pinyin gōngtóu (工 = trabalho + 头 = chefe). Também 班组长, 现场负责人.",
+                  "collocations": [
+                    "班组长",
+                    "向工头汇报",
+                    "分配任务"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "工头给工人分配今天的工作。",
+                  "answer": "工头",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "改变顺序之前，我们先问了工头。",
+                  "answer": "工头",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -785,10 +1431,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiǎoshǒujià"
+                  "ipa": "jiǎoshǒujià",
+                  "usageNote": "Pinyin jiǎoshǒujià (脚手 + 架 = estrutura). Estrutura provisória para trabalho em altura.",
+                  "collocations": [
+                    "搭脚手架",
+                    "拆脚手架",
+                    "脚手架检查"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "外墙施工时，要在楼房周围搭脚手架。",
+                  "answer": "脚手架",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "工人上去之前，先检查了脚手架。",
+                  "answer": "脚手架",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -805,10 +1470,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "wēixiǎnyuán"
+                  "ipa": "wēixiǎnyuán",
+                  "usageNote": "Pinyin wēixiǎn yuán (危险 = perigo + 源 = fonte). Fonte potencial de dano; \"risco\" = 风险.",
+                  "collocations": [
+                    "识别危险源",
+                    "危险源辨识",
+                    "风险"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "挖开的坑是行人面前的危险源。",
+                  "answer": "危险源",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "作业前，大家一起确认现场的危险源。",
+                  "answer": "危险源",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]

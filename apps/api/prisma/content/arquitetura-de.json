@@ -25,10 +25,29 @@
                   "text": "Grundriss",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Grundriss (plural: die Grundrisse). Desenho em vista superior de um pavimento.",
+                  "collocations": [
+                    "Grundriss zeichnen",
+                    "Erdgeschoss-Grundriss",
+                    "Grundriss des Gebäudes"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Grundriss zeigt die Aufteilung der Zimmer.",
+                  "answer": "Grundriss",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "In diesem Geschoss liegen Küche und Wohnzimmer laut Grundriss.",
+                  "answer": "Grundriss",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -44,10 +63,29 @@
                   "text": "Ansicht",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ansicht (plural: die Ansichten). Desenho de uma fachada em vista frontal.",
+                  "collocations": [
+                    "Vorderansicht",
+                    "Seitenansicht",
+                    "Ansicht der Fassade"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Ansicht zeigt die Höhe und Gliederung der Fassade.",
+                  "answer": "Ansicht",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Ansicht wurde im Maßstab eins zu hundert gezeichnet.",
+                  "answer": "Ansicht",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -63,10 +101,29 @@
                   "text": "Schnitt",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Schnitt (plural: die Schnitte). Corte vertical que mostra o interior.",
+                  "collocations": [
+                    "Längsschnitt",
+                    "Querschnitt",
+                    "Schnitt durch das Gebäude"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Schnitt zeigt die Höhe jedes Geschosses.",
+                  "answer": "Schnitt",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Schnitt sind die Materialien der Wand dargestellt.",
+                  "answer": "Schnitt",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -82,10 +139,29 @@
                   "text": "Lageplan",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Lageplan (plural: die Lagepläne). Mostra o terreno e a implantação do edifício.",
+                  "collocations": [
+                    "amtlicher Lageplan",
+                    "Lageplan beilegen",
+                    "Grundstücksgrenzen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Lageplan zeigt die Grenzen des Grundstücks.",
+                  "answer": "Lageplan",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Lageplan gehört zum Bauantrag.",
+                  "answer": "Lageplan",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -101,10 +177,29 @@
                   "text": "Maßstab",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Maßstab (plural: die Maßstäbe). Relação entre desenho e real: 1:50, 1:100.",
+                  "collocations": [
+                    "Maßstab eins zu hundert",
+                    "Maßstab angeben",
+                    "Maßstabsleiste"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Alle Pläne sind im Maßstab eins zu fünfzig gezeichnet.",
+                  "answer": "Maßstab",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für Details empfiehlt sich ein größerer Maßstab.",
+                  "answer": "Maßstab",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +215,29 @@
                   "text": "Entwurfsskizze",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Entwurfsskizze (plural: die Entwurfsskizzen). Desenho rápido das primeiras ideias.",
+                  "collocations": [
+                    "Handskizze",
+                    "Entwurfsskizze anfertigen",
+                    "erste Skizze"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Architekt zeichnete in der Besprechung eine Entwurfsskizze.",
+                  "answer": "Entwurfsskizze",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Anhand der ersten Entwurfsskizze wurde der Eingang besprochen.",
+                  "answer": "Entwurfsskizze",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -153,10 +267,29 @@
                   "text": "Fassade",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fassade (plural: die Fassaden). Face externa do edifício.",
+                  "collocations": [
+                    "Hauptfassade",
+                    "vorgehängte Fassade",
+                    "Glasfassade"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Fassade liegt zum Platz hin.",
+                  "answer": "Fassade",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Fassade wurde mit Aluminiumplatten erneuert.",
+                  "answer": "Fassade",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -172,10 +305,29 @@
                   "text": "Balkon",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Balkon (plural: die Balkone). Plataforma saliente com guarda-corpo.",
+                  "collocations": [
+                    "Balkon mit Geländer",
+                    "auf den Balkon treten",
+                    "Loggia"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Balkon liegt zur Straße hin und hat ein Eisengeländer.",
+                  "answer": "Balkon",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vom Balkon sieht man den ganzen Platz.",
+                  "answer": "Balkon",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -191,10 +343,29 @@
                   "text": "Treppenhaus",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Treppenhaus (a caixa da escada); a escada em si é \"die Treppe\".",
+                  "collocations": [
+                    "Treppenhaus",
+                    "Wendeltreppe",
+                    "Fluchttreppe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Treppenhaus verbindet das Erdgeschoss mit dem ersten Stock.",
+                  "answer": "Treppenhaus",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "In hohen Gebäuden ist ein zweites Treppenhaus vorgeschrieben.",
+                  "answer": "Treppenhaus",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -210,10 +381,29 @@
                   "text": "Gewölbe",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gewölbe (plural: die Gewölbe). Cobertura curva de pedra ou tijolo.",
+                  "collocations": [
+                    "Tonnengewölbe",
+                    "Kreuzgewölbe",
+                    "gotisches Gewölbe"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Gewölbe mit Kreuzrippen ist typisch für gotische Kathedralen.",
+                  "answer": "Gewölbe",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Gewölbe aus Ziegeln überspannt den Keller.",
+                  "answer": "Gewölbe",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +419,29 @@
                   "text": "Säulengang",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Säulengang (plural: die Säulengänge). Série de colunas regulares.",
+                  "collocations": [
+                    "äußerer Säulengang",
+                    "Säulengang des Platzes",
+                    "klassischer Säulengang"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Säulengang umgibt den Hof des Tempels.",
+                  "answer": "Säulengang",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Säulengang aus Marmor trägt die Vorhalle.",
+                  "answer": "Säulengang",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -248,10 +457,29 @@
                   "text": "Gesims",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gesims (plural: die Gesimse). Moldura saliente que coroa uma fachada.",
+                  "collocations": [
+                    "Kranzgesims",
+                    "Gesims restaurieren",
+                    "verziertes Gesims"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gesims schließt die Fassade ab und schützt die Mauer vor Regen.",
+                  "answer": "Gesims",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das von Feuchtigkeit beschädigte Gesims wurde restauriert.",
+                  "answer": "Gesims",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -281,10 +509,29 @@
                   "text": "Zoneneinteilung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zoneneinteilung (também \"Flächenwidmung\"). Divide a cidade em zonas com usos distintos.",
+                  "collocations": [
+                    "Zoneneinteilung der Stadt",
+                    "Bebauungsplan",
+                    "Wohngebiet"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zoneneinteilung trennt Industriegebiete von Wohngebieten.",
+                  "answer": "Zoneneinteilung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die neue Zoneneinteilung erlaubt mehr Wohnungen im Zentrum.",
+                  "answer": "Zoneneinteilung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -300,10 +547,29 @@
                   "text": "Grenzabstand",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Grenzabstand (plural: die Grenzabstände). Distância mínima entre a construção e o limite do terreno.",
+                  "collocations": [
+                    "Grenzabstand einhalten",
+                    "seitlicher Grenzabstand",
+                    "Mindestabstand"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gebäude muss einen Grenzabstand von drei Metern einhalten.",
+                  "answer": "Grenzabstand",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der seitliche Grenzabstand lässt Platz für einen kleinen Garten.",
+                  "answer": "Grenzabstand",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -319,10 +585,29 @@
                   "text": "Flächennutzung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Flächennutzung. Define se o terreno é residencial, comercial, industrial ou rural.",
+                  "collocations": [
+                    "Flächennutzungsplan",
+                    "Änderung der Flächennutzung",
+                    "Nutzungsart"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Plan legt die Flächennutzung jedes Grundstücks fest.",
+                  "answer": "Flächennutzung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für den Wohnungsbau wurde eine Änderung der Flächennutzung beantragt.",
+                  "answer": "Flächennutzung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -338,10 +623,29 @@
                   "text": "Zersiedelung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zersiedelung. Crescimento disperso e desordenado da cidade.",
+                  "collocations": [
+                    "Zersiedelung der Landschaft",
+                    "Zersiedelung stoppen",
+                    "Flächenverbrauch"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zersiedelung erhöht Verkehr und Kosten für den Transport.",
+                  "answer": "Zersiedelung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Plan soll die Zersiedelung am Stadtrand eindämmen.",
+                  "answer": "Zersiedelung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -357,10 +661,29 @@
                   "text": "Straßenbild",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Straßenbild. Conjunto visual de uma rua: edifícios, calçadas, árvores.",
+                  "collocations": [
+                    "Straßenbild prägen",
+                    "historisches Straßenbild",
+                    "Straßenbild verbessern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Straßenbild veränderte sich mit der Fußgängerzone.",
+                  "answer": "Straßenbild",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bäume verbessern das Straßenbild und spenden Schatten.",
+                  "answer": "Straßenbild",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -376,10 +699,29 @@
                   "text": "Grünfläche",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Grünfläche (plural: die Grünflächen). Praças, parques e jardins.",
+                  "collocations": [
+                    "öffentliche Grünfläche",
+                    "Grünfläche anlegen",
+                    "Grünflächen pro Einwohner"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Viertel braucht mehr Grünfläche für die Bewohner.",
+                  "answer": "Grünfläche",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "In der Mitte der Siedlung entstand eine neue Grünfläche.",
+                  "answer": "Grünfläche",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -409,10 +751,29 @@
                   "text": "Tageslichtnutzung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Tageslichtnutzung. Uso da luz do dia para reduzir a luz elétrica.",
+                  "collocations": [
+                    "Tageslichtnutzung optimieren",
+                    "Tageslicht",
+                    "Energieeinsparung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Tageslichtnutzung senkt den Stromverbrauch.",
+                  "answer": "Tageslichtnutzung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Große Fenster verbessern die Tageslichtnutzung im Wohnzimmer.",
+                  "answer": "Tageslichtnutzung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -428,10 +789,29 @@
                   "text": "natürliche Lüftung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die natürliche Lüftung (adjetivo declinado). Renovação do ar sem máquinas; \"Querlüftung\" usa janelas opostas.",
+                  "collocations": [
+                    "natürliche Lüftung",
+                    "Querlüftung",
+                    "Lüftungskonzept"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine natürliche Lüftung hält das Innere ohne Klimaanlage kühl.",
+                  "answer": "natürliche Lüftung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für eine natürliche Lüftung wurden Innenhöfe geplant.",
+                  "answer": "natürliche Lüftung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -447,10 +827,29 @@
                   "text": "Passivbauweise",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Passivbauweise (ou \"Passivhaus\" para o edifício). Usa orientação e materiais para controlar o clima interno.",
+                  "collocations": [
+                    "Passivbauweise",
+                    "Passivhaus",
+                    "passive Solarnutzung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Passivbauweise nutzt die Sonne zum Heizen im Winter.",
+                  "answer": "Passivbauweise",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Häuser in Passivbauweise brauchen sehr wenig Energie.",
+                  "answer": "Passivbauweise",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -466,10 +865,29 @@
                   "text": "Gründach",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gründach (plural: die Gründächer). Cobertura com vegetação.",
+                  "collocations": [
+                    "extensives Gründach",
+                    "Gründach anlegen",
+                    "Dachbegrünung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gründach senkt die Temperatur des Gebäudes.",
+                  "answer": "Gründach",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Über der Tiefgarage wurde ein Gründach geplant.",
+                  "answer": "Gründach",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -485,10 +903,29 @@
                   "text": "Energieeffizienz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Energieeffizienz. Usar menos energia para o mesmo resultado; \"Energieausweis\" é o certificado.",
+                  "collocations": [
+                    "Energieeffizienz steigern",
+                    "Energieausweis",
+                    "Effizienzklasse"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Energieeffizienz des Gebäudes erhielt die Klasse A.",
+                  "answer": "Energieeffizienz",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine gute Dämmung verbessert die Energieeffizienz der Wohnung.",
+                  "answer": "Energieeffizienz",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -504,10 +941,29 @@
                   "text": "thermischer Komfort",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der thermische Komfort (adjetivo declinado). Sensação de temperatura agradável no interior.",
+                  "collocations": [
+                    "thermischer Komfort",
+                    "Behaglichkeit",
+                    "thermischen Komfort sichern"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Im Entwurf bleibt thermischer Komfort das ganze Jahr stabil.",
+                  "answer": "thermischer Komfort",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein thermischer Komfort im Winter hängt von der Dämmung der Wände ab.",
+                  "answer": "thermischer Komfort",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -537,10 +993,29 @@
                   "text": "Proportion",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Proportion (plural: die Proportionen). Relação entre medidas; \"goldener Schnitt\" é a proporção áurea.",
+                  "collocations": [
+                    "goldener Schnitt",
+                    "Proportion der Fassade",
+                    "Proportionen wahren"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Proportion von Breite und Höhe gibt der Fassade Harmonie.",
+                  "answer": "Proportion",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Architekt untersuchte die Proportion jedes Fensters.",
+                  "answer": "Proportion",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -556,10 +1031,29 @@
                   "text": "Symmetrie",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Symmetrie. Equilíbrio de partes em torno de um eixo.",
+                  "collocations": [
+                    "Achsensymmetrie",
+                    "perfekte Symmetrie",
+                    "Symmetrie brechen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Symmetrie der Fassade vermittelt Ordnung und Würde.",
+                  "answer": "Symmetrie",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Garten folgt einer perfekten Symmetrie zur Mittelachse.",
+                  "answer": "Symmetrie",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -575,10 +1069,29 @@
                   "text": "Minimalismus",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Minimalismus. Formas simples, poucos elementos e muita luz.",
+                  "collocations": [
+                    "architektonischer Minimalismus",
+                    "Minimalismus im Wohnen",
+                    "minimalistischer Stil"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Minimalismus zeichnet sich durch klare Linien und wenig Schmuck aus.",
+                  "answer": "Minimalismus",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Haus ist ein Beispiel für Minimalismus mit weißen Wänden.",
+                  "answer": "Minimalismus",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -594,10 +1107,29 @@
                   "text": "vernakuläre Architektur",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die vernakuläre Architektur (adjetivo declinado). Construção tradicional regional com materiais locais.",
+                  "collocations": [
+                    "vernakuläre Architektur",
+                    "Baustoffe der Region",
+                    "Lehmbauweise"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die vernakuläre Architektur passt sich dem Klima jeder Region an.",
+                  "answer": "vernakuläre Architektur",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Lehmhäuser sind ein Beispiel für vernakuläre Architektur.",
+                  "answer": "vernakuläre Architektur",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -613,10 +1145,29 @@
                   "text": "denkmalgeschütztes Gebäude",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das denkmalgeschützte Gebäude (adjetivo declinado). Edifício protegido por lei.",
+                  "collocations": [
+                    "denkmalgeschütztes Gebäude",
+                    "Denkmalschutz",
+                    "Genehmigung der Denkmalpflege"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein denkmalgeschütztes Gebäude in der Altstadt darf man nicht abreißen.",
+                  "answer": "denkmalgeschütztes Gebäude",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für den Umbau braucht ein denkmalgeschütztes Gebäude eine Sondergenehmigung.",
+                  "answer": "denkmalgeschütztes Gebäude",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -632,10 +1183,29 @@
                   "text": "Restaurierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Restaurierung. Recuperar o estado original, respeitando o valor histórico.",
+                  "collocations": [
+                    "Restaurierung des Gebäudes",
+                    "Restaurierungsprojekt",
+                    "Fassadenrestaurierung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Restaurierung gab der Kathedrale ihr ursprüngliches Aussehen zurück.",
+                  "answer": "Restaurierung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Beim Projekt der Restaurierung halfen Historiker mit.",
+                  "answer": "Restaurierung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -665,10 +1235,29 @@
                   "text": "Planungsvorgaben",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: die Planungsvorgaben (ou \"Raumprogramm\"). Lista as exigências do cliente para o projeto.",
+                  "collocations": [
+                    "Raumprogramm",
+                    "Planungsvorgaben des Bauherrn",
+                    "Vorgaben anpassen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Planungsvorgaben enthalten vier Schlafzimmer und ein Arbeitszimmer.",
+                  "answer": "Planungsvorgaben",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Bauherr übergab dem Architekturbüro die Planungsvorgaben.",
+                  "answer": "Planungsvorgaben",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -684,10 +1273,29 @@
                   "text": "Architekturmodell",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Architekturmodell (plural: die Architekturmodelle). Modelo físico reduzido.",
+                  "collocations": [
+                    "Architekturmodell bauen",
+                    "Präsentationsmodell",
+                    "Modell aus Karton"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Büro präsentierte ein Architekturmodell des neuen Museums.",
+                  "answer": "Architekturmodell",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Architekturmodell zeigt die Baukörper des Entwurfs.",
+                  "answer": "Architekturmodell",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -703,10 +1311,29 @@
                   "text": "Baugenehmigung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Baugenehmigung (plural: die Baugenehmigungen). Autorização para construir.",
+                  "collocations": [
+                    "Baugenehmigung beantragen",
+                    "Bauantrag",
+                    "Baugenehmigung erteilen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Stadt erteilte die Baugenehmigung im März.",
+                  "answer": "Baugenehmigung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ohne Baugenehmigung darf man mit dem Bau nicht beginnen.",
+                  "answer": "Baugenehmigung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -722,10 +1349,29 @@
                   "text": "Visualisierung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Visualisierung (plural: die Visualisierungen). Imagem fotorrealista de um projeto.",
+                  "collocations": [
+                    "fotorealistische Visualisierung",
+                    "Visualisierung der Fassade",
+                    "3D-Visualisierung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Visualisierung zeigt, wie das fertige Gebäude aussieht.",
+                  "answer": "Visualisierung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Für den Kunden wurde eine Visualisierung in Auftrag gegeben.",
+                  "answer": "Visualisierung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -741,10 +1387,29 @@
                   "text": "Bauüberwachung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Bauüberwachung (também \"Bauleitung\"). Acompanhamento técnico da obra.",
+                  "collocations": [
+                    "Bauüberwachung übernehmen",
+                    "Bauleitung",
+                    "örtliche Bauüberwachung"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Bauüberwachung kontrolliert, ob der Plan eingehalten wird.",
+                  "answer": "Bauüberwachung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Architekt übernahm die Bauüberwachung des Gebäudes.",
+                  "answer": "Bauüberwachung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -760,10 +1425,29 @@
                   "text": "Ausschreibung",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ausschreibung (plural: die Ausschreibungen). Concorrência para contratar obras ou serviços públicos.",
+                  "collocations": [
+                    "öffentliche Ausschreibung",
+                    "Ausschreibung gewinnen",
+                    "Zuschlag"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Stadt startete eine öffentliche Ausschreibung für die neue Brücke.",
+                  "answer": "Ausschreibung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Firma gewann die Ausschreibung durch das niedrigste Angebot.",
+                  "answer": "Ausschreibung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]

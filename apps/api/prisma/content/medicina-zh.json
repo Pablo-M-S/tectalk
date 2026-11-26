@@ -35,10 +35,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnfáng"
+                  "ipa": "xīnfáng",
+                  "usageNote": "Pinyin xīnfáng (心 = coração + 房 = câmara). Diz-se 左心房 e 右心房; 心房颤动 = fibrilação atrial.",
+                  "collocations": [
+                    "左心房",
+                    "右心房",
+                    "心房颤动"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "血液从右心房流入右心室。",
+                  "answer": "心房",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "超声显示左心房增大。",
+                  "answer": "心房",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -55,10 +74,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnshì"
+                  "ipa": "xīnshì",
+                  "usageNote": "Pinyin xīnshì (心 + 室 = câmara). Diz-se 左心室 e 右心室; 室间隔 = septo interventricular.",
+                  "collocations": [
+                    "左心室",
+                    "右心室",
+                    "室间隔"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "左心室把血液泵向全身。",
+                  "answer": "心室",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "心脏彩超提示心室壁增厚。",
+                  "answer": "心室",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -75,10 +113,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhǔdòngmài"
+                  "ipa": "zhǔdòngmài",
+                  "usageNote": "Pinyin zhǔdòngmài (主 = principal + 动脉 = artéria). 主动脉瓣 = valva aórtica; 主动脉夹层 = dissecção.",
+                  "collocations": [
+                    "主动脉瓣",
+                    "主动脉夹层",
+                    "腹主动脉"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "主动脉是人体最粗的血管。",
+                  "answer": "主动脉",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "患者胸痛剧烈，医生怀疑是主动脉夹层。",
+                  "answer": "主动脉",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -95,10 +152,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnjī"
+                  "ipa": "xīnjī",
+                  "usageNote": "Pinyin xīnjī (心 + 肌 = músculo). Aparece em 心肌炎 (miocardite) e 心肌病 (miocardiopatia).",
+                  "collocations": [
+                    "心肌炎",
+                    "心肌细胞",
+                    "心肌缺血"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "心肌负责推动心脏收缩。",
+                  "answer": "心肌",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这种药可以增强心肌的收缩力。",
+                  "answer": "心肌",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -115,10 +191,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnbāo"
+                  "ipa": "xīnbāo",
+                  "usageNote": "Pinyin xīnbāo (心 + 包 = envoltório). Doenças: 心包炎, 心包积液 (derrame pericárdico).",
+                  "collocations": [
+                    "心包炎",
+                    "心包积液",
+                    "心包穿刺"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "心包是包裹心脏的双层膜。",
+                  "answer": "心包",
+                  "documentType": "ECHO_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "心包发炎时，患者会感到胸痛。",
+                  "answer": "心包",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -137,10 +232,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnzàng bànmó"
+                  "ipa": "xīnzàng bànmó",
+                  "usageNote": "Pinyin xīnzàng bàomó (心脏 + 瓣膜 = válvula). Tipos: 二尖瓣 (mitral), 主动脉瓣, 三尖瓣, 肺动脉瓣.",
+                  "collocations": [
+                    "二尖瓣",
+                    "心脏瓣膜病",
+                    "人工瓣膜"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "心脏瓣膜可以防止血液倒流。",
+                  "answer": "心脏瓣膜",
+                  "documentType": "SURGICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生为他更换了狭窄的心脏瓣膜。",
+                  "answer": "心脏瓣膜",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -167,10 +281,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnjī gěngsǐ"
+                  "ipa": "xīnjī gěngsǐ",
+                  "usageNote": "Pinyin xīnjī gěngsǐ (心肌 + 梗死 = enfarto). Em linguagem comum: 心梗 (abreviação).",
+                  "collocations": [
+                    "急性心肌梗死",
+                    "心梗",
+                    "发生心肌梗死"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "急性心肌梗死需要立刻抢救。",
+                  "answer": "心肌梗死",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "他三年前曾发生心肌梗死。",
+                  "answer": "心肌梗死",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -187,10 +320,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnlǜ shīcháng"
+                  "ipa": "xīnlǜ shīcháng",
+                  "usageNote": "Pinyin xīnlǜ shīcháng (心律 = ritmo cardíaco + 失常 = anormal). Substantivo; também 心律不齐.",
+                  "collocations": [
+                    "心律不齐",
+                    "室性心律失常",
+                    "治疗心律失常"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "心电图发现了心律失常。",
+                  "answer": "心律失常",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "心悸的原因可能是心律失常。",
+                  "answer": "心律失常",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -207,10 +359,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīndòng guòsù"
+                  "ipa": "xīndòng guòsù",
+                  "usageNote": "Pinyin xīn dòng guò sù (心动 = batimento + 过速 = rápido). Contraste: 心动过缓.",
+                  "collocations": [
+                    "阵发性心动过速",
+                    "窦性心动过速",
+                    "心率加快"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "发烧时可能出现心动过速。",
+                  "answer": "心动过速",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "心率超过一百二十，诊断为心动过速。",
+                  "answer": "心动过速",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -227,10 +398,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīndòng guòhuǎn"
+                  "ipa": "xīndòng guòhuǎn",
+                  "usageNote": "Pinyin xīn dòng guò huǎn (过缓 = lento). Em atletas é muitas vezes normal.",
+                  "collocations": [
+                    "窦性心动过缓",
+                    "严重心动过缓",
+                    "起搏器"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "运动员常有心动过缓。",
+                  "answer": "心动过缓",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "因为心动过缓引起晕厥，医生建议安装起搏器。",
+                  "answer": "心动过缓",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -249,10 +439,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gāoxuèyā"
+                  "ipa": "gāoxuèyā",
+                  "usageNote": "Pinyin gāo xuèyā (高 = alto + 血压 = pressão arterial). \"Ter hipertensão\" = 患有高血压.",
+                  "collocations": [
+                    "原发性高血压",
+                    "控制高血压",
+                    "高血压患者"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "高血压常常没有明显症状。",
+                  "answer": "高血压",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "少盐和运动有助于预防高血压。",
+                  "answer": "高血压",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -269,10 +478,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xīnzàng féidà"
+                  "ipa": "xīnzàng féidà",
+                  "usageNote": "Pinyin xīnzàng féidà (心脏 + 肥大 = hipertrofia). Descreve a silhueta aumentada no raio-X.",
+                  "collocations": [
+                    "心脏肥大",
+                    "左心室肥厚",
+                    "轻度心脏肥大"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "胸片提示心脏肥大。",
+                  "answer": "心脏肥大",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "长期的高血压可能导致心脏肥大。",
+                  "answer": "心脏肥大",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -303,10 +531,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fèiyán"
+                  "ipa": "fèiyán",
+                  "usageNote": "Pinyin fèiyán (肺 = pulmão + 炎 = inflamação). Tipos: 社区获得性肺炎, 吸入性肺炎.",
+                  "collocations": [
+                    "社区获得性肺炎",
+                    "吸入性肺炎",
+                    "患肺炎"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "老年人患肺炎后容易加重。",
+                  "answer": "肺炎",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生开了抗生素治疗肺炎。",
+                  "answer": "肺炎",
+                  "documentType": "DISCHARGE_SUMMARY"
+                }
+              ],
               "segments": {}
             },
             {
@@ -323,10 +570,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhīqìguǎnyán"
+                  "ipa": "zhīqìguǎnyán",
+                  "usageNote": "Pinyin zhī qìguǎn yán (支气管 = brônquio + 炎). Tipos: 急性 e 慢性.",
+                  "collocations": [
+                    "急性支气管炎",
+                    "慢性支气管炎",
+                    "反复发作"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "感冒之后很多人会得支气管炎。",
+                  "answer": "支气管炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "咳嗽持续三周，医生怀疑是支气管炎。",
+                  "answer": "支气管炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -343,10 +609,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiàochuǎn"
+                  "ipa": "xiàochuǎn",
+                  "usageNote": "Pinyin xiàochuǎn (哮喘). Também 支气管哮喘 (nome completo). Crise: 哮喘发作.",
+                  "collocations": [
+                    "支气管哮喘",
+                    "哮喘发作",
+                    "儿童哮喘"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "哮喘会使气道变窄，呼吸困难。",
+                  "answer": "哮喘",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "夜里一直咳嗽，所以去做了哮喘检查。",
+                  "answer": "哮喘",
+                  "documentType": "PULMONARY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -363,10 +648,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "hūxī kùnnan"
+                  "ipa": "hūxī kùnnan",
+                  "usageNote": "Pinyin hūxī kùnnan (呼吸 = respiração + 困难). \"Aos esforços\" = 活动后呼吸困难.",
+                  "collocations": [
+                    "活动后呼吸困难",
+                    "突发呼吸困难",
+                    "呼吸困难加重"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "患者说爬楼梯时会呼吸困难。",
+                  "answer": "呼吸困难",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "他因为突然呼吸困难来到急诊科。",
+                  "answer": "呼吸困难",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -383,10 +687,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fèishuānsè"
+                  "ipa": "fèishuānsè",
+                  "usageNote": "Pinyin fèi shuānsè (肺 + 栓塞 = embolia). Relacionada a 深静脉血栓 (trombose venosa profunda).",
+                  "collocations": [
+                    "急性肺栓塞",
+                    "深静脉血栓",
+                    "预防肺栓塞"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "长途飞行后，有人会发生肺栓塞。",
+                  "answer": "肺栓塞",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "增强CT确诊为肺栓塞。",
+                  "answer": "肺栓塞",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -403,10 +726,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiōngqiāng jīyè"
+                  "ipa": "xiōngqiāng jīyè",
+                  "usageNote": "Pinyin xiōngqiāng jīyè (胸腔 = cavidade torácica + 积液 = acúmulo de líquido). Também 胸水 (coloquial).",
+                  "collocations": [
+                    "胸水",
+                    "胸腔穿刺",
+                    "抽取积液"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "影像显示右侧胸腔积液。",
+                  "answer": "胸腔积液",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "患者呼吸困难，医生抽出了胸腔积液。",
+                  "answer": "胸腔积液",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -437,10 +779,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "huójiǎn"
+                  "ipa": "huójiǎn",
+                  "usageNote": "Pinyin huójiǎn (活 = vivo + 检 = exame). Tipos: 穿刺活检, 内镜活检.",
+                  "collocations": [
+                    "穿刺活检",
+                    "做活检",
+                    "活检结果"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "为了确定肿瘤的性质，医生做了活检。",
+                  "answer": "活检",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "活检结果一周后出来。",
+                  "answer": "活检",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -457,10 +818,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chāguǎn"
+                  "ipa": "chāguǎn",
+                  "usageNote": "Pinyin chā guǎn (插 = inserir + 管 = tubo). Completo: 气管插管. Extubação = 拔管.",
+                  "collocations": [
+                    "气管插管",
+                    "拔管",
+                    "插管成功"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "患者呼吸停止，立刻插管。",
+                  "answer": "插管",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "手术前要准备好插管的器械。",
+                  "answer": "插管",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -477,10 +857,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "mázuì"
+                  "ipa": "mázuì",
+                  "usageNote": "Pinyin mázuì (麻 + 醉). Tipos: 全身麻醉, 局部麻醉, 椎管内麻醉.",
+                  "collocations": [
+                    "全身麻醉",
+                    "局部麻醉",
+                    "麻醉医生"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个手术采用全身麻醉。",
+                  "answer": "麻醉",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "麻醉醒来之前，请在病房休息。",
+                  "answer": "麻醉",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -497,10 +896,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dǎoguǎn"
+                  "ipa": "dǎoguǎn",
+                  "usageNote": "Pinyin dǎoguǎn (导 = guiar + 管). Tipos: 中心静脉导管, 导尿管.",
+                  "collocations": [
+                    "中心静脉导管",
+                    "导尿管",
+                    "置入导管"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "医生通过细小的血管插入导管治疗。",
+                  "answer": "导管",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "请固定好导管，避免脱出。",
+                  "answer": "导管",
+                  "documentType": "PROGRESS_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -517,10 +935,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fénghé"
+                  "ipa": "fénghé",
+                  "usageNote": "Pinyin féng hé (缝 = costurar + 合). Verbo: 缝合伤口; 拆线 = retirar os pontos.",
+                  "collocations": [
+                    "缝合伤口",
+                    "缝合线",
+                    "拆线"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "伤口很深，需要缝合。",
+                  "answer": "缝合",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "缝合后一周就可以拆线。",
+                  "answer": "缝合",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -537,10 +974,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "qiēchú"
+                  "ipa": "qiēchú",
+                  "usageNote": "Pinyin qiēchú (切 = cortar + 除 = remover). Ex.: 肿瘤切除, 部分切除, 根治性切除.",
+                  "collocations": [
+                    "肿瘤切除",
+                    "部分切除",
+                    "切除范围"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "医生切除了胃的三分之二。",
+                  "answer": "切除",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "手术的目标是完全切除肿瘤。",
+                  "answer": "切除",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -571,10 +1027,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhěnduàn"
+                  "ipa": "zhěnduàn",
+                  "usageNote": "Pinyin zhěnduàn (诊 = examinar + 断 = julgar). Verbo: 诊断; \"diagnóstico definitivo\" = 确诊.",
+                  "collocations": [
+                    "确诊",
+                    "早期诊断",
+                    "诊断依据"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "根据检查结果可以确定诊断。",
+                  "answer": "诊断",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "早期诊断有助于治疗成功。",
+                  "answer": "诊断",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -591,10 +1066,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiànbié zhěnduàn"
+                  "ipa": "jiànbié zhěnduàn",
+                  "usageNote": "Pinyin jiànbié zhěnduàn (鉴别 = distinguir + 诊断). Diz-se 需要鉴别 (precisa ser diferenciado).",
+                  "collocations": [
+                    "需要鉴别",
+                    "鉴别疾病",
+                    "做鉴别诊断"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "胸痛的鉴别诊断包括心肌梗死和肺栓塞。",
+                  "answer": "鉴别诊断",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生根据症状列出了几个鉴别诊断。",
+                  "answer": "鉴别诊断",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -611,10 +1105,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yùhòu"
+                  "ipa": "yùhòu",
+                  "usageNote": "Pinyin yùhòu (预 = antecipadamente + 后 = depois). Bom: 预后良好; ruim: 预后不良.",
+                  "collocations": [
+                    "预后良好",
+                    "预后不良",
+                    "评估预后"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这种病如果早发现，预后良好。",
+                  "answer": "预后",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生向家属说明了患者的预后。",
+                  "answer": "预后",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -631,10 +1144,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bìngyīn"
+                  "ipa": "bìngyīn",
+                  "usageNote": "Pinyin bìngyīn (病 = doença + 因 = causa). Mais formal que 原因; 病因不明 = causa desconhecida.",
+                  "collocations": [
+                    "病因不明",
+                    "探讨病因",
+                    "病因学"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这种疾病的病因还没有完全清楚。",
+                  "answer": "病因",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了查明病因，需要做更多检查。",
+                  "answer": "病因",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -651,10 +1183,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gòngbìng"
+                  "ipa": "gòngbìng",
+                  "usageNote": "Pinyin gòngbìng (共 = juntos + 病). Também 合并症 (complicação associada).",
+                  "collocations": [
+                    "合并症",
+                    "患有共病",
+                    "共病管理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "老年人往往同时患有多种共病。",
+                  "answer": "共病",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "选择治疗方案时要考虑共病。",
+                  "answer": "共病",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -671,10 +1222,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jìnjìzhèng"
+                  "ipa": "jìnjìzhèng",
+                  "usageNote": "Pinyin jìnjì zhèng (禁忌 = proibido + 症). 绝对禁忌 e 相对禁忌.",
+                  "collocations": [
+                    "绝对禁忌",
+                    "相对禁忌",
+                    "存在禁忌症"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "孕妇有一些药物属于禁忌症。",
+                  "answer": "禁忌症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "对肾功能衰竭的患者，这种药是禁忌症。",
+                  "answer": "禁忌症",
+                  "documentType": "RADIOLOGY_REQUEST"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -705,10 +1275,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "nǎocùzhòng"
+                  "ipa": "nǎocùzhòng",
+                  "usageNote": "Pinyin nǎo zúzhòng (脑 + 卒中 = golpe súbito). Tipos: 脑梗死 (isquêmico), 脑出血 (hemorrágico). Coloquial: 中风.",
+                  "collocations": [
+                    "脑梗死",
+                    "脑出血",
+                    "中风"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "脑卒中是主要的致死原因之一。",
+                  "answer": "脑卒中",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "突然说话不清可能是脑卒中的信号。",
+                  "answer": "脑卒中",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -725,10 +1314,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "diānxián fāzuò"
+                  "ipa": "diānxián fāzuò",
+                  "usageNote": "Pinyin diānxián fāzuò (癫痫 = epilepsia + 发作 = crise). Também 抽搐 (convulsão).",
+                  "collocations": [
+                    "癫痫发作",
+                    "抽搐",
+                    "控制发作"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "孩子突然出现癫痫发作。",
+                  "answer": "癫痫发作",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "抗癫痫药可以控制癫痫发作。",
+                  "answer": "癫痫发作",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -745,10 +1353,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "piāntóutòng"
+                  "ipa": "piāntóutòng",
+                  "usageNote": "Pinyin piān tóutòng (偏 = lateral + 头痛). Costuma ter 先兆 (aura).",
+                  "collocations": [
+                    "有先兆的偏头痛",
+                    "慢性偏头痛",
+                    "偏头痛发作"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "偏头痛通常是一侧头部跳痛。",
+                  "answer": "偏头痛",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "光线和声音会让偏头痛加重。",
+                  "answer": "偏头痛",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -765,10 +1392,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shénjīng bìngbiàn"
+                  "ipa": "shénjīng bìngbiàn",
+                  "usageNote": "Pinyin shénjīng bìngbiàn (神经 = nervo + 病变 = lesão). Em diabéticos: 糖尿病神经病变.",
+                  "collocations": [
+                    "周围神经病变",
+                    "糖尿病神经病变",
+                    "神经病理性疼痛"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "手脚麻木是神经病变的表现。",
+                  "answer": "神经病变",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "长期糖尿病可能引起神经病变。",
+                  "answer": "神经病变",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -785,10 +1431,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chīdāizhèng"
+                  "ipa": "chīdāizhèng",
+                  "usageNote": "Pinyin chīdāi zhèng (痴呆症). Hoje também 认知障碍 (transtorno cognitivo), mais neutro; 阿尔茨海默病 = Alzheimer.",
+                  "collocations": [
+                    "阿尔茨海默病",
+                    "认知障碍",
+                    "预防痴呆症"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "痴呆症患者需要安全而熟悉的环境。",
+                  "answer": "痴呆症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "他最近总是忘事，所以做了痴呆症检查。",
+                  "answer": "痴呆症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -805,10 +1470,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "nǎozhèndàng"
+                  "ipa": "nǎozhèndàng",
+                  "usageNote": "Pinyin nǎo zhèndàng (脑 + 震荡 = abalo). Também 脑挫伤 = contusão (diferente).",
+                  "collocations": [
+                    "轻度脑震荡",
+                    "发生脑震荡",
+                    "脑震荡后遗症"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "他摔倒后撞到头部，发生了脑震荡。",
+                  "answer": "脑震荡",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "脑震荡后需要休息几天。",
+                  "answer": "脑震荡",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -839,10 +1523,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "wèiyán"
+                  "ipa": "wèiyán",
+                  "usageNote": "Pinyin wèiyán (胃 = estômago + 炎). Tipos: 急性胃炎, 慢性胃炎, 萎缩性胃炎.",
+                  "collocations": [
+                    "急性胃炎",
+                    "慢性胃炎",
+                    "萎缩性胃炎"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "压力大时容易患急性胃炎。",
+                  "answer": "胃炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "胃镜检查发现了胃炎。",
+                  "answer": "胃炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -859,10 +1562,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiāohuàxìng kuìyáng"
+                  "ipa": "xiāohuàxìng kuìyáng",
+                  "usageNote": "Pinyin xiāohuàxìng kuìyáng (消化性 = péptico + 溃疡 = úlcera). Subtipos: 胃溃疡 e 十二指肠溃疡.",
+                  "collocations": [
+                    "胃溃疡",
+                    "十二指肠溃疡",
+                    "溃疡复发"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "消化性溃疡的主要原因是幽门螺杆菌和止痛药。",
+                  "answer": "消化性溃疡",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "出血的消化性溃疡需要紧急治疗。",
+                  "answer": "消化性溃疡",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -879,10 +1601,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gānyìnghuà"
+                  "ipa": "gānyìnghuà",
+                  "usageNote": "Pinyin gān yìnghuà (肝 = fígado + 硬化 = endurecimento). Causas: 病毒性, 酒精性.",
+                  "collocations": [
+                    "酒精性肝硬化",
+                    "发展为肝硬化",
+                    "肝功能"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肝硬化使肝脏变硬，功能下降。",
+                  "answer": "肝硬化",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "长期饮酒导致了肝硬化。",
+                  "answer": "肝硬化",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -899,10 +1640,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "gānyán"
+                  "ipa": "gānyán",
+                  "usageNote": "Pinyin gānyán (肝 + 炎). Tipos: 甲型肝炎, 乙型肝炎, 丙型肝炎 (a letra vem antes de 型).",
+                  "collocations": [
+                    "乙型肝炎",
+                    "丙型肝炎",
+                    "肝炎病毒"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "病毒感染引起了肝炎。",
+                  "answer": "肝炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "验血发现了肝炎病毒。",
+                  "answer": "肝炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -919,10 +1679,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "lánwěiyán"
+                  "ipa": "lánwěiyán",
+                  "usageNote": "Pinyin lánwěi yán (阑尾 = apêndice + 炎). Usa-se também 盲肠炎 (popular, impreciso).",
+                  "collocations": [
+                    "急性阑尾炎",
+                    "阑尾炎手术",
+                    "阑尾切除"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "右下腹疼痛，医生怀疑是阑尾炎。",
+                  "answer": "阑尾炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "阑尾炎加重之前，医生做了手术。",
+                  "answer": "阑尾炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -939,10 +1718,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "wèishíguǎn fǎnliú"
+                  "ipa": "wèishíguǎn fǎnliú",
+                  "usageNote": "Pinyin wèi shí guǎn fǎnliú (胃 + 食管 + 反流). Doença: 反流性食管炎; 烧心 = azia.",
+                  "collocations": [
+                    "反流性食管炎",
+                    "烧心",
+                    "胃食管反流病"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "饭后躺下容易出现胃食管反流。",
+                  "answer": "胃食管反流",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "有些人因为胃食管反流，晚上会咳嗽。",
+                  "answer": "胃食管反流",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -973,10 +1771,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tángniàobìng"
+                  "ipa": "tángniàobìng",
+                  "usageNote": "Pinyin tángniàobìng (糖 = açúcar + 尿 + 病). Tipos: 1型糖尿病, 2型糖尿病.",
+                  "collocations": [
+                    "2型糖尿病",
+                    "控制糖尿病",
+                    "糖尿病肾病"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "糖尿病是血糖长期偏高的疾病。",
+                  "answer": "糖尿病",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "饮食和运动是治疗糖尿病的基础。",
+                  "answer": "糖尿病",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -993,10 +1810,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yídǎosù"
+                  "ipa": "yídǎosù",
+                  "usageNote": "Pinyin yídǎosù (胰 = pâncreas + 岛 = ilhota + 素 = hormônio). Verbos: 注射胰岛素; 胰岛素抵抗.",
+                  "collocations": [
+                    "注射胰岛素",
+                    "胰岛素抵抗",
+                    "分泌胰岛素"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "胰腺分泌胰岛素这种激素。",
+                  "answer": "胰岛素",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "他饭前自己注射胰岛素。",
+                  "answer": "胰岛素",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1013,10 +1849,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiǎzhuàngxiàn gōngnéng jiǎntuì"
+                  "ipa": "jiǎzhuàngxiàn gōngnéng jiǎntuì",
+                  "usageNote": "Pinyin jiǎzhuàngxiàn gōngnéng jiǎntuì (甲状腺 = tireoide + 功能减退 = hipofunção). Tratamento: 甲状腺激素替代.",
+                  "collocations": [
+                    "甲状腺激素替代",
+                    "桥本甲状腺炎",
+                    "功能减退的症状"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "甲状腺功能减退时，人容易疲劳并发胖。",
+                  "answer": "甲状腺功能减退",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "桥本病是甲状腺功能减退的常见原因。",
+                  "answer": "甲状腺功能减退",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1033,10 +1888,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiǎzhuàngxiàn gōngnéng kàngjìn"
+                  "ipa": "jiǎzhuàngxiàn gōngnéng kàngjìn",
+                  "usageNote": "Pinyin jiǎzhuàngxiàn gōngnéng kàngjìn (功能亢进 = hiperfunção). Doença típica: 格雷夫斯病 (Graves).",
+                  "collocations": [
+                    "格雷夫斯病",
+                    "甲状腺激素过多",
+                    "亢进的症状"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "甲状腺功能亢进会导致心悸和多汗。",
+                  "answer": "甲状腺功能亢进",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "格雷夫斯病会引起甲状腺功能亢进。",
+                  "answer": "甲状腺功能亢进",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1053,10 +1927,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xuètáng"
+                  "ipa": "xuètáng",
+                  "usageNote": "Pinyin xuètáng (血 = sangue + 糖). \"Valor\" = 血糖值; 空腹血糖 = em jejum.",
+                  "collocations": [
+                    "空腹血糖",
+                    "测血糖",
+                    "血糖控制"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "饭后血糖会升高。",
+                  "answer": "血糖",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "早餐前请测一下血糖并记录。",
+                  "answer": "血糖",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1073,10 +1966,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "féipàng"
+                  "ipa": "féipàng",
+                  "usageNote": "Pinyin féipàng (肥 + 胖 = gordo). Classificação pelo IMC: 体重指数.",
+                  "collocations": [
+                    "体重指数",
+                    "内脏型肥胖",
+                    "肥胖症"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肥胖会增加高血压和糖尿病的风险。",
+                  "answer": "肥胖",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生建议通过饮食和运动改善肥胖。",
+                  "answer": "肥胖",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1107,10 +2019,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "quánxuè xìbāo jìshù"
+                  "ipa": "quánxuè xìbāo jìshù",
+                  "usageNote": "Pinyin quán xuèxìbāo jìshù (全 + 血细胞 = células sanguíneas + 计数 = contagem). Coloquial: 血常规.",
+                  "collocations": [
+                    "血常规",
+                    "白细胞计数",
+                    "全血细胞计数检查"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "怀疑贫血，所以要做全血细胞计数。",
+                  "answer": "全血细胞计数",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "全血细胞计数可以检查红细胞和白细胞的数量。",
+                  "answer": "全血细胞计数",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1127,10 +2058,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xuèhóngdànbái"
+                  "ipa": "xuèhóngdànbái",
+                  "usageNote": "Pinyin xuèhóngdànbái (血 + 红 = vermelho + 蛋白 = proteína). Sigla: Hb. \"Anemia\" = 贫血.",
+                  "collocations": [
+                    "血红蛋白浓度",
+                    "糖化血红蛋白",
+                    "血红蛋白降低"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "血红蛋白在血液中运送氧气。",
+                  "answer": "血红蛋白",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "贫血的患者血红蛋白偏低。",
+                  "answer": "血红蛋白",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1147,10 +2097,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jīgān"
+                  "ipa": "jīgān",
+                  "usageNote": "Pinyin jīgān (肌酐). Marcador da função renal; sigla Cr.",
+                  "collocations": [
+                    "血肌酐",
+                    "肌酐升高",
+                    "肾功能"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肾功能通过血液中的肌酐来评估。",
+                  "answer": "肌酐",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "化验显示肌酐偏高，怀疑肾功能下降。",
+                  "answer": "肌酐",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1167,10 +2136,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xuèqīng"
+                  "ipa": "xuèqīng",
+                  "usageNote": "Pinyin xuèqīng (血 + 清 = claro). Em exames: 血清钾, 血清白蛋白.",
+                  "collocations": [
+                    "血清钾",
+                    "血清白蛋白",
+                    "分离血清"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "从抽出的血液中分离出血清。",
+                  "answer": "血清",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "血清中的钾含量高于正常值。",
+                  "answer": "血清",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1187,10 +2175,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "niàoyè jiǎnchá"
+                  "ipa": "niàoyè jiǎnchá",
+                  "usageNote": "Pinyin niàoyè jiǎnchá (尿液 = urina + 检查). Coloquial: 尿常规.",
+                  "collocations": [
+                    "尿常规",
+                    "做尿液检查",
+                    "尿蛋白"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "体检时一定要做尿液检查。",
+                  "answer": "尿液检查",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "尿液检查发现尿里有血。",
+                  "answer": "尿液检查",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1207,10 +2214,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "péiyǎng"
+                  "ipa": "péiyǎng",
+                  "usageNote": "Pinyin péiyǎng (培 = cultivar + 养). Tipos: 血培养, 尿培养, 细菌培养.",
+                  "collocations": [
+                    "血培养",
+                    "细菌培养",
+                    "培养结果"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "为了找出感染的细菌，需要做培养。",
+                  "answer": "培养",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "培养的结果要两天后才出来。",
+                  "answer": "培养",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1241,10 +2267,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chāoshēng jiǎnchá"
+                  "ipa": "chāoshēng jiǎnchá",
+                  "usageNote": "Pinyin chāoshēng jiǎnchá (超声 = ultrassom + 检查). Também B超 (coloquial).",
+                  "collocations": [
+                    "腹部超声检查",
+                    "B超",
+                    "心脏彩超"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "怀孕期间要定期做超声检查。",
+                  "answer": "超声检查",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了查明腹痛的原因，医生做了超声检查。",
+                  "answer": "超声检查",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1261,10 +2306,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jìsuànjī duàncéng sǎomiáo"
+                  "ipa": "jìsuànjī duàncéng sǎomiáo",
+                  "usageNote": "Pinyin jìsuànjī duàncéng sǎomiáo (计算机 + 断层 = corte + 扫描). Coloquial: CT.",
+                  "collocations": [
+                    "CT检查",
+                    "增强CT",
+                    "头部CT"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "计算机断层扫描可以显示身体的横截面。",
+                  "answer": "计算机断层扫描",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "事故后，医生为他做了头部计算机断层扫描。",
+                  "answer": "计算机断层扫描",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1281,10 +2345,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "cígòngzhèn chéngxiàng"
+                  "ipa": "cígòngzhèn chéngxiàng",
+                  "usageNote": "Pinyin cí gòngzhèn chéngxiàng (磁 + 共振 + 成像). Coloquial: 核磁 / MRI.",
+                  "collocations": [
+                    "核磁共振",
+                    "头部MRI",
+                    "增强磁共振"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "磁共振成像检查不使用放射线。",
+                  "answer": "磁共振成像",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "大脑的详细情况要用磁共振成像来检查。",
+                  "answer": "磁共振成像",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1301,10 +2384,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "X guāngpiàn"
+                  "ipa": "X guāngpiàn",
+                  "usageNote": "Pinyin X guāng piàn (X光 + 片). Exames: 胸部X光片, 腹部X光片.",
+                  "collocations": [
+                    "胸部X光片",
+                    "拍X光片",
+                    "骨折"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "为了检查肺部阴影，医生拍了胸部X光片。",
+                  "answer": "X光片",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "是否骨折要靠X光片来确认。",
+                  "answer": "X光片",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1321,10 +2423,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zàoyǐngjì"
+                  "ipa": "zàoyǐngjì",
+                  "usageNote": "Pinyin zàoyǐngjì (造影 = imagem + 剂 = agente). Alergia: 造影剂过敏.",
+                  "collocations": [
+                    "造影剂过敏",
+                    "注射造影剂",
+                    "碘造影剂"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "检查前要从血管注射造影剂。",
+                  "answer": "造影剂",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "对造影剂过敏的人要事先告诉医生。",
+                  "answer": "造影剂",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1341,10 +2462,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bìngzào"
+                  "ipa": "bìngzào",
+                  "usageNote": "Pinyin bìngzào (病 + 灶 = foco). Termo genérico de achado em imagem; também 病变.",
+                  "collocations": [
+                    "发现病灶",
+                    "病灶范围",
+                    "肿瘤病灶"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "CT发现肝脏有一个小病灶。",
+                  "answer": "病灶",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生用内镜取了病灶的一小块组织。",
+                  "answer": "病灶",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1375,10 +2515,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhǔsù"
+                  "ipa": "zhǔsù",
+                  "usageNote": "Pinyin zhǔsù (主 = principal + 诉 = queixa). Início do prontuário: 主诉.",
+                  "collocations": [
+                    "主诉胸痛",
+                    "询问主诉",
+                    "主诉和现病史"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "患者的主诉是三天来的腹痛。",
+                  "answer": "主诉",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "接诊时，先仔细听取主诉。",
+                  "answer": "主诉",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1395,10 +2554,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "bìngshǐ"
+                  "ipa": "bìngshǐ",
+                  "usageNote": "Pinyin bìngshǐ (病 + 史 = história). Itens: 既往史, 现病史, 家族史.",
+                  "collocations": [
+                    "既往史",
+                    "现病史",
+                    "询问病史"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "初诊时要详细询问病史。",
+                  "answer": "病史",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "从病史中得知患者有过敏。",
+                  "answer": "病史",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1415,10 +2593,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tǐgé jiǎnchá"
+                  "ipa": "tǐgé jiǎnchá",
+                  "usageNote": "Pinyin tǐgé jiǎnchá (体格 = físico + 检查). Etapas: 视诊, 触诊, 叩诊, 听诊.",
+                  "collocations": [
+                    "视诊触诊听诊",
+                    "体格检查",
+                    "体格检查结果"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "体格检查时发现腹部有压痛。",
+                  "answer": "体格检查",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生问诊后进行体格检查。",
+                  "answer": "体格检查",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1435,10 +2632,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shēngmìng tǐzhēng"
+                  "ipa": "shēngmìng tǐzhēng",
+                  "usageNote": "Pinyin shēngmìng tǐzhēng (生命 = vida + 体征 = sinais). Inclui pressão, pulso, temperatura, respiração.",
+                  "collocations": [
+                    "测量生命体征",
+                    "生命体征平稳",
+                    "监测生命体征"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "护士先测量了生命体征。",
+                  "answer": "生命体征",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "手术后每小时观察一次生命体征。",
+                  "answer": "生命体征",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1455,10 +2671,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhīqíng tóngyì"
+                  "ipa": "zhīqíng tóngyì",
+                  "usageNote": "Pinyin zhīqíng tóngyì (知情 = informado + 同意 = consentimento). Documento: 知情同意书.",
+                  "collocations": [
+                    "知情同意书",
+                    "签署知情同意",
+                    "充分说明"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "手术前需要取得知情同意。",
+                  "answer": "知情同意",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "患者听完说明后，在知情同意书上签了字。",
+                  "answer": "知情同意",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1475,10 +2710,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chūyuàn xiǎojié"
+                  "ipa": "chūyuàn xiǎojié",
+                  "usageNote": "Pinyin chūyuàn xiǎojié (出院 = alta + 小结 = resumo). Também 出院记录.",
+                  "collocations": [
+                    "出院记录",
+                    "书写出院小结",
+                    "转诊"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "主治医生写好了出院小结。",
+                  "answer": "出院小结",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "出院小结也会发给社区医生。",
+                  "answer": "出院小结",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]

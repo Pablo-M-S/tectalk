@@ -35,10 +35,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "kote"
+                  "romanization": "kote",
+                  "usageNote": "Hiragana こて (às vezes 鏝). Usada para aplicar argamassa e reboco; tipos: 左官こて, レンガこて.",
+                  "collocations": [
+                    "左官ごて",
+                    "こてで塗る",
+                    "こてを使う"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "左官職人はこてで壁にモルタルを塗ります。",
+                  "answer": "こて",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "先の丸いこてを使うと、漆喰がきれいに仕上がります。",
+                  "answer": "こて",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -56,10 +75,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "すいへいき",
-                  "romanization": "suiheiki"
+                  "romanization": "suiheiki",
+                  "usageNote": "Kango (水平 = horizontal + 器 = instrumento). Também 水準器; versão a laser: レーザー墨出し器.",
+                  "collocations": [
+                    "水平器を当てる",
+                    "水準器",
+                    "水平を確認する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "壁が真っすぐか、水平器で確認します。",
+                  "answer": "水平器",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "水平器の気泡が真ん中に来たら、床は水平です。",
+                  "answer": "水平器",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -77,10 +115,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "さげふり",
-                  "romanization": "sagefuri"
+                  "romanization": "sagefuri",
+                  "usageNote": "Katakana/hiragana (下げ振り, さげふり). Fio com peso; mostra a vertical. Também 垂直 = vertical.",
+                  "collocations": [
+                    "下げ振りを垂らす",
+                    "垂直を確認する",
+                    "墨出し"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "下げ振りで、柱が垂直に立っているかを確認します。",
+                  "answer": "下げ振り",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "職人は壁の上から下げ振りを吊るして、ずれを調べました。",
+                  "answer": "下げ振り",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -98,10 +155,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "いちりんしゃ",
-                  "romanization": "ichirinsha"
+                  "romanization": "ichirinsha",
+                  "usageNote": "Kango (一輪 = uma roda + 車). Para transportar areia, concreto etc. no canteiro.",
+                  "collocations": [
+                    "一輪車を押す",
+                    "一輪車で運ぶ",
+                    "ネコ車"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "作業員は砂を一輪車で運びました。",
+                  "answer": "一輪車",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "一輪車は、狭い現場での運搬に便利です。",
+                  "answer": "一輪車",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -118,10 +194,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "tagane"
+                  "romanization": "tagane",
+                  "usageNote": "Hiragana たがね (鏨). Usado com martelo para cortar pedra ou concreto.",
+                  "collocations": [
+                    "たがねで削る",
+                    "はつり",
+                    "石工用のたがね"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "たがねとハンマーで、壁に溝を彫りました。",
+                  "answer": "たがね",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "はみ出したコンクリートを、たがねで取り除きました。",
+                  "answer": "たがね",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -139,10 +234,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "おおハンマー",
-                  "romanization": "oohanmaa"
+                  "romanization": "oohanmaa",
+                  "usageNote": "Katakana + kango (大 + ハンマー). Em demolição; também ゲンノウ (martelo médio).",
+                  "collocations": [
+                    "大ハンマーで壊す",
+                    "大ハンマーを振る",
+                    "解体"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "仕切りの壁を、大ハンマーで壊しました。",
+                  "answer": "大ハンマー",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "大ハンマーは重いので、正しい姿勢で使ってください。",
+                  "answer": "大ハンマー",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -173,10 +287,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "semento"
+                  "romanization": "semento",
+                  "usageNote": "Gairaigo (セメント). Aglutinante em pó; diferente de コンクリート. Peso comum do saco: 25 kg.",
+                  "collocations": [
+                    "ポルトランドセメント",
+                    "セメント一袋",
+                    "セメントを混ぜる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "セメント一袋の重さは二十五キロです。",
+                  "answer": "セメント",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "セメントに砂と水を混ぜて、モルタルを作ります。",
+                  "answer": "セメント",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -193,10 +326,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "morutaru"
+                  "romanization": "morutaru",
+                  "usageNote": "Gairaigo (モルタル). Mistura de セメント + 砂 + 水, para assentar ou revestir.",
+                  "collocations": [
+                    "セメントモルタル",
+                    "モルタルを練る",
+                    "モルタル塗り"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "モルタルは、レンガとレンガをつなぎます。",
+                  "answer": "モルタル",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "セメントと砂を一対三で混ぜて、モルタルを練りました。",
+                  "answer": "モルタル",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -213,10 +365,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "konkuriito"
+                  "romanization": "konkuriito",
+                  "usageNote": "Gairaigo (コンクリート). \"Concreto fresco\" = 生コン (なまコン) na fala do canteiro.",
+                  "collocations": [
+                    "生コン",
+                    "コンクリートを打つ",
+                    "コンクリート強度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コンクリートを型枠に流し込みます。",
+                  "answer": "コンクリート",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "基礎のために、十立方メートルのコンクリートを注文しました。",
+                  "answer": "コンクリート",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -233,10 +404,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "renga"
+                  "romanization": "renga",
+                  "usageNote": "Gairaigo (レンガ, 煉瓦). Também 赤レンガ; no Japão, é típico de edifícios históricos.",
+                  "collocations": [
+                    "赤レンガ",
+                    "レンガを積む",
+                    "レンガ造り"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "東京駅は赤いレンガで造られています。",
+                  "answer": "レンガ",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "職人は、モルタルを塗りながらレンガを一つずつ積みました。",
+                  "answer": "レンガ",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -254,10 +444,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "すな",
-                  "romanization": "suna"
+                  "romanization": "suna",
+                  "usageNote": "Kango de um só caractere (すな). Agregado fino; 川砂, 海砂, 砕砂. Na construção: 細骨材.",
+                  "collocations": [
+                    "川砂",
+                    "砕砂",
+                    "砂を洗う"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "砂は、セメントと水と混ぜて使います。",
+                  "answer": "砂",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "モルタルを作る前に、砂をふるいにかけます。",
+                  "answer": "砂",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -275,10 +484,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "てっきん",
-                  "romanization": "tekkin"
+                  "romanization": "tekkin",
+                  "usageNote": "Kango (鉄 = ferro + 筋 = barra). Tipos: 異形鉄筋 (nervurado); 鉄筋を組む = armar.",
+                  "collocations": [
+                    "異形鉄筋",
+                    "鉄筋を組む",
+                    "配筋"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "鉄筋は、結束線でしっかりと固定します。",
+                  "answer": "鉄筋",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "すべての角に、直径十二ミリの鉄筋を入れました。",
+                  "answer": "鉄筋",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -310,10 +538,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "そせきぞう",
-                  "romanization": "sosekizou"
+                  "romanization": "sosekizou",
+                  "usageNote": "Kango (組積 = empilhar + 造 = construção). Alvenaria de pedra ou tijolo; 補強組積造 = reforçada.",
+                  "collocations": [
+                    "組積造の建物",
+                    "石造",
+                    "補強組積造"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "組積造は、地震に弱いと言われます。",
+                  "answer": "組積造",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この古い建物は、組積造で建てられています。",
+                  "answer": "組積造",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -331,10 +578,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "だん",
-                  "romanization": "dan"
+                  "romanization": "dan",
+                  "usageNote": "Kango de um só caractere (だん). Também 一段目 (primeira fiada). Contagem: 一段, 二段...",
+                  "collocations": [
+                    "一段目",
+                    "段を積む",
+                    "目地をずらす"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "壁の最初の段は、防湿層の上に積みます。",
+                  "answer": "段",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "職人は、半分ずらしながら一段ずつ積み上げます。",
+                  "answer": "段",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -351,10 +617,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "magusa"
+                  "romanization": "magusa",
+                  "usageNote": "Hiragana まぐさ (鴨居/まぐさ). Sobre portas e janelas; também 開口部 (abertura).",
+                  "collocations": [
+                    "まぐさを入れる",
+                    "開口部",
+                    "窓のまぐさ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "まぐさは、窓の上の壁を支えます。",
+                  "answer": "まぐさ",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ドアの上に、コンクリート製のまぐさを取り付けました。",
+                  "answer": "まぐさ",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -372,10 +657,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "めじ",
-                  "romanization": "meji"
+                  "romanization": "meji",
+                  "usageNote": "Kango (目 = olho + 地 = terra). Juntas entre tijolos/azulejos; 伸縮目地 = de dilatação.",
+                  "collocations": [
+                    "伸縮目地",
+                    "目地を詰める",
+                    "打継ぎ目地"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "目地は、熱による壁のひび割れを防ぎます。",
+                  "answer": "目地",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "石と石の間の目地を、モルタルで埋めました。",
+                  "answer": "目地",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -393,10 +697,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しっくい",
-                  "romanization": "shikkui"
+                  "romanization": "shikkui",
+                  "usageNote": "Hiragana/kango (漆 + 喰 = gesso de cal). Revestimento tradicional japonês; também ボード de gesso é outro.",
+                  "collocations": [
+                    "漆喰を塗る",
+                    "漆喰壁",
+                    "白い漆喰"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "漆喰は、壁の湿気を調整してくれます。",
+                  "answer": "漆喰",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "職人は、二回に分けて漆喰を塗りました。",
+                  "answer": "漆喰",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -414,10 +737,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ならしモルタル",
-                  "romanization": "narashimorutaru"
+                  "romanization": "narashimorutaru",
+                  "usageNote": "Kango (均し = nivelar + モルタル). Camada de regularização do piso; também 下地モルタル.",
+                  "collocations": [
+                    "均しモルタルを施工する",
+                    "床下地",
+                    "平らに仕上げる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "均しモルタルで、床の凹凸をなくします。",
+                  "answer": "均しモルタル",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "均しモルタルが乾いたあとで、フローリングを貼ります。",
+                  "answer": "均しモルタル",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -448,10 +790,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "fuuchingu"
+                  "romanization": "fuuchingu",
+                  "usageNote": "Gairaigo (フーチング). Parte alargada da fundação sob pilares; também 独立基礎.",
+                  "collocations": [
+                    "独立基礎",
+                    "フーチングの配筋",
+                    "連続フーチング"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "フーチングは、柱の荷重を広い面で地盤に伝えます。",
+                  "answer": "フーチング",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この柱の下には、一辺二メートルのフーチングがあります。",
+                  "answer": "フーチング",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -468,10 +829,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "surabu"
+                  "romanization": "surabu",
+                  "usageNote": "Gairaigo (スラブ). Também 床版; tipos: ベタ基礎 (radier), 土間スラブ.",
+                  "collocations": [
+                    "床スラブ",
+                    "スラブ配筋",
+                    "スラブを打つ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "スラブの厚さは二十センチです。",
+                  "answer": "スラブ",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ビルの各階に、コンクリートのスラブを打ちました。",
+                  "answer": "スラブ",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -489,10 +869,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かたわく",
-                  "romanization": "katawaku"
+                  "romanization": "katawaku",
+                  "usageNote": "Kango (型 = forma + 枠 = moldura). Em obra: 型枠大工. Desmoldar: 型枠を外す.",
+                  "collocations": [
+                    "型枠大工",
+                    "型枠を外す",
+                    "型枠の組み立て"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "型枠は、生コンの重みに耐えなければいけません。",
+                  "answer": "型枠",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "型枠は七日後に外しました。",
+                  "answer": "型枠",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -510,10 +909,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ようじょう",
-                  "romanization": "youjou"
+                  "romanization": "youjou",
+                  "usageNote": "Kango (養 = nutrir + 生 = vida). No concreto: manter úmido para ganhar resistência. Também \"養生\" = proteger (pisos, etc.).",
+                  "collocations": [
+                    "養生期間",
+                    "湿潤養生",
+                    "養生シート"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コンクリートの養生は、最低でも七日間必要です。",
+                  "answer": "養生",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "養生のために、スラブには一日二回、水をまきました。",
+                  "answer": "養生",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -531,10 +949,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ぼうすい",
-                  "romanization": "bousui"
+                  "romanization": "bousui",
+                  "usageNote": "Kango (防 = impedir + 水). Ex.: 屋上防水, アスファルト防水.",
+                  "collocations": [
+                    "屋上防水",
+                    "防水層",
+                    "防水工事"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "バルコニーの防水が、雨漏りを防ぎました。",
+                  "answer": "防水",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "浴室には、二重の防水を施しました。",
+                  "answer": "防水",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -552,10 +989,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "くっさく",
-                  "romanization": "kussaku"
+                  "romanization": "kussaku",
+                  "usageNote": "Kango (掘 = cavar + 削 = raspar). Também 根切り (cavar valas de fundação).",
+                  "collocations": [
+                    "根切り",
+                    "掘削工事",
+                    "掘削深さ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "地下室のために、深さ三メートルの掘削を行いました。",
+                  "answer": "掘削",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "重機が敷地全体の掘削を担当しました。",
+                  "answer": "掘削",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -586,10 +1042,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "tairu"
+                  "romanization": "tairu",
+                  "usageNote": "Gairaigo (タイル). Para piso ou parede; 磁器質タイル = porcelanato.",
+                  "collocations": [
+                    "磁器質タイル",
+                    "タイルを貼る",
+                    "滑りにくいタイル"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "浴室には、滑りにくいタイルを選びました。",
+                  "answer": "タイル",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "職人は、三ミリの間隔を空けてタイルを貼ります。",
+                  "answer": "タイル",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -607,10 +1082,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "めじざい",
-                  "romanization": "mejizai"
+                  "romanization": "mejizai",
+                  "usageNote": "Kango (目地 + 材 = material). Rejunte de azulejos; 目地材は目地を埋めるもの.",
+                  "collocations": [
+                    "目地材を詰める",
+                    "防水性の目地材",
+                    "目地を拭き取る"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "目地材は、タイルのすき間を埋めます。",
+                  "answer": "目地材",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "はみ出した目地材は、乾く前に拭き取ってください。",
+                  "answer": "目地材",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -628,10 +1122,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せっこうボード",
-                  "romanization": "sekkouboodo"
+                  "romanization": "sekkouboodo",
+                  "usageNote": "Kango (石膏 = gesso + ボード). Também プラスターボード. Muito usado em paredes internas.",
+                  "collocations": [
+                    "石膏ボードを貼る",
+                    "石膏ボードの壁",
+                    "軽量鉄骨下地"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "石膏ボードは、金属の下地にビスで留めます。",
+                  "answer": "石膏ボード",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "石膏ボードは、カッターで簡単に切れます。",
+                  "answer": "石膏ボード",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -649,10 +1162,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はばき",
-                  "romanization": "habaki"
+                  "romanization": "habaki",
+                  "usageNote": "Kango (巾 = largura + 木 = madeira; 巾木 = はばき). Acabamento na base da parede.",
+                  "collocations": [
+                    "巾木を取り付ける",
+                    "木製の巾木",
+                    "床と壁の境目"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "巾木は、床と壁のつなぎ目を隠します。",
+                  "answer": "巾木",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "部屋の全体に、白い巾木を取り付けました。",
+                  "answer": "巾木",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -670,10 +1202,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "シーリングざい",
-                  "romanization": "shiiringuzai"
+                  "romanization": "shiiringuzai",
+                  "usageNote": "Kango/gairaigo (シーリング + 材). Também コーキング. Veda juntas contra água e ar.",
+                  "collocations": [
+                    "シーリング材を打つ",
+                    "コーキング",
+                    "防水用シーリング"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "シーリング材は、すき間から水が入るのを防ぎます。",
+                  "answer": "シーリング材",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "サッシのまわりに、柔らかいシーリング材を打ちました。",
+                  "answer": "シーリング材",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -691,10 +1242,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "したぬりざい",
-                  "romanization": "shitanurizai"
+                  "romanization": "shitanurizai",
+                  "usageNote": "Kango (下塗り = camada inferior + 材). Também プライマー; melhora a aderência.",
+                  "collocations": [
+                    "下塗り材を塗る",
+                    "プライマー",
+                    "密着性を高める"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "下塗り材は、塗料の付きをよくします。",
+                  "answer": "下塗り材",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "金属の部分には、サビ止めの下塗り材を塗りました。",
+                  "answer": "下塗り材",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -725,10 +1295,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "herumetto"
+                  "romanization": "herumetto",
+                  "usageNote": "Gairaigo (ヘルメット). Capacete obrigatório; \"ヘルメット着用\" = uso obrigatório.",
+                  "collocations": [
+                    "ヘルメットを着用する",
+                    "安全ヘルメット",
+                    "ヘルメット着用義務"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "現場に入る人は、全員ヘルメットをかぶってください。",
+                  "answer": "ヘルメット",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ヘルメットは、落ちてくる物から頭を守ります。",
+                  "answer": "ヘルメット",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -746,10 +1335,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "あんぜんたい",
-                  "romanization": "anzentai"
+                  "romanization": "anzentai",
+                  "usageNote": "Kango (安全 + 帯 = cinto). Hoje oficialmente 墜落制止用器具 (equipamento de retenção de queda); 安全帯 ainda é comum.",
+                  "collocations": [
+                    "安全帯を着ける",
+                    "墜落制止用器具",
+                    "高所作業"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "屋根の上では、安全帯の着用が義務です。",
+                  "answer": "安全帯",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "安全帯のフックを、命綱にしっかりとかけました。",
+                  "answer": "安全帯",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -767,10 +1375,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほごぐ",
-                  "romanization": "hogogu"
+                  "romanization": "hogogu",
+                  "usageNote": "Kango (保護 = proteger + 具 = ferramenta). Também 個人用保護具 (EPI).",
+                  "collocations": [
+                    "保護具を着用する",
+                    "個人用保護具",
+                    "保護メガネ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "保護具には、ヘルメット、手袋、安全靴があります。",
+                  "answer": "保護具",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "保護具をつけていない人は、現場に入れません。",
+                  "answer": "保護具",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -788,10 +1415,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "げんばかんとく",
-                  "romanization": "genbakantoku"
+                  "romanization": "genbakantoku",
+                  "usageNote": "Kango (現場 = local da obra + 監督 = supervisor). Também 職長 (chefe de equipe).",
+                  "collocations": [
+                    "現場監督に報告する",
+                    "職長",
+                    "指示を仰ぐ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "現場監督は、作業員に今日の仕事を割り振ります。",
+                  "answer": "現場監督",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "順序を変える前に、現場監督に確認しました。",
+                  "answer": "現場監督",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -809,10 +1455,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "あしば",
-                  "romanization": "ashiba"
+                  "romanization": "ashiba",
+                  "usageNote": "Kango (足 = pé + 場 = lugar). Tipos: 枠組足場, くさび式足場. Montagem: 足場を組む.",
+                  "collocations": [
+                    "足場を組む",
+                    "足場を解体する",
+                    "足場の点検"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "外壁の工事のために、建物のまわりに足場を組みます。",
+                  "answer": "足場",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "作業員が登る前に、足場を点検しました。",
+                  "answer": "足場",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -830,10 +1495,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "きけんよういん",
-                  "romanization": "kikenyouin"
+                  "romanization": "kikenyouin",
+                  "usageNote": "Kango (危険 + 要因 = fator). Fonte potencial de dano; \"リスク\" é a probabilidade.",
+                  "collocations": [
+                    "危険要因を洗い出す",
+                    "危険予知",
+                    "KY活動"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "掘った穴は、通行人にとっての危険要因です。",
+                  "answer": "危険要因",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "作業の前に、現場の危険要因を全員で確認します。",
+                  "answer": "危険要因",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]

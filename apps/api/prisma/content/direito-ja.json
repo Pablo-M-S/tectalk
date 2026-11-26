@@ -27,10 +27,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほうりつ",
-                  "romanization": "houritsu"
+                  "romanization": "houritsu",
+                  "usageNote": "Kango (法 = lei + 律 = regra). Norma aprovada pelo parlamento (国会). Contraste: 条例 (local), 政令 (decreto).",
+                  "collocations": [
+                    "法律を制定する",
+                    "法律が施行される",
+                    "法律に違反する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この法律は、四月に施行されました。",
+                  "answer": "法律",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "国会は、消費者を守るための法律を可決しました。",
+                  "answer": "法律",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -48,10 +67,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "きそく",
-                  "romanization": "kisoku"
+                  "romanization": "kisoku",
+                  "usageNote": "Kango (規 = norma + 則 = regra). Norma administrativa ou interna; 規則を定める. Contraste: 法律.",
+                  "collocations": [
+                    "規則を定める",
+                    "校則",
+                    "規則を守る"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この規則は、法律の細かい点を定めています。",
+                  "answer": "規則",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "会社は、データの扱いに関する規則を発表しました。",
+                  "answer": "規則",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -69,10 +107,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かんかつ",
-                  "romanization": "kankatsu"
+                  "romanization": "kankatsu",
+                  "usageNote": "Kango (管 = administrar + 轄 = controle). Competência territorial ou material: 管轄裁判所.",
+                  "collocations": [
+                    "管轄裁判所",
+                    "専属管轄",
+                    "管轄を争う"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この事件は、東京地方裁判所の管轄です。",
+                  "answer": "管轄",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、その事件に対する管轄がないと判断しました。",
+                  "answer": "管轄",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -90,10 +147,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はんれい",
-                  "romanization": "hanrei"
+                  "romanization": "hanrei",
+                  "usageNote": "Kango (判 = julgar + 例 = exemplo). Pesa menos no Japão que no common law, mas é seguido; 最高裁判例.",
+                  "collocations": [
+                    "最高裁判例",
+                    "判例を引用する",
+                    "判例変更"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この判決は、似た事件の判例になります。",
+                  "answer": "判例",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "弁護士は、最高裁の判例を根拠に主張しました。",
+                  "answer": "判例",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -111,10 +187,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "さいばんしょ",
-                  "romanization": "saibansho"
+                  "romanization": "saibansho",
+                  "usageNote": "Kango (裁判 = julgamento + 所 = lugar). Níveis: 簡易裁判所, 地方裁判所, 高等裁判所, 最高裁判所.",
+                  "collocations": [
+                    "地方裁判所",
+                    "裁判所に出頭する",
+                    "最高裁判所"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、判決を二月に言い渡しました。",
+                  "answer": "裁判所",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "弁護側は、上級の裁判所に控訴しました。",
+                  "answer": "裁判所",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -132,10 +227,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほうれい",
-                  "romanization": "hourei"
+                  "romanization": "hourei",
+                  "usageNote": "Kango (法 + 令 = ordem). Conjunto de leis e ordens; 法令遵守 = compliance.",
+                  "collocations": [
+                    "法令を遵守する",
+                    "法令の改正",
+                    "関係法令"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この法令は、労働者の権利を守ります。",
+                  "answer": "法令",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "投資を促すために、法令が改正されました。",
+                  "answer": "法令",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -167,10 +281,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けいやく",
-                  "romanization": "keiyaku"
+                  "romanization": "keiyaku",
+                  "usageNote": "Kango (契 = prometer + 約 = acordo). Verbos: 契約を結ぶ, 解除する, 更新する.",
+                  "collocations": [
+                    "契約を結ぶ",
+                    "契約を解除する",
+                    "雇用契約"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "双方が公証人の前で契約に署名しました。",
+                  "answer": "契約",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "契約には、価格と納期が定められています。",
+                  "answer": "契約",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -188,10 +321,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じょうこう",
-                  "romanization": "joukou"
+                  "romanization": "joukou",
+                  "usageNote": "Kango (条 = artigo + 項 = item). Em contratos: 第三条第二項. Outro termo: 約款.",
+                  "collocations": [
+                    "秘密保持条項",
+                    "条項を削除する",
+                    "無効な条項"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "秘密保持の条項は、両者を拘束します。",
+                  "answer": "条項",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "無効とされた条項は、契約から外されました。",
+                  "answer": "条項",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -209,10 +361,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "いはん",
-                  "romanization": "ihan"
+                  "romanization": "ihan",
+                  "usageNote": "Kango (違 = violar + 反 = oposto). Em contrato: 契約違反, 債務不履行.",
+                  "collocations": [
+                    "契約違反",
+                    "違反を指摘する",
+                    "債務不履行"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "重大な違反があると、契約を解除できます。",
+                  "answer": "違反",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "会社は、違反による損害の賠償を求めました。",
+                  "answer": "違反",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -230,10 +401,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "やくいん",
-                  "romanization": "yakuin"
+                  "romanization": "yakuin",
+                  "usageNote": "Kango (約 = promessa + 因 = causa). Conceito do common law (causa do contrato); no Japão fala-se 対価.",
+                  "collocations": [
+                    "対価",
+                    "約因が必要",
+                    "相当な対価"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "約因のない約束は、法的には強制されないことがあります。",
+                  "answer": "約因",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "このサービスの約因は、毎月の料金です。",
+                  "answer": "約因",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -251,10 +441,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せきにん",
-                  "romanization": "sekinin"
+                  "romanization": "sekinin",
+                  "usageNote": "Kango (責 = culpa + 任 = dever). Tipos: 民事責任, 刑事責任; 有限責任 = limitada.",
+                  "collocations": [
+                    "民事責任",
+                    "刑事責任",
+                    "有限責任"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "会社は、事故の責任を負います。",
+                  "answer": "責任",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "有限の出資者は、出資額までしか責任を負いません。",
+                  "answer": "責任",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -272,10 +481,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほしょう",
-                  "romanization": "hoshou"
+                  "romanization": "hoshou",
+                  "usageNote": "Kango (補 = completar + 償 = reparar). Em contratos: 補償条項; também 賠償 (indenização por dano).",
+                  "collocations": [
+                    "補償条項",
+                    "損害を補償する",
+                    "賠償"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "売主は、第三者からの請求に対する補償を約束しました。",
+                  "answer": "補償",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "契約には、発注者に対する補償が定められています。",
+                  "answer": "補償",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -307,10 +535,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "げんこく",
-                  "romanization": "genkoku"
+                  "romanization": "genkoku",
+                  "usageNote": "Kango (原 = origem + 告 = comunicar). Quem propõe a ação; 原告側 = lado do autor.",
+                  "collocations": [
+                    "原告側",
+                    "原告と被告",
+                    "原告が主張する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "原告は、貸したお金の返済を求めています。",
+                  "answer": "原告",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "原告は、損害を受けた証拠を提出しました。",
+                  "answer": "原告",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -328,10 +575,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひこく",
-                  "romanization": "hikoku"
+                  "romanization": "hikoku",
+                  "usageNote": "Kango (被 = sofrer + 告). Em ações civis: 被告; em penal: 被告人 (acusado).",
+                  "collocations": [
+                    "被告人",
+                    "被告側",
+                    "被告が争う"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "被告は、法廷で事実を否認しました。",
+                  "answer": "被告",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "被告に、口頭弁論の日が通知されました。",
+                  "answer": "被告",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -349,10 +615,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "そしょう",
-                  "romanization": "soshou"
+                  "romanization": "soshou",
+                  "usageNote": "Kango (訴 = demandar + 訟 = litígio). Verbos: 訴訟を起こす, 提起する, 取り下げる.",
+                  "collocations": [
+                    "訴訟を起こす",
+                    "訴訟を取り下げる",
+                    "民事訴訟"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "会社は、元の取引先に対して訴訟を起こしました。",
+                  "answer": "訴訟",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、その訴訟を受理しました。",
+                  "answer": "訴訟",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -370,10 +655,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しょうこ",
-                  "romanization": "shouko"
+                  "romanization": "shouko",
+                  "usageNote": "Kango (証 = provar + 拠 = base). Tipos: 書証, 人証, 物証; 証拠を提出する.",
+                  "collocations": [
+                    "証拠を提出する",
+                    "決定的な証拠",
+                    "証拠不十分"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "検察は、決定的な証拠を提出しました。",
+                  "answer": "証拠",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "違法に集められた証拠は、採用されません。",
+                  "answer": "証拠",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -391,10 +695,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しょうげん",
-                  "romanization": "shougen"
+                  "romanization": "shougen",
+                  "usageNote": "Kango (証 + 言 = palavra). Verbo: 証言する. Também 供述 (declaração).",
+                  "collocations": [
+                    "証言する",
+                    "証言台",
+                    "信用できる証言"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "隣人の証言は、被害者の話を裏づけました。",
+                  "answer": "証言",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "三人の目撃者の証言が求められました。",
+                  "answer": "証言",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -412,10 +735,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひょうけつ",
-                  "romanization": "hyouketsu"
+                  "romanization": "hyouketsu",
+                  "usageNote": "Kango (評 = avaliar + 決 = decidir). Veredicto do júri (裁判員制度 no Japão); 判決 = sentença do juiz.",
+                  "collocations": [
+                    "評決を出す",
+                    "裁判員制度",
+                    "有罪の評決"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "裁判員は、三日間の審理のあとに評決を出しました。",
+                  "answer": "評決",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "評決は全員一致ではありませんでした。",
+                  "answer": "評決",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -447,10 +789,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じゅうざい",
-                  "romanization": "juuzai"
+                  "romanization": "juuzai",
+                  "usageNote": "Kango (重 = grave + 罪 = crime). Contraste: 軽罪. No Japão: 重大犯罪.",
+                  "collocations": [
+                    "重罪を犯す",
+                    "重罪で起訴される",
+                    "重大犯罪"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "暴力を伴う強盗は、重罪にあたります。",
+                  "answer": "重罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "彼は、財産に対する重罪で有罪になりました。",
+                  "answer": "重罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -468,10 +829,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けいざい",
-                  "romanization": "keizai"
+                  "romanization": "keizai",
+                  "usageNote": "Kango (軽 = leve + 罪). Contraste: 重罪. Também 軽犯罪法 = Lei de pequenos delitos.",
+                  "collocations": [
+                    "軽罪にあたる",
+                    "軽犯罪法",
+                    "罰金刑"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "少額の窃盗は、軽罪として扱われます。",
+                  "answer": "軽罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "裁判官は、軽罪に対して罰金を言い渡しました。",
+                  "answer": "軽罪",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -489,10 +869,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "きそじょう",
-                  "romanization": "kisojou"
+                  "romanization": "kisojou",
+                  "usageNote": "Kango (起 = iniciar + 訴 = acusar + 状 = documento). Peça da promotoria que formaliza a acusação.",
+                  "collocations": [
+                    "起訴状を提出する",
+                    "起訴する",
+                    "起訴状朗読"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "検察は、詐欺の罪で起訴状を提出しました。",
+                  "answer": "起訴状",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "起訴状には、三つの異なる犯罪が書かれています。",
+                  "answer": "起訴状",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -510,10 +909,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほしゃく",
-                  "romanization": "hoshaku"
+                  "romanization": "hoshaku",
+                  "usageNote": "Kango (保 = garantir + 釈 = soltar). Liberdade provisória mediante garantia.",
+                  "collocations": [
+                    "保釈を請求する",
+                    "保釈金",
+                    "保釈が認められる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、被告に保釈を認めました。",
+                  "answer": "保釈",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "保釈の金額は、五百万円に決まりました。",
+                  "answer": "保釈",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -531,10 +949,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けい",
-                  "romanization": "kei"
+                  "romanization": "kei",
+                  "usageNote": "Kango de um só caractere (けい). Pena: 懲役刑 (prisão), 罰金刑 (multa), 死刑.",
+                  "collocations": [
+                    "懲役刑",
+                    "罰金刑",
+                    "刑が確定する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、懲役四年の刑を言い渡しました。",
+                  "answer": "刑",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "控訴審でも、刑が維持されました。",
+                  "answer": "刑",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -552,10 +989,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "むざいはんけつ",
-                  "romanization": "muzaihanketsu"
+                  "romanization": "muzaihanketsu",
+                  "usageNote": "Kango (無 = sem + 罪 + 判決). Decisão de absolvição; também 無罪.",
+                  "collocations": [
+                    "無罪判決を言い渡す",
+                    "無罪を主張する",
+                    "証拠不十分"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、被告に無罪判決を言い渡しました。",
+                  "answer": "無罪判決",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "検察は、証拠が足りないとして無罪判決を受け入れました。",
+                  "answer": "無罪判決",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -587,10 +1043,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かぶぬし",
-                  "romanization": "kabunushi"
+                  "romanization": "kabunushi",
+                  "usageNote": "Kango (株 = ações + 主 = dono). Assembleia: 株主総会. 大株主 = maior acionista.",
+                  "collocations": [
+                    "株主総会",
+                    "大株主",
+                    "株主の権利"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "どの株主も、総会で議決権を持ちます。",
+                  "answer": "株主",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "大株主は、会社の四割の株式を保有しています。",
+                  "answer": "株主",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -608,10 +1083,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "がっぺい",
-                  "romanization": "gappei"
+                  "romanization": "gappei",
+                  "usageNote": "Kango (合 = unir + 併 = juntar). Ex.: 企業合併; M&A.",
+                  "collocations": [
+                    "企業合併",
+                    "合併を承認する",
+                    "吸収合併"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この合併で、国内最大の保険会社が生まれました。",
+                  "answer": "合併",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "株主は、株主総会で合併に賛成しました。",
+                  "answer": "合併",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -629,10 +1123,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はさん",
-                  "romanization": "hasan"
+                  "romanization": "hasan",
+                  "usageNote": "Kango (破 = quebrar + 産 = patrimônio). Verbos: 破産する; 破産手続. Também 倒産 (falir, linguagem de negócios).",
+                  "collocations": [
+                    "破産する",
+                    "破産手続",
+                    "倒産"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "最大の顧客を失い、会社は破産しました。",
+                  "answer": "破産",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、破産の手続を開始しました。",
+                  "answer": "破産",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -650,10 +1163,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんにんぎむ",
-                  "romanization": "shinningimu"
+                  "romanization": "shinningimu",
+                  "usageNote": "Kango (信認 = confiança + 義務 = dever). Também 忠実義務 (dever de lealdade).",
+                  "collocations": [
+                    "信認義務を負う",
+                    "忠実義務",
+                    "善管注意義務"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "取締役は、株主に対して信認義務を負っています。",
+                  "answer": "信認義務",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "社長は、利益相反を隠して、信認義務に違反しました。",
+                  "answer": "信認義務",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -670,10 +1202,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "dyuu derijensu"
+                  "romanization": "dyuu derijensu",
+                  "usageNote": "Gairaigo (デューデリジェンス), abreviado DD. Também 買収監査 (kango).",
+                  "collocations": [
+                    "デューデリジェンスを行う",
+                    "買収監査",
+                    "調査報告書"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "買い手は、契約の前にデューデリジェンスを行いました。",
+                  "answer": "デューデリジェンス",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "デューデリジェンスで、会社の隠れた債務が見つかりました。",
+                  "answer": "デューデリジェンス",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -691,10 +1242,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ちてきざいさん",
-                  "romanization": "chitekizaisan"
+                  "romanization": "chitekizaisan",
+                  "usageNote": "Kango (知的 + 財産). Inclui 特許 (patente), 著作権 (autoral), 商標 (marca). Órgão: 知財.",
+                  "collocations": [
+                    "知的財産を守る",
+                    "知的財産権",
+                    "特許"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "知的財産は、作品や商標を守ります。",
+                  "answer": "知的財産",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "発明の特許を申請して、知的財産を確保しました。",
+                  "answer": "知的財産",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -726,10 +1296,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひとくとっけん",
-                  "romanization": "hitokutokken"
+                  "romanization": "hitokutokken",
+                  "usageNote": "Kango (秘匿 = ocultar + 特権 = privilégio). Também 守秘義務 (dever de sigilo).",
+                  "collocations": [
+                    "秘匿特権を主張する",
+                    "守秘義務",
+                    "依頼者との通信"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "弁護士は、秘匿特権によって守られています。",
+                  "answer": "秘匿特権",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "裁判所は、秘匿特権が証言を禁じると認めました。",
+                  "answer": "秘匿特権",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -747,10 +1336,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せんせいきょうじゅつしょ",
-                  "romanization": "senseikyoujutsusho"
+                  "romanization": "senseikyoujutsusho",
+                  "usageNote": "Kango (宣誓 = juramento + 供述 = declaração + 書). Documento com valor probatório sob juramento.",
+                  "collocations": [
+                    "宣誓供述書を提出する",
+                    "宣誓する",
+                    "虚偽の供述"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "証人は、公証人の前で宣誓供述書に署名しました。",
+                  "answer": "宣誓供述書",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "虚偽の宣誓供述書を出すと、処罰されます。",
+                  "answer": "宣誓供述書",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -768,10 +1376,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しょうかんじょう",
-                  "romanization": "shoukanjou"
+                  "romanization": "shoukanjou",
+                  "usageNote": "Kango (召 = chamar + 喚 = convocar + 状). Ordem para comparecer; 証人喚問 = interrogatório de testemunha.",
+                  "collocations": [
+                    "召喚状を送達する",
+                    "証人喚問",
+                    "出頭を命じる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "証人に、月曜日の召喚状が届きました。",
+                  "answer": "召喚状",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "召喚状を無視すると、過料を科されることがあります。",
+                  "answer": "召喚状",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -789,10 +1416,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "わかい",
-                  "romanization": "wakai"
+                  "romanization": "wakai",
+                  "usageNote": "Kango (和 = paz + 解 = resolver). Também 示談 (acordo extrajudicial). 裁判上の和解 = judicial.",
+                  "collocations": [
+                    "和解する",
+                    "示談",
+                    "裁判上の和解"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "当事者は、裁判の前に和解しました。",
+                  "answer": "和解",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "和解によって、三年間の争いが終わりました。",
+                  "answer": "和解",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -810,10 +1456,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "さしとめめいれい",
-                  "romanization": "sashitomemeirei"
+                  "romanization": "sashitomemeirei",
+                  "usageNote": "Kango (差止 = impedir + 命令 = ordem). Ordem judicial para parar ou impedir; 仮処分 = tutela provisória.",
+                  "collocations": [
+                    "差止命令を申し立てる",
+                    "仮処分",
+                    "差止請求"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "裁判官は、工事を止める差止命令を出しました。",
+                  "answer": "差止命令",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "会社は、本の出版に対する差止命令を求めました。",
+                  "answer": "差止命令",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -831,10 +1496,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほうりつこもん",
-                  "romanization": "houritsukomon"
+                  "romanization": "houritsukomon",
+                  "usageNote": "Kango (法律 + 顧問 = consultor). Advogado ou departamento jurídico; 顧問弁護士.",
+                  "collocations": [
+                    "顧問弁護士",
+                    "法律顧問に相談する",
+                    "法務部"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "契約書は、署名の前に法律顧問が確認します。",
+                  "answer": "法律顧問",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "返信する前に、会社の法律顧問に相談しました。",
+                  "answer": "法律顧問",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]

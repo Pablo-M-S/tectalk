@@ -27,10 +27,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "へいめんず",
-                  "romanization": "heimenzu"
+                  "romanization": "heimenzu",
+                  "usageNote": "Kango (平面 = plano + 図 = desenho). Vista superior de um pavimento; 間取り図 = layout dos cômodos.",
+                  "collocations": [
+                    "平面図を描く",
+                    "間取り",
+                    "一階平面図"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "平面図には、部屋の配置が示されています。",
+                  "answer": "平面図",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "一階の平面図で、台所と居間の位置を確認しました。",
+                  "answer": "平面図",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -48,10 +67,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "りつめんず",
-                  "romanization": "ritsumenzu"
+                  "romanization": "ritsumenzu",
+                  "usageNote": "Kango (立 = vertical + 面 + 図). Vistas: 東立面図, 南立面図 etc.",
+                  "collocations": [
+                    "南立面図",
+                    "立面図を描く",
+                    "外観"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "立面図には、外壁の高さと形が描かれています。",
+                  "answer": "立面図",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "立面図は、縮尺百分の一で描きました。",
+                  "answer": "立面図",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -69,10 +107,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "だんめんず",
-                  "romanization": "danmenzu"
+                  "romanization": "danmenzu",
+                  "usageNote": "Kango (断 = cortar + 面 = face + 図). Longitudinal: 縦断面図; transversal: 横断面図.",
+                  "collocations": [
+                    "断面図を描く",
+                    "縦断面図",
+                    "横断面図"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "断面図には、各階の高さが示されています。",
+                  "answer": "断面図",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "壁の材料の構成は、断面図に描かれています。",
+                  "answer": "断面図",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -90,10 +147,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はいちず",
-                  "romanization": "haichizu"
+                  "romanization": "haichizu",
+                  "usageNote": "Kango (配置 = disposição + 図). Mostra o terreno e a posição do edifício; 敷地境界線 = limite do terreno.",
+                  "collocations": [
+                    "配置図を添付する",
+                    "敷地境界線",
+                    "建築面積"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "配置図には、敷地の境界線が描かれています。",
+                  "answer": "配置図",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "確認申請には、配置図が必要です。",
+                  "answer": "配置図",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -111,10 +187,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しゅくしゃく",
-                  "romanization": "shukushaku"
+                  "romanization": "shukushaku",
+                  "usageNote": "Kango (縮 = reduzir + 尺 = medida). Ex.: 百分の一 (1:100), 五十分の一 (1:50).",
+                  "collocations": [
+                    "縮尺を示す",
+                    "縮尺百分の一",
+                    "縮尺を変える"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "すべての図面は、縮尺五十分の一で描かれています。",
+                  "answer": "縮尺",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "細部を示すには、大きい縮尺が向いています。",
+                  "answer": "縮尺",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -131,10 +226,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "sukecchi"
+                  "romanization": "sukecchi",
+                  "usageNote": "Gairaigo (スケッチ). Também エスキース (esquisse), croqui rápido de ideias iniciais.",
+                  "collocations": [
+                    "スケッチを描く",
+                    "エスキース",
+                    "手描きのスケッチ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "建築家は、打ち合わせでスケッチを描きました。",
+                  "answer": "スケッチ",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "最初のスケッチを見ながら、玄関の位置を話し合いました。",
+                  "answer": "スケッチ",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -165,10 +279,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "fasaado"
+                  "romanization": "fasaado",
+                  "usageNote": "Gairaigo (ファサード). Face externa do edifício; também 外観, 正面.",
+                  "collocations": [
+                    "ファサードのデザイン",
+                    "ガラスのファサード",
+                    "外観"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ファサードは、通りに面しています。",
+                  "answer": "ファサード",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "古い建物のファサードを、アルミパネルで新しくしました。",
+                  "answer": "ファサード",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -185,10 +318,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "barukonii"
+                  "romanization": "barukonii",
+                  "usageNote": "Gairaigo (バルコニー). Plataforma saliente com guarda-corpo; ベランダ é a varanda coberta (mais comum no Japão).",
+                  "collocations": [
+                    "バルコニーに出る",
+                    "ベランダ",
+                    "手すり"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "バルコニーからは、広場全体が見えます。",
+                  "answer": "バルコニー",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "道に面したバルコニーには、鉄の手すりがついています。",
+                  "answer": "バルコニー",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -206,10 +358,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かいだん",
-                  "romanization": "kaidan"
+                  "romanization": "kaidan",
+                  "usageNote": "Kango (階 = andar + 段 = degrau). Tipos: 螺旋階段, 避難階段 (escada de emergência).",
+                  "collocations": [
+                    "螺旋階段",
+                    "避難階段",
+                    "階段室"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "階段は一階と二階をつなぎます。",
+                  "answer": "階段",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "高い建物には、二つ目の階段が必要です。",
+                  "answer": "階段",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -227,10 +398,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "まるてんじょう",
-                  "romanization": "marutenjou"
+                  "romanization": "marutenjou",
+                  "usageNote": "Kango (丸 = redondo + 天井 = teto). Cobertura curva; 交差ヴォールト, 穹窿 (きゅうりゅう).",
+                  "collocations": [
+                    "丸天井の聖堂",
+                    "交差ヴォールト",
+                    "穹窿"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "丸天井は、石やレンガで造られた曲がった屋根です。",
+                  "answer": "丸天井",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "地下室は、レンガの丸天井で覆われています。",
+                  "answer": "丸天井",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -248,10 +438,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "れっちゅうろう",
-                  "romanization": "recchuurou"
+                  "romanization": "recchuurou",
+                  "usageNote": "Kango (列 = fila + 柱 + 廊 = corredor). Série de colunas; 列柱廊 = galeria com colunas.",
+                  "collocations": [
+                    "列柱廊のある神殿",
+                    "古典様式",
+                    "大理石の柱"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "列柱廊は、神殿の中庭を囲んでいます。",
+                  "answer": "列柱廊",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "大理石の列柱廊が、玄関のホールを支えています。",
+                  "answer": "列柱廊",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -268,10 +477,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "koonisu"
+                  "romanization": "koonisu",
+                  "usageNote": "Gairaigo (コーニス). Moldura saliente que coroa a fachada; também 軒蛇腹 (kango).",
+                  "collocations": [
+                    "コーニスを修復する",
+                    "軒蛇腹",
+                    "装飾"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コーニスは、壁の上部を飾って、雨から守ります。",
+                  "answer": "コーニス",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "傷んだコーニスを、新しい石で修復しました。",
+                  "answer": "コーニス",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -303,10 +531,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ようとちいき",
-                  "romanization": "youtochiiki"
+                  "romanization": "youtochiiki",
+                  "usageNote": "Kango (用途 = uso + 地域 = zona). No Japão: 第一種低層住居専用地域 etc.",
+                  "collocations": [
+                    "用途地域を指定する",
+                    "住居地域",
+                    "工業地域"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "用途地域が、街で建てられる建物の種類を決めます。",
+                  "answer": "用途地域",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "都市計画では、用途地域によって工業と住居のエリアが分けられています。",
+                  "answer": "用途地域",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -323,10 +570,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "settobakku"
+                  "romanization": "settobakku",
+                  "usageNote": "Gairaigo (セットバック). Também 後退 (recuo). Exigência de recuar para alargar a rua.",
+                  "collocations": [
+                    "セットバックする",
+                    "道路の後退",
+                    "壁面後退"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "道が狭いので、建物はセットバックが必要です。",
+                  "answer": "セットバック",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "敷地の境から二メートルのセットバックを取りました。",
+                  "answer": "セットバック",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -344,10 +610,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "とちりよう",
-                  "romanization": "tochiriyou"
+                  "romanization": "tochiriyou",
+                  "usageNote": "Kango (土地 = terreno + 利用 = uso). Planos: 土地利用計画; categorias: 住宅, 商業, 農地.",
+                  "collocations": [
+                    "土地利用計画",
+                    "土地利用を変える",
+                    "農地転用"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "土地利用の計画で、各区画の用途が定められます。",
+                  "answer": "土地利用",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "住宅地にするために、農地の土地利用を変更しました。",
+                  "answer": "土地利用",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -365,10 +650,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "すぷろーるげんしょう",
-                  "romanization": "supuroorugenshou"
+                  "romanization": "supuroorugenshou",
+                  "usageNote": "Katakana + kango (スプロール + 現象 = fenômeno). Expansão urbana desordenada.",
+                  "collocations": [
+                    "スプロール現象を抑える",
+                    "郊外化",
+                    "都市の拡大"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "スプロール現象は、交通の負担を増やします。",
+                  "answer": "スプロール現象",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "計画は、郊外のスプロール現象を抑えることを目指しています。",
+                  "answer": "スプロール現象",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -386,10 +690,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "まちなみ",
-                  "romanization": "machinami"
+                  "romanization": "machinami",
+                  "usageNote": "Kango (街 = rua + 並み = linha). Conjunto visual de uma rua: casas, árvores, calçadas.",
+                  "collocations": [
+                    "街並みを守る",
+                    "歴史的な街並み",
+                    "街並みの景観"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "古い街並みが、観光客を引きつけています。",
+                  "answer": "街並み",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "木を植えると、街並みが美しくなります。",
+                  "answer": "街並み",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -407,10 +730,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "りょくち",
-                  "romanization": "ryokuchi"
+                  "romanization": "ryokuchi",
+                  "usageNote": "Kango (緑 = verde + 地 = terreno). Parques, jardins, praças; 公園 = parque.",
+                  "collocations": [
+                    "緑地を確保する",
+                    "公園",
+                    "緑地面積"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この地区には、緑地が足りません。",
+                  "answer": "緑地",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "団地の中央に、新しい緑地ができました。",
+                  "answer": "緑地",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -442,10 +784,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しぜんさいこう",
-                  "romanization": "shizensaikou"
+                  "romanization": "shizensaikou",
+                  "usageNote": "Kango (自然 = natural + 採光 = captar luz). Janelas, claraboias. 採光 é termo técnico em normas.",
+                  "collocations": [
+                    "自然採光を取り入れる",
+                    "採光計画",
+                    "窓の面積"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "自然採光は、電気の使用量を減らします。",
+                  "answer": "自然採光",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "大きな窓で、居間の自然採光を改善しました。",
+                  "answer": "自然採光",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -463,10 +824,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しぜんかんき",
-                  "romanization": "shizenkanki"
+                  "romanization": "shizenkanki",
+                  "usageNote": "Kango (自然 + 換気 = ventilação). Também 通風 (passagem de vento); 窓を対角に設ける.",
+                  "collocations": [
+                    "自然換気を行う",
+                    "通風",
+                    "換気計画"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "自然換気のおかげで、エアコンなしでも涼しいです。",
+                  "answer": "自然換気",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "中庭は、自然換気を助けるために設けられました。",
+                  "answer": "自然換気",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -483,10 +863,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "passhibudezain"
+                  "romanization": "passhibudezain",
+                  "usageNote": "Gairaigo (パッシブ + デザイン). Usa orientação e materiais, sem máquinas; パッシブハウス = casa passiva.",
+                  "collocations": [
+                    "パッシブデザインを採用する",
+                    "パッシブハウス",
+                    "日射取得"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "パッシブデザインは、冬の日差しで暖かさを得ます。",
+                  "answer": "パッシブデザイン",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この家は、パッシブデザインでエネルギーをほとんど使いません。",
+                  "answer": "パッシブデザイン",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -504,10 +903,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "おくじょうりょくか",
-                  "romanization": "okujouryokuka"
+                  "romanization": "okujouryokuka",
+                  "usageNote": "Kango (屋上 = telhado + 緑化 = esverdear). Também 壁面緑化 (paredes verdes).",
+                  "collocations": [
+                    "屋上緑化を行う",
+                    "壁面緑化",
+                    "緑の屋根"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "屋上緑化は、建物の温度を下げます。",
+                  "answer": "屋上緑化",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "駐車場の上に、屋上緑化の庭を計画しました。",
+                  "answer": "屋上緑化",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -525,10 +943,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しょうえねるぎー",
-                  "romanization": "shouenerugii"
+                  "romanization": "shouenerugii",
+                  "usageNote": "Kango (省 = economizar + エネルギー). Também 省エネ (abreviação). Lei: 省エネ基準.",
+                  "collocations": [
+                    "省エネ基準",
+                    "省エネルギー性能",
+                    "断熱"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "断熱を強化すると、省エネルギーの性能が上がります。",
+                  "answer": "省エネルギー",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "このビルは、省エネルギーの評価で最高の等級を受けました。",
+                  "answer": "省エネルギー",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -546,10 +983,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "おんねつかいてきせい",
-                  "romanization": "onnetsukaitekisei"
+                  "romanization": "onnetsukaitekisei",
+                  "usageNote": "Kango (温熱 = térmico + 快適性 = conforto). Sensação agradável de temperatura.",
+                  "collocations": [
+                    "温熱快適性を確保する",
+                    "室内環境",
+                    "断熱性能"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "設計では、一年を通して安定した温熱快適性を目指します。",
+                  "answer": "温熱快適性",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "冬の温熱快適性は、壁の断熱で決まります。",
+                  "answer": "温熱快適性",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -581,10 +1037,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひれい",
-                  "romanization": "hirei"
+                  "romanization": "hirei",
+                  "usageNote": "Kango (比 = comparar + 例 = exemplo). Em design: 黄金比 (proporção áurea), バランス.",
+                  "collocations": [
+                    "黄金比",
+                    "比例を整える",
+                    "バランス"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ファサードの比例が、全体の調和を生んでいます。",
+                  "answer": "比例",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "建築家は、窓一つひとつの比例を検討しました。",
+                  "answer": "比例",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -602,10 +1077,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "たいしょうせい",
-                  "romanization": "taishousei"
+                  "romanization": "taishousei",
+                  "usageNote": "Kango (対 = par + 称 = chamar + 性). Também 左右対称 (simetria bilateral).",
+                  "collocations": [
+                    "左右対称",
+                    "対称性を崩す",
+                    "中心軸"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ファサードの対称性が、秩序と品格を感じさせます。",
+                  "answer": "対称性",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "庭は、中心軸に沿った完璧な対称性になっています。",
+                  "answer": "対称性",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1116,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "minimarizumu"
+                  "romanization": "minimarizumu",
+                  "usageNote": "Gairaigo (ミニマリズム). Formas simples, poucos elementos, muita luz; minimal.",
+                  "collocations": [
+                    "ミニマリズム建築",
+                    "シンプルなデザイン",
+                    "余白"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ミニマリズムは、すっきりした線と少ない装飾が特徴です。",
+                  "answer": "ミニマリズム",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この家は、白い壁が印象的なミニマリズムの例です。",
+                  "answer": "ミニマリズム",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -643,10 +1156,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ふうどけんちく",
-                  "romanization": "fuudokenchiku"
+                  "romanization": "fuudokenchiku",
+                  "usageNote": "Kango (風土 = clima e terra + 建築). Tradicional local, com materiais da região; 民家 = casa tradicional.",
+                  "collocations": [
+                    "風土建築を学ぶ",
+                    "民家",
+                    "地域の素材"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "風土建築は、土地の気候に合わせて発展しました。",
+                  "answer": "風土建築",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "白川郷の合掌造りは、日本の風土建築の代表です。",
+                  "answer": "風土建築",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -664,10 +1196,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "れきしてきけんぞうぶつ",
-                  "romanization": "rekishitekikenzoubutsu"
+                  "romanization": "rekishitekikenzoubutsu",
+                  "usageNote": "Kango (歴史的 + 建造物 = edificação). Protegido por lei; 文化財 = patrimônio cultural; 登録有形文化財.",
+                  "collocations": [
+                    "歴史的建造物を保存する",
+                    "文化財",
+                    "登録有形文化財"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この駅舎は、歴史的建造物に指定されています。",
+                  "answer": "歴史的建造物",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "歴史的建造物を改修するときは、特別な許可が必要です。",
+                  "answer": "歴史的建造物",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -685,10 +1236,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しゅうふく",
-                  "romanization": "shuufuku"
+                  "romanization": "shuufuku",
+                  "usageNote": "Kango (修 = consertar + 復 = restaurar). Restauro respeitando o valor histórico; 保存修復.",
+                  "collocations": [
+                    "修復工事",
+                    "保存修復",
+                    "修復を行う"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "修復によって、聖堂はもとの姿に戻りました。",
+                  "answer": "修復",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "修復には、歴史家の協力が欠かせません。",
+                  "answer": "修復",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -720,10 +1290,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せっけいようこう",
-                  "romanization": "sekkeiyoukou"
+                  "romanization": "sekkeiyoukou",
+                  "usageNote": "Kango (設計 + 要項 = pontos essenciais). Também 与条件 (condições dadas) e プログラム.",
+                  "collocations": [
+                    "設計要項を作成する",
+                    "与条件",
+                    "施主の要望"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "設計要項には、寝室四つと書斎一つが書かれています。",
+                  "answer": "設計要項",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "施主は、設計事務所に設計要項を渡しました。",
+                  "answer": "設計要項",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -741,10 +1330,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "もけい",
-                  "romanization": "mokei"
+                  "romanization": "mokei",
+                  "usageNote": "Kango (模 = imitar + 型 = forma). Para arquitetura: 建築模型. Materiais: スチレンボード.",
+                  "collocations": [
+                    "建築模型を作る",
+                    "模型を製作する",
+                    "プレゼン用模型"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "事務所は、新しい美術館の模型を披露しました。",
+                  "answer": "模型",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "模型を見ると、建物の立体的な形がわかります。",
+                  "answer": "模型",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -762,10 +1370,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けんちくかくにん",
-                  "romanization": "kenchikukakunin"
+                  "romanization": "kenchikukakunin",
+                  "usageNote": "Kango (建築 + 確認 = verificação). Autorização formal para construir: 建築確認 (確認申請).",
+                  "collocations": [
+                    "建築確認を申請する",
+                    "確認済証",
+                    "確認申請"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "市は、三月に建築確認を出しました。",
+                  "answer": "建築確認",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "建築確認を受けないと、工事を始められません。",
+                  "answer": "建築確認",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -782,10 +1409,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "rendaringu"
+                  "romanization": "rendaringu",
+                  "usageNote": "Gairaigo (レンダリング). Também パース (perspectiva), imagem realista de projeto.",
+                  "collocations": [
+                    "レンダリング画像",
+                    "パース",
+                    "完成予想図"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "レンダリングで、完成後の建物のイメージを示します。",
+                  "answer": "レンダリング",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "施主のために、外観のレンダリングを依頼しました。",
+                  "answer": "レンダリング",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -803,10 +1449,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうじかんり",
-                  "romanization": "koujikanri"
+                  "romanization": "koujikanri",
+                  "usageNote": "Kango (工事 = obra + 監理 = supervisão). Diferente de 施工管理 (gestão da construção).",
+                  "collocations": [
+                    "工事監理を行う",
+                    "施工管理",
+                    "現場確認"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "工事監理は、図面どおりに施工されているかを確認します。",
+                  "answer": "工事監理",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "建築家が、その建物の工事監理を担当しました。",
+                  "answer": "工事監理",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -824,10 +1489,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "にゅうさつ",
-                  "romanization": "nyuusatsu"
+                  "romanization": "nyuusatsu",
+                  "usageNote": "Kango (入 = entrar + 札 = cédula). Concorrência pública: 一般競争入札, 指名競争入札.",
+                  "collocations": [
+                    "入札に参加する",
+                    "一般競争入札",
+                    "落札する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "市は、新しい橋の入札を公告しました。",
+                  "answer": "入札",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この会社は、最も低い金額で入札に勝ちました。",
+                  "answer": "入札",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]

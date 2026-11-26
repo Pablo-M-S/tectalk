@@ -36,10 +36,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "へんすう",
-                  "romanization": "hensuu"
+                  "romanization": "hensuu",
+                  "usageNote": "Kango (変 = mudar + 数 = número). Verbos: 変数を宣言する (declarar), 変数に代入する (atribuir).",
+                  "collocations": [
+                    "変数を宣言する",
+                    "変数に代入する",
+                    "グローバル変数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この変数には現在のユーザー名が入ります。",
+                  "answer": "変数",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "変数を宣言してから初期値を代入してください。",
+                  "answer": "変数",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -57,10 +76,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かんすう",
-                  "romanization": "kansuu"
+                  "romanization": "kansuu",
+                  "usageNote": "Kango (関 = relacionar + 数). Em matemática também é \"função\". Verbos: 関数を呼び出す, 定義する.",
+                  "collocations": [
+                    "関数を呼び出す",
+                    "関数を定義する",
+                    "再利用可能な関数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この関数は税込みの価格を計算します。",
+                  "answer": "関数",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "同じ処理が三か所にあるので、共通の関数にまとめました。",
+                  "answer": "関数",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -77,10 +115,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "parameeta"
+                  "romanization": "parameeta",
+                  "usageNote": "Gairaigo (パラメータ, do inglês \"parameter\"); em contexto de definição de função. Contraste: 引数 é o valor passado.",
+                  "collocations": [
+                    "パラメータを受け取る",
+                    "パラメータを設定する",
+                    "クエリパラメータ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この関数は二つのパラメータを受け取ります。",
+                  "answer": "パラメータ",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "URLのパラメータでページ番号を指定できます。",
+                  "answer": "パラメータ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -98,10 +155,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひきすう",
-                  "romanization": "hikisuu"
+                  "romanization": "hikisuu",
+                  "usageNote": "Kango (引 = puxar/passar + 数). É o valor concreto passado ao chamar a função (contraste com パラメータ).",
+                  "collocations": [
+                    "引数を渡す",
+                    "引数の順序",
+                    "コマンドライン引数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "関数を呼ぶときに引数を二つ渡します。",
+                  "answer": "引数",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "引数の型が違うため、エラーが出ました。",
+                  "answer": "引数",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -119,10 +195,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "もどりち",
-                  "romanization": "modorichi"
+                  "romanization": "modorichi",
+                  "usageNote": "Kango (戻り = retorno + 値 = valor), lido \"もどりち\". Também \"返り値\" (かえりち).",
+                  "collocations": [
+                    "戻り値を返す",
+                    "戻り値を受け取る",
+                    "戻り値の型"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この関数の戻り値は合計金額です。",
+                  "answer": "戻り値",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "戻り値がnullかどうかを必ず確認してください。",
+                  "answer": "戻り値",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -139,10 +234,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "ruupu"
+                  "romanization": "ruupu",
+                  "usageNote": "Gairaigo (ループ). Também 繰り返し (repetição). Tipos: forループ, whileループ.",
+                  "collocations": [
+                    "ループを回す",
+                    "無限ループ",
+                    "ループを抜ける"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ループの中でリストの各要素を処理します。",
+                  "answer": "ループ",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "終了条件が間違っていたため、無限ループになりました。",
+                  "answer": "ループ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -167,10 +281,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はいれつ",
-                  "romanization": "hairetsu"
+                  "romanization": "hairetsu",
+                  "usageNote": "Kango (配 = distribuir + 列 = fila). O mesmo que \"lista\" em outras linguagens; 要素 = elemento.",
+                  "collocations": [
+                    "配列の要素",
+                    "配列を走査する",
+                    "二次元配列"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "配列の先頭の要素は番号ゼロです。",
+                  "answer": "配列",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "配列に新しい値を追加しました。",
+                  "answer": "配列",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -187,10 +320,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "hasshumappu"
+                  "romanization": "hasshumappu",
+                  "usageNote": "Gairaigo (ハッシュ + マップ). Também 連想配列 (array associativo) e 辞書 (Python).",
+                  "collocations": [
+                    "ハッシュマップに登録する",
+                    "キーと値",
+                    "連想配列"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ハッシュマップはキーから値を素早く取り出せます。",
+                  "answer": "ハッシュマップ",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ユーザーIDをキーにして、ハッシュマップにデータを保存します。",
+                  "answer": "ハッシュマップ",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -208,10 +360,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "もじれつ",
-                  "romanization": "mojiretsu"
+                  "romanization": "mojiretsu",
+                  "usageNote": "Kango (文字 = caractere + 列 = fila). Termo corrente na programação; \"texto\" = テキスト.",
+                  "collocations": [
+                    "文字列を連結する",
+                    "文字列を分割する",
+                    "文字列の長さ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "名前は文字列として保存されます。",
+                  "answer": "文字列",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "二つの文字列を連結してメッセージを作りました。",
+                  "answer": "文字列",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +400,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんぎち",
-                  "romanization": "shingichi"
+                  "romanization": "shingichi",
+                  "usageNote": "Kango (真 = verdade + 偽 = falso + 値). Também usa-se ブール値 (gairaigo). Valores: true/false.",
+                  "collocations": [
+                    "真偽値を返す",
+                    "真偽値の反転",
+                    "ブール値"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この関数は条件を満たすかどうかを真偽値で返します。",
+                  "answer": "真偽値",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "フラグには真偽値を使うと読みやすくなります。",
+                  "answer": "真偽値",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -250,10 +440,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ヌルさんしょう",
-                  "romanization": "nurusanshou"
+                  "romanization": "nurusanshou",
+                  "usageNote": "Katakana ヌル + 参照 (referência). Erro típico: ヌルポインタ例外.",
+                  "collocations": [
+                    "ヌル参照エラー",
+                    "ヌルチェックをする",
+                    "ヌルポインタ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ヌル参照が原因でアプリが落ちました。",
+                  "answer": "ヌル参照",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "オブジェクトを使う前にヌル参照を確認してください。",
+                  "answer": "ヌル参照",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -271,10 +480,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "れいがい",
-                  "romanization": "reigai"
+                  "romanization": "reigai",
+                  "usageNote": "Kango (例 = exemplo + 外 = fora). Verbos: 例外を投げる (lançar), 例外を捕捉する (capturar).",
+                  "collocations": [
+                    "例外を投げる",
+                    "例外を捕捉する",
+                    "例外処理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ファイルが見つからない場合は例外が発生します。",
+                  "answer": "例外",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この例外はログに記録してから処理します。",
+                  "answer": "例外",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -305,10 +533,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "endopointo"
+                  "romanization": "endopointo",
+                  "usageNote": "Gairaigo (エンドポイント). Ex.: POST /users. Costuma-se dizer \"APIのエンドポイント\".",
+                  "collocations": [
+                    "エンドポイントを公開する",
+                    "エンドポイントを呼び出す",
+                    "REST API"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このエンドポイントはユーザー一覧を返します。",
+                  "answer": "エンドポイント",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "新しいエンドポイントを追加して、注文の取得を実装しました。",
+                  "answer": "エンドポイント",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -326,10 +573,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "いぞんかんけい",
-                  "romanization": "izonkankei"
+                  "romanization": "izonkankei",
+                  "usageNote": "Kango (依存 = depender + 関係 = relação). Também \"依存パッケージ\". Ex.: package.json lista as dependências.",
+                  "collocations": [
+                    "依存関係を解決する",
+                    "依存関係を管理する",
+                    "循環依存"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ライブラリのバージョンが原因で依存関係の問題が起きました。",
+                  "answer": "依存関係",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "依存関係を最小限にすると保守が楽になります。",
+                  "answer": "依存関係",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -347,10 +613,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ちゅうしょうか",
-                  "romanization": "chuushouka"
+                  "romanization": "chuushouka",
+                  "usageNote": "Kango (抽象 + 化 = tornar). Ocultar detalhes e expor uma interface simples.",
+                  "collocations": [
+                    "抽象化を行う",
+                    "抽象クラス",
+                    "レイヤーの抽象化"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "データベースのアクセスを抽象化して、切り替えやすくしました。",
+                  "answer": "抽象化",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "抽象化が進みすぎると、かえって読みにくくなります。",
+                  "answer": "抽象化",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -367,10 +652,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "midoruwea"
+                  "romanization": "midoruwea",
+                  "usageNote": "Gairaigo (ミドルウェア). No contexto web, intercepta pedidos (autenticação, log).",
+                  "collocations": [
+                    "ミドルウェアを追加する",
+                    "認証ミドルウェア",
+                    "リクエストの前処理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ミドルウェアが各リクエストにトークンの検証を行います。",
+                  "answer": "ミドルウェア",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ログ用のミドルウェアを追加して、処理時間を記録しました。",
+                  "answer": "ミドルウェア",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -387,10 +691,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "sukiima"
+                  "romanization": "sukiima",
+                  "usageNote": "Gairaigo (スキーマ). Em banco de dados e JSON Schema; verbo: スキーマを定義する.",
+                  "collocations": [
+                    "スキーマを定義する",
+                    "スキーマの検証",
+                    "データベーススキーマ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "受け取ったデータはスキーマに沿って検証されます。",
+                  "answer": "スキーマ",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "テーブルの構造はスキーマファイルに書かれています。",
+                  "answer": "スキーマ",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -407,10 +730,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "peiroodo"
+                  "romanization": "peiroodo",
+                  "usageNote": "Gairaigo (ペイロード). Corpo de dados de uma requisição ou mensagem, sem os cabeçalhos.",
+                  "collocations": [
+                    "ペイロードを送る",
+                    "JSONペイロード",
+                    "ペイロードのサイズ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "リクエストのペイロードには注文の詳細が含まれます。",
+                  "answer": "ペイロード",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ペイロードが大きすぎてサーバーに拒否されました。",
+                  "answer": "ペイロード",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -434,10 +776,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "kueri"
+                  "romanization": "kueri",
+                  "usageNote": "Gairaigo (クエリ). Em banco de dados; verbo: クエリを発行する (emitir), 実行する.",
+                  "collocations": [
+                    "クエリを実行する",
+                    "クエリを最適化する",
+                    "SQLクエリ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このクエリはユーザーの注文を一覧にします。",
+                  "answer": "クエリ",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "遅いクエリのせいで画面の表示が遅れていました。",
+                  "answer": "クエリ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -454,10 +815,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "toranzakushon"
+                  "romanization": "toranzakushon",
+                  "usageNote": "Gairaigo (トランザクション). Garantia ACID; verbos: 開始する, コミットする, ロールバックする.",
+                  "collocations": [
+                    "トランザクションを開始する",
+                    "トランザクションをコミットする",
+                    "分離レベル"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "二つの更新は一つのトランザクションとして処理されます。",
+                  "answer": "トランザクション",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "エラーが起きたときは、トランザクションを取り消します。",
+                  "answer": "トランザクション",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -474,10 +854,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "indekkusu"
+                  "romanization": "indekkusu",
+                  "usageNote": "Gairaigo (インデックス). Em banco de dados; verbo: インデックスを張る (criar), 付ける.",
+                  "collocations": [
+                    "インデックスを張る",
+                    "インデックスを追加する",
+                    "複合インデックス"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "インデックスを追加したら、検索が十倍速くなりました。",
+                  "answer": "インデックス",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "頻繁に検索する列にはインデックスを付けましょう。",
+                  "answer": "インデックス",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -494,10 +893,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "maigureeshon"
+                  "romanization": "maigureeshon",
+                  "usageNote": "Gairaigo (マイグレーション). Alterações versionadas do esquema; verbos: 実行する, 適用する.",
+                  "collocations": [
+                    "マイグレーションを実行する",
+                    "マイグレーションファイル",
+                    "スキーマの変更"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "新しい列を追加するマイグレーションを作成しました。",
+                  "answer": "マイグレーション",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "デプロイの前にマイグレーションを適用してください。",
+                  "answer": "マイグレーション",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -514,10 +932,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "kyasshu"
+                  "romanization": "kyasshu",
+                  "usageNote": "Gairaigo (キャッシュ). Verbos: キャッシュする, キャッシュを削除する; 有効期限 = TTL.",
+                  "collocations": [
+                    "キャッシュを削除する",
+                    "キャッシュをヒットする",
+                    "キャッシュの有効期限"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "結果はキャッシュに保存され、次回は速く返ります。",
+                  "answer": "キャッシュ",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "古いデータが表示されたので、キャッシュを削除しました。",
+                  "answer": "キャッシュ",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -534,10 +971,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "reitenshi"
+                  "romanization": "reitenshi",
+                  "usageNote": "Gairaigo (レイテンシ). Também 遅延. Medida em milissegundos.",
+                  "collocations": [
+                    "レイテンシが高い",
+                    "レイテンシを下げる",
+                    "ネットワークの遅延"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このAPIのレイテンシは平均で百ミリ秒です。",
+                  "answer": "レイテンシ",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "海外のサーバーでは、レイテンシが大きくなります。",
+                  "answer": "レイテンシ",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -568,10 +1024,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "ripojitori"
+                  "romanization": "ripojitori",
+                  "usageNote": "Gairaigo (リポジトリ). Abreviação popular: リポ. Verbos: クローンする, プッシュする.",
+                  "collocations": [
+                    "リポジトリをクローンする",
+                    "リモートリポジトリ",
+                    "リポジトリを作成する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "まずリポジトリをクローンして、作業を始めます。",
+                  "answer": "リポジトリ",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "プロジェクトのコードはすべてこのリポジトリにあります。",
+                  "answer": "リポジトリ",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -588,10 +1063,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "komitto"
+                  "romanization": "komitto",
+                  "usageNote": "Gairaigo (コミット); verbo: コミットする. Mensagem = コミットメッセージ.",
+                  "collocations": [
+                    "コミットする",
+                    "コミットメッセージ",
+                    "コミット履歴"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "変更内容がわかるコミットメッセージを書きましょう。",
+                  "answer": "コミット",
+                  "documentType": "COMMIT_MESSAGE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "機能を追加するたびに、小さな単位でコミットします。",
+                  "answer": "コミット",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -608,10 +1102,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "buranchi"
+                  "romanization": "buranchi",
+                  "usageNote": "Gairaigo (ブランチ). Verbos: ブランチを切る (criar), 切り替える (trocar), マージする.",
+                  "collocations": [
+                    "ブランチを切る",
+                    "ブランチを切り替える",
+                    "メインブランチ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "新機能のためにブランチを切りました。",
+                  "answer": "ブランチ",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "作業が終わったら、ブランチをメインにマージします。",
+                  "answer": "ブランチ",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -628,10 +1141,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "maajikonfurikuto"
+                  "romanization": "maajikonfurikuto",
+                  "usageNote": "Gairaigo (マージ + コンフリクト). Verbos: コンフリクトを解消する (resolver). Também \"競合\".",
+                  "collocations": [
+                    "コンフリクトを解消する",
+                    "マージコンフリクトが発生する",
+                    "競合"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "同じ行を変更したため、マージコンフリクトが発生しました。",
+                  "answer": "マージコンフリクト",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "マージコンフリクトを手作業で解消してから、コミットします。",
+                  "answer": "マージコンフリクト",
+                  "documentType": "POSTMORTEM"
+                }
+              ],
               "segments": {}
             },
             {
@@ -648,10 +1180,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "pururikuesuto"
+                  "romanization": "pururikuesuto",
+                  "usageNote": "Gairaigo (プルリクエスト), abreviado \"PR\". Verbos: 作成する, レビューを依頼する, マージする.",
+                  "collocations": [
+                    "プルリクエストを作成する",
+                    "プルリクエストを承認する",
+                    "レビューを依頼する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "修正が終わったので、プルリクエストを作成しました。",
+                  "answer": "プルリクエスト",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "プルリクエストにはテストの結果も書いてください。",
+                  "answer": "プルリクエスト",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -668,10 +1219,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "roorubakku"
+                  "romanization": "roorubakku",
+                  "usageNote": "Gairaigo (ロールバック). Verbo: ロールバックする; também 切り戻し (voltar atrás).",
+                  "collocations": [
+                    "ロールバックする",
+                    "ロールバック手順",
+                    "切り戻し"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "不具合が見つかったため、すぐにロールバックしました。",
+                  "answer": "ロールバック",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "事前にロールバックの手順を確認しておくと安心です。",
+                  "answer": "ロールバック",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -695,10 +1265,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "rifakutaringu"
+                  "romanization": "rifakutaringu",
+                  "usageNote": "Gairaigo (リファクタリング). Verbo: リファクタリングする. Regra: sem mudar o comportamento.",
+                  "collocations": [
+                    "リファクタリングする",
+                    "コードのリファクタリング",
+                    "テストを書いてから"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "機能を追加する前に、リファクタリングを行いました。",
+                  "answer": "リファクタリング",
+                  "documentType": "PULL_REQUEST"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "テストがあれば、安心してリファクタリングできます。",
+                  "answer": "リファクタリング",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -716,10 +1305,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひすいしょうか",
-                  "romanization": "hisuishouka"
+                  "romanization": "hisuishouka",
+                  "usageNote": "Kango (非 = não + 推奨 = recomendar + 化). Adjetivo: 非推奨の; 警告 = warning.",
+                  "collocations": [
+                    "非推奨になる",
+                    "非推奨の機能",
+                    "廃止予定"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この機能の非推奨化は来年の春に発表されます。",
+                  "answer": "非推奨化",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "非推奨化の警告が出ているので、新しいAPIに移行しました。",
+                  "answer": "非推奨化",
+                  "documentType": "DOCUMENTATION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -737,10 +1345,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ぎじゅつてきふさい",
-                  "romanization": "gijutsutekifusai"
+                  "romanization": "gijutsutekifusai",
+                  "usageNote": "Kango (技術的 = técnica + 負債 = dívida). Metáfora: atalhos hoje, custo depois.",
+                  "collocations": [
+                    "技術的負債を返す",
+                    "技術的負債が溜まる",
+                    "負債を減らす"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "納期を急いだ結果、技術的負債が溜まりました。",
+                  "answer": "技術的負債",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "毎月の改善で、技術的負債を少しずつ返しています。",
+                  "answer": "技術的負債",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -757,10 +1384,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "riguresshon"
+                  "romanization": "riguresshon",
+                  "usageNote": "Gairaigo (リグレッション). Também \"デグレ\" (abreviação de デグレード). Testes: リグレッションテスト.",
+                  "collocations": [
+                    "リグレッションテスト",
+                    "リグレッションが起きる",
+                    "デグレ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "先週の修正でリグレッションが起きました。",
+                  "answer": "リグレッション",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "自動テストはリグレッションを早く見つけます。",
+                  "answer": "リグレッション",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             },
             {
@@ -777,10 +1423,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "depuroi"
+                  "romanization": "depuroi",
+                  "usageNote": "Gairaigo (デプロイ). Verbo: デプロイする. Ambientes: 本番環境, ステージング.",
+                  "collocations": [
+                    "デプロイする",
+                    "本番にデプロイする",
+                    "自動デプロイ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "デプロイは毎週水曜日の夜に行います。",
+                  "answer": "デプロイ",
+                  "documentType": "POSTMORTEM"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "CIが成功すると、自動でデプロイが始まります。",
+                  "answer": "デプロイ",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
               "segments": {}
             },
             {
@@ -797,10 +1462,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "koodorebyuu"
+                  "romanization": "koodorebyuu",
+                  "usageNote": "Gairaigo (コード + レビュー). Verbo: レビューする, レビューを依頼する.",
+                  "collocations": [
+                    "コードレビューを依頼する",
+                    "コードレビューを行う",
+                    "指摘を直す"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "提出する前に、コードレビューを受けてください。",
+                  "answer": "コードレビュー",
+                  "documentType": "DOCUMENTATION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "コードレビューで命名の改善点を指摘されました。",
+                  "answer": "コードレビュー",
+                  "documentType": "PULL_REQUEST"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -831,10 +1515,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "rikuesuto"
+                  "romanization": "rikuesuto",
+                  "usageNote": "Gairaigo (リクエスト). Métodos HTTP: GET, POST. Verbos: リクエストを送る.",
+                  "collocations": [
+                    "リクエストを送る",
+                    "リクエストを受け取る",
+                    "リクエストヘッダー"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "クライアントがサーバーにリクエストを送ります。",
+                  "answer": "リクエスト",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "一秒あたりのリクエストが急に増えました。",
+                  "answer": "リクエスト",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -851,10 +1554,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "resuponsu"
+                  "romanization": "resuponsu",
+                  "usageNote": "Gairaigo (レスポンス). Verbos: レスポンスを返す; também \"応答\". Tempo de resposta = レスポンスタイム.",
+                  "collocations": [
+                    "レスポンスを返す",
+                    "レスポンスの形式",
+                    "レスポンスタイム"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "サーバーはJSON形式でレスポンスを返します。",
+                  "answer": "レスポンス",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "レスポンスが遅いのは、データベースが原因でした。",
+                  "answer": "レスポンス",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -871,10 +1593,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "suteetasukoodo"
+                  "romanization": "suteetasukoodo",
+                  "usageNote": "Gairaigo (ステータスコード). Exemplos: 200 OK, 404 Not Found, 500 Internal Server Error.",
+                  "collocations": [
+                    "ステータスコードを返す",
+                    "404エラー",
+                    "ステータスコードの確認"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "存在しないページでは、ステータスコード404が返されます。",
+                  "answer": "ステータスコード",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ステータスコードが500のときは、サーバー側に問題があります。",
+                  "answer": "ステータスコード",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -892,10 +1633,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "にんしょう",
-                  "romanization": "ninshou"
+                  "romanization": "ninshou",
+                  "usageNote": "Kango (認 = reconhecer + 証 = provar). Verbo: 認証する. Contraste: 認可 (permissão).",
+                  "collocations": [
+                    "認証に成功する",
+                    "認証情報",
+                    "二要素認証"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ログインのときに認証が行われます。",
+                  "answer": "認証",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "二要素の認証を導入して、安全性を高めました。",
+                  "answer": "認証",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -912,10 +1672,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "tookun"
+                  "romanization": "tookun",
+                  "usageNote": "Gairaigo (トークン). Tipos: アクセストークン, リフレッシュトークン; em IA também é unidade de texto.",
+                  "collocations": [
+                    "アクセストークン",
+                    "トークンを発行する",
+                    "トークンの有効期限"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ログインに成功すると、サーバーがトークンを発行します。",
+                  "answer": "トークン",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "期限が切れたトークンでは、APIにアクセスできません。",
+                  "answer": "トークン",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -933,10 +1712,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "レートせいげん",
-                  "romanization": "reetoseigen"
+                  "romanization": "reetoseigen",
+                  "usageNote": "Kango + gairaigo (レート = taxa + 制限 = limite). Erro típico: 429 Too Many Requests.",
+                  "collocations": [
+                    "レート制限に達する",
+                    "レート制限を設定する",
+                    "429エラー"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このAPIには一分間に百回のレート制限があります。",
+                  "answer": "レート制限",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "レート制限を超えると、リクエストが拒否されます。",
+                  "answer": "レート制限",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -968,10 +1766,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "たんたいテスト",
-                  "romanization": "tantaitesuto"
+                  "romanization": "tantaitesuto",
+                  "usageNote": "Kango (単体 = unidade + テスト). Testa uma função isolada; também \"ユニットテスト\" (gairaigo).",
+                  "collocations": [
+                    "単体テストを書く",
+                    "単体テストを実行する",
+                    "ユニットテスト"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この関数に単体テストを書きました。",
+                  "answer": "単体テスト",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "すべての単体テストが成功してから、マージします。",
+                  "answer": "単体テスト",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -989,10 +1806,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けつごうテスト",
-                  "romanization": "ketsugoutesuto"
+                  "romanization": "ketsugoutesuto",
+                  "usageNote": "Kango (結合 = juntar + テスト). Também \"インテグレーションテスト\". Testa vários módulos juntos.",
+                  "collocations": [
+                    "結合テストを実施する",
+                    "結合テストの環境",
+                    "インテグレーションテスト"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "結合テストでは、データベースとAPIを一緒に確認します。",
+                  "answer": "結合テスト",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "単体テストが通っても、結合テストで失敗することがあります。",
+                  "answer": "結合テスト",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1009,10 +1845,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "mokku"
+                  "romanization": "mokku",
+                  "usageNote": "Gairaigo (モック). Verbo: モックする (simular); também スタブ (stub) é parecido.",
+                  "collocations": [
+                    "モックを作る",
+                    "外部APIをモックする",
+                    "モックオブジェクト"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "外部サービスはモックに置き換えてテストします。",
+                  "answer": "モック",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "テストでは、データベースの呼び出しをモックにしました。",
+                  "answer": "モック",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1029,10 +1884,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "koodokabarejji"
+                  "romanization": "koodokabarejji",
+                  "usageNote": "Gairaigo (コード + カバレッジ). Medido em %; meta comum: 80%.",
+                  "collocations": [
+                    "コードカバレッジを測る",
+                    "カバレッジを上げる",
+                    "カバレッジ八十パーセント"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このプロジェクトのコードカバレッジは八十パーセントです。",
+                  "answer": "コードカバレッジ",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "コードカバレッジが低い部分にテストを追加しました。",
+                  "answer": "コードカバレッジ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1049,10 +1923,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "asaashon"
+                  "romanization": "asaashon",
+                  "usageNote": "Gairaigo (アサーション). Verifica um resultado esperado; verbo: アサートする.",
+                  "collocations": [
+                    "アサーションを書く",
+                    "アサーションに失敗する",
+                    "期待値を検証する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "テストの最後にアサーションで結果を確認します。",
+                  "answer": "アサーション",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "アサーションが失敗したため、ビルドが止まりました。",
+                  "answer": "アサーション",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1070,10 +1963,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ふあんていなテスト",
-                  "romanization": "fuanteinatesuto"
+                  "romanization": "fuanteinatesuto",
+                  "usageNote": "Kango (不安定 = instável) + gairaigo テスト; também フレーキーテスト. Sintoma: passa e falha sem mudar o código.",
+                  "collocations": [
+                    "フレーキーテスト",
+                    "不安定なテストを直す",
+                    "再実行する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "同じコードで成功したり失敗したりする不安定なテストがあります。",
+                  "answer": "不安定なテスト",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "不安定なテストのせいで、CIの結果が信用できなくなりました。",
+                  "answer": "不安定なテスト",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1104,10 +2016,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "kontena"
+                  "romanization": "kontena",
+                  "usageNote": "Gairaigo (コンテナ). Ligado a Docker; verbos: コンテナを起動する, 停止する.",
+                  "collocations": [
+                    "コンテナを起動する",
+                    "Dockerコンテナ",
+                    "コンテナイメージ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "アプリはコンテナの中で動いています。",
+                  "answer": "コンテナ",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "新しいコンテナを起動して、設定を確認しました。",
+                  "answer": "コンテナ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1124,10 +2055,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "paipurain"
+                  "romanization": "paipurain",
+                  "usageNote": "Gairaigo (パイプライン). CI/CD: ビルド → テスト → デプロイ.",
+                  "collocations": [
+                    "パイプラインを実行する",
+                    "CI/CDパイプライン",
+                    "パイプラインが失敗する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "パイプラインはコードを自動でテストして、デプロイします。",
+                  "answer": "パイプライン",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "テストに失敗したので、パイプラインが止まりました。",
+                  "answer": "パイプライン",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1145,10 +2095,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かんきょうへんすう",
-                  "romanization": "kankyouhensuu"
+                  "romanization": "kankyouhensuu",
+                  "usageNote": "Kango (環境 + 変数). Usada para segredos e configuração; nunca no código.",
+                  "collocations": [
+                    "環境変数を設定する",
+                    "環境変数から読み込む",
+                    "シークレット"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "データベースの接続先は環境変数に設定します。",
+                  "answer": "環境変数",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "パスワードは環境変数から読み込むようにしてください。",
+                  "answer": "環境変数",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1165,10 +2134,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "roodobaransaa"
+                  "romanization": "roodobaransaa",
+                  "usageNote": "Gairaigo (ロード + バランサー). Distribui o tráfego entre servidores.",
+                  "collocations": [
+                    "ロードバランサーを設定する",
+                    "負荷を分散する",
+                    "ヘルスチェック"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ロードバランサーがリクエストを複数のサーバーに振り分けます。",
+                  "answer": "ロードバランサー",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ロードバランサーの設定を変更して、新しいサーバーを追加しました。",
+                  "answer": "ロードバランサー",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1185,10 +2173,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "sukeerabiritei"
+                  "romanization": "sukeerabiritei",
+                  "usageNote": "Gairaigo (スケーラビリティ). Também 拡張性 (kango). Escalar na horizontal: スケールアウト.",
+                  "collocations": [
+                    "スケーラビリティを高める",
+                    "スケールアウト",
+                    "拡張性"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このシステムはスケーラビリティに優れています。",
+                  "answer": "スケーラビリティ",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ユーザーが増えても、スケーラビリティがあれば安心です。",
+                  "answer": "スケーラビリティ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1206,10 +2213,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かどうりつ",
-                  "romanization": "kadouritsu"
+                  "romanization": "kadouritsu",
+                  "usageNote": "Kango (稼働 = operação + 率 = taxa). Ex.: 稼働率99.9%. Também \"可用性\".",
+                  "collocations": [
+                    "稼働率が高い",
+                    "稼働率九十九・九パーセント",
+                    "可用性"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このサービスの稼働率は年間で九十九・九パーセントです。",
+                  "answer": "稼働率",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "障害が少ないため、稼働率が向上しました。",
+                  "answer": "稼働率",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1240,10 +2266,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "sutakku"
+                  "romanization": "sutakku",
+                  "usageNote": "Gairaigo (スタック). Estrutura LIFO (último a entrar, primeiro a sair); operações: プッシュ, ポップ.",
+                  "collocations": [
+                    "スタックにプッシュする",
+                    "スタックからポップする",
+                    "後入れ先出し"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "スタックは後に入れたデータを先に取り出します。",
+                  "answer": "スタック",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "関数の呼び出し履歴はスタックに積まれます。",
+                  "answer": "スタック",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1260,10 +2305,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "kyuu"
+                  "romanization": "kyuu",
+                  "usageNote": "Gairaigo (キュー). Estrutura FIFO (primeiro a entrar, primeiro a sair); 先入れ先出し.",
+                  "collocations": [
+                    "キューに追加する",
+                    "キューから取り出す",
+                    "先入れ先出し"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "キューは先に入れたデータから順に処理します。",
+                  "answer": "キュー",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "メッセージをキューに入れて、あとでまとめて処理します。",
+                  "answer": "キュー",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1281,10 +2345,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "れんけつリスト",
-                  "romanization": "renketsurisuto"
+                  "romanization": "renketsurisuto",
+                  "usageNote": "Gairaigo + kango (連結 = encadear + リスト). Cada nó aponta para o próximo; também 連結リスト = リンクリスト.",
+                  "collocations": [
+                    "ノードを追加する",
+                    "ポインタをたどる",
+                    "リンクリスト"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "連結リストでは、各ノードが次のノードを指します。",
+                  "answer": "連結リスト",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "連結リストの途中に要素を挿入するのは簡単です。",
+                  "answer": "連結リスト",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1302,10 +2385,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "さいき",
-                  "romanization": "saiki"
+                  "romanization": "saiki",
+                  "usageNote": "Kango (再 = de novo + 帰 = voltar). Verbos: 再帰的に呼び出す; \"caso base\" = 基底条件.",
+                  "collocations": [
+                    "再帰呼び出し",
+                    "基底条件",
+                    "再帰的に処理する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "再帰を使うと、木構造の処理が短く書けます。",
+                  "answer": "再帰",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "終了条件がないと、再帰は無限に続いてしまいます。",
+                  "answer": "再帰",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1322,10 +2424,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "arugorizumu"
+                  "romanization": "arugorizumu",
+                  "usageNote": "Gairaigo (アルゴリズム). Verbos: アルゴリズムを設計する, 実装する.",
+                  "collocations": [
+                    "アルゴリズムを設計する",
+                    "探索アルゴリズム",
+                    "アルゴリズムを改善する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このアルゴリズムは大量のデータを素早く並べ替えます。",
+                  "answer": "アルゴリズム",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "処理時間を短くするために、アルゴリズムを見直しました。",
+                  "answer": "アルゴリズム",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1343,10 +2464,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じかんけいさんりょう",
-                  "romanization": "jikankeisanryou"
+                  "romanization": "jikankeisanryou",
+                  "usageNote": "Kango (時間 + 計算量 = quantidade de cálculo). Notação: O(n), O(log n).",
+                  "collocations": [
+                    "時間計算量を見積もる",
+                    "オーダー表記",
+                    "計算量を減らす"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この方法の時間計算量はデータ数に比例します。",
+                  "answer": "時間計算量",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "時間計算量が大きいと、データが増えたときに遅くなります。",
+                  "answer": "時間計算量",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1378,10 +2518,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ぜいじゃくせい",
-                  "romanization": "zeijakusei"
+                  "romanization": "zeijakusei",
+                  "usageNote": "Kango (脆弱 = frágil + 性). Verbos: 脆弱性を修正する (corrigir), 悪用する (explorar).",
+                  "collocations": [
+                    "脆弱性を修正する",
+                    "脆弱性を悪用する",
+                    "脆弱性診断"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "古いライブラリに深刻な脆弱性が見つかりました。",
+                  "answer": "脆弱性",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "攻撃を受ける前に、脆弱性を修正する必要があります。",
+                  "answer": "脆弱性",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1399,10 +2558,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "あんごうか",
-                  "romanization": "angouka"
+                  "romanization": "angouka",
+                  "usageNote": "Kango (暗 = oculto + 号 = código + 化). Verbo: 暗号化する; contrário: 復号.",
+                  "collocations": [
+                    "データを暗号化する",
+                    "暗号化通信",
+                    "復号"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "パスワードは暗号化して保存します。",
+                  "answer": "暗号化",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "通信の暗号化は、情報漏えいを防ぐために重要です。",
+                  "answer": "暗号化",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1420,10 +2598,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "にんか",
-                  "romanization": "ninka"
+                  "romanization": "ninka",
+                  "usageNote": "Kango (認 + 可 = permitir). Contraste: 認証 (quem é você) × 認可 (o que pode fazer).",
+                  "collocations": [
+                    "認可を確認する",
+                    "権限を付与する",
+                    "ロールベースの認可"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "認可によって、管理者だけが設定を変更できます。",
+                  "answer": "認可",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "認可の設定が間違っていたため、他人のデータが見えました。",
+                  "answer": "認可",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1440,10 +2637,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "SQL injekushon"
+                  "romanization": "SQL injekushon",
+                  "usageNote": "Gairaigo (SQL + インジェクション). Prevenção: クエリのパラメータ化 (consultas parametrizadas).",
+                  "collocations": [
+                    "SQLインジェクションを防ぐ",
+                    "SQLインジェクション攻撃",
+                    "プレースホルダ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "入力値をそのままSQLに入れると、SQLインジェクションの危険があります。",
+                  "answer": "SQLインジェクション",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "プレースホルダを使えば、SQLインジェクションを防げます。",
+                  "answer": "SQLインジェクション",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1461,10 +2677,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "アクセスせいぎょ",
-                  "romanization": "akusesuseigyo"
+                  "romanization": "akusesuseigyo",
+                  "usageNote": "Kango (アクセス + 制御 = controle). Modelos: RBAC (ロールベース).",
+                  "collocations": [
+                    "アクセス制御を設定する",
+                    "アクセス制御リスト",
+                    "権限管理"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この文書にはアクセス制御がかけられています。",
+                  "answer": "アクセス制御",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "アクセス制御を見直して、不要な権限を削除しました。",
+                  "answer": "アクセス制御",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1482,10 +2717,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かんさログ",
-                  "romanization": "kansarogu"
+                  "romanization": "kansarogu",
+                  "usageNote": "Kango (監査 = auditoria + ログ). Registra quem fez o quê e quando.",
+                  "collocations": [
+                    "監査ログを記録する",
+                    "監査ログを確認する",
+                    "操作履歴"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "管理者の操作はすべて監査ログに残ります。",
+                  "answer": "監査ログ",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "不正アクセスの調査には、監査ログが役立ちます。",
+                  "answer": "監査ログ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1516,10 +2770,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "supurinto"
+                  "romanization": "supurinto",
+                  "usageNote": "Gairaigo (スプリント). Ciclo curto, em geral 1 a 2 semanas; スプリントレビュー, スプリント計画.",
+                  "collocations": [
+                    "スプリントを開始する",
+                    "スプリント計画",
+                    "スプリントレビュー"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "次のスプリントでは、ログイン機能を作ります。",
+                  "answer": "スプリント",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "スプリントは二週間で、毎回デモを行います。",
+                  "answer": "スプリント",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1536,10 +2809,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "bakkurogu"
+                  "romanization": "bakkurogu",
+                  "usageNote": "Gairaigo (バックログ). Lista priorizada de itens; verbo: バックログに積む.",
+                  "collocations": [
+                    "バックログに追加する",
+                    "バックログを整理する",
+                    "優先順位をつける"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "新しい要望はバックログに追加します。",
+                  "answer": "バックログ",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "チームはバックログの優先順位を毎週見直しています。",
+                  "answer": "バックログ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1556,10 +2848,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "deiriisukuramu"
+                  "romanization": "deiriisukuramu",
+                  "usageNote": "Gairaigo (デイリースクラム); também 朝会 (reunião da manhã). 15 minutos: ontem, hoje, bloqueios.",
+                  "collocations": [
+                    "デイリースクラムに参加する",
+                    "朝会",
+                    "進捗を共有する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "デイリースクラムは毎朝九時から十五分間です。",
+                  "answer": "デイリースクラム",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "昨日の作業と今日の予定を、デイリースクラムで共有します。",
+                  "answer": "デイリースクラム",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1576,10 +2887,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "suteekuhorudaa"
+                  "romanization": "suteekuhorudaa",
+                  "usageNote": "Gairaigo (ステークホルダー). Quem tem interesse no projeto: 顧客, 経営層.",
+                  "collocations": [
+                    "ステークホルダーと調整する",
+                    "主要なステークホルダー",
+                    "利害関係者"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ステークホルダーの意見を聞いてから、仕様を決めます。",
+                  "answer": "ステークホルダー",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "経営層は重要なステークホルダーの一人です。",
+                  "answer": "ステークホルダー",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1596,10 +2926,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "peapuroguramingu"
+                  "romanization": "peapuroguramingu",
+                  "usageNote": "Gairaigo (ペアプログラミング). Dois desenvolvedores: ドライバー (digita) e ナビゲーター (revisa).",
+                  "collocations": [
+                    "ペアプログラミングをする",
+                    "ドライバーとナビゲーター",
+                    "ペアで開発する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ペアプログラミングでは、二人で一つの画面を見ながら開発します。",
+                  "answer": "ペアプログラミング",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "新人はペアプログラミングを通して、チームの書き方を学びました。",
+                  "answer": "ペアプログラミング",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1616,10 +2965,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "retorosupekuteibu"
+                  "romanization": "retorosupekuteibu",
+                  "usageNote": "Gairaigo (レトロスペクティブ); também 振り返り (kango, \"olhar para trás\"). Ocorre no fim do sprint.",
+                  "collocations": [
+                    "振り返りを行う",
+                    "改善点を挙げる",
+                    "KPT"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "スプリントの最後にレトロスペクティブを開きます。",
+                  "answer": "レトロスペクティブ",
+                  "documentType": "CODE_REVIEW"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "レトロスペクティブで、次のスプリントの改善策を決めました。",
+                  "answer": "レトロスペクティブ",
+                  "documentType": "CODE_REVIEW"
+                }
+              ],
               "segments": {}
             }
           ]

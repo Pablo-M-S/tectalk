@@ -36,10 +36,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はり",
-                  "romanization": "hari"
+                  "romanization": "hari",
+                  "usageNote": "Kango de um só caractere (はり). Em engenharia civil: 鉄骨梁 (viga de aço), 大梁/小梁 (principal/secundária).",
+                  "collocations": [
+                    "鉄骨梁",
+                    "梁をかける",
+                    "梁の曲げ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "梁は床の荷重を柱に伝えます。",
+                  "answer": "梁",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "鉄骨で組んだ梁に、屋根の重さがかかっています。",
+                  "answer": "梁",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -57,10 +76,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はしら",
-                  "romanization": "hashira"
+                  "romanization": "hashira",
+                  "usageNote": "Kango de um só caractere (はしら). Para estruturas: 鉄筋コンクリート柱, 鉄骨柱; \"柱\" também significa pilar em geral.",
+                  "collocations": [
+                    "鉄骨柱",
+                    "柱を立てる",
+                    "柱の断面"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "一階の柱は上の階の重さを支えています。",
+                  "answer": "柱",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "設計では、柱の間隔を六メートルにしました。",
+                  "answer": "柱",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -78,10 +116,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "きそ",
-                  "romanization": "kiso"
+                  "romanization": "kiso",
+                  "usageNote": "Kango (基 = base + 礎 = pedra angular). Tipos: 直接基礎 (sapata), 杭基礎 (estacas).",
+                  "collocations": [
+                    "直接基礎",
+                    "杭基礎",
+                    "基礎工事"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "建物の基礎は、地盤の強さに合わせて設計します。",
+                  "answer": "基礎",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "基礎が沈下すると、壁にひびが入ることがあります。",
+                  "answer": "基礎",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -99,10 +156,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かじゅう",
-                  "romanization": "kajuu"
+                  "romanization": "kajuu",
+                  "usageNote": "Kango (荷 = carga + 重 = peso). Tipos: 固定荷重, 積載荷重, 風荷重, 地震荷重.",
+                  "collocations": [
+                    "固定荷重",
+                    "積載荷重",
+                    "荷重を支える"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この床が支えられる荷重は一平方メートルあたり三百キロです。",
+                  "answer": "荷重",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "橋には車の重さによる荷重がかかります。",
+                  "answer": "荷重",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +196,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "おうりょく",
-                  "romanization": "ouryoku"
+                  "romanization": "ouryoku",
+                  "usageNote": "Kango (応 = responder + 力 = força). Tensão mecânica (N/mm²), não \"estresse\". Tipos: 引張応力, せん断応力.",
+                  "collocations": [
+                    "引張応力",
+                    "せん断応力",
+                    "許容応力"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "鋼材の応力が降伏点を超えてはいけません。",
+                  "answer": "応力",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "梁の中央付近で、最も大きな応力が発生します。",
+                  "answer": "応力",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -140,10 +235,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "hizumi"
+                  "romanization": "hizumi",
+                  "usageNote": "Hiragana ひずみ (às vezes 歪み). Razão de deformação relativa; \"ひずみゲージ\" = extensômetro.",
+                  "collocations": [
+                    "ひずみゲージ",
+                    "弾性ひずみ",
+                    "ひずみを測る"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "荷重を取り除くと、弾性のひずみは消えます。",
+                  "answer": "ひずみ",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "試験片のひずみをゲージで測定しました。",
+                  "answer": "ひずみ",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -175,10 +289,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はがね",
-                  "romanization": "hagane"
+                  "romanization": "hagane",
+                  "usageNote": "Kango de um só caractere (はがね/こう). Em engenharia fala-se 鋼材 (material de aço) e 鋼板; \"鉄\" é ferro.",
+                  "collocations": [
+                    "鋼材",
+                    "高張力鋼",
+                    "ステンレス鋼"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この橋は高張力の鋼で作られています。",
+                  "answer": "鋼",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "鋼は炭素の量によって硬さが変わります。",
+                  "answer": "鋼",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -196,10 +329,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "てっきんコンクリート",
-                  "romanization": "tekkinkonkuriito"
+                  "romanization": "tekkinkonkuriito",
+                  "usageNote": "Kango + katakana (鉄筋 = vergalhão + コンクリート). Sigla: RC (アールシー).",
+                  "collocations": [
+                    "RC造",
+                    "鉄筋コンクリート造",
+                    "鉄筋コンクリート製の壁"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "鉄筋コンクリートは、圧縮に強いコンクリートと引張に強い鉄筋を組み合わせた材料です。",
+                  "answer": "鉄筋コンクリート",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "このマンションは、鉄筋コンクリートで建てられています。",
+                  "answer": "鉄筋コンクリート",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -217,10 +369,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ごうきん",
-                  "romanization": "goukin"
+                  "romanization": "goukin",
+                  "usageNote": "Kango (合 = combinar + 金 = metal). Exemplos: アルミ合金, チタン合金.",
+                  "collocations": [
+                    "アルミ合金",
+                    "チタン合金",
+                    "合金を作る"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "合金は、軽くて腐食に強い材料を作るために使います。",
+                  "answer": "合金",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "飛行機の機体には、軽い合金が使われています。",
+                  "answer": "合金",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -238,10 +409,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひっぱりつよさ",
-                  "romanization": "hipparitsuyosa"
+                  "romanization": "hipparitsuyosa",
+                  "usageNote": "Kango (引張 = tração + 強さ = resistência). Medida em MPa; teste: 引張試験.",
+                  "collocations": [
+                    "引張試験",
+                    "引張強さを測る",
+                    "最小引張強さ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この鋼材の引張強さは四百メガパスカルです。",
+                  "answer": "引張強さ",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "試験片が壊れる直前の応力が、引張強さです。",
+                  "answer": "引張強さ",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -259,10 +449,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ふしょく",
-                  "romanization": "fushoku"
+                  "romanization": "fushoku",
+                  "usageNote": "Kango (腐 = apodrecer + 食 = corroer). Tipos: 電食 (galvânica), 孔食. Verbo: 腐食する.",
+                  "collocations": [
+                    "腐食を防ぐ",
+                    "電食",
+                    "防食塗装"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "海に近い橋は、腐食が進みやすいです。",
+                  "answer": "腐食",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "塗装をして、鉄骨の腐食を防ぎます。",
+                  "answer": "腐食",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -280,10 +489,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひろう",
-                  "romanization": "hirou"
+                  "romanization": "hirou",
+                  "usageNote": "Kango (疲 = cansar + 労 = trabalho). Falha por ciclos repetidos: 疲労破壊.",
+                  "collocations": [
+                    "疲労破壊",
+                    "疲労強度",
+                    "疲労が蓄積する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "繰り返しの荷重で、金属に疲労が蓄積します。",
+                  "answer": "疲労",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "検査では、橋の鋼材の疲労によるひび割れを探します。",
+                  "answer": "疲労",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -315,10 +543,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せっけいず",
-                  "romanization": "sekkeizu"
+                  "romanization": "sekkeizu",
+                  "usageNote": "Kango (設計 = projeto + 図 = desenho). Também 図面 (desenho técnico, termo geral).",
+                  "collocations": [
+                    "設計図を読む",
+                    "図面",
+                    "設計図を描く"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "設計図には、すべての寸法が書かれています。",
+                  "answer": "設計図",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "施工の前に、設計図を確認してください。",
+                  "answer": "設計図",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -336,10 +583,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しようしょ",
-                  "romanization": "shiyousho"
+                  "romanization": "shiyousho",
+                  "usageNote": "Kango (仕様 = especificação + 書 = documento). Também \"スペック\" na fala.",
+                  "collocations": [
+                    "仕様書を確認する",
+                    "仕様書を作成する",
+                    "仕様に合わせる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "仕様書には、使用する材料の強度が書かれています。",
+                  "answer": "仕様書",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "納品された部品は、仕様書の条件を満たしていました。",
+                  "answer": "仕様書",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -357,10 +623,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうさ",
-                  "romanization": "kousa"
+                  "romanization": "kousa",
+                  "usageNote": "Kango (公 = oficial + 差 = diferença). Ex.: ±0,1 mm.",
+                  "collocations": [
+                    "公差内に収まる",
+                    "寸法公差",
+                    "公差を設定する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この部品の公差は、プラスマイナス零点一ミリです。",
+                  "answer": "公差",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "公差を超えた製品は、不良品として扱われます。",
+                  "answer": "公差",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -378,10 +663,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "あんぜんりつ",
-                  "romanization": "anzenritsu"
+                  "romanization": "anzenritsu",
+                  "usageNote": "Kango (安全 + 率). Razão entre resistência e carga de projeto.",
+                  "collocations": [
+                    "安全率を設定する",
+                    "安全率を確保する",
+                    "安全率二以上"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "クレーンの安全率は四以上と定められています。",
+                  "answer": "安全率",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "設計では、十分な安全率を見込んでいます。",
+                  "answer": "安全率",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -399,10 +703,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かいてい",
-                  "romanization": "kaitei"
+                  "romanization": "kaitei",
+                  "usageNote": "Kango (改 = mudar + 訂 = corrigir). Em desenhos: 改訂履歴, 改訂番号 (Rev.).",
+                  "collocations": [
+                    "改訂履歴",
+                    "改訂番号",
+                    "図面を改訂する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この図面は先月、改訂されました。",
+                  "answer": "改訂",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "改訂のたびに、日付と番号を記録します。",
+                  "answer": "改訂",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -420,10 +743,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "てきごうせい",
-                  "romanization": "tekigousei"
+                  "romanization": "tekigousei",
+                  "usageNote": "Kango (適合 = estar de acordo + 性). Em normas: 適合性評価. Em empresas, \"コンプライアンス\" tem sentido mais amplo.",
+                  "collocations": [
+                    "適合性評価",
+                    "規格への適合性",
+                    "適合性を確認する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "製品が規格に合っているか、適合性を確認します。",
+                  "answer": "適合性",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "公共の建物では、基準への適合性が義務づけられています。",
+                  "answer": "適合性",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -454,10 +796,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "toruku"
+                  "romanization": "toruku",
+                  "usageNote": "Gairaigo (トルク). Unidade: N·m. Parafusos: トルクレンチ (chave de torque).",
+                  "collocations": [
+                    "トルクレンチ",
+                    "トルクを管理する",
+                    "締め付けトルク"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ボルトは決められたトルクで締めてください。",
+                  "answer": "トルク",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "エンジンのトルクは、回転数によって変わります。",
+                  "answer": "トルク",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -475,10 +836,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じくうけ",
-                  "romanization": "jikuuke"
+                  "romanization": "jikuuke",
+                  "usageNote": "Kango (軸 = eixo + 受 = receber). Tipos: ころがり軸受, すべり軸受; também ベアリング (gairaigo).",
+                  "collocations": [
+                    "ころがり軸受",
+                    "すべり軸受",
+                    "ベアリング"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "軸受は、回る軸の摩擦を減らします。",
+                  "answer": "軸受",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "異音がしたため、摩耗した軸受を交換しました。",
+                  "answer": "軸受",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -496,10 +876,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はぐるま",
-                  "romanization": "haguruma"
+                  "romanization": "haguruma",
+                  "usageNote": "Kango (歯 = dente + 車 = roda). Caixa de engrenagens = 変速機/ギアボックス.",
+                  "collocations": [
+                    "歯車を噛み合わせる",
+                    "平歯車",
+                    "減速機"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "歯車はモーターの回転を車輪に伝えます。",
+                  "answer": "歯車",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "歯車の歯が欠けて、機械が止まりました。",
+                  "answer": "歯車",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -517,10 +916,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じく",
-                  "romanization": "jiku"
+                  "romanization": "jiku",
+                  "usageNote": "Kango de um só caractere (じく). Também 回転軸. Em outros sentidos: 軸 = eixo (gráfico).",
+                  "collocations": [
+                    "回転軸",
+                    "軸を支える",
+                    "駆動軸"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "軸はモーターの回転をポンプに伝えます。",
+                  "answer": "軸",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "点検で、軸にがたつきがないか確認しました。",
+                  "answer": "軸",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -537,10 +955,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "ponpu"
+                  "romanization": "ponpu",
+                  "usageNote": "Gairaigo (ポンプ, do holandês \"pomp\"). Tipos: 遠心ポンプ e 容積式ポンプ.",
+                  "collocations": [
+                    "遠心ポンプ",
+                    "ポンプを回す",
+                    "揚水ポンプ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ポンプは水を高い場所へ送ります。",
+                  "answer": "ポンプ",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "機械室に新しいポンプを設置しました。",
+                  "answer": "ポンプ",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -557,10 +994,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "barubu"
+                  "romanization": "barubu",
+                  "usageNote": "Gairaigo (バルブ). Também 弁. Tipos: 安全弁, 逆止弁.",
+                  "collocations": [
+                    "安全弁",
+                    "逆止弁",
+                    "バルブを開ける"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "バルブを閉めると、水の流れが止まります。",
+                  "answer": "バルブ",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "配管を外す前に、必ずバルブを閉じてください。",
+                  "answer": "バルブ",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -592,10 +1048,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かいろ",
-                  "romanization": "kairo"
+                  "romanization": "kairo",
+                  "usageNote": "Kango (回 = girar + 路 = caminho). Série: 直列回路; paralelo: 並列回路.",
+                  "collocations": [
+                    "直列回路",
+                    "並列回路",
+                    "回路を閉じる"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この回路には十二ボルトが供給されています。",
+                  "answer": "回路",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "過電流で、制御回路が壊れました。",
+                  "answer": "回路",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -613,10 +1088,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "でんあつ",
-                  "romanization": "denatsu"
+                  "romanization": "denatsu",
+                  "usageNote": "Kango (電 = eletricidade + 圧 = pressão). Unidade: ボルト (V). Em casa no Japão: 100 V.",
+                  "collocations": [
+                    "電圧を測る",
+                    "電圧降下",
+                    "高電圧"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "日本の家庭の電圧は百ボルトです。",
+                  "answer": "電圧",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "電圧が下がると、機械が止まることがあります。",
+                  "answer": "電圧",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -634,10 +1128,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "でんりゅう",
-                  "romanization": "denryuu"
+                  "romanization": "denryuu",
+                  "usageNote": "Kango (電 + 流 = fluxo). Unidade: アンペア (A). Tipos: 直流, 交流.",
+                  "collocations": [
+                    "直流",
+                    "交流",
+                    "電流を測る"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "電流が大きくなると、電線が熱くなります。",
+                  "answer": "電流",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ヒューズは過大な電流を遮断します。",
+                  "answer": "電流",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -655,10 +1168,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ていこう",
-                  "romanization": "teikou"
+                  "romanization": "teikou",
+                  "usageNote": "Kango de um só caractere composto (抵 = resistir + 抗 = opor). Unidade: オーム (Ω). Também designa o componente.",
+                  "collocations": [
+                    "電気抵抗",
+                    "抵抗を測る",
+                    "抵抗器"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "電線が長いほど、抵抗は大きくなります。",
+                  "answer": "抵抗",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "回路に抵抗を直列につないで、電流を小さくしました。",
+                  "answer": "抵抗",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -676,10 +1208,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "へんあつき",
-                  "romanization": "henatsuki"
+                  "romanization": "henatsuki",
+                  "usageNote": "Kango (変 = mudar + 圧 = tensão + 器 = aparelho). Na fala: トランス (gairaigo).",
+                  "collocations": [
+                    "変圧器を設置する",
+                    "トランス",
+                    "降圧"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "変圧器は電圧を上げたり下げたりします。",
+                  "answer": "変圧器",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "工場の入り口に、大きな変圧器が置かれています。",
+                  "answer": "変圧器",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -697,10 +1248,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せっち",
-                  "romanization": "secchi"
+                  "romanization": "secchi",
+                  "usageNote": "Kango (接 = conectar + 地 = terra). Também アース (gairaigo). Segurança: 感電防止.",
+                  "collocations": [
+                    "接地工事",
+                    "アース",
+                    "接地抵抗"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "接地は、感電から人を守ります。",
+                  "answer": "接地",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "機械の接地が正しく行われているか、測定しました。",
+                  "answer": "接地",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -731,10 +1301,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "sukejuuru"
+                  "romanization": "sukejuuru",
+                  "usageNote": "Gairaigo (スケジュール). Também 工程表 (cronograma de obra) e 日程.",
+                  "collocations": [
+                    "スケジュールを守る",
+                    "スケジュールが遅れる",
+                    "工程表"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "スケジュールでは、三月に基礎工事が終わる予定です。",
+                  "answer": "スケジュール",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "天候の影響で、スケジュールが一週間遅れました。",
+                  "answer": "スケジュール",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -751,10 +1340,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "mairusutoon"
+                  "romanization": "mairusutoon",
+                  "usageNote": "Gairaigo (マイルストーン). Evento importante do projeto; também 節目.",
+                  "collocations": [
+                    "マイルストーンを設定する",
+                    "マイルストーンを達成する",
+                    "節目"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "最初のマイルストーンは、基本設計の完了です。",
+                  "answer": "マイルストーン",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "チームは予定より早く、マイルストーンを達成しました。",
+                  "answer": "マイルストーン",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -772,10 +1380,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "よさん",
-                  "romanization": "yosan"
+                  "romanization": "yosan",
+                  "usageNote": "Kango (予 = antecipadamente + 算 = cálculo). Previsto; contraste: 決算 (resultado real).",
+                  "collocations": [
+                    "予算を組む",
+                    "予算を超える",
+                    "予算案"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "今年の予算は二億円です。",
+                  "answer": "予算",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "追加の工事で、予算を超えてしまいました。",
+                  "answer": "予算",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -792,10 +1419,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "risukuasesumento"
+                  "romanization": "risukuasesumento",
+                  "usageNote": "Gairaigo (リスク + アセスメント). Também リスク評価. Passos: identificar, avaliar, controlar.",
+                  "collocations": [
+                    "リスクアセスメントを実施する",
+                    "リスク評価",
+                    "危険の見積もり"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "作業の前に、リスクアセスメントを実施します。",
+                  "answer": "リスクアセスメント",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "リスクアセスメントの結果、高所作業の危険が見つかりました。",
+                  "answer": "リスクアセスメント",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -813,10 +1459,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せいかぶつ",
-                  "romanization": "seikabutsu"
+                  "romanization": "seikabutsu",
+                  "usageNote": "Kango (成 = realizar + 果 = fruto + 物 = coisa). Documento ou produto entregue ao cliente.",
+                  "collocations": [
+                    "成果物を納品する",
+                    "成果物を確認する",
+                    "成果物の定義"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "契約には、納品する成果物の一覧が書かれています。",
+                  "answer": "成果物",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "成果物は、提出の前に必ずレビューします。",
+                  "answer": "成果物",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -834,10 +1499,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けんさ",
-                  "romanization": "kensa"
+                  "romanization": "kensa",
+                  "usageNote": "Kango (検 = examinar + 査 = verificar). Verbo: 検査する. Também 点検 (manutenção) e 検収 (aceitação).",
+                  "collocations": [
+                    "外観検査",
+                    "検査を行う",
+                    "検査報告書"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "検査では、梁にひび割れが見つかりました。",
+                  "answer": "検査",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "検査報告書は、所有者に提出されます。",
+                  "answer": "検査",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]

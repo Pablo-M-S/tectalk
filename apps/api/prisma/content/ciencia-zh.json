@@ -26,10 +26,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiǎshè"
+                  "ipa": "jiǎshè",
+                  "usageNote": "Pinyin jiǎshè (假 = provisório + 设 = supor). \"Hipótese nula\" = 零假设. Verbos: 提出假设, 验证假设.",
+                  "collocations": [
+                    "提出假设",
+                    "验证假设",
+                    "零假设"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "研究人员对疾病的原因提出了假设。",
+                  "answer": "假设",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "数据支持了这一假设。",
+                  "answer": "假设",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -46,10 +65,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shíyàn"
+                  "ipa": "shíyàn",
+                  "usageNote": "Pinyin shíyàn (实 = real + 验 = provar). Verbos: 进行实验, 重复. Também 实验室 = laboratório.",
+                  "collocations": [
+                    "进行实验",
+                    "对照实验",
+                    "实验设计"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个实验重复了三次，结果相同。",
+                  "answer": "实验",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每个实验都要记录在笔记本里。",
+                  "answer": "实验",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -66,10 +104,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zìbiànliàng"
+                  "ipa": "zìbiànliàng",
+                  "usageNote": "Pinyin zì biànliàng (自 = por si + 变量). Controlada pelo pesquisador; contraste: 因变量.",
+                  "collocations": [
+                    "因变量",
+                    "控制变量",
+                    "改变自变量"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "温度是这项研究的自变量。",
+                  "answer": "自变量",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每次只改变一个自变量，再比较结果。",
+                  "answer": "自变量",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -86,10 +143,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "duìzhàozǔ"
+                  "ipa": "duìzhàozǔ",
+                  "usageNote": "Pinyin duìzhàozǔ (对照 = comparação + 组 = grupo). Contraste: 实验组.",
+                  "collocations": [
+                    "实验组",
+                    "设置对照组",
+                    "与对照组比较"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "对照组服用的是安慰剂。",
+                  "answer": "对照组",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们把结果和对照组做了比较。",
+                  "answer": "对照组",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -106,10 +182,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shùjùjí"
+                  "ipa": "shùjùjí",
+                  "usageNote": "Pinyin shùjùjí (数据 = dados + 集 = conjunto). Verbos: 公开数据集, 分析.",
+                  "collocations": [
+                    "公开数据集",
+                    "分析数据集",
+                    "开放数据"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个数据集包含一万条观测记录。",
+                  "answer": "数据集",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了让其他人能重复研究，我们公开了数据集。",
+                  "answer": "数据集",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -126,10 +221,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tóngháng píngshěn"
+                  "ipa": "tóngháng píngshěn",
+                  "usageNote": "Pinyin tóngháng píngshěn (同行 = pares + 评审). Verbo: 通过评审. Também 同行审议.",
+                  "collocations": [
+                    "通过同行评审",
+                    "评审意见",
+                    "学术期刊"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "论文修改两次后通过了同行评审。",
+                  "answer": "同行评审",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "同行评审保证了研究的基本质量。",
+                  "answer": "同行评审",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -160,10 +274,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yàngběn"
+                  "ipa": "yàngběn",
+                  "usageNote": "Pinyin yàngběn (样 = amostra + 本). Contraste: 总体 (população). 样本量 = tamanho da amostra.",
+                  "collocations": [
+                    "样本量",
+                    "总体",
+                    "随机抽样"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "样本包括一千名不同年龄的参与者。",
+                  "answer": "样本",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "样本太小，无法得出可靠的结论。",
+                  "answer": "样本",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -180,10 +313,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiāngguānxìng"
+                  "ipa": "xiāngguānxìng",
+                  "usageNote": "Pinyin xiāngguānxìng (相关 = relação + 性). \"Correlação não implica causalidade\" = 相关不等于因果.",
+                  "collocations": [
+                    "正相关",
+                    "相关系数",
+                    "相关不等于因果"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "学习时间和成绩之间存在正相关性。",
+                  "answer": "相关性",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "两个变量之间的相关性很弱。",
+                  "answer": "相关性",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -200,10 +352,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "biāozhǔnchā"
+                  "ipa": "biāozhǔnchā",
+                  "usageNote": "Pinyin biāozhǔnchā (标准 + 差). Mede a dispersão; símbolo σ.",
+                  "collocations": [
+                    "平均值和标准差",
+                    "标准差较大",
+                    "离散程度"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "平均值是五，标准差是二。",
+                  "answer": "标准差",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "标准差越大，数据越分散。",
+                  "answer": "标准差",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -220,10 +391,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tǒngjì xiǎnzhùxìng"
+                  "ipa": "tǒngjì xiǎnzhùxìng",
+                  "usageNote": "Pinyin tǒngjì xiǎnzhùxìng (统计 + 显著 = notável + 性). p < 0,05. Também 显著性水平.",
+                  "collocations": [
+                    "显著性水平",
+                    "具有显著差异",
+                    "统计显著性检验"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项结果达到了统计显著性。",
+                  "answer": "统计显著性",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "两组之间的差异没有统计显著性。",
+                  "answer": "统计显著性",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -240,10 +430,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "líqúnzhí"
+                  "ipa": "líqúnzhí",
+                  "usageNote": "Pinyin líqúnzhí (离群 = afastado do grupo + 值). Também 异常值. Valor muito diferente dos demais.",
+                  "collocations": [
+                    "剔除离群值",
+                    "检测离群值",
+                    "异常值"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "一个离群值使平均值严重偏移。",
+                  "answer": "离群值",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "下午的测量中出现了明显的离群值。",
+                  "answer": "离群值",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -260,10 +469,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "wùchā fànwéi"
+                  "ipa": "wùchā fànwéi",
+                  "usageNote": "Pinyin wùchā fànwéi (误差 = erro + 范围 = intervalo). Em pesquisas: ±3%.",
+                  "collocations": [
+                    "缩小误差范围",
+                    "置信区间",
+                    "正负百分之三"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项调查的误差范围是正负百分之三。",
+                  "answer": "误差范围",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "受访者越多，误差范围就越小。",
+                  "answer": "误差范围",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -294,10 +522,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shìjì"
+                  "ipa": "shìjì",
+                  "usageNote": "Pinyin shìjì (试 = testar + 剂 = agente). Substância usada em reações e análises.",
+                  "collocations": [
+                    "加入试剂",
+                    "化学试剂",
+                    "酸性试剂"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "把试剂慢慢加入溶液中。",
+                  "answer": "试剂",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这种试剂在酸性环境中会变色。",
+                  "answer": "试剂",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -314,10 +561,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "biāoběn"
+                  "ipa": "biāoběn",
+                  "usageNote": "Pinyin biāoběn (标 = marca + 本 = exemplar). Amostra clínica ou biológica; contraste: 样本 (estatístico).",
+                  "collocations": [
+                    "采集标本",
+                    "标本编号",
+                    "血液标本"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每份标本在分析前都要贴上标签。",
+                  "answer": "标本",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "标本用冷藏容器送到了实验室。",
+                  "answer": "标本",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -334,10 +600,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "líxīnjī"
+                  "ipa": "líxīnjī",
+                  "usageNote": "Pinyin líxīnjī (离心 = centrífugo + 机 = máquina). Verbo: 离心.",
+                  "collocations": [
+                    "离心分离",
+                    "高速离心机",
+                    "转速"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "离心机把血浆和细胞分开。",
+                  "answer": "离心机",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "试管在离心机里放了十分钟。",
+                  "answer": "离心机",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -354,10 +639,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yíyèguǎn"
+                  "ipa": "yíyèguǎn",
+                  "usageNote": "Pinyin yíyèguǎn (移液 = transferir líquido + 管). Tipos: 微量移液器.",
+                  "collocations": [
+                    "微量移液器",
+                    "用移液管量取",
+                    "转移溶液"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "用移液管取了一毫升溶液。",
+                  "answer": "移液管",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "移液管需要定期校准。",
+                  "answer": "移液管",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -374,10 +678,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "xiǎnwēijìng"
+                  "ipa": "xiǎnwēijìng",
+                  "usageNote": "Pinyin xiǎnwēijìng (显微 + 镜). Tipos: 光学显微镜, 电子显微镜.",
+                  "collocations": [
+                    "光学显微镜",
+                    "电子显微镜",
+                    "在显微镜下观察"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我们用显微镜观察了细胞。",
+                  "answer": "显微镜",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "显微镜的放大倍数调到了四百倍。",
+                  "answer": "显微镜",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -394,10 +717,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jiàozhǔn"
+                  "ipa": "jiàozhǔn",
+                  "usageNote": "Pinyin jiàozhǔn (校 = corrigir + 准 = exato). Verbo: 校准. Certificado: 校准证书.",
+                  "collocations": [
+                    "校准仪器",
+                    "校准证书",
+                    "定期校准"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "天平每个月校准一次。",
+                  "answer": "校准",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "因为校准出了错，所有的测量值都偏了。",
+                  "answer": "校准",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -428,10 +770,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "dòngliàng"
+                  "ipa": "dòngliàng",
+                  "usageNote": "Pinyin dòngliàng (动 = movimento + 量 = quantidade). p = m·v; lei: 动量守恒定律.",
+                  "collocations": [
+                    "动量守恒",
+                    "动量变化",
+                    "计算动量"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "碰撞前后的动量保持不变。",
+                  "answer": "动量",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "速度加倍，动量也加倍。",
+                  "answer": "动量",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -448,10 +809,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shāng"
+                  "ipa": "shāng",
+                  "usageNote": "Pinyin shāng (熵). Caractere criado para \"entropia\". Segunda lei: cresce em sistemas isolados; 熵增.",
+                  "collocations": [
+                    "熵增",
+                    "系统的熵",
+                    "热力学第二定律"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "孤立系统的熵不会减少。",
+                  "answer": "熵",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "冰融化时，水的熵增加。",
+                  "answer": "熵",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -468,10 +848,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "cuīhuàjì"
+                  "ipa": "cuīhuàjì",
+                  "usageNote": "Pinyin cuīhuàjì (催化 = catalisar + 剂). Acelera a reação sem se consumir. Também o catalisador automotivo.",
+                  "collocations": [
+                    "使用催化剂",
+                    "铂催化剂",
+                    "加快反应"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "催化剂能加快反应，自己却不被消耗。",
+                  "answer": "催化剂",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "混合物中加入了铂作为催化剂。",
+                  "answer": "催化剂",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -488,10 +887,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "róngjì"
+                  "ipa": "róngjì",
+                  "usageNote": "Pinyin róngjì (溶 = dissolver + 剂). Tipos: 有机溶剂; água = 溶剂 universal.",
+                  "collocations": [
+                    "有机溶剂",
+                    "溶于溶剂",
+                    "蒸发溶剂"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "水是溶解盐的优良溶剂。",
+                  "answer": "溶剂",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "蒸发溶剂后，得到了纯净的固体。",
+                  "answer": "溶剂",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -508,10 +926,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "huàhéwù"
+                  "ipa": "huàhéwù",
+                  "usageNote": "Pinyin huàhéwù (化 = transformar + 合 = unir + 物). Tipos: 有机化合物, 无机化合物.",
+                  "collocations": [
+                    "有机化合物",
+                    "无机化合物",
+                    "合成化合物"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "水是由氢和氧组成的化合物。",
+                  "answer": "化合物",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "一种具有抗菌作用的新化合物被合成了出来。",
+                  "answer": "化合物",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -528,10 +965,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tóngwèisù"
+                  "ipa": "tóngwèisù",
+                  "usageNote": "Pinyin tóngwèisù (同位 = mesma posição + 素 = elemento). Ex.: 碳十四 (¹⁴C), 放射性同位素.",
+                  "collocations": [
+                    "放射性同位素",
+                    "稳定同位素",
+                    "同位素分析"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "碳十四是碳的放射性同位素。",
+                  "answer": "同位素",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "稳定的同位素不会放出辐射。",
+                  "answer": "同位素",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -562,10 +1018,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "jīyīn"
+                  "ipa": "jīyīn",
+                  "usageNote": "Pinyin jīyīn (基因, transcrição do inglês \"gene\"). Ex.: 基因检测, 基因突变, 基因表达.",
+                  "collocations": [
+                    "基因检测",
+                    "基因表达",
+                    "显性基因"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个基因决定眼睛的颜色。",
+                  "answer": "基因",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "发生变异的基因可能引起遗传病。",
+                  "answer": "基因",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -582,10 +1057,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "méi"
+                  "ipa": "méi",
+                  "usageNote": "Pinyin méi (酶), um só caractere. Ex.: 消化酶, 酶活性. Também 酵素 (em Taiwan/Japão).",
+                  "collocations": [
+                    "消化酶",
+                    "酶活性",
+                    "抑制酶"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "酶可以把淀粉分解成简单的糖。",
+                  "answer": "酶",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "酶需要合适的温度才能工作。",
+                  "answer": "酶",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -602,10 +1096,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zìrán xuǎnzé"
+                  "ipa": "zìrán xuǎnzé",
+                  "usageNote": "Pinyin zìrán xuǎnzé (自然 + 选择). Também 自然淘汰. Mecanismo da evolução.",
+                  "collocations": [
+                    "自然选择学说",
+                    "适者生存",
+                    "适应"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "自然选择使最适应环境的个体占优势。",
+                  "answer": "自然选择",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "达尔文用自然选择解释了进化。",
+                  "answer": "自然选择",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1135,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "shēngtài xìtǒng"
+                  "ipa": "shēngtài xìtǒng",
+                  "usageNote": "Pinyin shēngtài xìtǒng (生态 = ecologia + 系统). Ex.: 海洋生态系统, 生态平衡.",
+                  "collocations": [
+                    "海洋生态系统",
+                    "生态平衡",
+                    "保护生态"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "森林被大量砍伐，影响了整个生态系统。",
+                  "answer": "生态系统",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这个湖的生态系统对水温变化很敏感。",
+                  "answer": "生态系统",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -642,10 +1174,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "guānghé zuòyòng"
+                  "ipa": "guānghé zuòyòng",
+                  "usageNote": "Pinyin guānghé zuòyòng (光合 + 作用). Acontece nos cloroplastos: 叶绿体.",
+                  "collocations": [
+                    "叶绿体",
+                    "进行光合作用",
+                    "二氧化碳"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "光合作用在叶子的叶绿体中进行。",
+                  "answer": "光合作用",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "光线不足时，光合作用无法进行。",
+                  "answer": "光合作用",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -662,10 +1213,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "tūbiàn"
+                  "ipa": "tūbiàn",
+                  "usageNote": "Pinyin tūbiàn (突 = súbito + 变 = mudar). Também 基因突变; ponto: 点突变.",
+                  "collocations": [
+                    "基因突变",
+                    "点突变",
+                    "发生突变"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "突变改变了蛋白质的结构。",
+                  "answer": "突变",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "细胞培养过程中，自然发生了突变。",
+                  "answer": "突变",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -696,10 +1266,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "zhāiyào"
+                  "ipa": "zhāiyào",
+                  "usageNote": "Pinyin zhāiyào (摘 = extrair + 要 = essencial). Resumo de artigo; 关键词 = palavras-chave.",
+                  "collocations": [
+                    "论文摘要",
+                    "关键词",
+                    "撰写摘要"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "论文的摘要要控制在四百字以内。",
+                  "answer": "摘要",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "下载全文之前，我先读了摘要。",
+                  "answer": "摘要",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -716,10 +1305,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "fāngfǎlùn"
+                  "ipa": "fāngfǎlùn",
+                  "usageNote": "Pinyin fāngfǎlùn (方法 + 论 = teoria). Também 研究方法.",
+                  "collocations": [
+                    "定性方法论",
+                    "定量方法论",
+                    "研究方法"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "定量方法论使用数字和统计分析。",
+                  "answer": "方法论",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "论文详细描述了使用的方法论。",
+                  "answer": "方法论",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -736,10 +1344,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yánjiū fāxiàn"
+                  "ipa": "yánjiū fāxiàn",
+                  "usageNote": "Pinyin yánjiū fāxiàn (研究 + 发现 = descoberta). Também 研究成果, 结论.",
+                  "collocations": [
+                    "主要研究发现",
+                    "研究成果",
+                    "发表发现"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项研究发现了有关衰老的新规律。",
+                  "answer": "研究发现",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "团队在学术会议上发表了研究发现。",
+                  "answer": "研究发现",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -756,10 +1383,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "yǐnyòng"
+                  "ipa": "yǐnyòng",
+                  "usageNote": "Pinyin yǐnyòng (引 = puxar + 用 = usar). Verbo: 引用; também 参考文献.",
+                  "collocations": [
+                    "引用文献",
+                    "注明出处",
+                    "参考文献"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "使用别人的文字时，一定要注明引用。",
+                  "answer": "引用",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这项研究在全世界被引用了几千次。",
+                  "answer": "引用",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -776,10 +1422,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "júxiànxìng"
+                  "ipa": "júxiànxìng",
+                  "usageNote": "Pinyin júxiànxìng (局限 = limite + 性). Em artigos: 本研究的局限性.",
+                  "collocations": [
+                    "本研究的局限性",
+                    "指出局限性",
+                    "研究不足"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "本研究的局限性在于样本较小。",
+                  "answer": "局限性",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "作者在讨论的最后提到了局限性。",
+                  "answer": "局限性",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -796,10 +1461,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "ipa": "chóngfù shíyàn"
+                  "ipa": "chóngfù shíyàn",
+                  "usageNote": "Pinyin chóngfù shíyàn (重复 = repetir + 实验). Também 复现; 复现危机 = crise da replicação.",
+                  "collocations": [
+                    "复现",
+                    "复现危机",
+                    "独立重复实验"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "另一个实验室的重复实验证实了结果。",
+                  "answer": "重复实验",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "很多研究没能通过独立的重复实验。",
+                  "answer": "重复实验",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]

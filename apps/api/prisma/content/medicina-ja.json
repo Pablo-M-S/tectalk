@@ -36,10 +36,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんぼう",
-                  "romanization": "shinbou"
+                  "romanization": "shinbou",
+                  "usageNote": "Termo anatômico em kango (心 = coração, 房 = câmara). Plural não se marca; diz-se 右心房 (átrio direito) e 左心房 (átrio esquerdo).",
+                  "collocations": [
+                    "右心房",
+                    "左心房",
+                    "心房細動"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "血液は右心房から右心室へ流れます。",
+                  "answer": "心房",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "左心房の拡大が心エコーで確認されました。",
+                  "answer": "心房",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -57,10 +76,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんしつ",
-                  "romanization": "shinshitsu"
+                  "romanization": "shinshitsu",
+                  "usageNote": "Kango (心 = coração, 室 = câmara). Usa-se 右心室 e 左心室; 心室中隔 é o septo interventricular.",
+                  "collocations": [
+                    "左心室",
+                    "右心室",
+                    "心室中隔"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "左心室は全身へ血液を送り出します。",
+                  "answer": "心室",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "心エコーで心室の壁が厚くなっていることがわかりました。",
+                  "answer": "心室",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -78,10 +116,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "だいどうみゃく",
-                  "romanization": "daidoumyaku"
+                  "romanization": "daidoumyaku",
+                  "usageNote": "Kango (大 = grande + 動脈 = artéria). Ramos: 上行大動脈, 下行大動脈, 腹部大動脈.",
+                  "collocations": [
+                    "腹部大動脈",
+                    "大動脈弁",
+                    "大動脈解離"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "大動脈は心臓から出る最も太い血管です。",
+                  "answer": "大動脈",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "胸の痛みを訴える患者に大動脈解離の疑いがありました。",
+                  "answer": "大動脈",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -99,10 +156,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんきん",
-                  "romanization": "shinkin"
+                  "romanization": "shinkin",
+                  "usageNote": "Kango (心 = coração + 筋 = músculo). Em prontuários aparece em 心筋梗塞 e 心筋症.",
+                  "collocations": [
+                    "心筋症",
+                    "心筋細胞",
+                    "心筋虚血"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "心筋は心臓を動かす特殊な筋肉です。",
+                  "answer": "心筋",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この薬は心筋の収縮力を高めます。",
+                  "answer": "心筋",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +196,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんまく",
-                  "romanization": "shinmaku"
+                  "romanization": "shinmaku",
+                  "usageNote": "Kango (心 + 膜 = membrana). Em prontuários: 心膜炎 (pericardite) e 心嚢水 (derrame pericárdico).",
+                  "collocations": [
+                    "心膜炎",
+                    "心膜腔",
+                    "心膜切開"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "心膜は心臓を包む二重の膜です。",
+                  "answer": "心膜",
+                  "documentType": "ECHO_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "心膜に炎症が起こると胸の痛みが出ます。",
+                  "answer": "心膜",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -143,10 +238,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんぞうべん",
-                  "romanization": "shinzouben"
+                  "romanization": "shinzouben",
+                  "usageNote": "Kango (心臓 + 弁 = válvula). Tipos: 僧帽弁 (mitral), 大動脈弁, 三尖弁, 肺動脈弁.",
+                  "collocations": [
+                    "心臓弁膜症",
+                    "人工心臓弁",
+                    "心臓弁置換術"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "心臓弁は血液が逆流しないように働きます。",
+                  "answer": "心臓弁",
+                  "documentType": "SURGICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "狭窄した心臓弁を人工のものに取り替えました。",
+                  "answer": "心臓弁",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -174,10 +288,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんきんこうそく",
-                  "romanization": "shinkinkousoku"
+                  "romanization": "shinkinkousoku",
+                  "usageNote": "Kango longo e formal; na fala e em siglas usa-se 心梗 raramente; em prontuário também \"MI\". Verbo: 起こす (causar), 発症する.",
+                  "collocations": [
+                    "急性心筋梗塞",
+                    "心筋梗塞を発症する",
+                    "心筋梗塞の既往"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "急性の心筋梗塞は一刻を争う病気です。",
+                  "answer": "心筋梗塞",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "彼は三年前に心筋梗塞を起こしました。",
+                  "answer": "心筋梗塞",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -195,10 +328,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ふせいみゃく",
-                  "romanization": "fuseimyaku"
+                  "romanization": "fuseimyaku",
+                  "usageNote": "Kango (不 = não + 整 = regular + 脈 = pulso). Substantivo; \"tem arritmia\" = 不整脈がある.",
+                  "collocations": [
+                    "不整脈",
+                    "心室性の不整脈",
+                    "不整脈を治療する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "検査で不整脈が見つかりました。",
+                  "answer": "不整脈",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "動悸の原因は不整脈かもしれません。",
+                  "answer": "不整脈",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -216,10 +368,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひんみゃく",
-                  "romanization": "hinmyaku"
+                  "romanization": "hinmyaku",
+                  "usageNote": "Kango (頻 = frequente + 脈). Contrapõe-se a 徐脈. Em prontuário: 頻脈性不整脈.",
+                  "collocations": [
+                    "発作性頻脈",
+                    "洞性頻脈",
+                    "頻脈性不整脈"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "熱があると頻脈になることがあります。",
+                  "answer": "頻脈",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "心拍数が百二十を超え、頻脈と診断しました。",
+                  "answer": "頻脈",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -237,10 +408,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じょみゃく",
-                  "romanization": "jomyaku"
+                  "romanization": "jomyaku",
+                  "usageNote": "Kango (徐 = lento + 脈). Em prontuário: 洞性徐脈, 徐脈性不整脈.",
+                  "collocations": [
+                    "洞性徐脈",
+                    "徐脈性不整脈",
+                    "高度徐脈"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "スポーツ選手には徐脈がよく見られます。",
+                  "answer": "徐脈",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "失神の原因は徐脈だったため、ペースメーカーを入れました。",
+                  "answer": "徐脈",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -260,10 +450,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうけつあつ",
-                  "romanization": "kouketsuatsu"
+                  "romanization": "kouketsuatsu",
+                  "usageNote": "Kango (高 = alto + 血圧 = pressão arterial). Cobre a hipertensão em geral; \"essencial\" = 本態性高血圧.",
+                  "collocations": [
+                    "本態性高血圧",
+                    "高血圧を管理する",
+                    "高血圧症"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "高血圧は自覚症状が少ない病気です。",
+                  "answer": "高血圧",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "減塩と運動は高血圧の予防につながります。",
+                  "answer": "高血圧",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -281,10 +490,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんひだい",
-                  "romanization": "shinhidai"
+                  "romanization": "shinhidai",
+                  "usageNote": "Kango (心 = coração + 肥大 = hipertrofia). Descreve aumento da silhueta no raio-X.",
+                  "collocations": [
+                    "心肥大の所見",
+                    "左室肥大",
+                    "軽度の心肥大"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "胸部写真で心肥大が指摘されました。",
+                  "answer": "心肥大",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "長年の高血圧が心肥大の原因になることがあります。",
+                  "answer": "心肥大",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -316,10 +544,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はいえん",
-                  "romanization": "haien"
+                  "romanization": "haien",
+                  "usageNote": "Kango (肺 = pulmão + 炎 = inflamação). Variantes: 誤嚥性肺炎 (por aspiração), 市中肺炎 (adquirida na comunidade).",
+                  "collocations": [
+                    "誤嚥性肺炎",
+                    "市中肺炎",
+                    "肺炎を起こす"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "高齢者は肺炎にかかると重症化しやすいです。",
+                  "answer": "肺炎",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "抗菌薬で肺炎の治療を始めました。",
+                  "answer": "肺炎",
+                  "documentType": "DISCHARGE_SUMMARY"
+                }
+              ],
               "segments": {}
             },
             {
@@ -337,10 +584,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "きかんしえん",
-                  "romanization": "kikanshien"
+                  "romanization": "kikanshien",
+                  "usageNote": "Kango (気管支 = brônquio + 炎). Tipos: 急性気管支炎 e 慢性気管支炎.",
+                  "collocations": [
+                    "急性気管支炎",
+                    "慢性気管支炎",
+                    "気管支炎を繰り返す"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "風邪のあとに気管支炎になる人は多いです。",
+                  "answer": "気管支炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "咳が三週間続いたため気管支炎を疑いました。",
+                  "answer": "気管支炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -358,10 +624,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ぜんそく",
-                  "romanization": "zensoku"
+                  "romanization": "zensoku",
+                  "usageNote": "Kango (喘息). Diz-se 気管支喘息 em termos completos; crise = 喘息発作.",
+                  "collocations": [
+                    "気管支喘息",
+                    "喘息発作",
+                    "小児喘息"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "喘息は気道が狭くなって息苦しくなる病気です。",
+                  "answer": "喘息",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "夜間の咳が続くので喘息の検査をしました。",
+                  "answer": "喘息",
+                  "documentType": "PULMONARY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -379,10 +664,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こきゅうこんなん",
-                  "romanization": "kokyuukonnan"
+                  "romanization": "kokyuukonnan",
+                  "usageNote": "Kango (呼吸 = respiração + 困難 = dificuldade). Em prontuário: 労作時呼吸困難 (aos esforços).",
+                  "collocations": [
+                    "労作時呼吸困難",
+                    "呼吸困難を訴える",
+                    "急性呼吸困難"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "患者は階段を上ると呼吸困難が出ると話しました。",
+                  "answer": "呼吸困難",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "突然の呼吸困難で救急外来を受診しました。",
+                  "answer": "呼吸困難",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -400,10 +704,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "はいそくせんしょう",
-                  "romanization": "haisokusenshou"
+                  "romanization": "haisokusenshou",
+                  "usageNote": "Kango (肺 + 塞栓 = êmbolo + 症). Frequentemente associado a 深部静脈血栓症 (trombose venosa profunda).",
+                  "collocations": [
+                    "急性肺塞栓症",
+                    "深部静脈血栓症",
+                    "肺塞栓症を予防する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "長時間の飛行のあとに肺塞栓症を起こすことがあります。",
+                  "answer": "肺塞栓症",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "造影CTで肺塞栓症が確認されました。",
+                  "answer": "肺塞栓症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -421,10 +744,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "きょうすい",
-                  "romanization": "kyousui"
+                  "romanization": "kyousui",
+                  "usageNote": "Kango curto (胸 = tórax + 水 = líquido). Termo formal: 胸水貯留; 胸水穿刺 é a toracocentese.",
+                  "collocations": [
+                    "胸水貯留",
+                    "胸水穿刺",
+                    "胸水を抜く"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "画像で右の胸水が見つかりました。",
+                  "answer": "胸水",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "呼吸が苦しいため、胸水を抜く処置を行いました。",
+                  "answer": "胸水",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -456,10 +798,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せいけん",
-                  "romanization": "seiken"
+                  "romanization": "seiken",
+                  "usageNote": "Kango (生 = vivo + 検 = exame). Tipos: 針生検, 内視鏡下生検.",
+                  "collocations": [
+                    "針生検",
+                    "生検を行う",
+                    "生検の結果"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "腫瘍の性質を調べるために生検を行いました。",
+                  "answer": "生検",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "生検の結果は一週間後に出ます。",
+                  "answer": "生検",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -477,10 +838,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "そうかん",
-                  "romanization": "soukan"
+                  "romanization": "soukan",
+                  "usageNote": "Kango (挿 = inserir + 管 = tubo). \"気管挿管\" = intubação traqueal; extubar = 抜管.",
+                  "collocations": [
+                    "気管挿管",
+                    "挿管を行う",
+                    "挿管チューブ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "呼吸が止まったため、すぐに挿管しました。",
+                  "answer": "挿管",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "手術の前に挿管の準備をしておきます。",
+                  "answer": "挿管",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -498,10 +878,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ますい",
-                  "romanization": "masui"
+                  "romanization": "masui",
+                  "usageNote": "Kango (麻 = adormecer + 酔 = embriaguez). Tipos: 全身麻酔, 局所麻酔, 脊髄くも膜下麻酔.",
+                  "collocations": [
+                    "全身麻酔",
+                    "局所麻酔",
+                    "麻酔科医"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "手術は全身麻酔で行います。",
+                  "answer": "麻酔",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "麻酔が覚めるまで病室で休んでください。",
+                  "answer": "麻酔",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -518,10 +917,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "kateeteru"
+                  "romanization": "kateeteru",
+                  "usageNote": "Gairaigo do inglês \"catheter\", escrito em katakana. Tipos: 中心静脈カテーテル, 尿道カテーテル.",
+                  "collocations": [
+                    "中心静脈カテーテル",
+                    "カテーテルを挿入する",
+                    "カテーテル治療"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "細い血管にカテーテルを通して治療を行います。",
+                  "answer": "カテーテル",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "カテーテルが抜けないように固定してください。",
+                  "answer": "カテーテル",
+                  "documentType": "PROGRESS_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -539,10 +957,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ほうごう",
-                  "romanization": "hougou"
+                  "romanization": "hougou",
+                  "usageNote": "Kango (縫 = costurar + 合 = unir). Fio = 縫合糸; \"pontos\" = 針. Verbo: 縫合する.",
+                  "collocations": [
+                    "縫合糸",
+                    "創を縫合する",
+                    "縫合不全"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "傷が深かったので縫合が必要です。",
+                  "answer": "縫合",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "縫合のあとは一週間で抜糸します。",
+                  "answer": "縫合",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -560,10 +997,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "せつじょ",
-                  "romanization": "setsujo"
+                  "romanization": "setsujo",
+                  "usageNote": "Kango (切 = cortar + 除 = remover). Em prontuário: 腫瘍切除, 部分切除, 全摘 (remoção total).",
+                  "collocations": [
+                    "腫瘍切除",
+                    "部分切除",
+                    "切除範囲"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "胃の三分の二を切除しました。",
+                  "answer": "切除",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "手術では腫瘍を完全に切除することを目指します。",
+                  "answer": "切除",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -595,10 +1051,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんだん",
-                  "romanization": "shindan"
+                  "romanization": "shindan",
+                  "usageNote": "Kango (診 = examinar + 断 = julgar). Verbo: 診断する; \"diagnóstico definitivo\" = 確定診断.",
+                  "collocations": [
+                    "確定診断",
+                    "診断をつける",
+                    "早期診断"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "検査の結果をもとに診断を確定します。",
+                  "answer": "診断",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "早期の診断が治療の成功につながります。",
+                  "answer": "診断",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -616,10 +1091,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かんべつしんだん",
-                  "romanization": "kanbetsushindan"
+                  "romanization": "kanbetsushindan",
+                  "usageNote": "Kango (鑑別 = distinguir + 診断). Fala-se \"鑑別に挙げる\" (incluir na lista de diferenciais).",
+                  "collocations": [
+                    "鑑別に挙げる",
+                    "鑑別疾患",
+                    "鑑別診断を行う"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "胸痛の鑑別診断には心筋梗塞や肺塞栓症があります。",
+                  "answer": "鑑別診断",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "医師は症状から複数の鑑別診断を考えました。",
+                  "answer": "鑑別診断",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -637,10 +1131,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "よご",
-                  "romanization": "yogo"
+                  "romanization": "yogo",
+                  "usageNote": "Kango curto (予 = antecipadamente + 後 = depois). \"予後良好\" = bom prognóstico; \"予後不良\" = mau.",
+                  "collocations": [
+                    "予後良好",
+                    "予後不良",
+                    "予後を予測する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この病気は早く見つければ予後が良好です。",
+                  "answer": "予後",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "医師は家族に予後について説明しました。",
+                  "answer": "予後",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -658,10 +1171,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "びょういん",
-                  "romanization": "byouin"
+                  "romanization": "byouin",
+                  "usageNote": "Kango (病 = doença + 因 = causa). Mais formal que 原因; \"原因不明\" = etiologia desconhecida.",
+                  "collocations": [
+                    "病因を探る",
+                    "病因不明",
+                    "病因論"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この病気の病因はまだ完全には解明されていません。",
+                  "answer": "病因",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "病因を明らかにするために追加の検査を行います。",
+                  "answer": "病因",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -679,10 +1211,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "へいぞんしっかん",
-                  "romanization": "heizonshikkan"
+                  "romanization": "heizonshikkan",
+                  "usageNote": "Kango (併存 = coexistir + 疾患 = doença). Também \"合併症\" (complicação), que é diferente.",
+                  "collocations": [
+                    "併存疾患を持つ",
+                    "併存疾患の管理",
+                    "重い併存疾患"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "高齢者は複数の併存疾患を抱えていることが多いです。",
+                  "answer": "併存疾患",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "治療を選ぶときは併存疾患も考慮します。",
+                  "answer": "併存疾患",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -700,10 +1251,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "きんき",
-                  "romanization": "kinki"
+                  "romanization": "kinki",
+                  "usageNote": "Kango curto (禁 = proibir + 忌 = evitar). \"絶対禁忌\" = absoluta; \"相対禁忌\" = relativa.",
+                  "collocations": [
+                    "絶対禁忌",
+                    "相対禁忌",
+                    "禁忌に該当する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "妊婦には禁忌の薬があります。",
+                  "answer": "禁忌",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この薬は腎不全の患者に対しては禁忌です。",
+                  "answer": "禁忌",
+                  "documentType": "RADIOLOGY_REQUEST"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -735,10 +1305,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "のうそっちゅう",
-                  "romanization": "nousocchuu"
+                  "romanization": "nousocchuu",
+                  "usageNote": "Kango (脳 = cérebro + 卒中 = golpe súbito). Tipos: 脳梗塞 (isquêmico), 脳出血 (hemorrágico).",
+                  "collocations": [
+                    "脳梗塞",
+                    "脳出血",
+                    "脳卒中の予防"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "脳卒中は日本の主な死因の一つです。",
+                  "answer": "脳卒中",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "突然の言葉の障害は脳卒中のサインかもしれません。",
+                  "answer": "脳卒中",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -756,10 +1345,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "てんかんほっさ",
-                  "romanization": "tenkanhossa"
+                  "romanization": "tenkanhossa",
+                  "usageNote": "Composto: てんかん (epilepsia, hiragana) + 発作 (crise). Também 痙攣発作 para convulsão geral.",
+                  "collocations": [
+                    "てんかん発作",
+                    "全般発作",
+                    "発作を抑える"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "子どもが突然てんかん発作を起こしました。",
+                  "answer": "てんかん発作",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "抗てんかん薬でてんかん発作をコントロールします。",
+                  "answer": "てんかん発作",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -777,10 +1385,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "へんずつう",
-                  "romanization": "henzutsuu"
+                  "romanization": "henzutsuu",
+                  "usageNote": "Kango (片 = um lado + 頭痛 = dor de cabeça). Costuma vir com 前兆 (aura).",
+                  "collocations": [
+                    "前兆のある片頭痛",
+                    "慢性片頭痛",
+                    "片頭痛発作"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "片頭痛は頭の片側がずきずき痛みます。",
+                  "answer": "片頭痛",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "光や音で片頭痛が悪化する人もいます。",
+                  "answer": "片頭痛",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -798,10 +1425,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんけいしょうがい",
-                  "romanization": "shinkeishougai"
+                  "romanization": "shinkeishougai",
+                  "usageNote": "Kango (神経 = nervo + 障害 = distúrbio). Em diabéticos: 糖尿病性神経障害.",
+                  "collocations": [
+                    "末梢神経障害",
+                    "糖尿病性神経障害",
+                    "神経障害性疼痛"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "手足のしびれは神経障害の症状です。",
+                  "answer": "神経障害",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "長期の糖尿病は神経障害を引き起こすことがあります。",
+                  "answer": "神経障害",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -819,10 +1465,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "にんちしょう",
-                  "romanization": "ninchishou"
+                  "romanization": "ninchishou",
+                  "usageNote": "Kango (認知 = cognição + 症). Substituiu o termo antigo 痴呆, hoje evitado; tipo mais comum: アルツハイマー型認知症.",
+                  "collocations": [
+                    "アルツハイマー型認知症",
+                    "認知症の症状",
+                    "認知症を予防する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "認知症の人には安心できる環境が大切です。",
+                  "answer": "認知症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "物忘れが増えたので認知症の検査を受けました。",
+                  "answer": "認知症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -840,10 +1505,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "のうしんとう",
-                  "romanization": "noushintou"
+                  "romanization": "noushintou",
+                  "usageNote": "Kango (脳 = cérebro + 震盪 = abalo). Em português é \"concussão\". Também \"脳挫傷\" é contusão.",
+                  "collocations": [
+                    "軽度の脳震盪",
+                    "脳震盪を起こす",
+                    "脳震盪の症状"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "転倒して頭を打ち、脳震盪を起こしました。",
+                  "answer": "脳震盪",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "脳震盪のあとは数日間、安静にしてください。",
+                  "answer": "脳震盪",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -875,10 +1559,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "いえん",
-                  "romanization": "ien"
+                  "romanization": "ien",
+                  "usageNote": "Kango (胃 = estômago + 炎). Tipos: 急性胃炎, 慢性胃炎; 萎縮性胃炎 é a atrófica.",
+                  "collocations": [
+                    "急性胃炎",
+                    "慢性胃炎",
+                    "ピロリ菌胃炎"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ストレスが重なると急性の胃炎を起こしやすいです。",
+                  "answer": "胃炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "内視鏡で調べたところ、胃炎が見つかりました。",
+                  "answer": "胃炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -896,10 +1599,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しょうかせいかいよう",
-                  "romanization": "shoukaseikaiyou"
+                  "romanization": "shoukaseikaiyou",
+                  "usageNote": "Kango (消化性 = péptico + 潰瘍 = úlcera). Subtipos: 胃潰瘍 e 十二指腸潰瘍.",
+                  "collocations": [
+                    "胃潰瘍",
+                    "十二指腸潰瘍",
+                    "潰瘍の再発"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "消化性潰瘍の主な原因はピロリ菌と鎮痛薬です。",
+                  "answer": "消化性潰瘍",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "出血を伴う消化性潰瘍は緊急の治療が必要です。",
+                  "answer": "消化性潰瘍",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -917,10 +1639,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かんこうへん",
-                  "romanization": "kankouhen"
+                  "romanization": "kankouhen",
+                  "usageNote": "Kango (肝 = fígado + 硬変 = endurecimento). Causas: ウイルス性, アルコール性.",
+                  "collocations": [
+                    "肝硬変を起こす",
+                    "アルコール性肝硬変",
+                    "代償性肝硬変"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "肝硬変では肝臓が硬くなり、働きが落ちます。",
+                  "answer": "肝硬変",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "長年の飲酒が肝硬変の原因になりました。",
+                  "answer": "肝硬変",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -938,10 +1679,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "かんえん",
-                  "romanization": "kanen"
+                  "romanization": "kanen",
+                  "usageNote": "Kango (肝 = fígado + 炎). Tipos: A型肝炎, B型肝炎, C型肝炎 (a letra vem antes de 型).",
+                  "collocations": [
+                    "B型肝炎",
+                    "C型肝炎",
+                    "劇症肝炎"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ウイルスが原因で肝炎を発症しました。",
+                  "answer": "肝炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "血液検査で肝炎ウイルスが見つかりました。",
+                  "answer": "肝炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -959,10 +1719,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ちゅうすいえん",
-                  "romanization": "chuusuien"
+                  "romanization": "chuusuien",
+                  "usageNote": "Kango (虫垂 = apêndice + 炎). A palavra popular 盲腸 é imprecisa; a forma correta é 虫垂炎.",
+                  "collocations": [
+                    "急性虫垂炎",
+                    "虫垂炎の手術",
+                    "虫垂切除"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "右下腹部の痛みから虫垂炎が疑われました。",
+                  "answer": "虫垂炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "虫垂炎が悪化する前に手術を行いました。",
+                  "answer": "虫垂炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -980,10 +1759,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "いしょくどうぎゃくりゅう",
-                  "romanization": "ishokudougyakuryuu"
+                  "romanization": "ishokudougyakuryuu",
+                  "usageNote": "Kango (胃 + 食道 + 逆流 = refluxo). Doença completa: 逆流性食道炎; 胸やけ = azia.",
+                  "collocations": [
+                    "逆流性食道炎",
+                    "胃食道逆流を抑える",
+                    "胸やけ"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "食後に横になると胃食道逆流が起こりやすくなります。",
+                  "answer": "胃食道逆流",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "胃食道逆流のため、夜に咳が出る人もいます。",
+                  "answer": "胃食道逆流",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1015,10 +1813,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "とうにょうびょう",
-                  "romanization": "tounyoubyou"
+                  "romanization": "tounyoubyou",
+                  "usageNote": "Kango (糖 = açúcar + 尿 = urina + 病). Tipos: 1型糖尿病 (数字 antes de 型) e 2型糖尿病.",
+                  "collocations": [
+                    "2型糖尿病",
+                    "糖尿病を管理する",
+                    "糖尿病性腎症"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "糖尿病は血糖値が高い状態が続く病気です。",
+                  "answer": "糖尿病",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "食事と運動は糖尿病の治療の基本です。",
+                  "answer": "糖尿病",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1035,10 +1852,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "insurin"
+                  "romanization": "insurin",
+                  "usageNote": "Gairaigo do inglês \"insulin\" (katakana). \"Injetar\" = インスリンを注射する; 自己注射 = autoaplicação.",
+                  "collocations": [
+                    "インスリン注射",
+                    "インスリン抵抗性",
+                    "インスリンを分泌する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "膵臓はインスリンというホルモンを作ります。",
+                  "answer": "インスリン",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "彼は食前にインスリンを自分で注射しています。",
+                  "answer": "インスリン",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1056,10 +1892,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうじょうせんきのうていかしょう",
-                  "romanization": "koujousenkinouteikashou"
+                  "romanization": "koujousenkinouteikashou",
+                  "usageNote": "Kango longo (甲状腺 = tireoide + 機能低下症 = hipofunção). Tratamento: 甲状腺ホルモン補充.",
+                  "collocations": [
+                    "慢性甲状腺炎",
+                    "甲状腺ホルモン補充",
+                    "甲状腺機能低下症の症状"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "甲状腺機能低下症では疲れやすく、体重が増えます。",
+                  "answer": "甲状腺機能低下症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "橋本病は甲状腺機能低下症の代表的な原因です。",
+                  "answer": "甲状腺機能低下症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1077,10 +1932,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "こうじょうせんきのうこうしんしょう",
-                  "romanization": "koujousenkinoukoushinshou"
+                  "romanization": "koujousenkinoukoushinshou",
+                  "usageNote": "Kango longo (機能亢進症 = hiperfunção). Doença típica: バセドウ病 (Graves).",
+                  "collocations": [
+                    "バセドウ病",
+                    "甲状腺ホルモン過剰",
+                    "甲状腺機能亢進症の治療"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "甲状腺機能亢進症では動悸や汗が増えます。",
+                  "answer": "甲状腺機能亢進症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "バセドウ病は甲状腺機能亢進症を起こす病気です。",
+                  "answer": "甲状腺機能亢進症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1098,10 +1972,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けっとう",
-                  "romanization": "kettou"
+                  "romanization": "kettou",
+                  "usageNote": "Kango curto (血 = sangue + 糖 = açúcar). Em prontuário, \"血糖値\" é o valor medido; \"空腹時血糖\" = jejum.",
+                  "collocations": [
+                    "空腹時血糖",
+                    "血糖値を測る",
+                    "血糖コントロール"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "食後は血糖が上がります。",
+                  "answer": "血糖",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "朝食の前に血糖を測って記録してください。",
+                  "answer": "血糖",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1119,10 +2012,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ひまん",
-                  "romanization": "himan"
+                  "romanization": "himan",
+                  "usageNote": "Kango (肥 = gordo + 満 = cheio). Classificação pelo IMC (BMI): 25 ou mais = 肥満.",
+                  "collocations": [
+                    "肥満症",
+                    "肥満を解消する",
+                    "内臓脂肪型肥満"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "肥満は高血圧や糖尿病のリスクを高めます。",
+                  "answer": "肥満",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "医師は食事と運動で肥満を改善するよう勧めました。",
+                  "answer": "肥満",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1154,10 +2066,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ぜんけっきゅうけいさん",
-                  "romanization": "zenkekkyuukeisan"
+                  "romanization": "zenkekkyuukeisan",
+                  "usageNote": "Kango (全 = completo + 血球 = células sanguíneas + 計算 = contagem). Na prática diz-se também \"血算\" (abreviação).",
+                  "collocations": [
+                    "血算",
+                    "全血球計算を行う",
+                    "白血球数"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "貧血が疑われるため、全血球計算を行います。",
+                  "answer": "全血球計算",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "全血球計算では赤血球と白血球の数を調べます。",
+                  "answer": "全血球計算",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1174,10 +2105,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "hemogurobin"
+                  "romanization": "hemogurobin",
+                  "usageNote": "Gairaigo do alemão/inglês, katakana (ヘモグロビン); abreviação Hb. \"Anemia\" = 貧血.",
+                  "collocations": [
+                    "ヘモグロビン値",
+                    "ヘモグロビンA1c",
+                    "ヘモグロビンの低下"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ヘモグロビンは血液中で酸素を運びます。",
+                  "answer": "ヘモグロビン",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "貧血の患者さんのヘモグロビンが低下していました。",
+                  "answer": "ヘモグロビン",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1194,10 +2144,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "kureachinin"
+                  "romanization": "kureachinin",
+                  "usageNote": "Gairaigo em katakana (クレアチニン). Marcador da função renal. Abreviação: Cr.",
+                  "collocations": [
+                    "クレアチニン値",
+                    "血清クレアチニン",
+                    "クレアチニンの上昇"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "腎臓の働きは血液中のクレアチニンで評価します。",
+                  "answer": "クレアチニン",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "検査でクレアチニンが高く、腎機能の低下が疑われました。",
+                  "answer": "クレアチニン",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1215,10 +2184,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "けっせい",
-                  "romanization": "kessei"
+                  "romanization": "kessei",
+                  "usageNote": "Kango (血 + 清 = claro). Em laboratório: 血清カリウム, 血清アルブミン.",
+                  "collocations": [
+                    "血清カリウム",
+                    "血清アルブミン",
+                    "血清を分離する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "採血した血液から血清を分離します。",
+                  "answer": "血清",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "血清のカリウム値が基準より高くなっていました。",
+                  "answer": "血清",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1236,10 +2224,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "にょうけんさ",
-                  "romanization": "nyoukensa"
+                  "romanization": "nyoukensa",
+                  "usageNote": "Kango (尿 = urina + 検査 = exame). Costuma-se dizer 尿検査 = EAS; 尿沈渣 é o sedimento.",
+                  "collocations": [
+                    "尿検査を受ける",
+                    "尿沈渣",
+                    "尿タンパク"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "健康診断では必ず尿検査を行います。",
+                  "answer": "尿検査",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "尿検査で血液が混ざっていることがわかりました。",
+                  "answer": "尿検査",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1257,10 +2264,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ばいよう",
-                  "romanization": "baiyou"
+                  "romanization": "baiyou",
+                  "usageNote": "Kango (培 = cultivar + 養 = nutrir). Tipos: 血液培養, 尿培養, 細菌培養.",
+                  "collocations": [
+                    "血液培養",
+                    "細菌培養",
+                    "培養検査"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "感染の原因菌を調べるために培養を行います。",
+                  "answer": "培養",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "培養の結果が出るまで二日かかります。",
+                  "answer": "培養",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1292,10 +2318,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ちょうおんぱけんさ",
-                  "romanization": "chouonpakensa"
+                  "romanization": "chouonpakensa",
+                  "usageNote": "Kango (超音波 = ultrassom + 検査). Abreviação coloquial: エコー (do inglês echo).",
+                  "collocations": [
+                    "腹部超音波検査",
+                    "心臓超音波検査",
+                    "エコー検査"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "妊娠中は定期的に超音波検査を受けます。",
+                  "answer": "超音波検査",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "腹部の痛みの原因を探すために超音波検査を行いました。",
+                  "answer": "超音波検査",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1313,10 +2358,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "コンピュータだんそうさつえい",
-                  "romanization": "konpyuutadansousatsuei"
+                  "romanization": "konpyuutadansousatsuei",
+                  "usageNote": "Katakana + kango: コンピュータ (computador) + 断層 (corte) + 撮影. Na prática diz-se \"CT\" (シーティー).",
+                  "collocations": [
+                    "CT検査",
+                    "造影CT",
+                    "頭部CT"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コンピュータ断層撮影は体の断面を画像にします。",
+                  "answer": "コンピュータ断層撮影",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "事故のあと、頭部のコンピュータ断層撮影を行いました。",
+                  "answer": "コンピュータ断層撮影",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1334,10 +2398,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "じききょうめいがぞう",
-                  "romanization": "jikikyoumeigazou"
+                  "romanization": "jikikyoumeigazou",
+                  "usageNote": "Kango (磁気 = magnético + 共鳴 = ressonância + 画像). Na prática diz-se \"MRI\" (エムアールアイ).",
+                  "collocations": [
+                    "MRI検査",
+                    "頭部MRI",
+                    "造影MRI"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "磁気共鳴画像は放射線を使わない検査です。",
+                  "answer": "磁気共鳴画像",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "脳の詳しい状態は磁気共鳴画像で調べます。",
+                  "answer": "磁気共鳴画像",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1355,10 +2438,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "エックスせんしゃしん",
-                  "romanization": "ekkususenshashin"
+                  "romanization": "ekkususenshashin",
+                  "usageNote": "Composto: X線 (raio-X) + 写真. Exames comuns: 胸部X線写真, 腹部X線写真.",
+                  "collocations": [
+                    "胸部X線写真",
+                    "X線写真を撮る",
+                    "レントゲン"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "肺の影を調べるために胸のX線写真を撮りました。",
+                  "answer": "X線写真",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "骨折の有無はX線写真で確認します。",
+                  "answer": "X線写真",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1376,10 +2478,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "ぞうえいざい",
-                  "romanization": "zoueizai"
+                  "romanization": "zoueizai",
+                  "usageNote": "Kango (造 = criar + 影 = imagem + 剤 = agente). Reações: 造影剤アレルギー.",
+                  "collocations": [
+                    "造影剤アレルギー",
+                    "造影剤を注射する",
+                    "ヨード造影剤"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "検査の前に造影剤を血管から注射します。",
+                  "answer": "造影剤",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "造影剤にアレルギーがある人は事前に申し出てください。",
+                  "answer": "造影剤",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1397,10 +2518,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "びょうへん",
-                  "romanization": "byouhen"
+                  "romanization": "byouhen",
+                  "usageNote": "Kango (病 = doença + 変 = alteração). Termo genérico para qualquer lesão visível em imagem.",
+                  "collocations": [
+                    "病変を認める",
+                    "病変の範囲",
+                    "腫瘍性病変"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "CTで肝臓に小さな病変が見つかりました。",
+                  "answer": "病変",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "内視鏡で病変の一部を採取しました。",
+                  "answer": "病変",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1432,10 +2572,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しゅそ",
-                  "romanization": "shuso"
+                  "romanization": "shuso",
+                  "usageNote": "Kango curto (主 = principal + 訴 = queixa). Aparece no início do prontuário: 主訴.",
+                  "collocations": [
+                    "主訴は胸痛",
+                    "主訴を聞く",
+                    "主訴と現病歴"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "患者の主訴は三日前からの腹痛です。",
+                  "answer": "主訴",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "診察では、まず主訴を丁寧に聞き取ります。",
+                  "answer": "主訴",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1453,10 +2612,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "びょうれき",
-                  "romanization": "byoureki"
+                  "romanization": "byoureki",
+                  "usageNote": "Kango (病 = doença + 歴 = histórico). Em prontuário: 既往歴 (passado), 現病歴 (doença atual), 家族歴.",
+                  "collocations": [
+                    "既往歴",
+                    "現病歴",
+                    "病歴を聴取する"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "初診のときに詳しい病歴を伺います。",
+                  "answer": "病歴",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "病歴からアレルギーがあることがわかりました。",
+                  "answer": "病歴",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1474,10 +2652,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "しんたいしんさつ",
-                  "romanization": "shintaishinsatsu"
+                  "romanization": "shintaishinsatsu",
+                  "usageNote": "Kango (身体 = corpo + 診察 = consulta). Etapas: 視診, 触診, 打診, 聴診.",
+                  "collocations": [
+                    "視診・触診・聴診",
+                    "身体診察を行う",
+                    "身体診察所見"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "身体診察で腹部に圧痛を認めました。",
+                  "answer": "身体診察",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "医師は問診のあとに身体診察を行いました。",
+                  "answer": "身体診察",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1494,10 +2691,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "baitarusain"
+                  "romanization": "baitarusain",
+                  "usageNote": "Gairaigo (バイタル = vital + サイン = sinal). Inclui pressão, pulso, temperatura, respiração e SpO2.",
+                  "collocations": [
+                    "バイタルサインを測定する",
+                    "バイタルサインが安定する",
+                    "バイタルチェック"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "看護師はまずバイタルサインを測定しました。",
+                  "answer": "バイタルサイン",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "手術のあとはバイタルサインを一時間ごとに確認します。",
+                  "answer": "バイタルサイン",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1514,10 +2730,29 @@
                   "definition": "",
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
-                  "romanization": "infoomudo・konsento"
+                  "romanization": "infoomudo・konsento",
+                  "usageNote": "Gairaigo de \"informed consent\" (インフォームド・コンセント); sigla IC. Explicação + concordância por escrito.",
+                  "collocations": [
+                    "インフォームド・コンセントを得る",
+                    "同意書",
+                    "十分な説明"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "手術の前にインフォームド・コンセントを取ります。",
+                  "answer": "インフォームド・コンセント",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "患者さんが納得したうえで、インフォームド・コンセントの書類に署名しました。",
+                  "answer": "インフォームド・コンセント",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1535,10 +2770,29 @@
                   "informalForms": [],
                   "partOfSpeech": "NOUN",
                   "ipa": "たいいんサマリー",
-                  "romanization": "taiinsamarii"
+                  "romanization": "taiinsamarii",
+                  "usageNote": "Gairaigo (サマリー = resumo) com kango (退院 = alta). Também \"退院時要約\".",
+                  "collocations": [
+                    "退院サマリーを作成する",
+                    "退院時要約",
+                    "紹介状"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "主治医が退院サマリーを作成しました。",
+                  "answer": "退院サマリー",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "退院サマリーは、かかりつけ医にも送られます。",
+                  "answer": "退院サマリー",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
