@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Alert, Pressable, ScrollView, Switch, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -6,6 +7,7 @@ import * as Updates from 'expo-updates';
 import { useStats, useUpdateProfile } from '@/api/hooks';
 import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
+import { DeleteAccountModal } from '@/components/DeleteAccountModal';
 import { Flag } from '@/components/Flag';
 import { ReminderTimePicker } from '@/components/ReminderTimePicker';
 import { TopBar } from '@/components/TopBar';
@@ -78,6 +80,7 @@ function ThemePicker() {
 export default function ProfileScreen() {
   const theme = useTheme();
   const router = useRouter();
+  const [deleting, setDeleting] = useState(false);
   const user = useAuth((state) => state.user);
   const basicHistory = useBasicStats((state) => state.history);
   const signOut = useAuth((state) => state.signOut);
@@ -255,7 +258,14 @@ export default function ProfileScreen() {
           <Button label="Verificar atualização" variant="secondary" onPress={() => void checkUpdate()} />
         </View>
 
+        <View style={card}>
+          <Text variant="label" tone="muted">Privacidade</Text>
+          <Button label="Política de privacidade" variant="secondary" onPress={() => router.push('/privacy')} />
+          <Button label="Excluir minha conta" variant="ghost" onPress={() => setDeleting(true)} />
+        </View>
+
         <Button label="Sair" variant="ghost" onPress={() => void signOut()} />
+        <DeleteAccountModal visible={deleting} onClose={() => setDeleting(false)} />
       </ScrollView>
     </SafeAreaView>
   );

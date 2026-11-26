@@ -5,9 +5,8 @@ import { ExerciseService } from '../content/exercise.service';
 import { PrismaService } from '../prisma/prisma.service';
 import { StatsService } from '../stats/stats.service';
 import { FsrsService } from './fsrs.service';
+import { uniqueResults, XP_PER_CORRECT_REVIEW } from '../progress/xp.rules';
 import { ExerciseResult } from './review.schemas';
-
-const XP_PER_CORRECT_REVIEW = 2;
 
 interface ApplyParams {
   userId: string;
@@ -50,7 +49,7 @@ export class ReviewService {
       select: { id: true },
     });
     const known = new Set(knownTerms.map((t) => t.id));
-    const valid = results.filter((r) => known.has(r.termId));
+    const valid = uniqueResults(results.filter((r) => known.has(r.termId)));
     if (valid.length === 0) {
       throw new BadRequestException('Nenhum resultado válido para esta trilha');
     }

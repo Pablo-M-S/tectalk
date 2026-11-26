@@ -1,8 +1,10 @@
-import { Body, Controller, Get, HttpCode, Patch, Post, UseGuards } from '@nestjs/common';
+import { Body, Controller, Delete, Get, HttpCode, Patch, Post, UseGuards } from '@nestjs/common';
 import { Throttle } from '@nestjs/throttler';
 import { AuthUser, CurrentUser } from '../common/current-user.decorator';
 import { ZodValidationPipe } from '../common/zod-validation.pipe';
 import {
+  DeleteAccountInput,
+  deleteAccountSchema,
   LoginInput,
   loginSchema,
   RegisterInput,
@@ -43,5 +45,16 @@ export class AuthController {
     @Body(new ZodValidationPipe(updateProfileSchema)) body: UpdateProfileInput,
   ) {
     return this.auth.updateProfile(user.id, body);
+  }
+
+  @Delete('me')
+  @HttpCode(204)
+  @UseGuards(JwtAuthGuard)
+  @Throttle({ default: { limit: 5, ttl: 60_000 } })
+  async deleteAccount(
+    @CurrentUser() user: AuthUser,
+    @Body(new ZodValidationPipe(deleteAccountSchema)) body: DeleteAccountInput,
+  ): Promise<void> {
+    await this.auth.deleteAccount(user.id, body.password);
   }
 }

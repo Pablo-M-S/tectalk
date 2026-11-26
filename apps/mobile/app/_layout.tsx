@@ -57,6 +57,7 @@ export default function RootLayout() {
       <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: theme.bg } }}>
         <Stack.Screen name="index" />
+        <Stack.Screen name="privacy" />
         <Stack.Protected guard={signedIn}>
           <Stack.Screen name="onboarding" options={{ gestureEnabled: false }} />
           <Stack.Screen name="areas" />

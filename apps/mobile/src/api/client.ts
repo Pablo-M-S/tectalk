@@ -22,7 +22,7 @@ export function configureClient(next: ClientHooks): void {
 }
 
 interface RequestOptions {
-  method?: 'GET' | 'POST' | 'PATCH';
+  method?: 'GET' | 'POST' | 'PATCH' | 'DELETE';
   body?: unknown;
   auth?: boolean;
   /** O servidor gratuito pode levar cerca de 1 minuto para acordar. */

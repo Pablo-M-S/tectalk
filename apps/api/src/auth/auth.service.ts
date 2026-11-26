@@ -1,9 +1,12 @@
-import { ConflictException, Injectable, UnauthorizedException } from '@nestjs/common';
+import { ConflictException, ForbiddenException, Injectable, UnauthorizedException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { Prisma, User } from '@prisma/client';
 import { argon2id, hash, verify } from 'argon2';
 import { PrismaService } from '../prisma/prisma.service';
 import { LoginInput, RegisterInput, UpdateProfileInput } from './auth.schemas';
+
+// Hash de uma senha qualquer: o login gasta o mesmo tempo exista a conta ou não.
+const DUMMY_HASH = hash('tectalk-senha-inexistente', { type: argon2id });
 
 const toPublicUser = (user: User) => ({
   id: user.id,
@@ -50,7 +53,7 @@ export class AuthService {
 
   async login(input: LoginInput) {
     const user = await this.prisma.user.findUnique({ where: { email: input.email } });
-    const valid = user ? await verify(user.passwordHash, input.password) : false;
+    const valid = await verify(user?.passwordHash ?? (await DUMMY_HASH), input.password);
     if (!user || !valid) {
       throw new UnauthorizedException('E-mail ou senha incorretos');
     }
@@ -72,6 +75,15 @@ export class AuthService {
       },
     });
     return toPublicUser(user);
+  }
+
+  /** Apaga a conta e tudo o que depende dela (progresso, cartões, caderno). Exige a senha. */
+  async deleteAccount(userId: string, password: string): Promise<void> {
+    const user = await this.prisma.user.findUniqueOrThrow({ where: { id: userId } });
+    if (!(await verify(user.passwordHash, password))) {
+      throw new ForbiddenException('Senha incorreta');
+    }
+    await this.prisma.user.delete({ where: { id: userId } });
   }
 
   private async openSession(user: User) {

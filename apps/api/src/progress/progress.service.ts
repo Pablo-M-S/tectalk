@@ -3,9 +3,7 @@ import { PrismaService } from '../prisma/prisma.service';
 import { ExerciseResult } from '../review/review.schemas';
 import { ReviewService } from '../review/review.service';
 import { StatsService } from '../stats/stats.service';
-
-const BASE_XP = 10;
-const PERFECT_BONUS = 5;
+import { lessonXp, uniqueResults } from './xp.rules';
 
 @Injectable()
 export class ProgressService {
@@ -27,14 +25,15 @@ export class ProgressService {
     if (!lesson) throw new NotFoundException('Lição não encontrada');
 
     const allowed = new Set(lesson.terms.map((t) => t.termId));
-    const results = submitted.filter((r) => allowed.has(r.termId));
+    const results = uniqueResults(submitted.filter((r) => allowed.has(r.termId)));
     if (results.length === 0) {
       throw new BadRequestException('Nenhum resultado válido para esta lição');
     }
 
     const correct = results.filter((r) => r.correct).length;
     const score = correct / results.length;
-    const xpEarned = BASE_XP + correct + (score === 1 ? PERFECT_BONUS : 0);
+    const previous = await this.prisma.lessonCompletion.count({ where: { userId, lessonId } });
+    const xpEarned = lessonXp(correct, score, previous);
     const now = new Date();
 
     return this.prisma.$transaction(async (tx) => {

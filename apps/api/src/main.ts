@@ -10,9 +10,11 @@ async function bootstrap(): Promise<void> {
 
   app.set('trust proxy', 1);
   app.use(helmet());
-  app.enableCors({
-    origin: env.CORS_ORIGINS === '*' ? true : env.CORS_ORIGINS.split(',').map((o) => o.trim()),
-  });
+  // O app nativo não usa CORS. Só abre para origens listadas; '*' vale apenas fora de produção.
+  const origins = env.CORS_ORIGINS.split(',').map((o) => o.trim()).filter((o) => o && o !== 'none');
+  if (origins.length > 0 && !(env.NODE_ENV === 'production' && origins.includes('*'))) {
+    app.enableCors({ origin: origins.includes('*') ? true : origins });
+  }
   app.setGlobalPrefix('v1', { exclude: ['health'] });
   app.enableShutdownHooks();
 
