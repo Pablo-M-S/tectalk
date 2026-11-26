@@ -7,6 +7,7 @@ import { useAllTracks, useUpdateProfile } from '@/api/hooks';
 import type { Language, ProficiencyLevel } from '@/api/types';
 import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
+import { Flag } from '@/components/Flag';
 import { ProgressBar } from '@/components/ProgressBar';
 import { ReminderTimePicker } from '@/components/ReminderTimePicker';
 import { Text } from '@/components/Text';
@@ -22,6 +23,7 @@ function Choice({
   label,
   hint,
   icon,
+  flag,
   selected,
   disabled,
   badge,
@@ -30,6 +32,7 @@ function Choice({
   label: string;
   hint?: string;
   icon?: keyof typeof Ionicons.glyphMap;
+  flag?: Language;
   selected: boolean;
   disabled?: boolean;
   badge?: string;
@@ -56,6 +59,7 @@ function Choice({
         opacity: disabled ? 0.5 : 1,
       }}
     >
+      {flag ? <Flag code={flag} height={22} /> : null}
       {icon ? <Ionicons name={icon} size={24} color={selected ? theme.primary : theme.muted} /> : null}
       <View style={{ flex: 1, gap: 2 }}>
         <Text variant="heading" style={{ fontWeight: '600' }}>{label}</Text>
@@ -187,6 +191,7 @@ export default function OnboardingScreen() {
               <Choice
                 key={l.code}
                 label={l.label}
+                flag={l.code}
                 selected={language === l.code}
                 disabled={!languagesWithTrack.has(l.code)}
                 badge={languagesWithTrack.has(l.code) ? undefined : 'Em breve'}

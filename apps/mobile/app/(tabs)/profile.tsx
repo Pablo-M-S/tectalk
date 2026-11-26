@@ -6,6 +6,7 @@ import * as Updates from 'expo-updates';
 import { useStats, useUpdateProfile } from '@/api/hooks';
 import { useAuth } from '@/auth/store';
 import { Button } from '@/components/Button';
+import { Flag } from '@/components/Flag';
 import { ReminderTimePicker } from '@/components/ReminderTimePicker';
 import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
@@ -191,7 +192,10 @@ export default function ProfileScreen() {
               const ready = voices[item.code];
               return (
                 <View key={item.code} style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                  <Text variant="caption">{item.label}</Text>
+                  <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Flag code={item.code} height={14} />
+                    <Text variant="caption">{item.label}</Text>
+                  </View>
                   <Text variant="caption" tone={ready === false ? 'danger' : 'muted'}>
                     {ready === undefined ? 'verificando…' : ready ? 'instalada' : 'não instalada'}
                   </Text>

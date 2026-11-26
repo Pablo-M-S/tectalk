@@ -7,6 +7,7 @@ import { useActiveTrack, useStats, useTrack } from '@/api/hooks';
 import type { LessonNode } from '@/api/types';
 import { Text } from '@/components/Text';
 import { TopBar } from '@/components/TopBar';
+import { Flag } from '@/components/Flag';
 import { Mascot } from '@/components/Mascot';
 import { XpBar } from '@/components/XpBar';
 import { ErrorState, LoadingState } from '@/components/States';
@@ -118,7 +119,15 @@ export default function TrailScreen() {
             hitSlop={8}
             style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}
           >
-            <Ionicons name="grid-outline" size={14} color={theme.primary} />
+            {summary ? (
+              <>
+                <Flag code={summary.sourceLanguage} height={16} />
+                <Ionicons name="arrow-forward" size={12} color={theme.primary} />
+                <Flag code={summary.targetLanguage} height={16} />
+              </>
+            ) : (
+              <Ionicons name="grid-outline" size={14} color={theme.primary} />
+            )}
             <Text variant="label" tone="primary">
               {summary ? `${summary.sourceLanguage} → ${summary.targetLanguage} · trocar de área` : 'Trocar de área'}
             </Text>
