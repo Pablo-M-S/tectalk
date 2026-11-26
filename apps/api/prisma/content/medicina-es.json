@@ -34,10 +34,29 @@
                   "text": "aurícula",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol a palavra é feminina: la aurícula (não confunda com o \"átrio\" do português). A orelha externa também é \"aurícula\" em outros contextos.",
+                  "collocations": [
+                    "aurícula izquierda",
+                    "aurícula derecha",
+                    "fibrilación auricular"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La aurícula derecha recibe la sangre venosa de todo el cuerpo.",
+                  "answer": "aurícula",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El ecocardiograma mostró una aurícula izquierda dilatada.",
+                  "answer": "aurícula",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -53,10 +72,29 @@
                   "text": "ventrículo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el ventrículo. Nos laudos aparece quase sempre com o lado e a função: ventrículo izquierdo, fracción de eyección.",
+                  "collocations": [
+                    "ventrículo izquierdo",
+                    "ventrículo derecho",
+                    "hipertrofia ventricular"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El ventrículo izquierdo bombea la sangre hacia la aorta.",
+                  "answer": "ventrículo",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La resonancia reveló hipertrofia del ventrículo derecho.",
+                  "answer": "ventrículo",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -72,10 +110,29 @@
                   "text": "aorta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la aorta. Divide-se em aorta ascendente, cayado (arco) aórtico e aorta descendente.",
+                  "collocations": [
+                    "aorta ascendente",
+                    "aorta descendente",
+                    "aneurisma de aorta"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La aorta ascendente nace en el ventrículo izquierdo.",
+                  "answer": "aorta",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El paciente presenta un aneurisma de la aorta abdominal.",
+                  "answer": "aorta",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -91,10 +148,29 @@
                   "text": "miocardio",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol escreve-se \"miocardio\", sem o acento do português (miocárdio). Masculino.",
+                  "collocations": [
+                    "necrosis del miocardio",
+                    "isquemia del miocardio",
+                    "pared del miocardio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El miocardio es el músculo que forma la pared del corazón.",
+                  "answer": "miocardio",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La biopsia confirmó una inflamación del miocardio.",
+                  "answer": "miocardio",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "text": "pericardio",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sem acento em \"pericardio\" (em português é pericárdio). Masculino; o plural é pericardios.",
+                  "collocations": [
+                    "derrame del pericardio",
+                    "pericardio parietal",
+                    "pericardio visceral"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El pericardio envuelve el corazón y los grandes vasos.",
+                  "answer": "pericardio",
+                  "documentType": "ECHO_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se observó un derrame en el pericardio durante la ecografía.",
+                  "answer": "pericardio",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -131,10 +226,29 @@
                   "text": "válvula cardíaca",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol \"válvula\" é a palavra usual (em português, \"valva\"). Feminina: la válvula cardíaca; mitral, aórtica, tricúspide e pulmonar.",
+                  "collocations": [
+                    "válvula mitral",
+                    "válvula aórtica",
+                    "prótesis valvular"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La válvula cardíaca impide el retroceso de la sangre.",
+                  "answer": "válvula cardíaca",
+                  "documentType": "SURGICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se le implantó una válvula cardíaca mecánica.",
+                  "answer": "válvula cardíaca",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -160,10 +274,29 @@
                   "text": "infarto de miocardio",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É o \"infarto\" (masculino), sem a palavra \"agudo\" no uso corrente. Sigla IAM; na linguagem comum, \"ataque al corazón\".",
+                  "collocations": [
+                    "infarto de miocardio",
+                    "infarto agudo",
+                    "zona del infarto"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El paciente ingresó con un infarto de miocardio de cara anterior.",
+                  "answer": "infarto de miocardio",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los antecedentes familiares aumentan el riesgo de sufrir un infarto de miocardio.",
+                  "answer": "infarto de miocardio",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -179,10 +312,29 @@
                   "text": "arritmia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la arritmia. Duas erres após o \"a\" e sem \"h\" intermediário, ao contrário do inglês.",
+                  "collocations": [
+                    "arritmia cardíaca",
+                    "arritmia ventricular",
+                    "tratar la arritmia"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La arritmia se detectó en el electrocardiograma de rutina.",
+                  "answer": "arritmia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El fármaco controla la arritmia en la mayoría de los casos.",
+                  "answer": "arritmia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -198,10 +350,29 @@
                   "text": "taquicardia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina. Define-se como frequência acima de 100 latidos por minuto. Tipos comuns: sinusal, supraventricular, ventricular.",
+                  "collocations": [
+                    "taquicardia sinusal",
+                    "taquicardia ventricular",
+                    "episodio de taquicardia"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La paciente refirió palpitaciones y una taquicardia persistente.",
+                  "answer": "taquicardia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se administró adenosina por una taquicardia supraventricular.",
+                  "answer": "taquicardia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -217,10 +388,29 @@
                   "text": "bradicardia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina. Frequência abaixo de 60 latidos por minuto; pode ser normal em atletas.",
+                  "collocations": [
+                    "bradicardia sinusal",
+                    "bradicardia sintomática",
+                    "marcapasos"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El electrocardiograma mostró una bradicardia sinusal.",
+                  "answer": "bradicardia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La bradicardia provocó mareos y un episodio de síncope.",
+                  "answer": "bradicardia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -238,10 +428,29 @@
                   "text": "hipertensión arterial",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No espanhol clínico diz-se \"hipertensión arterial\" (HTA); a sigla comum é HTA, não HAS.",
+                  "collocations": [
+                    "hipertensión arterial",
+                    "hipertensión pulmonar",
+                    "control de la presión"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Le diagnosticaron hipertensión arterial hace cinco años.",
+                  "answer": "hipertensión arterial",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El tratamiento de la hipertensión arterial requiere controles periódicos.",
+                  "answer": "hipertensión arterial",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -257,10 +466,29 @@
                   "text": "cardiomegalia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la cardiomegalia. Termo de achado em radiografia de tórax e ecocardiograma.",
+                  "collocations": [
+                    "cardiomegalia leve",
+                    "cardiomegalia global",
+                    "radiografía de tórax"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La radiografía de tórax evidenció una cardiomegalia.",
+                  "answer": "cardiomegalia",
+                  "documentType": "RADIOLOGY_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La cardiomegalia suele indicar una sobrecarga crónica del corazón.",
+                  "answer": "cardiomegalia",
+                  "documentType": "IMAGING_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -290,10 +518,29 @@
                   "text": "neumonía",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol é \"neumonía\" (sem o \"p\"); a pronúncia é \"neumonía\". Sinônimo menos frequente: pulmonía.",
+                  "collocations": [
+                    "neumonía adquirida en la comunidad",
+                    "neumonía bacteriana",
+                    "neumonía grave"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El paciente fue ingresado por una neumonía bacteriana.",
+                  "answer": "neumonía",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La radiografía confirmó una neumonía en el lóbulo inferior derecho.",
+                  "answer": "neumonía",
+                  "documentType": "DISCHARGE_SUMMARY"
+                }
+              ],
               "segments": {}
             },
             {
@@ -309,10 +556,29 @@
                   "text": "bronquitis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina e no singular termina em -s: la bronquitis (o plural é igual). Pode ser aguda ou crónica.",
+                  "collocations": [
+                    "bronquitis aguda",
+                    "bronquitis crónica",
+                    "tos productiva"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La bronquitis aguda suele curarse sin antibióticos.",
+                  "answer": "bronquitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Fumar durante años le provocó una bronquitis crónica.",
+                  "answer": "bronquitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -328,10 +594,29 @@
                   "text": "asma",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina e escreve-se \"asma\"; o artigo é \"el\" (el asma) por começar com \"a\" tônico, mas segue feminino: el asma grave.",
+                  "collocations": [
+                    "crisis de asma",
+                    "asma bronquial",
+                    "inhalador"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Usa un inhalador para controlar el asma.",
+                  "answer": "asma",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El asma infantil mejora en muchos casos con la edad.",
+                  "answer": "asma",
+                  "documentType": "PULMONARY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -347,10 +632,29 @@
                   "text": "disnea",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol é \"disnea\" (sem o \"p\" do português \"dispneia\"). Feminina; grau medido na escala mMRC.",
+                  "collocations": [
+                    "disnea de esfuerzo",
+                    "disnea en reposo",
+                    "disnea súbita"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La paciente consultó por disnea de esfuerzo progresiva.",
+                  "answer": "disnea",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una disnea súbita obliga a descartar una embolia pulmonar.",
+                  "answer": "disnea",
+                  "documentType": "ADMISSION_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -366,10 +670,29 @@
                   "text": "embolia pulmonar",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la embolia pulmonar (EP). Atenção: \"embolia\" e não \"embolismo\" no uso corrente.",
+                  "collocations": [
+                    "embolia pulmonar aguda",
+                    "riesgo de embolia pulmonar",
+                    "anticoagulación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La angio-TC confirmó una embolia pulmonar bilateral.",
+                  "answer": "embolia pulmonar",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Tras la cirugía recibió anticoagulantes para prevenir una embolia pulmonar.",
+                  "answer": "embolia pulmonar",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -385,10 +708,29 @@
                   "text": "derrame pleural",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el derrame pleural. \"Derrame\" aqui é líquido acumulado; não se usa para AVC (que é \"ictus\").",
+                  "collocations": [
+                    "derrame pleural bilateral",
+                    "drenaje del derrame pleural",
+                    "líquido pleural"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La radiografía mostró un derrame pleural derecho.",
+                  "answer": "derrame pleural",
+                  "documentType": "IMAGING_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se realizó una toracocentesis para analizar el derrame pleural.",
+                  "answer": "derrame pleural",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -418,10 +760,29 @@
                   "text": "biopsia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol escreve-se \"biopsia\" (sem acento, ao contrário do português \"biópsia\"). Feminina.",
+                  "collocations": [
+                    "biopsia de piel",
+                    "biopsia hepática",
+                    "resultado de la biopsia"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se tomó una biopsia de la lesión sospechosa.",
+                  "answer": "biopsia",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El resultado de la biopsia llegará en una semana.",
+                  "answer": "biopsia",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -437,10 +798,29 @@
                   "text": "intubación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la intubación. Costuma vir com \"orotraqueal\" e as abreviaturas IOT ou IET.",
+                  "collocations": [
+                    "intubación orotraqueal",
+                    "intubación difícil",
+                    "ventilación mecánica"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Fue necesaria la intubación por insuficiencia respiratoria.",
+                  "answer": "intubación",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El anestesista realizó la intubación sin complicaciones.",
+                  "answer": "intubación",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -456,10 +836,29 @@
                   "text": "anestesia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la anestesia. Tipos: general, local, regional, epidural e raquídea.",
+                  "collocations": [
+                    "anestesia general",
+                    "anestesia local",
+                    "anestesia epidural"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La cirugía se realizó bajo anestesia general.",
+                  "answer": "anestesia",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La anestesia epidural se usa con frecuencia en el parto.",
+                  "answer": "anestesia",
+                  "documentType": "PROCEDURE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -475,10 +874,29 @@
                   "text": "catéter",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol tem acento: \"catéter\" (em português, \"cateter\"). Masculino; plural: catéteres.",
+                  "collocations": [
+                    "catéter venoso central",
+                    "catéter urinario",
+                    "colocar un catéter"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se colocó un catéter venoso central en la yugular.",
+                  "answer": "catéter",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El catéter se retiró tras cuarenta y ocho horas.",
+                  "answer": "catéter",
+                  "documentType": "PROGRESS_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -494,10 +912,29 @@
                   "text": "sutura",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la sutura. Também designa o fio (\"material de sutura\") e o ponto cirúrgico.",
+                  "collocations": [
+                    "retirar la sutura",
+                    "sutura continua",
+                    "material de sutura"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El cirujano cerró la herida con una sutura continua.",
+                  "answer": "sutura",
+                  "documentType": "PROCEDURE_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La sutura se retira a los diez días de la operación.",
+                  "answer": "sutura",
+                  "documentType": "OPERATIVE_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -513,10 +950,29 @@
                   "text": "resección",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol é \"resección\" (um \"c\" só, sem \"ss\"). Feminina. Termo cirúrgico de retirada parcial ou total.",
+                  "collocations": [
+                    "resección quirúrgica",
+                    "resección intestinal",
+                    "márgenes de resección"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se planificó la resección del tumor por vía laparoscópica.",
+                  "answer": "resección",
+                  "documentType": "OPERATIVE_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los márgenes de la resección estaban libres de enfermedad.",
+                  "answer": "resección",
+                  "documentType": "PATHOLOGY_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -546,10 +1002,29 @@
                   "text": "diagnóstico",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el diagnóstico. Aparece como \"diagnóstico de presunción\" (hipótese) ou \"diagnóstico definitivo\".",
+                  "collocations": [
+                    "diagnóstico precoz",
+                    "diagnóstico de presunción",
+                    "diagnóstico definitivo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un diagnóstico precoz mejora el pronóstico del paciente.",
+                  "answer": "diagnóstico",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El diagnóstico se confirmó mediante una biopsia.",
+                  "answer": "diagnóstico",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -565,10 +1040,29 @@
                   "text": "diagnóstico diferencial",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"diagnóstico diferencial\" (DD); lista as hipóteses que precisam ser descartadas.",
+                  "collocations": [
+                    "establecer el diagnóstico diferencial",
+                    "diagnóstico diferencial amplio",
+                    "descartar causas"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El diagnóstico diferencial incluye infección y neoplasia.",
+                  "answer": "diagnóstico diferencial",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Ante este cuadro conviene ampliar el diagnóstico diferencial.",
+                  "answer": "diagnóstico diferencial",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -584,10 +1078,29 @@
                   "text": "pronóstico",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol é \"pronóstico\" (sem o \"g\" do português \"prognóstico\"). Masculino. Costuma vir com \"reservado\", \"bueno\" ou \"malo\".",
+                  "collocations": [
+                    "pronóstico reservado",
+                    "buen pronóstico",
+                    "mal pronóstico"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El pronóstico depende de la extensión de la enfermedad.",
+                  "answer": "pronóstico",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se informó a la familia de un pronóstico reservado.",
+                  "answer": "pronóstico",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -603,10 +1116,29 @@
                   "text": "etiología",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol \"etiología\". Feminina; fala-se de \"etiología desconocida\" quando não se acha a causa.",
+                  "collocations": [
+                    "etiología infecciosa",
+                    "etiología desconocida",
+                    "estudio etiológico"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La etiología de la fiebre no pudo determinarse.",
+                  "answer": "etiología",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se solicitó un estudio para aclarar la etiología del cuadro.",
+                  "answer": "etiología",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1154,29 @@
                   "text": "comorbilidad",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"comorbilidad\" (com \"il\", não \"id\" como em \"comorbidade\"). Feminina.",
+                  "collocations": [
+                    "comorbilidad asociada",
+                    "índice de comorbilidad",
+                    "paciente con comorbilidades"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La comorbilidad empeora el pronóstico de la enfermedad.",
+                  "answer": "comorbilidad",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Hay que valorar la comorbilidad antes de elegir el tratamiento.",
+                  "answer": "comorbilidad",
+                  "documentType": "CASE_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -641,10 +1192,29 @@
                   "text": "contraindicación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la contraindicación (sem hífen e sem espaço). Pode ser \"absoluta\" ou \"relativa\".",
+                  "collocations": [
+                    "contraindicación absoluta",
+                    "contraindicación relativa",
+                    "sin contraindicaciones"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El embarazo es una contraindicación absoluta para este fármaco.",
+                  "answer": "contraindicación",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "No existe ninguna contraindicación para realizar la prueba.",
+                  "answer": "contraindicación",
+                  "documentType": "RADIOLOGY_REQUEST"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -674,10 +1244,29 @@
                   "text": "ictus",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em Espanha usa-se \"ictus\"; na América Latina, \"accidente cerebrovascular\" (ACV) ou \"derrame cerebral\". Masculino, invariável no plural.",
+                  "collocations": [
+                    "ictus isquémico",
+                    "ictus hemorrágico",
+                    "código ictus"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Ingresó en la unidad de ictus con una hemiparesia izquierda.",
+                  "answer": "ictus",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El ictus isquémico exige tratamiento en las primeras horas.",
+                  "answer": "ictus",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -693,10 +1282,29 @@
                   "text": "crisis convulsiva",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"crisis convulsiva\" ou \"crisis epiléptica\". \"Crisis\" é feminina e invariável no plural.",
+                  "collocations": [
+                    "crisis convulsiva",
+                    "crisis epiléptica",
+                    "control de las crisis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El paciente sufrió una crisis convulsiva de dos minutos.",
+                  "answer": "crisis convulsiva",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Tras ajustar la medicación, no volvió a presentar una crisis convulsiva.",
+                  "answer": "crisis convulsiva",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -712,10 +1320,29 @@
                   "text": "migraña",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"migraña\" (com \"ñ\"; não é \"enxaqueca\"). Feminina. Pode vir com aura.",
+                  "collocations": [
+                    "migraña con aura",
+                    "migraña crónica",
+                    "crisis de migraña"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La migraña con aura se acompaña de síntomas visuales.",
+                  "answer": "migraña",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Evitar el estrés ayuda a prevenir una crisis de migraña.",
+                  "answer": "migraña",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -731,10 +1358,29 @@
                   "text": "neuropatía",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"neuropatía\". Feminina; as formas mais comuns são \"periférica\" e \"diabética\".",
+                  "collocations": [
+                    "neuropatía periférica",
+                    "neuropatía diabética",
+                    "dolor neuropático"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La neuropatía diabética provoca hormigueo en los pies.",
+                  "answer": "neuropatía",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se confirmó una neuropatía periférica mediante electromiografía.",
+                  "answer": "neuropatía",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -750,10 +1396,29 @@
                   "text": "demencia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol é \"demencia\". Feminina; subtipos: Alzheimer, vascular, con cuerpos de Lewy.",
+                  "collocations": [
+                    "demencia senil",
+                    "demencia vascular",
+                    "deterioro cognitivo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La demencia afecta a la memoria y a la autonomía del paciente.",
+                  "answer": "demencia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se descartó una demencia mediante pruebas neuropsicológicas.",
+                  "answer": "demencia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -769,10 +1434,29 @@
                   "text": "conmoción cerebral",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"conmoción cerebral\" (alguns dizem \"contusión\", que é outra coisa: hematoma). Feminina.",
+                  "collocations": [
+                    "conmoción cerebral leve",
+                    "tras una conmoción cerebral",
+                    "reposo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Sufrió una conmoción cerebral tras caer de la bicicleta.",
+                  "answer": "conmoción cerebral",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Después de una conmoción cerebral se recomienda reposo relativo.",
+                  "answer": "conmoción cerebral",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -802,10 +1486,29 @@
                   "text": "gastritis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina, termina em -s e é invariável: la gastritis. Pode ser aguda, crónica ou por Helicobacter pylori.",
+                  "collocations": [
+                    "gastritis aguda",
+                    "gastritis crónica",
+                    "gastritis erosiva"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La endoscopia reveló una gastritis erosiva.",
+                  "answer": "gastritis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los antiinflamatorios pueden causar una gastritis aguda.",
+                  "answer": "gastritis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -821,10 +1524,29 @@
                   "text": "úlcera péptica",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la úlcera péptica, com acento em \"úlcera\". Divide-se em úlcera gástrica e duodenal.",
+                  "collocations": [
+                    "úlcera gástrica",
+                    "úlcera duodenal",
+                    "Helicobacter pylori"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La úlcera péptica se asocia a la infección por Helicobacter pylori.",
+                  "answer": "úlcera péptica",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El paciente fue hospitalizado por una hemorragia de una úlcera péptica.",
+                  "answer": "úlcera péptica",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -840,10 +1562,29 @@
                   "text": "cirrosis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cirrosis\" (com \"s\" e não \"ose\" como no português). Feminina.",
+                  "collocations": [
+                    "cirrosis hepática",
+                    "cirrosis alcohólica",
+                    "descompensación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La cirrosis hepática puede evolucionar a insuficiencia hepática.",
+                  "answer": "cirrosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Tiene una cirrosis alcohólica diagnosticada por ecografía.",
+                  "answer": "cirrosis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -859,10 +1600,29 @@
                   "text": "hepatitis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina e invariável no plural: la hepatitis. Tipos A, B, C; também autoimune e tóxica.",
+                  "collocations": [
+                    "hepatitis B",
+                    "hepatitis aguda",
+                    "hepatitis crónica"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La vacuna previene la hepatitis B.",
+                  "answer": "hepatitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una hepatitis crónica puede evolucionar a cirrosis.",
+                  "answer": "hepatitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -878,10 +1638,29 @@
                   "text": "apendicitis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"apendicitis\" (sem \"e\" final do português \"apendicite\"). Feminina e invariável.",
+                  "collocations": [
+                    "apendicitis aguda",
+                    "apendicectomía",
+                    "dolor en la fosa ilíaca derecha"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El dolor en la fosa ilíaca derecha sugiere una apendicitis aguda.",
+                  "answer": "apendicitis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La apendicitis se trató con cirugía laparoscópica.",
+                  "answer": "apendicitis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -897,10 +1676,29 @@
                   "text": "reflujo gastroesofágico",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol é \"reflujo gastroesofágico\" (ERGE é a doença). Masculino. Note o \"j\" em \"reflujo\".",
+                  "collocations": [
+                    "reflujo gastroesofágico",
+                    "enfermedad por reflujo",
+                    "inhibidores de la bomba de protones"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El reflujo gastroesofágico produce ardor retroesternal.",
+                  "answer": "reflujo gastroesofágico",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se recomienda elevar la cabecera de la cama en caso de reflujo gastroesofágico.",
+                  "answer": "reflujo gastroesofágico",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -930,10 +1728,29 @@
                   "text": "diabetes mellitus",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Mantém-se o latim em espanhol: \"diabetes mellitus\". Os tipos são \"tipo 1\", \"tipo 2\" e \"gestacional\". Feminina (\"la diabetes\").",
+                  "collocations": [
+                    "diabetes mellitus tipo 2",
+                    "diabetes mellitus gestacional",
+                    "control de la diabetes"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Le diagnosticaron diabetes mellitus tipo 2 en un control rutinario.",
+                  "answer": "diabetes mellitus",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La diabetes mellitus gestacional aparece durante el embarazo.",
+                  "answer": "diabetes mellitus",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -949,10 +1766,29 @@
                   "text": "insulina",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la insulina. Dosagens em unidades; fala-se de \"insulina rápida\" e \"insulina basal\".",
+                  "collocations": [
+                    "insulina rápida",
+                    "insulina basal",
+                    "dosis de insulina"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El paciente se inyecta insulina antes de cada comida.",
+                  "answer": "insulina",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Hay que ajustar la dosis de insulina según la glucemia.",
+                  "answer": "insulina",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -968,10 +1804,29 @@
                   "text": "hipotiroidismo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hipotiroidismo\" (sem \"e\": em português é hipotireoidismo). Masculino.",
+                  "collocations": [
+                    "hipotiroidismo primario",
+                    "hipotiroidismo subclínico",
+                    "levotiroxina"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El hipotiroidismo se trata con levotiroxina.",
+                  "answer": "hipotiroidismo",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se sospecha un hipotiroidismo por la fatiga y el aumento de peso.",
+                  "answer": "hipotiroidismo",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -987,10 +1842,29 @@
                   "text": "hipertiroidismo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hipertiroidismo\" (sem \"e\"). Masculino. Causa típica: enfermedad de Graves.",
+                  "collocations": [
+                    "hipertiroidismo subclínico",
+                    "enfermedad de Graves",
+                    "tratamiento con antitiroideos"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El hipertiroidismo acelera el metabolismo y provoca pérdida de peso.",
+                  "answer": "hipertiroidismo",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La enfermedad de Graves es una causa frecuente de hipertiroidismo.",
+                  "answer": "hipertiroidismo",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1006,10 +1880,29 @@
                   "text": "glucemia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol o termo mais usado é \"glucemia\" (com \"u\"). Feminina. Também \"glicemia\" aparece, mas é menos comum.",
+                  "collocations": [
+                    "glucemia en ayunas",
+                    "glucemia capilar",
+                    "control de la glucemia"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La glucemia en ayunas fue de 126 mg/dl.",
+                  "answer": "glucemia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se controla la glucemia capilar antes de cada comida.",
+                  "answer": "glucemia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1025,10 +1918,29 @@
                   "text": "obesidad",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol é \"obesidad\" (feminina). O índice de massa corporal (IMC) ≥ 30 é o critério.",
+                  "collocations": [
+                    "obesidad mórbida",
+                    "obesidad infantil",
+                    "índice de masa corporal"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La obesidad aumenta el riesgo cardiovascular.",
+                  "answer": "obesidad",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se derivó al paciente a una unidad de obesidad mórbida.",
+                  "answer": "obesidad",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1058,10 +1970,29 @@
                   "text": "hemograma completo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hemograma completo\". Masculino. Inclui eritrocitos, leucocitos, plaquetas e hemoglobina.",
+                  "collocations": [
+                    "hemograma completo",
+                    "solicitar un hemograma",
+                    "alteraciones en el hemograma"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se solicitó un hemograma completo por la sospecha de anemia.",
+                  "answer": "hemograma completo",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El hemograma completo mostró leucocitosis con neutrofilia.",
+                  "answer": "hemograma completo",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1077,10 +2008,29 @@
                   "text": "hemoglobina",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina: la hemoglobina. Valor expresso em g/dl; \"anemia\" geralmente quando está abaixo do normal.",
+                  "collocations": [
+                    "nivel de hemoglobina",
+                    "hemoglobina glucosilada",
+                    "hemoglobina baja"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La hemoglobina de la paciente era de 9 g/dl.",
+                  "answer": "hemoglobina",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La hemoglobina glucosilada refleja el control de los últimos tres meses.",
+                  "answer": "hemoglobina",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1096,10 +2046,29 @@
                   "text": "creatinina",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"creatinina\" (feminina). Marcador da função renal; costuma vir com a \"tasa de filtración glomerular\".",
+                  "collocations": [
+                    "creatinina sérica",
+                    "creatinina elevada",
+                    "función renal"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La creatinina elevada indica un posible daño renal.",
+                  "answer": "creatinina",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se repitió la creatinina para confirmar la insuficiencia renal.",
+                  "answer": "creatinina",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1115,10 +2084,29 @@
                   "text": "suero",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"suero\". Masculino. \"Suero fisiológico\" é a solução salina intravenosa; \"suero\" também é a parte líquida do sangue.",
+                  "collocations": [
+                    "suero fisiológico",
+                    "suero sanguíneo",
+                    "niveles en suero"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los niveles de potasio en suero eran normales.",
+                  "answer": "suero",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se le administró suero fisiológico por vía intravenosa.",
+                  "answer": "suero",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1134,10 +2122,29 @@
                   "text": "análisis de orina",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"análisis de orina\" (também \"uroanálisis\" ou \"sedimento urinario\"). Masculino.",
+                  "collocations": [
+                    "análisis de orina",
+                    "análisis de orina de rutina",
+                    "recoger una muestra"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se solicitó un análisis de orina por sospecha de infección.",
+                  "answer": "análisis de orina",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El análisis de orina mostró proteínas y glóbulos rojos.",
+                  "answer": "análisis de orina",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1153,10 +2160,29 @@
                   "text": "cultivo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cultivo\" (microbiológico). Não confunda com \"cultura\" (cultura social). Masculino.",
+                  "collocations": [
+                    "cultivo de sangre",
+                    "cultivo de orina",
+                    "antibiograma"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El cultivo de sangre resultó positivo para Staphylococcus aureus.",
+                  "answer": "cultivo",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se esperan los resultados del cultivo antes de ajustar el antibiótico.",
+                  "answer": "cultivo",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1186,10 +2212,29 @@
                   "text": "ecografía",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"ecografía\" (feminina); em alguns países, \"ultrasonido\". A abreviatura \"eco\" é informal.",
+                  "collocations": [
+                    "ecografía abdominal",
+                    "ecografía obstétrica",
+                    "ecografía Doppler"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La ecografía abdominal reveló una vesícula con cálculos.",
+                  "answer": "ecografía",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se hizo una ecografía Doppler de los miembros inferiores.",
+                  "answer": "ecografía",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1205,10 +2250,29 @@
                   "text": "tomografía computarizada",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"tomografía computarizada\" (TC); também \"TAC\" em Espanha. Feminina.",
+                  "collocations": [
+                    "tomografía computarizada",
+                    "TC con contraste",
+                    "TC de tórax"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La tomografía computarizada descartó una hemorragia cerebral.",
+                  "answer": "tomografía computarizada",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se solicitó una tomografía computarizada de abdomen.",
+                  "answer": "tomografía computarizada",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1224,10 +2288,29 @@
                   "text": "resonancia magnética",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"resonancia magnética\" (RM; \"RMN\" em alguns países). Feminina.",
+                  "collocations": [
+                    "resonancia magnética cerebral",
+                    "resonancia magnética con contraste",
+                    "informe de la resonancia magnética"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La resonancia magnética cerebral no mostró lesiones.",
+                  "answer": "resonancia magnética",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La paciente no puede hacerse una resonancia magnética por llevar un marcapasos.",
+                  "answer": "resonancia magnética",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1243,10 +2326,29 @@
                   "text": "radiografía",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"radiografía\" (feminina); também \"placa\" na fala corrente.",
+                  "collocations": [
+                    "radiografía de tórax",
+                    "radiografía simple",
+                    "radiografía de rodilla"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La radiografía de tórax fue normal.",
+                  "answer": "radiografía",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se realizó una radiografía de la rodilla tras la caída.",
+                  "answer": "radiografía",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1262,10 +2364,29 @@
                   "text": "contraste",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el contraste. \"Medio de contraste\" é o produto; a reação é \"reacción al contraste\".",
+                  "collocations": [
+                    "medio de contraste",
+                    "contraste intravenoso",
+                    "alergia al contraste"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se administró contraste intravenoso antes de la tomografía.",
+                  "answer": "contraste",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El paciente tiene alergia al contraste yodado.",
+                  "answer": "contraste",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1281,10 +2402,29 @@
                   "text": "lesión",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"lesión\" (feminina). Genérica; precisa ser descrita por tamanho, local e aspecto.",
+                  "collocations": [
+                    "lesión cutánea",
+                    "lesión sospechosa",
+                    "lesión ocupante de espacio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se observó una lesión de 2 cm en el lóbulo hepático derecho.",
+                  "answer": "lesión",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La lesión cutánea requiere una valoración dermatológica.",
+                  "answer": "lesión",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -1314,10 +2454,29 @@
                   "text": "motivo de consulta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"motivo de consulta\". Masculino; é a razão pela qual o paciente procura atendimento, em suas palavras.",
+                  "collocations": [
+                    "motivo de consulta",
+                    "motivo de ingreso",
+                    "anotar el motivo de consulta"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El motivo de consulta fue dolor torácico de dos horas de evolución.",
+                  "answer": "motivo de consulta",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "En la historia clínica se debe registrar el motivo de consulta.",
+                  "answer": "motivo de consulta",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1333,10 +2492,29 @@
                   "text": "historial médico",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"historial médico\" ou \"historia clínica\" (esta última é o prontuário completo). Masculino.",
+                  "collocations": [
+                    "historial médico",
+                    "antecedentes personales",
+                    "revisar el historial"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El historial médico incluye una cirugía previa de rodilla.",
+                  "answer": "historial médico",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Revisamos el historial médico antes de prescribir el medicamento.",
+                  "answer": "historial médico",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1352,10 +2530,29 @@
                   "text": "exploración física",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"exploración física\" (Espanha); \"examen físico\" na América Latina. Feminina.",
+                  "collocations": [
+                    "exploración física",
+                    "hallazgos en la exploración",
+                    "exploración abdominal"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La exploración física no mostró signos de alarma.",
+                  "answer": "exploración física",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Durante la exploración física se auscultó un soplo cardíaco.",
+                  "answer": "exploración física",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1371,10 +2568,29 @@
                   "text": "signos vitales",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"signos vitales\", sempre no plural: temperatura, frecuencia cardíaca, presión arterial, frecuencia respiratoria.",
+                  "collocations": [
+                    "signos vitales",
+                    "tomar los signos vitales",
+                    "signos vitales estables"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se controlan los signos vitales cada cuatro horas.",
+                  "answer": "signos vitales",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El paciente llegó con los signos vitales estables.",
+                  "answer": "signos vitales",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1390,10 +2606,29 @@
                   "text": "consentimiento informado",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"consentimiento informado\". Masculino; é um documento assinado antes de procedimentos.",
+                  "collocations": [
+                    "firmar el consentimiento informado",
+                    "consentimiento informado por escrito",
+                    "obtener el consentimiento"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El paciente firmó el consentimiento informado antes de la cirugía.",
+                  "answer": "consentimiento informado",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "No se puede realizar el procedimiento sin el consentimiento informado.",
+                  "answer": "consentimiento informado",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             },
             {
@@ -1409,10 +2644,29 @@
                   "text": "informe de alta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"informe de alta\" (ou \"epicrisis\" em alguns países). Masculino. Resume diagnóstico, tratamento e seguimento.",
+                  "collocations": [
+                    "informe de alta",
+                    "redactar el informe de alta",
+                    "recomendaciones al alta"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El informe de alta incluye el diagnóstico y el tratamiento.",
+                  "answer": "informe de alta",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El médico entregó el informe de alta al paciente.",
+                  "answer": "informe de alta",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
               "segments": {}
             }
           ]

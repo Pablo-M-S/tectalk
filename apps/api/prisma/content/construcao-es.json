@@ -34,10 +34,29 @@
                   "text": "paleta de albañil",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol de obra: \"paleta de albañil\" (feminina); em alguns países \"cuchara de albañil\". Usada para aplicar argamassa.",
+                  "collocations": [
+                    "paleta de albañil",
+                    "extender con la paleta",
+                    "paleta dentada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El albañil extendió el mortero con la paleta de albañil.",
+                  "answer": "paleta de albañil",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una paleta de albañil de punta redonda sirve para enlucir.",
+                  "answer": "paleta de albañil",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -53,10 +72,29 @@
                   "text": "nivel de burbuja",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"nivel de burbuja\" (masculino). Verifica horizontalidade ou verticalidade.",
+                  "collocations": [
+                    "nivel de burbuja",
+                    "comprobar con el nivel",
+                    "nivel láser"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se comprobó la pared con el nivel de burbuja.",
+                  "answer": "nivel de burbuja",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El nivel de burbuja marca que la solera está horizontal.",
+                  "answer": "nivel de burbuja",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -72,10 +110,29 @@
                   "text": "plomada",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"plomada\" (feminina). Fio com peso que mostra a vertical.",
+                  "collocations": [
+                    "plomada de albañil",
+                    "marcar con la plomada",
+                    "hilo de plomada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Con la plomada se comprueba que el muro esté vertical.",
+                  "answer": "plomada",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El maestro colgó una plomada para alinear los pilares.",
+                  "answer": "plomada",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -91,10 +148,29 @@
                   "text": "carretilla",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"carretilla\" (feminina); em alguns países \"carretón\" ou \"carreta\". Leva material em obra.",
+                  "collocations": [
+                    "carretilla de obra",
+                    "llenar la carretilla",
+                    "cargar la carretilla"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El peón llevó la arena en una carretilla.",
+                  "answer": "carretilla",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La carretilla tiene una rueda neumática y dos mangos.",
+                  "answer": "carretilla",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "text": "cincel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cincel\" (masculino); usado com martillo para cortar pedra ou hormigón.",
+                  "collocations": [
+                    "cincel de albañil",
+                    "cincel y martillo",
+                    "punta de cincel"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se usó un cincel para abrir la roza en el muro.",
+                  "answer": "cincel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Con el cincel se retiró el hormigón sobrante.",
+                  "answer": "cincel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -129,10 +224,29 @@
                   "text": "almádena",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"almádena\" (feminina); também \"maza\". Martelo pesado para demolir.",
+                  "collocations": [
+                    "almádena de cinco kilos",
+                    "romper con almádena",
+                    "mango de la almádena"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Derribaron el tabique con una almádena.",
+                  "answer": "almádena",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La almádena pesa cinco kilos y exige buena técnica.",
+                  "answer": "almádena",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -162,10 +276,29 @@
                   "text": "cemento",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cemento\" (masculino). Ligante em pó; é diferente de \"hormigón\" (cemento, areia, brita e água).",
+                  "collocations": [
+                    "saco de cemento",
+                    "cemento Portland",
+                    "mezclar cemento"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada saco de cemento pesa veinticinco kilos.",
+                  "answer": "cemento",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se mezcla el cemento con arena y agua para obtener el mortero.",
+                  "answer": "cemento",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -181,10 +314,29 @@
                   "text": "mortero",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"mortero\" (masculino). Mistura de cemento, areia e água para assentar ou revestir.",
+                  "collocations": [
+                    "mortero de cemento",
+                    "mortero de cal",
+                    "mortero fino"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El mortero une los ladrillos entre sí.",
+                  "answer": "mortero",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se preparó el mortero con una parte de cemento y tres de arena.",
+                  "answer": "mortero",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -200,10 +352,29 @@
                   "text": "hormigón",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hormigón\" (Espanha) ou \"concreto\" (América Latina). Masculino. Mistura de cemento, árido e água.",
+                  "collocations": [
+                    "hormigón fresco",
+                    "hormigón en masa",
+                    "vertido del hormigón"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El hormigón fresco se vierte dentro del encofrado.",
+                  "answer": "hormigón",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se encargaron diez metros cúbicos de hormigón para la losa.",
+                  "answer": "hormigón",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -219,10 +390,29 @@
                   "text": "ladrillo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"ladrillo\" (masculino). Pode ser macizo ou hueco.",
+                  "collocations": [
+                    "ladrillo hueco",
+                    "ladrillo macizo",
+                    "ladrillo cerámico"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El muro se levantó con ladrillo cerámico.",
+                  "answer": "ladrillo",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un ladrillo macizo soporta más compresión que uno hueco.",
+                  "answer": "ladrillo",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -238,10 +428,29 @@
                   "text": "arena",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"arena\" (feminina). Árido fino; a \"arena de río\" e a \"arena de machaqueo\" têm usos diferentes.",
+                  "collocations": [
+                    "arena fina",
+                    "arena de río",
+                    "arena lavada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se mezcla la arena con cemento y agua.",
+                  "answer": "arena",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Es necesario tamizar la arena antes de preparar el mortero.",
+                  "answer": "arena",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -257,10 +466,29 @@
                   "text": "barra de refuerzo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"barra de refuerzo\" ou \"acero corrugado\" (feminina). Barras de aço que reforçam o hormigón.",
+                  "collocations": [
+                    "barra de refuerzo",
+                    "atar las barras",
+                    "barra de refuerzo corrugada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada barra de refuerzo se ata con alambre a la anterior.",
+                  "answer": "barra de refuerzo",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se colocó una barra de refuerzo de doce milímetros en cada esquina.",
+                  "answer": "barra de refuerzo",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -290,10 +518,29 @@
                   "text": "mampostería",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"mampostería\" (feminina). Alvenaria de pedra ou tijolo assentados com argamassa.",
+                  "collocations": [
+                    "mampostería de piedra",
+                    "muro de mampostería",
+                    "mampostería armada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La mampostería de piedra caracteriza la casa antigua.",
+                  "answer": "mampostería",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El muro de mampostería soporta la carga del tejado.",
+                  "answer": "mampostería",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -309,10 +556,29 @@
                   "text": "hilada",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hilada\" (feminina), também \"hilera\". Linha horizontal de tijolos ou pedras.",
+                  "collocations": [
+                    "hilada de ladrillos",
+                    "primera hilada",
+                    "hilada superior"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La primera hilada se asienta sobre la capa aislante.",
+                  "answer": "hilada",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Cada hilada se desplaza media pieza respecto a la anterior.",
+                  "answer": "hilada",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -328,10 +594,29 @@
                   "text": "dintel",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"dintel\" (masculino). Elemento horizontal sobre portas e janelas.",
+                  "collocations": [
+                    "dintel de hormigón",
+                    "dintel de la puerta",
+                    "colocar un dintel"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El dintel sostiene el muro sobre la ventana.",
+                  "answer": "dintel",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se colocó un dintel prefabricado encima de la puerta.",
+                  "answer": "dintel",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -347,10 +632,29 @@
                   "text": "junta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"junta\" (feminina). Espaço entre peças: de dilatación, de construcción, de mortero.",
+                  "collocations": [
+                    "junta de dilatación",
+                    "junta de construcción",
+                    "rellenar la junta"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La junta de dilatación evita fisuras por el calor.",
+                  "answer": "junta",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se rellenó la junta entre las piezas con mortero.",
+                  "answer": "junta",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -366,10 +670,29 @@
                   "text": "enlucido",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"enlucido\" (masculino) = revestimento de parede (yeso ou mortero fino). Ação: enlucir.",
+                  "collocations": [
+                    "enlucido de yeso",
+                    "aplicar el enlucido",
+                    "enlucido fino"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El enlucido deja la pared lista para pintar.",
+                  "answer": "enlucido",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se aplicó el enlucido en dos capas finas.",
+                  "answer": "enlucido",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -385,10 +708,29 @@
                   "text": "recrecido",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"recrecido\" (masculino), também \"solera\" (Espanha) ou \"contrapiso\" (América Latina). Camada de regularização do piso.",
+                  "collocations": [
+                    "recrecido de mortero",
+                    "recrecido autonivelante",
+                    "nivelar el recrecido"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El recrecido de mortero nivela el suelo antes del parqué.",
+                  "answer": "recrecido",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Hay que esperar una semana a que seque el recrecido.",
+                  "answer": "recrecido",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -418,10 +760,29 @@
                   "text": "zapata",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"zapata\" (feminina). Cimentação rasa sob pilar (aislada) ou muro (corrida).",
+                  "collocations": [
+                    "zapata aislada",
+                    "zapata corrida",
+                    "armadura de la zapata"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La zapata reparte el peso del pilar sobre el terreno.",
+                  "answer": "zapata",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se excavó el terreno para fundir una zapata corrida.",
+                  "answer": "zapata",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -437,10 +798,29 @@
                   "text": "losa",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"losa\" (feminina). Placa plana de hormigón; pode ser de cimentación ou de forjado.",
+                  "collocations": [
+                    "losa de hormigón",
+                    "losa de cimentación",
+                    "losa maciza"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La losa de hormigón tiene un espesor de veinte centímetros.",
+                  "answer": "losa",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se hormigonó una losa de cimentación para toda la casa.",
+                  "answer": "losa",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -456,10 +836,29 @@
                   "text": "encofrado",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"encofrado\" (masculino). Molde provisório em que o hormigón endurece.",
+                  "collocations": [
+                    "encofrado de madera",
+                    "retirar el encofrado",
+                    "desencofrar"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El encofrado debe resistir la presión del hormigón fresco.",
+                  "answer": "encofrado",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El encofrado se retiró a los siete días del vertido.",
+                  "answer": "encofrado",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -475,10 +874,29 @@
                   "text": "curado",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"curado\" (masculino) do hormigón: mantê-lo úmido para ganhar resistência.",
+                  "collocations": [
+                    "curado del hormigón",
+                    "curado con agua",
+                    "tiempo de curado"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El curado del hormigón dura al menos siete días.",
+                  "answer": "curado",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Para el curado se riega la losa dos veces al día.",
+                  "answer": "curado",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -494,10 +912,29 @@
                   "text": "impermeabilización",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"impermeabilización\" (feminina). Evita infiltração em lajes, banheiros e muros.",
+                  "collocations": [
+                    "impermeabilización de cubiertas",
+                    "membrana de impermeabilización",
+                    "aplicar la impermeabilización"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La impermeabilización de la terraza evitó las filtraciones.",
+                  "answer": "impermeabilización",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se aplicó una impermeabilización doble en los baños.",
+                  "answer": "impermeabilización",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -513,10 +950,29 @@
                   "text": "excavación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"excavación\" (feminina). Remoção de terra para fundações, valas ou sótanos.",
+                  "collocations": [
+                    "excavación de zanjas",
+                    "excavación mecánica",
+                    "fondo de excavación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La excavación llegó a tres metros de profundidad.",
+                  "answer": "excavación",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una retroexcavadora realizó la excavación del sótano.",
+                  "answer": "excavación",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -546,10 +1002,29 @@
                   "text": "baldosa",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"baldosa\" (feminina) para piso; \"azulejo\" é de parede. Ambas são cerâmicas.",
+                  "collocations": [
+                    "colocar una baldosa",
+                    "baldosa cerámica",
+                    "baldosa antideslizante"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se colocó cada baldosa con una separación de tres milímetros.",
+                  "answer": "baldosa",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una baldosa antideslizante evita caídas en el baño.",
+                  "answer": "baldosa",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -565,10 +1040,29 @@
                   "text": "lechada",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"lechada\" (feminina). Pasta que preenche juntas entre cerâmicas.",
+                  "collocations": [
+                    "lechada de cemento",
+                    "rellenar con lechada",
+                    "lechada impermeable"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La lechada rellena las juntas entre las baldosas.",
+                  "answer": "lechada",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Hay que limpiar la lechada sobrante antes de que seque.",
+                  "answer": "lechada",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -584,10 +1078,29 @@
                   "text": "panel de yeso",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"panel de yeso\" (masculino), também \"pladur\" (marca, em Espanha) ou \"tablaroca\" (México). Paredes secas.",
+                  "collocations": [
+                    "panel de yeso",
+                    "tabique de panel de yeso",
+                    "atornillar un panel de yeso"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se atornilló cada panel de yeso a la estructura metálica.",
+                  "answer": "panel de yeso",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El panel de yeso se corta fácilmente con un cúter.",
+                  "answer": "panel de yeso",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -603,10 +1116,29 @@
                   "text": "zócalo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"zócalo\" ou \"rodapié\" (masculino). Faixa na base da parede.",
+                  "collocations": [
+                    "zócalo de madera",
+                    "colocar el zócalo",
+                    "zócalo cerámico"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El zócalo cubre la unión entre el suelo y la pared.",
+                  "answer": "zócalo",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se instaló un zócalo de madera en toda la sala.",
+                  "answer": "zócalo",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1154,29 @@
                   "text": "sellador",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"sellador\" (masculino); \"silicona\" ou \"masilla\" para juntas. Veda contra água e ar.",
+                  "collocations": [
+                    "sellador de silicona",
+                    "aplicar el sellador",
+                    "sellador de poliuretano"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El sellador evita que el agua entre por la junta.",
+                  "answer": "sellador",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se aplicó un sellador flexible alrededor de la ventana.",
+                  "answer": "sellador",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -641,10 +1192,29 @@
                   "text": "imprimación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"imprimación\" (feminina). Camada de fundo que melhora a aderência da pintura.",
+                  "collocations": [
+                    "imprimación para paredes",
+                    "aplicar la imprimación",
+                    "imprimación antioxidante"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La imprimación mejora la adherencia de la pintura.",
+                  "answer": "imprimación",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se aplicó una imprimación antioxidante sobre el metal.",
+                  "answer": "imprimación",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -674,10 +1244,29 @@
                   "text": "casco",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"casco\" (masculino), \"casco de seguridad\". EPI obrigatório em obra.",
+                  "collocations": [
+                    "casco de seguridad",
+                    "llevar casco",
+                    "casco obligatorio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Todo el personal debe llevar el casco en la obra.",
+                  "answer": "casco",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El casco amortigua los golpes por caída de objetos.",
+                  "answer": "casco",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -693,10 +1282,29 @@
                   "text": "arnés de seguridad",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"arnés de seguridad\" (masculino). Usado para trabalhos em altura, preso a uma linha de vida.",
+                  "collocations": [
+                    "arnés de seguridad",
+                    "línea de vida",
+                    "trabajo en altura"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El arnés de seguridad se engancha a la línea de vida.",
+                  "answer": "arnés de seguridad",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Para subir al tejado es obligatorio el arnés de seguridad.",
+                  "answer": "arnés de seguridad",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -712,10 +1320,29 @@
                   "text": "equipo de protección",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"equipo de protección\" (masculino); a sigla é EPI (equipo de protección individual).",
+                  "collocations": [
+                    "equipo de protección individual",
+                    "usar el equipo de protección",
+                    "EPI obligatorio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El equipo de protección incluye casco, guantes y botas.",
+                  "answer": "equipo de protección",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Sin equipo de protección no se permite el acceso a la obra.",
+                  "answer": "equipo de protección",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -731,10 +1358,29 @@
                   "text": "capataz",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"capataz\" (masculino); também \"encargado de obra\". Dirige os operários.",
+                  "collocations": [
+                    "capataz de obra",
+                    "hablar con el capataz",
+                    "capataz de cuadrilla"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El capataz distribuye las tareas entre los operarios.",
+                  "answer": "capataz",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Consultamos al capataz antes de cambiar el orden de los trabajos.",
+                  "answer": "capataz",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -750,10 +1396,29 @@
                   "text": "andamio",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"andamio\" (masculino). Estrutura provisória para trabalhar em altura.",
+                  "collocations": [
+                    "montar un andamio",
+                    "andamio tubular",
+                    "revisar el andamio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El andamio rodea toda la fachada del edificio.",
+                  "answer": "andamio",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se revisó el andamio antes de que subieran los operarios.",
+                  "answer": "andamio",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             },
             {
@@ -769,10 +1434,29 @@
                   "text": "peligro",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"peligro\" (masculino): fonte potencial de dano. \"Riesgo\" é a probabilidade do dano.",
+                  "collocations": [
+                    "identificar un peligro",
+                    "peligro de caída",
+                    "señal de peligro"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se señalizó el peligro de caída con una cinta roja.",
+                  "answer": "peligro",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La zanja abierta representa un peligro para los peatones.",
+                  "answer": "peligro",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
               "segments": {}
             }
           ]

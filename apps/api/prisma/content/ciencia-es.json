@@ -25,10 +25,29 @@
                   "text": "hipótesis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hipótesis\" (feminina, com acento); o plural é igual: las hipótesis. Afirmação a testar.",
+                  "collocations": [
+                    "formular una hipótesis",
+                    "hipótesis nula",
+                    "confirmar la hipótesis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El equipo formuló una hipótesis sobre el origen de la enfermedad.",
+                  "answer": "hipótesis",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los datos permitieron confirmar la hipótesis inicial.",
+                  "answer": "hipótesis",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -44,10 +63,29 @@
                   "text": "experimento",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"experimento\" (masculino). Procedimento controlado para testar uma hipótesis.",
+                  "collocations": [
+                    "diseñar un experimento",
+                    "experimento controlado",
+                    "repetir el experimento"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El experimento se repitió tres veces con el mismo resultado.",
+                  "answer": "experimento",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Cada experimento se registra en el cuaderno del laboratorio.",
+                  "answer": "experimento",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -63,10 +101,29 @@
                   "text": "variable independiente",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"variable independiente\" (feminina). A que o pesquisador altera; a \"variable dependiente\" é a que se mede.",
+                  "collocations": [
+                    "variable independiente",
+                    "variable dependiente",
+                    "manipular la variable independiente"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La temperatura es la variable independiente del estudio.",
+                  "answer": "variable independiente",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El investigador modificó la variable independiente en cada ensayo.",
+                  "answer": "variable independiente",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -82,10 +139,29 @@
                   "text": "grupo de control",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"grupo de control\" (masculino). Não recebe a intervenção, para comparar com o grupo tratado.",
+                  "collocations": [
+                    "grupo de control",
+                    "grupo experimental",
+                    "comparar con el grupo de control"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El grupo de control recibió un placebo.",
+                  "answer": "grupo de control",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se compararon los resultados con los del grupo de control.",
+                  "answer": "grupo de control",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -101,10 +177,29 @@
                   "text": "conjunto de datos",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"conjunto de datos\" (masculino); também \"base de datos\" ou \"dataset\". Coleção organizada de dados.",
+                  "collocations": [
+                    "conjunto de datos",
+                    "analizar el conjunto de datos",
+                    "conjunto de datos abierto"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El conjunto de datos contiene diez mil observaciones.",
+                  "answer": "conjunto de datos",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se publicó el conjunto de datos para que otros puedan replicar el estudio.",
+                  "answer": "conjunto de datos",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +215,29 @@
                   "text": "revisión por pares",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"revisión por pares\" (feminina). Especialistas avaliam um artigo antes de ser publicado.",
+                  "collocations": [
+                    "revisión por pares",
+                    "superar la revisión por pares",
+                    "revista con revisión por pares"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El artículo superó la revisión por pares tras dos correcciones.",
+                  "answer": "revisión por pares",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La revisión por pares garantiza un nivel mínimo de calidad.",
+                  "answer": "revisión por pares",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -153,10 +267,29 @@
                   "text": "muestra",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"muestra\" (feminina). Parte da população estudada; \"muestra aleatoria\" e \"tamaño de la muestra\".",
+                  "collocations": [
+                    "muestra aleatoria",
+                    "tamaño de la muestra",
+                    "muestra representativa"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La muestra incluyó a mil participantes de distintas edades.",
+                  "answer": "muestra",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una muestra pequeña no permite sacar conclusiones fiables.",
+                  "answer": "muestra",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -172,10 +305,29 @@
                   "text": "correlación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"correlación\" (feminina). Relação entre variáveis; \"correlación no implica causalidad\".",
+                  "collocations": [
+                    "correlación positiva",
+                    "correlación negativa",
+                    "coeficiente de correlación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Existe una correlación positiva entre el estudio y las notas.",
+                  "answer": "correlación",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La correlación entre ambas variables es débil.",
+                  "answer": "correlación",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -191,10 +343,29 @@
                   "text": "desviación estándar",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"desviación estándar\" (feminina); também \"desviación típica\". Mede a dispersão dos dados.",
+                  "collocations": [
+                    "desviación estándar",
+                    "media y desviación estándar",
+                    "desviación estándar baja"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La media fue de cinco y la desviación estándar de dos.",
+                  "answer": "desviación estándar",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una desviación estándar alta indica datos muy dispersos.",
+                  "answer": "desviación estándar",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -210,10 +381,29 @@
                   "text": "significación estadística",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"significación estadística\" (feminina); também \"significancia estadística\". Em geral p < 0,05.",
+                  "collocations": [
+                    "significación estadística",
+                    "alcanzar significación estadística",
+                    "nivel de significación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los resultados alcanzaron significación estadística.",
+                  "answer": "significación estadística",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La diferencia no tuvo significación estadística.",
+                  "answer": "significación estadística",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +419,29 @@
                   "text": "valor atípico",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"valor atípico\" (masculino); também \"dato anómalo\" ou \"outlier\". Observação muito afastada das demais.",
+                  "collocations": [
+                    "valor atípico",
+                    "eliminar un valor atípico",
+                    "detectar valores atípicos"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un valor atípico distorsionó la media del grupo.",
+                  "answer": "valor atípico",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se identificó un valor atípico en la medición de la tarde.",
+                  "answer": "valor atípico",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -248,10 +457,29 @@
                   "text": "margen de error",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"margen de error\" (masculino). Intervalo de incerteza de uma estimativa.",
+                  "collocations": [
+                    "margen de error",
+                    "margen de error del tres por ciento",
+                    "reducir el margen de error"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La encuesta tiene un margen de error del tres por ciento.",
+                  "answer": "margen de error",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Con más participantes disminuye el margen de error.",
+                  "answer": "margen de error",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -281,10 +509,29 @@
                   "text": "reactivo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"reactivo\" (masculino). Substância usada em reações químicas e análises.",
+                  "collocations": [
+                    "reactivo químico",
+                    "reactivo en exceso",
+                    "añadir el reactivo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se añadió el reactivo a la solución lentamente.",
+                  "answer": "reactivo",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Este reactivo cambia de color en medio ácido.",
+                  "answer": "reactivo",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -300,10 +547,29 @@
                   "text": "espécimen",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"espécimen\" (masculino, com acento); plural: especímenes. Amostra ou exemplar para análise.",
+                  "collocations": [
+                    "espécimen biológico",
+                    "conservar un espécimen",
+                    "espécimen de laboratorio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada espécimen se etiqueta antes de analizarlo.",
+                  "answer": "espécimen",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El espécimen llegó al laboratorio en un recipiente refrigerado.",
+                  "answer": "espécimen",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -319,10 +585,29 @@
                   "text": "centrífuga",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"centrífuga\" (feminina). Separa componentes por densidade girando rapidamente.",
+                  "collocations": [
+                    "centrífuga de laboratorio",
+                    "centrifugar a alta velocidad",
+                    "tubo de la centrífuga"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La centrífuga separó el plasma de las células.",
+                  "answer": "centrífuga",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se colocaron los tubos en la centrífuga durante diez minutos.",
+                  "answer": "centrífuga",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -338,10 +623,29 @@
                   "text": "pipeta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"pipeta\" (feminina). Instrumento para medir e transferir pequenos volumes de líquido.",
+                  "collocations": [
+                    "pipeta graduada",
+                    "micropipeta",
+                    "llenar la pipeta"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se tomó un mililitro de solución con una pipeta.",
+                  "answer": "pipeta",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La pipeta debe calibrarse con regularidad.",
+                  "answer": "pipeta",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -357,10 +661,29 @@
                   "text": "microscopio",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"microscopio\" (masculino). Tipos: óptico, electrónico, de fluorescencia.",
+                  "collocations": [
+                    "microscopio óptico",
+                    "microscopio electrónico",
+                    "observar al microscopio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se observó la muestra con un microscopio óptico.",
+                  "answer": "microscopio",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El microscopio electrónico permite ver detalles de las células.",
+                  "answer": "microscopio",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -376,10 +699,29 @@
                   "text": "calibración",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"calibración\" (feminina), ou \"calibrado\". Ajusta um instrumento para medir com exatidão.",
+                  "collocations": [
+                    "calibración del instrumento",
+                    "certificado de calibración",
+                    "calibración periódica"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La calibración de la balanza se realiza cada mes.",
+                  "answer": "calibración",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un error de calibración alteró todas las medidas.",
+                  "answer": "calibración",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -409,10 +751,29 @@
                   "text": "cantidad de movimiento",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cantidad de movimiento\" (feminina); também \"momento lineal\". Produto da massa pela velocidade.",
+                  "collocations": [
+                    "cantidad de movimiento",
+                    "conservación de la cantidad de movimiento",
+                    "cantidad de movimiento lineal"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La cantidad de movimiento se conserva en una colisión.",
+                  "answer": "cantidad de movimiento",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Al duplicar la velocidad, se duplica la cantidad de movimiento.",
+                  "answer": "cantidad de movimiento",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -428,10 +789,29 @@
                   "text": "entropía",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"entropía\" (feminina). Mede o grau de desordem; a segunda lei da termodinâmica diz que cresce.",
+                  "collocations": [
+                    "entropía de un sistema",
+                    "aumento de la entropía",
+                    "segunda ley y entropía"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La entropía de un sistema aislado nunca disminuye.",
+                  "answer": "entropía",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El hielo que se derrite aumenta la entropía del agua.",
+                  "answer": "entropía",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -447,10 +827,29 @@
                   "text": "catalizador",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"catalizador\" (masculino). Acelera uma reação sem ser consumido; em carros, é também o conversor catalítico.",
+                  "collocations": [
+                    "catalizador químico",
+                    "acelerar con un catalizador",
+                    "catalizador enzimático"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El catalizador acelera la reacción sin consumirse.",
+                  "answer": "catalizador",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se añadió un catalizador de platino a la mezcla.",
+                  "answer": "catalizador",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -466,10 +865,29 @@
                   "text": "disolvente",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"disolvente\" (masculino); também \"solvente\". Substância que dissolve outra; a água é o \"disolvente universal\".",
+                  "collocations": [
+                    "disolvente orgánico",
+                    "disolvente universal",
+                    "evaporar el disolvente"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El agua es un disolvente excelente para las sales.",
+                  "answer": "disolvente",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se evaporó el disolvente para obtener el sólido puro.",
+                  "answer": "disolvente",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -485,10 +903,29 @@
                   "text": "compuesto",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"compuesto químico\" (masculino). Substância formada por dois ou mais elementos em proporção fixa. Aqui o termo é \"compuesto\".",
+                  "collocations": [
+                    "compuesto orgánico",
+                    "compuesto inorgánico",
+                    "sintetizar un compuesto"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El agua es un compuesto formado por hidrógeno y oxígeno.",
+                  "answer": "compuesto",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se sintetizó un compuesto nuevo con propiedades antibacterianas.",
+                  "answer": "compuesto",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -504,10 +941,29 @@
                   "text": "isótopo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"isótopo\" (masculino). Átomos do mesmo elemento com número de nêutrons diferente.",
+                  "collocations": [
+                    "isótopo radiactivo",
+                    "isótopo estable",
+                    "datación por isótopos"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El carbono catorce es un isótopo radiactivo del carbono.",
+                  "answer": "isótopo",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El isótopo estable no emite radiación.",
+                  "answer": "isótopo",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -537,10 +993,29 @@
                   "text": "gen",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"gen\" (masculino, sem \"e\" final); plural: genes. Unidade de herança que codifica uma proteína.",
+                  "collocations": [
+                    "gen dominante",
+                    "gen mutado",
+                    "expresión del gen"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un gen mutado puede provocar una enfermedad hereditaria.",
+                  "answer": "gen",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Este gen controla el color de los ojos.",
+                  "answer": "gen",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -556,10 +1031,29 @@
                   "text": "enzima",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"enzima\" (feminina em espanhol: la enzima). Proteína que acelera reações no organismo.",
+                  "collocations": [
+                    "enzima digestiva",
+                    "actividad de la enzima",
+                    "inhibir una enzima"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La enzima digestiva descompone el almidón en azúcares simples.",
+                  "answer": "enzima",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una enzima necesita una temperatura adecuada para funcionar.",
+                  "answer": "enzima",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -575,10 +1069,29 @@
                   "text": "selección natural",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"selección natural\" (feminina). Mecanismo da evolução de Darwin: sobrevivem os mais adaptados.",
+                  "collocations": [
+                    "selección natural",
+                    "teoría de la selección natural",
+                    "presión de la selección natural"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La selección natural favorece a los individuos mejor adaptados.",
+                  "answer": "selección natural",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Darwin explicó la evolución mediante la selección natural.",
+                  "answer": "selección natural",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -594,10 +1107,29 @@
                   "text": "ecosistema",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"ecosistema\" (masculino). Seres vivos e ambiente que interagem; pode ser terrestre ou acuático.",
+                  "collocations": [
+                    "ecosistema marino",
+                    "equilibrio del ecosistema",
+                    "proteger el ecosistema"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El ecosistema marino depende de la temperatura del agua.",
+                  "answer": "ecosistema",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La tala masiva rompió el equilibrio del ecosistema.",
+                  "answer": "ecosistema",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -613,10 +1145,29 @@
                   "text": "fotosíntesis",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"fotosíntesis\" (feminina, com acento). Plantas convertem luz, água e CO₂ em glicose e oxigênio.",
+                  "collocations": [
+                    "proceso de fotosíntesis",
+                    "fotosíntesis de las plantas",
+                    "luz y fotosíntesis"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La fotosíntesis ocurre en los cloroplastos de las hojas.",
+                  "answer": "fotosíntesis",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Sin luz, la fotosíntesis se detiene.",
+                  "answer": "fotosíntesis",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -632,10 +1183,29 @@
                   "text": "mutación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"mutación\" (feminina). Alteração do material genético; pode ser neutra, benéfica ou prejudicial.",
+                  "collocations": [
+                    "mutación genética",
+                    "mutación espontánea",
+                    "mutación puntual"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Una mutación genética alteró la estructura de la proteína.",
+                  "answer": "mutación",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La mutación apareció de forma espontánea en la colonia.",
+                  "answer": "mutación",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -665,10 +1235,29 @@
                   "text": "resumen",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"resumen\" (masculino). Em artigos científicos, o resumo no início, com objetivo, método e resultados.",
+                  "collocations": [
+                    "resumen del artículo",
+                    "escribir el resumen",
+                    "resumen estructurado"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El resumen del artículo no debe pasar de doscientas palabras.",
+                  "answer": "resumen",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Leí el resumen antes de decidir si descargaba el artículo.",
+                  "answer": "resumen",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -684,10 +1273,29 @@
                   "text": "metodología",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"metodología\" (feminina). Descreve como se realizou a pesquisa; permite que outros a reproduzam.",
+                  "collocations": [
+                    "metodología cualitativa",
+                    "metodología cuantitativa",
+                    "describir la metodología"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La metodología cuantitativa usa datos numéricos y análisis estadístico.",
+                  "answer": "metodología",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El artículo describe con detalle la metodología utilizada.",
+                  "answer": "metodología",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -703,10 +1311,29 @@
                   "text": "hallazgos",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hallazgos\" (masculino plural). O que a pesquisa descobriu. Mais usual no plural: \"los hallazgos\".",
+                  "collocations": [
+                    "hallazgos principales",
+                    "hallazgos clínicos",
+                    "presentar los hallazgos"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los hallazgos del estudio se publicaron en una revista internacional.",
+                  "answer": "hallazgos",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los hallazgos principales confirman la hipótesis inicial.",
+                  "answer": "hallazgos",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -722,10 +1349,29 @@
                   "text": "cita",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cita\" (feminina); também \"referencia bibliográfica\". Indica de onde vem uma ideia ou dado.",
+                  "collocations": [
+                    "cita bibliográfica",
+                    "cita textual",
+                    "formato de cita"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada afirmación del texto necesita una cita bibliográfica.",
+                  "answer": "cita",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La cita textual se escribe entre comillas e indica la página.",
+                  "answer": "cita",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -741,10 +1387,29 @@
                   "text": "limitación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"limitación\" (feminina). Os limites do estudo, como amostra pequena ou viés; faz parte de uma seção honesta do artigo.",
+                  "collocations": [
+                    "limitación del estudio",
+                    "principales limitaciones",
+                    "reconocer una limitación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Una limitación del estudio fue el tamaño reducido de la muestra.",
+                  "answer": "limitación",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los autores señalan esa limitación al final de la discusión.",
+                  "answer": "limitación",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             },
             {
@@ -760,10 +1425,29 @@
                   "text": "replicación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"replicación\" (feminina), também \"réplica\". Repetir um estudo para confirmar os resultados.",
+                  "collocations": [
+                    "replicación del estudio",
+                    "fallo de replicación",
+                    "replicación independiente"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La replicación del estudio confirmó los resultados originales.",
+                  "answer": "replicación",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Muchos experimentos no superan la replicación independiente.",
+                  "answer": "replicación",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
               "segments": {}
             }
           ]

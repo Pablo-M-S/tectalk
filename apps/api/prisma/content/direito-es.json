@@ -25,10 +25,29 @@
                   "text": "ley",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"ley\" (feminina). Norma aprovada pelo poder legislativo; \"ley orgánica\" e \"ley ordinaria\" são categorias. Diferente de \"reglamento\", que vem do poder executivo.",
+                  "collocations": [
+                    "ley orgánica",
+                    "promulgar una ley",
+                    "ley vigente"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La ley entró en vigor el uno de enero.",
+                  "answer": "ley",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El Parlamento aprobó una ley que protege a los consumidores.",
+                  "answer": "ley",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -44,10 +63,29 @@
                   "text": "reglamento",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"reglamento\" (masculino). Norma administrativa que desenvolve uma lei; também é o regulamento interno de uma empresa.",
+                  "collocations": [
+                    "reglamento interno",
+                    "reglamento europeo",
+                    "aprobar un reglamento"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El reglamento desarrolla los detalles de la ley.",
+                  "answer": "reglamento",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La empresa publicó un reglamento sobre el uso de los datos.",
+                  "answer": "reglamento",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -63,10 +101,29 @@
                   "text": "jurisdicción",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"jurisdicción\" (feminina). Poder de julgar ou território em que um tribunal atua; ligado a \"competencia\".",
+                  "collocations": [
+                    "jurisdicción civil",
+                    "jurisdicción penal",
+                    "fuera de la jurisdicción"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El caso corresponde a la jurisdicción civil.",
+                  "answer": "jurisdicción",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El tribunal declaró que no tenía jurisdicción sobre el asunto.",
+                  "answer": "jurisdicción",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -82,10 +139,29 @@
                   "text": "precedente",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"precedente\" (masculino). Em países de direito civil pesa menos que em common law; a \"jurisprudencia\" é o conjunto de decisões reiteradas.",
+                  "collocations": [
+                    "sentar un precedente",
+                    "precedente judicial",
+                    "seguir el precedente"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La sentencia sienta un precedente para casos similares.",
+                  "answer": "precedente",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El abogado citó un precedente del tribunal supremo.",
+                  "answer": "precedente",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -101,10 +177,29 @@
                   "text": "tribunal",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"tribunal\" (masculino). Em instâncias iniciais fala-se \"juzgado\". Ex.: Tribunal Supremo, Tribunal Constitucional.",
+                  "collocations": [
+                    "Tribunal Supremo",
+                    "tribunal de apelación",
+                    "comparecer ante el tribunal"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El tribunal dictó sentencia en febrero.",
+                  "answer": "tribunal",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La defensa recurrió ante un tribunal superior.",
+                  "answer": "tribunal",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +215,29 @@
                   "text": "legislación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"legislación\" (feminina), coletivo de normas; também \"normativa\".",
+                  "collocations": [
+                    "legislación vigente",
+                    "legislación laboral",
+                    "reformar la legislación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La legislación laboral protege a los trabajadores.",
+                  "answer": "legislación",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se reformó la legislación para facilitar la inversión extranjera.",
+                  "answer": "legislación",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -153,10 +267,29 @@
                   "text": "contrato",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"contrato\" (masculino). Elementos: consentimiento, objeto y causa; \"firmar\" ou \"rescindir\" um contrato.",
+                  "collocations": [
+                    "firmar un contrato",
+                    "contrato de trabajo",
+                    "rescindir el contrato"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las dos partes firmaron el contrato ante notario.",
+                  "answer": "contrato",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El contrato fija el precio y el plazo de entrega.",
+                  "answer": "contrato",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -172,10 +305,29 @@
                   "text": "cláusula",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cláusula\" (feminina, com acento). Cada disposição de um contrato; \"cláusula abusiva\" é proibida ao consumidor.",
+                  "collocations": [
+                    "cláusula abusiva",
+                    "cláusula penal",
+                    "cláusula de confidencialidad"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La cláusula de confidencialidad obliga a ambas partes.",
+                  "answer": "cláusula",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se eliminó una cláusula abusiva del contrato.",
+                  "answer": "cláusula",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -191,10 +343,29 @@
                   "text": "incumplimiento",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"incumplimiento\" (masculino). Falta de cumprimento de obrigação, em especial contratual.",
+                  "collocations": [
+                    "incumplimiento de contrato",
+                    "incumplimiento grave",
+                    "resolver por incumplimiento"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El incumplimiento del plazo permite resolver el contrato.",
+                  "answer": "incumplimiento",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La empresa reclamó daños por el incumplimiento de la entrega.",
+                  "answer": "incumplimiento",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -210,10 +381,29 @@
                   "text": "contraprestación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"contraprestación\" (feminina). Aquilo que cada parte entrega em troca; em direito civil, o conceito próximo é a \"causa\".",
+                  "collocations": [
+                    "contraprestación económica",
+                    "sin contraprestación",
+                    "contraprestación suficiente"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La contraprestación del servicio es una cuota mensual.",
+                  "answer": "contraprestación",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un contrato sin contraprestación puede considerarse una donación.",
+                  "answer": "contraprestación",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +419,29 @@
                   "text": "responsabilidad",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"responsabilidad\" (feminina). Pode ser civil, penal ou administrativa; \"responsabilidad limitada\" (S.L.).",
+                  "collocations": [
+                    "responsabilidad civil",
+                    "responsabilidad limitada",
+                    "exigir responsabilidad"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La responsabilidad civil cubre los daños causados a terceros.",
+                  "answer": "responsabilidad",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El socio responde con su responsabilidad limitada al capital aportado.",
+                  "answer": "responsabilidad",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -248,10 +457,29 @@
                   "text": "indemnización",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"indemnización\" (feminina). Reparação em dinheiro por dano ou perda; verbo: indemnizar.",
+                  "collocations": [
+                    "indemnización por daños",
+                    "cláusula de indemnización",
+                    "reclamar una indemnización"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El juez fijó una indemnización de diez mil euros.",
+                  "answer": "indemnización",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La aseguradora pagó la indemnización en treinta días.",
+                  "answer": "indemnización",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -281,10 +509,29 @@
                   "text": "demandante",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"demandante\" (masculino ou feminino: el/la demandante). Quem propõe a ação civil.",
+                  "collocations": [
+                    "parte demandante",
+                    "el demandante alega",
+                    "demandante y demandado"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El demandante reclama el pago de la deuda.",
+                  "answer": "demandante",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La demandante presentó pruebas de los daños sufridos.",
+                  "answer": "demandante",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -300,10 +547,29 @@
                   "text": "demandado",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"demandado\" (cível); em matéria penal, \"acusado\" ou \"imputado\".",
+                  "collocations": [
+                    "parte demandada",
+                    "el demandado niega",
+                    "contestar la demanda"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El demandado negó los hechos en la audiencia.",
+                  "answer": "demandado",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se notificó al demandado la fecha del juicio.",
+                  "answer": "demandado",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -319,10 +585,29 @@
                   "text": "demanda judicial",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"demanda judicial\" (feminina) ou \"demanda\". Escrito que inicia o processo civil.",
+                  "collocations": [
+                    "presentar una demanda judicial",
+                    "admitir la demanda",
+                    "contestar la demanda"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La empresa presentó una demanda judicial contra su antiguo socio.",
+                  "answer": "demanda judicial",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El juzgado admitió a trámite la demanda judicial.",
+                  "answer": "demanda judicial",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -338,10 +623,29 @@
                   "text": "prueba",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"prueba\" (feminina). Tipos: documental, testifical, pericial. \"Aportar pruebas\" e \"valorar la prueba\".",
+                  "collocations": [
+                    "prueba documental",
+                    "prueba pericial",
+                    "aportar pruebas"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El fiscal aportó una prueba decisiva en el juicio.",
+                  "answer": "prueba",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El juez rechazó la prueba por haberse obtenido de forma ilegal.",
+                  "answer": "prueba",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -357,10 +661,29 @@
                   "text": "testimonio",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"testimonio\" (masculino) ou \"declaración testifical\". Declaração de uma testemunha em juízo.",
+                  "collocations": [
+                    "testimonio de un testigo",
+                    "prestar testimonio",
+                    "testimonio clave"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El testimonio del vecino confirmó la versión de la víctima.",
+                  "answer": "testimonio",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se pidió el testimonio de tres testigos oculares.",
+                  "answer": "testimonio",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -376,10 +699,29 @@
                   "text": "veredicto",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"veredicto\" (masculino). Em Espanha, é a decisão do jurado; a decisão do juiz é a \"sentencia\".",
+                  "collocations": [
+                    "veredicto del jurado",
+                    "veredicto de culpabilidad",
+                    "leer el veredicto"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El jurado leyó el veredicto después de dos días.",
+                  "answer": "veredicto",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La defensa no esperaba un veredicto de culpabilidad.",
+                  "answer": "veredicto",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -409,10 +751,29 @@
                   "text": "delito grave",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol de Espanha: \"delito grave\" (masculino); na América Latina a divisão é diferente. Na linguagem jurídica inglesa, \"felony\" é o crime grave.",
+                  "collocations": [
+                    "delito grave",
+                    "cometer un delito grave",
+                    "pena de prisión"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El robo con violencia se castiga como un delito grave.",
+                  "answer": "delito grave",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Fue condenado por un delito grave contra la propiedad.",
+                  "answer": "delito grave",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -428,10 +789,29 @@
                   "text": "delito menor",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol de Espanha: \"delito menor\" ou \"delito leve\" (masculino). É a infração de menor gravidade, com penas curtas ou multa.",
+                  "collocations": [
+                    "delito menor",
+                    "multa por delito menor",
+                    "sancionar un delito menor"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un hurto de poco valor es un delito menor.",
+                  "answer": "delito menor",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El juez impuso una multa por un delito menor.",
+                  "answer": "delito menor",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -447,10 +827,29 @@
                   "text": "acusación formal",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"acusación formal\" (feminina). Ato do ministério público ou do grande júri que imputa um crime formalmente.",
+                  "collocations": [
+                    "acusación formal",
+                    "presentar una acusación formal",
+                    "escrito de acusación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La fiscalía presentó una acusación formal por fraude.",
+                  "answer": "acusación formal",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La acusación formal incluye tres delitos distintos.",
+                  "answer": "acusación formal",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -466,10 +865,29 @@
                   "text": "fianza",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"fianza\" (feminina). Garantia para responder em liberdade; \"libertad bajo fianza\".",
+                  "collocations": [
+                    "libertad bajo fianza",
+                    "pagar una fianza",
+                    "fianza elevada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El juez concedió libertad bajo fianza al acusado.",
+                  "answer": "fianza",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se fijó una fianza de cincuenta mil euros.",
+                  "answer": "fianza",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -485,10 +903,29 @@
                   "text": "condena",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"condena\" (feminina). Pena imposta ao culpado; \"cumplir condena\".",
+                  "collocations": [
+                    "cumplir condena",
+                    "condena a prisión",
+                    "condena firme"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El tribunal impuso una condena de cuatro años de prisión.",
+                  "answer": "condena",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La condena fue confirmada por el tribunal superior.",
+                  "answer": "condena",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -504,10 +941,29 @@
                   "text": "absolución",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"absolución\" (feminina). Decisão que declara o acusado não culpado.",
+                  "collocations": [
+                    "sentencia de absolución",
+                    "pedir la absolución",
+                    "absolución por falta de pruebas"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El jurado dictó la absolución del acusado.",
+                  "answer": "absolución",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La fiscalía pidió la absolución por falta de pruebas.",
+                  "answer": "absolución",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -537,10 +993,29 @@
                   "text": "accionista",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"accionista\" (masculino ou feminino). Dono de ações; \"junta de accionistas\" é a assembleia.",
+                  "collocations": [
+                    "junta de accionistas",
+                    "accionista mayoritario",
+                    "derechos del accionista"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada accionista tiene derecho de voto en la junta.",
+                  "answer": "accionista",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El accionista mayoritario controla el cuarenta por ciento de la empresa.",
+                  "answer": "accionista",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -556,10 +1031,29 @@
                   "text": "fusión",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"fusión\" (feminina) de empresas. \"Fusión por absorción\" quando uma incorpora a outra.",
+                  "collocations": [
+                    "fusión por absorción",
+                    "fusión de empresas",
+                    "aprobar la fusión"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La fusión creó la mayor aseguradora del país.",
+                  "answer": "fusión",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los accionistas aprobaron la fusión en la junta.",
+                  "answer": "fusión",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -575,10 +1069,29 @@
                   "text": "quiebra",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"quiebra\" (feminina) na América Latina; na Espanha, \"concurso de acreedores\". Insolvência judicialmente reconhecida.",
+                  "collocations": [
+                    "declararse en quiebra",
+                    "quiebra fraudulenta",
+                    "proceso de quiebra"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La empresa se declaró en quiebra tras perder su principal cliente.",
+                  "answer": "quiebra",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El juez abrió un proceso de quiebra contra el banco.",
+                  "answer": "quiebra",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -594,10 +1107,29 @@
                   "text": "deber fiduciario",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"deber fiduciario\" (masculino). Obrigação de agir com lealdade e boa-fé no interesse de outro.",
+                  "collocations": [
+                    "deber fiduciario",
+                    "incumplir el deber fiduciario",
+                    "administradores y deber fiduciario"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los administradores tienen un deber fiduciario hacia los accionistas.",
+                  "answer": "deber fiduciario",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El consejero violó su deber fiduciario al ocultar el conflicto de intereses.",
+                  "answer": "deber fiduciario",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -613,10 +1145,29 @@
                   "text": "diligencia debida",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"diligencia debida\" (feminina); no meio empresarial também se usa \"due diligence\". Análise prévia de uma operação.",
+                  "collocations": [
+                    "diligencia debida",
+                    "realizar la diligencia debida",
+                    "informe de diligencia debida"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El comprador realizó la diligencia debida antes de cerrar la operación.",
+                  "answer": "diligencia debida",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La diligencia debida reveló deudas ocultas en la empresa.",
+                  "answer": "diligencia debida",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -632,10 +1183,29 @@
                   "text": "propiedad intelectual",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"propiedad intelectual\" (feminina). Inclui direitos de autor, patentes e marcas.",
+                  "collocations": [
+                    "propiedad intelectual",
+                    "derechos de propiedad intelectual",
+                    "proteger la propiedad intelectual"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La propiedad intelectual protege las obras y las marcas.",
+                  "answer": "propiedad intelectual",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Registrar una patente garantiza la propiedad intelectual del invento.",
+                  "answer": "propiedad intelectual",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -665,10 +1235,29 @@
                   "text": "secreto profesional",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"secreto profesional\" (masculino). O advogado não pode revelar o que seu cliente lhe confia.",
+                  "collocations": [
+                    "secreto profesional",
+                    "violar el secreto profesional",
+                    "deber de secreto profesional"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El abogado está protegido por el secreto profesional.",
+                  "answer": "secreto profesional",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El tribunal reconoció que el secreto profesional impedía el testimonio.",
+                  "answer": "secreto profesional",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -684,10 +1273,29 @@
                   "text": "declaración jurada",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"declaración jurada\" (feminina). Texto escrito jurado e assinado, com valor de prova.",
+                  "collocations": [
+                    "firmar una declaración jurada",
+                    "declaración jurada de bienes",
+                    "falsedad en declaración jurada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El testigo firmó una declaración jurada ante notario.",
+                  "answer": "declaración jurada",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Falsear una declaración jurada es un delito.",
+                  "answer": "declaración jurada",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -703,10 +1311,29 @@
                   "text": "citación judicial",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"citación judicial\" (feminina). Ordem do tribunal para comparecer ou entregar documentos.",
+                  "collocations": [
+                    "recibir una citación judicial",
+                    "citación judicial como testigo",
+                    "ignorar la citación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El testigo recibió una citación judicial para declarar el lunes.",
+                  "answer": "citación judicial",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Ignorar una citación judicial puede acarrear una multa.",
+                  "answer": "citación judicial",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -722,10 +1349,29 @@
                   "text": "acuerdo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"acuerdo\" (masculino); \"acuerdo extrajudicial\" ou \"transacción\" quando põe fim ao litígio.",
+                  "collocations": [
+                    "alcanzar un acuerdo",
+                    "acuerdo extrajudicial",
+                    "firmar el acuerdo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las partes llegaron a un acuerdo antes del juicio.",
+                  "answer": "acuerdo",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El acuerdo puso fin a una disputa de tres años.",
+                  "answer": "acuerdo",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -741,10 +1387,29 @@
                   "text": "medida cautelar",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"medida cautelar\" (feminina). Ordem urgente para impedir um dano; pode ser de fazer ou não fazer.",
+                  "collocations": [
+                    "medida cautelar",
+                    "solicitar una medida cautelar",
+                    "medida cautelar urgente"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El juez dictó una medida cautelar para suspender la obra.",
+                  "answer": "medida cautelar",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La empresa pidió una medida cautelar contra la publicación del libro.",
+                  "answer": "medida cautelar",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -760,10 +1425,29 @@
                   "text": "asesoría jurídica",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"asesoría jurídica\" (feminina) ou \"asesor jurídico\"; também designa o departamento jurídico de uma empresa.",
+                  "collocations": [
+                    "asesoría jurídica",
+                    "contratar una asesoría jurídica",
+                    "consultar con la asesoría"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La asesoría jurídica revisó el contrato antes de la firma.",
+                  "answer": "asesoría jurídica",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Consultamos con la asesoría jurídica de la empresa antes de responder.",
+                  "answer": "asesoría jurídica",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
               "segments": {}
             }
           ]

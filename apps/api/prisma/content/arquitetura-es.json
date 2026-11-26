@@ -25,10 +25,29 @@
                   "text": "planta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"planta\" (feminina), desenho em vista superior de um piso. \"Planta baja\" é o térreo.",
+                  "collocations": [
+                    "planta baja",
+                    "planta de distribución",
+                    "planta del edificio"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La planta muestra la distribución de las habitaciones.",
+                  "answer": "planta",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "En esta planta se ubican la cocina y el salón.",
+                  "answer": "planta",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -44,10 +63,29 @@
                   "text": "alzado",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"alzado\" (masculino). Desenho de uma fachada em vista frontal, sem perspectiva.",
+                  "collocations": [
+                    "alzado frontal",
+                    "alzado lateral",
+                    "alzado de la fachada"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El alzado muestra la altura y la composición de la fachada.",
+                  "answer": "alzado",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se dibujó el alzado a escala uno a cien.",
+                  "answer": "alzado",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -63,10 +101,29 @@
                   "text": "sección",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"sección\" (feminina). Corte vertical que mostra o interior; \"sección longitudinal\" ou \"transversal\".",
+                  "collocations": [
+                    "sección transversal",
+                    "sección longitudinal",
+                    "sección constructiva"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La sección revela la altura de cada planta.",
+                  "answer": "sección",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La sección constructiva detalla los materiales del muro.",
+                  "answer": "sección",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -82,10 +139,29 @@
                   "text": "plano de emplazamiento",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"plano de emplazamiento\" (masculino). Mostra o terreno e a implantação do edifício no entorno.",
+                  "collocations": [
+                    "plano de emplazamiento",
+                    "plano de situación",
+                    "incluir el emplazamiento"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El plano de emplazamiento indica los límites del solar.",
+                  "answer": "plano de emplazamiento",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El plano de emplazamiento se adjunta a la solicitud de licencia.",
+                  "answer": "plano de emplazamiento",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -101,10 +177,29 @@
                   "text": "escala",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"escala\" (feminina). Relação entre desenho e real: 1:50, 1:100, escala gráfica.",
+                  "collocations": [
+                    "escala gráfica",
+                    "escala uno a cien",
+                    "dibujar a escala"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Todos los planos están dibujados a una escala de uno a cincuenta.",
+                  "answer": "escala",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Para ver el detalle conviene usar una escala mayor.",
+                  "answer": "escala",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -120,10 +215,29 @@
                   "text": "boceto",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"boceto\" (masculino); também \"croquis\" ou \"esbozo\". Desenho rápido das primeiras ideias.",
+                  "collocations": [
+                    "boceto a mano",
+                    "realizar un boceto",
+                    "primer boceto"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El arquitecto dibujó un boceto del edificio en la reunión.",
+                  "answer": "boceto",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Con el primer boceto se discutió la ubicación de la entrada.",
+                  "answer": "boceto",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -153,10 +267,29 @@
                   "text": "fachada",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"fachada\" (feminina). A face externa de um edifício; \"fachada principal\" é a frontal.",
+                  "collocations": [
+                    "fachada principal",
+                    "fachada ventilada",
+                    "fachada de cristal"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La fachada principal da a la plaza.",
+                  "answer": "fachada",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se renovó la fachada con paneles de aluminio.",
+                  "answer": "fachada",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -172,10 +305,29 @@
                   "text": "balcón",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"balcón\" (masculino); também \"terraza\" quando é maior. Plataforma saliente com baranda.",
+                  "collocations": [
+                    "balcón corrido",
+                    "balcón con barandilla",
+                    "salir al balcón"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El balcón da a la calle y tiene una barandilla de hierro.",
+                  "answer": "balcón",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Desde el balcón se ve toda la plaza.",
+                  "answer": "balcón",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -191,10 +343,29 @@
                   "text": "escalera",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"escalera\" (feminina). Conjunto de peldaños; \"escalera de caracol\" é a helicoidal.",
+                  "collocations": [
+                    "escalera de caracol",
+                    "escalera de emergencia",
+                    "peldaño de la escalera"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La escalera conecta la planta baja con el primer piso.",
+                  "answer": "escalera",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una escalera de emergencia es obligatoria en edificios altos.",
+                  "answer": "escalera",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -210,10 +381,29 @@
                   "text": "bóveda",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"bóveda\" (feminina). Cobertura curva de pedra ou tijolo; \"bóveda de cañón\" tem seção semicircular.",
+                  "collocations": [
+                    "bóveda de cañón",
+                    "bóveda de crucería",
+                    "bóveda gótica"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La bóveda de crucería es típica de las catedrales góticas.",
+                  "answer": "bóveda",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una bóveda de ladrillo cubre el sótano.",
+                  "answer": "bóveda",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -229,10 +419,29 @@
                   "text": "columnata",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"columnata\" (feminina). Série de colunas regularmente espaçadas, em geral com entablamento.",
+                  "collocations": [
+                    "columnata exterior",
+                    "columnata de la plaza",
+                    "columnata clásica"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La columnata rodea el patio del templo.",
+                  "answer": "columnata",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una columnata de mármol sostiene el pórtico.",
+                  "answer": "columnata",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -248,10 +457,29 @@
                   "text": "cornisa",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cornisa\" (feminina). Moldura saliente que corona uma fachada ou uma parede.",
+                  "collocations": [
+                    "cornisa decorada",
+                    "cornisa de piedra",
+                    "restaurar la cornisa"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La cornisa remata la fachada y protege el muro de la lluvia.",
+                  "answer": "cornisa",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se restauró la cornisa dañada por la humedad.",
+                  "answer": "cornisa",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -281,10 +509,29 @@
                   "text": "zonificación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"zonificación\" (feminina). Divide a cidade em zonas com usos e normas distintos.",
+                  "collocations": [
+                    "zonificación urbana",
+                    "plan de zonificación",
+                    "zonificación residencial"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La zonificación urbana separa las áreas industriales de las residenciales.",
+                  "answer": "zonificación",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El nuevo plan de zonificación permite más viviendas en el centro.",
+                  "answer": "zonificación",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -300,10 +547,29 @@
                   "text": "retranqueo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"retranqueo\" (masculino). Distância mínima obrigatória entre o edifício e o limite do terreno.",
+                  "collocations": [
+                    "retranqueo mínimo",
+                    "retranqueo lateral",
+                    "respetar el retranqueo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El edificio debe respetar un retranqueo de tres metros.",
+                  "answer": "retranqueo",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El retranqueo lateral deja espacio para un pequeño jardín.",
+                  "answer": "retranqueo",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -319,10 +585,29 @@
                   "text": "uso del suelo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"uso del suelo\" (masculino). Define se o terreno é residencial, comercial, industrial ou rural.",
+                  "collocations": [
+                    "uso del suelo",
+                    "cambio de uso del suelo",
+                    "plan de uso del suelo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El plan fija el uso del suelo de cada parcela.",
+                  "answer": "uso del suelo",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se solicitó un cambio de uso del suelo para construir viviendas.",
+                  "answer": "uso del suelo",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -338,10 +623,29 @@
                   "text": "expansión urbana descontrolada",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"expansión urbana descontrolada\" (feminina). Crescimento da cidade de baixa densidade e sem planejamento.",
+                  "collocations": [
+                    "expansión urbana descontrolada",
+                    "frenar la expansión urbana",
+                    "consecuencias de la expansión"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La expansión urbana descontrolada aumenta el tráfico y el gasto en transporte.",
+                  "answer": "expansión urbana descontrolada",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El plan busca frenar la expansión urbana descontrolada de la periferia.",
+                  "answer": "expansión urbana descontrolada",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -357,10 +661,29 @@
                   "text": "paisaje urbano",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"paisaje urbano\" (masculino). Conjunto visual de uma rua: edifícios, calçadas, árvores e mobiliário.",
+                  "collocations": [
+                    "paisaje urbano",
+                    "mejorar el paisaje urbano",
+                    "paisaje urbano histórico"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El paisaje urbano de la calle cambió con la peatonalización.",
+                  "answer": "paisaje urbano",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los árboles mejoran el paisaje urbano y dan sombra.",
+                  "answer": "paisaje urbano",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -376,10 +699,29 @@
                   "text": "zona verde",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"zona verde\" (feminina), também \"espacio verde\". Praças, parques e jardins públicos.",
+                  "collocations": [
+                    "zona verde",
+                    "ampliar la zona verde",
+                    "metros de zona verde por habitante"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El barrio necesita más zona verde para sus habitantes.",
+                  "answer": "zona verde",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se proyectó una zona verde en el centro de la urbanización.",
+                  "answer": "zona verde",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -409,10 +751,29 @@
                   "text": "iluminación natural",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"iluminación natural\" (feminina) ou \"luz natural\". Uso da luz do dia para reduzir a luz elétrica.",
+                  "collocations": [
+                    "iluminación natural",
+                    "aprovechar la iluminación natural",
+                    "ahorro de energía"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La iluminación natural reduce el consumo eléctrico.",
+                  "answer": "iluminación natural",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Las ventanas grandes mejoran la iluminación natural del salón.",
+                  "answer": "iluminación natural",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -428,10 +789,29 @@
                   "text": "ventilación natural",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"ventilación natural\" (feminina). Renovação do ar sem máquinas; \"ventilación cruzada\" usa janelas opostas.",
+                  "collocations": [
+                    "ventilación natural",
+                    "ventilación cruzada",
+                    "mejorar la ventilación natural"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La ventilación natural mantiene fresco el interior sin aire acondicionado.",
+                  "answer": "ventilación natural",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se diseñaron patios para favorecer la ventilación natural.",
+                  "answer": "ventilación natural",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -447,10 +827,29 @@
                   "text": "diseño pasivo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"diseño pasivo\" (masculino). Usa orientação, sombras e materiais para controlar o clima interno sem equipamentos.",
+                  "collocations": [
+                    "diseño pasivo",
+                    "estrategia de diseño pasivo",
+                    "casa de diseño pasivo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El diseño pasivo aprovecha el sol para calentar la vivienda en invierno.",
+                  "answer": "diseño pasivo",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Las viviendas de diseño pasivo consumen muy poca energía.",
+                  "answer": "diseño pasivo",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -466,10 +865,29 @@
                   "text": "cubierta verde",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cubierta verde\" (feminina), também \"azotea verde\" ou \"techo verde\". Cobertura com vegetação.",
+                  "collocations": [
+                    "cubierta verde",
+                    "instalar una cubierta verde",
+                    "cubierta verde extensiva"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La cubierta verde reduce la temperatura del edificio.",
+                  "answer": "cubierta verde",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se proyectó una cubierta verde sobre el aparcamiento.",
+                  "answer": "cubierta verde",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -485,10 +903,29 @@
                   "text": "eficiencia energética",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"eficiencia energética\" (feminina). Usar menos energia para o mesmo resultado; \"certificado de eficiencia energética\" é obrigatório em imóveis na Espanha.",
+                  "collocations": [
+                    "certificado de eficiencia energética",
+                    "mejorar la eficiencia energética",
+                    "eficiencia energética alta"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La eficiencia energética del edificio recibió la calificación A.",
+                  "answer": "eficiencia energética",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un buen aislamiento mejora la eficiencia energética de la vivienda.",
+                  "answer": "eficiencia energética",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -504,10 +941,29 @@
                   "text": "confort térmico",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"confort térmico\" (masculino). Sensação de temperatura agradável dentro do edifício.",
+                  "collocations": [
+                    "confort térmico",
+                    "condiciones de confort térmico",
+                    "garantizar el confort térmico"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El diseño busca un confort térmico estable durante todo el año.",
+                  "answer": "confort térmico",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El aislamiento de los muros mejora el confort térmico en invierno.",
+                  "answer": "confort térmico",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -537,10 +993,29 @@
                   "text": "proporción",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"proporción\" (feminina). Relação entre medidas; \"proporción áurea\" é a razão de ouro.",
+                  "collocations": [
+                    "proporción áurea",
+                    "proporción de la fachada",
+                    "guardar proporción"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La proporción entre el ancho y el alto da armonía a la fachada.",
+                  "answer": "proporción",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El arquitecto estudió la proporción de cada ventana.",
+                  "answer": "proporción",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -556,10 +1031,29 @@
                   "text": "simetría",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"simetría\" (feminina). Equilíbrio de partes em torno de um eixo; \"simetría axial\".",
+                  "collocations": [
+                    "simetría axial",
+                    "simetría perfecta",
+                    "romper la simetría"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La simetría de la fachada transmite orden y solemnidad.",
+                  "answer": "simetría",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El jardín sigue una simetría perfecta respecto al eje central.",
+                  "answer": "simetría",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -575,10 +1069,29 @@
                   "text": "minimalismo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"minimalismo\" (masculino). Formas simples, poucos elementos e muita luz.",
+                  "collocations": [
+                    "minimalismo arquitectónico",
+                    "estilo de minimalismo",
+                    "tendencia al minimalismo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El minimalismo se caracteriza por líneas puras y pocos adornos.",
+                  "answer": "minimalismo",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La casa es un ejemplo de minimalismo con paredes blancas.",
+                  "answer": "minimalismo",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -594,10 +1107,29 @@
                   "text": "arquitectura vernácula",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"arquitectura vernácula\" (feminina). Construção tradicional de cada região com materiais locais.",
+                  "collocations": [
+                    "arquitectura vernácula",
+                    "materiales de la arquitectura vernácula",
+                    "estudio de arquitectura vernácula"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La arquitectura vernácula se adapta al clima de cada zona.",
+                  "answer": "arquitectura vernácula",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Las casas de adobe son un ejemplo de arquitectura vernácula.",
+                  "answer": "arquitectura vernácula",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -613,10 +1145,29 @@
                   "text": "edificio patrimonial",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"edificio patrimonial\" (masculino); em Espanha, \"bien de interés cultural\" para os protegidos.",
+                  "collocations": [
+                    "edificio patrimonial",
+                    "proteger un edificio patrimonial",
+                    "rehabilitar un edificio patrimonial"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El ayuntamiento protege cada edificio patrimonial del casco antiguo.",
+                  "answer": "edificio patrimonial",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Para reformar un edificio patrimonial se necesita una autorización especial.",
+                  "answer": "edificio patrimonial",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -632,10 +1183,29 @@
                   "text": "restauración",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"restauración\" (feminina). Recuperar o estado original de um edifício ou obra, respeitando seu valor histórico.",
+                  "collocations": [
+                    "restauración del edificio",
+                    "proyecto de restauración",
+                    "restauración de fachadas"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La restauración devolvió a la catedral su aspecto original.",
+                  "answer": "restauración",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El proyecto de restauración contó con la ayuda de historiadores.",
+                  "answer": "restauración",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -665,10 +1235,29 @@
                   "text": "programa de necesidades",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"programa de necesidades\" (masculino); também \"briefing\". Lista as exigências do cliente para o projeto.",
+                  "collocations": [
+                    "programa de necesidades",
+                    "redactar el programa de necesidades",
+                    "ajustar el programa"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El programa de necesidades incluye cuatro dormitorios y un estudio.",
+                  "answer": "programa de necesidades",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El cliente entregó el programa de necesidades al estudio de arquitectura.",
+                  "answer": "programa de necesidades",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -684,10 +1273,29 @@
                   "text": "maqueta",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"maqueta\" (feminina). Modelo físico reduzido do projeto.",
+                  "collocations": [
+                    "maqueta de presentación",
+                    "construir una maqueta",
+                    "maqueta de cartón"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El estudio presentó una maqueta del nuevo museo.",
+                  "answer": "maqueta",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La maqueta permite ver los volúmenes de la obra.",
+                  "answer": "maqueta",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -703,10 +1311,29 @@
                   "text": "licencia de obras",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"licencia de obras\" (feminina); \"permiso de construcción\" na América Latina. Autorização para construir.",
+                  "collocations": [
+                    "licencia de obras",
+                    "solicitar una licencia de obras",
+                    "licencia de obra mayor"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El ayuntamiento concedió la licencia de obras en marzo.",
+                  "answer": "licencia de obras",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Sin licencia de obras no se puede iniciar la construcción.",
+                  "answer": "licencia de obras",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -722,10 +1349,29 @@
                   "text": "renderizado",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"renderizado\" (masculino), também \"infografía\" (Espanha). Imagem fotorrealista de um projeto.",
+                  "collocations": [
+                    "renderizado fotorrealista",
+                    "renderizado de la fachada",
+                    "generar un renderizado"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El renderizado muestra cómo será el edificio terminado.",
+                  "answer": "renderizado",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se encargó un renderizado para presentarlo al cliente.",
+                  "answer": "renderizado",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -741,10 +1387,29 @@
                   "text": "dirección de obra",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"dirección de obra\" (feminina). Acompanhamento técnico da obra, feito por arquitecto ou ingeniero.",
+                  "collocations": [
+                    "dirección de obra",
+                    "dirección facultativa",
+                    "certificado de dirección de obra"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La dirección de obra supervisa que se cumpla el proyecto.",
+                  "answer": "dirección de obra",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El arquitecto asumió la dirección de obra del edificio.",
+                  "answer": "dirección de obra",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             },
             {
@@ -760,10 +1425,29 @@
                   "text": "licitación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"licitación\" (feminina) pública. Concorrência para contratar obras ou serviços do poder público.",
+                  "collocations": [
+                    "licitación pública",
+                    "presentarse a una licitación",
+                    "adjudicar la licitación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El ayuntamiento abrió una licitación pública para el nuevo puente.",
+                  "answer": "licitación",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La empresa ganó la licitación por ofrecer el precio más bajo.",
+                  "answer": "licitación",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
               "segments": {}
             }
           ]

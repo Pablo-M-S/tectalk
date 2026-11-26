@@ -41,9 +41,9 @@ describe('conteúdo (seed)', () => {
     const terms = termsOf(data);
     const target = data.track.targetLanguage;
 
-    // As trilhas em ES/DE/JA/ZH e os alfabetos ainda não têm nota de uso, combinações e exemplos:
-    // a regra vale hoje para o inglês e passa a valer para cada idioma quando esse conteúdo for escrito.
-    const teachesUsage = target === 'EN';
+    // DE, JA, ZH e os alfabetos ainda não têm nota de uso, combinações e exemplos:
+    // a regra passa a valer para cada idioma quando esse conteúdo for escrito.
+    const teachesUsage = target === 'EN' || target === 'ES';
 
     (teachesUsage ? it : it.skip)('cada termo ensina o uso: nota, combinações e dois exemplos', () => {
       for (const term of terms) {

@@ -34,10 +34,29 @@
                   "text": "viga",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminina em espanhol: la viga. Elemento horizontal que trabalha à flexão; pode ser de aço, madeira ou hormigón.",
+                  "collocations": [
+                    "viga de acero",
+                    "viga continua",
+                    "viga en voladizo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La viga transmite la carga del forjado a los pilares.",
+                  "answer": "viga",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se calculó la viga para soportar el peso de la cubierta.",
+                  "answer": "viga",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -53,10 +72,29 @@
                   "text": "pilar",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol de obra, \"pilar\" (masculino) é o elemento vertical estrutural; \"columna\" tem uso mais arquitetônico ou clássico.",
+                  "collocations": [
+                    "pilar de hormigón",
+                    "pilar metálico",
+                    "pilar central"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada pilar recibe la carga de dos vigas.",
+                  "answer": "pilar",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El pilar de la esquina se reforzó con una camisa metálica.",
+                  "answer": "pilar",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -72,10 +110,29 @@
                   "text": "cimentación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cimentación\" (feminina). Também se diz \"cimientos\" (plural). Tipos: zapatas, losa, pilotes.",
+                  "collocations": [
+                    "cimentación superficial",
+                    "cimentación profunda",
+                    "estudio de la cimentación"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La cimentación se apoya en un terreno firme.",
+                  "answer": "cimentación",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Antes de construir se realiza un estudio de la cimentación.",
+                  "answer": "cimentación",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -91,10 +148,29 @@
                   "text": "carga",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"carga\" (feminina). Tipos: carga muerta (peso próprio), carga viva (uso), carga de viento.",
+                  "collocations": [
+                    "carga muerta",
+                    "carga viva",
+                    "capacidad de carga"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La carga máxima de la estructura es de cinco toneladas por metro.",
+                  "answer": "carga",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El proyecto considera la carga del viento sobre la fachada.",
+                  "answer": "carga",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -110,10 +186,29 @@
                   "text": "esfuerzo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol, em engenharia: \"esfuerzo\" (masculino), a força por unidade de área. Não é o \"estrés\" psicológico.",
+                  "collocations": [
+                    "esfuerzo cortante",
+                    "esfuerzo de tracción",
+                    "límite de esfuerzo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El esfuerzo en el acero no debe superar el límite elástico.",
+                  "answer": "esfuerzo",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El esfuerzo cortante es máximo cerca de los apoyos.",
+                  "answer": "esfuerzo",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -129,10 +224,29 @@
                   "text": "deformación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"deformación\" (feminina). Variação relativa de comprimento; é adimensional ou em percentual.",
+                  "collocations": [
+                    "deformación elástica",
+                    "deformación plástica",
+                    "deformación unitaria"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La deformación elástica desaparece al retirar la carga.",
+                  "answer": "deformación",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se midió una deformación de dos milímetros en el centro de la viga.",
+                  "answer": "deformación",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -162,10 +276,29 @@
                   "text": "acero",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"acero\" (masculino). Liga de ferro e carbono; \"acero inoxidable\" é o inox.",
+                  "collocations": [
+                    "acero estructural",
+                    "acero inoxidable",
+                    "acero corrugado"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La estructura se construyó con acero estructural.",
+                  "answer": "acero",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El acero corrugado refuerza el hormigón en las zonas de tracción.",
+                  "answer": "acero",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -181,10 +314,29 @@
                   "text": "hormigón armado",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hormigón armado\" (masculino) na Espanha; no México e outros países, \"concreto armado\".",
+                  "collocations": [
+                    "hormigón armado",
+                    "elemento de hormigón armado",
+                    "estructura de hormigón armado"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El hormigón armado combina la compresión del hormigón con la tracción del acero.",
+                  "answer": "hormigón armado",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La losa de hormigón armado tiene veinte centímetros de espesor.",
+                  "answer": "hormigón armado",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -200,10 +352,29 @@
                   "text": "aleación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"aleación\" (feminina). Mistura de metais, como bronze (cobre e estanho) ou latón.",
+                  "collocations": [
+                    "aleación de aluminio",
+                    "aleación ligera",
+                    "aleación de acero"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La aleación de aluminio es ligera y resistente a la corrosión.",
+                  "answer": "aleación",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se eligió una aleación con mayor resistencia al calor.",
+                  "answer": "aleación",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -219,10 +390,29 @@
                   "text": "resistencia a la tracción",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"resistencia a la tracción\" (feminina). Tensão máxima antes da ruptura.",
+                  "collocations": [
+                    "resistencia a la tracción",
+                    "ensayo de resistencia a la tracción",
+                    "resistencia mínima"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La resistencia a la tracción del acero es de cuatrocientos megapascales.",
+                  "answer": "resistencia a la tracción",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un ensayo mide la resistencia a la tracción de la probeta.",
+                  "answer": "resistencia a la tracción",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -238,10 +428,29 @@
                   "text": "corrosión",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"corrosión\" (feminina). Deterioro por reação química; pode ser galvánica, por picadura.",
+                  "collocations": [
+                    "corrosión galvánica",
+                    "protección contra la corrosión",
+                    "velocidad de corrosión"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La corrosión debilitó las barras de acero de la pasarela.",
+                  "answer": "corrosión",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se aplicó una pintura para frenar la corrosión.",
+                  "answer": "corrosión",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -257,10 +466,29 @@
                   "text": "fatiga",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"fatiga\" (feminina), falha por cargas repetidas, mesmo abaixo do limite de ruptura.",
+                  "collocations": [
+                    "fatiga del material",
+                    "rotura por fatiga",
+                    "vida a fatiga"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La rotura por fatiga apareció tras millones de ciclos.",
+                  "answer": "fatiga",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El diseño del eje considera la fatiga del material.",
+                  "answer": "fatiga",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -290,10 +518,29 @@
                   "text": "plano",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"plano\" (masculino). \"Planos\" (plural) = conjunto de desenhos técnicos; não confundir com \"plano\" de ação.",
+                  "collocations": [
+                    "plano de planta",
+                    "plano de detalle",
+                    "interpretar un plano"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El plano de la cimentación indica la posición de cada pilar.",
+                  "answer": "plano",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Hay que revisar el plano antes de comenzar la obra.",
+                  "answer": "plano",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -309,10 +556,29 @@
                   "text": "especificación",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"especificación\" (feminina); o conjunto é o \"pliego de especificaciones técnicas\".",
+                  "collocations": [
+                    "especificación técnica",
+                    "cumplir la especificación",
+                    "pliego de especificaciones"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La especificación exige un hormigón de resistencia superior a treinta megapascales.",
+                  "answer": "especificación",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El proveedor entregó material conforme a la especificación.",
+                  "answer": "especificación",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -328,10 +594,29 @@
                   "text": "tolerancia",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"tolerancia\" (feminina). Variação aceitável de uma medida, como ±0,1 mm.",
+                  "collocations": [
+                    "tolerancia dimensional",
+                    "tolerancia de fabricación",
+                    "fuera de tolerancia"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La pieza está dentro de la tolerancia indicada en el plano.",
+                  "answer": "tolerancia",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se rechazó el lote porque quedó fuera de tolerancia.",
+                  "answer": "tolerancia",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -347,10 +632,29 @@
                   "text": "factor de seguridad",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"factor de seguridad\" (masculino). Relação entre a capacidade de um elemento e a carga prevista.",
+                  "collocations": [
+                    "factor de seguridad",
+                    "aplicar un factor de seguridad",
+                    "factor de seguridad mínimo"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El factor de seguridad de la grúa es de cuatro.",
+                  "answer": "factor de seguridad",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La norma exige un factor de seguridad mayor para las pasarelas.",
+                  "answer": "factor de seguridad",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -366,10 +670,29 @@
                   "text": "revisión",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"revisión\" (feminina). Em documentos técnicos tem número e data: \"revisión B\".",
+                  "collocations": [
+                    "control de revisiones",
+                    "revisión del plano",
+                    "historial de revisiones"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La revisión del plano incorpora los cambios del cliente.",
+                  "answer": "revisión",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Cada revisión lleva un número y la fecha de emisión.",
+                  "answer": "revisión",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -385,10 +708,29 @@
                   "text": "cumplimiento normativo",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cumplimiento normativo\" (masculino). Conformidade com normas, leis e especificações.",
+                  "collocations": [
+                    "cumplimiento normativo",
+                    "auditoría de cumplimiento normativo",
+                    "garantizar el cumplimiento"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El cumplimiento normativo es obligatorio en toda obra pública.",
+                  "answer": "cumplimiento normativo",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La inspección verificó el cumplimiento normativo de las instalaciones.",
+                  "answer": "cumplimiento normativo",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -418,10 +760,29 @@
                   "text": "par de torsión",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"par de torsión\" (masculino); também \"par motor\" ou \"torque\" em muitos países. Unidade: N·m.",
+                  "collocations": [
+                    "par de torsión",
+                    "apretar al par especificado",
+                    "llave dinamométrica"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los tornillos se aprietan con un par de torsión de cuarenta newton metro.",
+                  "answer": "par de torsión",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El par de torsión del motor aumenta con la carga.",
+                  "answer": "par de torsión",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -437,10 +798,29 @@
                   "text": "rodamiento",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"rodamiento\" (masculino) ou \"cojinete\". Reduz o atrito entre peças que giram.",
+                  "collocations": [
+                    "rodamiento de bolas",
+                    "cambiar el rodamiento",
+                    "rodamiento axial"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El rodamiento del eje se desgastó por falta de lubricante.",
+                  "answer": "rodamiento",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se sustituyó el rodamiento para eliminar el ruido.",
+                  "answer": "rodamiento",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -456,10 +836,29 @@
                   "text": "engranaje",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"engranaje\" (masculino). Conjunto de rodas dentadas; \"tren de engranajes\" é a transmissão.",
+                  "collocations": [
+                    "engranaje helicoidal",
+                    "tren de engranajes",
+                    "relación de engranajes"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El engranaje transmite el movimiento del motor a las ruedas.",
+                  "answer": "engranaje",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un engranaje helicoidal funciona con menos ruido.",
+                  "answer": "engranaje",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -475,10 +874,29 @@
                   "text": "eje",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"eje\" (masculino). Peça que gira e transmite potência; também \"árbol de transmisión\".",
+                  "collocations": [
+                    "eje de transmisión",
+                    "eje del motor",
+                    "eje principal"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El eje transmite el giro del motor a la bomba.",
+                  "answer": "eje",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se comprobó que el eje no tuviera holgura.",
+                  "answer": "eje",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -494,10 +912,29 @@
                   "text": "bomba",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"bomba\" (feminina). Tipos: centrífuga, de engranajes, de émbolo. Não confundir com \"bomba\" explosiva.",
+                  "collocations": [
+                    "bomba centrífuga",
+                    "bomba de agua",
+                    "caudal de la bomba"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La bomba impulsa el agua hasta el depósito elevado.",
+                  "answer": "bomba",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se instaló una bomba nueva en la sala de máquinas.",
+                  "answer": "bomba",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -513,10 +950,29 @@
                   "text": "válvula",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"válvula\" (feminina). Controla o fluxo: de compuerta, de esfera, de retención.",
+                  "collocations": [
+                    "válvula de seguridad",
+                    "válvula de retención",
+                    "abrir la válvula"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La válvula de seguridad libera la presión excesiva.",
+                  "answer": "válvula",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Hay que cerrar la válvula antes de desmontar la tubería.",
+                  "answer": "válvula",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -546,10 +1002,29 @@
                   "text": "circuito",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"circuito\" (masculino). Pode ser en serie ou en paralelo.",
+                  "collocations": [
+                    "circuito eléctrico",
+                    "circuito en serie",
+                    "circuito integrado"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El circuito se alimenta con una tensión de doce voltios.",
+                  "answer": "circuito",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una sobrecarga dañó el circuito de control.",
+                  "answer": "circuito",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -565,10 +1040,29 @@
                   "text": "tensión eléctrica",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"tensión eléctrica\" (feminina), também \"voltaje\" (masculino). Unidade: voltio.",
+                  "collocations": [
+                    "tensión eléctrica",
+                    "alta tensión",
+                    "caída de tensión"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La tensión eléctrica de la red es de doscientos treinta voltios.",
+                  "answer": "tensión eléctrica",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una caída de la tensión eléctrica apagó el equipo.",
+                  "answer": "tensión eléctrica",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -584,10 +1078,29 @@
                   "text": "corriente eléctrica",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"corriente eléctrica\" (feminina). Unidade: amperio. Pode ser continua (CC) ou alterna (CA).",
+                  "collocations": [
+                    "corriente eléctrica",
+                    "corriente continua",
+                    "corriente alterna"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La corriente eléctrica fluye por el conductor de cobre.",
+                  "answer": "corriente eléctrica",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un fusible corta la corriente eléctrica si hay una sobrecarga.",
+                  "answer": "corriente eléctrica",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -603,10 +1116,29 @@
                   "text": "resistencia eléctrica",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"resistencia eléctrica\" (feminina). Unidade: ohmio. Em um circuito, também é o componente.",
+                  "collocations": [
+                    "resistencia eléctrica",
+                    "medir la resistencia",
+                    "resistencia en serie"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La resistencia eléctrica del cable aumenta con la longitud.",
+                  "answer": "resistencia eléctrica",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se mide la resistencia eléctrica con un polímetro.",
+                  "answer": "resistencia eléctrica",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -622,10 +1154,29 @@
                   "text": "transformador",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"transformador\" (masculino). Muda a tensão entre primário e secundário.",
+                  "collocations": [
+                    "transformador de potencia",
+                    "relación de transformación",
+                    "transformador trifásico"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El transformador reduce la tensión de la red a la de uso doméstico.",
+                  "answer": "transformador",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un transformador trifásico alimenta toda la fábrica.",
+                  "answer": "transformador",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -641,10 +1192,29 @@
                   "text": "puesta a tierra",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"puesta a tierra\" (feminina), também \"toma de tierra\" ou \"conexión a tierra\". Segurança elétrica.",
+                  "collocations": [
+                    "puesta a tierra",
+                    "resistencia de la puesta a tierra",
+                    "sistema de puesta a tierra"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La puesta a tierra protege a las personas de las descargas eléctricas.",
+                  "answer": "puesta a tierra",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se midió la puesta a tierra de todo el edificio.",
+                  "answer": "puesta a tierra",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
@@ -674,10 +1244,29 @@
                   "text": "cronograma",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"cronograma\" (masculino); também \"calendario de obra\" ou \"planificación\". Datas e prazos.",
+                  "collocations": [
+                    "cronograma de obra",
+                    "cumplir el cronograma",
+                    "retraso en el cronograma"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El cronograma prevé terminar la estructura en marzo.",
+                  "answer": "cronograma",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un retraso en el cronograma encarece la obra.",
+                  "answer": "cronograma",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -693,10 +1282,29 @@
                   "text": "hito",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"hito\" (masculino). Evento importante do projeto, sem duração.",
+                  "collocations": [
+                    "hito del proyecto",
+                    "alcanzar un hito",
+                    "hito de entrega"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El primer hito del proyecto es la entrega de los planos.",
+                  "answer": "hito",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Alcanzamos el hito de la cimentación con una semana de adelanto.",
+                  "answer": "hito",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -712,10 +1320,29 @@
                   "text": "presupuesto",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"presupuesto\" (masculino). Em obra: previsto vs. real; \"partida presupuestaria\" é cada linha.",
+                  "collocations": [
+                    "presupuesto de obra",
+                    "ajustar el presupuesto",
+                    "superar el presupuesto"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El presupuesto de la obra asciende a dos millones de euros.",
+                  "answer": "presupuesto",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los cambios del cliente hicieron superar el presupuesto inicial.",
+                  "answer": "presupuesto",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -731,10 +1358,29 @@
                   "text": "evaluación de riesgos",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"evaluación de riesgos\" (feminina). Identifica perigos e estima probabilidade e gravidade.",
+                  "collocations": [
+                    "evaluación de riesgos",
+                    "realizar la evaluación de riesgos",
+                    "matriz de riesgos"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La evaluación de riesgos detectó un peligro de caída.",
+                  "answer": "evaluación de riesgos",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Antes de empezar se actualiza la evaluación de riesgos.",
+                  "answer": "evaluación de riesgos",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -750,10 +1396,29 @@
                   "text": "entregable",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"entregable\" (masculino). Produto ou documento que será entregue ao cliente.",
+                  "collocations": [
+                    "entregable del proyecto",
+                    "revisar un entregable",
+                    "fecha del entregable"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada entregable se revisa antes de enviarlo al cliente.",
+                  "answer": "entregable",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El informe geotécnico es el primer entregable del contrato.",
+                  "answer": "entregable",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             },
             {
@@ -769,10 +1434,29 @@
                   "text": "inspección",
                   "definition": "",
                   "informalForms": [],
-                  "partOfSpeech": "NOUN"
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol: \"inspección\" (feminina). Verificação formal; \"inspección técnica\" é a vistoria.",
+                  "collocations": [
+                    "inspección técnica",
+                    "inspección visual",
+                    "informe de inspección"
+                  ]
                 }
               },
-              "examples": [],
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La inspección visual detectó fisuras en la viga.",
+                  "answer": "inspección",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El informe de inspección se entrega al propietario.",
+                  "answer": "inspección",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
               "segments": {}
             }
           ]
