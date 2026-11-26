@@ -78,6 +78,7 @@ export class ExerciseService {
         audioEnabled: this.audioEnabled,
         technicalShare: await this.sessionShare(level, lesson.unit.track.targetLanguage, basicAccuracy),
         level,
+        language: lesson.unit.track.targetLanguage,
       }),
     };
   }
@@ -118,6 +119,7 @@ export class ExerciseService {
         audioEnabled: this.audioEnabled,
         technicalShare: await this.sessionShare(level, track.targetLanguage, basicAccuracy),
         level,
+        language: track.targetLanguage,
       }),
     };
   }

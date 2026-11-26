@@ -1,4 +1,5 @@
 import { randomUUID } from 'node:crypto';
+import { syllabify } from './syllabify';
 import { BASIC_WORDS, BasicWord, Level, meaningsClash, sentenceDistractors } from './basic-english';
 import {
   BuildFromRootsExercise,
@@ -11,6 +12,7 @@ import {
   OrderSentenceExercise,
   RegisterChoiceExercise,
   Reveal,
+  SyllableBuildExercise,
   Translation,
   TypeTermExercise,
 } from './exercise.types';
@@ -53,6 +55,8 @@ export interface LessonSessionInput {
   technicalShare?: number;
   /** Nível informado pelo usuário; define o tamanho das frases a montar. */
   level?: Level | null;
+  /** Idioma estudado, usado para dividir as palavras em sílabas. */
+  language?: string;
 }
 
 export interface PracticeSessionInput extends LessonSessionInput {
@@ -67,6 +71,10 @@ const MAX_SENTENCE_WORDS = 14;
 const BASIC_SENTENCE_WORDS = 7;
 const BLANK = '_____';
 const BLANKS_SIZE = 3;
+const SYLLABLE_WORDS = 4;
+
+/** Iniciante e básico aprendem montando palavras, sem frases em um idioma que ainda não conhecem. */
+const isSimpleLevel = (level?: Level | null) => level === 'BEGINNER' || level === 'BASIC';
 const LESSON_WITH_BASICS = 24;
 const PRACTICE_WITH_BASICS = 16;
 
@@ -270,10 +278,6 @@ export class ExerciseFactory {
 
   /** Monta uma frase profissional real a partir das palavras embaralhadas. */
   orderSentence(term: TermView, level?: Level | null): OrderSentenceExercise | null {
-    // Iniciante só monta com palavras que acabou de ver: as do próprio termo (2 a 4 palavras).
-    // Frases de exemplo trazem vocabulário que ele ainda não conhece.
-    if (level === 'BEGINNER') return this.orderTermWords(term);
-
     const maxWords = level === 'BASIC' ? BASIC_SENTENCE_WORDS : MAX_SENTENCE_WORDS;
     const candidates = this.usableExamples(term).filter((e) => {
       const words = e.sentence.split(/\s+/).length;
@@ -297,21 +301,29 @@ export class ExerciseFactory {
     };
   }
 
-  /** Iniciante: ordena as palavras do próprio termo (só existe se o termo tiver 2 a 4 palavras). */
-  private orderTermWords(term: TermView): OrderSentenceExercise | null {
-    const solution = term.target.text.trim().split(/\s+/);
-    if (solution.length < 2 || solution.length > 4) return null;
-    let tiles = this.shuffle(solution);
-    if (tiles.join(' ') === solution.join(' ')) tiles = [...tiles].reverse();
-    return {
-      id: randomUUID(),
-      type: 'ORDER_SENTENCE',
-      termIds: [term.id],
-      prompt: term.source.text,
-      tiles,
-      solution,
-      reveal: this.reveal(term),
-    };
+  /** Monta palavras a partir das sílabas embaralhadas; devolve null se faltarem palavras divisíveis. */
+  syllableBuild(terms: TermView[], language: string | undefined, size = SYLLABLE_WORDS): SyllableBuildExercise | null {
+    if (!language) return null;
+    const words: SyllableBuildExercise['words'] = [];
+    const seen = new Set<string>();
+    for (const term of this.shuffle(terms)) {
+      const syllables = syllabify(term.target.text, language);
+      if (!syllables || seen.has(term.target.text)) continue;
+      seen.add(term.target.text);
+      let tiles = this.shuffle(syllables);
+      if (tiles.join('') === syllables.join('')) tiles = [...tiles].reverse();
+      words.push({
+        id: term.id,
+        text: term.target.text,
+        syllables,
+        tiles,
+        translation: term.source.text,
+        reading: term.target.romanization ?? term.target.ipa,
+      });
+      if (words.length === size) break;
+    }
+    if (words.length < 2) return null;
+    return { id: randomUUID(), type: 'SYLLABLE_BUILD', termIds: words.map((w) => w.id), words };
   }
 
   /** Completar frases com um banco de palavras: cada termo volta ao seu contexto de uso. */
@@ -361,12 +373,12 @@ export class ExerciseFactory {
   }
 
   /** Sessão de lição: reconhecimento, associação e depois produção ativa. */
-  buildLessonSession({ terms, pool, audioEnabled, technicalShare = 1, level }: LessonSessionInput): Exercise[] {
-    const technical = this.technicalLesson({ terms, pool, audioEnabled, level });
+  buildLessonSession({ terms, pool, audioEnabled, technicalShare = 1, level, language }: LessonSessionInput): Exercise[] {
+    const technical = this.technicalLesson({ terms, pool, audioEnabled, level, language });
     return this.withBasicEnglish(technical, terms, technicalShare, LESSON_WITH_BASICS);
   }
 
-  private technicalLesson({ terms, pool, audioEnabled, level }: LessonSessionInput): Exercise[] {
+  private technicalLesson({ terms, pool, audioEnabled, level, language }: LessonSessionInput): Exercise[] {
     const segmentPool = this.segmentPool(pool);
 
     const recognition = [
@@ -374,21 +386,33 @@ export class ExerciseFactory {
       ...this.shuffle(terms).map((t) => this.reverseChoice(t, pool)),
     ].filter(present);
 
-    const matching = [this.matchPairs(terms), this.fillBlanks(terms)].filter(present);
+    const simple = isSimpleLevel(level);
+    const matching = [
+      this.matchPairs(terms),
+      ...(simple ? this.syllableRounds(terms, language) : [this.fillBlanks(terms)]),
+    ].filter(present);
 
     const production = this.shuffle(
       terms.flatMap((t) => [
         this.canType(t) ? this.typeTerm(t) : null,
-        this.fillBlank(t, pool),
+        simple ? null : this.fillBlank(t, pool),
         this.buildFromRoots(t, segmentPool),
         this.registerChoice(t, pool),
-        this.orderSentence(t, level),
+        simple ? null : this.orderSentence(t, level),
         audioEnabled ? this.listenAndType(t) : null,
       ]),
     ).filter(present);
 
     const budget = Math.max(0, MAX_EXERCISES - recognition.length - matching.length);
     return [...recognition, ...matching, ...production.slice(0, budget)].slice(0, MAX_EXERCISES);
+  }
+
+  /** Rodadas de montar palavras que cobrem os termos da lição, de 3 a 4 palavras cada. */
+  private syllableRounds(terms: TermView[], language: string | undefined): (SyllableBuildExercise | null)[] {
+    const shuffled = this.shuffle(terms);
+    const half = Math.ceil(shuffled.length / 2);
+    const groups = shuffled.length > SYLLABLE_WORDS ? [shuffled.slice(0, half), shuffled.slice(half)] : [shuffled];
+    return groups.map((group) => this.syllableBuild(group, language));
   }
 
   /**
@@ -402,25 +426,27 @@ export class ExerciseFactory {
     size = PRACTICE_SIZE,
     technicalShare = 1,
     level,
+    language,
   }: PracticeSessionInput): Exercise[] {
-    const technical = this.technicalPractice({ terms, pool, audioEnabled, size, level });
+    const technical = this.technicalPractice({ terms, pool, audioEnabled, size, level, language });
     return this.withBasicEnglish(technical, terms, technicalShare, PRACTICE_WITH_BASICS);
   }
 
-  private technicalPractice({ terms, pool, audioEnabled, size = PRACTICE_SIZE, level }: PracticeSessionInput): Exercise[] {
+  private technicalPractice({ terms, pool, audioEnabled, size = PRACTICE_SIZE, level, language }: PracticeSessionInput): Exercise[] {
     const segmentPool = this.segmentPool(pool);
     const exercises: Exercise[] = [];
     const usage = new Map<string, number>();
+    const simple = isSimpleLevel(level);
 
     for (const term of this.pick(terms, size)) {
       const options: Exercise[] = [
         this.multipleChoice(term, pool),
         this.reverseChoice(term, pool),
         this.canType(term) ? this.typeTerm(term) : null,
-        this.fillBlank(term, pool),
+        simple ? null : this.fillBlank(term, pool),
         this.buildFromRoots(term, segmentPool),
         this.registerChoice(term, pool),
-        this.orderSentence(term, level),
+        simple ? null : this.orderSentence(term, level),
         audioEnabled ? this.listenAndType(term) : null,
       ].filter(present);
 
@@ -434,7 +460,10 @@ export class ExerciseFactory {
       exercises.push(chosen);
     }
 
-    const extras = [terms.length >= 4 ? this.matchPairs(terms) : null, this.fillBlanks(terms)].filter(present);
+    const extras = [
+      terms.length >= 4 ? this.matchPairs(terms) : null,
+      simple ? this.syllableBuild(terms, language) : this.fillBlanks(terms),
+    ].filter(present);
     return extras.length > 0 ? this.shuffle([...exercises, ...extras]) : exercises;
   }
 

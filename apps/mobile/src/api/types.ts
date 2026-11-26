@@ -164,6 +164,18 @@ export interface OrderSentenceExercise extends Base {
   solution: string[];
 }
 
+export interface SyllableBuildExercise extends Base {
+  type: 'SYLLABLE_BUILD';
+  words: {
+    id: string;
+    text: string;
+    syllables: string[];
+    tiles: string[];
+    translation: string;
+    reading: string | null;
+  }[];
+}
+
 export interface FillBlanksExercise extends Base {
   type: 'FILL_BLANKS';
   sentences: { id: string; before: string; after: string }[];
@@ -184,6 +196,7 @@ export type Exercise =
   | BuildFromRootsExercise
   | RegisterChoiceExercise
   | OrderSentenceExercise
+  | SyllableBuildExercise
   | FillBlanksExercise
   | ListenAndTypeExercise;
 

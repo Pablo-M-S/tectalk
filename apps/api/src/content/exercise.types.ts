@@ -13,6 +13,7 @@ export const EXERCISE_TYPES = [
   'BUILD_FROM_ROOTS',
   'REGISTER_CHOICE',
   'ORDER_SENTENCE',
+  'SYLLABLE_BUILD',
   'FILL_BLANKS',
   'LISTEN_AND_TYPE',
 ] as const;
@@ -111,6 +112,23 @@ export interface OrderSentenceExercise extends ExerciseBase<'ORDER_SENTENCE'> {
 }
 
 /**
+ * Montar palavras (iniciante e básico): cada palavra vem em sílabas embaralhadas.
+ * Ao acertar, o app fala a palavra e mostra a tradução logo abaixo.
+ */
+export interface SyllableBuildExercise extends ExerciseBase<'SYLLABLE_BUILD'> {
+  words: {
+    id: string;
+    /** Palavra correta, já montada. */
+    text: string;
+    syllables: string[];
+    /** As mesmas sílabas, embaralhadas. */
+    tiles: string[];
+    translation: string;
+    reading: string | null;
+  }[];
+}
+
+/**
  * Completar frases: cada frase tem uma lacuna e o banco de palavras traz os termos.
  * O `id` de cada frase é o id do termo que a completa, e o mesmo id está no tile correto.
  */
@@ -132,5 +150,6 @@ export type Exercise =
   | BuildFromRootsExercise
   | RegisterChoiceExercise
   | OrderSentenceExercise
+  | SyllableBuildExercise
   | FillBlanksExercise
   | ListenAndTypeExercise;

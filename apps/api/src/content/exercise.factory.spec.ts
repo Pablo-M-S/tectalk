@@ -82,23 +82,6 @@ describe('ExerciseFactory', () => {
       expect(exercise.solution.join(' ')).toContain('atrium');
     });
 
-    it('iniciante monta só com as palavras do próprio termo', () => {
-      const term = makeTerm('b', 'b', 'heart valve', {
-        examples: [{ sentence: 'The heart valve was replaced in the morning.', answer: 'heart valve' }],
-      });
-      const exercise = factory.orderSentence(term, 'BEGINNER')!;
-      expect([...exercise.solution].sort()).toEqual(['heart', 'valve']);
-      expect([...exercise.tiles].sort()).toEqual(['heart', 'valve']);
-      expect(exercise.tiles.join(' ')).not.toBe(exercise.solution.join(' '));
-    });
-
-    it('iniciante não recebe frase quando o termo tem uma palavra só', () => {
-      const term = makeTerm('c', 'c', 'cache', {
-        examples: [{ sentence: 'Clear the cache before the next test run.', answer: 'cache' }],
-      });
-      expect(factory.orderSentence(term, 'BEGINNER')).toBeNull();
-    });
-
     it('nível básico limita a frase a 7 palavras', () => {
       const term = makeTerm('d', 'd', 'cache', {
         examples: [{ sentence: 'Please clear the cache before the next test run today.', answer: 'cache' }],
@@ -115,6 +98,34 @@ describe('ExerciseFactory', () => {
       const sentence = `${'word '.repeat(15)}cache`;
       const long = makeTerm('l', 'l', 'cache', { examples: [{ sentence, answer: 'cache' }] });
       expect(factory.orderSentence(long)).toBeNull();
+    });
+  });
+
+  describe('syllableBuild', () => {
+    const german = [
+      makeTerm('h', 'h', 'Herzklappe'),
+      makeTerm('f', 'f', 'Fundament'),
+      makeTerm('m', 'm', 'Mikroskop'),
+    ];
+
+    it('embaralha as sílabas de cada palavra sem perder nenhuma', () => {
+      const exercise = factory.syllableBuild(german, 'DE')!;
+      expect(exercise.type).toBe('SYLLABLE_BUILD');
+      expect(exercise.words).toHaveLength(3);
+      for (const word of exercise.words) {
+        expect(word.syllables.join('')).toBe(word.text);
+        expect([...word.tiles].sort()).toEqual([...word.syllables].sort());
+        expect(word.tiles.join('')).not.toBe(word.text);
+      }
+    });
+
+    it('ignora termos de uma sílaba só e frases com mais de uma palavra', () => {
+      const terms = [makeTerm('a', 'a', 'Herz'), makeTerm('b', 'b', 'heart valve'), makeTerm('c', 'c', 'Fundament')];
+      expect(factory.syllableBuild(terms, 'DE')).toBeNull();
+    });
+
+    it('sem idioma não monta', () => {
+      expect(factory.syllableBuild(german, undefined)).toBeNull();
     });
   });
 
@@ -168,6 +179,34 @@ describe('ExerciseFactory', () => {
     it('devolve null quando há menos de dois termos com exemplo', () => {
       expect(factory.fillBlanks([byId('t1')])).toBeNull();
       expect(factory.fillBlanks([byId('t6'), byId('t1')])).toBeNull();
+    });
+  });
+
+  describe('sessão de iniciante', () => {
+    const german = ['Herzklappe', 'Fundament', 'Mikroskop', 'Katalysator', 'Experiment'].map((word, i) =>
+      makeTerm(`g${i}`, `termo ${i}`, word, {
+        examples: [{ sentence: `Ein langer Satz mit ${word} und noch mehr Wörtern.`, answer: word }],
+      }),
+    );
+    const run = (level: 'BEGINNER' | 'INTERMEDIATE') =>
+      new ExerciseFactory(seeded()).buildLessonSession({
+        terms: german,
+        pool: german,
+        audioEnabled: false,
+        level,
+        language: 'DE',
+      });
+
+    it('monta palavras em vez de frases em alemão', () => {
+      const types = run('BEGINNER').map((e) => e.type);
+      expect(types).toContain('SYLLABLE_BUILD');
+      for (const banned of ['FILL_BLANKS', 'FILL_BLANK', 'ORDER_SENTENCE']) expect(types).not.toContain(banned);
+    });
+
+    it('intermediário continua com frases', () => {
+      const types = run('INTERMEDIATE').map((e) => e.type);
+      expect(types).not.toContain('SYLLABLE_BUILD');
+      expect(types).toContain('FILL_BLANKS');
     });
   });
 
