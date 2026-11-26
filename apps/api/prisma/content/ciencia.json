@@ -1,0 +1,2436 @@
+{
+  "status": "PUBLISHED",
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "metodo-cientifico",
+      "title": "Método científico",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "hipoteses-e-experimentos",
+          "title": "Hipóteses e experimentos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "hypothesis",
+              "locales": {
+                "PT": {
+                  "text": "hipótese",
+                  "definition": "Explicação provisória de um fenômeno, formulada para ser testada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "hypothesis",
+                  "definition": "A tentative explanation of a phenomenon, formulated so that it can be tested.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O plural é hypotheses (/haɪˈpɒθəsiːz/). Null hypothesis é a hipótese nula, que afirma ausência de efeito.",
+                  "collocations": [
+                    "test a hypothesis",
+                    "reject a hypothesis",
+                    "null hypothesis",
+                    "working hypothesis"
+                  ]
+                },
+                "ES": {
+                  "text": "hipótesis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hypothese",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "仮説",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かせつ",
+                  "romanization": "kasetsu"
+                },
+                "ZH": {
+                  "text": "假设",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiǎshè"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The data support our hypothesis.",
+                  "answer": "hypothesis",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The researchers tested the hypothesis in three separate trials.",
+                  "answer": "hypothesis",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "experiment",
+              "locales": {
+                "PT": {
+                  "text": "experimento",
+                  "definition": "Procedimento controlado realizado para testar uma hipótese ou observar um efeito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "experiment",
+                  "definition": "A controlled procedure carried out to test a hypothesis or observe an effect.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Experiment é o procedimento; trial é o ensaio, sobretudo clínico; study é o termo mais geral para uma pesquisa.",
+                  "collocations": [
+                    "conduct an experiment",
+                    "controlled experiment",
+                    "design an experiment",
+                    "experiment results"
+                  ]
+                },
+                "ES": {
+                  "text": "experimento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Experiment",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "実験",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じっけん",
+                  "romanization": "jikken"
+                },
+                "ZH": {
+                  "text": "实验",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shíyàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The experiment was repeated under identical conditions.",
+                  "answer": "experiment",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each experiment lasted twelve weeks.",
+                  "answer": "experiment",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "independent-variable",
+              "locales": {
+                "PT": {
+                  "text": "variável independente",
+                  "definition": "Fator que o pesquisador altera de propósito para observar seu efeito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "independent variable",
+                  "definition": "The factor that the researcher deliberately changes to observe its effect.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A variável que responde à mudança é a dependent variable. Control variables são as mantidas constantes.",
+                  "collocations": [
+                    "manipulate the independent variable",
+                    "dependent and independent variable",
+                    "identify the independent variable",
+                    "single independent variable"
+                  ]
+                },
+                "ES": {
+                  "text": "variable independiente",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "unabhängige Variable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "独立変数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "どくりつへんすう",
+                  "romanization": "dokuritsuhensuu"
+                },
+                "ZH": {
+                  "text": "自变量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zìbiànliàng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Temperature was the independent variable in the study.",
+                  "answer": "independent variable",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Only one independent variable was changed at a time.",
+                  "answer": "independent variable",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "control-group",
+              "locales": {
+                "PT": {
+                  "text": "grupo de controle",
+                  "definition": "Grupo que não recebe o tratamento testado e serve de base de comparação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "control group",
+                  "definition": "A group that does not receive the treatment under test and serves as a basis for comparison.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O grupo que recebe o tratamento é o treatment group ou experimental group.",
+                  "collocations": [
+                    "compare with the control group",
+                    "placebo control group",
+                    "control group and treatment group",
+                    "assign to the control group"
+                  ]
+                },
+                "ES": {
+                  "text": "grupo de control",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kontrollgruppe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "対照群",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たいしょうぐん",
+                  "romanization": "taishougun"
+                },
+                "ZH": {
+                  "text": "对照组",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duìzhàozǔ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The control group received a placebo.",
+                  "answer": "control group",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Results were compared with those of the control group.",
+                  "answer": "control group",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "dataset",
+              "locales": {
+                "PT": {
+                  "text": "conjunto de dados",
+                  "definition": "Coleção organizada de dados usada em uma análise.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "dataset",
+                  "definition": "An organized collection of data used in an analysis.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Data é plural de datum, mas hoje costuma ser tratado como incontável em textos gerais: the data shows. Em estilo muito formal, the data show.",
+                  "collocations": [
+                    "large dataset",
+                    "clean the dataset",
+                    "public dataset",
+                    "analyse a dataset"
+                  ]
+                },
+                "ES": {
+                  "text": "conjunto de datos",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Datensatz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "データセット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "deetasetto"
+                },
+                "ZH": {
+                  "text": "数据集",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shùjùjí"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The dataset contains measurements from two hundred patients.",
+                  "answer": "dataset",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We cleaned the dataset before running the analysis.",
+                  "answer": "dataset",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "peer-review",
+              "locales": {
+                "PT": {
+                  "text": "revisão por pares",
+                  "definition": "Avaliação de um trabalho científico por especialistas independentes antes da publicação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "peer review",
+                  "definition": "Evaluation of scientific work by independent experts before publication.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O avaliador é o reviewer; o artigo é peer-reviewed (com hífen quando adjetivo): a peer-reviewed journal.",
+                  "collocations": [
+                    "pass peer review",
+                    "undergo peer review",
+                    "peer review process",
+                    "anonymous peer review"
+                  ]
+                },
+                "ES": {
+                  "text": "revisión por pares",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Peer-Review",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "査読",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さどく",
+                  "romanization": "sadoku"
+                },
+                "ZH": {
+                  "text": "同行评审",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tóngháng píngshěn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The article passed peer review in March.",
+                  "answer": "peer review",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Careful peer review improved the clarity of the methods section.",
+                  "answer": "peer review",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estatistica",
+      "title": "Estatística",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "analise-de-dados",
+          "title": "Análise de dados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "statistical-sample",
+              "locales": {
+                "PT": {
+                  "text": "amostra estatística",
+                  "definition": "Parte de uma população selecionada para ser estudada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sample",
+                  "definition": "A part of a population selected to be studied.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sample size é o tamanho da amostra. Em laboratório, sample também é o material coletado para análise.",
+                  "collocations": [
+                    "random sample",
+                    "representative sample",
+                    "sample size",
+                    "draw a sample"
+                  ]
+                },
+                "ES": {
+                  "text": "muestra",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stichprobe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "標本",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひょうほん",
+                  "romanization": "hyouhon"
+                },
+                "ZH": {
+                  "text": "样本",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yàngběn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The sample included four hundred adults.",
+                  "answer": "sample",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A small sample may not represent the whole population.",
+                  "answer": "sample",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "correlation",
+              "locales": {
+                "PT": {
+                  "text": "correlação",
+                  "definition": "Relação estatística entre duas variáveis que variam juntas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "correlation",
+                  "definition": "A statistical relationship between two variables that change together.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Correlation não prova causation. Costuma ser medida por um coeficiente entre menos um e um.",
+                  "collocations": [
+                    "strong correlation",
+                    "positive correlation",
+                    "negative correlation",
+                    "correlation coefficient"
+                  ]
+                },
+                "ES": {
+                  "text": "correlación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Korrelation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "相関",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "そうかん",
+                  "romanization": "soukan"
+                },
+                "ZH": {
+                  "text": "相关性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiāngguānxìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The study found a strong correlation between sleep and memory.",
+                  "answer": "correlation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A correlation does not imply causation.",
+                  "answer": "correlation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "standard-deviation",
+              "locales": {
+                "PT": {
+                  "text": "desvio padrão",
+                  "definition": "Medida de quanto os valores de um conjunto se afastam da média.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "standard deviation",
+                  "definition": "A measure of how far the values in a set spread from the mean.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abrevia-se SD. Variance é o quadrado do desvio padrão.",
+                  "collocations": [
+                    "calculate the standard deviation",
+                    "low standard deviation",
+                    "high standard deviation",
+                    "mean and standard deviation"
+                  ]
+                },
+                "ES": {
+                  "text": "desviación estándar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Standardabweichung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "標準偏差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひょうじゅんへんさ",
+                  "romanization": "hyoujunhensa"
+                },
+                "ZH": {
+                  "text": "标准差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biāozhǔnchā"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The standard deviation was 2.4 points.",
+                  "answer": "standard deviation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A low standard deviation means the values are close to the mean.",
+                  "answer": "standard deviation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "statistical-significance",
+              "locales": {
+                "PT": {
+                  "text": "significância estatística",
+                  "definition": "Indicação de que um resultado dificilmente ocorreu por acaso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "statistical significance",
+                  "definition": "An indication that a result is unlikely to have occurred by chance.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O adjetivo é statistically significant. Em geral o limite usado é p menor que 0,05.",
+                  "collocations": [
+                    "reach statistical significance",
+                    "level of statistical significance",
+                    "lack statistical significance",
+                    "test for statistical significance"
+                  ]
+                },
+                "ES": {
+                  "text": "significación estadística",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "statistische Signifikanz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "統計的有意性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とうけいてきゆういせい",
+                  "romanization": "toukeitekiyuuisei"
+                },
+                "ZH": {
+                  "text": "统计显著性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tǒngjì xiǎnzhùxìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The difference reached statistical significance.",
+                  "answer": "statistical significance",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A result's statistical significance does not always mean practical importance.",
+                  "answer": "statistical significance",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "outlier",
+              "locales": {
+                "PT": {
+                  "text": "valor atípico (outlier)",
+                  "definition": "Valor muito distante dos demais em um conjunto de dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "outlier",
+                  "definition": "A value that lies far from the others in a set of data.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Outlier vem de out e lie. Em português técnico, usa-se também valor discrepante.",
+                  "collocations": [
+                    "remove an outlier",
+                    "identify an outlier",
+                    "extreme outlier",
+                    "detect an outlier"
+                  ]
+                },
+                "ES": {
+                  "text": "valor atípico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausreißer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "外れ値",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はずれち",
+                  "romanization": "hazurechi"
+                },
+                "ZH": {
+                  "text": "离群值",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "líqúnzhí"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "One outlier distorted the average.",
+                  "answer": "outlier",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We removed the outlier after checking the records.",
+                  "answer": "outlier",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "margin-of-error",
+              "locales": {
+                "PT": {
+                  "text": "margem de erro",
+                  "definition": "Intervalo dentro do qual se espera que o valor real esteja, em relação ao medido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "margin of error",
+                  "definition": "The range within which the true value is expected to lie, relative to the measured one.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em pesquisas de opinião aparece sempre com um nível de confiança, em geral noventa e cinco por cento.",
+                  "collocations": [
+                    "within the margin of error",
+                    "small margin of error",
+                    "calculate the margin of error",
+                    "margin of error of two percent"
+                  ]
+                },
+                "ES": {
+                  "text": "margen de error",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fehlermarge",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "誤差範囲",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ごさはんい",
+                  "romanization": "gosahani"
+                },
+                "ZH": {
+                  "text": "误差范围",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wùchā fànwéi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The survey has a margin of error of three percent.",
+                  "answer": "margin of error",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Results within the margin of error are not conclusive.",
+                  "answer": "margin of error",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "laboratorio",
+      "title": "Laboratório",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "equipamentos-e-procedimentos",
+          "title": "Equipamentos e procedimentos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "reagent",
+              "locales": {
+                "PT": {
+                  "text": "reagente",
+                  "definition": "Substância usada em uma reação química para detectar ou produzir outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "reagent",
+                  "definition": "A substance used in a chemical reaction to detect or produce another.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Reagent é a substância que participa da reação; reactant é a que é consumida. Na prática os termos se confundem.",
+                  "collocations": [
+                    "add a reagent",
+                    "chemical reagent",
+                    "reagent grade",
+                    "store the reagent"
+                  ]
+                },
+                "ES": {
+                  "text": "reactivo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Reagenz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "試薬",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しやく",
+                  "romanization": "shiyaku"
+                },
+                "ZH": {
+                  "text": "试剂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shìjì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Add the reagent slowly while stirring.",
+                  "answer": "reagent",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The reagent turns blue in the presence of starch.",
+                  "answer": "reagent",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "lab-specimen",
+              "locales": {
+                "PT": {
+                  "text": "espécime (amostra para análise)",
+                  "definition": "Exemplar ou amostra de um organismo ou material coletado para exame.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "specimen",
+                  "definition": "A sample of an organism or material collected for examination.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Specimen também é exemplar de museu. Em medicina, designa a amostra de sangue, urina ou tecido enviada ao laboratório.",
+                  "collocations": [
+                    "collect a specimen",
+                    "tissue specimen",
+                    "preserve a specimen",
+                    "specimen container"
+                  ]
+                },
+                "ES": {
+                  "text": "espécimen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Probe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "検体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんたい",
+                  "romanization": "kentai"
+                },
+                "ZH": {
+                  "text": "标本",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biāoběn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each specimen was labelled and stored at four degrees.",
+                  "answer": "specimen",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The specimen was examined under the microscope.",
+                  "answer": "specimen",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "centrifuge",
+              "locales": {
+                "PT": {
+                  "text": "centrífuga",
+                  "definition": "Equipamento que gira amostras em alta velocidade para separar seus componentes por densidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "centrifuge",
+                  "definition": "A machine that spins samples at high speed to separate components by density.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É também verbo: to centrifuge the sample, em português centrifugar.",
+                  "collocations": [
+                    "spin in a centrifuge",
+                    "bench centrifuge",
+                    "load the centrifuge",
+                    "centrifuge tube"
+                  ]
+                },
+                "ES": {
+                  "text": "centrífuga",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zentrifuge",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "遠心分離機",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "えんしんぶんりき",
+                  "romanization": "enshinbunriki"
+                },
+                "ZH": {
+                  "text": "离心机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "líxīnjī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Place the tubes in the centrifuge and close the lid.",
+                  "answer": "centrifuge",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The centrifuge runs at three thousand revolutions per minute.",
+                  "answer": "centrifuge",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "pipette",
+              "locales": {
+                "PT": {
+                  "text": "pipeta",
+                  "definition": "Tubo fino usado para medir e transferir pequenos volumes de líquido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pipette",
+                  "definition": "A thin tube used to measure and transfer small volumes of liquid.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Nos EUA também se escreve pipet. Micropipette mede volumes em microlitros.",
+                  "collocations": [
+                    "use a pipette",
+                    "glass pipette",
+                    "automatic pipette",
+                    "pipette tip"
+                  ]
+                },
+                "ES": {
+                  "text": "pipeta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pipette",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ピペット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pipetto"
+                },
+                "ZH": {
+                  "text": "移液管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yíyèguǎn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Transfer one millilitre with a pipette.",
+                  "answer": "pipette",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Rinse the pipette between samples.",
+                  "answer": "pipette",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "microscope",
+              "locales": {
+                "PT": {
+                  "text": "microscópio",
+                  "definition": "Instrumento que amplia objetos pequenos demais para serem vistos a olho nu.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "microscope",
+                  "definition": "An instrument that magnifies objects too small to be seen with the naked eye.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A preposição é under: under a microscope. O adjetivo microscopic significa invisível a olho nu.",
+                  "collocations": [
+                    "under a microscope",
+                    "electron microscope",
+                    "optical microscope",
+                    "microscope slide"
+                  ]
+                },
+                "ES": {
+                  "text": "microscopio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mikroskop",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "顕微鏡",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんびきょう",
+                  "romanization": "kenbikyou"
+                },
+                "ZH": {
+                  "text": "显微镜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiǎnwēijìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cells were observed under a microscope.",
+                  "answer": "microscope",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An electron microscope can magnify objects a million times.",
+                  "answer": "microscope",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "calibration",
+              "locales": {
+                "PT": {
+                  "text": "calibração",
+                  "definition": "Ajuste de um instrumento para que suas medidas coincidam com um padrão conhecido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "calibration",
+                  "definition": "The adjustment of an instrument so that its measurements match a known standard.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo é to calibrate. Calibration curve é a curva que relaciona o sinal medido à concentração conhecida.",
+                  "collocations": [
+                    "calibration curve",
+                    "calibration standard",
+                    "perform a calibration",
+                    "calibration certificate"
+                  ]
+                },
+                "ES": {
+                  "text": "calibración",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kalibrierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "校正",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうせい",
+                  "romanization": "kousei"
+                },
+                "ZH": {
+                  "text": "校准",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiàozhǔn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Regular calibration keeps the readings accurate.",
+                  "answer": "calibration",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The balance requires calibration every month.",
+                  "answer": "calibration",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fisica-e-quimica",
+      "title": "Física e química",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "conceitos-fundamentais",
+          "title": "Conceitos fundamentais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "momentum",
+              "locales": {
+                "PT": {
+                  "text": "momento linear (quantidade de movimento)",
+                  "definition": "Grandeza física igual à massa de um corpo multiplicada por sua velocidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "momentum",
+                  "definition": "A physical quantity equal to the mass of a body multiplied by its velocity.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Fora da física, momentum significa impulso: the campaign gained momentum. É incontável.",
+                  "collocations": [
+                    "conservation of momentum",
+                    "linear momentum",
+                    "angular momentum",
+                    "transfer of momentum"
+                  ]
+                },
+                "ES": {
+                  "text": "cantidad de movimiento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Impuls",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "運動量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "うんどうりょう",
+                  "romanization": "undouryou"
+                },
+                "ZH": {
+                  "text": "动量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dòngliàng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "In an isolated system, momentum is conserved.",
+                  "answer": "momentum",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The momentum of the ball doubled when its speed doubled.",
+                  "answer": "momentum",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "entropy",
+              "locales": {
+                "PT": {
+                  "text": "entropia",
+                  "definition": "Medida do grau de desordem de um sistema, que tende a aumentar com o tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "entropy",
+                  "definition": "A measure of the disorder of a system, which tends to increase over time.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A segunda lei da termodinâmica diz que a entropia de um sistema isolado tende a aumentar. É incontável.",
+                  "collocations": [
+                    "increase in entropy",
+                    "entropy of the system",
+                    "maximum entropy",
+                    "change in entropy"
+                  ]
+                },
+                "ES": {
+                  "text": "entropía",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Entropie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "エントロピー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "entoropii"
+                },
+                "ZH": {
+                  "text": "熵",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shāng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The entropy of an isolated system never decreases.",
+                  "answer": "entropy",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The entropy increases as the gas expands.",
+                  "answer": "entropy",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "catalyst",
+              "locales": {
+                "PT": {
+                  "text": "catalisador",
+                  "definition": "Substância que acelera uma reação química sem ser consumida por ela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "catalyst",
+                  "definition": "A substance that speeds up a chemical reaction without being consumed by it.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em sentido figurado, catalyst é o que desencadeia uma mudança. O verbo é to catalyse (UK) ou to catalyze (US).",
+                  "collocations": [
+                    "act as a catalyst",
+                    "use a catalyst",
+                    "enzyme catalyst",
+                    "catalyst for change"
+                  ]
+                },
+                "ES": {
+                  "text": "catalizador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Katalysator",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "触媒",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょくばい",
+                  "romanization": "shokubai"
+                },
+                "ZH": {
+                  "text": "催化剂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cuīhuàjì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Platinum acts as a catalyst in the reaction.",
+                  "answer": "catalyst",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The catalyst lowers the activation energy.",
+                  "answer": "catalyst",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "solvent",
+              "locales": {
+                "PT": {
+                  "text": "solvente",
+                  "definition": "Substância, em geral líquida, que dissolve outra e forma uma solução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "solvent",
+                  "definition": "A substance, usually liquid, that dissolves another to form a solution.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A substância dissolvida é o solute; a mistura final é a solution. Solvent também é adjetivo financeiro: solvente, que paga suas dívidas.",
+                  "collocations": [
+                    "organic solvent",
+                    "dissolve in a solvent",
+                    "polar solvent",
+                    "evaporate the solvent"
+                  ]
+                },
+                "ES": {
+                  "text": "disolvente",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lösungsmittel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "溶媒",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようばい",
+                  "romanization": "youbai"
+                },
+                "ZH": {
+                  "text": "溶剂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "róngjì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Water is the most common solvent.",
+                  "answer": "solvent",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The solvent evaporated, leaving a crystalline residue.",
+                  "answer": "solvent",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "chemical-compound",
+              "locales": {
+                "PT": {
+                  "text": "composto químico",
+                  "definition": "Substância formada por dois ou mais elementos ligados em proporção fixa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "compound",
+                  "definition": "A substance formed from two or more elements bonded in a fixed ratio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Compound é a substância com elementos ligados; mixture é uma mistura sem ligação química. Também é verbo: agravar.",
+                  "collocations": [
+                    "organic compound",
+                    "synthesise a compound",
+                    "chemical compound",
+                    "compound structure"
+                  ]
+                },
+                "ES": {
+                  "text": "compuesto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verbindung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "化合物",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かごうぶつ",
+                  "romanization": "kagoubutsu"
+                },
+                "ZH": {
+                  "text": "化合物",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huàhéwù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Water is a compound of hydrogen and oxygen.",
+                  "answer": "compound",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The compound is stable at room temperature.",
+                  "answer": "compound",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "isotope",
+              "locales": {
+                "PT": {
+                  "text": "isótopo",
+                  "definition": "Variante de um elemento químico com o mesmo número de prótons, mas com número diferente de nêutrons.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "isotope",
+                  "definition": "A variant of a chemical element with the same number of protons but a different number of neutrons.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Isótopos do mesmo elemento têm comportamento químico semelhante. Radioisotope é o isótopo radioativo.",
+                  "collocations": [
+                    "stable isotope",
+                    "radioactive isotope",
+                    "isotope of carbon",
+                    "isotope ratio"
+                  ]
+                },
+                "ES": {
+                  "text": "isótopo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Isotop",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "同位体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "どういたい",
+                  "romanization": "douitai"
+                },
+                "ZH": {
+                  "text": "同位素",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tóngwèisù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Carbon-14 is a radioactive isotope of carbon.",
+                  "answer": "isotope",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each isotope has a different atomic mass.",
+                  "answer": "isotope",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "biologia",
+      "title": "Biologia",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "vida-e-evolucao",
+          "title": "Vida e evolução",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gene",
+              "locales": {
+                "PT": {
+                  "text": "gene",
+                  "definition": "Trecho de DNA que contém a instrução para produzir uma proteína ou uma molécula funcional.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "gene",
+                  "definition": "A section of DNA containing the instructions to make a protein or functional molecule.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A pronúncia é /dʒiːn/. Gene expression é a expressão gênica: o gene sendo usado para produzir sua proteína.",
+                  "collocations": [
+                    "identify a gene",
+                    "gene expression",
+                    "gene therapy",
+                    "mutated gene"
+                  ]
+                },
+                "ES": {
+                  "text": "gen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "遺伝子",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いでんし",
+                  "romanization": "idenshi"
+                },
+                "ZH": {
+                  "text": "基因",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jīyīn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Researchers identified a gene linked to the disease.",
+                  "answer": "gene",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "This gene is active only in liver cells.",
+                  "answer": "gene",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "enzyme",
+              "locales": {
+                "PT": {
+                  "text": "enzima",
+                  "definition": "Proteína que acelera reações químicas nos seres vivos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "enzyme",
+                  "definition": "A protein that speeds up chemical reactions in living organisms.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Os nomes de enzimas costumam terminar em -ase: lipase, amylase, protease.",
+                  "collocations": [
+                    "digestive enzyme",
+                    "enzyme activity",
+                    "enzyme inhibitor",
+                    "produce an enzyme"
+                  ]
+                },
+                "ES": {
+                  "text": "enzima",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Enzym",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "酵素",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうそ",
+                  "romanization": "kouso"
+                },
+                "ZH": {
+                  "text": "酶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "méi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The enzyme breaks down starch into sugars.",
+                  "answer": "enzyme",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each enzyme works best at a specific temperature.",
+                  "answer": "enzyme",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "natural-selection",
+              "locales": {
+                "PT": {
+                  "text": "seleção natural",
+                  "definition": "Processo pelo qual organismos mais adaptados ao ambiente sobrevivem e se reproduzem mais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "natural selection",
+                  "definition": "The process by which organisms better adapted to their environment survive and reproduce more.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Selection pressure é a pressão seletiva. Survival of the fittest é uma expressão popular, não um termo técnico.",
+                  "collocations": [
+                    "driven by natural selection",
+                    "theory of natural selection",
+                    "act through natural selection",
+                    "pressure of natural selection"
+                  ]
+                },
+                "ES": {
+                  "text": "selección natural",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "natürliche Selektion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "自然選択",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しぜんせんたく",
+                  "romanization": "shizensentaku"
+                },
+                "ZH": {
+                  "text": "自然选择",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zìrán xuǎnzé"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Over time, natural selection favours traits that improve survival.",
+                  "answer": "natural selection",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Darwin described natural selection in 1859.",
+                  "answer": "natural selection",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "ecosystem",
+              "locales": {
+                "PT": {
+                  "text": "ecossistema",
+                  "definition": "Conjunto formado pelos seres vivos de uma área e pelo ambiente físico com o qual interagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "ecosystem",
+                  "definition": "The community of living things in an area together with the physical environment they interact with.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O plural é ecosystems. Ecosystem services são os benefícios que o ecossistema fornece, como água limpa.",
+                  "collocations": [
+                    "marine ecosystem",
+                    "fragile ecosystem",
+                    "protect an ecosystem",
+                    "ecosystem services"
+                  ]
+                },
+                "ES": {
+                  "text": "ecosistema",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ökosystem",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "生態系",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいたいけい",
+                  "romanization": "seitaikei"
+                },
+                "ZH": {
+                  "text": "生态系统",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shēngtài xìtǒng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The wetland ecosystem supports many bird species.",
+                  "answer": "ecosystem",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Pollution can damage the entire ecosystem.",
+                  "answer": "ecosystem",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "photosynthesis",
+              "locales": {
+                "PT": {
+                  "text": "fotossíntese",
+                  "definition": "Processo em que plantas e algas usam luz solar, água e dióxido de carbono para produzir açúcar e oxigênio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "photosynthesis",
+                  "definition": "The process by which plants and algae use sunlight, water and carbon dioxide to make sugar and oxygen.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O adjetivo é photosynthetic. É incontável.",
+                  "collocations": [
+                    "rate of photosynthesis",
+                    "carry out photosynthesis",
+                    "process of photosynthesis",
+                    "photosynthesis in plants"
+                  ]
+                },
+                "ES": {
+                  "text": "fotosíntesis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Photosynthese",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "光合成",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうごうせい",
+                  "romanization": "kougousei"
+                },
+                "ZH": {
+                  "text": "光合作用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guānghé zuòyòng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "In plants, photosynthesis takes place in the chloroplasts.",
+                  "answer": "photosynthesis",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Oxygen is released during photosynthesis.",
+                  "answer": "photosynthesis",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "mutation",
+              "locales": {
+                "PT": {
+                  "text": "mutação",
+                  "definition": "Alteração permanente na sequência do DNA de um organismo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "mutation",
+                  "definition": "A permanent change in the DNA sequence of an organism.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Para dizer que sofreu mutação, use to mutate. Mutant é o organismo ou gene alterado.",
+                  "collocations": [
+                    "genetic mutation",
+                    "carry a mutation",
+                    "point mutation",
+                    "inherit a mutation"
+                  ]
+                },
+                "ES": {
+                  "text": "mutación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mutation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "突然変異",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とつぜんへんい",
+                  "romanization": "totsuzenheni"
+                },
+                "ZH": {
+                  "text": "突变",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tūbiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A single mutation can change the shape of a protein.",
+                  "answer": "mutation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The mutation was inherited from the mother.",
+                  "answer": "mutation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "publicacao-cientifica",
+      "title": "Publicação científica",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "artigos-e-pesquisa",
+          "title": "Artigos e pesquisa",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "abstract",
+              "locales": {
+                "PT": {
+                  "text": "resumo (de artigo científico)",
+                  "definition": "Resumo curto que apresenta objetivo, método, resultados e conclusão de um artigo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "abstract",
+                  "definition": "A short summary that presents the aim, method, results and conclusion of a paper.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abstract é o resumo de um artigo; summary é mais geral; executive summary é o de relatórios. Também é adjetivo: abstrato.",
+                  "collocations": [
+                    "write an abstract",
+                    "structured abstract",
+                    "abstract of the paper",
+                    "submit an abstract"
+                  ]
+                },
+                "ES": {
+                  "text": "resumen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zusammenfassung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "要旨",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようし",
+                  "romanization": "youshi"
+                },
+                "ZH": {
+                  "text": "摘要",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhāiyào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The abstract must not exceed two hundred and fifty words.",
+                  "answer": "abstract",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "I read the abstract before deciding to download the paper.",
+                  "answer": "abstract",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "methodology",
+              "locales": {
+                "PT": {
+                  "text": "metodologia",
+                  "definition": "Conjunto de métodos e justificativas usados para conduzir uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "methodology",
+                  "definition": "The set of methods and reasoning used to conduct a piece of research.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Methodology é o conjunto de princípios e justificativas; method é um procedimento específico.",
+                  "collocations": [
+                    "research methodology",
+                    "describe the methodology",
+                    "sound methodology",
+                    "methodology section"
+                  ]
+                },
+                "ES": {
+                  "text": "metodología",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Methodik",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "方法論",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうほうろん",
+                  "romanization": "houhouron"
+                },
+                "ZH": {
+                  "text": "方法论",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fāngfǎlùn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The methodology is described in section two.",
+                  "answer": "methodology",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The reviewers questioned the methodology of the survey.",
+                  "answer": "methodology",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "research-findings",
+              "locales": {
+                "PT": {
+                  "text": "resultados da pesquisa (achados)",
+                  "definition": "Conclusões obtidas ao final de uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "findings",
+                  "definition": "The conclusions reached at the end of a piece of research.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Findings é quase sempre plural. Result é o dado obtido; finding é a conclusão que se tira dele.",
+                  "collocations": [
+                    "key findings",
+                    "report the findings",
+                    "research findings",
+                    "preliminary findings"
+                  ]
+                },
+                "ES": {
+                  "text": "hallazgos",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ergebnisse",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "知見",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちけん",
+                  "romanization": "chiken"
+                },
+                "ZH": {
+                  "text": "研究发现",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yánjiū fāxiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The findings were published in a leading journal.",
+                  "answer": "findings",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The key findings are summarised in the table.",
+                  "answer": "findings",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "citation",
+              "locales": {
+                "PT": {
+                  "text": "citação (referência bibliográfica)",
+                  "definition": "Referência a uma obra publicada, que dá crédito à fonte de uma informação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "citation",
+                  "definition": "A reference to a published work that credits the source of information.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Citation é a referência a uma fonte; quote é a transcrição literal de um trecho. O verbo é to cite.",
+                  "collocations": [
+                    "cite a source",
+                    "citation index",
+                    "number of citations",
+                    "proper citation"
+                  ]
+                },
+                "ES": {
+                  "text": "cita",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zitierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いんよう",
+                  "romanization": "inyou"
+                },
+                "ZH": {
+                  "text": "引用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yǐnyòng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Every claim needs a citation.",
+                  "answer": "citation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The paper has more than two thousand citations.",
+                  "answer": "citation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "study-limitation",
+              "locales": {
+                "PT": {
+                  "text": "limitação (do estudo)",
+                  "definition": "Fator que restringe a validade ou o alcance dos resultados de uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "limitation",
+                  "definition": "A factor that restricts the validity or scope of a study's results.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em artigos há quase sempre uma seção chamada Limitations. Não é defeito pessoal: é transparência.",
+                  "collocations": [
+                    "acknowledge a limitation",
+                    "major limitation",
+                    "limitation of the study",
+                    "address a limitation"
+                  ]
+                },
+                "ES": {
+                  "text": "limitación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Einschränkung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "限界",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "げんかい",
+                  "romanization": "genkai"
+                },
+                "ZH": {
+                  "text": "局限性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "júxiànxìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A major limitation of this study is the small sample.",
+                  "answer": "limitation",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The authors acknowledge this limitation in the discussion.",
+                  "answer": "limitation",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            },
+            {
+              "slug": "replication",
+              "locales": {
+                "PT": {
+                  "text": "replicação",
+                  "definition": "Repetição de um estudo por outros pesquisadores para confirmar seus resultados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "replication",
+                  "definition": "The repetition of a study by other researchers to confirm its results.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Replication crisis é a crise de reprodutibilidade, na qual muitos estudos não são confirmados. O verbo é to replicate.",
+                  "collocations": [
+                    "replication study",
+                    "fail replication",
+                    "independent replication",
+                    "replication crisis"
+                  ]
+                },
+                "ES": {
+                  "text": "replicación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Replikation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "追試",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ついし",
+                  "romanization": "tsuishi"
+                },
+                "ZH": {
+                  "text": "重复实验",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chóngfù shíyàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Successful replication strengthens the original finding.",
+                  "answer": "replication",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The experiment failed replication in two laboratories.",
+                  "answer": "replication",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "track": {
+    "slug": "ciencia-pt-en",
+    "profession": "ciencia",
+    "sourceLanguage": "PT",
+    "targetLanguage": "EN",
+    "title": "Inglês Científico",
+    "description": "O vocabulário de método, estatística, laboratório e publicação usado em artigos científicos.",
+    "position": 7
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "status": "PUBLISHED",
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "representacao-do-projeto",
+      "title": "Representação do projeto",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "desenhos-e-escalas",
+          "title": "Desenhos e escalas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "floor-plan",
+              "locales": {
+                "PT": {
+                  "text": "planta baixa",
+                  "definition": "Desenho em vista superior que mostra a disposição de paredes, portas e ambientes de um pavimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Grundriss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "elevation",
+              "locales": {
+                "PT": {
+                  "text": "elevação (vista frontal)",
+                  "definition": "Desenho de uma fachada vista de frente, sem perspectiva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ansicht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "cross-section",
+              "locales": {
+                "PT": {
+                  "text": "corte (seção transversal)",
+                  "definition": "Desenho que mostra o interior de um edifício como se ele fosse cortado por um plano vertical.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schnitt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "site-plan",
+              "locales": {
+                "PT": {
+                  "text": "implantação (planta de situação)",
+                  "definition": "Desenho que mostra a posição de uma construção no terreno, com acessos e limites.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lageplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "drawing-scale",
+              "locales": {
+                "PT": {
+                  "text": "escala (de desenho)",
+                  "definition": "Relação entre as medidas no desenho e as medidas reais da construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Maßstab",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "design-sketch",
+              "locales": {
+                "PT": {
+                  "text": "croqui",
+                  "definition": "Desenho rápido à mão que registra uma ideia inicial de projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Entwurfsskizze",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elementos-arquitetonicos",
+      "title": "Elementos arquitetônicos",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "partes-da-edificacao",
+          "title": "Partes da edificação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "facade",
+              "locales": {
+                "PT": {
+                  "text": "fachada",
+                  "definition": "Face externa de um edifício, em especial a da frente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fassade",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "balcony",
+              "locales": {
+                "PT": {
+                  "text": "sacada (balcão)",
+                  "definition": "Plataforma que se projeta da parede de um edifício, com guarda-corpo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Balkon",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "staircase",
+              "locales": {
+                "PT": {
+                  "text": "escada (conjunto de degraus)",
+                  "definition": "Conjunto de degraus, patamares e guarda-corpos que liga pavimentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Treppenhaus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "vault",
+              "locales": {
+                "PT": {
+                  "text": "abóbada",
+                  "definition": "Teto em arco feito de pedra, tijolo ou concreto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gewölbe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "colonnade",
+              "locales": {
+                "PT": {
+                  "text": "colunata",
+                  "definition": "Fileira de colunas espaçadas regularmente, geralmente sustentando uma cobertura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Säulengang",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "cornice",
+              "locales": {
+                "PT": {
+                  "text": "cornija",
+                  "definition": "Moldura saliente que corona uma parede ou o topo de um edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gesims",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "urbanismo",
+      "title": "Urbanismo",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "cidade-e-territorio",
+          "title": "Cidade e território",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "zoning",
+              "locales": {
+                "PT": {
+                  "text": "zoneamento",
+                  "definition": "Divisão de uma cidade em áreas com regras próprias para uso e ocupação do solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zoneneinteilung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "setback",
+              "locales": {
+                "PT": {
+                  "text": "recuo",
+                  "definition": "Distância mínima exigida entre a construção e o limite do terreno ou da calçada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Grenzabstand",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "land-use",
+              "locales": {
+                "PT": {
+                  "text": "uso do solo",
+                  "definition": "Forma como uma área é utilizada ou destinada, como moradia, comércio ou indústria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Flächennutzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "urban-sprawl",
+              "locales": {
+                "PT": {
+                  "text": "expansão urbana desordenada",
+                  "definition": "Crescimento descontrolado da cidade em baixa densidade sobre áreas periféricas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zersiedelung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "streetscape",
+              "locales": {
+                "PT": {
+                  "text": "paisagem urbana (da rua)",
+                  "definition": "Aspecto visual de uma rua, formado por edifícios, calçadas, árvores e mobiliário urbano.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Straßenbild",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "green-space",
+              "locales": {
+                "PT": {
+                  "text": "área verde",
+                  "definition": "Área aberta com vegetação, como parque, praça ou jardim público.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Grünfläche",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "conforto-e-sustentabilidade",
+      "title": "Conforto e sustentabilidade",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "desempenho-ambiental",
+          "title": "Desempenho ambiental",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "daylighting",
+              "locales": {
+                "PT": {
+                  "text": "iluminação natural (aproveitamento da luz do dia)",
+                  "definition": "Uso planejado da luz do sol para iluminar os ambientes internos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Tageslichtnutzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "natural-ventilation",
+              "locales": {
+                "PT": {
+                  "text": "ventilação natural",
+                  "definition": "Renovação do ar de um ambiente por aberturas, sem ventiladores ou ar-condicionado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "natürliche Lüftung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "passive-design",
+              "locales": {
+                "PT": {
+                  "text": "projeto passivo (bioclimático)",
+                  "definition": "Projeto que reduz o consumo de energia aproveitando sol, vento e materiais, sem sistemas mecânicos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Passivbauweise",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "green-roof",
+              "locales": {
+                "PT": {
+                  "text": "telhado verde (cobertura vegetada)",
+                  "definition": "Cobertura coberta de vegetação, que melhora o isolamento e retém água da chuva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gründach",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "energy-efficiency",
+              "locales": {
+                "PT": {
+                  "text": "eficiência energética",
+                  "definition": "Capacidade de realizar o mesmo serviço com menos energia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Energieeffizienz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "thermal-comfort",
+              "locales": {
+                "PT": {
+                  "text": "conforto térmico",
+                  "definition": "Sensação de temperatura agradável para os ocupantes de um ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "thermischer Komfort",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estilos-e-historia",
+      "title": "Estilos e história",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "teoria-e-patrimonio",
+          "title": "Teoria e patrimônio",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "proportion",
+              "locales": {
+                "PT": {
+                  "text": "proporção",
+                  "definition": "Relação harmoniosa entre as dimensões das partes de uma composição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Proportion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "symmetry",
+              "locales": {
+                "PT": {
+                  "text": "simetria",
+                  "definition": "Equilíbrio em que um lado do edifício reflete o outro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Symmetrie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "minimalism",
+              "locales": {
+                "PT": {
+                  "text": "minimalismo",
+                  "definition": "Estilo que busca formas simples e ausência de ornamentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Minimalismus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "vernacular-architecture",
+              "locales": {
+                "PT": {
+                  "text": "arquitetura vernácula",
+                  "definition": "Construção tradicional de uma região, feita com materiais e técnicas locais, sem arquiteto formal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "vernakuläre Architektur",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "heritage-building",
+              "locales": {
+                "PT": {
+                  "text": "edificação de valor patrimonial",
+                  "definition": "Edifício protegido por seu valor histórico, cultural ou arquitetônico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "denkmalgeschütztes Gebäude",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "restoration",
+              "locales": {
+                "PT": {
+                  "text": "restauro",
+                  "definition": "Trabalho de devolver um edifício ou elemento ao estado original.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Restaurierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pratica-profissional",
+      "title": "Prática profissional",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "projeto-e-obra",
+          "title": "Projeto e obra",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "design-brief",
+              "locales": {
+                "PT": {
+                  "text": "programa de necessidades (briefing)",
+                  "definition": "Documento do cliente que define objetivos, orçamento e requisitos de um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Planungsvorgaben",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "scale-model",
+              "locales": {
+                "PT": {
+                  "text": "maquete",
+                  "definition": "Modelo físico reduzido de um edifício ou conjunto, usado para apresentar um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Architekturmodell",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "building-permit",
+              "locales": {
+                "PT": {
+                  "text": "alvará de construção (licença de obra)",
+                  "definition": "Autorização oficial emitida pela prefeitura para iniciar uma construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Baugenehmigung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "rendering",
+              "locales": {
+                "PT": {
+                  "text": "renderização (imagem de apresentação)",
+                  "definition": "Imagem realista gerada por computador para mostrar como o projeto ficará.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Visualisierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "site-supervision",
+              "locales": {
+                "PT": {
+                  "text": "fiscalização de obra",
+                  "definition": "Acompanhamento técnico da execução da obra para garantir que siga o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bauüberwachung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "public-tender",
+              "locales": {
+                "PT": {
+                  "text": "licitação (concorrência pública)",
+                  "definition": "Processo em que empresas apresentam propostas para executar um projeto ou obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausschreibung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "track": {
+    "slug": "arquitetura-pt-de",
+    "profession": "arquitetura",
+    "sourceLanguage": "PT",
+    "targetLanguage": "DE",
+    "title": "Alemão para Arquitetura",
+    "description": "O vocabulário profissional de arquitetura em alemão, com leitura e pronúncia.",
+    "position": 26
+  }
+}

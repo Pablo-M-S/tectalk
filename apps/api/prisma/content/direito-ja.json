@@ -1,0 +1,854 @@
+{
+  "status": "PUBLISHED",
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "fundamentos-do-direito",
+      "title": "Fundamentos do direito",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "conceitos-basicos",
+          "title": "Conceitos básicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "statute",
+              "locales": {
+                "PT": {
+                  "text": "lei (norma aprovada pelo legislativo)",
+                  "definition": "Norma escrita aprovada pelo poder legislativo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "法律",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうりつ",
+                  "romanization": "houritsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "regulation",
+              "locales": {
+                "PT": {
+                  "text": "regulamento (norma administrativa)",
+                  "definition": "Norma emitida por um órgão administrativo para dar aplicação a uma lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "規則",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きそく",
+                  "romanization": "kisoku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "jurisdiction",
+              "locales": {
+                "PT": {
+                  "text": "jurisdição (competência)",
+                  "definition": "Autoridade de um tribunal para julgar um caso, definida por território ou matéria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "管轄",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんかつ",
+                  "romanization": "kankatsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "precedent",
+              "locales": {
+                "PT": {
+                  "text": "precedente (decisão anterior)",
+                  "definition": "Decisão judicial anterior que serve de referência para casos semelhantes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "判例",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はんれい",
+                  "romanization": "hanrei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "court",
+              "locales": {
+                "PT": {
+                  "text": "tribunal",
+                  "definition": "Órgão que julga disputas e aplica a lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "裁判所",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さいばんしょ",
+                  "romanization": "saibansho"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "legislation",
+              "locales": {
+                "PT": {
+                  "text": "legislação",
+                  "definition": "Conjunto de leis de um país ou de uma área; também o ato de criá-las.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "法令",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうれい",
+                  "romanization": "hourei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "contratos",
+      "title": "Contratos",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "clausulas-e-obrigacoes",
+          "title": "Cláusulas e obrigações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "contract",
+              "locales": {
+                "PT": {
+                  "text": "contrato",
+                  "definition": "Acordo juridicamente vinculante entre duas ou mais partes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "契約",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいやく",
+                  "romanization": "keiyaku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "clause",
+              "locales": {
+                "PT": {
+                  "text": "cláusula",
+                  "definition": "Disposição específica dentro de um contrato ou lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "条項",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じょうこう",
+                  "romanization": "joukou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "breach",
+              "locales": {
+                "PT": {
+                  "text": "descumprimento (violação)",
+                  "definition": "Falha em cumprir uma obrigação prevista em contrato ou lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "違反",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いはん",
+                  "romanization": "ihan"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "consideration",
+              "locales": {
+                "PT": {
+                  "text": "contraprestação (valor trocado)",
+                  "definition": "Algo de valor que cada parte entrega em troca da promessa da outra, requisito do contrato no common law.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "約因",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "やくいん",
+                  "romanization": "yakuin"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "liability",
+              "locales": {
+                "PT": {
+                  "text": "responsabilidade (dever de responder)",
+                  "definition": "Obrigação legal de responder por um dano ou dívida.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "責任",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せきにん",
+                  "romanization": "sekinin"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "indemnity",
+              "locales": {
+                "PT": {
+                  "text": "indenização contratual (garantia de ressarcimento)",
+                  "definition": "Compromisso de uma parte de ressarcir a outra por perdas ou danos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "補償",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほしょう",
+                  "romanization": "hoshou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "processo-judicial",
+      "title": "Processo judicial",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "partes-e-provas",
+          "title": "Partes e provas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "plaintiff",
+              "locales": {
+                "PT": {
+                  "text": "autor (de uma ação)",
+                  "definition": "Pessoa ou empresa que move a ação contra outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "原告",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "げんこく",
+                  "romanization": "genkoku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "defendant",
+              "locales": {
+                "PT": {
+                  "text": "réu",
+                  "definition": "Pessoa ou empresa contra quem a ação é movida.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "被告",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひこく",
+                  "romanization": "hikoku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "lawsuit",
+              "locales": {
+                "PT": {
+                  "text": "ação judicial",
+                  "definition": "Processo iniciado em um tribunal para resolver uma disputa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "訴訟",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "そしょう",
+                  "romanization": "soshou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "evidence",
+              "locales": {
+                "PT": {
+                  "text": "prova",
+                  "definition": "Informação ou material apresentado ao tribunal para demonstrar um fato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "証拠",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうこ",
+                  "romanization": "shouko"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "testimony",
+              "locales": {
+                "PT": {
+                  "text": "depoimento (testemunho)",
+                  "definition": "Declaração feita por uma testemunha sob juramento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "証言",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうげん",
+                  "romanization": "shougen"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "verdict",
+              "locales": {
+                "PT": {
+                  "text": "veredicto",
+                  "definition": "Decisão formal do júri ou do juiz sobre os fatos de um caso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "評決",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひょうけつ",
+                  "romanization": "hyouketsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-penal",
+      "title": "Direito penal",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "crimes-e-penas",
+          "title": "Crimes e penas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "felony",
+              "locales": {
+                "PT": {
+                  "text": "crime grave (delito de maior gravidade)",
+                  "definition": "Crime grave, punível com prisão de mais de um ano ou com pena capital.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "重罪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じゅうざい",
+                  "romanization": "juuzai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "misdemeanor",
+              "locales": {
+                "PT": {
+                  "text": "contravenção (crime de menor gravidade)",
+                  "definition": "Crime de menor gravidade, em geral punido com multa ou prisão breve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "軽罪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいざい",
+                  "romanization": "keizai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "indictment",
+              "locales": {
+                "PT": {
+                  "text": "denúncia formal (acusação)",
+                  "definition": "Acusação formal por crime grave, apresentada por um grande júri ou pelo Ministério Público.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "起訴状",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きそじょう",
+                  "romanization": "kisojou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "bail",
+              "locales": {
+                "PT": {
+                  "text": "fiança (liberdade provisória)",
+                  "definition": "Valor ou garantia entregue ao tribunal para que o acusado responda ao processo em liberdade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "保釈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほしゃく",
+                  "romanization": "hoshaku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "criminal-sentence",
+              "locales": {
+                "PT": {
+                  "text": "pena (condenação)",
+                  "definition": "Punição determinada pelo tribunal a quem foi condenado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "刑",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けい",
+                  "romanization": "kei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "acquittal",
+              "locales": {
+                "PT": {
+                  "text": "absolvição",
+                  "definition": "Decisão que declara o acusado não culpado das acusações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "無罪判決",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "むざいはんけつ",
+                  "romanization": "muzaihanketsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-empresarial",
+      "title": "Direito empresarial",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "sociedades-e-propriedade",
+          "title": "Sociedades e propriedade",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "shareholder",
+              "locales": {
+                "PT": {
+                  "text": "acionista",
+                  "definition": "Pessoa ou empresa que possui ações de uma sociedade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "株主",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かぶぬし",
+                  "romanization": "kabunushi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "merger",
+              "locales": {
+                "PT": {
+                  "text": "fusão (societária)",
+                  "definition": "Combinação de duas empresas em uma só.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "合併",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がっぺい",
+                  "romanization": "gappei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "bankruptcy",
+              "locales": {
+                "PT": {
+                  "text": "falência",
+                  "definition": "Situação legal de quem não consegue pagar suas dívidas, sob supervisão do tribunal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "破産",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はさん",
+                  "romanization": "hasan"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "fiduciary-duty",
+              "locales": {
+                "PT": {
+                  "text": "dever fiduciário",
+                  "definition": "Obrigação de agir com lealdade e no melhor interesse de outra pessoa, como administradores com os acionistas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "信認義務",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんにんぎむ",
+                  "romanization": "shinningimu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "due-diligence",
+              "locales": {
+                "PT": {
+                  "text": "auditoria prévia (due diligence)",
+                  "definition": "Investigação detalhada de uma empresa ou ativo antes de fechar um negócio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デューデリジェンス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "dyuu derijensu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "intellectual-property",
+              "locales": {
+                "PT": {
+                  "text": "propriedade intelectual",
+                  "definition": "Direitos legais sobre criações da mente, como patentes, marcas e direitos autorais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "知的財産",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちてきざいさん",
+                  "romanization": "chitekizaisan"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pratica-juridica",
+      "title": "Prática jurídica",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "documentos-e-medidas",
+          "title": "Documentos e medidas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "attorney-client-privilege",
+              "locales": {
+                "PT": {
+                  "text": "sigilo entre advogado e cliente",
+                  "definition": "Proteção legal que impede a divulgação de comunicações confidenciais entre advogado e cliente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "秘匿特権",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひとくとっけん",
+                  "romanization": "hitokutokken"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "affidavit",
+              "locales": {
+                "PT": {
+                  "text": "declaração sob juramento",
+                  "definition": "Declaração escrita feita sob juramento e usada como prova.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "宣誓供述書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せんせいきょうじゅつしょ",
+                  "romanization": "senseikyoujutsusho"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "subpoena",
+              "locales": {
+                "PT": {
+                  "text": "intimação (para depor ou apresentar documentos)",
+                  "definition": "Ordem judicial que obriga uma pessoa a comparecer ou a entregar documentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "召喚状",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうかんじょう",
+                  "romanization": "shoukanjou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "settlement",
+              "locales": {
+                "PT": {
+                  "text": "acordo (encerramento de disputa)",
+                  "definition": "Acordo pelo qual as partes encerram uma disputa sem decisão do tribunal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "和解",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "わかい",
+                  "romanization": "wakai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "injunction",
+              "locales": {
+                "PT": {
+                  "text": "medida liminar (ordem judicial de fazer ou não fazer)",
+                  "definition": "Ordem judicial que obriga ou proíbe alguém de praticar determinado ato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "差止命令",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さしとめめいれい",
+                  "romanization": "sashitomemeirei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "legal-counsel",
+              "locales": {
+                "PT": {
+                  "text": "assessoria jurídica (advogado)",
+                  "definition": "Advogado ou equipe que dá orientação jurídica a uma pessoa ou organização.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "法律顧問",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうりつこもん",
+                  "romanization": "houritsukomon"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "track": {
+    "slug": "direito-pt-ja",
+    "profession": "direito",
+    "sourceLanguage": "PT",
+    "targetLanguage": "JA",
+    "title": "Japonês para Direito",
+    "description": "O vocabulário profissional de direito em japonês, com leitura e pronúncia.",
+    "position": 35
+  }
+}

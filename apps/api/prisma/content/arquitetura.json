@@ -1,0 +1,2431 @@
+{
+  "status": "PUBLISHED",
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "representacao-do-projeto",
+      "title": "Representação do projeto",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "desenhos-e-escalas",
+          "title": "Desenhos e escalas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "floor-plan",
+              "locales": {
+                "PT": {
+                  "text": "planta baixa",
+                  "definition": "Desenho em vista superior que mostra a disposição de paredes, portas e ambientes de um pavimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "floor plan",
+                  "definition": "A top-down drawing showing the layout of walls, doors and rooms on one level of a building.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em inglês britânico também se diz plan. Open floor plan é a planta aberta, sem paredes entre os ambientes.",
+                  "collocations": [
+                    "draw a floor plan",
+                    "open floor plan",
+                    "ground floor plan",
+                    "floor plan layout"
+                  ]
+                },
+                "ES": {
+                  "text": "planta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Grundriss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "平面図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "へいめんず",
+                  "romanization": "heimenzu"
+                },
+                "ZH": {
+                  "text": "平面图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "píngmiàntú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The floor plan shows three bedrooms and two bathrooms.",
+                  "answer": "floor plan",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We revised the floor plan after the client's comments.",
+                  "answer": "floor plan",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "elevation",
+              "locales": {
+                "PT": {
+                  "text": "elevação (vista frontal)",
+                  "definition": "Desenho de uma fachada vista de frente, sem perspectiva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "elevation",
+                  "definition": "A drawing of one face of a building seen straight on, without perspective.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Elevation também significa altitude de um terreno. Nos desenhos, é sempre a vista frontal ou lateral.",
+                  "collocations": [
+                    "front elevation",
+                    "north elevation",
+                    "elevation drawing",
+                    "side elevation"
+                  ]
+                },
+                "ES": {
+                  "text": "alzado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ansicht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "立面図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りつめんず",
+                  "romanization": "ritsumenzu"
+                },
+                "ZH": {
+                  "text": "立面图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lìmiàntú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The north elevation shows the main entrance.",
+                  "answer": "elevation",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each elevation is drawn at a scale of 1:100.",
+                  "answer": "elevation",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "cross-section",
+              "locales": {
+                "PT": {
+                  "text": "corte (seção transversal)",
+                  "definition": "Desenho que mostra o interior de um edifício como se ele fosse cortado por um plano vertical.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cross-section",
+                  "definition": "A drawing that shows the inside of a building as if cut by a vertical plane.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz section. Em português, corte; não confunda com cut, que é o ato de cortar.",
+                  "collocations": [
+                    "longitudinal cross-section",
+                    "draw a cross-section",
+                    "building cross-section",
+                    "cross-section through the stairs"
+                  ]
+                },
+                "ES": {
+                  "text": "sección",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schnitt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "断面図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だんめんず",
+                  "romanization": "danmenzu"
+                },
+                "ZH": {
+                  "text": "剖面图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "pōumiàntú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cross-section reveals the height of each floor.",
+                  "answer": "cross-section",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A cross-section through the atrium explains how daylight enters.",
+                  "answer": "cross-section",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "site-plan",
+              "locales": {
+                "PT": {
+                  "text": "implantação (planta de situação)",
+                  "definition": "Desenho que mostra a posição de uma construção no terreno, com acessos e limites.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "site plan",
+                  "definition": "A drawing that shows the position of a building on its plot, with access routes and boundaries.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O site plan mostra a obra no contexto do lote; o floor plan mostra o interior.",
+                  "collocations": [
+                    "submit a site plan",
+                    "approved site plan",
+                    "site plan drawing",
+                    "detailed site plan"
+                  ]
+                },
+                "ES": {
+                  "text": "plano de emplazamiento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lageplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "配置図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいちず",
+                  "romanization": "haichizu"
+                },
+                "ZH": {
+                  "text": "总平面图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zǒngpíngmiàntú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The site plan must be submitted with the permit application.",
+                  "answer": "site plan",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The site plan indicates the boundaries of the plot.",
+                  "answer": "site plan",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "drawing-scale",
+              "locales": {
+                "PT": {
+                  "text": "escala (de desenho)",
+                  "definition": "Relação entre as medidas no desenho e as medidas reais da construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "scale",
+                  "definition": "The ratio between measurements on a drawing and the real measurements of the building.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Escreve-se 1:50, lido one to fifty. Not to scale avisa que o desenho não deve ser medido.",
+                  "collocations": [
+                    "to scale",
+                    "drawn to scale",
+                    "scale bar",
+                    "reduce the scale"
+                  ]
+                },
+                "ES": {
+                  "text": "escala",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Maßstab",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "縮尺",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しゅくしゃく",
+                  "romanization": "shukushaku"
+                },
+                "ZH": {
+                  "text": "比例尺",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bǐlìchǐ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The drawing is at a scale of 1:50.",
+                  "answer": "scale",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Check the scale before measuring on the plan.",
+                  "answer": "scale",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "design-sketch",
+              "locales": {
+                "PT": {
+                  "text": "croqui",
+                  "definition": "Desenho rápido à mão que registra uma ideia inicial de projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sketch",
+                  "definition": "A quick hand drawing that records an early design idea.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sketch é o croqui; draft, o rascunho de um texto; drawing, o desenho já mais definido.",
+                  "collocations": [
+                    "rough sketch",
+                    "concept sketch",
+                    "make a sketch",
+                    "sketch design"
+                  ]
+                },
+                "ES": {
+                  "text": "boceto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Entwurfsskizze",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スケッチ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sukecchi"
+                },
+                "ZH": {
+                  "text": "草图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cǎotú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The architect presented a sketch of the entrance hall.",
+                  "answer": "sketch",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He made a sketch on site to test the proportions.",
+                  "answer": "sketch",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elementos-arquitetonicos",
+      "title": "Elementos arquitetônicos",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "partes-da-edificacao",
+          "title": "Partes da edificação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "facade",
+              "locales": {
+                "PT": {
+                  "text": "fachada",
+                  "definition": "Face externa de um edifício, em especial a da frente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "facade",
+                  "definition": "The outside face of a building, especially the front.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também escrita façade. Em sentido figurado, significa aparência enganosa: a facade of calm.",
+                  "collocations": [
+                    "glass facade",
+                    "ventilated facade",
+                    "restore the facade",
+                    "front facade"
+                  ]
+                },
+                "ES": {
+                  "text": "fachada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fassade",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ファサード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "fasaado"
+                },
+                "ZH": {
+                  "text": "外立面",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wàilìmiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The glass facade reflects the surrounding trees.",
+                  "answer": "facade",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The facade was restored in 2019.",
+                  "answer": "facade",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "balcony",
+              "locales": {
+                "PT": {
+                  "text": "sacada (balcão)",
+                  "definition": "Plataforma que se projeta da parede de um edifício, com guarda-corpo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "balcony",
+                  "definition": "A platform projecting from the wall of a building, enclosed by a railing.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em teatros, balcony é também o nível superior da plateia. Juliet balcony é a sacada falsa, só com guarda-corpo.",
+                  "collocations": [
+                    "private balcony",
+                    "Juliet balcony",
+                    "balcony railing",
+                    "overhanging balcony"
+                  ]
+                },
+                "ES": {
+                  "text": "balcón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Balkon",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バルコニー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "barukonii"
+                },
+                "ZH": {
+                  "text": "阳台",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yángtái"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each apartment has a balcony facing the river.",
+                  "answer": "balcony",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The balcony is supported by steel brackets.",
+                  "answer": "balcony",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "staircase",
+              "locales": {
+                "PT": {
+                  "text": "escada (conjunto de degraus)",
+                  "definition": "Conjunto de degraus, patamares e guarda-corpos que liga pavimentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "staircase",
+                  "definition": "A set of steps, landings and railings that connects floors.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Stairs é o termo comum; staircase destaca a estrutura inteira; stairway é a passagem. Step é um degrau.",
+                  "collocations": [
+                    "spiral staircase",
+                    "main staircase",
+                    "emergency staircase",
+                    "climb the staircase"
+                  ]
+                },
+                "ES": {
+                  "text": "escalera",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Treppenhaus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "階段",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいだん",
+                  "romanization": "kaidan"
+                },
+                "ZH": {
+                  "text": "楼梯",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lóutī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The spiral staircase leads to the roof terrace.",
+                  "answer": "staircase",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A fire-rated staircase serves as the emergency exit.",
+                  "answer": "staircase",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "vault",
+              "locales": {
+                "PT": {
+                  "text": "abóbada",
+                  "definition": "Teto em arco feito de pedra, tijolo ou concreto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "vault",
+                  "definition": "An arched ceiling made of stone, brick or concrete.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vault também significa cofre e, como verbo, saltar. No contexto de arquitetura, é a abóbada.",
+                  "collocations": [
+                    "ribbed vault",
+                    "barrel vault",
+                    "vaulted ceiling",
+                    "stone vault"
+                  ]
+                },
+                "ES": {
+                  "text": "bóveda",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gewölbe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "丸天井",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "まるてんじょう",
+                  "romanization": "marutenjou"
+                },
+                "ZH": {
+                  "text": "拱顶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gǒngdǐng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The Gothic cathedral has a ribbed vault.",
+                  "answer": "vault",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The brick vault spans the entire nave.",
+                  "answer": "vault",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "colonnade",
+              "locales": {
+                "PT": {
+                  "text": "colunata",
+                  "definition": "Fileira de colunas espaçadas regularmente, geralmente sustentando uma cobertura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "colonnade",
+                  "definition": "A row of regularly spaced columns, usually supporting a roof or entablature.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Colonnade é a fileira de colunas; arcade é a de arcos. Ambas formam passagens cobertas.",
+                  "collocations": [
+                    "classical colonnade",
+                    "stone colonnade",
+                    "covered colonnade",
+                    "colonnade of columns"
+                  ]
+                },
+                "ES": {
+                  "text": "columnata",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Säulengang",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "列柱廊",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "れっちゅうろう",
+                  "romanization": "recchuurou"
+                },
+                "ZH": {
+                  "text": "柱廊",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhùláng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A colonnade surrounds the central courtyard.",
+                  "answer": "colonnade",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Visitors walk beneath the colonnade to avoid the rain.",
+                  "answer": "colonnade",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "cornice",
+              "locales": {
+                "PT": {
+                  "text": "cornija",
+                  "definition": "Moldura saliente que corona uma parede ou o topo de um edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cornice",
+                  "definition": "A projecting moulding that crowns a wall or the top of a building.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em interiores, cornice é a sanca, ao longo da junção parede e teto. Também se diz crown moulding nos EUA.",
+                  "collocations": [
+                    "decorative cornice",
+                    "plaster cornice",
+                    "stone cornice",
+                    "crown cornice"
+                  ]
+                },
+                "ES": {
+                  "text": "cornisa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gesims",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コーニス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "koonisu"
+                },
+                "ZH": {
+                  "text": "檐口",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yánkǒu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cornice was carved in limestone.",
+                  "answer": "cornice",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A decorative cornice runs along the top of the facade.",
+                  "answer": "cornice",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "urbanismo",
+      "title": "Urbanismo",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "cidade-e-territorio",
+          "title": "Cidade e território",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "zoning",
+              "locales": {
+                "PT": {
+                  "text": "zoneamento",
+                  "definition": "Divisão de uma cidade em áreas com regras próprias para uso e ocupação do solo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "zoning",
+                  "definition": "The division of a city into areas with their own rules for land use and building.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo to zone é frequente: the land is zoned for industrial use. Zoning é incontável.",
+                  "collocations": [
+                    "zoning law",
+                    "zoning regulations",
+                    "zoning map",
+                    "residential zoning"
+                  ]
+                },
+                "ES": {
+                  "text": "zonificación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zoneneinteilung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "用途地域",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようとちいき",
+                  "romanization": "youtochiiki"
+                },
+                "ZH": {
+                  "text": "分区规划",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēnqū guīhuà"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The local zoning regulations limit building height in this district.",
+                  "answer": "zoning",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The council changed the zoning of the site to mixed use.",
+                  "answer": "zoning",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "setback",
+              "locales": {
+                "PT": {
+                  "text": "recuo",
+                  "definition": "Distância mínima exigida entre a construção e o limite do terreno ou da calçada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "setback",
+                  "definition": "The minimum distance required between a building and the edge of the plot or street.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Setback também significa contratempo, em sentido geral. No urbanismo, é o recuo obrigatório.",
+                  "collocations": [
+                    "front setback",
+                    "side setback",
+                    "minimum setback",
+                    "setback requirement"
+                  ]
+                },
+                "ES": {
+                  "text": "retranqueo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Grenzabstand",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "セットバック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "settobakku"
+                },
+                "ZH": {
+                  "text": "退线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tuìxiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The setback from the street must be at least five metres.",
+                  "answer": "setback",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The design respects the side setback.",
+                  "answer": "setback",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "land-use",
+              "locales": {
+                "PT": {
+                  "text": "uso do solo",
+                  "definition": "Forma como uma área é utilizada ou destinada, como moradia, comércio ou indústria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "land use",
+                  "definition": "The way an area is used or designated, such as housing, commerce or industry.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Land use é o uso do solo; zoning é a regra legal que o define. É incontável.",
+                  "collocations": [
+                    "land use plan",
+                    "mixed land use",
+                    "land use policy",
+                    "change of land use"
+                  ]
+                },
+                "ES": {
+                  "text": "uso del suelo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Flächennutzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "土地利用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とちりよう",
+                  "romanization": "tochiriyou"
+                },
+                "ZH": {
+                  "text": "土地利用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tǔdì lìyòng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The plan changes the land use from industrial to residential.",
+                  "answer": "land use",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Good land use planning shapes how cities grow.",
+                  "answer": "land use",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "urban-sprawl",
+              "locales": {
+                "PT": {
+                  "text": "expansão urbana desordenada",
+                  "definition": "Crescimento descontrolado da cidade em baixa densidade sobre áreas periféricas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "urban sprawl",
+                  "definition": "Uncontrolled, low-density growth of a city into surrounding areas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sprawl sozinho já funciona. Densification é o contrário: adensar a cidade existente.",
+                  "collocations": [
+                    "limit urban sprawl",
+                    "combat urban sprawl",
+                    "suburban sprawl",
+                    "control urban sprawl"
+                  ]
+                },
+                "ES": {
+                  "text": "expansión urbana descontrolada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zersiedelung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スプロール現象",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "すぷろーるげんしょう",
+                  "romanization": "supuroorugenshou"
+                },
+                "ZH": {
+                  "text": "城市蔓延",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chéngshì mànyán"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Unchecked urban sprawl increases dependence on cars.",
+                  "answer": "urban sprawl",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The new plan aims to limit urban sprawl.",
+                  "answer": "urban sprawl",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "streetscape",
+              "locales": {
+                "PT": {
+                  "text": "paisagem urbana (da rua)",
+                  "definition": "Aspecto visual de uma rua, formado por edifícios, calçadas, árvores e mobiliário urbano.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "streetscape",
+                  "definition": "The visual character of a street, made up of buildings, pavements, trees and street furniture.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Streetscape vem de street e landscape. Cityscape é a paisagem da cidade como um todo.",
+                  "collocations": [
+                    "historic streetscape",
+                    "improve the streetscape",
+                    "urban streetscape",
+                    "streetscape design"
+                  ]
+                },
+                "ES": {
+                  "text": "paisaje urbano",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Straßenbild",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "街並み",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "まちなみ",
+                  "romanization": "machinami"
+                },
+                "ZH": {
+                  "text": "街景",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiējǐng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Trees and benches improve the streetscape.",
+                  "answer": "streetscape",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The new building fits the existing streetscape.",
+                  "answer": "streetscape",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "green-space",
+              "locales": {
+                "PT": {
+                  "text": "área verde",
+                  "definition": "Área aberta com vegetação, como parque, praça ou jardim público.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "green space",
+                  "definition": "An open area with vegetation, such as a park, square or public garden.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz open space. Green space exige vegetação; open space pode ser apenas uma praça pavimentada.",
+                  "collocations": [
+                    "urban green space",
+                    "public green space",
+                    "provide green space",
+                    "green space network"
+                  ]
+                },
+                "ES": {
+                  "text": "zona verde",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Grünfläche",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "緑地",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りょくち",
+                  "romanization": "ryokuchi"
+                },
+                "ZH": {
+                  "text": "绿地",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lǜdì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The plan provides ten hectares of green space.",
+                  "answer": "green space",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Access to green space improves public health.",
+                  "answer": "green space",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "conforto-e-sustentabilidade",
+      "title": "Conforto e sustentabilidade",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "desempenho-ambiental",
+          "title": "Desempenho ambiental",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "daylighting",
+              "locales": {
+                "PT": {
+                  "text": "iluminação natural (aproveitamento da luz do dia)",
+                  "definition": "Uso planejado da luz do sol para iluminar os ambientes internos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "daylighting",
+                  "definition": "The planned use of sunlight to light the interior of a building.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Daylight é a luz do dia em si; daylighting é a estratégia de projeto para aproveitá-la. É incontável.",
+                  "collocations": [
+                    "improve daylighting",
+                    "daylighting strategy",
+                    "daylighting analysis",
+                    "maximize daylighting"
+                  ]
+                },
+                "ES": {
+                  "text": "iluminación natural",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Tageslichtnutzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "自然採光",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しぜんさいこう",
+                  "romanization": "shizensaikou"
+                },
+                "ZH": {
+                  "text": "自然采光",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zìrán cǎiguāng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Good daylighting reduces the need for artificial light.",
+                  "answer": "daylighting",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Large skylights improve daylighting in the central hall.",
+                  "answer": "daylighting",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "natural-ventilation",
+              "locales": {
+                "PT": {
+                  "text": "ventilação natural",
+                  "definition": "Renovação do ar de um ambiente por aberturas, sem ventiladores ou ar-condicionado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "natural ventilation",
+                  "definition": "The renewal of air in a space through openings, without fans or air conditioning.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Cross ventilation é a ventilação cruzada, com aberturas em lados opostos. O contrário é mechanical ventilation.",
+                  "collocations": [
+                    "rely on natural ventilation",
+                    "passive natural ventilation",
+                    "improve natural ventilation",
+                    "natural ventilation strategy"
+                  ]
+                },
+                "ES": {
+                  "text": "ventilación natural",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "natürliche Lüftung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "自然換気",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しぜんかんき",
+                  "romanization": "shizenkanki"
+                },
+                "ZH": {
+                  "text": "自然通风",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zìrán tōngfēng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Cross natural ventilation keeps the rooms cool in summer.",
+                  "answer": "natural ventilation",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The design relies on natural ventilation instead of air conditioning.",
+                  "answer": "natural ventilation",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "passive-design",
+              "locales": {
+                "PT": {
+                  "text": "projeto passivo (bioclimático)",
+                  "definition": "Projeto que reduz o consumo de energia aproveitando sol, vento e materiais, sem sistemas mecânicos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "passive design",
+                  "definition": "A design approach that reduces energy use through sun, wind and materials, without mechanical systems.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Passive é o oposto de active: sistemas ativos usam energia, como ar-condicionado. Passive house é uma certificação.",
+                  "collocations": [
+                    "passive design strategy",
+                    "passive design principles",
+                    "apply passive design",
+                    "passive design features"
+                  ]
+                },
+                "ES": {
+                  "text": "diseño pasivo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Passivbauweise",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パッシブデザイン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "passhibudezain"
+                },
+                "ZH": {
+                  "text": "被动式设计",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bèidòngshì shèjì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Careful passive design lowers heating costs by thirty percent.",
+                  "answer": "passive design",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The orientation of the house follows passive design principles.",
+                  "answer": "passive design",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "green-roof",
+              "locales": {
+                "PT": {
+                  "text": "telhado verde (cobertura vegetada)",
+                  "definition": "Cobertura coberta de vegetação, que melhora o isolamento e retém água da chuva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "green roof",
+                  "definition": "A roof covered with vegetation that improves insulation and retains rainwater.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz living roof ou vegetated roof. Extensive tem pouca terra e vegetação rasteira; intensive suporta até árvores.",
+                  "collocations": [
+                    "install a green roof",
+                    "extensive green roof",
+                    "intensive green roof",
+                    "green roof system"
+                  ]
+                },
+                "ES": {
+                  "text": "cubierta verde",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gründach",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "屋上緑化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "おくじょうりょくか",
+                  "romanization": "okujouryokuka"
+                },
+                "ZH": {
+                  "text": "绿色屋顶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lǜsè wūdǐng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The library has a green roof planted with native species.",
+                  "answer": "green roof",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A green roof absorbs up to half of the rainfall.",
+                  "answer": "green roof",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "energy-efficiency",
+              "locales": {
+                "PT": {
+                  "text": "eficiência energética",
+                  "definition": "Capacidade de realizar o mesmo serviço com menos energia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "energy efficiency",
+                  "definition": "The ability to deliver the same service while using less energy.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Energy efficiency é usar menos energia para o mesmo resultado; energy conservation é simplesmente consumir menos.",
+                  "collocations": [
+                    "improve energy efficiency",
+                    "energy efficiency standards",
+                    "high energy efficiency",
+                    "energy efficiency measures"
+                  ]
+                },
+                "ES": {
+                  "text": "eficiencia energética",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Energieeffizienz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "省エネルギー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうえねるぎー",
+                  "romanization": "shouenerugii"
+                },
+                "ZH": {
+                  "text": "能源效率",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "néngyuán xiàolǜ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The renovation improved the energy efficiency of the building.",
+                  "answer": "energy efficiency",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "New energy efficiency standards apply to all new homes.",
+                  "answer": "energy efficiency",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "thermal-comfort",
+              "locales": {
+                "PT": {
+                  "text": "conforto térmico",
+                  "definition": "Sensação de temperatura agradável para os ocupantes de um ambiente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "thermal comfort",
+                  "definition": "A state in which occupants feel satisfied with the temperature of their environment.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Thermal comfort depende de temperatura, umidade e ventilação, não só da temperatura do ar.",
+                  "collocations": [
+                    "thermal comfort level",
+                    "ensure thermal comfort",
+                    "improve thermal comfort",
+                    "thermal comfort zone"
+                  ]
+                },
+                "ES": {
+                  "text": "confort térmico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "thermischer Komfort",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "温熱快適性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "おんねつかいてきせい",
+                  "romanization": "onnetsukaitekisei"
+                },
+                "ZH": {
+                  "text": "热舒适",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rèshūshì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Thick walls improve thermal comfort in hot climates.",
+                  "answer": "thermal comfort",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The study measured thermal comfort across all floors.",
+                  "answer": "thermal comfort",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estilos-e-historia",
+      "title": "Estilos e história",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "teoria-e-patrimonio",
+          "title": "Teoria e patrimônio",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "proportion",
+              "locales": {
+                "PT": {
+                  "text": "proporção",
+                  "definition": "Relação harmoniosa entre as dimensões das partes de uma composição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "proportion",
+                  "definition": "The harmonious relationship between the dimensions of the parts of a composition.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em arquitetura, proportion é a relação entre dimensões; scale é o tamanho em relação ao observador.",
+                  "collocations": [
+                    "classical proportion",
+                    "golden proportion",
+                    "in proportion",
+                    "human proportion"
+                  ]
+                },
+                "ES": {
+                  "text": "proporción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Proportion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "比例",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひれい",
+                  "romanization": "hirei"
+                },
+                "ZH": {
+                  "text": "比例",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bǐlì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The proportion of the windows to the wall feels balanced.",
+                  "answer": "proportion",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Classical architects studied proportion carefully.",
+                  "answer": "proportion",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "symmetry",
+              "locales": {
+                "PT": {
+                  "text": "simetria",
+                  "definition": "Equilíbrio em que um lado do edifício reflete o outro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "symmetry",
+                  "definition": "A balance in which one side of a building mirrors the other.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O adjetivo é symmetrical; o oposto, asymmetrical. Axis é o eixo de simetria.",
+                  "collocations": [
+                    "bilateral symmetry",
+                    "strict symmetry",
+                    "axis of symmetry",
+                    "perfect symmetry"
+                  ]
+                },
+                "ES": {
+                  "text": "simetría",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Symmetrie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "対称性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たいしょうせい",
+                  "romanization": "taishousei"
+                },
+                "ZH": {
+                  "text": "对称",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duìchèn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The facade is organised around strict symmetry.",
+                  "answer": "symmetry",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Strict symmetry gives the building a formal appearance.",
+                  "answer": "symmetry",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "minimalism",
+              "locales": {
+                "PT": {
+                  "text": "minimalismo",
+                  "definition": "Estilo que busca formas simples e ausência de ornamentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "minimalism",
+                  "definition": "A style that favours simple forms and the absence of ornament.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O adjetivo é minimalist: a minimalist interior. Less is more é o lema atribuído a Mies van der Rohe.",
+                  "collocations": [
+                    "architectural minimalism",
+                    "embrace minimalism",
+                    "minimalism in design",
+                    "Japanese minimalism"
+                  ]
+                },
+                "ES": {
+                  "text": "minimalismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Minimalismus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ミニマリズム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "minimarizumu"
+                },
+                "ZH": {
+                  "text": "极简主义",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jíjiǎn zhǔyì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The architect's minimalism guides the choice of materials in the house.",
+                  "answer": "minimalism",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The architect is known for his minimalism.",
+                  "answer": "minimalism",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "vernacular-architecture",
+              "locales": {
+                "PT": {
+                  "text": "arquitetura vernácula",
+                  "definition": "Construção tradicional de uma região, feita com materiais e técnicas locais, sem arquiteto formal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "vernacular architecture",
+                  "definition": "Traditional building of a region, made with local materials and techniques, without a formal architect.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vernacular vem de língua local. É sinônimo de arquitetura popular, não de arquitetura de baixa qualidade.",
+                  "collocations": [
+                    "study vernacular architecture",
+                    "rural vernacular architecture",
+                    "local vernacular architecture",
+                    "vernacular architecture of the region"
+                  ]
+                },
+                "ES": {
+                  "text": "arquitectura vernácula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "vernakuläre Architektur",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "風土建築",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふうどけんちく",
+                  "romanization": "fuudokenchiku"
+                },
+                "ZH": {
+                  "text": "乡土建筑",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiāngtǔ jiànzhù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Traditional vernacular architecture adapts to the local climate.",
+                  "answer": "vernacular architecture",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The village is a good example of vernacular architecture.",
+                  "answer": "vernacular architecture",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "heritage-building",
+              "locales": {
+                "PT": {
+                  "text": "edificação de valor patrimonial",
+                  "definition": "Edifício protegido por seu valor histórico, cultural ou arquitetônico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "heritage building",
+                  "definition": "A building protected for its historical, cultural or architectural value.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No Reino Unido, listed building é o imóvel tombado. Heritage é o patrimônio histórico em geral.",
+                  "collocations": [
+                    "protect a heritage building",
+                    "listed heritage building",
+                    "preserve a heritage building",
+                    "heritage building status"
+                  ]
+                },
+                "ES": {
+                  "text": "edificio patrimonial",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "denkmalgeschütztes Gebäude",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "歴史的建造物",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "れきしてきけんぞうぶつ",
+                  "romanization": "rekishitekikenzoubutsu"
+                },
+                "ZH": {
+                  "text": "历史建筑",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lìshǐ jiànzhù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The heritage building cannot be altered without approval.",
+                  "answer": "heritage building",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The city funds the upkeep of every heritage building.",
+                  "answer": "heritage building",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "restoration",
+              "locales": {
+                "PT": {
+                  "text": "restauro",
+                  "definition": "Trabalho de devolver um edifício ou elemento ao estado original.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "restoration",
+                  "definition": "The work of returning a building or element to its original condition.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Restoration devolve ao estado original; renovation moderniza; conservation preserva o que existe.",
+                  "collocations": [
+                    "restoration work",
+                    "careful restoration",
+                    "complete restoration",
+                    "restoration project"
+                  ]
+                },
+                "ES": {
+                  "text": "restauración",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Restaurierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "修復",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しゅうふく",
+                  "romanization": "shuufuku"
+                },
+                "ZH": {
+                  "text": "修复",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiūfù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The restoration took six years to complete.",
+                  "answer": "restoration",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The restoration of the roof began after the survey.",
+                  "answer": "restoration",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pratica-profissional",
+      "title": "Prática profissional",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "projeto-e-obra",
+          "title": "Projeto e obra",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "design-brief",
+              "locales": {
+                "PT": {
+                  "text": "programa de necessidades (briefing)",
+                  "definition": "Documento do cliente que define objetivos, orçamento e requisitos de um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "design brief",
+                  "definition": "A document from the client defining the goals, budget and requirements of a project.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Brief é o resumo de requisitos entregue pelo cliente; o verbo to brief significa instruir alguém.",
+                  "collocations": [
+                    "client design brief",
+                    "write a design brief",
+                    "detailed design brief",
+                    "follow the design brief"
+                  ]
+                },
+                "ES": {
+                  "text": "programa de necesidades",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Planungsvorgaben",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "設計要項",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せっけいようこう",
+                  "romanization": "sekkeiyoukou"
+                },
+                "ZH": {
+                  "text": "设计任务书",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shèjì rènwùshū"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The design brief asks for a flexible office space.",
+                  "answer": "design brief",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The team revised the design brief after the first meeting.",
+                  "answer": "design brief",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "scale-model",
+              "locales": {
+                "PT": {
+                  "text": "maquete",
+                  "definition": "Modelo físico reduzido de um edifício ou conjunto, usado para apresentar um projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "scale model",
+                  "definition": "A reduced physical model of a building or complex used to present a design.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz architectural model. Mock-up é um protótipo em tamanho real de uma parte da obra.",
+                  "collocations": [
+                    "build a scale model",
+                    "wooden scale model",
+                    "physical scale model",
+                    "scale model of the building"
+                  ]
+                },
+                "ES": {
+                  "text": "maqueta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Architekturmodell",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "模型",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "もけい",
+                  "romanization": "mokei"
+                },
+                "ZH": {
+                  "text": "建筑模型",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiànzhù móxíng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The scale model was displayed in the lobby.",
+                  "answer": "scale model",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We built a scale model of the entire site.",
+                  "answer": "scale model",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "building-permit",
+              "locales": {
+                "PT": {
+                  "text": "alvará de construção (licença de obra)",
+                  "definition": "Autorização oficial emitida pela prefeitura para iniciar uma construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "building permit",
+                  "definition": "Official authorization issued by the local authority to begin construction.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No Reino Unido o termo equivalente é planning permission, que é mais abrangente que building regulations approval.",
+                  "collocations": [
+                    "apply for a building permit",
+                    "issue a building permit",
+                    "building permit application",
+                    "obtain a building permit"
+                  ]
+                },
+                "ES": {
+                  "text": "licencia de obras",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Baugenehmigung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "建築確認",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんちくかくにん",
+                  "romanization": "kenchikukakunin"
+                },
+                "ZH": {
+                  "text": "建筑许可证",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiànzhù xǔkězhèng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Work cannot start until the building permit is issued.",
+                  "answer": "building permit",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We applied for a building permit in June.",
+                  "answer": "building permit",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "rendering",
+              "locales": {
+                "PT": {
+                  "text": "renderização (imagem de apresentação)",
+                  "definition": "Imagem realista gerada por computador para mostrar como o projeto ficará.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "rendering",
+                  "definition": "A realistic computer-generated image showing how the design will look.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz visualisation no inglês britânico. Render é o verbo e também o resultado.",
+                  "collocations": [
+                    "3D rendering",
+                    "photorealistic rendering",
+                    "produce a rendering",
+                    "architectural rendering"
+                  ]
+                },
+                "ES": {
+                  "text": "renderizado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Visualisierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レンダリング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "rendaringu"
+                },
+                "ZH": {
+                  "text": "效果图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiàoguǒtú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The rendering shows the building at sunset.",
+                  "answer": "rendering",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The client approved the rendering of the lobby.",
+                  "answer": "rendering",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "site-supervision",
+              "locales": {
+                "PT": {
+                  "text": "fiscalização de obra",
+                  "definition": "Acompanhamento técnico da execução da obra para garantir que siga o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "site supervision",
+                  "definition": "Technical oversight of construction to ensure it follows the design.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em contratos, também aparece como contract administration. O responsável é o site supervisor ou clerk of works.",
+                  "collocations": [
+                    "carry out site supervision",
+                    "site supervision report",
+                    "regular site supervision",
+                    "site supervision team"
+                  ]
+                },
+                "ES": {
+                  "text": "dirección de obra",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bauüberwachung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "工事監理",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうじかんり",
+                  "romanization": "koujikanri"
+                },
+                "ZH": {
+                  "text": "现场监理",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiànchǎng jiānlǐ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Good site supervision includes weekly visits to the building site.",
+                  "answer": "site supervision",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Poor site supervision led to errors in the concrete work.",
+                  "answer": "site supervision",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "public-tender",
+              "locales": {
+                "PT": {
+                  "text": "licitação (concorrência pública)",
+                  "definition": "Processo em que empresas apresentam propostas para executar um projeto ou obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "tender",
+                  "definition": "A process in which companies submit bids to carry out a project or works.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No inglês americano, usa-se mais bid. Tender também é o verbo, no sentido de apresentar uma proposta formalmente.",
+                  "collocations": [
+                    "invite a tender",
+                    "submit a tender",
+                    "win a tender",
+                    "tender documents"
+                  ]
+                },
+                "ES": {
+                  "text": "licitación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausschreibung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "入札",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にゅうさつ",
+                  "romanization": "nyuusatsu"
+                },
+                "ZH": {
+                  "text": "招标",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhāobiāo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The city opened a tender for the new library.",
+                  "answer": "tender",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Three firms submitted a tender before the deadline.",
+                  "answer": "tender",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "track": {
+    "slug": "arquitetura-pt-en",
+    "profession": "arquitetura",
+    "sourceLanguage": "PT",
+    "targetLanguage": "EN",
+    "title": "Inglês para Arquitetura",
+    "description": "Desenhos, elementos construtivos, urbanismo, sustentabilidade e prática profissional em inglês.",
+    "position": 6
+  }
+}

@@ -22,14 +22,10 @@ const ICONS: Record<string, IconName> = {
   construcao: 'hammer-outline',
   hiragana: 'language-outline',
   katakana: 'language-outline',
+  direito: 'scale-outline',
+  arquitetura: 'business-outline',
+  ciencia: 'flask-outline',
 };
-
-/** Áreas planejadas, mostradas para deixar claro que a plataforma vai além de uma profissão. */
-const UPCOMING: { title: string; icon: IconName }[] = [
-  { title: 'Direito', icon: 'scale-outline' },
-  { title: 'Arquitetura', icon: 'business-outline' },
-  { title: 'Ciência', icon: 'flask-outline' },
-];
 
 function AreaCard({ track, onPress }: { track: TrackSummary; onPress: () => void }) {
   const theme = useTheme();
@@ -133,32 +129,6 @@ export default function AreasScreen() {
           {tracks.data.map((track) => (
             <AreaCard key={track.id} track={track} onPress={() => open(track.slug)} />
           ))}
-        </View>
-
-        <View style={{ gap: 10 }}>
-          <Text variant="label" tone="muted">Em breve</Text>
-          <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10 }}>
-            {UPCOMING.map((area) => (
-              <View
-                key={area.title}
-                style={{
-                  flexDirection: 'row',
-                  alignItems: 'center',
-                  gap: 8,
-                  paddingHorizontal: 14,
-                  paddingVertical: 10,
-                  borderRadius: 999,
-                  borderWidth: 1,
-                  borderColor: theme.border,
-                  backgroundColor: theme.surfaceAlt,
-                  opacity: 0.8,
-                }}
-              >
-                <Ionicons name={area.icon} size={16} color={theme.muted} />
-                <Text variant="caption" tone="muted" style={{ fontWeight: '600' }}>{area.title}</Text>
-              </View>
-            ))}
-          </View>
         </View>
       </ScrollView>
     </SafeAreaView>

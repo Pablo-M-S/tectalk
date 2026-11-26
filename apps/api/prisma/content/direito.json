@@ -1,0 +1,2438 @@
+{
+  "status": "PUBLISHED",
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "fundamentos-do-direito",
+      "title": "Fundamentos do direito",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "conceitos-basicos",
+          "title": "Conceitos básicos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "statute",
+              "locales": {
+                "PT": {
+                  "text": "lei (norma aprovada pelo legislativo)",
+                  "definition": "Norma escrita aprovada pelo poder legislativo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "statute",
+                  "definition": "A written law passed by a legislative body.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Statute é a lei escrita pelo legislativo; common law vem das decisões dos juízes. Statute of limitations é o prazo prescricional.",
+                  "collocations": [
+                    "pass a statute",
+                    "statute of limitations",
+                    "under the statute",
+                    "repeal a statute"
+                  ]
+                },
+                "ES": {
+                  "text": "ley",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gesetz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "法律",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうりつ",
+                  "romanization": "houritsu"
+                },
+                "ZH": {
+                  "text": "法律",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎlǜ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The statute requires employers to keep records for five years.",
+                  "answer": "statute",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Under the statute, the penalty is a fine of up to ten thousand dollars.",
+                  "answer": "statute",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "regulation",
+              "locales": {
+                "PT": {
+                  "text": "regulamento (norma administrativa)",
+                  "definition": "Norma emitida por um órgão administrativo para dar aplicação a uma lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "regulation",
+                  "definition": "A rule issued by an administrative body to put a law into effect.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Regulation vem de um órgão do Executivo; statute vem do Legislativo. No plural, regulations indica o conjunto de normas de uma área.",
+                  "collocations": [
+                    "comply with a regulation",
+                    "issue a regulation",
+                    "safety regulation",
+                    "regulation of the market"
+                  ]
+                },
+                "ES": {
+                  "text": "reglamento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verordnung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "規則",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きそく",
+                  "romanization": "kisoku"
+                },
+                "ZH": {
+                  "text": "条例",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tiáolì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The new regulation applies to all financial institutions.",
+                  "answer": "regulation",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The agency published the regulation in the official gazette.",
+                  "answer": "regulation",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "jurisdiction",
+              "locales": {
+                "PT": {
+                  "text": "jurisdição (competência)",
+                  "definition": "Autoridade de um tribunal para julgar um caso, definida por território ou matéria.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "jurisdiction",
+                  "definition": "The authority of a court to hear a case, defined by territory or subject matter.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em contratos, a cláusula de jurisdiction indica qual tribunal resolve disputas. Também significa o território em que uma lei vale.",
+                  "collocations": [
+                    "lack jurisdiction",
+                    "exclusive jurisdiction",
+                    "within the jurisdiction",
+                    "foreign jurisdiction"
+                  ]
+                },
+                "ES": {
+                  "text": "jurisdicción",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gerichtsbarkeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "管轄",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんかつ",
+                  "romanization": "kankatsu"
+                },
+                "ZH": {
+                  "text": "管辖权",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guǎnxiáquán"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The court lacks jurisdiction over this dispute.",
+                  "answer": "jurisdiction",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The contract is governed by the jurisdiction of the state of New York.",
+                  "answer": "jurisdiction",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "precedent",
+              "locales": {
+                "PT": {
+                  "text": "precedente (decisão anterior)",
+                  "definition": "Decisão judicial anterior que serve de referência para casos semelhantes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "precedent",
+                  "definition": "A previous court decision that serves as authority for similar cases.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em países de common law o precedent costuma ser vinculante (binding). Stare decisis é o princípio de respeitar decisões anteriores.",
+                  "collocations": [
+                    "set a precedent",
+                    "binding precedent",
+                    "follow precedent",
+                    "legal precedent"
+                  ]
+                },
+                "ES": {
+                  "text": "precedente",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Präzedenzfall",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "判例",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はんれい",
+                  "romanization": "hanrei"
+                },
+                "ZH": {
+                  "text": "先例",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiānlì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The judge followed the precedent set by the Supreme Court.",
+                  "answer": "precedent",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "There is no precedent for a claim of this kind.",
+                  "answer": "precedent",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "court",
+              "locales": {
+                "PT": {
+                  "text": "tribunal",
+                  "definition": "Órgão que julga disputas e aplica a lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "court",
+                  "definition": "A body with the authority to hear disputes and apply the law.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Court também é o local da audiência: in court. Não confunda com courtroom, que é a sala onde ocorre o julgamento.",
+                  "collocations": [
+                    "appeal court",
+                    "supreme court",
+                    "in court",
+                    "court of first instance"
+                  ]
+                },
+                "ES": {
+                  "text": "tribunal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gericht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "裁判所",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さいばんしょ",
+                  "romanization": "saibansho"
+                },
+                "ZH": {
+                  "text": "法院",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎyuàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The case was heard in the district court.",
+                  "answer": "court",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The court dismissed the claim for lack of evidence.",
+                  "answer": "court",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "legislation",
+              "locales": {
+                "PT": {
+                  "text": "legislação",
+                  "definition": "Conjunto de leis de um país ou de uma área; também o ato de criá-las.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "legislation",
+                  "definition": "The body of laws of a country or field, or the process of making them.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É incontável: legislation, nunca a legislation. Para uma única lei, use statute ou act.",
+                  "collocations": [
+                    "new legislation",
+                    "draft legislation",
+                    "enact legislation",
+                    "labour legislation"
+                  ]
+                },
+                "ES": {
+                  "text": "legislación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gesetzgebung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "法令",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうれい",
+                  "romanization": "hourei"
+                },
+                "ZH": {
+                  "text": "法规",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎguī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The legislation entered into force on 1 January.",
+                  "answer": "legislation",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Environmental legislation has become stricter in recent years.",
+                  "answer": "legislation",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "contratos",
+      "title": "Contratos",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "clausulas-e-obrigacoes",
+          "title": "Cláusulas e obrigações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "contract",
+              "locales": {
+                "PT": {
+                  "text": "contrato",
+                  "definition": "Acordo juridicamente vinculante entre duas ou mais partes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "contract",
+                  "definition": "A legally binding agreement between two or more parties.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Contract é o acordo vinculante; agreement é mais geral e pode não ter força de lei. O verbo to contract também existe, mas é mais formal.",
+                  "collocations": [
+                    "sign a contract",
+                    "breach of contract",
+                    "terminate a contract",
+                    "contract of employment"
+                  ]
+                },
+                "ES": {
+                  "text": "contrato",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vertrag",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "契約",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいやく",
+                  "romanization": "keiyaku"
+                },
+                "ZH": {
+                  "text": "合同",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hétong"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Both parties signed the contract on Monday.",
+                  "answer": "contract",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The contract may be terminated with thirty days' notice.",
+                  "answer": "contract",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "clause",
+              "locales": {
+                "PT": {
+                  "text": "cláusula",
+                  "definition": "Disposição específica dentro de um contrato ou lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "clause",
+                  "definition": "A specific provision within a contract or law.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Clause é a cláusula; article é mais usado em leis e tratados; section, em estatutos americanos.",
+                  "collocations": [
+                    "termination clause",
+                    "penalty clause",
+                    "insert a clause",
+                    "clause of the contract"
+                  ]
+                },
+                "ES": {
+                  "text": "cláusula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Klausel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "条項",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じょうこう",
+                  "romanization": "joukou"
+                },
+                "ZH": {
+                  "text": "条款",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tiáokuǎn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The confidentiality clause remains valid after termination.",
+                  "answer": "clause",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The clause in section 7 limits the supplier's liability.",
+                  "answer": "clause",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "breach",
+              "locales": {
+                "PT": {
+                  "text": "descumprimento (violação)",
+                  "definition": "Falha em cumprir uma obrigação prevista em contrato ou lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "breach",
+                  "definition": "A failure to perform an obligation required by a contract or law.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Material breach é o descumprimento grave, que justifica rescindir. Breach of duty cobre também obrigações que não vêm de contrato.",
+                  "collocations": [
+                    "material breach",
+                    "breach of contract",
+                    "be in breach",
+                    "remedy a breach"
+                  ]
+                },
+                "ES": {
+                  "text": "incumplimiento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vertragsverletzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "違反",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いはん",
+                  "romanization": "ihan"
+                },
+                "ZH": {
+                  "text": "违约",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wéiyuē"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The delay constitutes a material breach of the agreement.",
+                  "answer": "breach",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The company is in breach of its reporting duties.",
+                  "answer": "breach",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "consideration",
+              "locales": {
+                "PT": {
+                  "text": "contraprestação (valor trocado)",
+                  "definition": "Algo de valor que cada parte entrega em troca da promessa da outra, requisito do contrato no common law.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "consideration",
+                  "definition": "Something of value that each party gives in exchange for the other's promise, required for a contract under common law.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No direito jurídico, consideration não significa consideração ou respeito: é a contrapartida de valor. Falso amigo clássico.",
+                  "collocations": [
+                    "valuable consideration",
+                    "adequate consideration",
+                    "lack of consideration",
+                    "for good consideration"
+                  ]
+                },
+                "ES": {
+                  "text": "contraprestación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gegenleistung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "約因",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "やくいん",
+                  "romanization": "yakuin"
+                },
+                "ZH": {
+                  "text": "对价",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duìjià"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A contract without consideration is generally unenforceable.",
+                  "answer": "consideration",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The consideration for the sale was fifty thousand dollars.",
+                  "answer": "consideration",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "liability",
+              "locales": {
+                "PT": {
+                  "text": "responsabilidade (dever de responder)",
+                  "definition": "Obrigação legal de responder por um dano ou dívida.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "liability",
+                  "definition": "The legal responsibility to answer for a harm or a debt.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Liability é a responsabilidade de pagar ou reparar; responsibility é mais ampla e moral. É incontável na maioria dos usos.",
+                  "collocations": [
+                    "limited liability",
+                    "accept liability",
+                    "product liability",
+                    "exclude liability"
+                  ]
+                },
+                "ES": {
+                  "text": "responsabilidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Haftung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "責任",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せきにん",
+                  "romanization": "sekinin"
+                },
+                "ZH": {
+                  "text": "责任",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zérèn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The manufacturer accepted liability for the defect.",
+                  "answer": "liability",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Limited liability protects the owners' personal assets.",
+                  "answer": "liability",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "indemnity",
+              "locales": {
+                "PT": {
+                  "text": "indenização contratual (garantia de ressarcimento)",
+                  "definition": "Compromisso de uma parte de ressarcir a outra por perdas ou danos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "indemnity",
+                  "definition": "A commitment by one party to compensate the other for loss or damage.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Indemnity é a garantia prevista em contrato; compensation e damages são o valor pago por um dano.",
+                  "collocations": [
+                    "indemnity clause",
+                    "give an indemnity",
+                    "full indemnity",
+                    "claim under an indemnity"
+                  ]
+                },
+                "ES": {
+                  "text": "indemnización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schadloshaltung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "補償",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほしょう",
+                  "romanization": "hoshou"
+                },
+                "ZH": {
+                  "text": "赔偿",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "péicháng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The seller gave an indemnity against third-party claims.",
+                  "answer": "indemnity",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An indemnity clause shifts the cost of litigation to the supplier.",
+                  "answer": "indemnity",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "processo-judicial",
+      "title": "Processo judicial",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "partes-e-provas",
+          "title": "Partes e provas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "plaintiff",
+              "locales": {
+                "PT": {
+                  "text": "autor (de uma ação)",
+                  "definition": "Pessoa ou empresa que move a ação contra outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "plaintiff",
+                  "definition": "The person or company that brings a claim against another.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No Reino Unido moderno, o termo oficial é claimant; plaintiff persiste nos EUA.",
+                  "collocations": [
+                    "the plaintiff alleges",
+                    "plaintiff's counsel",
+                    "named plaintiff",
+                    "plaintiff and defendant"
+                  ]
+                },
+                "ES": {
+                  "text": "demandante",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kläger",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "原告",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "げんこく",
+                  "romanization": "genkoku"
+                },
+                "ZH": {
+                  "text": "原告",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yuángào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The plaintiff seeks damages of two million dollars.",
+                  "answer": "plaintiff",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The plaintiff filed the complaint in March.",
+                  "answer": "plaintiff",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "defendant",
+              "locales": {
+                "PT": {
+                  "text": "réu",
+                  "definition": "Pessoa ou empresa contra quem a ação é movida.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "defendant",
+                  "definition": "The person or company against whom a claim is brought.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em processos penais, defendant é o acusado. Respondent é usado em recursos e certos procedimentos civis.",
+                  "collocations": [
+                    "the defendant pleads",
+                    "defendant's lawyer",
+                    "co-defendant",
+                    "plaintiff and defendant"
+                  ]
+                },
+                "ES": {
+                  "text": "demandado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Beklagter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "被告",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひこく",
+                  "romanization": "hikoku"
+                },
+                "ZH": {
+                  "text": "被告",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bèigào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The defendant denies all the allegations.",
+                  "answer": "defendant",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The court ordered the defendant to pay the costs.",
+                  "answer": "defendant",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "lawsuit",
+              "locales": {
+                "PT": {
+                  "text": "ação judicial",
+                  "definition": "Processo iniciado em um tribunal para resolver uma disputa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "lawsuit",
+                  "definition": "A case brought before a court to resolve a dispute.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Lawsuit é o termo comum para ação civil; suit é a forma curta; case é mais genérico e cobre também processos penais.",
+                  "collocations": [
+                    "file a lawsuit",
+                    "bring a lawsuit",
+                    "class action lawsuit",
+                    "settle a lawsuit"
+                  ]
+                },
+                "ES": {
+                  "text": "demanda judicial",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Klage",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "訴訟",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "そしょう",
+                  "romanization": "soshou"
+                },
+                "ZH": {
+                  "text": "诉讼",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sùsòng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The company filed a lawsuit against its former supplier.",
+                  "answer": "lawsuit",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The lawsuit was settled before trial.",
+                  "answer": "lawsuit",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "evidence",
+              "locales": {
+                "PT": {
+                  "text": "prova",
+                  "definition": "Informação ou material apresentado ao tribunal para demonstrar um fato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "evidence",
+                  "definition": "Information or material presented to a court to establish a fact.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É incontável: evidence, nunca evidences. Uma prova isolada é a piece of evidence.",
+                  "collocations": [
+                    "admit evidence",
+                    "submit evidence",
+                    "documentary evidence",
+                    "strong evidence"
+                  ]
+                },
+                "ES": {
+                  "text": "prueba",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Beweis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "証拠",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうこ",
+                  "romanization": "shouko"
+                },
+                "ZH": {
+                  "text": "证据",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhèngjù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The court admitted the video as evidence.",
+                  "answer": "evidence",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "There is insufficient evidence to support the claim.",
+                  "answer": "evidence",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "testimony",
+              "locales": {
+                "PT": {
+                  "text": "depoimento (testemunho)",
+                  "definition": "Declaração feita por uma testemunha sob juramento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "testimony",
+                  "definition": "A statement made by a witness under oath.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Testimony é a declaração em juízo; a testemunha é witness. Em geral é incontável.",
+                  "collocations": [
+                    "give testimony",
+                    "expert testimony",
+                    "oral testimony",
+                    "sworn testimony"
+                  ]
+                },
+                "ES": {
+                  "text": "testimonio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zeugenaussage",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "証言",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうげん",
+                  "romanization": "shougen"
+                },
+                "ZH": {
+                  "text": "证词",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhèngcí"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The witness gave testimony for three hours.",
+                  "answer": "testimony",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Her testimony contradicted the earlier report.",
+                  "answer": "testimony",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "verdict",
+              "locales": {
+                "PT": {
+                  "text": "veredicto",
+                  "definition": "Decisão formal do júri ou do juiz sobre os fatos de um caso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "verdict",
+                  "definition": "The formal decision of a jury or judge on the facts of a case.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Verdict é a conclusão do júri; judgment é a decisão final do juiz; sentence é a pena.",
+                  "collocations": [
+                    "return a verdict",
+                    "reach a verdict",
+                    "guilty verdict",
+                    "unanimous verdict"
+                  ]
+                },
+                "ES": {
+                  "text": "veredicto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Urteilsspruch",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "評決",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひょうけつ",
+                  "romanization": "hyouketsu"
+                },
+                "ZH": {
+                  "text": "裁决",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cáijué"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The jury returned a unanimous verdict of not guilty.",
+                  "answer": "verdict",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The verdict will be announced on Friday.",
+                  "answer": "verdict",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-penal",
+      "title": "Direito penal",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "crimes-e-penas",
+          "title": "Crimes e penas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "felony",
+              "locales": {
+                "PT": {
+                  "text": "crime grave (delito de maior gravidade)",
+                  "definition": "Crime grave, punível com prisão de mais de um ano ou com pena capital.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "felony",
+                  "definition": "A serious crime, punishable by imprisonment for more than a year or by death.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A divisão felony e misdemeanor existe sobretudo nos EUA. No Reino Unido se fala em indictable offence.",
+                  "collocations": [
+                    "commit a felony",
+                    "felony charge",
+                    "felony conviction",
+                    "convicted felon"
+                  ]
+                },
+                "ES": {
+                  "text": "delito grave",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verbrechen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "重罪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じゅうざい",
+                  "romanization": "juuzai"
+                },
+                "ZH": {
+                  "text": "重罪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhòngzuì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "He was convicted of a felony and lost his licence.",
+                  "answer": "felony",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Armed robbery is classified as a felony.",
+                  "answer": "felony",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "misdemeanor",
+              "locales": {
+                "PT": {
+                  "text": "contravenção (crime de menor gravidade)",
+                  "definition": "Crime de menor gravidade, em geral punido com multa ou prisão breve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "misdemeanor",
+                  "definition": "A less serious crime, usually punished by a fine or short imprisonment.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Grafia britânica: misdemeanour. Em inglês britânico, o equivalente moderno é summary offence.",
+                  "collocations": [
+                    "commit a misdemeanor",
+                    "misdemeanor charge",
+                    "class A misdemeanor",
+                    "misdemeanor offence"
+                  ]
+                },
+                "ES": {
+                  "text": "delito menor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vergehen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "軽罪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいざい",
+                  "romanization": "keizai"
+                },
+                "ZH": {
+                  "text": "轻罪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qīngzuì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Petty theft is a misdemeanor in this state.",
+                  "answer": "misdemeanor",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "She pleaded guilty to a misdemeanor.",
+                  "answer": "misdemeanor",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "indictment",
+              "locales": {
+                "PT": {
+                  "text": "denúncia formal (acusação)",
+                  "definition": "Acusação formal por crime grave, apresentada por um grande júri ou pelo Ministério Público.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "indictment",
+                  "definition": "A formal accusation of a serious crime, issued by a grand jury or prosecutor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo é to indict (pronuncia-se /inˈdaɪt/, o c é mudo). Charge é a acusação de modo geral; indictment é o ato formal.",
+                  "collocations": [
+                    "return an indictment",
+                    "issue an indictment",
+                    "indictment for fraud",
+                    "sealed indictment"
+                  ]
+                },
+                "ES": {
+                  "text": "acusación formal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Anklageschrift",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "起訴状",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きそじょう",
+                  "romanization": "kisojou"
+                },
+                "ZH": {
+                  "text": "起诉书",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qǐsùshū"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The grand jury returned an indictment on three counts.",
+                  "answer": "indictment",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The indictment alleges fraud and conspiracy.",
+                  "answer": "indictment",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "bail",
+              "locales": {
+                "PT": {
+                  "text": "fiança (liberdade provisória)",
+                  "definition": "Valor ou garantia entregue ao tribunal para que o acusado responda ao processo em liberdade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "bail",
+                  "definition": "Money or security given to a court so that an accused person may remain free until trial.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "To post bail é pagar a fiança. To jump bail é fugir sem comparecer ao julgamento.",
+                  "collocations": [
+                    "post bail",
+                    "grant bail",
+                    "released on bail",
+                    "bail hearing"
+                  ]
+                },
+                "ES": {
+                  "text": "fianza",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kaution",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "保釈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほしゃく",
+                  "romanization": "hoshaku"
+                },
+                "ZH": {
+                  "text": "保释",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bǎoshì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The judge set bail at fifty thousand dollars.",
+                  "answer": "bail",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He was released on bail pending trial.",
+                  "answer": "bail",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "criminal-sentence",
+              "locales": {
+                "PT": {
+                  "text": "pena (condenação)",
+                  "definition": "Punição determinada pelo tribunal a quem foi condenado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sentence",
+                  "definition": "The punishment ordered by a court for a person found guilty.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sentence é a pena; conviction é a condenação (a declaração de culpa). Suspended sentence é pena suspensa.",
+                  "collocations": [
+                    "impose a sentence",
+                    "serve a sentence",
+                    "life sentence",
+                    "suspended sentence"
+                  ]
+                },
+                "ES": {
+                  "text": "condena",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Strafe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "刑",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けい",
+                  "romanization": "kei"
+                },
+                "ZH": {
+                  "text": "刑罚",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xíngfá"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The court imposed a sentence of five years in prison.",
+                  "answer": "sentence",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The sentence was reduced on appeal.",
+                  "answer": "sentence",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "acquittal",
+              "locales": {
+                "PT": {
+                  "text": "absolvição",
+                  "definition": "Decisão que declara o acusado não culpado das acusações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "acquittal",
+                  "definition": "A decision that declares the accused not guilty of the charges.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo é to acquit someone of a crime. O oposto é conviction.",
+                  "collocations": [
+                    "secure an acquittal",
+                    "verdict of acquittal",
+                    "win an acquittal",
+                    "acquittal on appeal"
+                  ]
+                },
+                "ES": {
+                  "text": "absolución",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Freispruch",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "無罪判決",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "むざいはんけつ",
+                  "romanization": "muzaihanketsu"
+                },
+                "ZH": {
+                  "text": "无罪判决",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wúzuì pànjué"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The jury's acquittal surprised the prosecution.",
+                  "answer": "acquittal",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The acquittal was based on a lack of evidence.",
+                  "answer": "acquittal",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-empresarial",
+      "title": "Direito empresarial",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "sociedades-e-propriedade",
+          "title": "Sociedades e propriedade",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "shareholder",
+              "locales": {
+                "PT": {
+                  "text": "acionista",
+                  "definition": "Pessoa ou empresa que possui ações de uma sociedade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "shareholder",
+                  "definition": "A person or company that owns shares in a corporation.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Nos EUA também se diz stockholder. Stakeholder é outra coisa: qualquer parte interessada, não apenas dono de ações.",
+                  "collocations": [
+                    "majority shareholder",
+                    "minority shareholder",
+                    "shareholder agreement",
+                    "shareholder meeting"
+                  ]
+                },
+                "ES": {
+                  "text": "accionista",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Aktionär",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "株主",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かぶぬし",
+                  "romanization": "kabunushi"
+                },
+                "ZH": {
+                  "text": "股东",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gǔdōng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each shareholder has one vote per share.",
+                  "answer": "shareholder",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The shareholders approved the merger at the annual meeting.",
+                  "answer": "shareholder",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "merger",
+              "locales": {
+                "PT": {
+                  "text": "fusão (societária)",
+                  "definition": "Combinação de duas empresas em uma só.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "merger",
+                  "definition": "The combination of two companies into one.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Merger é a união de iguais; acquisition é a compra de uma empresa por outra. Juntas formam M&A.",
+                  "collocations": [
+                    "announce a merger",
+                    "merger agreement",
+                    "merger and acquisition",
+                    "proposed merger"
+                  ]
+                },
+                "ES": {
+                  "text": "fusión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fusion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "合併",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がっぺい",
+                  "romanization": "gappei"
+                },
+                "ZH": {
+                  "text": "合并",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hébìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The merger was approved by the competition authority.",
+                  "answer": "merger",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Following the merger, the two firms share one board.",
+                  "answer": "merger",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "bankruptcy",
+              "locales": {
+                "PT": {
+                  "text": "falência",
+                  "definition": "Situação legal de quem não consegue pagar suas dívidas, sob supervisão do tribunal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "bankruptcy",
+                  "definition": "The legal state of a person or company unable to pay its debts, under court supervision.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Insolvency é a incapacidade de pagar; bankruptcy é o procedimento formal. Em inglês britânico, insolvency é mais frequente.",
+                  "collocations": [
+                    "file for bankruptcy",
+                    "declare bankruptcy",
+                    "go into bankruptcy",
+                    "bankruptcy protection"
+                  ]
+                },
+                "ES": {
+                  "text": "quiebra",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Insolvenz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "破産",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はさん",
+                  "romanization": "hasan"
+                },
+                "ZH": {
+                  "text": "破产",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "pòchǎn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The company filed for bankruptcy in November.",
+                  "answer": "bankruptcy",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Once bankruptcy proceedings begin, most creditor claims are halted.",
+                  "answer": "bankruptcy",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "fiduciary-duty",
+              "locales": {
+                "PT": {
+                  "text": "dever fiduciário",
+                  "definition": "Obrigação de agir com lealdade e no melhor interesse de outra pessoa, como administradores com os acionistas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "fiduciary duty",
+                  "definition": "An obligation to act loyally and in the best interest of another, such as directors toward shareholders.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Fiduciary vem do latim fiducia, confiança. Também aparece como adjetivo: a fiduciary relationship.",
+                  "collocations": [
+                    "owe a fiduciary duty",
+                    "breach of fiduciary duty",
+                    "fiduciary duty of loyalty",
+                    "fiduciary duty to shareholders"
+                  ]
+                },
+                "ES": {
+                  "text": "deber fiduciario",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Treuepflicht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "信認義務",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんにんぎむ",
+                  "romanization": "shinningimu"
+                },
+                "ZH": {
+                  "text": "信义义务",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xìnyì yìwù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Directors owe a fiduciary duty to the company.",
+                  "answer": "fiduciary duty",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He breached his fiduciary duty by hiding the conflict of interest.",
+                  "answer": "fiduciary duty",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "due-diligence",
+              "locales": {
+                "PT": {
+                  "text": "auditoria prévia (due diligence)",
+                  "definition": "Investigação detalhada de uma empresa ou ativo antes de fechar um negócio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "due diligence",
+                  "definition": "A detailed investigation of a company or asset before a deal is completed.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A expressão é usada em português também, mas em documentos formais traduz-se por auditoria prévia. É incontável.",
+                  "collocations": [
+                    "conduct due diligence",
+                    "due diligence report",
+                    "financial due diligence",
+                    "complete due diligence"
+                  ]
+                },
+                "ES": {
+                  "text": "diligencia debida",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sorgfaltsprüfung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デューデリジェンス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "dyuu derijensu"
+                },
+                "ZH": {
+                  "text": "尽职调查",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìnzhí diàochá"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The buyer completed due diligence before signing.",
+                  "answer": "due diligence",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Legal due diligence revealed several unpaid taxes.",
+                  "answer": "due diligence",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "intellectual-property",
+              "locales": {
+                "PT": {
+                  "text": "propriedade intelectual",
+                  "definition": "Direitos legais sobre criações da mente, como patentes, marcas e direitos autorais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "intellectual property",
+                  "definition": "Legal rights over creations of the mind, such as patents, trademarks and copyright.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Muitas vezes abreviado como IP. Copyright é o direito autoral; trademark, a marca; patent, a patente.",
+                  "collocations": [
+                    "intellectual property rights",
+                    "protect intellectual property",
+                    "infringe intellectual property",
+                    "intellectual property law"
+                  ]
+                },
+                "ES": {
+                  "text": "propiedad intelectual",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "geistiges Eigentum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "知的財産",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちてきざいさん",
+                  "romanization": "chitekizaisan"
+                },
+                "ZH": {
+                  "text": "知识产权",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhīshi chǎnquán"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The company protects its intellectual property through patents.",
+                  "answer": "intellectual property",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Ownership of the intellectual property passes to the buyer.",
+                  "answer": "intellectual property",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pratica-juridica",
+      "title": "Prática jurídica",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "documentos-e-medidas",
+          "title": "Documentos e medidas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "attorney-client-privilege",
+              "locales": {
+                "PT": {
+                  "text": "sigilo entre advogado e cliente",
+                  "definition": "Proteção legal que impede a divulgação de comunicações confidenciais entre advogado e cliente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "attorney-client privilege",
+                  "definition": "A legal protection that prevents disclosure of confidential communications between a lawyer and a client.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Não é o mesmo que confidentiality: privilege é um direito legal que impede de ser obrigado a revelar em juízo.",
+                  "collocations": [
+                    "claim attorney-client privilege",
+                    "waive privilege",
+                    "protected by privilege",
+                    "privileged communication"
+                  ]
+                },
+                "ES": {
+                  "text": "secreto profesional",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Anwaltsgeheimnis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "秘匿特権",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひとくとっけん",
+                  "romanization": "hitokutokken"
+                },
+                "ZH": {
+                  "text": "律师保密特权",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lǜshī bǎomì tèquán"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The email is protected by attorney-client privilege.",
+                  "answer": "attorney-client privilege",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The client waived attorney-client privilege in writing.",
+                  "answer": "attorney-client privilege",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "affidavit",
+              "locales": {
+                "PT": {
+                  "text": "declaração sob juramento",
+                  "definition": "Declaração escrita feita sob juramento e usada como prova.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "affidavit",
+                  "definition": "A written statement made under oath and used as evidence.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A palavra latina original significa ele afirmou. Pronuncia-se /ˌæfɪˈdeɪvɪt/.",
+                  "collocations": [
+                    "sign an affidavit",
+                    "file an affidavit",
+                    "sworn affidavit",
+                    "affidavit of service"
+                  ]
+                },
+                "ES": {
+                  "text": "declaración jurada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "eidesstattliche Erklärung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "宣誓供述書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せんせいきょうじゅつしょ",
+                  "romanization": "senseikyoujutsusho"
+                },
+                "ZH": {
+                  "text": "宣誓书",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xuānshìshū"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "She signed an affidavit confirming the date of the transfer.",
+                  "answer": "affidavit",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The affidavit was filed together with the motion.",
+                  "answer": "affidavit",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "subpoena",
+              "locales": {
+                "PT": {
+                  "text": "intimação (para depor ou apresentar documentos)",
+                  "definition": "Ordem judicial que obriga uma pessoa a comparecer ou a entregar documentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "subpoena",
+                  "definition": "A court order requiring a person to appear or to produce documents.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A pronúncia é /səˈpiːnə/ e o p do meio é pronunciado. Também funciona como verbo: to subpoena a witness.",
+                  "collocations": [
+                    "issue a subpoena",
+                    "serve a subpoena",
+                    "comply with a subpoena",
+                    "subpoena for documents"
+                  ]
+                },
+                "ES": {
+                  "text": "citación judicial",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorladung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "召喚状",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょうかんじょう",
+                  "romanization": "shoukanjou"
+                },
+                "ZH": {
+                  "text": "传票",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuánpiào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The court issued a subpoena to the bank.",
+                  "answer": "subpoena",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "He was served with a subpoena to testify.",
+                  "answer": "subpoena",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "settlement",
+              "locales": {
+                "PT": {
+                  "text": "acordo (encerramento de disputa)",
+                  "definition": "Acordo pelo qual as partes encerram uma disputa sem decisão do tribunal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "settlement",
+                  "definition": "An agreement by which the parties end a dispute without a court ruling.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Settlement é o acordo que encerra uma disputa. Compromise é mais geral; agreement não implica necessariamente fim de litígio.",
+                  "collocations": [
+                    "reach a settlement",
+                    "settlement agreement",
+                    "out-of-court settlement",
+                    "settlement offer"
+                  ]
+                },
+                "ES": {
+                  "text": "acuerdo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vergleich",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "和解",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "わかい",
+                  "romanization": "wakai"
+                },
+                "ZH": {
+                  "text": "和解",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "héjiě"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The parties reached a settlement before the hearing.",
+                  "answer": "settlement",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The settlement includes a payment of two hundred thousand dollars.",
+                  "answer": "settlement",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "injunction",
+              "locales": {
+                "PT": {
+                  "text": "medida liminar (ordem judicial de fazer ou não fazer)",
+                  "definition": "Ordem judicial que obriga ou proíbe alguém de praticar determinado ato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "injunction",
+                  "definition": "A court order requiring or forbidding a person from doing a specific act.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Interim ou preliminary injunction é a liminar provisória; permanent injunction é a decisão final.",
+                  "collocations": [
+                    "grant an injunction",
+                    "seek an injunction",
+                    "interim injunction",
+                    "permanent injunction"
+                  ]
+                },
+                "ES": {
+                  "text": "medida cautelar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "einstweilige Verfügung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "差止命令",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さしとめめいれい",
+                  "romanization": "sashitomemeirei"
+                },
+                "ZH": {
+                  "text": "禁令",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìnlìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The court granted an injunction against the publication.",
+                  "answer": "injunction",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An interim injunction preserves the situation until trial.",
+                  "answer": "injunction",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            },
+            {
+              "slug": "legal-counsel",
+              "locales": {
+                "PT": {
+                  "text": "assessoria jurídica (advogado)",
+                  "definition": "Advogado ou equipe que dá orientação jurídica a uma pessoa ou organização.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "legal counsel",
+                  "definition": "A lawyer or team that gives legal advice to a person or organization.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Counsel é incontável e vale para um ou vários advogados. General counsel é o diretor jurídico de uma empresa.",
+                  "collocations": [
+                    "seek legal counsel",
+                    "general counsel",
+                    "outside legal counsel",
+                    "in-house legal counsel"
+                  ]
+                },
+                "ES": {
+                  "text": "asesoría jurídica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rechtsberatung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "法律顧問",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうりつこもん",
+                  "romanization": "houritsukomon"
+                },
+                "ZH": {
+                  "text": "法律顾问",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎlǜ gùwèn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The company retained outside legal counsel.",
+                  "answer": "legal counsel",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Please consult your legal counsel before signing.",
+                  "answer": "legal counsel",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "track": {
+    "slug": "direito-pt-en",
+    "profession": "direito",
+    "sourceLanguage": "PT",
+    "targetLanguage": "EN",
+    "title": "Inglês Jurídico",
+    "description": "O vocabulário de contratos, processos e direito empresarial usado em documentos jurídicos internacionais.",
+    "position": 5
+  }
+}

@@ -1,0 +1,852 @@
+{
+  "status": "PUBLISHED",
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "metodo-cientifico",
+      "title": "Método científico",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "hipoteses-e-experimentos",
+          "title": "Hipóteses e experimentos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "hypothesis",
+              "locales": {
+                "PT": {
+                  "text": "hipótese",
+                  "definition": "Explicação provisória de um fenômeno, formulada para ser testada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "仮説",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かせつ",
+                  "romanization": "kasetsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "experiment",
+              "locales": {
+                "PT": {
+                  "text": "experimento",
+                  "definition": "Procedimento controlado realizado para testar uma hipótese ou observar um efeito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "実験",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じっけん",
+                  "romanization": "jikken"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "independent-variable",
+              "locales": {
+                "PT": {
+                  "text": "variável independente",
+                  "definition": "Fator que o pesquisador altera de propósito para observar seu efeito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "独立変数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "どくりつへんすう",
+                  "romanization": "dokuritsuhensuu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "control-group",
+              "locales": {
+                "PT": {
+                  "text": "grupo de controle",
+                  "definition": "Grupo que não recebe o tratamento testado e serve de base de comparação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "対照群",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たいしょうぐん",
+                  "romanization": "taishougun"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "dataset",
+              "locales": {
+                "PT": {
+                  "text": "conjunto de dados",
+                  "definition": "Coleção organizada de dados usada em uma análise.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "データセット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "deetasetto"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "peer-review",
+              "locales": {
+                "PT": {
+                  "text": "revisão por pares",
+                  "definition": "Avaliação de um trabalho científico por especialistas independentes antes da publicação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "査読",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さどく",
+                  "romanization": "sadoku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estatistica",
+      "title": "Estatística",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "analise-de-dados",
+          "title": "Análise de dados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "statistical-sample",
+              "locales": {
+                "PT": {
+                  "text": "amostra estatística",
+                  "definition": "Parte de uma população selecionada para ser estudada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "標本",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひょうほん",
+                  "romanization": "hyouhon"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "correlation",
+              "locales": {
+                "PT": {
+                  "text": "correlação",
+                  "definition": "Relação estatística entre duas variáveis que variam juntas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "相関",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "そうかん",
+                  "romanization": "soukan"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "standard-deviation",
+              "locales": {
+                "PT": {
+                  "text": "desvio padrão",
+                  "definition": "Medida de quanto os valores de um conjunto se afastam da média.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "標準偏差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひょうじゅんへんさ",
+                  "romanization": "hyoujunhensa"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "statistical-significance",
+              "locales": {
+                "PT": {
+                  "text": "significância estatística",
+                  "definition": "Indicação de que um resultado dificilmente ocorreu por acaso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "統計的有意性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とうけいてきゆういせい",
+                  "romanization": "toukeitekiyuuisei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "outlier",
+              "locales": {
+                "PT": {
+                  "text": "valor atípico (outlier)",
+                  "definition": "Valor muito distante dos demais em um conjunto de dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "外れ値",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はずれち",
+                  "romanization": "hazurechi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "margin-of-error",
+              "locales": {
+                "PT": {
+                  "text": "margem de erro",
+                  "definition": "Intervalo dentro do qual se espera que o valor real esteja, em relação ao medido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "誤差範囲",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ごさはんい",
+                  "romanization": "gosahani"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "laboratorio",
+      "title": "Laboratório",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "equipamentos-e-procedimentos",
+          "title": "Equipamentos e procedimentos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "reagent",
+              "locales": {
+                "PT": {
+                  "text": "reagente",
+                  "definition": "Substância usada em uma reação química para detectar ou produzir outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "試薬",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しやく",
+                  "romanization": "shiyaku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "lab-specimen",
+              "locales": {
+                "PT": {
+                  "text": "espécime (amostra para análise)",
+                  "definition": "Exemplar ou amostra de um organismo ou material coletado para exame.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "検体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんたい",
+                  "romanization": "kentai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "centrifuge",
+              "locales": {
+                "PT": {
+                  "text": "centrífuga",
+                  "definition": "Equipamento que gira amostras em alta velocidade para separar seus componentes por densidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "遠心分離機",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "えんしんぶんりき",
+                  "romanization": "enshinbunriki"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pipette",
+              "locales": {
+                "PT": {
+                  "text": "pipeta",
+                  "definition": "Tubo fino usado para medir e transferir pequenos volumes de líquido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ピペット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "pipetto"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "microscope",
+              "locales": {
+                "PT": {
+                  "text": "microscópio",
+                  "definition": "Instrumento que amplia objetos pequenos demais para serem vistos a olho nu.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "顕微鏡",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんびきょう",
+                  "romanization": "kenbikyou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "calibration",
+              "locales": {
+                "PT": {
+                  "text": "calibração",
+                  "definition": "Ajuste de um instrumento para que suas medidas coincidam com um padrão conhecido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "校正",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうせい",
+                  "romanization": "kousei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fisica-e-quimica",
+      "title": "Física e química",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "conceitos-fundamentais",
+          "title": "Conceitos fundamentais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "momentum",
+              "locales": {
+                "PT": {
+                  "text": "momento linear (quantidade de movimento)",
+                  "definition": "Grandeza física igual à massa de um corpo multiplicada por sua velocidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "運動量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "うんどうりょう",
+                  "romanization": "undouryou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "entropy",
+              "locales": {
+                "PT": {
+                  "text": "entropia",
+                  "definition": "Medida do grau de desordem de um sistema, que tende a aumentar com o tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "エントロピー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "entoropii"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "catalyst",
+              "locales": {
+                "PT": {
+                  "text": "catalisador",
+                  "definition": "Substância que acelera uma reação química sem ser consumida por ela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "触媒",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょくばい",
+                  "romanization": "shokubai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "solvent",
+              "locales": {
+                "PT": {
+                  "text": "solvente",
+                  "definition": "Substância, em geral líquida, que dissolve outra e forma uma solução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "溶媒",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようばい",
+                  "romanization": "youbai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "chemical-compound",
+              "locales": {
+                "PT": {
+                  "text": "composto químico",
+                  "definition": "Substância formada por dois ou mais elementos ligados em proporção fixa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "化合物",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かごうぶつ",
+                  "romanization": "kagoubutsu"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "isotope",
+              "locales": {
+                "PT": {
+                  "text": "isótopo",
+                  "definition": "Variante de um elemento químico com o mesmo número de prótons, mas com número diferente de nêutrons.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "同位体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "どういたい",
+                  "romanization": "douitai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "biologia",
+      "title": "Biologia",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "vida-e-evolucao",
+          "title": "Vida e evolução",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gene",
+              "locales": {
+                "PT": {
+                  "text": "gene",
+                  "definition": "Trecho de DNA que contém a instrução para produzir uma proteína ou uma molécula funcional.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "遺伝子",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いでんし",
+                  "romanization": "idenshi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "enzyme",
+              "locales": {
+                "PT": {
+                  "text": "enzima",
+                  "definition": "Proteína que acelera reações químicas nos seres vivos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "酵素",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうそ",
+                  "romanization": "kouso"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "natural-selection",
+              "locales": {
+                "PT": {
+                  "text": "seleção natural",
+                  "definition": "Processo pelo qual organismos mais adaptados ao ambiente sobrevivem e se reproduzem mais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "自然選択",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しぜんせんたく",
+                  "romanization": "shizensentaku"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "ecosystem",
+              "locales": {
+                "PT": {
+                  "text": "ecossistema",
+                  "definition": "Conjunto formado pelos seres vivos de uma área e pelo ambiente físico com o qual interagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "生態系",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいたいけい",
+                  "romanization": "seitaikei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "photosynthesis",
+              "locales": {
+                "PT": {
+                  "text": "fotossíntese",
+                  "definition": "Processo em que plantas e algas usam luz solar, água e dióxido de carbono para produzir açúcar e oxigênio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "光合成",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうごうせい",
+                  "romanization": "kougousei"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "mutation",
+              "locales": {
+                "PT": {
+                  "text": "mutação",
+                  "definition": "Alteração permanente na sequência do DNA de um organismo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "突然変異",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とつぜんへんい",
+                  "romanization": "totsuzenheni"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "publicacao-cientifica",
+      "title": "Publicação científica",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "artigos-e-pesquisa",
+          "title": "Artigos e pesquisa",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "abstract",
+              "locales": {
+                "PT": {
+                  "text": "resumo (de artigo científico)",
+                  "definition": "Resumo curto que apresenta objetivo, método, resultados e conclusão de um artigo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "要旨",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようし",
+                  "romanization": "youshi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "methodology",
+              "locales": {
+                "PT": {
+                  "text": "metodologia",
+                  "definition": "Conjunto de métodos e justificativas usados para conduzir uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "方法論",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほうほうろん",
+                  "romanization": "houhouron"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "research-findings",
+              "locales": {
+                "PT": {
+                  "text": "resultados da pesquisa (achados)",
+                  "definition": "Conclusões obtidas ao final de uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "知見",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちけん",
+                  "romanization": "chiken"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "citation",
+              "locales": {
+                "PT": {
+                  "text": "citação (referência bibliográfica)",
+                  "definition": "Referência a uma obra publicada, que dá crédito à fonte de uma informação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "いんよう",
+                  "romanization": "inyou"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "study-limitation",
+              "locales": {
+                "PT": {
+                  "text": "limitação (do estudo)",
+                  "definition": "Fator que restringe a validade ou o alcance dos resultados de uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "限界",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "げんかい",
+                  "romanization": "genkai"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "replication",
+              "locales": {
+                "PT": {
+                  "text": "replicação",
+                  "definition": "Repetição de um estudo por outros pesquisadores para confirmar seus resultados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "追試",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ついし",
+                  "romanization": "tsuishi"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "track": {
+    "slug": "ciencia-pt-ja",
+    "profession": "ciencia",
+    "sourceLanguage": "PT",
+    "targetLanguage": "JA",
+    "title": "Japonês para Ciência",
+    "description": "O vocabulário profissional de ciência em japonês, com leitura e pronúncia.",
+    "position": 37
+  }
+}

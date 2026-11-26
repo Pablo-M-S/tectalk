@@ -1,0 +1,783 @@
+{
+  "status": "PUBLISHED",
+  "morphemes": [],
+  "units": [
+    {
+      "slug": "metodo-cientifico",
+      "title": "Método científico",
+      "position": 1,
+      "lessons": [
+        {
+          "slug": "hipoteses-e-experimentos",
+          "title": "Hipóteses e experimentos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "hypothesis",
+              "locales": {
+                "PT": {
+                  "text": "hipótese",
+                  "definition": "Explicação provisória de um fenômeno, formulada para ser testada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hypothese",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "experiment",
+              "locales": {
+                "PT": {
+                  "text": "experimento",
+                  "definition": "Procedimento controlado realizado para testar uma hipótese ou observar um efeito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Experiment",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "independent-variable",
+              "locales": {
+                "PT": {
+                  "text": "variável independente",
+                  "definition": "Fator que o pesquisador altera de propósito para observar seu efeito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "unabhängige Variable",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "control-group",
+              "locales": {
+                "PT": {
+                  "text": "grupo de controle",
+                  "definition": "Grupo que não recebe o tratamento testado e serve de base de comparação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kontrollgruppe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "dataset",
+              "locales": {
+                "PT": {
+                  "text": "conjunto de dados",
+                  "definition": "Coleção organizada de dados usada em uma análise.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Datensatz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "peer-review",
+              "locales": {
+                "PT": {
+                  "text": "revisão por pares",
+                  "definition": "Avaliação de um trabalho científico por especialistas independentes antes da publicação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Peer-Review",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estatistica",
+      "title": "Estatística",
+      "position": 2,
+      "lessons": [
+        {
+          "slug": "analise-de-dados",
+          "title": "Análise de dados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "statistical-sample",
+              "locales": {
+                "PT": {
+                  "text": "amostra estatística",
+                  "definition": "Parte de uma população selecionada para ser estudada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Stichprobe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "correlation",
+              "locales": {
+                "PT": {
+                  "text": "correlação",
+                  "definition": "Relação estatística entre duas variáveis que variam juntas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Korrelation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "standard-deviation",
+              "locales": {
+                "PT": {
+                  "text": "desvio padrão",
+                  "definition": "Medida de quanto os valores de um conjunto se afastam da média.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Standardabweichung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "statistical-significance",
+              "locales": {
+                "PT": {
+                  "text": "significância estatística",
+                  "definition": "Indicação de que um resultado dificilmente ocorreu por acaso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "statistische Signifikanz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "outlier",
+              "locales": {
+                "PT": {
+                  "text": "valor atípico (outlier)",
+                  "definition": "Valor muito distante dos demais em um conjunto de dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausreißer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "margin-of-error",
+              "locales": {
+                "PT": {
+                  "text": "margem de erro",
+                  "definition": "Intervalo dentro do qual se espera que o valor real esteja, em relação ao medido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fehlermarge",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "laboratorio",
+      "title": "Laboratório",
+      "position": 3,
+      "lessons": [
+        {
+          "slug": "equipamentos-e-procedimentos",
+          "title": "Equipamentos e procedimentos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "reagent",
+              "locales": {
+                "PT": {
+                  "text": "reagente",
+                  "definition": "Substância usada em uma reação química para detectar ou produzir outra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Reagenz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "lab-specimen",
+              "locales": {
+                "PT": {
+                  "text": "espécime (amostra para análise)",
+                  "definition": "Exemplar ou amostra de um organismo ou material coletado para exame.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Probe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "centrifuge",
+              "locales": {
+                "PT": {
+                  "text": "centrífuga",
+                  "definition": "Equipamento que gira amostras em alta velocidade para separar seus componentes por densidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zentrifuge",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "pipette",
+              "locales": {
+                "PT": {
+                  "text": "pipeta",
+                  "definition": "Tubo fino usado para medir e transferir pequenos volumes de líquido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pipette",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "microscope",
+              "locales": {
+                "PT": {
+                  "text": "microscópio",
+                  "definition": "Instrumento que amplia objetos pequenos demais para serem vistos a olho nu.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mikroskop",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "calibration",
+              "locales": {
+                "PT": {
+                  "text": "calibração",
+                  "definition": "Ajuste de um instrumento para que suas medidas coincidam com um padrão conhecido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kalibrierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fisica-e-quimica",
+      "title": "Física e química",
+      "position": 4,
+      "lessons": [
+        {
+          "slug": "conceitos-fundamentais",
+          "title": "Conceitos fundamentais",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "momentum",
+              "locales": {
+                "PT": {
+                  "text": "momento linear (quantidade de movimento)",
+                  "definition": "Grandeza física igual à massa de um corpo multiplicada por sua velocidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Impuls",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "entropy",
+              "locales": {
+                "PT": {
+                  "text": "entropia",
+                  "definition": "Medida do grau de desordem de um sistema, que tende a aumentar com o tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Entropie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "catalyst",
+              "locales": {
+                "PT": {
+                  "text": "catalisador",
+                  "definition": "Substância que acelera uma reação química sem ser consumida por ela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Katalysator",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "solvent",
+              "locales": {
+                "PT": {
+                  "text": "solvente",
+                  "definition": "Substância, em geral líquida, que dissolve outra e forma uma solução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lösungsmittel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "chemical-compound",
+              "locales": {
+                "PT": {
+                  "text": "composto químico",
+                  "definition": "Substância formada por dois ou mais elementos ligados em proporção fixa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verbindung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "isotope",
+              "locales": {
+                "PT": {
+                  "text": "isótopo",
+                  "definition": "Variante de um elemento químico com o mesmo número de prótons, mas com número diferente de nêutrons.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Isotop",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "biologia",
+      "title": "Biologia",
+      "position": 5,
+      "lessons": [
+        {
+          "slug": "vida-e-evolucao",
+          "title": "Vida e evolução",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gene",
+              "locales": {
+                "PT": {
+                  "text": "gene",
+                  "definition": "Trecho de DNA que contém a instrução para produzir uma proteína ou uma molécula funcional.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "enzyme",
+              "locales": {
+                "PT": {
+                  "text": "enzima",
+                  "definition": "Proteína que acelera reações químicas nos seres vivos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Enzym",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "natural-selection",
+              "locales": {
+                "PT": {
+                  "text": "seleção natural",
+                  "definition": "Processo pelo qual organismos mais adaptados ao ambiente sobrevivem e se reproduzem mais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "natürliche Selektion",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "ecosystem",
+              "locales": {
+                "PT": {
+                  "text": "ecossistema",
+                  "definition": "Conjunto formado pelos seres vivos de uma área e pelo ambiente físico com o qual interagem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ökosystem",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "photosynthesis",
+              "locales": {
+                "PT": {
+                  "text": "fotossíntese",
+                  "definition": "Processo em que plantas e algas usam luz solar, água e dióxido de carbono para produzir açúcar e oxigênio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Photosynthese",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "mutation",
+              "locales": {
+                "PT": {
+                  "text": "mutação",
+                  "definition": "Alteração permanente na sequência do DNA de um organismo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mutation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "publicacao-cientifica",
+      "title": "Publicação científica",
+      "position": 6,
+      "lessons": [
+        {
+          "slug": "artigos-e-pesquisa",
+          "title": "Artigos e pesquisa",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "abstract",
+              "locales": {
+                "PT": {
+                  "text": "resumo (de artigo científico)",
+                  "definition": "Resumo curto que apresenta objetivo, método, resultados e conclusão de um artigo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zusammenfassung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "methodology",
+              "locales": {
+                "PT": {
+                  "text": "metodologia",
+                  "definition": "Conjunto de métodos e justificativas usados para conduzir uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Methodik",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "research-findings",
+              "locales": {
+                "PT": {
+                  "text": "resultados da pesquisa (achados)",
+                  "definition": "Conclusões obtidas ao final de uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ergebnisse",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "citation",
+              "locales": {
+                "PT": {
+                  "text": "citação (referência bibliográfica)",
+                  "definition": "Referência a uma obra publicada, que dá crédito à fonte de uma informação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zitierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "study-limitation",
+              "locales": {
+                "PT": {
+                  "text": "limitação (do estudo)",
+                  "definition": "Fator que restringe a validade ou o alcance dos resultados de uma pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Einschränkung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            },
+            {
+              "slug": "replication",
+              "locales": {
+                "PT": {
+                  "text": "replicação",
+                  "definition": "Repetição de um estudo por outros pesquisadores para confirmar seus resultados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Replikation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                }
+              },
+              "examples": [],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "track": {
+    "slug": "ciencia-pt-de",
+    "profession": "ciencia",
+    "sourceLanguage": "PT",
+    "targetLanguage": "DE",
+    "title": "Alemão para Ciência",
+    "description": "O vocabulário profissional de ciência em alemão, com leitura e pronúncia.",
+    "position": 27
+  }
+}
