@@ -9,6 +9,7 @@ import { useAuth } from '@/auth/store';
 import { AppDrawer } from '@/components/AppDrawer';
 import { UpdateBanner } from '@/components/UpdateBanner';
 import { initFeedback } from '@/lib/feedback';
+import { initBasicStats } from '@/lib/basic-stats';
 import { initReminders, syncReminders, useReminderTime } from '@/lib/reminders';
 import { initSpeech } from '@/lib/speech';
 import { useVoiceGuard } from '@/lib/voice-guard';
@@ -31,6 +32,7 @@ export default function RootLayout() {
     void initFeedback();
     void initSpeech();
     void initReminders();
+    void initBasicStats();
     void initTheme();
     void bootstrap();
   }, [bootstrap]);

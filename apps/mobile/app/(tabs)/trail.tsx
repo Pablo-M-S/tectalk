@@ -10,6 +10,7 @@ import { TopBar } from '@/components/TopBar';
 import { Mascot } from '@/components/Mascot';
 import { XpBar } from '@/components/XpBar';
 import { ErrorState, LoadingState } from '@/components/States';
+import { useLoadingHold } from '@/lib/useLoadingHold';
 import { formatPercent } from '@/lib/text';
 import { radius, useTheme } from '@/theme/theme';
 
@@ -82,6 +83,7 @@ export default function TrailScreen() {
   const track = useTrack(active.slug);
   const stats = useStats();
   const [refreshing, setRefreshing] = useState(false);
+  const holding = useLoadingHold(active.isLoading || (Boolean(active.slug) && track.isPending));
 
   const refresh = async () => {
     setRefreshing(true);
@@ -91,7 +93,7 @@ export default function TrailScreen() {
 
   if (!active.isLoading && !active.error && !active.slug) return <Redirect href="/areas" />;
 
-  if (active.isLoading || (active.slug && track.isPending)) {
+  if (holding && !(active.error ?? track.error)) {
     return <LoadingState label="Conectando ao servidor…" />;
   }
 

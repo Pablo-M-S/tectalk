@@ -9,6 +9,7 @@ import { useAuth } from '@/auth/store';
 import { TopBar } from '@/components/TopBar';
 import { ProgressBar } from '@/components/ProgressBar';
 import { ErrorState, LoadingState } from '@/components/States';
+import { useLoadingHold } from '@/lib/useLoadingHold';
 import { Text } from '@/components/Text';
 import { useSelection } from '@/state/selection';
 import { radius, useTheme } from '@/theme/theme';
@@ -89,8 +90,9 @@ export default function AreasScreen() {
   const select = useSelection((state) => state.select);
   const name = useAuth((state) => state.user?.displayName);
   const [refreshing, setRefreshing] = useState(false);
+  const holding = useLoadingHold(tracks.isPending);
 
-  if (tracks.isPending) return <LoadingState label="Conectando ao servidor…" />;
+  if (holding && !tracks.isError) return <LoadingState label="Conectando ao servidor…" />;
   if (tracks.isError || !tracks.data) {
     return <ErrorState message={tracks.error?.message ?? 'Não foi possível carregar as áreas.'} onRetry={() => void tracks.refetch()} />;
   }

@@ -3,6 +3,7 @@ import { Language, Prisma, TermLocale } from '@prisma/client';
 import { AUDIO_PROVIDER, type AudioProvider } from '../audio/audio.provider';
 import { env } from '../config/env';
 import { PrismaService } from '../prisma/prisma.service';
+import { technicalShare } from './basic-english';
 import { ExerciseFactory, LocaleView, TermView } from './exercise.factory';
 import { Exercise } from './exercise.types';
 
@@ -40,7 +41,17 @@ export class ExerciseService {
     return env.AUDIO_ENABLED && this.audio.enabled;
   }
 
-  async buildLessonSession(lessonId: string) {
+  /**
+   * Parte técnica da sessão. Só o inglês leva inglês básico junto: nos outros idiomas
+   * (e para quem ainda não informou o nível) a sessão continua só com termos técnicos.
+   */
+  private async sessionShare(userId: string, target: Language, basicAccuracy?: number): Promise<number> {
+    if (target !== 'EN') return 1;
+    const user = await this.prisma.user.findUnique({ where: { id: userId }, select: { level: true } });
+    return technicalShare(user?.level, basicAccuracy);
+  }
+
+  async buildLessonSession(lessonId: string, userId: string, basicAccuracy?: number) {
     const lesson = await this.prisma.lesson.findFirst({
       where: { id: lessonId, status: 'PUBLISHED', unit: { track: { status: 'PUBLISHED' } } },
       include: {
@@ -60,6 +71,7 @@ export class ExerciseService {
         terms,
         pool,
         audioEnabled: this.audioEnabled,
+        technicalShare: await this.sessionShare(userId, lesson.unit.track.targetLanguage, basicAccuracy),
       }),
     };
   }
@@ -68,7 +80,7 @@ export class ExerciseService {
    * Prática livre: sessão nova a cada chamada, só com termos de lições que o
    * usuário já concluiu, misturando todos os tipos de exercício.
    */
-  async buildPracticeSession(userId: string, trackSlug: string) {
+  async buildPracticeSession(userId: string, trackSlug: string, basicAccuracy?: number) {
     const track = await this.prisma.track.findFirst({
       where: { slug: trackSlug, status: 'PUBLISHED' },
     });
@@ -97,6 +109,7 @@ export class ExerciseService {
         terms,
         pool,
         audioEnabled: this.audioEnabled,
+        technicalShare: await this.sessionShare(userId, track.targetLanguage, basicAccuracy),
       }),
     };
   }

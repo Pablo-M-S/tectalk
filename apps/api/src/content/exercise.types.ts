@@ -81,6 +81,10 @@ export interface FillBlankExercise extends ExerciseBase<'FILL_BLANK'> {
   sentence: string;
   options: Option[];
   correctOptionId: string;
+  /** Inglês básico em frase com termo técnico. Não gera resultado de progresso do termo. */
+  basic?: boolean;
+  /** Termo técnico a destacar na frase (só nos exercícios de inglês básico). */
+  highlight?: string;
 }
 
 export interface BuildFromRootsExercise extends ExerciseBase<'BUILD_FROM_ROOTS'> {

@@ -5,12 +5,14 @@ import { useCompleteLesson, useLessonSession } from '@/api/hooks';
 import type { ExerciseResult } from '@/api/types';
 import { ExercisePlayer } from '@/components/ExercisePlayer';
 import { ErrorState, LoadingState } from '@/components/States';
+import { useLoadingHold } from '@/lib/useLoadingHold';
 
 export default function LessonScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const session = useLessonSession(id);
   const complete = useCompleteLesson();
+  const holding = useLoadingHold(session.isPending);
 
   const finish = useCallback(
     (results: ExerciseResult[]) => {
@@ -40,7 +42,7 @@ export default function LessonScreen() {
     [complete, id, router],
   );
 
-  if (session.isPending) return <LoadingState label="Preparando a lição…" />;
+  if (holding && !session.isError) return <LoadingState label="Preparando a lição…" />;
   if (session.isError || !session.data) {
     return <ErrorState message={session.error?.message ?? 'Lição indisponível.'} onRetry={() => void session.refetch()} />;
   }

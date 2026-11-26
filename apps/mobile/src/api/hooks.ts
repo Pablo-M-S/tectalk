@@ -1,6 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useAuth } from '@/auth/store';
 import { useSelection } from '@/state/selection';
+import { currentBasicAccuracy } from '@/lib/basic-stats';
 import { request } from './client';
 import type {
   CompleteResponse,
@@ -81,10 +82,16 @@ export function useDueCount(slug: string | undefined) {
 }
 
 /** Sessões ficam congeladas enquanto a tela está aberta e não são guardadas em cache. */
+/** Precisão recente em inglês básico, que o servidor usa para ajustar o foco técnico. */
+function basicQuery(): string {
+  const accuracy = currentBasicAccuracy();
+  return accuracy === undefined ? '' : `?basic=${accuracy.toFixed(2)}`;
+}
+
 export function useLessonSession(lessonId: string) {
   return useQuery({
     queryKey: ['session', lessonId],
-    queryFn: () => request<LessonSession>(`/v1/lessons/${lessonId}/session`),
+    queryFn: () => request<LessonSession>(`/v1/lessons/${lessonId}/session${basicQuery()}`),
     staleTime: Infinity,
     gcTime: 0,
     retry: 1,
@@ -95,7 +102,7 @@ export function useLessonSession(lessonId: string) {
 export function usePracticeSession(slug: string | undefined) {
   return useQuery({
     queryKey: ['practice-session', slug],
-    queryFn: () => request<PracticeSession>(`/v1/tracks/${slug}/practice`),
+    queryFn: () => request<PracticeSession>(`/v1/tracks/${slug}/practice${basicQuery()}`),
     enabled: Boolean(slug),
     staleTime: Infinity,
     gcTime: 0,

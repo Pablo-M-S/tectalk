@@ -13,6 +13,8 @@ import { useHaptics } from '@/lib/feedback';
 import { requestReminderPermission, useReminderTime } from '@/lib/reminders';
 import { useSound } from '@/lib/sounds';
 import { SAMPLE_SENTENCE, openVoiceSettings, refreshVoices, speak, useSpeech } from '@/lib/speech';
+import { focusLabel, accuracyOf } from '@/lib/focus';
+import { useBasicStats } from '@/lib/basic-stats';
 import { GOALS, LANGUAGES, languageLabel, levelLabel, professionLabel } from '@/lib/profile';
 import { XpBar } from '@/components/XpBar';
 import { useThemeMode, type ThemeMode } from '@/theme/mode';
@@ -76,6 +78,7 @@ export default function ProfileScreen() {
   const theme = useTheme();
   const router = useRouter();
   const user = useAuth((state) => state.user);
+  const basicHistory = useBasicStats((state) => state.history);
   const signOut = useAuth((state) => state.signOut);
   const stats = useStats();
   const soundOn = useSound((state) => state.enabled);
@@ -146,6 +149,14 @@ export default function ProfileScreen() {
           <Row label="Idioma" value={user ? languageLabel(user.targetLanguage) : '—'} />
           <Row label="Profissão" value={professionLabel(user?.profession)} />
           <Row label="Nível" value={levelLabel(user?.level)} />
+          {user?.targetLanguage === 'EN' && focusLabel(user.level, accuracyOf(basicHistory)) ? (
+            <View style={{ gap: 2 }}>
+              <Row label="Foco das lições" value={focusLabel(user.level, accuracyOf(basicHistory)) ?? ''} />
+              <Text variant="caption" tone="muted">
+                O inglês básico diminui sozinho conforme você acerta.
+              </Text>
+            </View>
+          ) : null}
           <Row
             label="Meta diária"
             value={GOALS.find((g) => g.minutes === user?.dailyGoalMinutes)?.hint.replace(' por dia', '') ?? '—'}

@@ -5,11 +5,13 @@ import { useActiveTrack, useReviewSession, useSubmitReview } from '@/api/hooks';
 import type { ExerciseResult } from '@/api/types';
 import { ExercisePlayer } from '@/components/ExercisePlayer';
 import { ErrorState, LoadingState } from '@/components/States';
+import { useLoadingHold } from '@/lib/useLoadingHold';
 
 export default function ReviewSessionScreen() {
   const router = useRouter();
   const { slug } = useActiveTrack();
   const session = useReviewSession(slug);
+  const holding = useLoadingHold(session.isPending);
   const submit = useSubmitReview(slug);
 
   const finish = useCallback(
@@ -37,7 +39,7 @@ export default function ReviewSessionScreen() {
     [submit, router],
   );
 
-  if (session.isPending) return <LoadingState label="Montando sua revisão…" />;
+  if (holding && !session.isError) return <LoadingState label="Montando sua revisão…" />;
   if (session.isError || !session.data) {
     return <ErrorState message={session.error?.message ?? 'Revisão indisponível.'} onRetry={() => void session.refetch()} />;
   }

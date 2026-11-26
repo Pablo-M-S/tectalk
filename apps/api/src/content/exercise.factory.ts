@@ -1,4 +1,5 @@
 import { randomUUID } from 'node:crypto';
+import { BASIC_WORDS, BasicWord } from './basic-english';
 import {
   BuildFromRootsExercise,
   Exercise,
@@ -45,6 +46,11 @@ export interface LessonSessionInput {
   terms: TermView[];
   pool: TermView[];
   audioEnabled: boolean;
+  /**
+   * Parte da sessão dedicada ao termo técnico (0 a 1). O restante é inglês básico em frases
+   * com o termo técnico. Sem valor, ou com 1, a sessão é só de termos técnicos.
+   */
+  technicalShare?: number;
 }
 
 export interface PracticeSessionInput extends LessonSessionInput {
@@ -58,6 +64,8 @@ const MIN_SENTENCE_WORDS = 4;
 const MAX_SENTENCE_WORDS = 14;
 const BLANK = '_____';
 const BLANKS_SIZE = 3;
+const LESSON_WITH_BASICS = 24;
+const PRACTICE_WITH_BASICS = 16;
 
 const present = <T>(value: T | null | undefined): value is T => value != null;
 
@@ -328,7 +336,12 @@ export class ExerciseFactory {
   }
 
   /** Sessão de lição: reconhecimento, associação e depois produção ativa. */
-  buildLessonSession({ terms, pool, audioEnabled }: LessonSessionInput): Exercise[] {
+  buildLessonSession({ terms, pool, audioEnabled, technicalShare = 1 }: LessonSessionInput): Exercise[] {
+    const technical = this.technicalLesson({ terms, pool, audioEnabled });
+    return this.withBasicEnglish(technical, terms, technicalShare, LESSON_WITH_BASICS);
+  }
+
+  private technicalLesson({ terms, pool, audioEnabled }: LessonSessionInput): Exercise[] {
     const segmentPool = this.segmentPool(pool);
 
     const recognition = [
@@ -362,7 +375,13 @@ export class ExerciseFactory {
     pool,
     audioEnabled,
     size = PRACTICE_SIZE,
+    technicalShare = 1,
   }: PracticeSessionInput): Exercise[] {
+    const technical = this.technicalPractice({ terms, pool, audioEnabled, size });
+    return this.withBasicEnglish(technical, terms, technicalShare, PRACTICE_WITH_BASICS);
+  }
+
+  private technicalPractice({ terms, pool, audioEnabled, size = PRACTICE_SIZE }: PracticeSessionInput): Exercise[] {
     const segmentPool = this.segmentPool(pool);
     const exercises: Exercise[] = [];
     const usage = new Map<string, number>();
@@ -391,6 +410,83 @@ export class ExerciseFactory {
 
     const extras = [terms.length >= 4 ? this.matchPairs(terms) : null, this.fillBlanks(terms)].filter(present);
     return extras.length > 0 ? this.shuffle([...exercises, ...extras]) : exercises;
+  }
+
+  /**
+   * Uma palavra do inglês básico dentro de uma frase com o termo técnico. O aluno completa a
+   * lacuna com a palavra do dia a dia; o termo técnico aparece em destaque, no centro da frase.
+   * Não conta para o progresso do termo: os resultados do exercício ficam de fora.
+   */
+  basicExercise(entry: BasicWord, term: TermView, others: BasicWord[] = BASIC_WORDS): FillBlankExercise | null {
+    const wordPattern = new RegExp(`\\b${entry.word}\\b`, 'i');
+    if (wordPattern.test(term.target.text)) return null;
+
+    const template = this.pick(entry.templates, 1)[0];
+    const sentence = template.replace('{T}', `the ${term.target.text}`);
+    const distractors = this.pick(
+      others.filter((w) => w.group !== entry.group && w.word !== entry.word),
+      3,
+    );
+    if (distractors.length < 3) return null;
+
+    return {
+      id: randomUUID(),
+      type: 'FILL_BLANK',
+      termIds: [],
+      basic: true,
+      highlight: term.target.text,
+      sentence: sentence.replace(wordPattern, BLANK),
+      options: this.shuffle([entry, ...distractors].map((w) => ({ id: w.word, text: w.word }))),
+      correctOptionId: entry.word,
+      reveal: {
+        text: entry.word,
+        definition: '',
+        ipa: null,
+        romanization: null,
+        translation: entry.pt,
+        informalForms: [],
+        usageNote: entry.note,
+        collocations: [],
+        example: sentence,
+        translations: [],
+      },
+    };
+  }
+
+  /**
+   * Mistura inglês básico nos exercícios técnicos, espalhado ao longo da sessão. `share` é a
+   * parte técnica (0,7 = 70% técnico). O total respeita `cap`; o que sobra do técnico é cortado
+   * do fim da lista, onde ficam os exercícios de produção.
+   */
+  withBasicEnglish(technical: Exercise[], terms: TermView[], share: number, cap: number): Exercise[] {
+    if (share >= 1 || share <= 0 || technical.length === 0 || terms.length === 0) return technical;
+
+    let keep = technical.length;
+    let wanted = Math.round((keep * (1 - share)) / share);
+    if (keep + wanted > cap) {
+      keep = Math.floor(cap * share);
+      wanted = cap - keep;
+    }
+
+    const kept = technical.slice(0, keep);
+    const basics: Exercise[] = [];
+    const words = this.shuffle(BASIC_WORDS);
+    const queue = this.shuffle(terms);
+    for (let i = 0; basics.length < wanted && i < words.length * 2; i++) {
+      const exercise = this.basicExercise(words[i % words.length], queue[i % queue.length]);
+      if (exercise) basics.push(exercise);
+    }
+    if (basics.length === 0) return kept;
+
+    const mixed: Exercise[] = [];
+    let next = 0;
+    kept.forEach((exercise, index) => {
+      mixed.push(exercise);
+      while (next < basics.length && (index + 1) / kept.length >= (next + 1) / (basics.length + 1)) {
+        mixed.push(basics[next++]);
+      }
+    });
+    return mixed;
   }
 
   private segmentPool(pool: TermView[]): string[] {

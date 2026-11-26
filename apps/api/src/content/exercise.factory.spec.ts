@@ -1,5 +1,6 @@
 import { makePool, makeTerm, seeded } from '../../test/helpers';
 import { ExerciseFactory } from './exercise.factory';
+import { BASIC_WORDS, technicalShare } from './basic-english';
 
 describe('ExerciseFactory', () => {
   const pool = makePool();
@@ -277,5 +278,81 @@ describe('ExerciseFactory: japonês', () => {
     const session = new ExerciseFactory(seeded()).buildLessonSession({ terms, pool: terms, audioEnabled: false });
     expect(session.some((e) => e.type === 'TYPE_TERM')).toBe(false);
     expect(session.some((e) => e.type === 'MULTIPLE_CHOICE')).toBe(true);
+  });
+});
+
+describe('inglês básico junto aos termos técnicos', () => {
+  const pool = [
+    makeTerm('a', 'viga', 'beam'),
+    makeTerm('b', 'pilar', 'column'),
+    makeTerm('c', 'carga', 'load'),
+    makeTerm('d', 'laje', 'slab'),
+    makeTerm('e', 'sapata', 'footing'),
+    makeTerm('f', 'estaca', 'pile'),
+  ].map((t) => ({ ...t, examples: [{ sentence: `Check the ${t.target.text} today.`, answer: t.target.text }] }));
+  const build = (share: number) =>
+    new ExerciseFactory(seeded()).buildLessonSession({ terms: pool, pool, audioEnabled: false, technicalShare: share });
+
+  it('define a parte técnica por nível: 50, 60, 70 e 100%', () => {
+    expect(technicalShare('BEGINNER')).toBe(0.5);
+    expect(technicalShare('BASIC')).toBe(0.6);
+    expect(technicalShare('INTERMEDIATE')).toBe(0.7);
+    expect(technicalShare('ADVANCED')).toBe(1);
+    expect(technicalShare(null)).toBe(1);
+  });
+
+  it('avançado e quem não informou o nível recebem só termos técnicos', () => {
+    expect(build(1).some((e) => e.type === 'FILL_BLANK' && e.basic)).toBe(false);
+  });
+
+  it('quem acerta o inglês básico migra para mais foco técnico', () => {
+    expect(technicalShare('BEGINNER', 0.95)).toBe(0.75);
+    expect(technicalShare('BASIC', 0.85)).toBeGreaterThan(0.6);
+    expect(technicalShare('BASIC', 0.5)).toBe(0.6);
+    expect(technicalShare('ADVANCED', 0.2)).toBe(1);
+  });
+
+  it('iniciante: metade da sessão é inglês básico e a sessão não passa de 24 exercícios', () => {
+    const session = build(0.5);
+    const basics = session.filter((e) => e.type === 'FILL_BLANK' && e.basic);
+    expect(session.length).toBeLessThanOrEqual(24);
+    expect(basics).toHaveLength(12);
+  });
+
+  it('intermediário: cerca de 70% de termos técnicos', () => {
+    const session = build(0.7);
+    const technical = session.filter((e) => !(e.type === 'FILL_BLANK' && e.basic)).length;
+    expect(technical / session.length).toBeGreaterThanOrEqual(0.65);
+    expect(technical / session.length).toBeLessThanOrEqual(0.75);
+  });
+
+  it('o inglês básico fica espalhado, e a sessão sempre começa pelo termo técnico', () => {
+    const session = build(0.5);
+    expect(session[0].type === 'FILL_BLANK' && session[0].basic).toBe(false);
+    const kinds = session.map((e) => (e.type === 'FILL_BLANK' && e.basic ? 'B' : 'T')).join('');
+    expect(kinds).not.toContain('BBB');
+  });
+
+  it('cada frase tem o termo técnico em destaque, uma lacuna e a resposta entre as opções', () => {
+    const basics = build(0.5).filter((e) => e.type === 'FILL_BLANK' && e.basic);
+    for (const exercise of basics) {
+      if (exercise.type !== 'FILL_BLANK') continue;
+      expect(exercise.sentence).toContain('_____');
+      expect(exercise.sentence).toContain(`the ${exercise.highlight}`);
+      expect(exercise.options.map((o) => o.id)).toContain(exercise.correctOptionId);
+      expect(exercise.options).toHaveLength(4);
+      expect(exercise.termIds).toEqual([]);
+      expect(exercise.reveal?.example?.toLowerCase()).toContain(exercise.correctOptionId);
+    }
+  });
+
+  it('todas as frases-modelo têm a palavra exatamente uma vez e o marcador do termo', () => {
+    for (const entry of BASIC_WORDS) {
+      for (const template of entry.templates) {
+        expect(template.split('{T}')).toHaveLength(2);
+        const hits = template.match(new RegExp(`\\b${entry.word}\\b`, 'gi')) ?? [];
+        expect(hits).toHaveLength(1);
+      }
+    }
   });
 });
