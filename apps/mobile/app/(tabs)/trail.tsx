@@ -7,6 +7,7 @@ import { useActiveTrack, useStats, useTrack } from '@/api/hooks';
 import type { LessonNode } from '@/api/types';
 import { Text } from '@/components/Text';
 import { TopBar } from '@/components/TopBar';
+import { Mascot } from '@/components/Mascot';
 import { XpBar } from '@/components/XpBar';
 import { ErrorState, LoadingState } from '@/components/States';
 import { formatPercent } from '@/lib/text';
@@ -120,8 +121,13 @@ export default function TrailScreen() {
               {summary ? `${summary.sourceLanguage} → ${summary.targetLanguage} · trocar de área` : 'Trocar de área'}
             </Text>
           </Pressable>
-          <Text variant="display">{track.data.title}</Text>
-          <Text tone="muted">{track.data.description}</Text>
+          <View style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 8 }}>
+            <View style={{ flex: 1, gap: 6 }}>
+              <Text variant="display">{track.data.title}</Text>
+              <Text tone="muted">{track.data.description}</Text>
+            </View>
+            <Mascot pose="apresentando" height={150} visible={0.62} halo />
+          </View>
         </View>
 
         <View style={{ flexDirection: 'row', gap: 10 }}>

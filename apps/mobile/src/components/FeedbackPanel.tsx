@@ -3,6 +3,7 @@ import { ScrollView, View } from 'react-native';
 import type { Exercise } from '@/api/types';
 import { Button } from './Button';
 import { CorrectThumb } from './CorrectThumb';
+import { Mascot, useMascots } from './Mascot';
 import { SpeakButton } from './SpeakButton';
 import { Text } from './Text';
 import { speak, stopSpeaking, studiedLanguage, useSpeech } from '@/lib/speech';
@@ -20,6 +21,7 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
   const reveal = exercise.reveal;
   const autoPlay = useSpeech((state) => state.autoPlay);
   // No japonês a voz lê o hiragana, que não erra a leitura do kanji.
+  const mascots = useMascots();
   const spoken =
     studiedLanguage() === 'JA' && reveal?.ipa && !reveal.ipa.startsWith('/') ? reveal.ipa : reveal?.text;
 
@@ -39,11 +41,16 @@ export function FeedbackPanel({ exercise, correct, loading, onContinue }: Props)
         backgroundColor: correct ? theme.successSoft : theme.dangerSoft,
       }}
     >
+      {mascots ? (
+        <View pointerEvents="none" style={{ position: 'absolute', right: 18, bottom: '100%' }}>
+          <Mascot pose={correct ? 'escrevendo' : 'pensando'} height={150} visible={0.5} />
+        </View>
+      ) : null}
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', minHeight: 44 }}>
         <Text variant="label" tone={correct ? 'success' : 'danger'}>
           {correct ? 'Correto' : 'Quase lá'}
         </Text>
-        {correct ? <CorrectThumb /> : null}
+        {correct && !mascots ? <CorrectThumb /> : null}
       </View>
 
       {exercise.type === 'FILL_BLANKS' ? (

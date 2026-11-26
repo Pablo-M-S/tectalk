@@ -3,6 +3,7 @@ import { ActivityIndicator, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTheme } from '@/theme/theme';
 import { Button } from './Button';
+import { Mascot } from './Mascot';
 import { Text } from './Text';
 
 export function LoadingState({ label = 'Carregando…' }: { label?: string }) {
@@ -16,6 +17,7 @@ export function LoadingState({ label = 'Carregando…' }: { label?: string }) {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg, alignItems: 'center', justifyContent: 'center', padding: 32, gap: 14 }}>
+      <Mascot pose="lendo" height={170} halo />
       <ActivityIndicator size="large" color={theme.primary} />
       <Text variant="heading">{label}</Text>
       {slow ? (

@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Button } from '@/components/Button';
+import { Mascot, type MascotPose } from '@/components/Mascot';
 import { Text } from '@/components/Text';
 import { XpBar } from '@/components/XpBar';
 import { xpProgress } from '@/lib/xp';
@@ -26,6 +27,7 @@ export default function ResultScreen() {
     cue('complete');
   }, []);
 
+  const pose: MascotPose = ratio >= 0.9 || levelUp ? 'bracosCruzados' : ratio >= 0.6 ? 'escrevendo' : 'pensando';
   const headline = ratio >= 0.9 ? 'Excelente' : ratio >= 0.6 ? 'Bom trabalho' : 'Continue praticando';
   const note =
     ratio >= 0.9
@@ -36,6 +38,9 @@ export default function ResultScreen() {
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.bg, padding: 24, justifyContent: 'space-between' }}>
       <View style={{ flex: 1, justifyContent: 'center', gap: 28 }}>
         <View style={{ gap: 8 }}>
+          <View style={{ alignSelf: 'flex-start', marginBottom: 4 }}>
+            <Mascot pose={pose} height={190} halo />
+          </View>
           <Text variant="label" tone="primary">{params.kind === 'review' ? 'Revisão concluída' : params.kind === 'practice' ? 'Prática concluída' : 'Lição concluída'}</Text>
           <Text variant="display">{headline}</Text>
           <Text tone="muted">{note}</Text>
