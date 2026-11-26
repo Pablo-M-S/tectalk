@@ -20,6 +20,15 @@ export const useReminderTime = create<ReminderState>((set) => ({
   },
 }));
 
+/** No Android 13+ o aviso de permissão só aparece se já existir um canal de notificação. */
+async function ensureChannel(): Promise<void> {
+  if (Platform.OS !== 'android') return;
+  await Notifications.setNotificationChannelAsync(CHANNEL_ID, {
+    name: 'Lembretes de estudo',
+    importance: Notifications.AndroidImportance.DEFAULT,
+  });
+}
+
 /** Define como notificações em primeiro plano aparecem e lê o horário salvo. */
 export async function initReminders(): Promise<void> {
   try {
@@ -31,6 +40,7 @@ export async function initReminders(): Promise<void> {
         shouldSetBadge: false,
       }),
     });
+    await ensureChannel();
     const saved = await SecureStore.getItemAsync(TIME_KEY);
     if (saved) useReminderTime.setState({ time: parseTime(saved) });
   } catch {
@@ -41,6 +51,7 @@ export async function initReminders(): Promise<void> {
 /** Pede a permissão do sistema. Devolve `true` se os avisos podem ser enviados. */
 export async function requestReminderPermission(): Promise<boolean> {
   try {
+    await ensureChannel();
     const current = await Notifications.getPermissionsAsync();
     if (current.granted) return true;
     if (!current.canAskAgain) return false;
@@ -63,12 +74,7 @@ export async function syncReminders(enabled: boolean, time: ReminderTime): Promi
     const permission = await Notifications.getPermissionsAsync();
     if (!permission.granted) return;
 
-    if (Platform.OS === 'android') {
-      await Notifications.setNotificationChannelAsync(CHANNEL_ID, {
-        name: 'Lembretes de estudo',
-        importance: Notifications.AndroidImportance.DEFAULT,
-      });
-    }
+    await ensureChannel();
 
     await Promise.all(
       Array.from({ length: 7 }, (_, weekday) => {
@@ -87,5 +93,21 @@ export async function syncReminders(enabled: boolean, time: ReminderTime): Promi
     );
   } catch {
     // Falha ao agendar não deve afetar o estudo.
+  }
+}
+
+/** Dispara um aviso em 5 segundos e devolve uma mensagem com o resultado (diagnóstico). */
+export async function sendTestReminder(): Promise<string> {
+  try {
+    if (!(await requestReminderPermission())) {
+      return 'As notificações estão bloqueadas. Ative em Configurações do Android > Apps > TecTalk > Notificações.';
+    }
+    await Notifications.scheduleNotificationAsync({
+      content: { title: 'TecTalk', body: 'Lembrete de teste: está funcionando!' },
+      trigger: { type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL, seconds: 5, channelId: CHANNEL_ID },
+    });
+    return 'Pronto! O aviso chega em 5 segundos. Pode sair do app para ver na barra de notificações.';
+  } catch (e) {
+    return `Este aparelho não conseguiu agendar o aviso (${e instanceof Error ? e.message : 'erro'}). Pode ser preciso instalar um APK novo.`;
   }
 }

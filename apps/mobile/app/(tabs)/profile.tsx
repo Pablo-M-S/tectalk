@@ -11,7 +11,7 @@ import { ReminderTimePicker } from '@/components/ReminderTimePicker';
 import { TopBar } from '@/components/TopBar';
 import { Text } from '@/components/Text';
 import { useHaptics } from '@/lib/feedback';
-import { requestReminderPermission, useReminderTime } from '@/lib/reminders';
+import { requestReminderPermission, sendTestReminder, useReminderTime } from '@/lib/reminders';
 import { useSound } from '@/lib/sounds';
 import { SAMPLE_SENTENCE, openVoiceSettings, refreshVoices, speak, useSpeech } from '@/lib/speech';
 import { focusLabel, accuracyOf } from '@/lib/focus';
@@ -230,6 +230,11 @@ export default function ProfileScreen() {
             />
           </View>
           {user?.remindersEnabled ? <ReminderTimePicker value={reminderTime} onChange={setReminderTime} /> : null}
+          <Button
+            label="Testar lembrete"
+            variant="ghost"
+            onPress={() => void sendTestReminder().then((msg) => Alert.alert('Lembrete', msg))}
+          />
           <Button
             label="Editar preferências"
             variant="secondary"
