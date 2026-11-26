@@ -19,6 +19,17 @@ const ART = {
     joinha: { source: require('../../assets/characters/dev-joinha.webp'), ratio: 371 / 640 },
     fone: { source: require('../../assets/characters/dev-fone-notebook.webp'), ratio: 500 / 640 },
   },
+  eng: {
+    apontando: { source: require('../../assets/characters/eng-apontando.webp'), ratio: 413 / 640 },
+    bracos: { source: require('../../assets/characters/eng-bracos.webp'), ratio: 293 / 640 },
+    lendo: { source: require('../../assets/characters/eng-lendo.webp'), ratio: 386 / 640 },
+    oculos: { source: require('../../assets/characters/eng-oculos.webp'), ratio: 379 / 640 },
+  },
+  obra: {
+    chapeu: { source: require('../../assets/characters/obra-chapeu.webp'), ratio: 390 / 640 },
+    martelo: { source: require('../../assets/characters/obra-martelo.webp'), ratio: 413 / 640 },
+    prancheta: { source: require('../../assets/characters/obra-prancheta.webp'), ratio: 396 / 640 },
+  },
 } satisfies Record<string, Record<string, Art>>;
 
 /** Papel do personagem na tela; cada profissão escolhe a arte que representa o papel. */
@@ -42,6 +53,24 @@ const CAST: Record<string, Record<MascotRole, Art>> = {
     great: ART.dev.sorrindo,
     good: ART.dev.joinha,
     bad: ART.dev.fone,
+  },
+  engenharia: {
+    intro: ART.eng.apontando,
+    loading: ART.eng.lendo,
+    right: ART.eng.oculos,
+    wrong: ART.eng.lendo,
+    great: ART.eng.bracos,
+    good: ART.eng.oculos,
+    bad: ART.eng.lendo,
+  },
+  construcao: {
+    intro: ART.obra.chapeu,
+    loading: ART.obra.prancheta,
+    right: ART.obra.martelo,
+    wrong: ART.obra.prancheta,
+    great: ART.obra.chapeu,
+    good: ART.obra.martelo,
+    bad: ART.obra.prancheta,
   },
 };
 
