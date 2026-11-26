@@ -82,6 +82,30 @@ describe('ExerciseFactory', () => {
       expect(exercise.solution.join(' ')).toContain('atrium');
     });
 
+    it('iniciante monta só com as palavras do próprio termo', () => {
+      const term = makeTerm('b', 'b', 'heart valve', {
+        examples: [{ sentence: 'The heart valve was replaced in the morning.', answer: 'heart valve' }],
+      });
+      const exercise = factory.orderSentence(term, 'BEGINNER')!;
+      expect([...exercise.solution].sort()).toEqual(['heart', 'valve']);
+      expect([...exercise.tiles].sort()).toEqual(['heart', 'valve']);
+      expect(exercise.tiles.join(' ')).not.toBe(exercise.solution.join(' '));
+    });
+
+    it('iniciante não recebe frase quando o termo tem uma palavra só', () => {
+      const term = makeTerm('c', 'c', 'cache', {
+        examples: [{ sentence: 'Clear the cache before the next test run.', answer: 'cache' }],
+      });
+      expect(factory.orderSentence(term, 'BEGINNER')).toBeNull();
+    });
+
+    it('nível básico limita a frase a 7 palavras', () => {
+      const term = makeTerm('d', 'd', 'cache', {
+        examples: [{ sentence: 'Please clear the cache before the next test run today.', answer: 'cache' }],
+      });
+      expect(factory.orderSentence(term, 'BASIC')).toBeNull();
+    });
+
     it('ignora frases curtas demais', () => {
       const short = makeTerm('s', 's', 'cache', { examples: [{ sentence: 'Clear the cache.', answer: 'cache' }] });
       expect(factory.orderSentence(short)).toBeNull();

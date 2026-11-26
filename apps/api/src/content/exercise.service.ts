@@ -3,7 +3,7 @@ import { Language, Prisma, TermLocale } from '@prisma/client';
 import { AUDIO_PROVIDER, type AudioProvider } from '../audio/audio.provider';
 import { env } from '../config/env';
 import { PrismaService } from '../prisma/prisma.service';
-import { technicalShare } from './basic-english';
+import { technicalShare, type Level } from './basic-english';
 import { ExerciseFactory, LocaleView, TermView } from './exercise.factory';
 import { Exercise } from './exercise.types';
 
@@ -45,10 +45,14 @@ export class ExerciseService {
    * Parte técnica da sessão. Só o inglês leva inglês básico junto: nos outros idiomas
    * (e para quem ainda não informou o nível) a sessão continua só com termos técnicos.
    */
-  private async sessionShare(userId: string, target: Language, basicAccuracy?: number): Promise<number> {
+  private async sessionShare(level: Level | null, target: Language, basicAccuracy?: number): Promise<number> {
     if (target !== 'EN') return 1;
+    return technicalShare(level, basicAccuracy);
+  }
+
+  private async userLevel(userId: string): Promise<Level | null> {
     const user = await this.prisma.user.findUnique({ where: { id: userId }, select: { level: true } });
-    return technicalShare(user?.level, basicAccuracy);
+    return (user?.level as Level | null | undefined) ?? null;
   }
 
   async buildLessonSession(lessonId: string, userId: string, basicAccuracy?: number) {
@@ -64,6 +68,7 @@ export class ExerciseService {
     const pool = await this.loadViews(lesson.unit.track);
     const lessonTermIds = new Set(lesson.terms.map((t) => t.termId));
     const terms = pool.filter((view) => lessonTermIds.has(view.id));
+    const level = await this.userLevel(userId);
 
     return {
       lesson: { id: lesson.id, title: lesson.title },
@@ -71,7 +76,8 @@ export class ExerciseService {
         terms,
         pool,
         audioEnabled: this.audioEnabled,
-        technicalShare: await this.sessionShare(userId, lesson.unit.track.targetLanguage, basicAccuracy),
+        technicalShare: await this.sessionShare(level, lesson.unit.track.targetLanguage, basicAccuracy),
+        level,
       }),
     };
   }
@@ -102,6 +108,7 @@ export class ExerciseService {
 
     const pool = await this.loadViews(track);
     const terms = pool.filter((view) => studiedIds.has(view.id));
+    const level = await this.userLevel(userId);
 
     return {
       studiedCount: terms.length,
@@ -109,7 +116,8 @@ export class ExerciseService {
         terms,
         pool,
         audioEnabled: this.audioEnabled,
-        technicalShare: await this.sessionShare(userId, track.targetLanguage, basicAccuracy),
+        technicalShare: await this.sessionShare(level, track.targetLanguage, basicAccuracy),
+        level,
       }),
     };
   }

@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { BASIC_WORDS, BasicWord, meaningsClash, sentenceDistractors } from './basic-english';
+import { BASIC_WORDS, BasicWord, Level, meaningsClash, sentenceDistractors } from './basic-english';
 import {
   BuildFromRootsExercise,
   Exercise,
@@ -51,6 +51,8 @@ export interface LessonSessionInput {
    * com o termo técnico. Sem valor, ou com 1, a sessão é só de termos técnicos.
    */
   technicalShare?: number;
+  /** Nível informado pelo usuário; define o tamanho das frases a montar. */
+  level?: Level | null;
 }
 
 export interface PracticeSessionInput extends LessonSessionInput {
@@ -62,6 +64,7 @@ const MATCH_SIZE = 5;
 const PRACTICE_SIZE = 12;
 const MIN_SENTENCE_WORDS = 4;
 const MAX_SENTENCE_WORDS = 14;
+const BASIC_SENTENCE_WORDS = 7;
 const BLANK = '_____';
 const BLANKS_SIZE = 3;
 const LESSON_WITH_BASICS = 24;
@@ -266,10 +269,15 @@ export class ExerciseFactory {
   }
 
   /** Monta uma frase profissional real a partir das palavras embaralhadas. */
-  orderSentence(term: TermView): OrderSentenceExercise | null {
+  orderSentence(term: TermView, level?: Level | null): OrderSentenceExercise | null {
+    // Iniciante só monta com palavras que acabou de ver: as do próprio termo (2 a 4 palavras).
+    // Frases de exemplo trazem vocabulário que ele ainda não conhece.
+    if (level === 'BEGINNER') return this.orderTermWords(term);
+
+    const maxWords = level === 'BASIC' ? BASIC_SENTENCE_WORDS : MAX_SENTENCE_WORDS;
     const candidates = this.usableExamples(term).filter((e) => {
       const words = e.sentence.split(/\s+/).length;
-      return words >= MIN_SENTENCE_WORDS && words <= MAX_SENTENCE_WORDS;
+      return words >= MIN_SENTENCE_WORDS && words <= maxWords;
     });
     const [example] = this.pick(candidates, 1);
     if (!example) return null;
@@ -286,6 +294,23 @@ export class ExerciseFactory {
       tiles,
       solution,
       reveal: this.reveal(term, example),
+    };
+  }
+
+  /** Iniciante: ordena as palavras do próprio termo (só existe se o termo tiver 2 a 4 palavras). */
+  private orderTermWords(term: TermView): OrderSentenceExercise | null {
+    const solution = term.target.text.trim().split(/\s+/);
+    if (solution.length < 2 || solution.length > 4) return null;
+    let tiles = this.shuffle(solution);
+    if (tiles.join(' ') === solution.join(' ')) tiles = [...tiles].reverse();
+    return {
+      id: randomUUID(),
+      type: 'ORDER_SENTENCE',
+      termIds: [term.id],
+      prompt: term.source.text,
+      tiles,
+      solution,
+      reveal: this.reveal(term),
     };
   }
 
@@ -336,12 +361,12 @@ export class ExerciseFactory {
   }
 
   /** Sessão de lição: reconhecimento, associação e depois produção ativa. */
-  buildLessonSession({ terms, pool, audioEnabled, technicalShare = 1 }: LessonSessionInput): Exercise[] {
-    const technical = this.technicalLesson({ terms, pool, audioEnabled });
+  buildLessonSession({ terms, pool, audioEnabled, technicalShare = 1, level }: LessonSessionInput): Exercise[] {
+    const technical = this.technicalLesson({ terms, pool, audioEnabled, level });
     return this.withBasicEnglish(technical, terms, technicalShare, LESSON_WITH_BASICS);
   }
 
-  private technicalLesson({ terms, pool, audioEnabled }: LessonSessionInput): Exercise[] {
+  private technicalLesson({ terms, pool, audioEnabled, level }: LessonSessionInput): Exercise[] {
     const segmentPool = this.segmentPool(pool);
 
     const recognition = [
@@ -357,7 +382,7 @@ export class ExerciseFactory {
         this.fillBlank(t, pool),
         this.buildFromRoots(t, segmentPool),
         this.registerChoice(t, pool),
-        this.orderSentence(t),
+        this.orderSentence(t, level),
         audioEnabled ? this.listenAndType(t) : null,
       ]),
     ).filter(present);
@@ -376,12 +401,13 @@ export class ExerciseFactory {
     audioEnabled,
     size = PRACTICE_SIZE,
     technicalShare = 1,
+    level,
   }: PracticeSessionInput): Exercise[] {
-    const technical = this.technicalPractice({ terms, pool, audioEnabled, size });
+    const technical = this.technicalPractice({ terms, pool, audioEnabled, size, level });
     return this.withBasicEnglish(technical, terms, technicalShare, PRACTICE_WITH_BASICS);
   }
 
-  private technicalPractice({ terms, pool, audioEnabled, size = PRACTICE_SIZE }: PracticeSessionInput): Exercise[] {
+  private technicalPractice({ terms, pool, audioEnabled, size = PRACTICE_SIZE, level }: PracticeSessionInput): Exercise[] {
     const segmentPool = this.segmentPool(pool);
     const exercises: Exercise[] = [];
     const usage = new Map<string, number>();
@@ -394,7 +420,7 @@ export class ExerciseFactory {
         this.fillBlank(term, pool),
         this.buildFromRoots(term, segmentPool),
         this.registerChoice(term, pool),
-        this.orderSentence(term),
+        this.orderSentence(term, level),
         audioEnabled ? this.listenAndType(term) : null,
       ].filter(present);
 
