@@ -1,5 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
+import { LEGACY_LEVELS, lessonGate } from './level-gate';
 
 export type LessonStatus = 'LOCKED' | 'AVAILABLE' | 'COMPLETED';
 
@@ -26,8 +27,8 @@ export class ContentService {
               where: { status: 'PUBLISHED' },
               select: {
                 id: true,
-                _count: { select: { terms: true } },
-                completions: { where: { userId }, select: { id: true }, take: 1 },
+                _count: { select: { terms: true, levels: true } },
+                completions: { where: { userId }, select: { levelId: true } },
               },
             },
           },
@@ -40,7 +41,13 @@ export class ContentService {
       return {
         ...track,
         lessonCount: lessons.length,
-        completedCount: lessons.filter((lesson) => lesson.completions.length > 0).length,
+        completedCount: lessons.filter((lesson) =>
+          lessonGate({
+            levelCount: lesson._count.levels,
+            completedLevels: new Set(lesson.completions.flatMap((c) => (c.levelId ? [c.levelId] : []))).size,
+            legacyCompleted: lesson.completions.some((c) => c.levelId === null),
+          }).passed,
+        ).length,
         termCount: lessons.reduce((sum, lesson) => sum + lesson._count.terms, 0),
       };
     });
@@ -57,7 +64,13 @@ export class ContentService {
             lessons: {
               where: { status: 'PUBLISHED' },
               orderBy: { position: 'asc' },
-              include: { _count: { select: { terms: true } } },
+              include: {
+                _count: { select: { terms: true } },
+                levels: {
+                  orderBy: { position: 'asc' },
+                  include: { _count: { select: { terms: true } } },
+                },
+              },
             },
           },
         },
@@ -66,14 +79,16 @@ export class ContentService {
     if (!track) throw new NotFoundException('Trilha não encontrada');
 
     const lessonIds = track.units.flatMap((unit) => unit.lessons.map((lesson) => lesson.id));
-    const best = await this.prisma.lessonCompletion.groupBy({
-      by: ['lessonId'],
+    const completions = await this.prisma.lessonCompletion.findMany({
       where: { userId, lessonId: { in: lessonIds } },
-      _max: { score: true },
+      select: { lessonId: true, levelId: true, score: true },
     });
-    const bestScore = new Map(best.map((row) => [row.lessonId, row._max.score ?? 0]));
+    const byLesson = new Map<string, { levelId: string | null; score: number }[]>();
+    for (const row of completions) {
+      byLesson.set(row.lessonId, [...(byLesson.get(row.lessonId) ?? []), row]);
+    }
 
-    let previousCompleted = true;
+    let previousPassed = true;
     return {
       id: track.id,
       slug: track.slug,
@@ -86,20 +101,39 @@ export class ContentService {
         slug: unit.slug,
         title: unit.title,
         lessons: unit.lessons.map((lesson) => {
-          const completed = bestScore.has(lesson.id);
-          const status: LessonStatus = completed
-            ? 'COMPLETED'
-            : previousCompleted
-              ? 'AVAILABLE'
-              : 'LOCKED';
-          previousCompleted = completed;
+          const rows = byLesson.get(lesson.id) ?? [];
+          const legacy = rows.some((r) => r.levelId === null);
+          const bestByLevel = new Map<string, number>();
+          for (const row of rows) {
+            if (row.levelId) bestByLevel.set(row.levelId, Math.max(bestByLevel.get(row.levelId) ?? 0, row.score));
+          }
+          const gate = lessonGate({
+            levelCount: lesson.levels.length,
+            completedLevels: bestByLevel.size,
+            legacyCompleted: legacy,
+          });
+          const status: LessonStatus = gate.passed ? 'COMPLETED' : previousPassed ? 'AVAILABLE' : 'LOCKED';
+          previousPassed = gate.passed;
+          const levels = lesson.levels.map((level) => ({
+            id: level.id,
+            position: level.position,
+            title: level.title,
+            termCount: level._count.terms,
+            completed: (legacy && level.position <= LEGACY_LEVELS) || bestByLevel.has(level.id),
+            bestScore: bestByLevel.get(level.id) ?? null,
+          }));
+          const scores = rows.map((r) => r.score);
           return {
             id: lesson.id,
             slug: lesson.slug,
             title: lesson.title,
             termCount: lesson._count.terms,
             status,
-            bestScore: bestScore.get(lesson.id) ?? null,
+            bestScore: scores.length > 0 ? Math.max(...scores) : null,
+            levelCount: levels.length,
+            levelsCompleted: levels.filter((l) => l.completed).length,
+            requiredLevels: gate.required,
+            levels,
           };
         }),
       })),

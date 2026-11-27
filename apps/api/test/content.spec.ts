@@ -1,6 +1,6 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { assertConsistent, contentSchema } from '../prisma/content-schema';
+import { assertConsistent, contentSchema, planLevels } from '../prisma/content-schema';
 
 const dir = join(__dirname, '..', 'prisma', 'content');
 const files = readdirSync(dir).filter((name) => name.endsWith('.json'));
@@ -63,11 +63,19 @@ describe('conteúdo (seed)', () => {
       }
     });
 
-    it('as lições têm de 4 a 8 termos', () => {
+    it('cada lição tem ao menos 4 termos e os níveis respeitam o tamanho', () => {
       for (const unit of data.units) {
         for (const lesson of unit.lessons) {
           expect(lesson.terms.length).toBeGreaterThanOrEqual(4);
-          expect(lesson.terms.length).toBeLessThanOrEqual(8);
+          const levels = planLevels(lesson);
+          expect(levels.flatMap((l) => l.terms.map((t) => t.slug)).sort()).toEqual(
+            lesson.terms.map((t) => t.slug).sort(),
+          );
+          for (const level of levels) {
+            // Níveis declarados no JSON ficam entre 3 e 4; a divisão automática aceita 2 só no resto de 5 termos.
+            expect(level.terms.length).toBeGreaterThanOrEqual(lesson.levels ? 3 : 2);
+            expect(level.terms.length).toBeLessThanOrEqual(4);
+          }
         }
       }
     });

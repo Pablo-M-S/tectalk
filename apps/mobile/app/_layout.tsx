@@ -63,6 +63,7 @@ export default function RootLayout() {
           <Stack.Screen name="areas" />
           <Stack.Screen name="notebook" />
           <Stack.Screen name="(tabs)" />
+          <Stack.Screen name="levels/[id]" />
           <Stack.Screen name="lesson/[id]" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
           <Stack.Screen name="review-session" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
           <Stack.Screen name="practice-session" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />

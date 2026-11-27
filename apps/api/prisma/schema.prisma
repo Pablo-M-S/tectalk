@@ -139,11 +139,40 @@ model Lesson {
 
   unit        Unit               @relation(fields: [unitId], references: [id], onDelete: Cascade)
   terms       LessonTerm[]
+  levels      Level[]
   completions LessonCompletion[]
 
   @@unique([unitId, slug])
   @@index([unitId, position])
   @@map("lessons")
+}
+
+/// Etapa jogável de uma lição: 3 a 4 termos de um mesmo grupo de terminologia.
+model Level {
+  id       String  @id @default(uuid()) @db.Uuid
+  lessonId String  @db.Uuid
+  position Int
+  title    String?
+
+  lesson      Lesson             @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  terms       LevelTerm[]
+  completions LessonCompletion[]
+
+  @@unique([lessonId, position])
+  @@map("levels")
+}
+
+model LevelTerm {
+  levelId  String @db.Uuid
+  termId   String @db.Uuid
+  position Int
+
+  level Level @relation(fields: [levelId], references: [id], onDelete: Cascade)
+  term  Term  @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  @@id([levelId, termId])
+  @@index([levelId, position])
+  @@map("level_terms")
 }
 
 model Term {
@@ -156,6 +185,7 @@ model Term {
   examples  Example[]
   morphemes TermMorpheme[]
   lessons   LessonTerm[]
+  levels    LevelTerm[]
   cards     ReviewCard[]
   notebook  NotebookEntry[]
 
@@ -243,14 +273,17 @@ model LessonCompletion {
   id          String   @id @default(uuid()) @db.Uuid
   userId      String   @db.Uuid
   lessonId    String   @db.Uuid
+  levelId     String?  @db.Uuid
   score       Float
   xpEarned    Int
   completedAt DateTime @default(now())
 
   user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  level  Level? @relation(fields: [levelId], references: [id], onDelete: SetNull)
 
   @@index([userId, lessonId])
+  @@index([userId, levelId])
   @@map("lesson_completions")
 }
 

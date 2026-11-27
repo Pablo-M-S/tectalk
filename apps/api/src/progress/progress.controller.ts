@@ -5,12 +5,12 @@ import { ZodValidationPipe } from '../common/zod-validation.pipe';
 import { SubmitResultsInput, submitResultsSchema } from '../review/review.schemas';
 import { ProgressService } from './progress.service';
 
-@Controller('lessons')
+@Controller()
 @UseGuards(JwtAuthGuard)
 export class ProgressController {
   constructor(private readonly progress: ProgressService) {}
 
-  @Post(':id/complete')
+  @Post('lessons/:id/complete')
   @HttpCode(200)
   complete(
     @CurrentUser() user: AuthUser,
@@ -18,5 +18,15 @@ export class ProgressController {
     @Body(new ZodValidationPipe(submitResultsSchema)) body: SubmitResultsInput,
   ) {
     return this.progress.completeLesson(user.id, id, body.results);
+  }
+
+  @Post('levels/:id/complete')
+  @HttpCode(200)
+  completeLevel(
+    @CurrentUser() user: AuthUser,
+    @Param('id', ParseUUIDPipe) id: string,
+    @Body(new ZodValidationPipe(submitResultsSchema)) body: SubmitResultsInput,
+  ) {
+    return this.progress.completeLevel(user.id, id, body.results);
   }
 }

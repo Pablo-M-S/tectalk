@@ -69,7 +69,10 @@ function LessonRow({ lesson, onPress }: { lesson: LessonNode; onPress: () => voi
       <View style={{ flex: 1, gap: 2 }}>
         <Text variant="heading">{lesson.title}</Text>
         <Text variant="caption" tone="muted">
-          {lesson.termCount} termos{lesson.bestScore !== null ? ` · melhor resultado ${formatPercent(lesson.bestScore)}` : ''}
+          {lesson.levelCount > 0
+            ? `${lesson.levelsCompleted} de ${lesson.levelCount} níveis · ${lesson.termCount} termos`
+            : `${lesson.termCount} termos`}
+          {lesson.bestScore !== null ? ` · melhor ${formatPercent(lesson.bestScore)}` : ''}
         </Text>
       </View>
       <Ionicons name="chevron-forward" size={18} color={theme.muted} />
@@ -174,7 +177,7 @@ export default function TrailScreen() {
           <View key={unit.id} style={{ gap: 10 }}>
             <Text variant="label" tone="muted">{`Unidade ${index + 1} · ${unit.title}`}</Text>
             {unit.lessons.map((lesson) => (
-              <LessonRow key={lesson.id} lesson={lesson} onPress={() => router.push(`/lesson/${lesson.id}`)} />
+              <LessonRow key={lesson.id} lesson={lesson} onPress={() => router.push(`/levels/${lesson.id}`)} />
             ))}
           </View>
         ))}

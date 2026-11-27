@@ -6,6 +6,7 @@ import { PrismaService } from '../prisma/prisma.service';
 import { technicalShare, type Level } from './basic-english';
 import { ExerciseFactory, LocaleView, TermView } from './exercise.factory';
 import { Exercise } from './exercise.types';
+import { LEGACY_LEVELS } from './level-gate';
 
 export interface LanguagePair {
   profession: string;
@@ -83,6 +84,36 @@ export class ExerciseService {
     };
   }
 
+  /** Sessão de um nível: só os 3 a 4 termos do nível, com o restante da trilha como alternativas. */
+  async buildLevelSession(levelId: string, userId: string, basicAccuracy?: number) {
+    const found = await this.prisma.level.findFirst({
+      where: { id: levelId, lesson: { status: 'PUBLISHED', unit: { track: { status: 'PUBLISHED' } } } },
+      include: {
+        lesson: { include: { unit: { include: { track: true } } } },
+        terms: { orderBy: { position: 'asc' }, select: { termId: true } },
+      },
+    });
+    if (!found) throw new NotFoundException('Nível não encontrado');
+
+    const track = found.lesson.unit.track;
+    const pool = await this.loadViews(track);
+    const levelTermIds = new Set(found.terms.map((t) => t.termId));
+    const terms = pool.filter((view) => levelTermIds.has(view.id));
+    const level = await this.userLevel(userId);
+
+    return {
+      lesson: { id: found.id, title: found.title ?? found.lesson.title },
+      exercises: this.factory.buildLessonSession({
+        terms,
+        pool,
+        audioEnabled: this.audioEnabled,
+        technicalShare: await this.sessionShare(level, track.targetLanguage, basicAccuracy),
+        level,
+        language: track.targetLanguage,
+      }),
+    };
+  }
+
   /**
    * Prática livre: sessão nova a cada chamada, só com termos de lições que o
    * usuário já concluiu, misturando todos os tipos de exercício.
@@ -93,12 +124,14 @@ export class ExerciseService {
     });
     if (!track) throw new NotFoundException('Trilha não encontrada');
 
-    const studied = await this.prisma.lessonTerm.findMany({
+    const studied = await this.prisma.levelTerm.findMany({
       where: {
-        lesson: {
-          status: 'PUBLISHED',
-          unit: { trackId: track.id },
-          completions: { some: { userId } },
+        level: {
+          lesson: { status: 'PUBLISHED', unit: { trackId: track.id } },
+          OR: [
+            { completions: { some: { userId } } },
+            { position: { lte: LEGACY_LEVELS }, lesson: { completions: { some: { userId, levelId: null } } } },
+          ],
         },
       },
       select: { termId: true },

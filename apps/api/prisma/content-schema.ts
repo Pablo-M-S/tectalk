@@ -68,6 +68,10 @@ export const contentSchema = z.object({
           title: z.string(),
           position: z.number().int(),
           terms: z.array(termSchema),
+          /** Grupos de 3 a 4 termos (por slug). Sem isso, o seed divide a lição em níveis iguais. */
+          levels: z
+            .array(z.object({ title: z.string().min(1), terms: z.array(z.string()).min(1) }))
+            .optional(),
         }),
       ),
     }),
@@ -75,6 +79,42 @@ export const contentSchema = z.object({
 });
 
 export type Content = z.infer<typeof contentSchema>;
+
+export const LEVEL_MIN_TERMS = 3;
+export const LEVEL_MAX_TERMS = 4;
+
+/** Divide uma lista em grupos de tamanho parecido, de no máximo 4 itens (6 vira 3 + 3). */
+export function splitIntoLevels<T>(items: T[]): T[][] {
+  if (items.length === 0) return [];
+  const count = Math.ceil(items.length / LEVEL_MAX_TERMS);
+  const base = Math.floor(items.length / count);
+  const extra = items.length % count;
+  const groups: T[][] = [];
+  let cursor = 0;
+  for (let i = 0; i < count; i++) {
+    const size = base + (i < extra ? 1 : 0);
+    groups.push(items.slice(cursor, cursor + size));
+    cursor += size;
+  }
+  return groups;
+}
+
+export interface PlannedLevel {
+  title: string | null;
+  terms: Content['units'][number]['lessons'][number]['terms'];
+}
+
+/** Níveis de uma lição: os declarados no JSON ou, na falta deles, uma divisão automática. */
+export function planLevels(lesson: Content['units'][number]['lessons'][number]): PlannedLevel[] {
+  if (!lesson.levels) {
+    return splitIntoLevels(lesson.terms).map((terms) => ({ title: null, terms }));
+  }
+  const bySlug = new Map(lesson.terms.map((t) => [t.slug, t]));
+  return lesson.levels.map((level) => ({
+    title: level.title,
+    terms: level.terms.map((slug) => bySlug.get(slug) as (typeof lesson.terms)[number]),
+  }));
+}
 
 /** Falha cedo, com mensagem clara, se o JSON tiver inconsistência de conteúdo. */
 export function assertConsistent(content: Content): void {
@@ -84,6 +124,18 @@ export function assertConsistent(content: Content): void {
 
   for (const unit of content.units) {
     for (const lesson of unit.lessons) {
+      if (lesson.levels) {
+        const own = new Set(lesson.terms.map((t) => t.slug));
+        const placed = lesson.levels.flatMap((level) => level.terms);
+        for (const level of lesson.levels) {
+          if (level.terms.length < LEVEL_MIN_TERMS || level.terms.length > LEVEL_MAX_TERMS) {
+            throw new Error(`Nível "${level.title}" da lição "${lesson.slug}" deve ter de 3 a 4 termos`);
+          }
+        }
+        if (placed.length !== own.size || new Set(placed).size !== placed.length || placed.some((slug) => !own.has(slug))) {
+          throw new Error(`Os níveis da lição "${lesson.slug}" devem usar cada termo da lição exatamente uma vez`);
+        }
+      }
       for (const term of lesson.terms) {
         if (slugs.has(term.slug)) throw new Error(`Termo duplicado: ${term.slug}`);
         slugs.add(term.slug);

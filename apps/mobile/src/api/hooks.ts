@@ -90,10 +90,11 @@ function basicQuery(): string {
   return accuracy === undefined ? '' : `?basic=${accuracy.toFixed(2)}`;
 }
 
+/** O id recebido é o de um nível: cada sessão ensina 3 ou 4 termos. */
 export function useLessonSession(lessonId: string) {
   return useQuery({
     queryKey: ['session', lessonId],
-    queryFn: () => request<LessonSession>(`/v1/lessons/${lessonId}/session${basicQuery()}`),
+    queryFn: () => request<LessonSession>(`/v1/levels/${lessonId}/session${basicQuery()}`),
     staleTime: Infinity,
     gcTime: 0,
     retry: 1,
@@ -137,7 +138,7 @@ export function useCompleteLesson() {
   const refresh = useRefreshProgress();
   return useMutation({
     mutationFn: (input: { lessonId: string; results: ExerciseResult[] }) =>
-      request<CompleteResponse>(`/v1/lessons/${input.lessonId}/complete`, {
+      request<CompleteResponse>(`/v1/levels/${input.lessonId}/complete`, {
         method: 'POST',
         body: { results: input.results },
       }),

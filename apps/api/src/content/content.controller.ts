@@ -43,4 +43,13 @@ export class ContentController {
   ) {
     return this.exercises.buildLessonSession(id, user.id, parseAccuracy(basic));
   }
+
+  @Get('levels/:id/session')
+  getLevelSession(
+    @Param('id', ParseUUIDPipe) id: string,
+    @CurrentUser() user: AuthUser,
+    @Query('basic') basic?: string,
+  ) {
+    return this.exercises.buildLevelSession(id, user.id, parseAccuracy(basic));
+  }
 }

@@ -13,7 +13,7 @@ import { radius, useTheme } from '@/theme/theme';
 export default function ResultScreen() {
   const theme = useTheme();
   const router = useRouter();
-  const params = useLocalSearchParams<{ kind: string; correct: string; total: string; xp: string; streak: string; xpTotal?: string }>();
+  const params = useLocalSearchParams<{ kind: string; lessonId?: string; correct: string; total: string; xp: string; streak: string; xpTotal?: string }>();
 
   const correct = Number(params.correct ?? 0);
   const total = Number(params.total ?? 0);
@@ -41,7 +41,7 @@ export default function ResultScreen() {
           <View style={{ alignSelf: 'flex-start', marginBottom: 4 }}>
             <Mascot role={role} height={190} halo />
           </View>
-          <Text variant="label" tone="primary">{params.kind === 'review' ? 'Revisão concluída' : params.kind === 'practice' ? 'Prática concluída' : 'Lição concluída'}</Text>
+          <Text variant="label" tone="primary">{params.kind === 'review' ? 'Revisão concluída' : params.kind === 'practice' ? 'Prática concluída' : 'Nível concluído'}</Text>
           <Text variant="display">{headline}</Text>
           <Text tone="muted">{note}</Text>
         </View>
@@ -78,7 +78,14 @@ export default function ResultScreen() {
         ) : null}
       </View>
 
-      <Button label="Continuar" onPress={() => router.replace('/trail')} />
+      <Button
+        label="Continuar"
+        onPress={() =>
+          params.kind === 'lesson' && params.lessonId
+            ? router.dismissTo({ pathname: '/levels/[id]', params: { id: params.lessonId } })
+            : router.replace('/trail')
+        }
+      />
     </SafeAreaView>
   );
 }

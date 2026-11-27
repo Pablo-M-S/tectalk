@@ -46,6 +46,15 @@ export interface TrackSummary {
 
 export type LessonStatus = 'LOCKED' | 'AVAILABLE' | 'COMPLETED';
 
+export interface LevelNode {
+  id: string;
+  position: number;
+  title: string | null;
+  termCount: number;
+  completed: boolean;
+  bestScore: number | null;
+}
+
 export interface LessonNode {
   id: string;
   slug: string;
@@ -53,6 +62,11 @@ export interface LessonNode {
   termCount: number;
   status: LessonStatus;
   bestScore: number | null;
+  levelCount: number;
+  levelsCompleted: number;
+  /** Níveis a concluir para liberar a próxima lição. */
+  requiredLevels: number;
+  levels: LevelNode[];
 }
 
 export interface UnitNode {

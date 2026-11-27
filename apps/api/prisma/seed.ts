@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { PrismaClient } from '@prisma/client';
-import { assertConsistent, contentSchema, languageSchema } from './content-schema';
+import { assertConsistent, contentSchema, languageSchema, planLevels } from './content-schema';
 
 async function main(): Promise<void> {
   const contentDir = join(__dirname, 'content');
@@ -74,6 +74,7 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
             });
 
             const lessonTerms: { lessonId: string; termId: string; position: number }[] = [];
+            const termIds = new Map<string, string>();
 
             for (const [index, termInput] of lessonInput.terms.entries()) {
               const term = await tx.term.upsert({
@@ -112,12 +113,32 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
                 });
               }
 
+              termIds.set(termInput.slug, term.id);
               lessonTerms.push({ lessonId: lesson.id, termId: term.id, position: index + 1 });
               termCount++;
             }
 
             await tx.lessonTerm.deleteMany({ where: { lessonId: lesson.id } });
             await tx.lessonTerm.createMany({ data: lessonTerms });
+
+            const planned = planLevels(lessonInput);
+            for (const [index, plan] of planned.entries()) {
+              const position = index + 1;
+              const level = await tx.level.upsert({
+                where: { lessonId_position: { lessonId: lesson.id, position } },
+                create: { lessonId: lesson.id, position, title: plan.title },
+                update: { title: plan.title },
+              });
+              await tx.levelTerm.deleteMany({ where: { levelId: level.id } });
+              await tx.levelTerm.createMany({
+                data: plan.terms.map((t, i) => ({
+                  levelId: level.id,
+                  termId: termIds.get(t.slug) as string,
+                  position: i + 1,
+                })),
+              });
+            }
+            await tx.level.deleteMany({ where: { lessonId: lesson.id, position: { gt: planned.length } } });
           }
         }
 

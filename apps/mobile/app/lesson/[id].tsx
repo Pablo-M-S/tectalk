@@ -8,7 +8,7 @@ import { ErrorState, LoadingState } from '@/components/States';
 import { useLoadingHold } from '@/lib/useLoadingHold';
 
 export default function LessonScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, lessonId } = useLocalSearchParams<{ id: string; lessonId?: string }>();
   const router = useRouter();
   const session = useLessonSession(id);
   const complete = useCompleteLesson();
@@ -24,6 +24,7 @@ export default function LessonScreen() {
               pathname: '/result',
               params: {
                 kind: 'lesson',
+                ...(lessonId ? { lessonId } : {}),
                 correct: String(data.correct),
                 total: String(data.total),
                 xp: String(data.xpEarned),
@@ -39,12 +40,12 @@ export default function LessonScreen() {
         },
       );
     },
-    [complete, id, router],
+    [complete, id, lessonId, router],
   );
 
   if (holding && !session.isError) return <LoadingState label="Preparando a lição…" />;
   if (session.isError || !session.data) {
-    return <ErrorState message={session.error?.message ?? 'Lição indisponível.'} onRetry={() => void session.refetch()} />;
+    return <ErrorState message={session.error?.message ?? 'Nível indisponível.'} onRetry={() => void session.refetch()} />;
   }
 
   return (
