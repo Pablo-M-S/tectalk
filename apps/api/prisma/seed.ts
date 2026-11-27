@@ -3,6 +3,22 @@ import { join, resolve } from 'node:path';
 import { PrismaClient } from '@prisma/client';
 import { assertConsistent, contentSchema, languageSchema, planLevels } from './content-schema';
 
+const TRANSIENT = new Set(['P1001', 'P1002', 'P1008', 'P1017', 'P2024', 'P2028']);
+
+// Conexões com o Neon caem de vez em quando (suspensão, limite de conexões). Todas as gravações
+// do seed são idempotentes, então repetir a operação com espera crescente é seguro.
+async function withRetry<T>(operation: () => Promise<T>, attempts = 6): Promise<T> {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await operation();
+    } catch (error) {
+      const code = (error as { code?: string }).code;
+      if (attempt >= attempts || !code || !TRANSIENT.has(code)) throw error;
+      await new Promise((done) => setTimeout(done, 1000 * attempt));
+    }
+  }
+}
+
 async function main(): Promise<void> {
   const contentDir = join(__dirname, 'content');
   const files = process.argv[2]
@@ -14,6 +30,7 @@ async function main(): Promise<void> {
 
   const prisma = new PrismaClient();
   try {
+    await withRetry(() => prisma.$connect());
     for (const file of files) {
       await seedFile(prisma, file);
     }
@@ -122,32 +139,36 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
             };
 
             const entries = [...lessonInput.terms.entries()];
-            for (let i = 0; i < entries.length; i += 8) {
-              await Promise.all(entries.slice(i, i + 8).map(([index, termInput]) => seedTerm(termInput, index)));
+            for (let i = 0; i < entries.length; i += 4) {
+              await Promise.all(
+                entries.slice(i, i + 4).map(([index, termInput]) => withRetry(() => seedTerm(termInput, index))),
+              );
             }
             lessonTerms.sort((a, b) => a.position - b.position);
 
-            await tx.lessonTerm.deleteMany({ where: { lessonId: lesson.id } });
-            await tx.lessonTerm.createMany({ data: lessonTerms });
+            await withRetry(async () => {
+              await tx.lessonTerm.deleteMany({ where: { lessonId: lesson.id } });
+              await tx.lessonTerm.createMany({ data: lessonTerms });
 
-            const planned = planLevels(lessonInput);
-            for (const [index, plan] of planned.entries()) {
-              const position = index + 1;
-              const level = await tx.level.upsert({
-                where: { lessonId_position: { lessonId: lesson.id, position } },
-                create: { lessonId: lesson.id, position, title: plan.title },
-                update: { title: plan.title },
-              });
-              await tx.levelTerm.deleteMany({ where: { levelId: level.id } });
-              await tx.levelTerm.createMany({
-                data: plan.terms.map((t, i) => ({
-                  levelId: level.id,
-                  termId: termIds.get(t.slug) as string,
-                  position: i + 1,
-                })),
-              });
-            }
-            await tx.level.deleteMany({ where: { lessonId: lesson.id, position: { gt: planned.length } } });
+              const planned = planLevels(lessonInput);
+              for (const [index, plan] of planned.entries()) {
+                const position = index + 1;
+                const level = await tx.level.upsert({
+                  where: { lessonId_position: { lessonId: lesson.id, position } },
+                  create: { lessonId: lesson.id, position, title: plan.title },
+                  update: { title: plan.title },
+                });
+                await tx.levelTerm.deleteMany({ where: { levelId: level.id } });
+                await tx.levelTerm.createMany({
+                  data: plan.terms.map((t, i) => ({
+                    levelId: level.id,
+                    termId: termIds.get(t.slug) as string,
+                    position: i + 1,
+                  })),
+                });
+              }
+              await tx.level.deleteMany({ where: { lessonId: lesson.id, position: { gt: planned.length } } });
+            });
           }
         }
 
