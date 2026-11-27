@@ -27,8 +27,9 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
   assertConsistent(content);
 
   {
-    const counts = await prisma.$transaction(
-      async (tx) => {
+    // Sem transação única: com milhares de termos ela estoura o tempo limite. Todas as
+    // operações são upserts/substituições idempotentes, então repetir o seed é seguro.
+    const counts = await (async (tx: PrismaClient) => {
         const status = content.status;
         const trackData = { ...content.track, status };
         const track = await tx.track.upsert({
@@ -76,21 +77,23 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
             const lessonTerms: { lessonId: string; termId: string; position: number }[] = [];
             const termIds = new Map<string, string>();
 
-            for (const [index, termInput] of lessonInput.terms.entries()) {
+            const seedTerm = async (termInput: (typeof lessonInput.terms)[number], index: number) => {
               const term = await tx.term.upsert({
                 where: { slug: termInput.slug },
                 create: { slug: termInput.slug, domain: track.profession, status },
                 update: { domain: track.profession, status },
               });
 
-              for (const [key, locale] of Object.entries(termInput.locales)) {
-                const language = languageSchema.parse(key);
-                await tx.termLocale.upsert({
-                  where: { termId_language: { termId: term.id, language } },
-                  create: { termId: term.id, language, ...locale },
-                  update: locale,
-                });
-              }
+              await Promise.all(
+                Object.entries(termInput.locales).map(([key, locale]) => {
+                  const language = languageSchema.parse(key);
+                  return tx.termLocale.upsert({
+                    where: { termId_language: { termId: term.id, language } },
+                    create: { termId: term.id, language, ...locale },
+                    update: locale,
+                  });
+                }),
+              );
 
               await tx.example.deleteMany({ where: { termId: term.id, language: content.track.targetLanguage } });
               if (termInput.examples.length > 0) {
@@ -116,7 +119,13 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
               termIds.set(termInput.slug, term.id);
               lessonTerms.push({ lessonId: lesson.id, termId: term.id, position: index + 1 });
               termCount++;
+            };
+
+            const entries = [...lessonInput.terms.entries()];
+            for (let i = 0; i < entries.length; i += 8) {
+              await Promise.all(entries.slice(i, i + 8).map(([index, termInput]) => seedTerm(termInput, index)));
             }
+            lessonTerms.sort((a, b) => a.position - b.position);
 
             await tx.lessonTerm.deleteMany({ where: { lessonId: lesson.id } });
             await tx.lessonTerm.createMany({ data: lessonTerms });
@@ -143,9 +152,7 @@ async function seedFile(prisma: PrismaClient, file: string): Promise<void> {
         }
 
         return { termCount, morphemeCount: morphemeIds.size };
-      },
-      { timeout: 120_000, maxWait: 20_000 },
-    );
+    })(prisma);
 
     console.log(
       `Seed concluído (${content.track.slug}): ${counts.termCount} termos, ${counts.morphemeCount} morfemas.`,
