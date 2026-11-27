@@ -651,6 +651,1590 @@
                   "documentType": "OPERATIVE_NOTE"
                 }
               ]
+            },
+            {
+              "slug": "left-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio esquerdo",
+                  "definition": "Câmara superior esquerda que recebe o sangue oxigenado das veias pulmonares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "left atrium",
+                  "definition": "Upper left chamber that receives oxygenated blood from the pulmonary veins.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo anatômico básico em laudos de ecocardiograma. Aparece com frequência ao descrever dilatação associada a fibrilação atrial e doença mitral.",
+                  "collocations": [
+                    "dilated left atrium",
+                    "left atrium enlargement"
+                  ]
+                },
+                "ES": {
+                  "text": "aurícula izquierda",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "linker Vorhof",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "左心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さしんぼう",
+                  "romanization": "sashinbou"
+                },
+                "ZH": {
+                  "text": "左心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zuǒ xīnfáng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Echocardiography showed a dilated left atrium in the patient with mitral stenosis.",
+                  "answer": "left atrium",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Oxygenated blood returns from the lungs to the left atrium.",
+                  "answer": "left atrium",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "right-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio direito",
+                  "definition": "Câmara superior direita que recebe o sangue venoso das veias cavas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "right atrium",
+                  "definition": "Upper right chamber that receives venous blood from the vena cavae.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Local do nó sinusal, o marca-passo natural do coração. Frequente em descrições de cateterismo e ecocardiograma.",
+                  "collocations": [
+                    "right atrium pressure",
+                    "right atrium enlargement"
+                  ]
+                },
+                "ES": {
+                  "text": "aurícula derecha",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "rechter Vorhof",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "右心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "うしんぼう",
+                  "romanization": "ushinbou"
+                },
+                "ZH": {
+                  "text": "右心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yòu xīnfáng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The right atrium receives deoxygenated blood from the body.",
+                  "answer": "right atrium",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A catheter was advanced into the right atrium under fluoroscopy.",
+                  "answer": "right atrium",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "left-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo esquerdo",
+                  "definition": "Câmara inferior esquerda de parede espessa que bombeia o sangue para a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "left ventricle",
+                  "definition": "Thick-walled lower left chamber that pumps blood into the aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Principal câmara de bombeamento. Em laudos aparece muito junto a fração de ejeção e hipertrofia.",
+                  "collocations": [
+                    "left ventricle hypertrophy",
+                    "left ventricle function"
+                  ]
+                },
+                "ES": {
+                  "text": "ventrículo izquierdo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "linker Ventrikel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "左心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さしんしつ",
+                  "romanization": "sashinshitsu"
+                },
+                "ZH": {
+                  "text": "左心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zuǒ xīnshì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The left ventricle pumps oxygenated blood into the aorta.",
+                  "answer": "left ventricle",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Echocardiography estimated the left ventricle ejection fraction at 35%.",
+                  "answer": "left ventricle",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "right-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo direito",
+                  "definition": "Câmara inferior direita que bombeia o sangue para os pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "right ventricle",
+                  "definition": "Lower right chamber that pumps blood to the lungs.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tem parede mais fina que o ventrículo esquerdo. É citado em hipertensão pulmonar e em embolia pulmonar.",
+                  "collocations": [
+                    "right ventricle failure",
+                    "right ventricle dilation"
+                  ]
+                },
+                "ES": {
+                  "text": "ventrículo derecho",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "rechter Ventrikel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "右心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "うしんしつ",
+                  "romanization": "ushinshitsu"
+                },
+                "ZH": {
+                  "text": "右心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yòu xīnshì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The right ventricle pumps blood to the lungs through the pulmonary artery.",
+                  "answer": "right ventricle",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Pulmonary hypertension can cause right ventricle failure.",
+                  "answer": "right ventricle",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "interatrial-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interatrial",
+                  "definition": "Parede que separa o átrio direito do átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "interatrial septum",
+                  "definition": "Wall separating the right atrium from the left atrium.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo-chave em cardiopatias congênitas, como a comunicação interatrial. Contém a fossa oval.",
+                  "collocations": [
+                    "interatrial septum defect",
+                    "interatrial septum closure"
+                  ]
+                },
+                "ES": {
+                  "text": "tabique interauricular",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorhofseptum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心房中隔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんぼうちゅうかく",
+                  "romanization": "shinbouchuukaku"
+                },
+                "ZH": {
+                  "text": "房间隔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fángjiāngé"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A small defect was seen in the interatrial septum on the echocardiogram.",
+                  "answer": "interatrial septum",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The surgeon closed the hole in the interatrial septum with a patch.",
+                  "answer": "interatrial septum",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "interventricular-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interventricular",
+                  "definition": "Parede muscular que separa os ventrículos direito e esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "interventricular septum",
+                  "definition": "Muscular wall separating the right and left ventricles.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pode sofrer ruptura após infarto. Sua espessura é medida na ecocardiografia.",
+                  "collocations": [
+                    "interventricular septum thickness",
+                    "interventricular septum rupture"
+                  ]
+                },
+                "ES": {
+                  "text": "tabique interventricular",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kammerseptum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心室中隔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんしつちゅうかく",
+                  "romanization": "shinshitsuchuukaku"
+                },
+                "ZH": {
+                  "text": "室间隔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shìjiāngé"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Hypertrophy of the interventricular septum was noted on echocardiography.",
+                  "answer": "interventricular septum",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A ventricular septal defect is a hole in the interventricular septum.",
+                  "answer": "interventricular septum",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "cardiac-apex",
+              "locales": {
+                "PT": {
+                  "text": "ápice do coração",
+                  "definition": "Ponta inferior do coração, formada pelo ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cardiac apex",
+                  "definition": "Lower tip of the heart, formed by the left ventricle.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Corresponde ao ponto de máximo impulso na palpação. Fica no quinto espaço intercostal esquerdo.",
+                  "collocations": [
+                    "cardiac apex beat",
+                    "cardiac apex thrombus"
+                  ]
+                },
+                "ES": {
+                  "text": "ápex cardíaco",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzspitze",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心尖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんせん",
+                  "romanization": "shinsen"
+                },
+                "ZH": {
+                  "text": "心尖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnjiān"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The apical pulse was palpated at the cardiac apex.",
+                  "answer": "cardiac apex",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Thrombus was seen at the cardiac apex after the infarction.",
+                  "answer": "cardiac apex",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "cardiac-base",
+              "locales": {
+                "PT": {
+                  "text": "base do coração",
+                  "definition": "Parte superior e posterior do coração, onde chegam e saem os grandes vasos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cardiac base",
+                  "definition": "Upper posterior part of the heart where the great vessels enter and leave.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Contrasta com o ápice. Em ausculta, fala-se em \"foco da base\" para aórtico e pulmonar.",
+                  "collocations": [
+                    "cardiac base murmur",
+                    "cardiac base anatomy"
+                  ]
+                },
+                "ES": {
+                  "text": "base del corazón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzbasis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心基部",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんきぶ",
+                  "romanization": "shinkibu"
+                },
+                "ZH": {
+                  "text": "心底部",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīndǐbù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The great vessels attach to the cardiac base.",
+                  "answer": "cardiac base",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A murmur was loudest over the cardiac base.",
+                  "answer": "cardiac base",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "mitral-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva mitral",
+                  "definition": "Valva de dois folhetos entre o átrio esquerdo e o ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "mitral valve",
+                  "definition": "Two-leaflet valve between the left atrium and the left ventricle.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também chamada bicúspide. Termo muito comum em cirurgia cardíaca e em laudos de eco.",
+                  "collocations": [
+                    "mitral valve repair",
+                    "mitral valve prolapse"
+                  ]
+                },
+                "ES": {
+                  "text": "válvula mitral",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mitralklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "僧帽弁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "そうぼうべん",
+                  "romanization": "soubouben"
+                },
+                "ZH": {
+                  "text": "二尖瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "èrjiānbàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Severe regurgitation of the mitral valve was seen on echocardiography.",
+                  "answer": "mitral valve",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The patient underwent mitral valve repair last month.",
+                  "answer": "mitral valve",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "tricuspid-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva tricúspide",
+                  "definition": "Valva de três folhetos entre o átrio direito e o ventrículo direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "tricuspid valve",
+                  "definition": "Three-leaflet valve between the right atrium and the right ventricle.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Regurgitação leve é achado comum e muitas vezes sem importância clínica.",
+                  "collocations": [
+                    "tricuspid valve regurgitation",
+                    "tricuspid valve repair"
+                  ]
+                },
+                "ES": {
+                  "text": "válvula tricúspide",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Trikuspidalklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "三尖弁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さんせんべん",
+                  "romanization": "sansenben"
+                },
+                "ZH": {
+                  "text": "三尖瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sānjiānbàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Mild regurgitation of the tricuspid valve was noted.",
+                  "answer": "tricuspid valve",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Endocarditis can damage the tricuspid valve in drug users.",
+                  "answer": "tricuspid valve",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "papillary-muscle",
+              "locales": {
+                "PT": {
+                  "text": "músculo papilar",
+                  "definition": "Projeção muscular da parede ventricular que sustenta as cordas tendíneas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "papillary muscle",
+                  "definition": "Muscular projection of the ventricular wall that anchors the chordae tendineae.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A ruptura pode ocorrer no infarto e causa insuficiência mitral aguda.",
+                  "collocations": [
+                    "papillary muscle rupture",
+                    "papillary muscle dysfunction"
+                  ]
+                },
+                "ES": {
+                  "text": "músculo papilar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Papillarmuskel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "乳頭筋",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にゅうとうきん",
+                  "romanization": "nyuutoukin"
+                },
+                "ZH": {
+                  "text": "乳头肌",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rǔtóujī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A ruptured papillary muscle caused acute mitral regurgitation.",
+                  "answer": "papillary muscle",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each papillary muscle is attached to the valve by fine cords.",
+                  "answer": "papillary muscle",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "chordae-tendineae",
+              "locales": {
+                "PT": {
+                  "text": "cordas tendíneas",
+                  "definition": "Finos cordões fibrosos que ligam os músculos papilares aos folhetos valvares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "chordae tendineae",
+                  "definition": "Fine fibrous cords linking papillary muscles to the valve leaflets.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Evitam que os folhetos prolapsem para o átrio durante a sístole. Em latim, o termo já é plural.",
+                  "collocations": [
+                    "chordae tendineae rupture",
+                    "chordae tendineae elongation"
+                  ]
+                },
+                "ES": {
+                  "text": "cuerdas tendinosas",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sehnenfäden",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "腱索",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんさく",
+                  "romanization": "kensaku"
+                },
+                "ZH": {
+                  "text": "腱索",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiànsuǒ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Rupture of the chordae tendineae can cause a flail leaflet.",
+                  "answer": "chordae tendineae",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The surgeon replaced the damaged chordae tendineae with sutures.",
+                  "answer": "chordae tendineae",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "aortic-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva aórtica",
+                  "definition": "Valva de três folhetos entre o ventrículo esquerdo e a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "aortic valve",
+                  "definition": "Three-leaflet valve between the left ventricle and the aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Estenose aórtica é a doença valvar mais comum em idosos. Pode ser tratada por cirurgia ou por TAVI.",
+                  "collocations": [
+                    "aortic valve stenosis",
+                    "aortic valve replacement"
+                  ]
+                },
+                "ES": {
+                  "text": "válvula aórtica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Aortenklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "大動脈弁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だいどうみゃくべん",
+                  "romanization": "daidoumyakuben"
+                },
+                "ZH": {
+                  "text": "主动脉瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhǔdòngmàibàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Calcification of the aortic valve narrows the opening.",
+                  "answer": "aortic valve",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The patient underwent aortic valve replacement for severe stenosis.",
+                  "answer": "aortic valve",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "pulmonary-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva pulmonar",
+                  "definition": "Valva de três folhetos entre o ventrículo direito e a artéria pulmonar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pulmonary valve",
+                  "definition": "Three-leaflet valve between the right ventricle and the pulmonary artery.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Doenças dessa valva costumam ser congênitas, como na tetralogia de Fallot.",
+                  "collocations": [
+                    "pulmonary valve stenosis",
+                    "pulmonary valve regurgitation"
+                  ]
+                },
+                "ES": {
+                  "text": "válvula pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pulmonalklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肺動脈弁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいどうみゃくべん",
+                  "romanization": "haidoumyakuben"
+                },
+                "ZH": {
+                  "text": "肺动脉瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèidòngmàibàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Stenosis of the pulmonary valve is usually congenital.",
+                  "answer": "pulmonary valve",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Blood flows through the pulmonary valve during systole.",
+                  "answer": "pulmonary valve",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "valve-leaflet",
+              "locales": {
+                "PT": {
+                  "text": "folheto valvar",
+                  "definition": "Cada uma das lâminas finas e móveis que abrem e fecham a valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "valve leaflet",
+                  "definition": "Each thin movable flap that opens and closes the valve.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também chamado cúspide. A mitral tem dois folhetos; a aórtica e a tricúspide, três.",
+                  "collocations": [
+                    "valve leaflet prolapse",
+                    "valve leaflet thickening"
+                  ]
+                },
+                "ES": {
+                  "text": "valva",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Klappensegel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "弁尖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "べんせん",
+                  "romanization": "bensen"
+                },
+                "ZH": {
+                  "text": "瓣叶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bànyè"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Thickening of the valve leaflet restricts its movement.",
+                  "answer": "valve leaflet",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A flail valve leaflet causes severe regurgitation.",
+                  "answer": "valve leaflet",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "valve-annulus",
+              "locales": {
+                "PT": {
+                  "text": "anel valvar",
+                  "definition": "Anel fibroso que serve de base de fixação aos folhetos da valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "valve annulus",
+                  "definition": "Fibrous ring that anchors the valve leaflets.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sua dilatação é causa frequente de regurgitação valvar. Em cirurgia, é reforçado com um anel protético.",
+                  "collocations": [
+                    "valve annulus dilation",
+                    "valve annulus calcification"
+                  ]
+                },
+                "ES": {
+                  "text": "anillo valvular",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Klappenring",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "弁輪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "べんりん",
+                  "romanization": "benrin"
+                },
+                "ZH": {
+                  "text": "瓣环",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bànhuán"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The surgeon placed a ring around the valve annulus.",
+                  "answer": "valve annulus",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Calcification of the valve annulus is common in older patients.",
+                  "answer": "valve annulus",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "epicardium",
+              "locales": {
+                "PT": {
+                  "text": "epicárdio",
+                  "definition": "Camada mais externa da parede do coração, lâmina visceral do pericárdio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "epicardium",
+                  "definition": "Outermost layer of the heart wall, the visceral layer of the pericardium.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Contém as artérias coronárias e gordura. Camada externa da parede, seguida do miocárdio e do endocárdio.",
+                  "collocations": [
+                    "epicardium fat",
+                    "epicardium layer"
+                  ]
+                },
+                "ES": {
+                  "text": "epicardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Epikard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心外膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんがいまく",
+                  "romanization": "shingaimaku"
+                },
+                "ZH": {
+                  "text": "心外膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnwàimó"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The coronary arteries run along the epicardium.",
+                  "answer": "epicardium",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Fat accumulates under the epicardium in obese patients.",
+                  "answer": "epicardium",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "endocardium",
+              "locales": {
+                "PT": {
+                  "text": "endocárdio",
+                  "definition": "Camada mais interna da parede do coração, que reveste as câmaras e as valvas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "endocardium",
+                  "definition": "Innermost layer of the heart wall lining the chambers and valves.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Revestimento liso que reduz o atrito com o sangue. Sua infecção é a endocardite.",
+                  "collocations": [
+                    "endocardium layer",
+                    "endocardium damage"
+                  ]
+                },
+                "ES": {
+                  "text": "endocardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Endokard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心内膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんないまく",
+                  "romanization": "shinnaimaku"
+                },
+                "ZH": {
+                  "text": "心内膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnnèimó"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The endocardium lines the chambers and the valves.",
+                  "answer": "endocardium",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Infection of the endocardium causes bacterial endocarditis.",
+                  "answer": "endocardium",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "fibrous-pericardium",
+              "locales": {
+                "PT": {
+                  "text": "pericárdio fibroso",
+                  "definition": "Camada externa resistente do pericárdio que ancora o coração no tórax.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "fibrous pericardium",
+                  "definition": "Tough outer layer of the pericardium that anchors the heart in the chest.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Camada rígida que impede a distensão súbita do coração. Em tamponamento, essa rigidez agrava a compressão.",
+                  "collocations": [
+                    "fibrous pericardium layer",
+                    "fibrous pericardium thickening"
+                  ]
+                },
+                "ES": {
+                  "text": "pericardio fibroso",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "fibröses Perikard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "線維性心膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せんいせいしんまく",
+                  "romanization": "seniseishinmaku"
+                },
+                "ZH": {
+                  "text": "纤维性心包",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiānwéixìng xīnbāo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The fibrous pericardium limits sudden dilation of the heart.",
+                  "answer": "fibrous pericardium",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The fibrous pericardium fuses with the diaphragm below.",
+                  "answer": "fibrous pericardium",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "pericardial-cavity",
+              "locales": {
+                "PT": {
+                  "text": "cavidade pericárdica",
+                  "definition": "Espaço virtual entre as lâminas visceral e parietal do pericárdio, com pouco líquido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pericardial cavity",
+                  "definition": "Potential space between the visceral and parietal layers of the pericardium, holding a little fluid.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Contém cerca de 20 a 50 mL de líquido. Acúmulo excessivo é derrame pericárdico.",
+                  "collocations": [
+                    "pericardial cavity fluid",
+                    "pericardial cavity drainage"
+                  ]
+                },
+                "ES": {
+                  "text": "cavidad pericárdica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Perikardhöhle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "心膜腔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんまくくう",
+                  "romanization": "shinmakukuu"
+                },
+                "ZH": {
+                  "text": "心包腔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnbāoqiāng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A small amount of fluid is normal in the pericardial cavity.",
+                  "answer": "pericardial cavity",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Blood in the pericardial cavity can cause cardiac tamponade.",
+                  "answer": "pericardial cavity",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "superior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava superior",
+                  "definition": "Grande veia que leva o sangue da metade superior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "superior vena cava",
+                  "definition": "Large vein carrying blood from the upper body to the right atrium.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sua compressão causa a síndrome da veia cava superior. Cateteres centrais terminam nela.",
+                  "collocations": [
+                    "superior vena cava syndrome",
+                    "superior vena cava catheter"
+                  ]
+                },
+                "ES": {
+                  "text": "vena cava superior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vena cava superior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "上大静脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じょうだいじょうみゃく",
+                  "romanization": "joudaijoumyaku"
+                },
+                "ZH": {
+                  "text": "上腔静脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shàngqiāng jìngmài"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The superior vena cava drains blood from the head and arms.",
+                  "answer": "superior vena cava",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A tumor compressing the superior vena cava causes facial swelling.",
+                  "answer": "superior vena cava",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "inferior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava inferior",
+                  "definition": "Grande veia que leva o sangue da metade inferior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "inferior vena cava",
+                  "definition": "Large vein carrying blood from the lower body to the right atrium.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Seu colapso à ecografia indica hipovolemia. Filtros nela previnem embolia pulmonar.",
+                  "collocations": [
+                    "inferior vena cava filter",
+                    "inferior vena cava collapse"
+                  ]
+                },
+                "ES": {
+                  "text": "vena cava inferior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vena cava inferior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "下大静脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かだいじょうみゃく",
+                  "romanization": "kadaijoumyaku"
+                },
+                "ZH": {
+                  "text": "下腔静脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiàqiāng jìngmài"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The inferior vena cava returns blood from the legs and abdomen.",
+                  "answer": "inferior vena cava",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A filter was placed in the inferior vena cava to prevent embolism.",
+                  "answer": "inferior vena cava",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "pulmonary-artery",
+              "locales": {
+                "PT": {
+                  "text": "artéria pulmonar",
+                  "definition": "Vaso que leva o sangue pouco oxigenado do ventrículo direito aos pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pulmonary artery",
+                  "definition": "Vessel carrying poorly oxygenated blood from the right ventricle to the lungs.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Única artéria que leva sangue venoso. A pressão elevada define hipertensão pulmonar.",
+                  "collocations": [
+                    "pulmonary artery pressure",
+                    "pulmonary artery catheter"
+                  ]
+                },
+                "ES": {
+                  "text": "arteria pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Truncus pulmonalis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肺動脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいどうみゃく",
+                  "romanization": "haidoumyaku"
+                },
+                "ZH": {
+                  "text": "肺动脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèidòngmài"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The pulmonary artery carries deoxygenated blood to the lungs.",
+                  "answer": "pulmonary artery",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Pressure in the pulmonary artery was elevated on catheterization.",
+                  "answer": "pulmonary artery",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            },
+            {
+              "slug": "pulmonary-vein",
+              "locales": {
+                "PT": {
+                  "text": "veia pulmonar",
+                  "definition": "Vaso que leva o sangue oxigenado dos pulmões ao átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pulmonary vein",
+                  "definition": "Vessel carrying oxygenated blood from the lungs to the left atrium.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Única veia que leva sangue oxigenado. A ablação de fibrilação atrial isola essas veias.",
+                  "collocations": [
+                    "pulmonary vein isolation",
+                    "pulmonary vein stenosis"
+                  ]
+                },
+                "ES": {
+                  "text": "vena pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vena pulmonalis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "肺静脈",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいじょうみゃく",
+                  "romanization": "haijoumyaku"
+                },
+                "ZH": {
+                  "text": "肺静脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèijìngmài"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each pulmonary vein opens into the left atrium.",
+                  "answer": "pulmonary vein",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Ablation around the pulmonary vein treats atrial fibrillation.",
+                  "answer": "pulmonary vein",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ]
+            }
+          ],
+          "levels": [
+            {
+              "title": "Primeiros termos",
+              "terms": [
+                "atrium",
+                "ventricle",
+                "aorta"
+              ]
+            },
+            {
+              "title": "Termos essenciais",
+              "terms": [
+                "myocardium",
+                "pericardium",
+                "cardiac-valve"
+              ]
+            },
+            {
+              "title": "Câmaras do coração",
+              "terms": [
+                "left-atrium",
+                "right-atrium",
+                "left-ventricle",
+                "right-ventricle"
+              ]
+            },
+            {
+              "title": "Septos e eixo do coração",
+              "terms": [
+                "interatrial-septum",
+                "interventricular-septum",
+                "cardiac-apex",
+                "cardiac-base"
+              ]
+            },
+            {
+              "title": "Aparelho valvar atrioventricular",
+              "terms": [
+                "mitral-valve",
+                "tricuspid-valve",
+                "papillary-muscle",
+                "chordae-tendineae"
+              ]
+            },
+            {
+              "title": "Valvas semilunares e estrutura valvar",
+              "terms": [
+                "aortic-valve",
+                "pulmonary-valve",
+                "valve-leaflet",
+                "valve-annulus"
+              ]
+            },
+            {
+              "title": "Camadas e envoltório do coração",
+              "terms": [
+                "epicardium",
+                "endocardium",
+                "fibrous-pericardium",
+                "pericardial-cavity"
+              ]
+            },
+            {
+              "title": "Grandes vasos do coração",
+              "terms": [
+                "superior-vena-cava",
+                "inferior-vena-cava",
+                "pulmonary-artery",
+                "pulmonary-vein"
+              ]
             }
           ]
         },

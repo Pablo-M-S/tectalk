@@ -256,6 +256,990 @@
                 }
               ],
               "segments": {}
+            },
+            {
+              "slug": "left-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio esquerdo",
+                  "definition": "Câmara superior esquerda que recebe o sangue oxigenado das veias pulmonares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "左心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zuǒ xīnfáng",
+                  "usageNote": "Termo padrão em laudos de ultrassom cardíaco; costuma vir com 增大 (aumento).",
+                  "collocations": [
+                    "左心房增大",
+                    "左心房内径"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "超声心动图显示左心房增大。",
+                  "answer": "左心房",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "来自肺部的含氧血液先进入左心房。",
+                  "answer": "左心房",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "right-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio direito",
+                  "definition": "Câmara superior direita que recebe o sangue venoso das veias cavas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "右心房",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yòu xīnfáng",
+                  "usageNote": "Termo usado em anatomia e em relatórios de cateterismo.",
+                  "collocations": [
+                    "右心房压",
+                    "右心房扩大"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "导管经下腔静脉进入右心房。",
+                  "answer": "右心房",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "全身回流的静脉血先汇入右心房。",
+                  "answer": "右心房",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "left-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo esquerdo",
+                  "definition": "Câmara inferior esquerda de parede espessa que bombeia o sangue para a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "左心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zuǒ xīnshì",
+                  "usageNote": "Termo central de cardiologia; combina com 射血分数 (fração de ejeção).",
+                  "collocations": [
+                    "左心室肥厚",
+                    "左心室功能"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "超声显示左心室射血分数下降。",
+                  "answer": "左心室",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "左心室把血液泵入主动脉。",
+                  "answer": "左心室",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "right-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo direito",
+                  "definition": "Câmara inferior direita que bombeia o sangue para os pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "右心室",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yòu xīnshì",
+                  "usageNote": "Termo usado em hipertensão pulmonar; combina com 扩大 e 衰竭.",
+                  "collocations": [
+                    "右心室扩大",
+                    "右心室衰竭"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肺动脉高压可导致右心室扩大。",
+                  "answer": "右心室",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "右心室将静脉血泵向肺部。",
+                  "answer": "右心室",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interatrial-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interatrial",
+                  "definition": "Parede que separa o átrio direito do átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "房间隔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fángjiāngé",
+                  "usageNote": "Termo de cardiopatias congênitas; 缺损 significa defeito (房间隔缺损).",
+                  "collocations": [
+                    "房间隔缺损",
+                    "房间隔封堵"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "超声发现房间隔存在一处小缺损。",
+                  "answer": "房间隔",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "医生用补片修补了房间隔的缺口。",
+                  "answer": "房间隔",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interventricular-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interventricular",
+                  "definition": "Parede muscular que separa os ventrículos direito e esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "室间隔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shìjiāngé",
+                  "usageNote": "Termo de anatomia cardíaca; a espessura é medida em milímetros na ecocardiografia.",
+                  "collocations": [
+                    "室间隔厚度",
+                    "室间隔缺损"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "超声显示室间隔增厚。",
+                  "answer": "室间隔",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "心肌梗死后室间隔可能发生破裂。",
+                  "answer": "室间隔",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cardiac-apex",
+              "locales": {
+                "PT": {
+                  "text": "ápice do coração",
+                  "definition": "Ponta inferior do coração, formada pelo ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "心尖",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnjiān",
+                  "usageNote": "Termo de ausculta; 心尖搏动 é o impulso apical.",
+                  "collocations": [
+                    "心尖搏动",
+                    "心尖部"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "医生在心尖触到最强的搏动。",
+                  "answer": "心尖",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "梗死后心尖形成了血栓。",
+                  "answer": "心尖",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cardiac-base",
+              "locales": {
+                "PT": {
+                  "text": "base do coração",
+                  "definition": "Parte superior e posterior do coração, onde chegam e saem os grandes vasos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "心底部",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīndǐbù",
+                  "usageNote": "Termo de anatomia cardíaca; oposto de 心尖 (ápice).",
+                  "collocations": [
+                    "心底部杂音",
+                    "心底大血管"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "杂音在心底部听得最清楚。",
+                  "answer": "心底部",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "大血管从心底部出入心脏。",
+                  "answer": "心底部",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mitral-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva mitral",
+                  "definition": "Valva de dois folhetos entre o átrio esquerdo e o ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "二尖瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "èrjiānbàn",
+                  "usageNote": "Também chamada 二尖瓣; termo central em cirurgia valvar.",
+                  "collocations": [
+                    "二尖瓣狭窄",
+                    "二尖瓣反流"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "超声显示二尖瓣重度反流。",
+                  "answer": "二尖瓣",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "患者上个月接受了二尖瓣修复手术。",
+                  "answer": "二尖瓣",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tricuspid-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva tricúspide",
+                  "definition": "Valva de três folhetos entre o átrio direito e o ventrículo direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "三尖瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sānjiānbàn",
+                  "usageNote": "Termo de anatomia valvar; 三尖 significa \"três pontas\".",
+                  "collocations": [
+                    "三尖瓣反流",
+                    "三尖瓣狭窄"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "超声显示三尖瓣轻度反流。",
+                  "answer": "三尖瓣",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "感染性心内膜炎可能损伤三尖瓣。",
+                  "answer": "三尖瓣",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "papillary-muscle",
+              "locales": {
+                "PT": {
+                  "text": "músculo papilar",
+                  "definition": "Projeção muscular da parede ventricular que sustenta as cordas tendíneas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "乳头肌",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rǔtóujī",
+                  "usageNote": "Termo de anatomia ventricular; 断裂 significa ruptura.",
+                  "collocations": [
+                    "乳头肌断裂",
+                    "乳头肌功能不全"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "乳头肌断裂导致急性二尖瓣反流。",
+                  "answer": "乳头肌",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "乳头肌通过腱索牵拉瓣膜。",
+                  "answer": "乳头肌",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "chordae-tendineae",
+              "locales": {
+                "PT": {
+                  "text": "cordas tendíneas",
+                  "definition": "Finos cordões fibrosos que ligam os músculos papilares aos folhetos valvares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "腱索",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiànsuǒ",
+                  "usageNote": "Termo de anatomia valvar; 断裂 significa ruptura.",
+                  "collocations": [
+                    "腱索断裂",
+                    "腱索延长"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "腱索断裂导致瓣叶脱垂。",
+                  "answer": "腱索",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "外科医生用人工缝线替换了受损的腱索。",
+                  "answer": "腱索",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "aortic-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva aórtica",
+                  "definition": "Valva de três folhetos entre o ventrículo esquerdo e a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "主动脉瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhǔdòngmàibàn",
+                  "usageNote": "Termo de cardiologia valvar; 狭窄 significa estenose.",
+                  "collocations": [
+                    "主动脉瓣狭窄",
+                    "主动脉瓣置换"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "主动脉瓣钙化使瓣口变窄。",
+                  "answer": "主动脉瓣",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "患者因重度狭窄接受了主动脉瓣置换。",
+                  "answer": "主动脉瓣",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva pulmonar",
+                  "definition": "Valva de três folhetos entre o ventrículo direito e a artéria pulmonar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "肺动脉瓣",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèidòngmàibàn",
+                  "usageNote": "Termo de cardiologia congênita; 狭窄 significa estenose.",
+                  "collocations": [
+                    "肺动脉瓣狭窄",
+                    "肺动脉瓣反流"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肺动脉瓣狭窄多为先天性。",
+                  "answer": "肺动脉瓣",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "收缩期血液通过肺动脉瓣流向肺部。",
+                  "answer": "肺动脉瓣",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "valve-leaflet",
+              "locales": {
+                "PT": {
+                  "text": "folheto valvar",
+                  "definition": "Cada uma das lâminas finas e móveis que abrem e fecham a valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "瓣叶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bànyè",
+                  "usageNote": "Termo de anatomia valvar; também se diz 瓣膜叶片.",
+                  "collocations": [
+                    "瓣叶增厚",
+                    "瓣叶脱垂"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "瓣叶增厚限制了瓣膜的活动。",
+                  "answer": "瓣叶",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "瓣叶脱垂会引起严重反流。",
+                  "answer": "瓣叶",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "valve-annulus",
+              "locales": {
+                "PT": {
+                  "text": "anel valvar",
+                  "definition": "Anel fibroso que serve de base de fixação aos folhetos da valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "瓣环",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bànhuán",
+                  "usageNote": "Termo de cirurgia valvar; 扩张 significa dilatação.",
+                  "collocations": [
+                    "瓣环扩张",
+                    "瓣环钙化"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "瓣环扩张是反流的原因。",
+                  "answer": "瓣环",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "老年人常见瓣环钙化。",
+                  "answer": "瓣环",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "epicardium",
+              "locales": {
+                "PT": {
+                  "text": "epicárdio",
+                  "definition": "Camada mais externa da parede do coração, lâmina visceral do pericárdio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "心外膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnwàimó",
+                  "usageNote": "Termo de histologia cardíaca; 外膜 significa membrana externa.",
+                  "collocations": [
+                    "心外膜脂肪",
+                    "心外膜下"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "冠状动脉走行于心外膜表面。",
+                  "answer": "心外膜",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "肥胖患者的心外膜容易堆积脂肪。",
+                  "answer": "心外膜",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "endocardium",
+              "locales": {
+                "PT": {
+                  "text": "endocárdio",
+                  "definition": "Camada mais interna da parede do coração, que reveste as câmaras e as valvas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "心内膜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnnèimó",
+                  "usageNote": "Termo de histologia cardíaca; 内膜 significa membrana interna.",
+                  "collocations": [
+                    "心内膜下",
+                    "心内膜炎"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "心内膜覆盖心腔和瓣膜的内表面。",
+                  "answer": "心内膜",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "细菌感染心内膜后可形成赘生物。",
+                  "answer": "心内膜",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fibrous-pericardium",
+              "locales": {
+                "PT": {
+                  "text": "pericárdio fibroso",
+                  "definition": "Camada externa resistente do pericárdio que ancora o coração no tórax.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "纤维性心包",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiānwéixìng xīnbāo",
+                  "usageNote": "Termo de anatomia; 纤维性 significa fibroso.",
+                  "collocations": [
+                    "纤维性心包增厚",
+                    "纤维性心包层"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "纤维性心包限制了心脏的突然扩张。",
+                  "answer": "纤维性心包",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "纤维性心包向下与膈肌相连。",
+                  "answer": "纤维性心包",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pericardial-cavity",
+              "locales": {
+                "PT": {
+                  "text": "cavidade pericárdica",
+                  "definition": "Espaço virtual entre as lâminas visceral e parietal do pericárdio, com pouco líquido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "心包腔",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīnbāoqiāng",
+                  "usageNote": "Termo de anatomia; 腔 significa cavidade.",
+                  "collocations": [
+                    "心包腔积液",
+                    "心包腔穿刺"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "心包腔内正常有少量液体。",
+                  "answer": "心包腔",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "心包腔内积血可引起心脏压塞。",
+                  "answer": "心包腔",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "superior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava superior",
+                  "definition": "Grande veia que leva o sangue da metade superior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "上腔静脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shàngqiāng jìngmài",
+                  "usageNote": "Termo de anatomia vascular; 上 significa superior.",
+                  "collocations": [
+                    "上腔静脉综合征",
+                    "上腔静脉置管"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肿瘤压迫上腔静脉导致面部肿胀。",
+                  "answer": "上腔静脉",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "上腔静脉把头部和上肢的血液送回右心房。",
+                  "answer": "上腔静脉",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inferior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava inferior",
+                  "definition": "Grande veia que leva o sangue da metade inferior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "下腔静脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiàqiāng jìngmài",
+                  "usageNote": "Termo de anatomia vascular; 下 significa inferior.",
+                  "collocations": [
+                    "下腔静脉滤器",
+                    "下腔静脉内径"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "下肢和腹部的血液经下腔静脉回到心脏。",
+                  "answer": "下腔静脉",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为预防肺栓塞，医生在下腔静脉放置了滤器。",
+                  "answer": "下腔静脉",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-artery",
+              "locales": {
+                "PT": {
+                  "text": "artéria pulmonar",
+                  "definition": "Vaso que leva o sangue pouco oxigenado do ventrículo direito aos pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "肺动脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèidòngmài",
+                  "usageNote": "Termo de anatomia vascular; transporta sangue venoso.",
+                  "collocations": [
+                    "肺动脉压",
+                    "肺动脉导管"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肺动脉将缺氧血液运往肺部。",
+                  "answer": "肺动脉",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "导管检查发现肺动脉压力升高。",
+                  "answer": "肺动脉",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-vein",
+              "locales": {
+                "PT": {
+                  "text": "veia pulmonar",
+                  "definition": "Vaso que leva o sangue oxigenado dos pulmões ao átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "肺静脉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fèijìngmài",
+                  "usageNote": "Termo de anatomia vascular; transporta sangue oxigenado.",
+                  "collocations": [
+                    "肺静脉隔离",
+                    "肺静脉狭窄"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肺静脉把含氧血液送回左心房。",
+                  "answer": "肺静脉",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "在肺静脉周围消融可治疗心房颤动。",
+                  "answer": "肺静脉",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            }
+          ],
+          "levels": [
+            {
+              "title": "Primeiros termos",
+              "terms": [
+                "atrium",
+                "ventricle",
+                "aorta"
+              ]
+            },
+            {
+              "title": "Termos essenciais",
+              "terms": [
+                "myocardium",
+                "pericardium",
+                "cardiac-valve"
+              ]
+            },
+            {
+              "title": "Câmaras do coração",
+              "terms": [
+                "left-atrium",
+                "right-atrium",
+                "left-ventricle",
+                "right-ventricle"
+              ]
+            },
+            {
+              "title": "Septos e eixo do coração",
+              "terms": [
+                "interatrial-septum",
+                "interventricular-septum",
+                "cardiac-apex",
+                "cardiac-base"
+              ]
+            },
+            {
+              "title": "Aparelho valvar atrioventricular",
+              "terms": [
+                "mitral-valve",
+                "tricuspid-valve",
+                "papillary-muscle",
+                "chordae-tendineae"
+              ]
+            },
+            {
+              "title": "Valvas semilunares e estrutura valvar",
+              "terms": [
+                "aortic-valve",
+                "pulmonary-valve",
+                "valve-leaflet",
+                "valve-annulus"
+              ]
+            },
+            {
+              "title": "Camadas e envoltório do coração",
+              "terms": [
+                "epicardium",
+                "endocardium",
+                "fibrous-pericardium",
+                "pericardial-cavity"
+              ]
+            },
+            {
+              "title": "Grandes vasos do coração",
+              "terms": [
+                "superior-vena-cava",
+                "inferior-vena-cava",
+                "pulmonary-artery",
+                "pulmonary-vein"
+              ]
             }
           ]
         },

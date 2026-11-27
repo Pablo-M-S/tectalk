@@ -250,6 +250,966 @@
                 }
               ],
               "segments": {}
+            },
+            {
+              "slug": "left-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio esquerdo",
+                  "definition": "Câmara superior esquerda que recebe o sangue oxigenado das veias pulmonares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "linker Vorhof",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em alemão o par adjetivo+substantivo aparece em forma de rótulo nos laudos, sem artigo.",
+                  "collocations": [
+                    "linker Vorhof erweitert",
+                    "Größe des linken Vorhofs"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: linker Vorhof deutlich vergrößert.",
+                  "answer": "linker Vorhof",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Befund: linker Vorhof 48 mm, leicht dilatiert.",
+                  "answer": "linker Vorhof",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "right-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio direito",
+                  "definition": "Câmara superior direita que recebe o sangue venoso das veias cavas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "rechter Vorhof",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Forma de rótulo em laudos, sem artigo e sem declinação.",
+                  "collocations": [
+                    "rechter Vorhof erweitert",
+                    "Druck im rechten Vorhof"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Katheterbefund: rechter Vorhof, mittlerer Druck 8 mmHg.",
+                  "answer": "rechter Vorhof",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: rechter Vorhof normal groß.",
+                  "answer": "rechter Vorhof",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "left-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo esquerdo",
+                  "definition": "Câmara inferior esquerda de parede espessa que bombeia o sangue para a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "linker Ventrikel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em laudos aparece como rótulo, sem artigo (\"linker Ventrikel\").",
+                  "collocations": [
+                    "Funktion des linken Ventrikels",
+                    "linker Ventrikel hypertrophiert"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: linker Ventrikel mit eingeschränkter Pumpfunktion.",
+                  "answer": "linker Ventrikel",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Befund: linker Ventrikel deutlich hypertrophiert.",
+                  "answer": "linker Ventrikel",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "right-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo direito",
+                  "definition": "Câmara inferior direita que bombeia o sangue para os pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "rechter Ventrikel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Forma de rótulo nos laudos de eco, sem artigo e sem declinação.",
+                  "collocations": [
+                    "Funktion des rechten Ventrikels",
+                    "rechter Ventrikel dilatiert"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: rechter Ventrikel dilatiert, Funktion reduziert.",
+                  "answer": "rechter Ventrikel",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Befund: rechter Ventrikel mit Druckbelastung.",
+                  "answer": "rechter Ventrikel",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interatrial-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interatrial",
+                  "definition": "Parede que separa o átrio direito do átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorhofseptum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo composto; usado em diagnósticos de Vorhofseptumdefekt.",
+                  "collocations": [
+                    "Vorhofseptum intakt",
+                    "Verschluss des Vorhofseptums"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Vorhofseptum intakt, kein Shunt nachweisbar.",
+                  "answer": "Vorhofseptum",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Chirurg verschloss den Defekt mit einem Perikardpatch im Vorhofseptum.",
+                  "answer": "Vorhofseptum",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interventricular-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interventricular",
+                  "definition": "Parede muscular que separa os ventrículos direito e esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kammerseptum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz Ventrikelseptum; \"Kammerseptum\" é a forma anatômica.",
+                  "collocations": [
+                    "Dicke des Kammerseptums",
+                    "Kammerseptum verdickt"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Kammerseptum auf 15 mm verdickt.",
+                  "answer": "Kammerseptum",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Defekt im Kammerseptum führt zu einem Links-rechts-Shunt.",
+                  "answer": "Kammerseptum",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cardiac-apex",
+              "locales": {
+                "PT": {
+                  "text": "ápice do coração",
+                  "definition": "Ponta inferior do coração, formada pelo ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzspitze",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo feminino; aparece em ausculta e ecocardiografia.",
+                  "collocations": [
+                    "Herzspitze auskultieren",
+                    "Spitzenstoß der Herzspitze"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Spitzenstoß war an der Herzspitze tastbar.",
+                  "answer": "Herzspitze",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: apikales Aneurysma der Herzspitze.",
+                  "answer": "Herzspitze",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cardiac-base",
+              "locales": {
+                "PT": {
+                  "text": "base do coração",
+                  "definition": "Parte superior e posterior do coração, onde chegam e saem os grandes vasos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Herzbasis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo feminino; usado ao descrever foco de ausculta.",
+                  "collocations": [
+                    "Herzbasis auskultieren",
+                    "Gefäße der Herzbasis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das systolische Geräusch war über der Herzbasis am lautesten.",
+                  "answer": "Herzbasis",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "An der Herzbasis entspringen die großen Gefäße.",
+                  "answer": "Herzbasis",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mitral-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva mitral",
+                  "definition": "Valva de dois folhetos entre o átrio esquerdo e o ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mitralklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo feminino composto; combina com Insuffizienz e Stenose.",
+                  "collocations": [
+                    "Mitralklappeninsuffizienz",
+                    "Rekonstruktion der Mitralklappe"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Mitralklappe mit schwerer Regurgitation.",
+                  "answer": "Mitralklappe",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient erhielt einen Ersatz der Mitralklappe.",
+                  "answer": "Mitralklappe",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tricuspid-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva tricúspide",
+                  "definition": "Valva de três folhetos entre o átrio direito e o ventrículo direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Trikuspidalklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo feminino composto, usado em laudos de eco.",
+                  "collocations": [
+                    "Trikuspidalklappeninsuffizienz",
+                    "Ersatz der Trikuspidalklappe"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Trikuspidalklappe mit leichter Insuffizienz.",
+                  "answer": "Trikuspidalklappe",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Endokarditis kann die Trikuspidalklappe zerstören.",
+                  "answer": "Trikuspidalklappe",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "papillary-muscle",
+              "locales": {
+                "PT": {
+                  "text": "músculo papilar",
+                  "definition": "Projeção muscular da parede ventricular que sustenta as cordas tendíneas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Papillarmuskel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Use no singular nos laudos; o plural é Papillarmuskeln.",
+                  "collocations": [
+                    "Ruptur des Papillarmuskels",
+                    "Papillarmuskel ischämisch"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Nach dem Infarkt riss ein Papillarmuskel ein.",
+                  "answer": "Papillarmuskel",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Papillarmuskel hält die Sehnenfäden unter Spannung.",
+                  "answer": "Papillarmuskel",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "chordae-tendineae",
+              "locales": {
+                "PT": {
+                  "text": "cordas tendíneas",
+                  "definition": "Finos cordões fibrosos que ligam os músculos papilares aos folhetos valvares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sehnenfäden",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo no plural; \"Sehnenfäden\" é a forma comum nos laudos.",
+                  "collocations": [
+                    "Ruptur der Sehnenfäden",
+                    "Verlängerung der Sehnenfäden"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Sehnenfäden waren abgerissen, das Segel schlug durch.",
+                  "answer": "Sehnenfäden",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Chirurg ersetzte die Sehnenfäden durch Kunstfäden.",
+                  "answer": "Sehnenfäden",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "aortic-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva aórtica",
+                  "definition": "Valva de três folhetos entre o ventrículo esquerdo e a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Aortenklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo feminino composto; combina com Stenose e Ersatz.",
+                  "collocations": [
+                    "Aortenklappenstenose",
+                    "Ersatz der Aortenklappe"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Aortenklappe stark verkalkt.",
+                  "answer": "Aortenklappe",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Patient erhielt einen Ersatz der Aortenklappe bei schwerer Stenose.",
+                  "answer": "Aortenklappe",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva pulmonar",
+                  "definition": "Valva de três folhetos entre o ventrículo direito e a artéria pulmonar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Pulmonalklappe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo feminino composto; usado em cardiopatias congênitas.",
+                  "collocations": [
+                    "Pulmonalklappenstenose",
+                    "Pulmonalklappe verengt"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Pulmonalklappe mit leichter Stenose.",
+                  "answer": "Pulmonalklappe",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Pulmonalklappe öffnet sich in der Systole.",
+                  "answer": "Pulmonalklappe",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "valve-leaflet",
+              "locales": {
+                "PT": {
+                  "text": "folheto valvar",
+                  "definition": "Cada uma das lâminas finas e móveis que abrem e fecham a valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Klappensegel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Singular e plural têm a mesma forma, \"Klappensegel\".",
+                  "collocations": [
+                    "Klappensegel verdickt",
+                    "Prolaps eines Klappensegels"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Klappensegel verdickt und kaum beweglich.",
+                  "answer": "Klappensegel",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein abgerissenes Klappensegel verursacht eine schwere Insuffizienz.",
+                  "answer": "Klappensegel",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "valve-annulus",
+              "locales": {
+                "PT": {
+                  "text": "anel valvar",
+                  "definition": "Anel fibroso que serve de base de fixação aos folhetos da valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Klappenring",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo masculino composto; usado em cirurgia valvar.",
+                  "collocations": [
+                    "Erweiterung des Klappenrings",
+                    "Verkalkung des Klappenrings"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Klappenring deutlich erweitert.",
+                  "answer": "Klappenring",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Chirurg stabilisierte den Klappenring mit einer Prothese.",
+                  "answer": "Klappenring",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "epicardium",
+              "locales": {
+                "PT": {
+                  "text": "epicárdio",
+                  "definition": "Camada mais externa da parede do coração, lâmina visceral do pericárdio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Epikard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo neutro; também usado \"Epikardfett\" em composto.",
+                  "collocations": [
+                    "Epikard entzündet",
+                    "Schicht des Epikards"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Koronararterien verlaufen im Epikard.",
+                  "answer": "Epikard",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Histologie: Das Epikard bildet die äußerste Schicht der Herzwand.",
+                  "answer": "Epikard",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "endocardium",
+              "locales": {
+                "PT": {
+                  "text": "endocárdio",
+                  "definition": "Camada mais interna da parede do coração, que reveste as câmaras e as valvas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Endokard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo neutro; a infecção chama-se Endokarditis.",
+                  "collocations": [
+                    "Läsion des Endokards",
+                    "Schicht des Endokards"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Endokard kleidet die Herzhöhlen aus.",
+                  "answer": "Endokard",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Befund: Endokard mit Vegetationen, Verdacht auf bakterielle Infektion.",
+                  "answer": "Endokard",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fibrous-pericardium",
+              "locales": {
+                "PT": {
+                  "text": "pericárdio fibroso",
+                  "definition": "Camada externa resistente do pericárdio que ancora o coração no tórax.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "fibröses Perikard",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Adjetivo + substantivo; nos laudos aparece como rótulo, sem artigo.",
+                  "collocations": [
+                    "fibröses Perikard verdickt",
+                    "Anheftung des fibrösen Perikards"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Befund: fibröses Perikard unauffällig.",
+                  "answer": "fibröses Perikard",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Anatomie: fibröses Perikard mit Anheftung am Zwerchfell.",
+                  "answer": "fibröses Perikard",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pericardial-cavity",
+              "locales": {
+                "PT": {
+                  "text": "cavidade pericárdica",
+                  "definition": "Espaço virtual entre as lâminas visceral e parietal do pericárdio, com pouco líquido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Perikardhöhle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Substantivo feminino composto; aparece em derrame pericárdico.",
+                  "collocations": [
+                    "Flüssigkeit in der Perikardhöhle",
+                    "Drainage der Perikardhöhle"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Echokardiographie: Perikardhöhle ohne Erguss.",
+                  "answer": "Perikardhöhle",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Blut in der Perikardhöhle kann eine Tamponade verursachen.",
+                  "answer": "Perikardhöhle",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "superior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava superior",
+                  "definition": "Grande veia que leva o sangue da metade superior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vena cava superior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O termo latino não se declina; usa-se igual em todos os casos.",
+                  "collocations": [
+                    "Verschluss der Vena cava superior",
+                    "Katheter in der Vena cava superior"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Vena cava superior führt das Blut aus Kopf und Armen zurück.",
+                  "answer": "Vena cava superior",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Katheter liegt in der Vena cava superior.",
+                  "answer": "Vena cava superior",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inferior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava inferior",
+                  "definition": "Grande veia que leva o sangue da metade inferior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vena cava inferior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo latino que não se declina; igual em todos os casos.",
+                  "collocations": [
+                    "Filter in der Vena cava inferior",
+                    "Kollaps der Vena cava inferior"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Vena cava inferior führt das Blut aus Beinen und Bauch zurück.",
+                  "answer": "Vena cava inferior",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Sonographie: Vena cava inferior kollabiert, Hinweis auf Hypovolämie.",
+                  "answer": "Vena cava inferior",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-artery",
+              "locales": {
+                "PT": {
+                  "text": "artéria pulmonar",
+                  "definition": "Vaso que leva o sangue pouco oxigenado do ventrículo direito aos pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Truncus pulmonalis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em alemão usa-se o termo latino \"Truncus pulmonalis\" para o tronco.",
+                  "collocations": [
+                    "Druck im Truncus pulmonalis",
+                    "Erweiterung des Truncus pulmonalis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Truncus pulmonalis führt sauerstoffarmes Blut zur Lunge.",
+                  "answer": "Truncus pulmonalis",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Herzkatheter: Druck im Truncus pulmonalis erhöht.",
+                  "answer": "Truncus pulmonalis",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-vein",
+              "locales": {
+                "PT": {
+                  "text": "veia pulmonar",
+                  "definition": "Vaso que leva o sangue oxigenado dos pulmões ao átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vena pulmonalis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo latino que não se declina; o plural é Venae pulmonales.",
+                  "collocations": [
+                    "Stenose der Vena pulmonalis",
+                    "Isolation der Vena pulmonalis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Vena pulmonalis mündet in den linken Vorhof.",
+                  "answer": "Vena pulmonalis",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Ablation um die Vena pulmonalis behandelt Vorhofflimmern.",
+                  "answer": "Vena pulmonalis",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            }
+          ],
+          "levels": [
+            {
+              "title": "Primeiros termos",
+              "terms": [
+                "atrium",
+                "ventricle",
+                "aorta"
+              ]
+            },
+            {
+              "title": "Termos essenciais",
+              "terms": [
+                "myocardium",
+                "pericardium",
+                "cardiac-valve"
+              ]
+            },
+            {
+              "title": "Câmaras do coração",
+              "terms": [
+                "left-atrium",
+                "right-atrium",
+                "left-ventricle",
+                "right-ventricle"
+              ]
+            },
+            {
+              "title": "Septos e eixo do coração",
+              "terms": [
+                "interatrial-septum",
+                "interventricular-septum",
+                "cardiac-apex",
+                "cardiac-base"
+              ]
+            },
+            {
+              "title": "Aparelho valvar atrioventricular",
+              "terms": [
+                "mitral-valve",
+                "tricuspid-valve",
+                "papillary-muscle",
+                "chordae-tendineae"
+              ]
+            },
+            {
+              "title": "Valvas semilunares e estrutura valvar",
+              "terms": [
+                "aortic-valve",
+                "pulmonary-valve",
+                "valve-leaflet",
+                "valve-annulus"
+              ]
+            },
+            {
+              "title": "Camadas e envoltório do coração",
+              "terms": [
+                "epicardium",
+                "endocardium",
+                "fibrous-pericardium",
+                "pericardial-cavity"
+              ]
+            },
+            {
+              "title": "Grandes vasos do coração",
+              "terms": [
+                "superior-vena-cava",
+                "inferior-vena-cava",
+                "pulmonary-artery",
+                "pulmonary-vein"
+              ]
             }
           ]
         },

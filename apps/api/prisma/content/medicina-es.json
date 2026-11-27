@@ -250,6 +250,966 @@
                 }
               ],
               "segments": {}
+            },
+            {
+              "slug": "left-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio esquerdo",
+                  "definition": "Câmara superior esquerda que recebe o sangue oxigenado das veias pulmonares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "aurícula izquierda",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol clínico usa-se \"aurícula\" (também \"atrio\"); o adjetivo vem depois do substantivo.",
+                  "collocations": [
+                    "aurícula izquierda dilatada",
+                    "tamaño de la aurícula izquierda"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La ecocardiografía mostró una aurícula izquierda dilatada.",
+                  "answer": "aurícula izquierda",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La sangre oxigenada llega a la aurícula izquierda desde los pulmones.",
+                  "answer": "aurícula izquierda",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "right-atrium",
+              "locales": {
+                "PT": {
+                  "text": "átrio direito",
+                  "definition": "Câmara superior direita que recebe o sangue venoso das veias cavas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "aurícula derecha",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Aparece em laudos de eco e cateterismo; \"aurícula\" é a forma mais comum na Espanha.",
+                  "collocations": [
+                    "presión de la aurícula derecha",
+                    "aurícula derecha dilatada"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La sangre venosa del cuerpo llega a la aurícula derecha.",
+                  "answer": "aurícula derecha",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se avanzó un catéter hasta la aurícula derecha.",
+                  "answer": "aurícula derecha",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "left-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo esquerdo",
+                  "definition": "Câmara inferior esquerda de parede espessa que bombeia o sangue para a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ventrículo izquierdo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo central em cardiologia; quase sempre acompanha fração de ejeção ou hipertrofia.",
+                  "collocations": [
+                    "función del ventrículo izquierdo",
+                    "hipertrofia del ventrículo izquierdo"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La fracción de eyección del ventrículo izquierdo estaba reducida.",
+                  "answer": "ventrículo izquierdo",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El ventrículo izquierdo impulsa la sangre hacia la aorta.",
+                  "answer": "ventrículo izquierdo",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "right-ventricle",
+              "locales": {
+                "PT": {
+                  "text": "ventrículo direito",
+                  "definition": "Câmara inferior direita que bombeia o sangue para os pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ventrículo derecho",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo frequente em hipertensão pulmonar e cardiopatias congênitas.",
+                  "collocations": [
+                    "insuficiencia del ventrículo derecho",
+                    "dilatación del ventrículo derecho"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El ventrículo derecho envía la sangre hacia los pulmones.",
+                  "answer": "ventrículo derecho",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La hipertensión pulmonar puede dilatar el ventrículo derecho.",
+                  "answer": "ventrículo derecho",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interatrial-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interatrial",
+                  "definition": "Parede que separa o átrio direito do átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "tabique interauricular",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Aparece em laudos de comunicação interauricular (CIA).",
+                  "collocations": [
+                    "defecto del tabique interauricular",
+                    "cierre del tabique interauricular"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se observó un pequeño defecto en el tabique interauricular.",
+                  "answer": "tabique interauricular",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El cirujano cerró el tabique interauricular con un parche.",
+                  "answer": "tabique interauricular",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interventricular-septum",
+              "locales": {
+                "PT": {
+                  "text": "septo interventricular",
+                  "definition": "Parede muscular que separa os ventrículos direito e esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "tabique interventricular",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sua espessura é medida na ecocardiografia; a ruptura é complicação do infarto.",
+                  "collocations": [
+                    "grosor del tabique interventricular",
+                    "rotura del tabique interventricular"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se observó hipertrofia del tabique interventricular en la ecocardiografía.",
+                  "answer": "tabique interventricular",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El infarto puede romper el tabique interventricular.",
+                  "answer": "tabique interventricular",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cardiac-apex",
+              "locales": {
+                "PT": {
+                  "text": "ápice do coração",
+                  "definition": "Ponta inferior do coração, formada pelo ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ápex cardíaco",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Usa-se também \"punta del corazón\"; \"ápex\" é a forma técnica.",
+                  "collocations": [
+                    "latido del ápex cardíaco",
+                    "trombo en el ápex cardíaco"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El latido se palpó en el ápex cardíaco.",
+                  "answer": "ápex cardíaco",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se detectó un trombo en el ápex cardíaco.",
+                  "answer": "ápex cardíaco",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cardiac-base",
+              "locales": {
+                "PT": {
+                  "text": "base do coração",
+                  "definition": "Parte superior e posterior do coração, onde chegam e saem os grandes vasos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "base del corazón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Contrasta com o ápice; usado em ausculta e anatomia.",
+                  "collocations": [
+                    "soplo en la base del corazón",
+                    "vasos de la base del corazón"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los grandes vasos salen de la base del corazón.",
+                  "answer": "base del corazón",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El soplo se escuchó mejor sobre la base del corazón.",
+                  "answer": "base del corazón",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mitral-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva mitral",
+                  "definition": "Valva de dois folhetos entre o átrio esquerdo e o ventrículo esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "válvula mitral",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Frequente em cirurgia valvar; combina com estenosis e insuficiencia.",
+                  "collocations": [
+                    "insuficiencia de la válvula mitral",
+                    "reparación de la válvula mitral"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La ecocardiografía mostró insuficiencia grave de la válvula mitral.",
+                  "answer": "válvula mitral",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El paciente fue sometido a la reparación de la válvula mitral.",
+                  "answer": "válvula mitral",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tricuspid-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva tricúspide",
+                  "definition": "Valva de três folhetos entre o átrio direito e o ventrículo direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "válvula tricúspide",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Regurgitação leve é achado frequente e benigno.",
+                  "collocations": [
+                    "insuficiencia de la válvula tricúspide",
+                    "endocarditis de la válvula tricúspide"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se observó una insuficiencia leve de la válvula tricúspide.",
+                  "answer": "válvula tricúspide",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La endocarditis puede dañar la válvula tricúspide.",
+                  "answer": "válvula tricúspide",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "papillary-muscle",
+              "locales": {
+                "PT": {
+                  "text": "músculo papilar",
+                  "definition": "Projeção muscular da parede ventricular que sustenta as cordas tendíneas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "músculo papilar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A ruptura é uma complicação grave do infarto.",
+                  "collocations": [
+                    "rotura del músculo papilar",
+                    "disfunción del músculo papilar"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La rotura de un músculo papilar provocó una insuficiencia mitral aguda.",
+                  "answer": "músculo papilar",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Cada músculo papilar se une a la válvula mediante cuerdas finas.",
+                  "answer": "músculo papilar",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "chordae-tendineae",
+              "locales": {
+                "PT": {
+                  "text": "cordas tendíneas",
+                  "definition": "Finos cordões fibrosos que ligam os músculos papilares aos folhetos valvares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cuerdas tendinosas",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Evitam o prolapso dos folhetos durante a sístole.",
+                  "collocations": [
+                    "rotura de las cuerdas tendinosas",
+                    "alargamiento de las cuerdas tendinosas"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La rotura de las cuerdas tendinosas causó un velo flácido.",
+                  "answer": "cuerdas tendinosas",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El cirujano reemplazó las cuerdas tendinosas por suturas.",
+                  "answer": "cuerdas tendinosas",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "aortic-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva aórtica",
+                  "definition": "Valva de três folhetos entre o ventrículo esquerdo e a aorta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "válvula aórtica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "A estenose aórtica é a doença valvar mais comum em idosos.",
+                  "collocations": [
+                    "estenosis de la válvula aórtica",
+                    "sustitución de la válvula aórtica"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La calcificación de la válvula aórtica estrecha la abertura.",
+                  "answer": "válvula aórtica",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Al paciente se le realizó un reemplazo de la válvula aórtica.",
+                  "answer": "válvula aórtica",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-valve",
+              "locales": {
+                "PT": {
+                  "text": "valva pulmonar",
+                  "definition": "Valva de três folhetos entre o ventrículo direito e a artéria pulmonar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "válvula pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Doenças dessa valva costumam ser congênitas.",
+                  "collocations": [
+                    "estenosis de la válvula pulmonar",
+                    "insuficiencia de la válvula pulmonar"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La estenosis de la válvula pulmonar suele ser congénita.",
+                  "answer": "válvula pulmonar",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Durante la sístole la sangre atraviesa la válvula pulmonar.",
+                  "answer": "válvula pulmonar",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "valve-leaflet",
+              "locales": {
+                "PT": {
+                  "text": "folheto valvar",
+                  "definition": "Cada uma das lâminas finas e móveis que abrem e fecham a valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "valva",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em espanhol usa-se \"valva\" ou \"velo valvular\".",
+                  "collocations": [
+                    "prolapso de la valva",
+                    "engrosamiento de la valva"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se observó engrosamiento de la valva mitral.",
+                  "answer": "valva",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una valva flácida causa una regurgitación grave.",
+                  "answer": "valva",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "valve-annulus",
+              "locales": {
+                "PT": {
+                  "text": "anel valvar",
+                  "definition": "Anel fibroso que serve de base de fixação aos folhetos da valva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "anillo valvular",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sua dilatação causa regurgitação valvar.",
+                  "collocations": [
+                    "dilatación del anillo valvular",
+                    "calcificación del anillo valvular"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El cirujano colocó un anillo protésico alrededor del anillo valvular.",
+                  "answer": "anillo valvular",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La calcificación del anillo valvular es frecuente en ancianos.",
+                  "answer": "anillo valvular",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "epicardium",
+              "locales": {
+                "PT": {
+                  "text": "epicárdio",
+                  "definition": "Camada mais externa da parede do coração, lâmina visceral do pericárdio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "epicardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Contém as artérias coronárias e a gordura cardíaca.",
+                  "collocations": [
+                    "grasa del epicardio",
+                    "capa del epicardio"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las arterias coronarias discurren por el epicardio.",
+                  "answer": "epicardio",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "En los obesos se acumula grasa bajo el epicardio.",
+                  "answer": "epicardio",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "endocardium",
+              "locales": {
+                "PT": {
+                  "text": "endocárdio",
+                  "definition": "Camada mais interna da parede do coração, que reveste as câmaras e as valvas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "endocardio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sua infecção bacteriana é chamada de endocardite.",
+                  "collocations": [
+                    "capa del endocardio",
+                    "lesión del endocardio"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El endocardio reviste las cámaras y las válvulas.",
+                  "answer": "endocardio",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La infección del endocardio causa vegetaciones bacterianas.",
+                  "answer": "endocardio",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fibrous-pericardium",
+              "locales": {
+                "PT": {
+                  "text": "pericárdio fibroso",
+                  "definition": "Camada externa resistente do pericárdio que ancora o coração no tórax.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "pericardio fibroso",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Camada rígida que limita a distensão do coração.",
+                  "collocations": [
+                    "capa del pericardio fibroso",
+                    "engrosamiento del pericardio fibroso"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El pericardio fibroso limita la dilatación brusca del corazón.",
+                  "answer": "pericardio fibroso",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El pericardio fibroso se une al diafragma por debajo.",
+                  "answer": "pericardio fibroso",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pericardial-cavity",
+              "locales": {
+                "PT": {
+                  "text": "cavidade pericárdica",
+                  "definition": "Espaço virtual entre as lâminas visceral e parietal do pericárdio, com pouco líquido.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cavidad pericárdica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Acúmulo excessivo de líquido forma o derrame pericárdico.",
+                  "collocations": [
+                    "líquido en la cavidad pericárdica",
+                    "drenaje de la cavidad pericárdica"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Es normal una pequeña cantidad de líquido en la cavidad pericárdica.",
+                  "answer": "cavidad pericárdica",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La sangre en la cavidad pericárdica puede causar taponamiento.",
+                  "answer": "cavidad pericárdica",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "superior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava superior",
+                  "definition": "Grande veia que leva o sangue da metade superior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "vena cava superior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Cateteres centrais costumam terminar nessa veia.",
+                  "collocations": [
+                    "síndrome de la vena cava superior",
+                    "catéter en la vena cava superior"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La vena cava superior drena la sangre de la cabeza y los brazos.",
+                  "answer": "vena cava superior",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un tumor comprimía la vena cava superior y hinchaba la cara.",
+                  "answer": "vena cava superior",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inferior-vena-cava",
+              "locales": {
+                "PT": {
+                  "text": "veia cava inferior",
+                  "definition": "Grande veia que leva o sangue da metade inferior do corpo ao átrio direito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "vena cava inferior",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O colapso à ecografia sugere hipovolemia.",
+                  "collocations": [
+                    "filtro de la vena cava inferior",
+                    "colapso de la vena cava inferior"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La vena cava inferior devuelve la sangre de las piernas y el abdomen.",
+                  "answer": "vena cava inferior",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Se colocó un filtro en la vena cava inferior para prevenir embolias.",
+                  "answer": "vena cava inferior",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-artery",
+              "locales": {
+                "PT": {
+                  "text": "artéria pulmonar",
+                  "definition": "Vaso que leva o sangue pouco oxigenado do ventrículo direito aos pulmões.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "arteria pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É a única artéria que leva sangue venoso.",
+                  "collocations": [
+                    "presión de la arteria pulmonar",
+                    "catéter de la arteria pulmonar"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La arteria pulmonar lleva sangre desoxigenada hacia los pulmones.",
+                  "answer": "arteria pulmonar",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La presión de la arteria pulmonar estaba elevada en el cateterismo.",
+                  "answer": "arteria pulmonar",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pulmonary-vein",
+              "locales": {
+                "PT": {
+                  "text": "veia pulmonar",
+                  "definition": "Vaso que leva o sangue oxigenado dos pulmões ao átrio esquerdo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "vena pulmonar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "É a única veia que leva sangue oxigenado.",
+                  "collocations": [
+                    "aislamiento de la vena pulmonar",
+                    "estenosis de la vena pulmonar"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada vena pulmonar desemboca en la aurícula izquierda.",
+                  "answer": "vena pulmonar",
+                  "documentType": "ANATOMY_TEXT"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La ablación alrededor de la vena pulmonar trata la fibrilación auricular.",
+                  "answer": "vena pulmonar",
+                  "documentType": "ANATOMY_TEXT"
+                }
+              ],
+              "segments": {}
+            }
+          ],
+          "levels": [
+            {
+              "title": "Primeiros termos",
+              "terms": [
+                "atrium",
+                "ventricle",
+                "aorta"
+              ]
+            },
+            {
+              "title": "Termos essenciais",
+              "terms": [
+                "myocardium",
+                "pericardium",
+                "cardiac-valve"
+              ]
+            },
+            {
+              "title": "Câmaras do coração",
+              "terms": [
+                "left-atrium",
+                "right-atrium",
+                "left-ventricle",
+                "right-ventricle"
+              ]
+            },
+            {
+              "title": "Septos e eixo do coração",
+              "terms": [
+                "interatrial-septum",
+                "interventricular-septum",
+                "cardiac-apex",
+                "cardiac-base"
+              ]
+            },
+            {
+              "title": "Aparelho valvar atrioventricular",
+              "terms": [
+                "mitral-valve",
+                "tricuspid-valve",
+                "papillary-muscle",
+                "chordae-tendineae"
+              ]
+            },
+            {
+              "title": "Valvas semilunares e estrutura valvar",
+              "terms": [
+                "aortic-valve",
+                "pulmonary-valve",
+                "valve-leaflet",
+                "valve-annulus"
+              ]
+            },
+            {
+              "title": "Camadas e envoltório do coração",
+              "terms": [
+                "epicardium",
+                "endocardium",
+                "fibrous-pericardium",
+                "pericardial-cavity"
+              ]
+            },
+            {
+              "title": "Grandes vasos do coração",
+              "terms": [
+                "superior-vena-cava",
+                "inferior-vena-cava",
+                "pulmonary-artery",
+                "pulmonary-vein"
+              ]
             }
           ]
         },
