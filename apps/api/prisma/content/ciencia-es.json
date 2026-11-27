@@ -1453,6 +1453,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "analise-de-dados",
+      "title": "Análise de dados",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "modelos-e-inferencia",
+          "title": "Modelos e inferência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "linear-regression",
+              "locales": {
+                "PT": {
+                  "text": "regressão",
+                  "definition": "Técnica estatística que descreve como uma variável muda em função de outra ou de várias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "regresión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la regresión (plural: las regresiones). Tipos: \"regresión lineal\", \"regresión logística\".",
+                  "collocations": [
+                    "regresión lineal",
+                    "regresión logística",
+                    "análisis de regresión"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La regresión muestra una tendencia positiva.",
+                  "answer": "regresión",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Hicimos una regresión con los datos de la encuesta.",
+                  "answer": "regresión",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "confidence-interval",
+              "locales": {
+                "PT": {
+                  "text": "intervalo de confiança",
+                  "definition": "Faixa de valores que provavelmente contém o valor verdadeiro de um parâmetro, com um nível de confiança dado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "intervalo de confianza",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el intervalo de confianza (plural: los intervalos de confianza). Nível: \"nivel de confianza\".",
+                  "collocations": [
+                    "intervalo de confianza del 95 %",
+                    "nivel de confianza",
+                    "margen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El intervalo de confianza del 95 por ciento es estrecho.",
+                  "answer": "intervalo de confianza",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un intervalo de confianza amplio indica mucha incertidumbre.",
+                  "answer": "intervalo de confianza",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "null-hypothesis",
+              "locales": {
+                "PT": {
+                  "text": "hipótese nula",
+                  "definition": "Afirmação de que não há efeito ou diferença, testada contra os dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hipótesis nula",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la hipótesis nula (plural: las hipótesis nulas). Símbolo H0; alternativa: \"hipótesis alternativa\".",
+                  "collocations": [
+                    "rechazar la hipótesis nula",
+                    "hipótesis alternativa",
+                    "contraste de hipótesis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "No pudimos rechazar la hipótesis nula.",
+                  "answer": "hipótesis nula",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La hipótesis nula afirma que no hay diferencia.",
+                  "answer": "hipótesis nula",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "variance",
+              "locales": {
+                "PT": {
+                  "text": "variância",
+                  "definition": "Medida de quanto os valores se dispersam em torno da média, igual ao desvio padrão ao quadrado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "varianza",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la varianza (plural: las varianzas). Também \"análisis de la varianza\" (ANOVA).",
+                  "collocations": [
+                    "varianza muestral",
+                    "análisis de la varianza",
+                    "desviación típica"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La varianza del grupo fue inusualmente alta.",
+                  "answer": "varianza",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La raíz cuadrada de la varianza es la desviación típica.",
+                  "answer": "varianza",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bias",
+              "locales": {
+                "PT": {
+                  "text": "viés",
+                  "definition": "Erro sistemático que desloca os resultados de um estudo sempre na mesma direção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "sesgo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el sesgo (plural: los sesgos). Tipos: \"sesgo de selección\", \"sesgo de publicación\".",
+                  "collocations": [
+                    "sesgo de selección",
+                    "sesgo de publicación",
+                    "reducir el sesgo"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El sesgo de selección puede distorsionar los resultados.",
+                  "answer": "sesgo",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El estudio intentó reducir el sesgo con un diseño ciego.",
+                  "answer": "sesgo",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "normal-distribution",
+              "locales": {
+                "PT": {
+                  "text": "distribuição normal",
+                  "definition": "Distribuição simétrica em forma de sino, em que a maioria dos valores fica perto da média.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "distribución normal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la distribución normal (plural: las distribuciones normales). Também \"campana de Gauss\".",
+                  "collocations": [
+                    "distribución normal estándar",
+                    "campana de Gauss",
+                    "seguir una distribución normal"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las estaturas siguen una distribución normal en muestras grandes.",
+                  "answer": "distribución normal",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una distribución normal tiene forma de campana.",
+                  "answer": "distribución normal",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumentos",
+      "title": "Instrumentos de laboratório",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "medicao-e-vidraria",
+          "title": "Medição e vidraria",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "spectrometer",
+              "locales": {
+                "PT": {
+                  "text": "espectrômetro",
+                  "definition": "Aparelho que mede a intensidade da luz ou de outras radiações em função do comprimento de onda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "espectrómetro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el espectrómetro (plural: los espectrómetros). Tipos: \"espectrómetro de masas\".",
+                  "collocations": [
+                    "espectrómetro de masas",
+                    "espectrómetro infrarrojo",
+                    "usar un espectrómetro"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El espectrómetro mide la longitud de onda de la luz.",
+                  "answer": "espectrómetro",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un espectrómetro de masas identifica moléculas por su peso.",
+                  "answer": "espectrómetro",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "thermometer",
+              "locales": {
+                "PT": {
+                  "text": "termômetro",
+                  "definition": "Instrumento que mede a temperatura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "termómetro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el termómetro (plural: los termómetros). Tipos: digital, de mercurio, infrarrojo.",
+                  "collocations": [
+                    "termómetro digital",
+                    "termómetro clínico",
+                    "leer el termómetro"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El termómetro marcaba veinte grados.",
+                  "answer": "termómetro",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Calibra el termómetro antes del experimento.",
+                  "answer": "termómetro",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "voltmeter",
+              "locales": {
+                "PT": {
+                  "text": "voltímetro",
+                  "definition": "Instrumento que mede a diferença de potencial elétrico entre dois pontos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "voltímetro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el voltímetro (plural: los voltímetros). Corrente: \"amperímetro\".",
+                  "collocations": [
+                    "voltímetro digital",
+                    "conectar el voltímetro",
+                    "amperímetro"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Conecta el voltímetro en paralelo con el componente.",
+                  "answer": "voltímetro",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El voltímetro marcó 4,8 voltios.",
+                  "answer": "voltímetro",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "graduated-cylinder",
+              "locales": {
+                "PT": {
+                  "text": "proveta",
+                  "definition": "Recipiente cilíndrico com escala usado para medir volumes de líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "probeta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la probeta (plural: las probetas). Também \"cilindro graduado\".",
+                  "collocations": [
+                    "probeta graduada",
+                    "leer la probeta",
+                    "cilindro graduado"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Vierte la solución en la probeta.",
+                  "answer": "probeta",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una probeta es más precisa que un vaso de precipitados.",
+                  "answer": "probeta",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "beaker",
+              "locales": {
+                "PT": {
+                  "text": "béquer",
+                  "definition": "Recipiente cilíndrico de vidro, de boca larga, usado para misturar e aquecer líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "vaso de precipitados",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el vaso de precipitados (plural: los vasos de precipitados). Também \"beaker\" no uso informal.",
+                  "collocations": [
+                    "vaso de precipitados",
+                    "calentar en un vaso",
+                    "agitador"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Calienta el agua en un vaso de precipitados.",
+                  "answer": "vaso de precipitados",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El vaso de precipitados se rompió al enfriarse demasiado rápido.",
+                  "answer": "vaso de precipitados",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "incubator",
+              "locales": {
+                "PT": {
+                  "text": "incubadora",
+                  "definition": "Aparelho que mantém temperatura e condições constantes para cultivar células ou micro-organismos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "incubadora",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la incubadora (plural: las incubadoras). Também \"estufa de cultivo\".",
+                  "collocations": [
+                    "incubadora de CO2",
+                    "estufa de cultivo",
+                    "incubar las células"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las células crecen en una incubadora a 37 grados.",
+                  "answer": "incubadora",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Mantén cerrada la puerta de la incubadora para conservar la temperatura.",
+                  "answer": "incubadora",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "terra-e-espaco",
+      "title": "Terra e espaço",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "planeta-e-universo",
+          "title": "Planeta e universo",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gravity",
+              "locales": {
+                "PT": {
+                  "text": "gravidade",
+                  "definition": "Força de atração entre corpos com massa, que mantém os objetos no chão e os planetas em órbita.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "gravedad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la gravedad (sem plural usual). Também significa \"gravidade\" de um problema.",
+                  "collocations": [
+                    "fuerza de la gravedad",
+                    "gravedad cero",
+                    "campo gravitatorio"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La fuerza de la gravedad es menor en la Luna.",
+                  "answer": "gravedad",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los astronautas flotan porque hay poca gravedad en órbita.",
+                  "answer": "gravedad",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "orbit",
+              "locales": {
+                "PT": {
+                  "text": "órbita",
+                  "definition": "Trajetória curva de um corpo ao redor de outro, como um satélite ao redor da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "órbita",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la órbita (plural: las órbitas). Também \"órbita\" é a cavidade do olho.",
+                  "collocations": [
+                    "órbita elíptica",
+                    "órbita terrestre baja",
+                    "en órbita"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El satélite se mantiene en órbita a 400 kilómetros.",
+                  "answer": "órbita",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La Luna completa una órbita alrededor de la Tierra cada 27 días.",
+                  "answer": "órbita",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "telescope",
+              "locales": {
+                "PT": {
+                  "text": "telescópio",
+                  "definition": "Instrumento óptico que amplia a imagem de objetos distantes, como estrelas e planetas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "telescopio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el telescopio (plural: los telescopios). Tipos: \"telescopio espacial\", \"radiotelescopio\".",
+                  "collocations": [
+                    "telescopio espacial",
+                    "radiotelescopio",
+                    "mirar por el telescopio"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El telescopio captó una imagen de una galaxia lejana.",
+                  "answer": "telescopio",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un telescopio espacial evita la distorsión de la atmósfera.",
+                  "answer": "telescopio",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "galaxy",
+              "locales": {
+                "PT": {
+                  "text": "galáxia",
+                  "definition": "Enorme conjunto de estrelas, gás e poeira mantido junto pela gravidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "galaxia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la galaxia (plural: las galaxias). A nossa é \"la Vía Láctea\".",
+                  "collocations": [
+                    "galaxia espiral",
+                    "Vía Láctea",
+                    "cúmulo de galaxias"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Nuestra galaxia contiene miles de millones de estrellas.",
+                  "answer": "galaxia",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La luz de la galaxia grande más cercana tarda millones de años en llegar.",
+                  "answer": "galaxia",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fossil",
+              "locales": {
+                "PT": {
+                  "text": "fóssil",
+                  "definition": "Restos ou marcas preservados de um ser vivo antigo, geralmente em rocha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "fósil",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el fósil (plural: los fósiles). \"Combustible fósil\" é o combustível.",
+                  "collocations": [
+                    "registro fósil",
+                    "combustible fósil",
+                    "hallar un fósil"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los científicos hallaron un fósil de un pez antiguo.",
+                  "answer": "fósil",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El fósil tiene unos 300 millones de años.",
+                  "answer": "fósil",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tectonic-plate",
+              "locales": {
+                "PT": {
+                  "text": "placa tectônica",
+                  "definition": "Grande bloco rígido da litosfera que se move lentamente sobre o manto da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "placa tectónica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la placa tectónica (plural: las placas tectónicas). Limites: convergente, divergente, transformante.",
+                  "collocations": [
+                    "placa tectónica",
+                    "deriva continental",
+                    "falla"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada placa tectónica se mueve unos centímetros al año.",
+                  "answer": "placa tectónica",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los terremotos ocurren donde una placa tectónica se desliza bajo otra.",
+                  "answer": "placa tectónica",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "etica-e-publicacao",
+      "title": "Ética e financiamento",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "boas-praticas",
+          "title": "Boas práticas de pesquisa",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "research-grant",
+              "locales": {
+                "PT": {
+                  "text": "bolsa de pesquisa",
+                  "definition": "Quantia concedida por uma instituição para financiar um projeto de pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "beca de investigación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la beca de investigación (plural: las becas de investigación). Também \"subvención\" para o financiamento de projetos.",
+                  "collocations": [
+                    "beca de investigación",
+                    "solicitar una beca",
+                    "subvención"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Ganó una beca de investigación de doscientos mil euros.",
+                  "answer": "beca de investigación",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La beca de investigación cubre equipos y salarios.",
+                  "answer": "beca de investigación",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ethics-committee",
+              "locales": {
+                "PT": {
+                  "text": "comitê de ética",
+                  "definition": "Grupo que avalia se um estudo respeita os direitos e a segurança dos participantes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "comité de ética",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el comité de ética (plural: los comités de ética). Em saúde: \"comité de ética de la investigación\".",
+                  "collocations": [
+                    "aprobación del comité de ética",
+                    "comité de ética",
+                    "protocolo"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El comité de ética aprobó el protocolo del estudio.",
+                  "answer": "comité de ética",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los investigadores deben presentar el plan primero al comité de ética.",
+                  "answer": "comité de ética",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "participant-consent",
+              "locales": {
+                "PT": {
+                  "text": "consentimento informado",
+                  "definition": "Concordância voluntária de uma pessoa em participar, depois de entender os riscos e objetivos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "consentimiento informado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el consentimiento informado (sem plural usual). Documento: \"hoja de consentimiento\".",
+                  "collocations": [
+                    "consentimiento informado",
+                    "hoja de información",
+                    "retirar el consentimiento"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada participante dio su consentimiento informado por escrito.",
+                  "answer": "consentimiento informado",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una investigación sin consentimiento informado no es ética.",
+                  "answer": "consentimiento informado",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conflict-of-interest",
+              "locales": {
+                "PT": {
+                  "text": "conflito de interesses",
+                  "definition": "Situação em que interesses pessoais ou financeiros podem influenciar o julgamento do pesquisador.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "conflicto de intereses",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el conflicto de intereses (plural: los conflictos de intereses). Declaração: \"declaración de conflicto de intereses\".",
+                  "collocations": [
+                    "declarar un conflicto de intereses",
+                    "posible conflicto de intereses",
+                    "declaración"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El autor declaró un conflicto de intereses.",
+                  "answer": "conflicto de intereses",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un conflicto de intereses puede debilitar la confianza en los resultados.",
+                  "answer": "conflicto de intereses",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "preprint",
+              "locales": {
+                "PT": {
+                  "text": "pré-publicação",
+                  "definition": "Versão de um artigo divulgada publicamente antes de passar pela revisão por pares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "preprint",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el preprint (plural: los preprints). Também \"prepublicación\" ou \"preimpreso\".",
+                  "collocations": [
+                    "servidor de preprints",
+                    "prepublicación",
+                    "revisión por pares"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El equipo publicó un preprint antes de la revisión por pares.",
+                  "answer": "preprint",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un preprint aún no ha sido revisado por expertos.",
+                  "answer": "preprint",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "retraction",
+              "locales": {
+                "PT": {
+                  "text": "retratação",
+                  "definition": "Retirada formal de um artigo publicado por conter erro grave ou má conduta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "retractación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la retractación (plural: las retractaciones). Também \"retirada de un artículo\".",
+                  "collocations": [
+                    "aviso de retractación",
+                    "retirada de un artículo",
+                    "mala conducta"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La revista publicó una retractación al descubrirse que los datos eran falsos.",
+                  "answer": "retractación",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un aviso de retractación explica por qué se retiró el artículo.",
+                  "answer": "retractación",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

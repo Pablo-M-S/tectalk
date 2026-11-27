@@ -1522,6 +1522,1016 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "analise-de-dados",
+      "title": "Análise de dados",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "modelos-e-inferencia",
+          "title": "Modelos e inferência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "linear-regression",
+              "locales": {
+                "PT": {
+                  "text": "regressão",
+                  "definition": "Técnica estatística que descreve como uma variável muda em função de outra ou de várias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "回帰",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいき",
+                  "usageNote": "Kango (回 = voltar + 帰 = retornar). Também 回帰分析 (análise de regressão) e 単回帰.",
+                  "collocations": [
+                    "回帰分析",
+                    "線形回帰",
+                    "回帰直線"
+                  ],
+                  "romanization": "kaiki"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "回帰は、正の傾向を示しています。",
+                  "answer": "回帰",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "調査データに対して回帰を行いました。",
+                  "answer": "回帰",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "confidence-interval",
+              "locales": {
+                "PT": {
+                  "text": "intervalo de confiança",
+                  "definition": "Faixa de valores que provavelmente contém o valor verdadeiro de um parâmetro, com um nível de confiança dado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "信頼区間",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんらいくかん",
+                  "usageNote": "Kango (信頼 = confiança + 区間 = intervalo). Nível: 信頼水準.",
+                  "collocations": [
+                    "信頼区間を求める",
+                    "信頼水準",
+                    "区間推定"
+                  ],
+                  "romanization": "shinraikukan"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "九十五パーセントの信頼区間は狭いです。",
+                  "answer": "信頼区間",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "信頼区間が広いと、不確実性が大きいことを示します。",
+                  "answer": "信頼区間",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "null-hypothesis",
+              "locales": {
+                "PT": {
+                  "text": "hipótese nula",
+                  "definition": "Afirmação de que não há efeito ou diferença, testada contra os dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "帰無仮説",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きむかせつ",
+                  "usageNote": "Kango (帰無 = anular + 仮説 = hipótese). Alternativa: 対立仮説.",
+                  "collocations": [
+                    "帰無仮説を棄却する",
+                    "対立仮説",
+                    "仮説検定"
+                  ],
+                  "romanization": "kimukasetsu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "帰無仮説を棄却することはできませんでした。",
+                  "answer": "帰無仮説",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "帰無仮説は、差がないことを述べています。",
+                  "answer": "帰無仮説",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "variance",
+              "locales": {
+                "PT": {
+                  "text": "variância",
+                  "definition": "Medida de quanto os valores se dispersam em torno da média, igual ao desvio padrão ao quadrado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "分散",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぶんさん",
+                  "usageNote": "Kango (分 = dividir + 散 = espalhar). Também 分散分析 (ANOVA).",
+                  "collocations": [
+                    "分散分析",
+                    "標本分散",
+                    "標準偏差"
+                  ],
+                  "romanization": "bunsan"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このグループの分散は、異例に大きいです。",
+                  "answer": "分散",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "分散の平方根が標準偏差です。",
+                  "answer": "分散",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bias",
+              "locales": {
+                "PT": {
+                  "text": "viés",
+                  "definition": "Erro sistemático que desloca os resultados de um estudo sempre na mesma direção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "バイアス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (バイアス, do inglês \"bias\"). Também 偏り (tendência) em linguagem geral.",
+                  "collocations": [
+                    "選択バイアス",
+                    "偏り",
+                    "バイアスを減らす"
+                  ],
+                  "romanization": "baiasu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "選択バイアスは、結果をゆがめることがあります。",
+                  "answer": "バイアス",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この研究は、盲検法でバイアスを減らそうとしました。",
+                  "answer": "バイアス",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "normal-distribution",
+              "locales": {
+                "PT": {
+                  "text": "distribuição normal",
+                  "definition": "Distribuição simétrica em forma de sino, em que a maioria dos valores fica perto da média.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "正規分布",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいきぶんぷ",
+                  "usageNote": "Kango (正規 = normal + 分布 = distribuição). Também ガウス分布 e 釣り鐘型.",
+                  "collocations": [
+                    "標準正規分布",
+                    "ガウス分布",
+                    "正規分布に従う"
+                  ],
+                  "romanization": "seikibunpu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "身長は、大きな標本では正規分布に従います。",
+                  "answer": "正規分布",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "正規分布は、釣り鐘のような形をしています。",
+                  "answer": "正規分布",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumentos",
+      "title": "Instrumentos de laboratório",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "medicao-e-vidraria",
+          "title": "Medição e vidraria",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "spectrometer",
+              "locales": {
+                "PT": {
+                  "text": "espectrômetro",
+                  "definition": "Aparelho que mede a intensidade da luz ou de outras radiações em função do comprimento de onda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "分光計",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぶんこうけい",
+                  "usageNote": "Kango (分光 = dispersar a luz + 計 = medidor). Tipos: 質量分析計 (de massa).",
+                  "collocations": [
+                    "質量分析計",
+                    "分光光度計",
+                    "分光計を使う"
+                  ],
+                  "romanization": "bunkoukei"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "分光計は、光の波長を測定します。",
+                  "answer": "分光計",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "分光計で、物質が吸収する光を調べます。",
+                  "answer": "分光計",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "thermometer",
+              "locales": {
+                "PT": {
+                  "text": "termômetro",
+                  "definition": "Instrumento que mede a temperatura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "温度計",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "おんどけい",
+                  "usageNote": "Kango (温度 = temperatura + 計 = medidor). Clínico: 体温計 (de corpo).",
+                  "collocations": [
+                    "体温計",
+                    "デジタル温度計",
+                    "温度計を読む"
+                  ],
+                  "romanization": "ondokei"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "温度計は二十度を示しました。",
+                  "answer": "温度計",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "実験の前に、温度計を校正してください。",
+                  "answer": "温度計",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "voltmeter",
+              "locales": {
+                "PT": {
+                  "text": "voltímetro",
+                  "definition": "Instrumento que mede a diferença de potencial elétrico entre dois pontos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電圧計",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんあつけい",
+                  "usageNote": "Kango (電圧 = tensão + 計 = medidor). Corrente: 電流計.",
+                  "collocations": [
+                    "電流計",
+                    "電圧計を接続する",
+                    "テスター"
+                  ],
+                  "romanization": "denatsukei"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "電圧計は、部品と並列に接続します。",
+                  "answer": "電圧計",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "電圧計は四・八ボルトを示しました。",
+                  "answer": "電圧計",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "graduated-cylinder",
+              "locales": {
+                "PT": {
+                  "text": "proveta",
+                  "definition": "Recipiente cilíndrico com escala usado para medir volumes de líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "メスシリンダー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (メスシリンダー, do alemão \"Messzylinder\" + inglês \"cylinder\"). Medir volume: 体積を測る.",
+                  "collocations": [
+                    "メスシリンダーで量る",
+                    "目盛り",
+                    "体積を測る"
+                  ],
+                  "romanization": "mesushirindaa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "溶液をメスシリンダーに注いでください。",
+                  "answer": "メスシリンダー",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "メスシリンダーは、ビーカーより正確です。",
+                  "answer": "メスシリンダー",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "beaker",
+              "locales": {
+                "PT": {
+                  "text": "béquer",
+                  "definition": "Recipiente cilíndrico de vidro, de boca larga, usado para misturar e aquecer líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ビーカー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ビーカー, do inglês \"beaker\"). Material: ガラス製 (de vidro).",
+                  "collocations": [
+                    "ガラス製ビーカー",
+                    "ビーカーで温める",
+                    "実験器具"
+                  ],
+                  "romanization": "biikaa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ビーカーの中で水を温めます。",
+                  "answer": "ビーカー",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ビーカーが急に冷えて割れました。",
+                  "answer": "ビーカー",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "incubator",
+              "locales": {
+                "PT": {
+                  "text": "incubadora",
+                  "definition": "Aparelho que mantém temperatura e condições constantes para cultivar células ou micro-organismos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "恒温器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうおんき",
+                  "usageNote": "Kango (恒温 = temperatura constante + 器 = aparelho). Também インキュベーター (gairaigo) e 培養器.",
+                  "collocations": [
+                    "インキュベーター",
+                    "培養器",
+                    "恒温槽"
+                  ],
+                  "romanization": "kouonki"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "細胞は、三十七度の恒温器の中で増えます。",
+                  "answer": "恒温器",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "温度を保つために、恒温器の扉は閉めておいてください。",
+                  "answer": "恒温器",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "terra-e-espaco",
+      "title": "Terra e espaço",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "planeta-e-universo",
+          "title": "Planeta e universo",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gravity",
+              "locales": {
+                "PT": {
+                  "text": "gravidade",
+                  "definition": "Força de atração entre corpos com massa, que mantém os objetos no chão e os planetas em órbita.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "重力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じゅうりょく",
+                  "usageNote": "Kango (重 = pesado + 力 = força). Também 万有引力 (gravitação universal).",
+                  "collocations": [
+                    "重力加速度",
+                    "無重力",
+                    "万有引力"
+                  ],
+                  "romanization": "juuryoku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "月では、重力が地球より小さいです。",
+                  "answer": "重力",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "宇宙飛行士が浮かぶのは、軌道上の重力が小さいからです。",
+                  "answer": "重力",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "orbit",
+              "locales": {
+                "PT": {
+                  "text": "órbita",
+                  "definition": "Trajetória curva de um corpo ao redor de outro, como um satélite ao redor da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "軌道",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きどう",
+                  "usageNote": "Kango (軌 = trilho + 道 = caminho). Também 周回軌道 (órbita circular). Trem: 軌道 também é \"trilhos\".",
+                  "collocations": [
+                    "周回軌道",
+                    "静止軌道",
+                    "軌道修正"
+                  ],
+                  "romanization": "kidou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "衛星は、高度四百キロの軌道にとどまっています。",
+                  "answer": "軌道",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "月は二十七日ごとに、地球の軌道を一周します。",
+                  "answer": "軌道",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "telescope",
+              "locales": {
+                "PT": {
+                  "text": "telescópio",
+                  "definition": "Instrumento óptico que amplia a imagem de objetos distantes, como estrelas e planetas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "望遠鏡",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぼうえんきょう",
+                  "usageNote": "Kango (望遠 = ver ao longe + 鏡 = espelho/lente). Tipos: 電波望遠鏡 (rádio).",
+                  "collocations": [
+                    "電波望遠鏡",
+                    "宇宙望遠鏡",
+                    "望遠鏡をのぞく"
+                  ],
+                  "romanization": "bouenkyou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "望遠鏡は、遠い銀河の画像をとらえました。",
+                  "answer": "望遠鏡",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "宇宙の望遠鏡なら、大気のゆらぎを避けられます。",
+                  "answer": "望遠鏡",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "galaxy",
+              "locales": {
+                "PT": {
+                  "text": "galáxia",
+                  "definition": "Enorme conjunto de estrelas, gás e poeira mantido junto pela gravidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "銀河",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぎんが",
+                  "usageNote": "Kango (銀 = prata + 河 = rio). A nossa: 天の川銀河. Também 銀河系 (a Via Láctea).",
+                  "collocations": [
+                    "天の川銀河",
+                    "渦巻銀河",
+                    "銀河団"
+                  ],
+                  "romanization": "ginga"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "私たちの銀河には、数十億の星があります。",
+                  "answer": "銀河",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "いちばん近い大きな銀河の光が届くには、何百万年もかかります。",
+                  "answer": "銀河",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fossil",
+              "locales": {
+                "PT": {
+                  "text": "fóssil",
+                  "definition": "Restos ou marcas preservados de um ser vivo antigo, geralmente em rocha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "化石",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かせき",
+                  "usageNote": "Kango (化 = transformar + 石 = pedra). Combustível fóssil: 化石燃料.",
+                  "collocations": [
+                    "化石燃料",
+                    "化石を発掘する",
+                    "恐竜の化石"
+                  ],
+                  "romanization": "kaseki"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "科学者は、古代の魚の化石を見つけました。",
+                  "answer": "化石",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この化石は、約三億年前のものです。",
+                  "answer": "化石",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tectonic-plate",
+              "locales": {
+                "PT": {
+                  "text": "placa tectônica",
+                  "definition": "Grande bloco rígido da litosfera que se move lentamente sobre o manto da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "プレート",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (プレート, do inglês \"plate\"). Teoria: プレートテクトニクス. Também 岩板 (raro).",
+                  "collocations": [
+                    "プレートテクトニクス",
+                    "プレート境界",
+                    "断層"
+                  ],
+                  "romanization": "pureeto"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "それぞれのプレートは、一年に数センチ動きます。",
+                  "answer": "プレート",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "地震は、プレートが別の岩盤の下に沈み込む場所で起こります。",
+                  "answer": "プレート",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "etica-e-publicacao",
+      "title": "Ética e financiamento",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "boas-praticas",
+          "title": "Boas práticas de pesquisa",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "research-grant",
+              "locales": {
+                "PT": {
+                  "text": "bolsa de pesquisa",
+                  "definition": "Quantia concedida por uma instituição para financiar um projeto de pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "研究助成金",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けんきゅうじょせいきん",
+                  "usageNote": "Kango (研究 = pesquisa + 助成金 = auxílio financeiro). Também 科研費 (verba científica do governo).",
+                  "collocations": [
+                    "研究助成金に応募する",
+                    "科研費",
+                    "助成"
+                  ],
+                  "romanization": "kenkyuujoseikin"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼女は二十万ユーロの研究助成金を獲得しました。",
+                  "answer": "研究助成金",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "研究助成金は、機器と人件費をまかないます。",
+                  "answer": "研究助成金",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ethics-committee",
+              "locales": {
+                "PT": {
+                  "text": "comitê de ética",
+                  "definition": "Grupo que avalia se um estudo respeita os direitos e a segurança dos participantes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "倫理委員会",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りんりいいんかい",
+                  "usageNote": "Kango (倫理 = ética + 委員会 = comitê). Nas universidades, 研究倫理審査委員会.",
+                  "collocations": [
+                    "倫理審査",
+                    "研究倫理",
+                    "承認を得る"
+                  ],
+                  "romanization": "rinriiinkai"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "倫理委員会は、研究計画書を承認しました。",
+                  "answer": "倫理委員会",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "研究者は、まず計画を倫理委員会に提出しなければなりません。",
+                  "answer": "倫理委員会",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "participant-consent",
+              "locales": {
+                "PT": {
+                  "text": "consentimento informado",
+                  "definition": "Concordância voluntária de uma pessoa em participar, depois de entender os riscos e objetivos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インフォームドコンセント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (インフォームドコンセント, do inglês \"informed consent\"). Em japonês também 説明と同意.",
+                  "collocations": [
+                    "同意書",
+                    "説明と同意",
+                    "同意を撤回する"
+                  ],
+                  "romanization": "infoomudokonsento"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "すべての参加者が、書面でインフォームドコンセントを与えました。",
+                  "answer": "インフォームドコンセント",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "インフォームドコンセントのない研究は、倫理に反します。",
+                  "answer": "インフォームドコンセント",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conflict-of-interest",
+              "locales": {
+                "PT": {
+                  "text": "conflito de interesses",
+                  "definition": "Situação em que interesses pessoais ou financeiros podem influenciar o julgamento do pesquisador.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "利益相反",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りえきそうはん",
+                  "usageNote": "Kango (利益 = interesse + 相反 = contrário). Abreviado COI. Declarar: 申告する.",
+                  "collocations": [
+                    "利益相反を申告する",
+                    "利益相反管理",
+                    "開示"
+                  ],
+                  "romanization": "riekisouhan"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "著者は、利益相反があることを申告しました。",
+                  "answer": "利益相反",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "利益相反は、結果への信頼を弱めるおそれがあります。",
+                  "answer": "利益相反",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "preprint",
+              "locales": {
+                "PT": {
+                  "text": "pré-publicação",
+                  "definition": "Versão de um artigo divulgada publicamente antes de passar pela revisão por pares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "プレプリント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (プレプリント, do inglês \"preprint\"). Também 査読前論文 (artigo antes da revisão).",
+                  "collocations": [
+                    "査読前論文",
+                    "プレプリントサーバー",
+                    "査読"
+                  ],
+                  "romanization": "purepurinto"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "チームは査読の前に、プレプリントを公開しました。",
+                  "answer": "プレプリント",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "プレプリントは、まだ査読者の確認を受けていません。",
+                  "answer": "プレプリント",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "retraction",
+              "locales": {
+                "PT": {
+                  "text": "retratação",
+                  "definition": "Retirada formal de um artigo publicado por conter erro grave ou má conduta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "撤回",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てっかい",
+                  "usageNote": "Kango (撤 = retirar + 回 = voltar). Também 取り下げ e 論文撤回.",
+                  "collocations": [
+                    "論文撤回",
+                    "取り下げ",
+                    "研究不正"
+                  ],
+                  "romanization": "tekkai"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "データの捏造が判明し、学術誌は論文の撤回を発表しました。",
+                  "answer": "撤回",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "撤回の通知には、論文が取り下げられた理由が書かれています。",
+                  "answer": "撤回",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

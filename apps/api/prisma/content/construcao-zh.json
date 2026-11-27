@@ -1498,6 +1498,998 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "maquinas-de-obra",
+      "title": "Máquinas de obra",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "equipamentos-pesados",
+          "title": "Equipamentos pesados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "crane",
+              "locales": {
+                "PT": {
+                  "text": "guindaste",
+                  "definition": "Máquina que levanta e desloca cargas pesadas com cabos e lança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "起重机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qǐzhòngjī",
+                  "usageNote": "Pinyin qǐzhòngjī (起重 = levantar peso + 机). Também 吊车 (guindaste móvel) e 塔吊 (de torre).",
+                  "collocations": [
+                    "塔吊",
+                    "吊车",
+                    "起重机操作员"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "起重机把钢梁吊到了三楼。",
+                  "answer": "起重机",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "只有持证的操作员才能使用起重机。",
+                  "answer": "起重机",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "excavator",
+              "locales": {
+                "PT": {
+                  "text": "escavadeira",
+                  "definition": "Máquina de esteiras com braço e caçamba para escavar e carregar terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "挖掘机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wājuéjī",
+                  "usageNote": "Pinyin wājuéjī (挖掘 = escavar + 机). Também 挖机 (coloquial) e 铲车 (carregadeira, outro tipo).",
+                  "collocations": [
+                    "挖机",
+                    "液压挖掘机",
+                    "小型挖掘机"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "挖掘机挖出了给水管道的沟槽。",
+                  "answer": "挖掘机",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "臂很长的挖掘机够到了基坑的底部。",
+                  "answer": "挖掘机",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bulldozer",
+              "locales": {
+                "PT": {
+                  "text": "trator de esteira",
+                  "definition": "Trator de esteiras com lâmina frontal para empurrar terra e nivelar o terreno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "推土机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tuītǔjī",
+                  "usageNote": "Pinyin tuītǔjī (推土 = empurrar terra + 机). Também 推土车 e 铲运机.",
+                  "collocations": [
+                    "推土机司机",
+                    "推土铲",
+                    "平整场地"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "推土机在基础施工前平整了场地。",
+                  "answer": "推土机",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "推土机把碎石推到了地块的边缘。",
+                  "answer": "推土机",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "concrete-mixer",
+              "locales": {
+                "PT": {
+                  "text": "betoneira",
+                  "definition": "Máquina com tambor giratório que mistura cimento, agregados e água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "混凝土搅拌机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hùnníngtǔ jiǎobànjī",
+                  "usageNote": "Pinyin hùnníngtǔ jiǎobànjī (搅拌 = misturar + 机). O caminhão: 搅拌车.",
+                  "collocations": [
+                    "搅拌车",
+                    "搅拌时间",
+                    "小型搅拌机"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "混凝土搅拌机每一批要转三分钟。",
+                  "answer": "混凝土搅拌机",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "一台混凝土搅拌机运来了十立方米的料。",
+                  "answer": "混凝土搅拌机",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drill",
+              "locales": {
+                "PT": {
+                  "text": "furadeira",
+                  "definition": "Ferramenta elétrica que gira uma broca para furar madeira, metal ou concreto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "电钻",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànzuàn",
+                  "usageNote": "Pinyin diànzuàn (电 = elétrico + 钻 = broca). Também 冲击钻 (com impacto) e 钻头 (broca).",
+                  "collocations": [
+                    "冲击钻",
+                    "钻头",
+                    "无线电钻"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "在混凝土墙上要用装了专用钻头的电钻。",
+                  "answer": "电钻",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "工作做到一半，电钻的电池没电了。",
+                  "answer": "电钻",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "jackhammer",
+              "locales": {
+                "PT": {
+                  "text": "martelo pneumático",
+                  "definition": "Ferramenta pesada de impacto, a ar comprimido ou elétrica, para quebrar concreto e asfalto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "风镐",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēnggǎo",
+                  "usageNote": "Pinyin fēnggǎo (风 = ar + 镐 = picareta). Também 破碎锤 (martelo de impacto).",
+                  "collocations": [
+                    "风镐",
+                    "破碎锤",
+                    "破碎路面"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "工人用风镐敲碎了旧路面。",
+                  "answer": "风镐",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "风镐的噪音超过了安全限值。",
+                  "answer": "风镐",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instalacoes",
+      "title": "Instalações",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "eletrica-e-hidraulica",
+          "title": "Instalações elétricas e hidráulicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "wiring",
+              "locales": {
+                "PT": {
+                  "text": "fiação",
+                  "definition": "Conjunto de fios e cabos que formam a instalação elétrica de um edifício ou equipamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "布线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bùxiàn",
+                  "usageNote": "Pinyin bùxiàn (布 = dispor + 线 = fio). Também 线路 (circuito de linhas) e 电线 (fio elétrico).",
+                  "collocations": [
+                    "电气布线",
+                    "布线图",
+                    "线路"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "旧的布线不符合现行的规范。",
+                  "answer": "布线",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "布线上的一个故障引起了短路。",
+                  "answer": "布线",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conduit",
+              "locales": {
+                "PT": {
+                  "text": "eletroduto",
+                  "definition": "Tubo que protege e conduz fios e cabos elétricos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "线管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiànguǎn",
+                  "usageNote": "Pinyin xiànguǎn (线 + 管). Também 电线管 (completo) e 穿线管.",
+                  "collocations": [
+                    "电线管",
+                    "穿线管",
+                    "金属线管"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "电缆沿着墙在金属线管里走线。",
+                  "answer": "线管",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "一根柔性线管把接线盒和电机连接起来。",
+                  "answer": "线管",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "plumbing",
+              "locales": {
+                "PT": {
+                  "text": "encanamento",
+                  "definition": "Sistema de tubos, conexões e aparelhos que leva água para o edifício e retira o esgoto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "给排水",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gěipáishuǐ",
+                  "usageNote": "Pinyin gěipáishuǐ (给水 + 排水). Também 水暖 (água e aquecimento) e 管道工 (encanador).",
+                  "collocations": [
+                    "给排水系统",
+                    "水暖",
+                    "管道工"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "浴室的给排水需要全部更换。",
+                  "answer": "给排水",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "旧的给排水系统导致水管破裂，淹了地面。",
+                  "answer": "给排水",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drain",
+              "locales": {
+                "PT": {
+                  "text": "ralo",
+                  "definition": "Abertura ou tubo por onde a água e os resíduos líquidos escoam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "排水口",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "páishuǐkǒu",
+                  "usageNote": "Pinyin páishuǐkǒu (排水 + 口). Também 地漏 (ralo de piso) e 下水道 (esgoto).",
+                  "collocations": [
+                    "地漏",
+                    "下水道",
+                    "排水口堵塞"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "地面朝着排水口倾斜。",
+                  "answer": "排水口",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "头发堵住了淋浴间的排水口。",
+                  "answer": "排水口",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "circuit-breaker",
+              "locales": {
+                "PT": {
+                  "text": "disjuntor",
+                  "definition": "Dispositivo que interrompe o circuito automaticamente em caso de sobrecarga ou curto-circuito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "断路器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duànlùqì",
+                  "usageNote": "Pinyin duànlùqì (断路 = interromper o circuito + 器). Também 空气开关 (coloquial, \"chave de ar\") e 跳闸 (desarmar).",
+                  "collocations": [
+                    "空气开关",
+                    "跳闸",
+                    "总断路器"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "打开取暖器时，断路器跳闸了。",
+                  "answer": "断路器",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "修好故障后，请重新合上断路器。",
+                  "answer": "断路器",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "duct",
+              "locales": {
+                "PT": {
+                  "text": "duto",
+                  "definition": "Conduto fechado que leva ar, cabos ou outros fluidos de um ponto a outro de um edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "风管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēngguǎn",
+                  "usageNote": "Pinyin fēngguǎn (风 = vento/ar + 管). Ex.: 通风管道; 空调风管.",
+                  "collocations": [
+                    "空调风管",
+                    "通风管道",
+                    "清洗风管"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "风管从吊顶上方穿过。",
+                  "answer": "风管",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "灰尘堆积在风管里，使风量减小了。",
+                  "answer": "风管",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cobertura-e-esquadrias",
+      "title": "Cobertura e esquadrias",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "telhado-e-aberturas",
+          "title": "Telhado e aberturas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "roof",
+              "locales": {
+                "PT": {
+                  "text": "telhado",
+                  "definition": "Cobertura superior de um edifício que o protege da chuva, do sol e do vento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "屋顶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wūdǐng",
+                  "usageNote": "Pinyin wūdǐng (屋 = casa + 顶 = topo). Também 屋面 (superfície do telhado); 坡屋顶 (inclinado), 平屋顶 (plano).",
+                  "collocations": [
+                    "坡屋顶",
+                    "平屋顶",
+                    "屋面"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "暴风雨之后，屋顶得到了修理。",
+                  "answer": "屋顶",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "屋顶漏水损坏了下面一层的天花板。",
+                  "answer": "屋顶",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "rafter",
+              "locales": {
+                "PT": {
+                  "text": "caibro",
+                  "definition": "Peça inclinada de madeira ou aço que sustenta as telhas ou o forro do telhado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "椽子",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuánzi",
+                  "usageNote": "Pinyin chuánzi (椽 = caibro + 子). Também 檩条 (terça) e 屋架 (estrutura de cobertura).",
+                  "collocations": [
+                    "木椽子",
+                    "椽子间距",
+                    "屋架"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每根椽子都架在墙顶的檩条上。",
+                  "answer": "椽子",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们更换了厨房上方腐烂的椽子。",
+                  "answer": "椽子",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "gutter",
+              "locales": {
+                "PT": {
+                  "text": "calha",
+                  "definition": "Canal na beira do telhado que recolhe a água da chuva e a leva ao tubo de queda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "檐沟",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yángōu",
+                  "usageNote": "Pinyin yángōu (檐 = beiral + 沟 = canal). Também 排水沟; o tubo de queda é 落水管.",
+                  "collocations": [
+                    "檐沟排水",
+                    "落水管",
+                    "清理檐沟"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "落叶堵住了檐沟，水溢了出来。",
+                  "answer": "檐沟",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "雨季之前请清理檐沟。",
+                  "answer": "檐沟",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "window-frame",
+              "locales": {
+                "PT": {
+                  "text": "caixilho de janela",
+                  "definition": "Estrutura que contorna e sustenta o vidro e as folhas de uma janela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "窗框",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuāngkuàng",
+                  "usageNote": "Pinyin chuāngkuàng (窗 = janela + 框 = moldura). Também 窗户; materiais: 铝合金窗框, 塑钢.",
+                  "collocations": [
+                    "铝合金窗框",
+                    "安装窗框",
+                    "窗户"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个窗框是铝合金的。",
+                  "answer": "窗框",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "水从窗框周围渗了进来。",
+                  "answer": "窗框",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "door-frame",
+              "locales": {
+                "PT": {
+                  "text": "batente",
+                  "definition": "Estrutura fixa em que a folha da porta é instalada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "门框",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ménkuàng",
+                  "usageNote": "Pinyin ménkuàng (门 = porta + 框 = moldura). Também 门套 (batente de painel) e 门扇 (folha da porta).",
+                  "collocations": [
+                    "门框安装",
+                    "门套",
+                    "门扇"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "门框不方正，所以门卡住了。",
+                  "answer": "门框",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "用四颗螺丝把门框固定在墙上。",
+                  "answer": "门框",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ceiling",
+              "locales": {
+                "PT": {
+                  "text": "forro",
+                  "definition": "Superfície interna superior de um cômodo, abaixo da cobertura ou da laje do andar de cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "天花板",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tiānhuābǎn",
+                  "usageNote": "Pinyin tiānhuābǎn (天花 = flor do céu + 板). Também 吊顶 (forro rebaixado) e 顶棚.",
+                  "collocations": [
+                    "吊顶",
+                    "顶棚",
+                    "刷天花板"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "雨后，天花板上出现了水渍。",
+                  "answer": "天花板",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们在走廊里安装了一块新的天花板。",
+                  "answer": "天花板",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-da-obra",
+      "title": "Gestão da obra",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "contratos-e-entrega",
+          "title": "Contratos e entrega",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "bill-of-quantities",
+              "locales": {
+                "PT": {
+                  "text": "planilha de quantitativos",
+                  "definition": "Lista detalhada dos itens, medidas e quantidades de materiais e serviços de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "工程量清单",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngchéngliàng qīngdān",
+                  "usageNote": "Pinyin gōngchéngliàng qīngdān (工程量 = quantitativos de obra + 清单 = lista). Base da licitação na China.",
+                  "collocations": [
+                    "编制工程量清单",
+                    "清单计价",
+                    "招标文件"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "承包商给工程量清单中的每一项都报了价。",
+                  "answer": "工程量清单",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "工程量清单中的一处错误使成本增加了。",
+                  "answer": "工程量清单",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "subcontractor",
+              "locales": {
+                "PT": {
+                  "text": "subempreiteiro",
+                  "definition": "Empresa ou profissional contratado pelo contratante principal para executar parte da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "分包商",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēnbāoshāng",
+                  "usageNote": "Pinyin fēnbāoshāng (分包 = subcontratar + 商 = empresa). O principal: 总承包商.",
+                  "collocations": [
+                    "总承包商",
+                    "分包合同",
+                    "劳务分包"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "分包商安装了电气系统。",
+                  "answer": "分包商",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每个阶段验收之后，我们才向分包商付款。",
+                  "answer": "分包商",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "punch-list",
+              "locales": {
+                "PT": {
+                  "text": "lista de pendências",
+                  "definition": "Lista de pequenos defeitos ou itens inacabados a corrigir antes da entrega final da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "缺陷清单",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "quēxiàn qīngdān",
+                  "usageNote": "Pinyin quēxiàn qīngdān (缺陷 = defeito + 清单 = lista). Na China também 问题清单 e 整改单.",
+                  "collocations": [
+                    "整改",
+                    "问题清单",
+                    "验收"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "建筑师在现场巡查后列出了缺陷清单。",
+                  "answer": "缺陷清单",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "到星期五，我们完成了缺陷清单上的所有项目。",
+                  "answer": "缺陷清单",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "as-built-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto as built",
+                  "definition": "Desenho que mostra a obra tal como foi realmente executada, com as alterações feitas em campo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "竣工图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jùngōngtú",
+                  "usageNote": "Pinyin jùngōngtú (竣工 = concluir a obra + 图). Também 竣工验收 (aceitação final).",
+                  "collocations": [
+                    "竣工验收",
+                    "提交竣工图",
+                    "竣工资料"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "竣工图标出了风管的新位置。",
+                  "answer": "竣工图",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "承包商必须在移交时提交竣工图。",
+                  "answer": "竣工图",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "handover",
+              "locales": {
+                "PT": {
+                  "text": "entrega da obra",
+                  "definition": "Transferência formal da obra concluída do construtor para o cliente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "移交",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yíjiāo",
+                  "usageNote": "Pinyin yíjiāo (移 = mover + 交 = entregar). Em obras: 工程移交, 竣工移交.",
+                  "collocations": [
+                    "工程移交",
+                    "移交手续",
+                    "移交日期"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "移交安排在六月底进行。",
+                  "answer": "移交",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "移交时，客户拿到了钥匙和使用手册。",
+                  "answer": "移交",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "work-permit",
+              "locales": {
+                "PT": {
+                  "text": "permissão de trabalho",
+                  "definition": "Autorização escrita para executar uma tarefa de risco, como trabalho a quente ou em altura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "作业许可",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zuòyè xǔkě",
+                  "usageNote": "Pinyin zuòyè xǔkě (作业 = operação + 许可 = permissão). Em segurança: 动火作业许可 (trabalho a quente).",
+                  "collocations": [
+                    "动火作业许可",
+                    "办理作业许可",
+                    "许可证"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "没有签署作业许可，任何动火作业都不能开始。",
+                  "answer": "作业许可",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "作业许可在当班结束时失效。",
+                  "answer": "作业许可",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

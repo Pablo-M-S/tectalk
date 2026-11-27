@@ -2738,6 +2738,998 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "ortopedia",
+      "title": "Ortopedia e reumatologia",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "ossos-e-articulacoes",
+          "title": "Ossos e articulações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "fracture",
+              "locales": {
+                "PT": {
+                  "text": "fratura",
+                  "definition": "Rompimento total ou parcial de um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "骨折",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gǔzhé",
+                  "usageNote": "Pinyin gǔzhé (骨 = osso + 折 = quebrar). Tipos: 开放性骨折 (exposta) e 闭合性骨折.",
+                  "collocations": [
+                    "开放性骨折",
+                    "髋部骨折",
+                    "骨折愈合"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "X光片显示左手腕骨折。",
+                  "answer": "骨折",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这种骨折需要打六周石膏。",
+                  "answer": "骨折",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ligament",
+              "locales": {
+                "PT": {
+                  "text": "ligamento",
+                  "definition": "Faixa resistente de tecido que liga um osso a outro numa articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "韧带",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rèndài",
+                  "usageNote": "Pinyin rèndài (韧 = resistente + 带 = faixa). Joelho: 前交叉韧带.",
+                  "collocations": [
+                    "前交叉韧带",
+                    "韧带损伤",
+                    "撕裂"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "他踢足球时撕裂了膝盖的韧带。",
+                  "answer": "韧带",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "韧带连接两块骨头。",
+                  "answer": "韧带",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tendon",
+              "locales": {
+                "PT": {
+                  "text": "tendão",
+                  "definition": "Cordão resistente de tecido que liga um músculo a um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "肌腱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jījiàn",
+                  "usageNote": "Pinyin jījiàn (肌 = músculo + 腱 = tendão). Aquiles: 跟腱.",
+                  "collocations": [
+                    "跟腱",
+                    "肌腱炎",
+                    "肌腱断裂"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肌腱把肌肉连接到骨头上。",
+                  "answer": "肌腱",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "肌腱发炎会在活动时引起疼痛。",
+                  "answer": "肌腱",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "osteoporosis",
+              "locales": {
+                "PT": {
+                  "text": "osteoporose",
+                  "definition": "Doença em que os ossos perdem massa e ficam frágeis e fáceis de fraturar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "骨质疏松症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gǔzhì shūsōngzhèng",
+                  "usageNote": "Pinyin gǔzhì shūsōngzhèng (骨质 = tecido ósseo + 疏松 = poroso + 症). Exame: 骨密度检测.",
+                  "collocations": [
+                    "骨密度检测",
+                    "补钙",
+                    "预防骨质疏松症"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "五十岁以上的女性患骨质疏松症的风险更高。",
+                  "answer": "骨质疏松症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "检查确诊脊柱骨质疏松症。",
+                  "answer": "骨质疏松症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "arthritis",
+              "locales": {
+                "PT": {
+                  "text": "artrite",
+                  "definition": "Inflamação de uma ou mais articulações, com dor, inchaço e rigidez.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "关节炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guānjiéyán",
+                  "usageNote": "Pinyin guānjiéyán (关节 = articulação + 炎 = inflamação). Reumatoide: 类风湿关节炎.",
+                  "collocations": [
+                    "类风湿关节炎",
+                    "骨关节炎",
+                    "关节痛"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "她的手部关节炎已经好几年了。",
+                  "answer": "关节炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "晨僵是关节炎的典型表现。",
+                  "answer": "关节炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dislocation",
+              "locales": {
+                "PT": {
+                  "text": "luxação",
+                  "definition": "Deslocamento de um osso para fora da posição normal em uma articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "脱位",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tuōwèi",
+                  "usageNote": "Pinyin tuōwèi (脱 = sair + 位 = posição). Também 脱臼 (coloquial) e 关节脱位.",
+                  "collocations": [
+                    "关节脱位",
+                    "肩关节脱位",
+                    "复位"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "肩关节脱位在急诊室得到了复位。",
+                  "answer": "脱位",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为避免神经损伤，脱位必须尽快处理。",
+                  "answer": "脱位",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dermatologia-e-alergia",
+      "title": "Dermatologia e alergia",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "pele-e-reacoes",
+          "title": "Pele e reações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "rash",
+              "locales": {
+                "PT": {
+                  "text": "erupção cutânea",
+                  "definition": "Alteração da pele com manchas vermelhas, bolhas ou coceira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "皮疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "pízhěn",
+                  "usageNote": "Pinyin pízhěn (皮 = pele + 疹 = erupção). Também 红疹 e 荨麻疹 (urticária).",
+                  "collocations": [
+                    "起皮疹",
+                    "荨麻疹",
+                    "瘙痒"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "他的胸口出现了红色皮疹。",
+                  "answer": "皮疹",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "他一抓，皮疹就扩散。",
+                  "answer": "皮疹",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "eczema",
+              "locales": {
+                "PT": {
+                  "text": "eczema",
+                  "definition": "Doença crônica da pele com ressecamento, coceira e inflamação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "湿疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shīzhěn",
+                  "usageNote": "Pinyin shīzhěn (湿 = úmido + 疹 = erupção). Atópico: 特应性皮炎.",
+                  "collocations": [
+                    "特应性皮炎",
+                    "湿疹复发",
+                    "保湿霜"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "孩子的膝盖后面有湿疹。",
+                  "answer": "湿疹",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "保湿霜有助于控制湿疹。",
+                  "answer": "湿疹",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "allergy",
+              "locales": {
+                "PT": {
+                  "text": "alergia",
+                  "definition": "Reação exagerada do sistema imunológico a uma substância normalmente inofensiva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "过敏",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòmǐn",
+                  "usageNote": "Pinyin guòmǐn (过 = excessivo + 敏 = sensível). Funciona como verbo: 对…过敏.",
+                  "collocations": [
+                    "过敏反应",
+                    "花粉过敏",
+                    "食物过敏"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "她对青霉素过敏。",
+                  "answer": "过敏",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这种过敏会在春天引起打喷嚏。",
+                  "answer": "过敏",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "anaphylaxis",
+              "locales": {
+                "PT": {
+                  "text": "anafilaxia",
+                  "definition": "Reação alérgica grave e súbita que pode ser fatal sem tratamento imediato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "过敏性休克",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòmǐnxìng xiūkè",
+                  "usageNote": "Pinyin guòmǐnxìng xiūkè (过敏性 = alérgico + 休克 = choque). Tratamento: 肾上腺素.",
+                  "collocations": [
+                    "肾上腺素",
+                    "严重过敏反应",
+                    "急救"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "发生过敏性休克时要立即注射肾上腺素。",
+                  "answer": "过敏性休克",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "被蜜蜂蜇伤后，患者出现了过敏性休克。",
+                  "answer": "过敏性休克",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "melanoma",
+              "locales": {
+                "PT": {
+                  "text": "melanoma",
+                  "definition": "Câncer de pele grave que se origina nas células produtoras de pigmento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "黑色素瘤",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hēisèsùliú",
+                  "usageNote": "Pinyin hēisèsùliú (黑色素 = melanina + 瘤 = tumor). Também 恶性黑色素瘤 e 皮肤癌.",
+                  "collocations": [
+                    "恶性黑色素瘤",
+                    "皮肤癌",
+                    "痣"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "活检证实她背部有黑色素瘤。",
+                  "answer": "黑色素瘤",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "早期黑色素瘤通常可以通过手术治愈。",
+                  "answer": "黑色素瘤",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inflammation",
+              "locales": {
+                "PT": {
+                  "text": "inflamação",
+                  "definition": "Resposta do corpo a lesão ou infecção, com vermelhidão, calor, inchaço e dor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "炎症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yánzhèng",
+                  "usageNote": "Pinyin yánzhèng (炎 = chama + 症 = doença). Também 发炎 (verbo, inflamar).",
+                  "collocations": [
+                    "发炎",
+                    "慢性炎症",
+                    "消炎药"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "血液检查显示有炎症的迹象。",
+                  "answer": "炎症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "消炎药可以减轻炎症和疼痛。",
+                  "answer": "炎症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "infeccao-e-imunidade",
+      "title": "Infecção e imunidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "agentes-e-defesas",
+          "title": "Agentes e defesas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "antibiotic",
+              "locales": {
+                "PT": {
+                  "text": "antibiótico",
+                  "definition": "Medicamento que mata bactérias ou impede seu crescimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "抗生素",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kàngshēngsù",
+                  "usageNote": "Pinyin kàngshēngsù (抗 = contra + 生素 = substância viva). Também 抗菌药.",
+                  "collocations": [
+                    "抗菌药",
+                    "耐药性",
+                    "服用抗生素"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "医生给感染开了抗生素。",
+                  "answer": "抗生素",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这种抗生素必须连续服用七天。",
+                  "answer": "抗生素",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "vaccine",
+              "locales": {
+                "PT": {
+                  "text": "vacina",
+                  "definition": "Preparado que estimula o corpo a criar defesa contra uma doença específica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "疫苗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìmiáo",
+                  "usageNote": "Pinyin yìmiáo (疫 = epidemia + 苗 = broto). Ato: 接种.",
+                  "collocations": [
+                    "接种",
+                    "流感疫苗",
+                    "疫苗接种"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这种疫苗可以预防麻疹。",
+                  "answer": "疫苗",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "孩子在十二个月大时接种疫苗。",
+                  "answer": "疫苗",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fever",
+              "locales": {
+                "PT": {
+                  "text": "febre",
+                  "definition": "Elevação da temperatura do corpo acima do normal, em geral sinal de infecção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "发烧",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fāshāo",
+                  "usageNote": "Pinyin fāshāo (发 = emitir + 烧 = queimar). Também 发热 (formal) e 退烧 (baixar a febre).",
+                  "collocations": [
+                    "发热",
+                    "退烧",
+                    "高烧"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "孩子从星期一起一直发烧。",
+                  "answer": "发烧",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "发烧超过三十九度需要就医。",
+                  "answer": "发烧",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "sepsis",
+              "locales": {
+                "PT": {
+                  "text": "sepse",
+                  "definition": "Reação extrema do corpo a uma infecção, que pode levar à falência de órgãos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "脓毒症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nóngdúzhèng",
+                  "usageNote": "Pinyin nóngdúzhèng (脓 = pus + 毒 = toxina + 症). Também 败血症 (termo antigo).",
+                  "collocations": [
+                    "败血症",
+                    "感染性休克",
+                    "重症监护"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "不治疗的话，脓毒症可在几小时内导致器官衰竭。",
+                  "answer": "脓毒症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "患者因脓毒症入住重症监护室。",
+                  "answer": "脓毒症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "virus",
+              "locales": {
+                "PT": {
+                  "text": "vírus",
+                  "definition": "Agente infeccioso muito pequeno que só se multiplica dentro de células vivas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "病毒",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bìngdú",
+                  "usageNote": "Pinyin bìngdú (病 = doença + 毒 = veneno). Também 病毒感染.",
+                  "collocations": [
+                    "病毒感染",
+                    "流感病毒",
+                    "传播"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "病毒会引起普通感冒。",
+                  "answer": "病毒",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这种病毒通过空气传播。",
+                  "answer": "病毒",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "antibody",
+              "locales": {
+                "PT": {
+                  "text": "anticorpo",
+                  "definition": "Proteína produzida pelo sistema imunológico que reconhece e neutraliza um agente estranho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "抗体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kàngtǐ",
+                  "usageNote": "Pinyin kàngtǐ (抗 = contra + 体 = corpo). Exame: 抗体检测; antígeno: 抗原.",
+                  "collocations": [
+                    "抗体检测",
+                    "产生抗体",
+                    "抗原"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项检测可以查出针对病毒的抗体。",
+                  "answer": "抗体",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "接种疫苗之后，身体会产生抗体。",
+                  "answer": "抗体",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tratamento-e-cuidado",
+      "title": "Tratamento e cuidado",
+      "position": 14,
+      "lessons": [
+        {
+          "slug": "terapias-e-receitas",
+          "title": "Terapias e receitas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "prescription",
+              "locales": {
+                "PT": {
+                  "text": "receita médica",
+                  "definition": "Ordem escrita do médico para que o paciente receba um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "处方",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chǔfāng",
+                  "usageNote": "Pinyin chǔfāng (处 = tratar + 方 = receita). Verbo: 开处方; remédio com receita: 处方药.",
+                  "collocations": [
+                    "处方药",
+                    "开处方",
+                    "药房"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "买这种药需要处方。",
+                  "answer": "处方",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "药剂师按处方配了药。",
+                  "answer": "处方",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dosage",
+              "locales": {
+                "PT": {
+                  "text": "dosagem",
+                  "definition": "Quantidade de medicamento e frequência com que deve ser tomada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "剂量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìliàng",
+                  "usageNote": "Pinyin jìliàng (剂 = preparado + 量 = quantidade). Também 用量 e 服用剂量.",
+                  "collocations": [
+                    "推荐剂量",
+                    "调整剂量",
+                    "过量"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "剂量取决于患者的体重。",
+                  "answer": "剂量",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "不要超过推荐的剂量。",
+                  "answer": "剂量",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "side-effect",
+              "locales": {
+                "PT": {
+                  "text": "efeito colateral",
+                  "definition": "Efeito indesejado e secundário de um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "副作用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fùzuòyòng",
+                  "usageNote": "Pinyin fùzuòyòng (副 = secundário + 作用 = ação). A bula: 说明书.",
+                  "collocations": [
+                    "严重副作用",
+                    "说明书",
+                    "不良反应"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "恶心是这种药常见的副作用。",
+                  "answer": "副作用",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "出现任何副作用都要告诉医生。",
+                  "answer": "副作用",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "chemotherapy",
+              "locales": {
+                "PT": {
+                  "text": "quimioterapia",
+                  "definition": "Tratamento do câncer com medicamentos que destroem as células tumorais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "化疗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huàliáo",
+                  "usageNote": "Pinyin huàliáo (化 = química + 疗 = terapia, abreviação de 化学治疗). Radioterapia: 放疗.",
+                  "collocations": [
+                    "放疗",
+                    "化疗周期",
+                    "辅助化疗"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "手术之后，她开始了化疗。",
+                  "answer": "化疗",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "化疗期间常会脱发。",
+                  "answer": "化疗",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "physiotherapy",
+              "locales": {
+                "PT": {
+                  "text": "fisioterapia",
+                  "definition": "Tratamento que usa exercícios, massagem e técnicas físicas para restaurar o movimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "物理治疗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wùlǐ zhìliáo",
+                  "usageNote": "Pinyin wùlǐ zhìliáo (物理 = física + 治疗 = tratamento). Profissional: 物理治疗师; também 理疗 (abreviado).",
+                  "collocations": [
+                    "理疗",
+                    "物理治疗师",
+                    "康复训练"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "他每周需要做两次物理治疗。",
+                  "answer": "物理治疗",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "规律的物理治疗能让受伤后的活动能力恢复。",
+                  "answer": "物理治疗",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "rehabilitation",
+              "locales": {
+                "PT": {
+                  "text": "reabilitação",
+                  "definition": "Processo de recuperar funções e autonomia depois de doença, lesão ou cirurgia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "康复",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kāngfù",
+                  "usageNote": "Pinyin kāngfù (康 = saudável + 复 = recuperar). Também 康复治疗 e 康复训练.",
+                  "collocations": [
+                    "康复治疗",
+                    "康复训练",
+                    "心脏康复"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "中风后的全面康复可能需要数月。",
+                  "answer": "康复",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "康复计划包括步行训练。",
+                  "answer": "康复",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

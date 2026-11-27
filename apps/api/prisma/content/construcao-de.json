@@ -1462,6 +1462,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "maquinas-de-obra",
+      "title": "Máquinas de obra",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "equipamentos-pesados",
+          "title": "Equipamentos pesados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "crane",
+              "locales": {
+                "PT": {
+                  "text": "guindaste",
+                  "definition": "Máquina que levanta e desloca cargas pesadas com cabos e lança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kran",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Kran (plural: die Kräne). Tipos: Turmdrehkran, Mobilkran.",
+                  "collocations": [
+                    "Turmdrehkran",
+                    "Kranführer",
+                    "Kran bedienen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Kran hob die Stahlträger in das dritte Stockwerk.",
+                  "answer": "Kran",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nur ein zertifizierter Fahrer darf den Kran bedienen.",
+                  "answer": "Kran",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "excavator",
+              "locales": {
+                "PT": {
+                  "text": "escavadeira",
+                  "definition": "Máquina de esteiras com braço e caçamba para escavar e carregar terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bagger",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Bagger (plural: die Bagger). \"Minibagger\" é a mini-escavadeira.",
+                  "collocations": [
+                    "Minibagger",
+                    "Baggerschaufel",
+                    "Bagger fahren"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Bagger hob den Graben für die Wasserleitung aus.",
+                  "answer": "Bagger",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Bagger mit langem Arm erreichte den Boden der Grube.",
+                  "answer": "Bagger",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bulldozer",
+              "locales": {
+                "PT": {
+                  "text": "trator de esteira",
+                  "definition": "Trator de esteiras com lâmina frontal para empurrar terra e nivelar o terreno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Planierraupe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Planierraupe (plural: die Planierraupen); também \"Bulldozer\" (masculino).",
+                  "collocations": [
+                    "Planierraupe fahren",
+                    "Schild der Planierraupe",
+                    "Bulldozer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Planierraupe ebnete das Gelände vor den Fundamentarbeiten ein.",
+                  "answer": "Planierraupe",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Planierraupe schob den Schutt an den Rand des Grundstücks.",
+                  "answer": "Planierraupe",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "concrete-mixer",
+              "locales": {
+                "PT": {
+                  "text": "betoneira",
+                  "definition": "Máquina com tambor giratório que mistura cimento, agregados e água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Betonmischer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Betonmischer (plural: die Betonmischer). Caminhão: \"Fahrmischer\".",
+                  "collocations": [
+                    "Fahrmischer",
+                    "Betonmischer reinigen",
+                    "Mischzeit"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Betonmischer läuft drei Minuten pro Charge.",
+                  "answer": "Betonmischer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Betonmischer auf Rädern lieferte zehn Kubikmeter.",
+                  "answer": "Betonmischer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drill",
+              "locales": {
+                "PT": {
+                  "text": "furadeira",
+                  "definition": "Ferramenta elétrica que gira uma broca para furar madeira, metal ou concreto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bohrmaschine",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Bohrmaschine (plural: die Bohrmaschinen). Com impacto: \"Schlagbohrmaschine\".",
+                  "collocations": [
+                    "Akku-Bohrmaschine",
+                    "Schlagbohrmaschine",
+                    "Bohrer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Benutze die Bohrmaschine mit einem Steinbohrer für die Betonwand.",
+                  "answer": "Bohrmaschine",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Akku der Bohrmaschine war mitten in der Arbeit leer.",
+                  "answer": "Bohrmaschine",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "jackhammer",
+              "locales": {
+                "PT": {
+                  "text": "martelo pneumático",
+                  "definition": "Ferramenta pesada de impacto, a ar comprimido ou elétrica, para quebrar concreto e asfalto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Presslufthammer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Presslufthammer (plural: die Presslufthämmer). Também \"Abbruchhammer\".",
+                  "collocations": [
+                    "Presslufthammer",
+                    "Abbruchhammer",
+                    "Pflaster aufbrechen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Arbeiter benutzten einen Presslufthammer, um den alten Belag aufzubrechen.",
+                  "answer": "Presslufthammer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Lärm vom Presslufthammer liegt über dem sicheren Grenzwert.",
+                  "answer": "Presslufthammer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instalacoes",
+      "title": "Instalações",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "eletrica-e-hidraulica",
+          "title": "Instalações elétricas e hidráulicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "wiring",
+              "locales": {
+                "PT": {
+                  "text": "fiação",
+                  "definition": "Conjunto de fios e cabos que formam a instalação elétrica de um edifício ou equipamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verkabelung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verkabelung (plural: die Verkabelungen). Também \"Elektroinstallation\".",
+                  "collocations": [
+                    "Verkabelung prüfen",
+                    "Elektroinstallation",
+                    "Schaltplan"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die alte Verkabelung erfüllt die geltende Norm nicht.",
+                  "answer": "Verkabelung",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Fehler in der Verkabelung verursachte den Kurzschluss.",
+                  "answer": "Verkabelung",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conduit",
+              "locales": {
+                "PT": {
+                  "text": "eletroduto",
+                  "definition": "Tubo que protege e conduz fios e cabos elétricos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Leerrohr",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Leerrohr (plural: die Leerrohre); também \"Installationsrohr\".",
+                  "collocations": [
+                    "Leerrohr verlegen",
+                    "flexibles Leerrohr",
+                    "Installationsrohr"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Kabel verlaufen in einem Leerrohr aus Metall an der Wand entlang.",
+                  "answer": "Leerrohr",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein flexibles Leerrohr verbindet den Kasten mit dem Motor.",
+                  "answer": "Leerrohr",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "plumbing",
+              "locales": {
+                "PT": {
+                  "text": "encanamento",
+                  "definition": "Sistema de tubos, conexões e aparelhos que leva água para o edifício e retira o esgoto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sanitärinstallation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Sanitärinstallation (plural: die Sanitärinstallationen); profissional: Installateur.",
+                  "collocations": [
+                    "Sanitärinstallation erneuern",
+                    "Installateur",
+                    "Wasserleitung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Sanitärinstallation im Bad muss komplett erneuert werden.",
+                  "answer": "Sanitärinstallation",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wegen der alten Sanitärinstallation überschwemmte ein Rohrbruch den Boden.",
+                  "answer": "Sanitärinstallation",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drain",
+              "locales": {
+                "PT": {
+                  "text": "ralo",
+                  "definition": "Abertura ou tubo por onde a água e os resíduos líquidos escoam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Abfluss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Abfluss (plural: die Abflüsse). Ralo de chão: \"Bodenablauf\".",
+                  "collocations": [
+                    "Bodenablauf",
+                    "verstopfter Abfluss",
+                    "Abfluss reinigen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Boden hat ein Gefälle zum Abfluss.",
+                  "answer": "Abfluss",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Haare verstopften den Abfluss in der Dusche.",
+                  "answer": "Abfluss",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "circuit-breaker",
+              "locales": {
+                "PT": {
+                  "text": "disjuntor",
+                  "definition": "Dispositivo que interrompe o circuito automaticamente em caso de sobrecarga ou curto-circuito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Leitungsschutzschalter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Leitungsschutzschalter (plural: die Leitungsschutzschalter); coloquial \"Sicherungsautomat\" ou \"Sicherung\".",
+                  "collocations": [
+                    "Leitungsschutzschalter auslösen",
+                    "Sicherungsautomat",
+                    "Sicherungskasten"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Leitungsschutzschalter löste aus, als die Heizung eingeschaltet wurde.",
+                  "answer": "Leitungsschutzschalter",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Schalte den Leitungsschutzschalter nach der Reparatur wieder ein.",
+                  "answer": "Leitungsschutzschalter",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "duct",
+              "locales": {
+                "PT": {
+                  "text": "duto",
+                  "definition": "Conduto fechado que leva ar, cabos ou outros fluidos de um ponto a outro de um edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lüftungskanal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Lüftungskanal (plural: die Lüftungskanäle).",
+                  "collocations": [
+                    "Lüftungskanal reinigen",
+                    "Luftkanal",
+                    "Kanal dämmen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Lüftungskanal verläuft über der abgehängten Decke.",
+                  "answer": "Lüftungskanal",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Staub sammelte sich im Lüftungskanal und verringerte den Luftstrom.",
+                  "answer": "Lüftungskanal",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cobertura-e-esquadrias",
+      "title": "Cobertura e esquadrias",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "telhado-e-aberturas",
+          "title": "Telhado e aberturas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "roof",
+              "locales": {
+                "PT": {
+                  "text": "telhado",
+                  "definition": "Cobertura superior de um edifício que o protege da chuva, do sol e do vento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dach",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Dach (plural: die Dächer). Tipos: Flachdach, Satteldach.",
+                  "collocations": [
+                    "Flachdach",
+                    "Satteldach",
+                    "Dach decken"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Dach wurde nach dem Sturm repariert.",
+                  "answer": "Dach",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine undichte Stelle im Dach beschädigte die Decke darunter.",
+                  "answer": "Dach",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "rafter",
+              "locales": {
+                "PT": {
+                  "text": "caibro",
+                  "definition": "Peça inclinada de madeira ou aço que sustenta as telhas ou o forro do telhado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sparren",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Sparren (plural: die Sparren). Fica sobre as Pfetten (terças).",
+                  "collocations": [
+                    "Dachsparren",
+                    "Sparrenabstand",
+                    "Pfette"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Sparren liegt auf der Mauerlatte auf.",
+                  "answer": "Sparren",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir ersetzten den morschen Sparren über der Küche.",
+                  "answer": "Sparren",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "gutter",
+              "locales": {
+                "PT": {
+                  "text": "calha",
+                  "definition": "Canal na beira do telhado que recolhe a água da chuva e a leva ao tubo de queda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dachrinne",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Dachrinne (plural: die Dachrinnen). O tubo de queda: \"das Fallrohr\".",
+                  "collocations": [
+                    "Dachrinne reinigen",
+                    "Fallrohr",
+                    "Regenrinne"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Laub verstopfte die Dachrinne, und das Wasser lief über.",
+                  "answer": "Dachrinne",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Reinigen Sie die Dachrinne vor der Regenzeit.",
+                  "answer": "Dachrinne",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "window-frame",
+              "locales": {
+                "PT": {
+                  "text": "caixilho de janela",
+                  "definition": "Estrutura que contorna e sustenta o vidro e as folhas de uma janela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fensterrahmen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Fensterrahmen (plural: die Fensterrahmen). Material: Holz, Kunststoff, Aluminium.",
+                  "collocations": [
+                    "Fensterrahmen aus Holz",
+                    "Fensterrahmen einbauen",
+                    "Fenster abdichten"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Fensterrahmen besteht aus Aluminium.",
+                  "answer": "Fensterrahmen",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wasser drang um den Fensterrahmen herum ein.",
+                  "answer": "Fensterrahmen",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "door-frame",
+              "locales": {
+                "PT": {
+                  "text": "batente",
+                  "definition": "Estrutura fixa em que a folha da porta é instalada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Türrahmen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Türrahmen (plural: die Türrahmen); também \"Zarge\" (para o batente metálico).",
+                  "collocations": [
+                    "Türzarge",
+                    "Türrahmen einsetzen",
+                    "Türblatt"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Türrahmen war nicht rechtwinklig, deshalb klemmte die Tür.",
+                  "answer": "Türrahmen",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Befestige den Türrahmen mit vier Schrauben an der Wand.",
+                  "answer": "Türrahmen",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ceiling",
+              "locales": {
+                "PT": {
+                  "text": "forro",
+                  "definition": "Superfície interna superior de um cômodo, abaixo da cobertura ou da laje do andar de cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Decke",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Decke (plural: die Decken). Também a manta e a laje; \"abgehängte Decke\" é o forro rebaixado.",
+                  "collocations": [
+                    "abgehängte Decke",
+                    "Deckenhöhe",
+                    "Decke streichen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wir montierten im Flur eine abgehängte Decke.",
+                  "answer": "Decke",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Nach dem Regen traten Wasserflecken an der Decke auf.",
+                  "answer": "Decke",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-da-obra",
+      "title": "Gestão da obra",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "contratos-e-entrega",
+          "title": "Contratos e entrega",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "bill-of-quantities",
+              "locales": {
+                "PT": {
+                  "text": "planilha de quantitativos",
+                  "definition": "Lista detalhada dos itens, medidas e quantidades de materiais e serviços de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Leistungsverzeichnis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Leistungsverzeichnis (plural: die Leistungsverzeichnisse); abreviado LV.",
+                  "collocations": [
+                    "Leistungsverzeichnis erstellen",
+                    "LV",
+                    "Ausschreibung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Unternehmer bewertete jede Position im Leistungsverzeichnis.",
+                  "answer": "Leistungsverzeichnis",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Fehler im Leistungsverzeichnis erhöhte die Kosten.",
+                  "answer": "Leistungsverzeichnis",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "subcontractor",
+              "locales": {
+                "PT": {
+                  "text": "subempreiteiro",
+                  "definition": "Empresa ou profissional contratado pelo contratante principal para executar parte da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Subunternehmer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Subunternehmer (plural: die Subunternehmer); feminino: die Subunternehmerin.",
+                  "collocations": [
+                    "Subunternehmer beauftragen",
+                    "Generalunternehmer",
+                    "Nachunternehmer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Subunternehmer installierte die Elektroanlage.",
+                  "answer": "Subunternehmer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir bezahlen den Subunternehmer nach der Abnahme jeder Phase.",
+                  "answer": "Subunternehmer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "punch-list",
+              "locales": {
+                "PT": {
+                  "text": "lista de pendências",
+                  "definition": "Lista de pequenos defeitos ou itens inacabados a corrigir antes da entrega final da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mängelliste",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Mängelliste (plural: die Mängellisten). Também \"Restpunkteliste\".",
+                  "collocations": [
+                    "Mängelliste erstellen",
+                    "Mängel beseitigen",
+                    "Abnahme"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Architekt ging über die Baustelle und erstellte eine Mängelliste.",
+                  "answer": "Mängelliste",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir erledigten bis Freitag alle Punkte auf der Mängelliste.",
+                  "answer": "Mängelliste",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "as-built-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto as built",
+                  "definition": "Desenho que mostra a obra tal como foi realmente executada, com as alterações feitas em campo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bestandsplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Bestandsplan (plural: die Bestandspläne); também \"Revisionsplan\".",
+                  "collocations": [
+                    "Bestandsplan aktualisieren",
+                    "Revisionsplan",
+                    "Planunterlagen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Bestandsplan zeigt die neue Lage des Kanals.",
+                  "answer": "Bestandsplan",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Bauunternehmer muss bei der Übergabe den Bestandsplan abliefern.",
+                  "answer": "Bestandsplan",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "handover",
+              "locales": {
+                "PT": {
+                  "text": "entrega da obra",
+                  "definition": "Transferência formal da obra concluída do construtor para o cliente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Übergabe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Übergabe (plural: die Übergaben); também \"Abnahme\" (aceitação formal).",
+                  "collocations": [
+                    "Übergabe der Baustelle",
+                    "Abnahme",
+                    "Übergabetermin"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Übergabe ist für Ende Juni geplant.",
+                  "answer": "Übergabe",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Bei der Übergabe erhielt der Kunde die Schlüssel und die Handbücher.",
+                  "answer": "Übergabe",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "work-permit",
+              "locales": {
+                "PT": {
+                  "text": "permissão de trabalho",
+                  "definition": "Autorização escrita para executar uma tarefa de risco, como trabalho a quente ou em altura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Arbeitsfreigabe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Arbeitsfreigabe (plural: die Arbeitsfreigaben); também \"Erlaubnisschein\" (para trabalho de risco).",
+                  "collocations": [
+                    "Arbeitsfreigabe erteilen",
+                    "Erlaubnisschein",
+                    "Heißarbeiten"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ohne eine unterschriebene Arbeitsfreigabe beginnen keine Heißarbeiten.",
+                  "answer": "Arbeitsfreigabe",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Arbeitsfreigabe gilt nur bis zum Ende der Schicht.",
+                  "answer": "Arbeitsfreigabe",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1498,6 +1498,998 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "fluidos-e-termica",
+      "title": "Fluidos e térmica",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "tubulacoes-e-calor",
+          "title": "Tubulações e calor",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "pipe",
+              "locales": {
+                "PT": {
+                  "text": "tubulação",
+                  "definition": "Tubo ou conjunto de tubos por onde escoam líquidos ou gases.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "管道",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guǎndào",
+                  "usageNote": "Pinyin guǎndào (管 = tubo + 道 = via). Sistema de tubulação; também 管线 e 管子 (um tubo).",
+                  "collocations": [
+                    "管道系统",
+                    "铺设管道",
+                    "管道直径"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "管道把冷却水输送到泵房。",
+                  "answer": "管道",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "在锅炉附近的管道发现了漏水。",
+                  "answer": "管道",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "flow-rate",
+              "locales": {
+                "PT": {
+                  "text": "vazão",
+                  "definition": "Volume de fluido que passa por uma seção por unidade de tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "流量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "liúliàng",
+                  "usageNote": "Pinyin liúliàng (流 + 量). Unidade: m³/h; 流量计 = medidor de vazão.",
+                  "collocations": [
+                    "流量计",
+                    "测量流量",
+                    "最大流量"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "过滤器堵塞时，流量会下降。",
+                  "answer": "流量",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这台泵能保持每秒十升的恒定流量。",
+                  "answer": "流量",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pressure",
+              "locales": {
+                "PT": {
+                  "text": "pressão",
+                  "definition": "Força exercida por um fluido por unidade de área.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "压力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yālì",
+                  "usageNote": "Pinyin yālì (压 + 力). Também significa \"estresse/pressão\" psicológica; 压力表 = manômetro.",
+                  "collocations": [
+                    "压力表",
+                    "压力损失",
+                    "工作压力"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "储罐的压力不得超过六巴。",
+                  "answer": "压力",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "压力突然下降说明有泄漏。",
+                  "answer": "压力",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "heat-exchanger",
+              "locales": {
+                "PT": {
+                  "text": "trocador de calor",
+                  "definition": "Equipamento que transfere calor de um fluido para outro sem misturá-los.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "换热器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huànrèqì",
+                  "usageNote": "Pinyin huànrèqì (换热 = trocar calor + 器). Tipos: 板式换热器, 管壳式换热器.",
+                  "collocations": [
+                    "板式换热器",
+                    "管壳式",
+                    "热回收"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "换热器可以回收废气中的热量。",
+                  "answer": "换热器",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们清洗了换热器，以恢复它的效率。",
+                  "answer": "换热器",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "insulation",
+              "locales": {
+                "PT": {
+                  "text": "isolamento térmico",
+                  "definition": "Material ou camada que reduz a troca de calor entre dois ambientes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "隔热",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gérè",
+                  "usageNote": "Pinyin gérè (隔 = separar + 热 = calor). 保温 (bǎowēn) é \"manter quente\" e também comum; 隔热材料 = material isolante.",
+                  "collocations": [
+                    "隔热材料",
+                    "隔热层",
+                    "保温"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "管道的隔热可以减少能量损失。",
+                  "answer": "隔热",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "良好的隔热能让工艺温度保持稳定。",
+                  "answer": "隔热",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "turbine",
+              "locales": {
+                "PT": {
+                  "text": "turbina",
+                  "definition": "Máquina que converte a energia de um fluido em movimento de rotação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "涡轮机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wōlúnjī",
+                  "usageNote": "Pinyin wōlúnjī (涡轮 = turbilhão + 机). Também 汽轮机 (turbina a vapor) e 燃气轮机 (a gás).",
+                  "collocations": [
+                    "汽轮机",
+                    "燃气轮机",
+                    "风力涡轮机"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "涡轮机带动发电机每分钟转三千圈。",
+                  "answer": "涡轮机",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "锅炉产生的蒸汽推动涡轮机旋转。",
+                  "answer": "涡轮机",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "controle-e-automacao",
+      "title": "Controle e automação",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "sensores-e-controle",
+          "title": "Sensores e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "sensor",
+              "locales": {
+                "PT": {
+                  "text": "sensor",
+                  "definition": "Dispositivo que mede uma grandeza física e a converte em sinal elétrico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "传感器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuángǎnqì",
+                  "usageNote": "Pinyin chuángǎnqì (传感 = sentir e transmitir + 器). Ex.: 温度传感器 (de temperatura).",
+                  "collocations": [
+                    "温度传感器",
+                    "压力传感器",
+                    "安装传感器"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "传感器测量反应器内部的温度。",
+                  "answer": "传感器",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "故障的传感器给系统发送了错误的读数。",
+                  "answer": "传感器",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "actuator",
+              "locales": {
+                "PT": {
+                  "text": "atuador",
+                  "definition": "Dispositivo que converte um sinal de controle em movimento ou força.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "执行器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhíxíngqì",
+                  "usageNote": "Pinyin zhíxíngqì (执行 = executar + 器). Também 驱动器 (acionador).",
+                  "collocations": [
+                    "液压执行器",
+                    "执行器故障",
+                    "控制执行器"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "压力升高时，执行器会打开阀门。",
+                  "answer": "执行器",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "液压的执行器带动起重机的臂移动。",
+                  "answer": "执行器",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "controller",
+              "locales": {
+                "PT": {
+                  "text": "controlador",
+                  "definition": "Dispositivo ou programa que compara um valor medido com o desejado e ajusta a saída.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "控制器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kòngzhìqì",
+                  "usageNote": "Pinyin kòngzhìqì (控制 = controlar + 器). Ex.: PID控制器; também 调节器 (regulador).",
+                  "collocations": [
+                    "PID控制器",
+                    "调节器",
+                    "调整控制器"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "控制器把温度保持在八十度。",
+                  "answer": "控制器",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们把旧的控制器换成了数字式的。",
+                  "answer": "控制器",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "feedback-loop",
+              "locales": {
+                "PT": {
+                  "text": "malha de realimentação",
+                  "definition": "Ciclo em que a saída do sistema é medida e devolvida à entrada para corrigir o desvio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "反馈回路",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎnkuì huílù",
+                  "usageNote": "Pinyin fǎnkuì huílù (反馈 = realimentação + 回路 = circuito). Também 闭环 (malha fechada).",
+                  "collocations": [
+                    "闭环控制",
+                    "反馈回路",
+                    "稳定系统"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "反馈回路能在几毫秒内修正电机的转速。",
+                  "answer": "反馈回路",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "不稳定的反馈回路使温度出现了波动。",
+                  "answer": "反馈回路",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "automation",
+              "locales": {
+                "PT": {
+                  "text": "automação",
+                  "definition": "Uso de sistemas de controle para operar um processo com pouca ou nenhuma intervenção humana.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "自动化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zìdònghuà",
+                  "usageNote": "Pinyin zìdònghuà (自动 = automático + 化 = tornar). Verbo: 实现自动化; \"工业自动化\" = automação industrial.",
+                  "collocations": [
+                    "工业自动化",
+                    "实现自动化",
+                    "自动化系统"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "自动化减少了人工检查的次数。",
+                  "answer": "自动化",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "工厂为了提高产量，投资了自动化。",
+                  "answer": "自动化",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "signal",
+              "locales": {
+                "PT": {
+                  "text": "sinal",
+                  "definition": "Grandeza elétrica ou óptica que transporta uma informação, como 4–20 mA.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "信号",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xìnhào",
+                  "usageNote": "Pinyin xìnhào (信 + 号). Também \"semáforo\" e \"sinal de celular\"; 模拟信号, 数字信号.",
+                  "collocations": [
+                    "模拟信号",
+                    "数字信号",
+                    "放大信号"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "传感器的信号在处理前会被放大。",
+                  "answer": "信号",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "信号中的噪声使测量结果出现了偏差。",
+                  "answer": "信号",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "producao-industrial",
+      "title": "Produção industrial",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "processos-de-fabricacao",
+          "title": "Processos de fabricação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "welding",
+              "locales": {
+                "PT": {
+                  "text": "soldagem",
+                  "definition": "Processo de união de peças metálicas por fusão, com ou sem metal de adição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "焊接",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hànjiē",
+                  "usageNote": "Pinyin hànjiē (焊 = soldar + 接 = unir). Verbo: 焊接; 焊工 = soldador; 电弧焊 = por arco.",
+                  "collocations": [
+                    "电弧焊",
+                    "焊接缺陷",
+                    "焊工"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "管道接头的焊接用X光做了检查。",
+                  "answer": "焊接",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "焊接不良导致车架出现了裂纹。",
+                  "answer": "焊接",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "casting",
+              "locales": {
+                "PT": {
+                  "text": "fundição",
+                  "definition": "Processo de fabricar peças despejando metal fundido em um molde.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "铸造",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhùzào",
+                  "usageNote": "Pinyin zhùzào (铸 = fundir + 造). Tipos: 砂型铸造, 压铸 (sob pressão); 铸件 = peça fundida.",
+                  "collocations": [
+                    "砂型铸造",
+                    "压铸",
+                    "铸件"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "发动机缸体的铸造在砂型中进行。",
+                  "answer": "铸造",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "铸造时产生的气泡削弱了零件。",
+                  "answer": "铸造",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "machining",
+              "locales": {
+                "PT": {
+                  "text": "usinagem",
+                  "definition": "Fabricação de peças pela remoção de material com ferramentas de corte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "机械加工",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jīxiè jiāgōng",
+                  "usageNote": "Pinyin jīxiè jiāgōng (机械 + 加工). Também 切削加工; CNC加工 = usinagem CNC.",
+                  "collocations": [
+                    "CNC加工",
+                    "精密机械加工",
+                    "切削加工"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "轴的机械加工要求公差为零点零一毫米。",
+                  "answer": "机械加工",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "引入数控机床后，机械加工的时间缩短了。",
+                  "answer": "机械加工",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "assembly-line",
+              "locales": {
+                "PT": {
+                  "text": "linha de montagem",
+                  "definition": "Sequência de postos onde peças são montadas em etapas até formar o produto final.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "装配线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhuāngpèixiàn",
+                  "usageNote": "Pinyin zhuāngpèixiàn (装配 = montar + 线 = linha). Também 流水线 (linha em fluxo).",
+                  "collocations": [
+                    "自动装配线",
+                    "流水线",
+                    "装配工人"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "装配线上的每个工人负责安装一个部件。",
+                  "answer": "装配线",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "装配线停了二十分钟。",
+                  "answer": "装配线",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "quality-control",
+              "locales": {
+                "PT": {
+                  "text": "controle de qualidade",
+                  "definition": "Conjunto de inspeções e testes que verifica se o produto atende às especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "质量控制",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhìliàng kòngzhì",
+                  "usageNote": "Pinyin zhìliàng kòngzhì (质量 = qualidade + 控制). Também 质检 (abreviação, \"QC\") e 质量保证.",
+                  "collocations": [
+                    "质检",
+                    "质量保证",
+                    "抽样检验"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "质量控制拒绝了整批产品。",
+                  "answer": "质量控制",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们的质量控制团队每小时抽检十件。",
+                  "answer": "质量控制",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "prototype",
+              "locales": {
+                "PT": {
+                  "text": "protótipo",
+                  "definition": "Primeiro modelo funcional de um produto, usado para testar e validar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "原型",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yuánxíng",
+                  "usageNote": "Pinyin yuánxíng (原 = original + 型 = modelo). Também 样机 (protótipo de máquina) e 样品.",
+                  "collocations": [
+                    "制作原型",
+                    "样机",
+                    "快速原型"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "原型通过了振动试验。",
+                  "answer": "原型",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "开始批量生产之前，我们先制作了原型。",
+                  "answer": "原型",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "normas-e-confiabilidade",
+      "title": "Normas e confiabilidade",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "manutencao-e-normas",
+          "title": "Manutenção e normas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "standard",
+              "locales": {
+                "PT": {
+                  "text": "norma técnica",
+                  "definition": "Documento que define requisitos e métodos aceitos por uma comunidade técnica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "标准",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biāozhǔn",
+                  "usageNote": "Pinyin biāozhǔn (标 = marca + 准 = exato). Normas chinesas: 国家标准 (GB). Também \"padrão\" em geral.",
+                  "collocations": [
+                    "国家标准",
+                    "符合标准",
+                    "国际标准"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个设计符合压力容器的国际标准。",
+                  "answer": "标准",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这项标准规定了试验方法。",
+                  "answer": "标准",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "certification",
+              "locales": {
+                "PT": {
+                  "text": "certificação",
+                  "definition": "Confirmação formal, por uma entidade independente, de que um produto ou pessoa atende a requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "认证",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rènzhèng",
+                  "usageNote": "Pinyin rènzhèng (认 + 证). Também \"autenticação\" em TI; 认证机构 = organismo certificador.",
+                  "collocations": [
+                    "ISO认证",
+                    "认证机构",
+                    "取得认证"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "公司去年取得了ISO认证。",
+                  "answer": "认证",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "产品上市之前需要通过认证。",
+                  "answer": "认证",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "failure-mode",
+              "locales": {
+                "PT": {
+                  "text": "modo de falha",
+                  "definition": "A forma específica pela qual um componente ou sistema deixa de cumprir sua função.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "失效模式",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shīxiào móshì",
+                  "usageNote": "Pinyin shīxiào móshì (失效 = falhar + 模式). Em eletrônica diz-se também 故障模式; FMEA = 失效模式与影响分析.",
+                  "collocations": [
+                    "失效模式分析",
+                    "失效模式",
+                    "FMEA"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "疲劳裂纹是这个支架的主要失效模式。",
+                  "answer": "失效模式",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "分析中列出了所有可能的失效模式。",
+                  "answer": "失效模式",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "maintenance",
+              "locales": {
+                "PT": {
+                  "text": "manutenção",
+                  "definition": "Conjunto de ações para manter equipamentos funcionando ou restaurá-los após uma falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "维护",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wéihù",
+                  "usageNote": "Pinyin wéihù (维 = manter + 护 = proteger). Também 保养 (manutenção rotineira) e 检修 (revisão).",
+                  "collocations": [
+                    "预防性维护",
+                    "维护计划",
+                    "保养"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "日常维护包括润滑和检查。",
+                  "answer": "维护",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这台泵因为维护而暂停运行。",
+                  "answer": "维护",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "service-life",
+              "locales": {
+                "PT": {
+                  "text": "vida útil",
+                  "definition": "Período durante o qual um componente ou estrutura cumpre sua função em condições normais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "使用寿命",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shǐyòng shòumìng",
+                  "usageNote": "Pinyin shǐyòng shòumìng (使用 = uso + 寿命 = vida). Também 设计寿命 (vida de projeto).",
+                  "collocations": [
+                    "设计寿命",
+                    "延长使用寿命",
+                    "剩余寿命"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这座桥的设计使用寿命是一百年。",
+                  "answer": "使用寿命",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "定期润滑能延长轴承的使用寿命。",
+                  "answer": "使用寿命",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "redundancy",
+              "locales": {
+                "PT": {
+                  "text": "redundância",
+                  "definition": "Inclusão de componentes ou caminhos extras para que o sistema continue funcionando se um falhar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "冗余",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rǒngyú",
+                  "usageNote": "Pinyin rǒngyú (冗 = supérfluo + 余 = excesso). Em engenharia: 冗余设计 (projeto redundante); também \"excesso/demissão\".",
+                  "collocations": [
+                    "冗余设计",
+                    "冗余备份",
+                    "双重冗余"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "电源的冗余可以避免整体停机。",
+                  "answer": "冗余",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这个系统对关键传感器采用了双重冗余。",
+                  "answer": "冗余",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

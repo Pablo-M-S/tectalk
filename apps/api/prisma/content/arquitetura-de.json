@@ -1453,6 +1453,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "envoltoria-e-estrutura",
+      "title": "Envoltória e estrutura",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "fachada-e-cobertura",
+          "title": "Fachada e cobertura",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "curtain-wall",
+              "locales": {
+                "PT": {
+                  "text": "fachada cortina",
+                  "definition": "Parede externa leve, geralmente de vidro e metal, que não suporta as cargas do edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorhangfassade",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Vorhangfassade (plural: die Vorhangfassaden). Também \"Glasfassade\" quando de vidro.",
+                  "collocations": [
+                    "Vorhangfassade montieren",
+                    "Glasfassade",
+                    "Fassadenelement"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Vorhangfassade trägt keine Lasten der Decken.",
+                  "answer": "Vorhangfassade",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Vorhangfassade aus Glas lässt viel Tageslicht herein.",
+                  "answer": "Vorhangfassade",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cladding",
+              "locales": {
+                "PT": {
+                  "text": "revestimento externo",
+                  "definition": "Camada de material aplicada à parte externa de uma parede para proteger e dar acabamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fassadenverkleidung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fassadenverkleidung (plural: die Fassadenverkleidungen). Variantes: \"Holzverkleidung\", \"Metallverkleidung\".",
+                  "collocations": [
+                    "Fassadenverkleidung anbringen",
+                    "Holzverkleidung",
+                    "Metallverkleidung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Fassadenverkleidung besteht aus Holzpaneelen.",
+                  "answer": "Fassadenverkleidung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine neue Fassadenverkleidung verbesserte die Dämmung des Gebäudes.",
+                  "answer": "Fassadenverkleidung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "parapet",
+              "locales": {
+                "PT": {
+                  "text": "platibanda",
+                  "definition": "Muro baixo que contorna a borda de um telhado, terraço ou ponte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Brüstung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Brüstung (plural: die Brüstungen). Na cobertura também \"Attika\".",
+                  "collocations": [
+                    "Brüstungshöhe",
+                    "Attika",
+                    "Dachterrasse"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Brüstung verbirgt die Klimageräte.",
+                  "answer": "Brüstung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine niedrige Brüstung umgibt die Dachterrasse.",
+                  "answer": "Brüstung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "lintel-beam",
+              "locales": {
+                "PT": {
+                  "text": "verga",
+                  "definition": "Viga horizontal que cobre uma abertura de porta ou janela e sustenta a parede acima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sturz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Sturz (plural: die Stürze). Também significa \"queda\"; em obras, \"Fenstersturz\" ou \"Türsturz\".",
+                  "collocations": [
+                    "Sturz einbauen",
+                    "Türsturz",
+                    "Fenstersturz"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Sturz aus Stahl überspannt die Fensteröffnung.",
+                  "answer": "Sturz",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Sturz über der Tür bekam einen Riss.",
+                  "answer": "Sturz",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "atrium-space",
+              "locales": {
+                "PT": {
+                  "text": "átrio",
+                  "definition": "Espaço central amplo e coberto, geralmente de vários pavimentos e iluminado por cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Atrium",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Atrium (plural: die Atrien). Muito comum em edifícios de escritórios e museus.",
+                  "collocations": [
+                    "Atrium überdachen",
+                    "Lichthof",
+                    "Glasdach"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Atrium bringt Tageslicht in die Mitte des Gebäudes.",
+                  "answer": "Atrium",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Büros blicken auf jeder Etage auf das Atrium.",
+                  "answer": "Atrium",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "skylight",
+              "locales": {
+                "PT": {
+                  "text": "claraboia",
+                  "definition": "Abertura envidraçada no telhado ou no forro que deixa entrar a luz natural.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Oberlicht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Oberlicht (plural: die Oberlichter). Também \"Dachfenster\" para janela de telhado inclinado.",
+                  "collocations": [
+                    "Oberlicht einbauen",
+                    "Dachfenster",
+                    "Tageslicht"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Oberlicht erhellt das Treppenhaus.",
+                  "answer": "Oberlicht",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Regen drang durch das Oberlicht ein.",
+                  "answer": "Oberlicht",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "espacos-interiores",
+      "title": "Espaços interiores",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "circulacao-e-ambientes",
+          "title": "Circulação e ambientes",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "lobby",
+              "locales": {
+                "PT": {
+                  "text": "saguão",
+                  "definition": "Espaço de entrada e espera de um edifício, onde fica a recepção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Eingangshalle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Eingangshalle (plural: die Eingangshallen). Também \"Foyer\" e \"Lobby\" em hotéis.",
+                  "collocations": [
+                    "Eingangshalle gestalten",
+                    "Foyer",
+                    "Empfang"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Eingangshalle hat eine doppelt hohe Decke.",
+                  "answer": "Eingangshalle",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Gäste warten in der Eingangshalle, bis der Aufzug kommt.",
+                  "answer": "Eingangshalle",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mezzanine",
+              "locales": {
+                "PT": {
+                  "text": "mezanino",
+                  "definition": "Pavimento intermediário entre dois andares principais, geralmente aberto para o pé-direito duplo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zwischengeschoss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Zwischengeschoss (plural: die Zwischengeschosse); também \"Mezzanin\" e \"Galerie\".",
+                  "collocations": [
+                    "Zwischengeschoss einziehen",
+                    "Mezzanin",
+                    "Galerie"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Zwischengeschoss blickt auf die Haupthalle.",
+                  "answer": "Zwischengeschoss",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir fügten ein Zwischengeschoss ein, um die zusätzliche Höhe zu nutzen.",
+                  "answer": "Zwischengeschoss",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "open-plan",
+              "locales": {
+                "PT": {
+                  "text": "planta livre",
+                  "definition": "Layout sem divisões internas fixas, em que os ambientes se integram em um só espaço.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "offener Grundriss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der offene Grundriss (plural: die offenen Grundrisse). Também \"Großraumbüro\" para escritório.",
+                  "collocations": [
+                    "offener Grundriss",
+                    "Großraumbüro",
+                    "offene Küche"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Typisch für das Büro ist ein offener Grundriss ohne Wände.",
+                  "answer": "offener Grundriss",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein offener Grundriss lässt das Licht durch das ganze Geschoss fallen.",
+                  "answer": "offener Grundriss",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "partition",
+              "locales": {
+                "PT": {
+                  "text": "divisória",
+                  "definition": "Parede leve e não portante que divide um ambiente em dois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Trennwand",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Trennwand (plural: die Trennwände). Tipos: \"Leichtbauwand\", \"Glaswand\".",
+                  "collocations": [
+                    "Trennwand einziehen",
+                    "Leichtbauwand",
+                    "Glaswand"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Trennwand aus Glas trennt den Besprechungsraum ab.",
+                  "answer": "Trennwand",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Trennwand lässt sich verschieben, um den Raum zu vergrößern.",
+                  "answer": "Trennwand",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ramp",
+              "locales": {
+                "PT": {
+                  "text": "rampa",
+                  "definition": "Superfície inclinada que liga dois níveis e permite acesso de cadeira de rodas e carrinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rampe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Rampe (plural: die Rampen). Em acessibilidade: \"barrierefreie Rampe\".",
+                  "collocations": [
+                    "barrierefreie Rampe",
+                    "Rampe bauen",
+                    "Gefälle"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine Rampe ermöglicht Rollstuhlfahrern den Zugang zum Eingang.",
+                  "answer": "Rampe",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Gefälle der Rampe darf acht Prozent nicht überschreiten.",
+                  "answer": "Rampe",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "handrail",
+              "locales": {
+                "PT": {
+                  "text": "corrimão",
+                  "definition": "Barra horizontal ou inclinada que se segura com a mão ao longo de escadas e rampas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Handlauf",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Handlauf (plural: die Handläufe). O conjunto: \"Geländer\".",
+                  "collocations": [
+                    "Handlauf montieren",
+                    "Geländer",
+                    "Treppe"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ein Handlauf verläuft an beiden Seiten der Treppe.",
+                  "answer": "Handlauf",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Handlauf muss in neunzig Zentimetern Höhe befestigt werden.",
+                  "answer": "Handlauf",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "paisagem-e-cidade",
+      "title": "Paisagem e cidade",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "espaco-publico",
+          "title": "Espaço público",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "landscape-architecture",
+              "locales": {
+                "PT": {
+                  "text": "paisagismo",
+                  "definition": "Projeto de espaços abertos, como parques, jardins e ruas, em harmonia com o ambiente natural e construído.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Landschaftsarchitektur",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Landschaftsarchitektur (sem plural usual). Profissional: Landschaftsarchitekt/in.",
+                  "collocations": [
+                    "Landschaftsarchitektur studieren",
+                    "Landschaftsarchitekt",
+                    "Freiraumplanung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Sie studierte Landschaftsarchitektur, bevor sie ins Büro kam.",
+                  "answer": "Landschaftsarchitektur",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Gute Landschaftsarchitektur verbindet Parks, Gärten und Straßen.",
+                  "answer": "Landschaftsarchitektur",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "courtyard",
+              "locales": {
+                "PT": {
+                  "text": "pátio interno",
+                  "definition": "Espaço aberto, cercado por paredes ou edifícios, no interior de um lote ou construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Innenhof",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Innenhof (plural: die Innenhöfe). Casa com pátio: \"Hofhaus\".",
+                  "collocations": [
+                    "Innenhof begrünen",
+                    "Hofhaus",
+                    "Lichthof"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Innenhof liegt im Schatten von zwei alten Bäumen.",
+                  "answer": "Innenhof",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Zimmer öffnen sich auf allen vier Seiten zum Innenhof.",
+                  "answer": "Innenhof",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pedestrian-zone",
+              "locales": {
+                "PT": {
+                  "text": "zona de pedestres",
+                  "definition": "Área urbana fechada ao tráfego de veículos e reservada a quem anda a pé.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fußgängerzone",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fußgängerzone (plural: die Fußgängerzonen). Comum em centros históricos alemães.",
+                  "collocations": [
+                    "Fußgängerzone einrichten",
+                    "Innenstadt",
+                    "autofrei"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Altstadt wurde zur Fußgängerzone.",
+                  "answer": "Fußgängerzone",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Geschäfte in der Fußgängerzone profitieren von mehr Besuchern.",
+                  "answer": "Fußgängerzone",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "public-square",
+              "locales": {
+                "PT": {
+                  "text": "praça",
+                  "definition": "Espaço aberto urbano de uso coletivo, para encontros, eventos e circulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Platz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Platz (plural: die Plätze). Também significa \"lugar\" e \"espaço\".",
+                  "collocations": [
+                    "Marktplatz",
+                    "Dorfplatz",
+                    "Rathausplatz"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Platz ist das Zentrum des Viertels.",
+                  "answer": "Platz",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Auf dem Platz findet jeden Samstag ein Markt statt.",
+                  "answer": "Platz",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mixed-use",
+              "locales": {
+                "PT": {
+                  "text": "uso misto",
+                  "definition": "Combinação de usos diferentes, como comércio, escritório e moradia, no mesmo edifício ou bairro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mischnutzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Mischnutzung (sem plural usual). O bairro: \"Mischgebiet\" (zona mista).",
+                  "collocations": [
+                    "Mischnutzung planen",
+                    "Mischgebiet",
+                    "Quartier"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gebäude mit Mischnutzung vereint Läden, Büros und Wohnungen.",
+                  "answer": "Mischnutzung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Stadtplaner bevorzugen Mischnutzung, damit die Straßen lebendig bleiben.",
+                  "answer": "Mischnutzung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "density",
+              "locales": {
+                "PT": {
+                  "text": "densidade urbana",
+                  "definition": "Quantidade de pessoas, moradias ou construções por unidade de área em uma cidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dichte",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Dichte (sem plural usual). Ex.: \"Bevölkerungsdichte\", \"Bebauungsdichte\".",
+                  "collocations": [
+                    "Bevölkerungsdichte",
+                    "Bebauungsdichte",
+                    "verdichten"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wohnungsbau mit hoher Dichte spart Fläche und Energie.",
+                  "answer": "Dichte",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Stadt will die Dichte in Bahnhofsnähe erhöhen.",
+                  "answer": "Dichte",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fases-do-projeto",
+      "title": "Fases do projeto",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "do-estudo-a-obra",
+          "title": "Do estudo à obra",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schematic-design",
+              "locales": {
+                "PT": {
+                  "text": "estudo preliminar",
+                  "definition": "Primeira fase do projeto, em que o arquiteto define o partido, a distribuição e os volumes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorentwurf",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Vorentwurf (plural: die Vorentwürfe). Na HOAI corresponde à fase 2; segue o \"Entwurf\".",
+                  "collocations": [
+                    "Vorentwurf erstellen",
+                    "Entwurfsplanung",
+                    "Leistungsphase"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Kunde genehmigte den Vorentwurf letzte Woche.",
+                  "answer": "Vorentwurf",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Im Vorentwurf legt die Architektin die Aufteilung und die Baukörper fest.",
+                  "answer": "Vorentwurf",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "construction-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto executivo",
+                  "definition": "Desenho técnico detalhado usado pela obra para executar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausführungsplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Ausführungsplan (plural: die Ausführungspläne). Fase: \"Ausführungsplanung\".",
+                  "collocations": [
+                    "Ausführungsplanung",
+                    "Ausführungsplan freigeben",
+                    "Detailplan"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Bauunternehmer arbeitet nach dem Ausführungsplan.",
+                  "answer": "Ausführungsplan",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Ausführungsplan zeigt die Details eines Bauteils.",
+                  "answer": "Ausführungsplan",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "design-specification",
+              "locales": {
+                "PT": {
+                  "text": "memorial descritivo",
+                  "definition": "Documento escrito que descreve os materiais, a qualidade e os métodos de execução de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Baubeschreibung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Baubeschreibung (plural: die Baubeschreibungen). Técnica: \"Leistungsbeschreibung\".",
+                  "collocations": [
+                    "Baubeschreibung erstellen",
+                    "Leistungsbeschreibung",
+                    "Materialangabe"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Baubeschreibung nennt Marke und Oberfläche jedes Materials.",
+                  "answer": "Baubeschreibung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Änderung der Baubeschreibung erhöhte das Budget.",
+                  "answer": "Baubeschreibung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mock-up",
+              "locales": {
+                "PT": {
+                  "text": "protótipo em escala real",
+                  "definition": "Modelo em tamanho real de parte do projeto, feito para avaliar materiais, cores e execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mock-up",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Mock-up (plural: die Mock-ups). Também \"Musterfläche\" e \"Bemusterung\" (amostragem de materiais).",
+                  "collocations": [
+                    "Mock-up bauen",
+                    "Musterfläche",
+                    "Bemusterung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Team baute vor Ort ein Mock-up der Fassade.",
+                  "answer": "Mock-up",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Mock-up in Originalgröße hilft dem Kunden, die Materialien zu beurteilen.",
+                  "answer": "Mock-up",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cost-estimate",
+              "locales": {
+                "PT": {
+                  "text": "estimativa de custos",
+                  "definition": "Cálculo aproximado do custo total de um projeto antes da execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kostenschätzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kostenschätzung (plural: die Kostenschätzungen). Norma DIN 276: Kostenschätzung antes da Kostenberechnung.",
+                  "collocations": [
+                    "Kostenschätzung erstellen",
+                    "Kostenberechnung",
+                    "Kostenrahmen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Kostenschätzung übersteigt das Budget des Kunden um zehn Prozent.",
+                  "answer": "Kostenschätzung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir aktualisierten die Kostenschätzung nach der Planänderung.",
+                  "answer": "Kostenschätzung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drawing-revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão",
+                  "definition": "Versão corrigida de um desenho ou documento, identificada por letra ou número.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Überarbeitung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Überarbeitung (plural: die Überarbeitungen). Em planos: \"Planstand\" ou \"Index\".",
+                  "collocations": [
+                    "Überarbeitung freigeben",
+                    "Planstand",
+                    "Revision"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Plan befindet sich in der Überarbeitung C.",
+                  "answer": "Überarbeitung",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Jede Überarbeitung wird vom Architekten datiert und unterschrieben.",
+                  "answer": "Überarbeitung",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

@@ -1527,6 +1527,1017 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "fluidos-e-termica",
+      "title": "Fluidos e térmica",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "tubulacoes-e-calor",
+          "title": "Tubulações e calor",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "pipe",
+              "locales": {
+                "PT": {
+                  "text": "tubulação",
+                  "definition": "Tubo ou conjunto de tubos por onde escoam líquidos ou gases.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "配管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいかん",
+                  "usageNote": "Kango (配 = distribuir + 管 = tubo). Refere-se ao sistema de tubulação; também 配管工事 = obra de tubulação.",
+                  "collocations": [
+                    "配管工事",
+                    "配管を接続する",
+                    "配管図"
+                  ],
+                  "romanization": "haikan"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "配管は冷却水を機械室へ運びます。",
+                  "answer": "配管",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ボイラーの近くで配管の水漏れが見つかりました。",
+                  "answer": "配管",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "flow-rate",
+              "locales": {
+                "PT": {
+                  "text": "vazão",
+                  "definition": "Volume de fluido que passa por uma seção por unidade de tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "流量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りゅうりょう",
+                  "usageNote": "Kango (流 = fluir + 量 = quantidade). Medida em L/s ou m³/h; 流量計 = vazômetro.",
+                  "collocations": [
+                    "流量計",
+                    "流量を測る",
+                    "最大流量"
+                  ],
+                  "romanization": "ryuuryou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "フィルターが詰まると流量が下がります。",
+                  "answer": "流量",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ポンプは毎秒十リットルの一定の流量を保ちます。",
+                  "answer": "流量",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pressure",
+              "locales": {
+                "PT": {
+                  "text": "pressão",
+                  "definition": "Força exercida por um fluido por unidade de área.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "圧力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あつりょく",
+                  "usageNote": "Kango (圧 = pressão + 力 = força). Em física e engenharia; 圧力計 = manômetro.",
+                  "collocations": [
+                    "圧力計",
+                    "圧力損失",
+                    "作動圧力"
+                  ],
+                  "romanization": "atsuryoku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "タンクの圧力は六バールを超えてはいけません。",
+                  "answer": "圧力",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "急な圧力の低下は水漏れを示していました。",
+                  "answer": "圧力",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "heat-exchanger",
+              "locales": {
+                "PT": {
+                  "text": "trocador de calor",
+                  "definition": "Equipamento que transfere calor de um fluido para outro sem misturá-los.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "熱交換器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ねつこうかんき",
+                  "usageNote": "Kango (熱 = calor + 交換 = troca + 器 = aparelho). Tipos: プレート式, 多管式 (casco e tubos).",
+                  "collocations": [
+                    "熱交換器",
+                    "プレート式熱交換器",
+                    "多管式"
+                  ],
+                  "romanization": "netsukoukanki"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "熱交換器は排ガスの熱を回収します。",
+                  "answer": "熱交換器",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "効率を戻すために熱交換器を掃除しました。",
+                  "answer": "熱交換器",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "insulation",
+              "locales": {
+                "PT": {
+                  "text": "isolamento térmico",
+                  "definition": "Material ou camada que reduz a troca de calor entre dois ambientes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "断熱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だんねつ",
+                  "usageNote": "Kango (断 = cortar + 熱 = calor). Tipos: 断熱材 (material isolante), 断熱工事 (obra de isolamento).",
+                  "collocations": [
+                    "断熱材",
+                    "断熱工事",
+                    "断熱性能"
+                  ],
+                  "romanization": "dannetsu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "配管の断熱はエネルギーの損失を減らします。",
+                  "answer": "断熱",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "しっかりした断熱は、工程の温度を安定させます。",
+                  "answer": "断熱",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "turbine",
+              "locales": {
+                "PT": {
+                  "text": "turbina",
+                  "definition": "Máquina que converte a energia de um fluido em movimento de rotação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "タービン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (タービン, do inglês \"turbine\"). Tipos: 蒸気タービン, ガスタービン, 風力タービン.",
+                  "collocations": [
+                    "蒸気タービン",
+                    "ガスタービン",
+                    "タービン翼"
+                  ],
+                  "romanization": "taabin"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "タービンは発電機を毎分三千回転で動かします。",
+                  "answer": "タービン",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ボイラーの蒸気がタービンを回します。",
+                  "answer": "タービン",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "controle-e-automacao",
+      "title": "Controle e automação",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "sensores-e-controle",
+          "title": "Sensores e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "sensor",
+              "locales": {
+                "PT": {
+                  "text": "sensor",
+                  "definition": "Dispositivo que mede uma grandeza física e a converte em sinal elétrico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "センサー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (センサー, do inglês \"sensor\"). A forma curta センサ também aparece em textos técnicos.",
+                  "collocations": [
+                    "温度センサー",
+                    "センサーを取り付ける",
+                    "センサ"
+                  ],
+                  "romanization": "sensaa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "センサーは反応器の内部の温度を測ります。",
+                  "answer": "センサー",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "故障したセンサーが、誤った値をシステムに送りました。",
+                  "answer": "センサー",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "actuator",
+              "locales": {
+                "PT": {
+                  "text": "atuador",
+                  "definition": "Dispositivo que converte um sinal de controle em movimento ou força.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アクチュエータ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (アクチュエータ). Aparece em robótica e automação. Escreve-se também アクチュエーター.",
+                  "collocations": [
+                    "油圧アクチュエータ",
+                    "アクチュエータを制御する",
+                    "リニアアクチュエータ"
+                  ],
+                  "romanization": "akuchueeta"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "アクチュエータは圧力が上がると弁を開きます。",
+                  "answer": "アクチュエータ",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "油圧のアクチュエータが、クレーンのアームを動かします。",
+                  "answer": "アクチュエータ",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "controller",
+              "locales": {
+                "PT": {
+                  "text": "controlador",
+                  "definition": "Dispositivo ou programa que compara um valor medido com o desejado e ajusta a saída.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コントローラ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (コントローラ, também コントローラー). Para PID: PID制御.",
+                  "collocations": [
+                    "PID制御",
+                    "コントローラを調整する",
+                    "制御装置"
+                  ],
+                  "romanization": "kontoroora"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コントローラは温度を八十度に保ちます。",
+                  "answer": "コントローラ",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "古いコントローラをデジタル式のものに交換しました。",
+                  "answer": "コントローラ",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "feedback-loop",
+              "locales": {
+                "PT": {
+                  "text": "malha de realimentação",
+                  "definition": "Ciclo em que a saída do sistema é medida e devolvida à entrada para corrigir o desvio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "フィードバックループ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (フィードバック + ループ). Também 帰還ループ (kango, mais formal).",
+                  "collocations": [
+                    "フィードバックループ",
+                    "閉ループ制御",
+                    "帰還"
+                  ],
+                  "romanization": "fiidobakkuruupu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "フィードバックループは、モーターの速度を数ミリ秒で補正します。",
+                  "answer": "フィードバックループ",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "不安定なフィードバックループのせいで、温度が振動しました。",
+                  "answer": "フィードバックループ",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "automation",
+              "locales": {
+                "PT": {
+                  "text": "automação",
+                  "definition": "Uso de sistemas de controle para operar um processo com pouca ou nenhuma intervenção humana.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "自動化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じどうか",
+                  "usageNote": "Kango (自 = si mesmo + 動 = mover + 化 = tornar). Verbo: 自動化する; também FA (factory automation).",
+                  "collocations": [
+                    "自動化する",
+                    "工場の自動化",
+                    "自動化システム"
+                  ],
+                  "romanization": "jidouka"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "自動化によって、手作業の検査が減りました。",
+                  "answer": "自動化",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "工場は生産を増やすために、自動化へ投資しました。",
+                  "answer": "自動化",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "signal",
+              "locales": {
+                "PT": {
+                  "text": "sinal",
+                  "definition": "Grandeza elétrica ou óptica que transporta uma informação, como 4–20 mA.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "信号",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんごう",
+                  "usageNote": "Kango (信 = enviar mensagem + 号 = sinal). Tipos: アナログ信号, デジタル信号.",
+                  "collocations": [
+                    "アナログ信号",
+                    "デジタル信号",
+                    "信号を増幅する"
+                  ],
+                  "romanization": "shingou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "センサーの信号は処理の前に増幅されます。",
+                  "answer": "信号",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "信号に混ざった雑音が、測定をゆがめました。",
+                  "answer": "信号",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "producao-industrial",
+      "title": "Produção industrial",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "processos-de-fabricacao",
+          "title": "Processos de fabricação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "welding",
+              "locales": {
+                "PT": {
+                  "text": "soldagem",
+                  "definition": "Processo de união de peças metálicas por fusão, com ou sem metal de adição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "溶接",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようせつ",
+                  "usageNote": "Kango (溶 = fundir + 接 = unir). Verbo: 溶接する; 溶接工 = soldador; アーク溶接 = por arco.",
+                  "collocations": [
+                    "アーク溶接",
+                    "溶接欠陥",
+                    "溶接工"
+                  ],
+                  "romanization": "yousetsu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "配管の継手の溶接は、X線で検査されました。",
+                  "answer": "溶接",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "不十分な溶接が、フレームの亀裂の原因になりました。",
+                  "answer": "溶接",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "casting",
+              "locales": {
+                "PT": {
+                  "text": "fundição",
+                  "definition": "Processo de fabricar peças despejando metal fundido em um molde.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鋳造",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちゅうぞう",
+                  "usageNote": "Kango (鋳 = fundir + 造 = fazer). Tipos: 砂型鋳造, ダイカスト (injeção sob pressão); 鋳物 = peça fundida.",
+                  "collocations": [
+                    "砂型鋳造",
+                    "ダイカスト",
+                    "鋳物"
+                  ],
+                  "romanization": "chuuzou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "エンジンブロックの鋳造は砂型で行われます。",
+                  "answer": "鋳造",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "鋳造の際に入った気泡が、部品を弱くしました。",
+                  "answer": "鋳造",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "machining",
+              "locales": {
+                "PT": {
+                  "text": "usinagem",
+                  "definition": "Fabricação de peças pela remoção de material com ferramentas de corte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "機械加工",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きかいかこう",
+                  "usageNote": "Kango (機械 = máquina + 加工 = processamento). Também 切削加工 (usinagem por corte).",
+                  "collocations": [
+                    "切削加工",
+                    "NC加工",
+                    "精密機械加工"
+                  ],
+                  "romanization": "kikaikakou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "軸の機械加工には、零点零一ミリの公差が求められます。",
+                  "answer": "機械加工",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "機械加工にNC旋盤を導入して、生産時間を短くしました。",
+                  "answer": "機械加工",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "assembly-line",
+              "locales": {
+                "PT": {
+                  "text": "linha de montagem",
+                  "definition": "Sequência de postos onde peças são montadas em etapas até formar o produto final.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "組立ライン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "くみたてライン",
+                  "usageNote": "Gairaigo + kango (組立 = montagem + ライン = linha). Também 生産ライン (linha de produção).",
+                  "collocations": [
+                    "生産ライン",
+                    "組立ラインを止める",
+                    "自動組立"
+                  ],
+                  "romanization": "kumitaterain"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "組立ラインの作業者は、一つずつ部品を取り付けます。",
+                  "answer": "組立ライン",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "組立ラインは二十分間止まりました。",
+                  "answer": "組立ライン",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "quality-control",
+              "locales": {
+                "PT": {
+                  "text": "controle de qualidade",
+                  "definition": "Conjunto de inspeções e testes que verifica se o produto atende às especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "品質管理",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひんしつかんり",
+                  "usageNote": "Kango (品質 = qualidade + 管理 = gestão). Sigla QC; 品質保証 (QA) é garantia de qualidade.",
+                  "collocations": [
+                    "品質保証",
+                    "品質管理を行う",
+                    "統計的品質管理"
+                  ],
+                  "romanization": "hinshitsukanri"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "品質管理は、ロット全体を不合格にしました。",
+                  "answer": "品質管理",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "当社の品質管理チームは、一時間に十個を抜き取り検査します。",
+                  "answer": "品質管理",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "prototype",
+              "locales": {
+                "PT": {
+                  "text": "protótipo",
+                  "definition": "Primeiro modelo funcional de um produto, usado para testar e validar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "試作品",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しさくひん",
+                  "usageNote": "Kango (試 = testar + 作 = fazer + 品 = produto). Também プロトタイプ (gairaigo), muito usado em TI.",
+                  "collocations": [
+                    "試作品を作る",
+                    "プロトタイプ",
+                    "試作"
+                  ],
+                  "romanization": "shisakuhin"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "試作品は振動試験に合格しました。",
+                  "answer": "試作品",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "量産を始める前に、試作品を作りました。",
+                  "answer": "試作品",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "normas-e-confiabilidade",
+      "title": "Normas e confiabilidade",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "manutencao-e-normas",
+          "title": "Manutenção e normas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "standard",
+              "locales": {
+                "PT": {
+                  "text": "norma técnica",
+                  "definition": "Documento que define requisitos e métodos aceitos por uma comunidade técnica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "規格",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きかく",
+                  "usageNote": "Kango (規 = regra + 格 = padrão). Ex.: JIS規格 (norma industrial japonesa), ISO規格.",
+                  "collocations": [
+                    "JIS規格",
+                    "規格に適合する",
+                    "国際規格"
+                  ],
+                  "romanization": "kikaku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この設計は、圧力容器の国際規格に従っています。",
+                  "answer": "規格",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この規格は、試験方法を定めています。",
+                  "answer": "規格",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "certification",
+              "locales": {
+                "PT": {
+                  "text": "certificação",
+                  "definition": "Confirmação formal, por uma entidade independente, de que um produto ou pessoa atende a requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "認証",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にんしょう",
+                  "usageNote": "Kango (認 = reconhecer + 証 = provar). Em TI, 認証 também é \"autenticação\". Normas: ISO認証.",
+                  "collocations": [
+                    "ISO認証",
+                    "認証を取得する",
+                    "認証機関"
+                  ],
+                  "romanization": "ninshou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "会社は昨年、ISOの認証を取得しました。",
+                  "answer": "認証",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "製品を発売する前に、認証が必要です。",
+                  "answer": "認証",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "failure-mode",
+              "locales": {
+                "PT": {
+                  "text": "modo de falha",
+                  "definition": "A forma específica pela qual um componente ou sistema deixa de cumprir sua função.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "故障モード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こしょうモード",
+                  "usageNote": "Gairaigo + kango (故障 = falha + モード). Análise: 故障モード影響解析 (FMEA).",
+                  "collocations": [
+                    "故障モード影響解析",
+                    "故障モードを特定する",
+                    "FMEA"
+                  ],
+                  "romanization": "koshoumoodo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "疲労き裂は、ブラケットの主な故障モードです。",
+                  "answer": "故障モード",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "分析では、考えられるすべての故障モードを挙げました。",
+                  "answer": "故障モード",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "maintenance",
+              "locales": {
+                "PT": {
+                  "text": "manutenção",
+                  "definition": "Conjunto de ações para manter equipamentos funcionando ou restaurá-los após uma falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "保全",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほぜん",
+                  "usageNote": "Kango (保 = manter + 全 = inteiro). Também メンテナンス (gairaigo, uso corrente). 予防保全 = manutenção preventiva.",
+                  "collocations": [
+                    "予防保全",
+                    "メンテナンス",
+                    "保全計画"
+                  ],
+                  "romanization": "hozen"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "定期の保全には、給油と点検が含まれます。",
+                  "answer": "保全",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ポンプは保全のために運転を停止しています。",
+                  "answer": "保全",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "service-life",
+              "locales": {
+                "PT": {
+                  "text": "vida útil",
+                  "definition": "Período durante o qual um componente ou estrutura cumpre sua função em condições normais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "耐用年数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たいようねんすう",
+                  "usageNote": "Kango (耐用 = durável + 年数 = anos). Também 寿命 (vida) e 設計寿命 (vida de projeto).",
+                  "collocations": [
+                    "設計寿命",
+                    "耐用年数が長い",
+                    "寿命"
+                  ],
+                  "romanization": "taiyounensuu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この橋の耐用年数は、百年と設計されています。",
+                  "answer": "耐用年数",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "定期的な給油は、ベアリングの耐用年数を延ばします。",
+                  "answer": "耐用年数",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "redundancy",
+              "locales": {
+                "PT": {
+                  "text": "redundância",
+                  "definition": "Inclusão de componentes ou caminhos extras para que o sistema continue funcionando se um falhar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "冗長性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じょうちょうせい",
+                  "usageNote": "Kango (冗長 = redundante + 性). Em TI e engenharia: 冗長構成 (configuração redundante). No dia a dia 冗長 tem sentido de \"prolixo\".",
+                  "collocations": [
+                    "冗長構成",
+                    "冗長性を持たせる",
+                    "二重化"
+                  ],
+                  "romanization": "jouchousei"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "電源の冗長性によって、全面停止を防ぎます。",
+                  "answer": "冗長性",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "このシステムは、重要なセンサーの冗長性が二重になっています。",
+                  "answer": "冗長性",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

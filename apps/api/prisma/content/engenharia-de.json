@@ -1462,6 +1462,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "fluidos-e-termica",
+      "title": "Fluidos e térmica",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "tubulacoes-e-calor",
+          "title": "Tubulações e calor",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "pipe",
+              "locales": {
+                "PT": {
+                  "text": "tubulação",
+                  "definition": "Tubo ou conjunto de tubos por onde escoam líquidos ou gases.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rohr",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Rohr (plural: die Rohre). Para o sistema de tubulação diz-se \"Rohrleitung\" (feminino).",
+                  "collocations": [
+                    "Stahlrohr",
+                    "Rohr verlegen",
+                    "Rohrdurchmesser"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Rohr führt das Kühlwasser in den Pumpenraum.",
+                  "answer": "Rohr",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Am Kessel wurde ein Leck im Rohr entdeckt.",
+                  "answer": "Rohr",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "flow-rate",
+              "locales": {
+                "PT": {
+                  "text": "vazão",
+                  "definition": "Volume de fluido que passa por uma seção por unidade de tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Durchfluss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Durchfluss (plural: die Durchflüsse). Também \"Volumenstrom\" no registro técnico.",
+                  "collocations": [
+                    "Durchfluss messen",
+                    "maximaler Durchfluss",
+                    "Volumenstrom"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Durchfluss sinkt, wenn der Filter verstopft ist.",
+                  "answer": "Durchfluss",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Pumpe hält einen konstanten Durchfluss von zehn Litern pro Sekunde.",
+                  "answer": "Durchfluss",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pressure",
+              "locales": {
+                "PT": {
+                  "text": "pressão",
+                  "definition": "Força exercida por um fluido por unidade de área.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Druck",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Druck (plural: die Drücke). Também significa \"impressão\" (impressão gráfica).",
+                  "collocations": [
+                    "Betriebsdruck",
+                    "Druckabfall",
+                    "Manometer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Druck im Tank darf sechs Bar nicht überschreiten.",
+                  "answer": "Druck",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein plötzlicher Abfall im Druck deutete auf ein Leck hin.",
+                  "answer": "Druck",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "heat-exchanger",
+              "locales": {
+                "PT": {
+                  "text": "trocador de calor",
+                  "definition": "Equipamento que transfere calor de um fluido para outro sem misturá-los.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Wärmetauscher",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Wärmetauscher (plural: die Wärmetauscher); também \"Wärmeübertrager\" (mais técnico).",
+                  "collocations": [
+                    "Plattenwärmetauscher",
+                    "Wärme übertragen",
+                    "Wärmeübertrager"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Wärmetauscher gewinnt die Abwärme aus dem Abgas zurück.",
+                  "answer": "Wärmetauscher",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir reinigten den Wärmetauscher, um seinen Wirkungsgrad wiederherzustellen.",
+                  "answer": "Wärmetauscher",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "insulation",
+              "locales": {
+                "PT": {
+                  "text": "isolamento térmico",
+                  "definition": "Material ou camada que reduz a troca de calor entre dois ambientes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dämmung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Dämmung (plural: die Dämmungen). Termo geral para isolamento térmico e acústico.",
+                  "collocations": [
+                    "Wärmedämmung",
+                    "Dämmstoff",
+                    "Dämmung der Rohre"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Dämmung der Rohre senkt die Energieverluste.",
+                  "answer": "Dämmung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine gute Dämmung hält die Prozesstemperatur stabil.",
+                  "answer": "Dämmung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "turbine",
+              "locales": {
+                "PT": {
+                  "text": "turbina",
+                  "definition": "Máquina que converte a energia de um fluido em movimento de rotação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Turbine",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Turbine (plural: die Turbinen). Tipos: Dampfturbine, Gasturbine, Windturbine.",
+                  "collocations": [
+                    "Dampfturbine",
+                    "Turbine antreiben",
+                    "Turbinenschaufel"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Turbine treibt den Generator mit dreitausend Umdrehungen an.",
+                  "answer": "Turbine",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Dampf aus dem Kessel versetzt die Turbine in Drehung.",
+                  "answer": "Turbine",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "controle-e-automacao",
+      "title": "Controle e automação",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "sensores-e-controle",
+          "title": "Sensores e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "sensor",
+              "locales": {
+                "PT": {
+                  "text": "sensor",
+                  "definition": "Dispositivo que mede uma grandeza física e a converte em sinal elétrico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sensor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Sensor (plural: die Sensoren). Também \"Messfühler\" (mais antigo).",
+                  "collocations": [
+                    "Temperatursensor",
+                    "Drucksensor",
+                    "Sensor kalibrieren"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Sensor misst die Temperatur im Reaktor.",
+                  "answer": "Sensor",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein defekter Sensor meldete dem System einen falschen Wert.",
+                  "answer": "Sensor",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "actuator",
+              "locales": {
+                "PT": {
+                  "text": "atuador",
+                  "definition": "Dispositivo que converte um sinal de controle em movimento ou força.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Aktor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Aktor (plural: die Aktoren); também \"Aktuator\".",
+                  "collocations": [
+                    "hydraulischer Aktor",
+                    "Aktor ansteuern",
+                    "Sensor und Aktor"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Aktor öffnet das Ventil, wenn der Druck steigt.",
+                  "answer": "Aktor",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein hydraulischer Aktor bewegt den Kranarm.",
+                  "answer": "Aktor",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "controller",
+              "locales": {
+                "PT": {
+                  "text": "controlador",
+                  "definition": "Dispositivo ou programa que compara um valor medido com o desejado e ajusta a saída.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Regler",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Regler (plural: die Regler) em controle; \"Steuerung\" é o controle em malha aberta (feminino).",
+                  "collocations": [
+                    "PID-Regler",
+                    "Regler einstellen",
+                    "Regelkreis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Regler hält die Temperatur bei achtzig Grad.",
+                  "answer": "Regler",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir ersetzten den alten Regler durch ein digitales Modell.",
+                  "answer": "Regler",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "feedback-loop",
+              "locales": {
+                "PT": {
+                  "text": "malha de realimentação",
+                  "definition": "Ciclo em que a saída do sistema é medida e devolvida à entrada para corrigir o desvio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Regelkreis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Regelkreis (plural: die Regelkreise). Também \"Rückkopplung\" (feminino) para o conceito de feedback.",
+                  "collocations": [
+                    "geschlossener Regelkreis",
+                    "Regelkreis stabilisieren",
+                    "Rückkopplung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Regelkreis korrigiert die Motordrehzahl in Millisekunden.",
+                  "answer": "Regelkreis",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein instabiler Regelkreis ließ die Temperatur schwingen.",
+                  "answer": "Regelkreis",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "automation",
+              "locales": {
+                "PT": {
+                  "text": "automação",
+                  "definition": "Uso de sistemas de controle para operar um processo com pouca ou nenhuma intervenção humana.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Automatisierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Automatisierung. Verbo: automatisieren; \"Automatisierungstechnik\" é a área.",
+                  "collocations": [
+                    "industrielle Automatisierung",
+                    "Automatisierungstechnik",
+                    "Prozessautomatisierung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Automatisierung senkte die Zahl der manuellen Kontrollen.",
+                  "answer": "Automatisierung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Werk investierte in Automatisierung, um die Produktion zu steigern.",
+                  "answer": "Automatisierung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "signal",
+              "locales": {
+                "PT": {
+                  "text": "sinal",
+                  "definition": "Grandeza elétrica ou óptica que transporta uma informação, como 4–20 mA.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Signal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Signal (plural: die Signale). Tipos: Analogsignal, Digitalsignal.",
+                  "collocations": [
+                    "analoges Signal",
+                    "digitales Signal",
+                    "Signal verstärken"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Signal des Sensors wird vor der Verarbeitung verstärkt.",
+                  "answer": "Signal",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Rauschen im Signal verfälschte die Messung.",
+                  "answer": "Signal",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "producao-industrial",
+      "title": "Produção industrial",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "processos-de-fabricacao",
+          "title": "Processos de fabricação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "welding",
+              "locales": {
+                "PT": {
+                  "text": "soldagem",
+                  "definition": "Processo de união de peças metálicas por fusão, com ou sem metal de adição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schweißen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Schweißen (substantivo do verbo schweißen). A junta soldada é \"die Schweißnaht\".",
+                  "collocations": [
+                    "Lichtbogenschweißen",
+                    "Schweißnaht",
+                    "Schweißen von Rohren"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Schweißen der Rohrverbindungen wurde mit Röntgenstrahlen geprüft.",
+                  "answer": "Schweißen",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Fehlerhaftes Schweißen verursachte den Riss im Rahmen.",
+                  "answer": "Schweißen",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "casting",
+              "locales": {
+                "PT": {
+                  "text": "fundição",
+                  "definition": "Processo de fabricar peças despejando metal fundido em um molde.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gießen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Gießen (processo). A peça é \"der Guss\" e a fundição é \"die Gießerei\".",
+                  "collocations": [
+                    "Sandguss",
+                    "Druckguss",
+                    "Gießerei"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gießen des Motorblocks erfolgt in Sandformen.",
+                  "answer": "Gießen",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Beim Gießen können Gasblasen das Bauteil schwächen.",
+                  "answer": "Gießen",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "machining",
+              "locales": {
+                "PT": {
+                  "text": "usinagem",
+                  "definition": "Fabricação de peças pela remoção de material com ferramentas de corte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zerspanung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zerspanung (também \"Zerspanen\" como verbo substantivado e \"spanende Fertigung\").",
+                  "collocations": [
+                    "spanende Fertigung",
+                    "CNC-Bearbeitung",
+                    "Zerspanung von Stahl"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zerspanung der Welle erfordert eine Toleranz von 0,01 Millimetern.",
+                  "answer": "Zerspanung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine hohe Zerspanung kostet Zeit und verschleißt das Werkzeug.",
+                  "answer": "Zerspanung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "assembly-line",
+              "locales": {
+                "PT": {
+                  "text": "linha de montagem",
+                  "definition": "Sequência de postos onde peças são montadas em etapas até formar o produto final.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Montagelinie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Montagelinie (plural: die Montagelinien); também \"Fließband\" (esteira).",
+                  "collocations": [
+                    "Fließband",
+                    "automatisierte Montagelinie",
+                    "Montage"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Mitarbeiter an der Montagelinie setzt ein Bauteil ein.",
+                  "answer": "Montagelinie",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Montagelinie stand zwanzig Minuten still.",
+                  "answer": "Montagelinie",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "quality-control",
+              "locales": {
+                "PT": {
+                  "text": "controle de qualidade",
+                  "definition": "Conjunto de inspeções e testes que verifica se o produto atende às especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Qualitätskontrolle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Qualitätskontrolle (plural: die Qualitätskontrollen). \"Qualitätssicherung\" = garantia de qualidade.",
+                  "collocations": [
+                    "Qualitätskontrolle bestehen",
+                    "Qualitätssicherung",
+                    "Stichprobenprüfung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Qualitätskontrolle lehnte die gesamte Charge ab.",
+                  "answer": "Qualitätskontrolle",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Unser Team für die Qualitätskontrolle prüft zehn Stück pro Stunde.",
+                  "answer": "Qualitätskontrolle",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "prototype",
+              "locales": {
+                "PT": {
+                  "text": "protótipo",
+                  "definition": "Primeiro modelo funcional de um produto, usado para testar e validar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Prototyp",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Prototyp (plural: die Prototypen). \"Prototypenbau\" = construção de protótipos.",
+                  "collocations": [
+                    "Prototyp bauen",
+                    "funktionsfähiger Prototyp",
+                    "Rapid Prototyping"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Prototyp hat den Schwingungstest bestanden.",
+                  "answer": "Prototyp",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir bauten einen Prototyp, bevor die Serienproduktion begann.",
+                  "answer": "Prototyp",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "normas-e-confiabilidade",
+      "title": "Normas e confiabilidade",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "manutencao-e-normas",
+          "title": "Manutenção e normas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "standard",
+              "locales": {
+                "PT": {
+                  "text": "norma técnica",
+                  "definition": "Documento que define requisitos e métodos aceitos por uma comunidade técnica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Norm",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Norm (plural: die Normen). Ex.: DIN-Norm, ISO-Norm.",
+                  "collocations": [
+                    "DIN-Norm",
+                    "Norm einhalten",
+                    "internationale Norm"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Konstruktion entspricht der internationalen Norm für Druckbehälter.",
+                  "answer": "Norm",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Norm legt das Prüfverfahren fest.",
+                  "answer": "Norm",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "certification",
+              "locales": {
+                "PT": {
+                  "text": "certificação",
+                  "definition": "Confirmação formal, por uma entidade independente, de que um produto ou pessoa atende a requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zertifizierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zertifizierung (plural: die Zertifizierungen). Verbo: zertifizieren; documento: \"Zertifikat\" (neutro).",
+                  "collocations": [
+                    "ISO-Zertifizierung",
+                    "Zertifizierungsstelle",
+                    "Zertifikat"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Unternehmen erhielt im vergangenen Jahr die ISO-Zertifizierung.",
+                  "answer": "Zertifizierung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Vor dem Verkauf ist eine Zertifizierung des Produkts erforderlich.",
+                  "answer": "Zertifizierung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "failure-mode",
+              "locales": {
+                "PT": {
+                  "text": "modo de falha",
+                  "definition": "A forma específica pela qual um componente ou sistema deixa de cumprir sua função.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausfallart",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ausfallart (plural: die Ausfallarten). Também \"Fehlerart\"; FMEA = Fehlermöglichkeits- und Einflussanalyse.",
+                  "collocations": [
+                    "Ausfallart bestimmen",
+                    "Fehlerart",
+                    "FMEA"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Ermüdungsrisse sind die wichtigste Ausfallart der Halterung.",
+                  "answer": "Ausfallart",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir führten in der Analyse jede mögliche Ausfallart auf.",
+                  "answer": "Ausfallart",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "maintenance",
+              "locales": {
+                "PT": {
+                  "text": "manutenção",
+                  "definition": "Conjunto de ações para manter equipamentos funcionando ou restaurá-los após uma falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Wartung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Wartung (plural: die Wartungen). \"Instandhaltung\" é o termo geral (manutenção + reparo).",
+                  "collocations": [
+                    "vorbeugende Wartung",
+                    "Wartungsplan",
+                    "Instandhaltung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die routinemäßige Wartung umfasst Schmieren und Prüfen.",
+                  "answer": "Wartung",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Pumpe ist wegen einer Wartung außer Betrieb.",
+                  "answer": "Wartung",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "service-life",
+              "locales": {
+                "PT": {
+                  "text": "vida útil",
+                  "definition": "Período durante o qual um componente ou estrutura cumpre sua função em condições normais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Nutzungsdauer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Nutzungsdauer (plural: die Nutzungsdauern); \"Lebensdauer\" é a vida em geral.",
+                  "collocations": [
+                    "rechnerische Nutzungsdauer",
+                    "Lebensdauer",
+                    "Nutzungsdauer verlängern"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Nutzungsdauer der Brücke beträgt hundert Jahre.",
+                  "answer": "Nutzungsdauer",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Regelmäßiges Schmieren verlängert die Nutzungsdauer der Lager.",
+                  "answer": "Nutzungsdauer",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "redundancy",
+              "locales": {
+                "PT": {
+                  "text": "redundância",
+                  "definition": "Inclusão de componentes ou caminhos extras para que o sistema continue funcionando se um falhar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Redundanz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Redundanz (plural: die Redundanzen). Também sentido de \"repetição\" na linguagem comum.",
+                  "collocations": [
+                    "doppelte Redundanz",
+                    "Redundanz einbauen",
+                    "redundantes System"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Redundanz in der Stromversorgung verhindert einen Totalausfall.",
+                  "answer": "Redundanz",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das System hat eine doppelte Redundanz für die kritischen Sensoren.",
+                  "answer": "Redundanz",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

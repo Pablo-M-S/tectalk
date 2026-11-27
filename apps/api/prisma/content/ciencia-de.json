@@ -1453,6 +1453,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "analise-de-dados",
+      "title": "Análise de dados",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "modelos-e-inferencia",
+          "title": "Modelos e inferência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "linear-regression",
+              "locales": {
+                "PT": {
+                  "text": "regressão",
+                  "definition": "Técnica estatística que descreve como uma variável muda em função de outra ou de várias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Regression",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Regression (plural: die Regressionen). Em estatística: \"lineare Regression\".",
+                  "collocations": [
+                    "lineare Regression",
+                    "Regressionsanalyse",
+                    "Regressionsgerade"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Regression zeigt einen positiven Trend.",
+                  "answer": "Regression",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wir führten eine Regression mit den Umfragedaten durch.",
+                  "answer": "Regression",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "confidence-interval",
+              "locales": {
+                "PT": {
+                  "text": "intervalo de confiança",
+                  "definition": "Faixa de valores que provavelmente contém o valor verdadeiro de um parâmetro, com um nível de confiança dado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Konfidenzintervall",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Konfidenzintervall (plural: die Konfidenzintervalle). Também \"Vertrauensbereich\".",
+                  "collocations": [
+                    "Konfidenzintervall berechnen",
+                    "Vertrauensbereich",
+                    "Konfidenzniveau"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Konfidenzintervall von 95 Prozent ist schmal.",
+                  "answer": "Konfidenzintervall",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein breites Konfidenzintervall deutet auf große Unsicherheit hin.",
+                  "answer": "Konfidenzintervall",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "null-hypothesis",
+              "locales": {
+                "PT": {
+                  "text": "hipótese nula",
+                  "definition": "Afirmação de que não há efeito ou diferença, testada contra os dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Nullhypothese",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Nullhypothese (plural: die Nullhypothesen). Alternativa: \"Alternativhypothese\".",
+                  "collocations": [
+                    "Nullhypothese verwerfen",
+                    "Alternativhypothese",
+                    "Signifikanztest"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wir konnten die Nullhypothese nicht verwerfen.",
+                  "answer": "Nullhypothese",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Nullhypothese besagt, dass es keinen Unterschied gibt.",
+                  "answer": "Nullhypothese",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "variance",
+              "locales": {
+                "PT": {
+                  "text": "variância",
+                  "definition": "Medida de quanto os valores se dispersam em torno da média, igual ao desvio padrão ao quadrado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Varianz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Varianz (plural: die Varianzen). Também \"Streuung\" (dispersão em geral).",
+                  "collocations": [
+                    "Varianz berechnen",
+                    "Varianzanalyse",
+                    "Streuung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Varianz der Gruppe war ungewöhnlich hoch.",
+                  "answer": "Varianz",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Wurzel aus der Varianz ist die Standardabweichung.",
+                  "answer": "Varianz",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bias",
+              "locales": {
+                "PT": {
+                  "text": "viés",
+                  "definition": "Erro sistemático que desloca os resultados de um estudo sempre na mesma direção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verzerrung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verzerrung (plural: die Verzerrungen). Em inglês técnico também \"Bias\".",
+                  "collocations": [
+                    "Selektionsverzerrung",
+                    "Verzerrung vermeiden",
+                    "Bias"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Verzerrung bei der Auswahl kann die Ergebnisse verfälschen.",
+                  "answer": "Verzerrung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Studie versuchte, die Verzerrung durch ein verblindetes Design zu verringern.",
+                  "answer": "Verzerrung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "normal-distribution",
+              "locales": {
+                "PT": {
+                  "text": "distribuição normal",
+                  "definition": "Distribuição simétrica em forma de sino, em que a maioria dos valores fica perto da média.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Normalverteilung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Normalverteilung (plural: die Normalverteilungen). Também \"Gauß-Verteilung\".",
+                  "collocations": [
+                    "Normalverteilung annehmen",
+                    "Gauß-Verteilung",
+                    "Glockenkurve"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Körpergrößen folgen in großen Stichproben einer Normalverteilung.",
+                  "answer": "Normalverteilung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Normalverteilung sieht aus wie eine Glockenkurve.",
+                  "answer": "Normalverteilung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumentos",
+      "title": "Instrumentos de laboratório",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "medicao-e-vidraria",
+          "title": "Medição e vidraria",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "spectrometer",
+              "locales": {
+                "PT": {
+                  "text": "espectrômetro",
+                  "definition": "Aparelho que mede a intensidade da luz ou de outras radiações em função do comprimento de onda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Spektrometer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Spektrometer (plural: die Spektrometer). Tipos: \"Massenspektrometer\".",
+                  "collocations": [
+                    "Massenspektrometer",
+                    "Spektrometer kalibrieren",
+                    "Spektrum"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Spektrometer misst die Wellenlänge des Lichts.",
+                  "answer": "Spektrometer",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Spektrometer kann Moleküle anhand ihres Gewichts identifizieren.",
+                  "answer": "Spektrometer",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "thermometer",
+              "locales": {
+                "PT": {
+                  "text": "termômetro",
+                  "definition": "Instrumento que mede a temperatura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Thermometer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Thermometer (plural: die Thermometer). Febre: \"Fieberthermometer\".",
+                  "collocations": [
+                    "Fieberthermometer",
+                    "Thermometer ablesen",
+                    "Digitalthermometer"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Thermometer zeigte zwanzig Grad an.",
+                  "answer": "Thermometer",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Kalibrieren Sie das Thermometer vor dem Experiment.",
+                  "answer": "Thermometer",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "voltmeter",
+              "locales": {
+                "PT": {
+                  "text": "voltímetro",
+                  "definition": "Instrumento que mede a diferença de potencial elétrico entre dois pontos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Voltmeter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Voltmeter (plural: die Voltmeter). Corrente: \"Amperemeter\".",
+                  "collocations": [
+                    "Voltmeter anschließen",
+                    "Amperemeter",
+                    "Multimeter"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Schließen Sie das Voltmeter parallel zum Bauteil an.",
+                  "answer": "Voltmeter",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Voltmeter zeigte 4,8 Volt an.",
+                  "answer": "Voltmeter",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "graduated-cylinder",
+              "locales": {
+                "PT": {
+                  "text": "proveta",
+                  "definition": "Recipiente cilíndrico com escala usado para medir volumes de líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Messzylinder",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Messzylinder (plural: die Messzylinder). Ler o volume no menisco.",
+                  "collocations": [
+                    "Messzylinder ablesen",
+                    "Meniskus",
+                    "Volumen messen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Gieße die Lösung in den Messzylinder.",
+                  "answer": "Messzylinder",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Messzylinder ist genauer als ein Becherglas.",
+                  "answer": "Messzylinder",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "beaker",
+              "locales": {
+                "PT": {
+                  "text": "béquer",
+                  "definition": "Recipiente cilíndrico de vidro, de boca larga, usado para misturar e aquecer líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Becherglas",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Becherglas (plural: die Bechergläser). Tamanhos: 100 ml, 250 ml.",
+                  "collocations": [
+                    "Becherglas füllen",
+                    "Becherglas erhitzen",
+                    "Rührstab"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Erhitze das Wasser in einem Becherglas.",
+                  "answer": "Becherglas",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Becherglas zerbrach, weil es zu schnell abkühlte.",
+                  "answer": "Becherglas",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "incubator",
+              "locales": {
+                "PT": {
+                  "text": "incubadora",
+                  "definition": "Aparelho que mantém temperatura e condições constantes para cultivar células ou micro-organismos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Brutschrank",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Brutschrank (plural: die Brutschränke). Também \"Inkubator\".",
+                  "collocations": [
+                    "Brutschrank einstellen",
+                    "Inkubator",
+                    "Zellkultur"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zellen wachsen in einem Brutschrank bei 37 Grad.",
+                  "answer": "Brutschrank",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Halten Sie den Brutschrank geschlossen, um die Temperatur zu halten.",
+                  "answer": "Brutschrank",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "terra-e-espaco",
+      "title": "Terra e espaço",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "planeta-e-universo",
+          "title": "Planeta e universo",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gravity",
+              "locales": {
+                "PT": {
+                  "text": "gravidade",
+                  "definition": "Força de atração entre corpos com massa, que mantém os objetos no chão e os planetas em órbita.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schwerkraft",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Schwerkraft (sem plural usual). Também \"Gravitation\" (termo mais técnico).",
+                  "collocations": [
+                    "Schwerkraft überwinden",
+                    "Gravitation",
+                    "Schwerelosigkeit"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Schwerkraft ist auf dem Mond geringer.",
+                  "answer": "Schwerkraft",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Astronauten schweben, weil im Orbit wenig Schwerkraft herrscht.",
+                  "answer": "Schwerkraft",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "orbit",
+              "locales": {
+                "PT": {
+                  "text": "órbita",
+                  "definition": "Trajetória curva de um corpo ao redor de outro, como um satélite ao redor da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Umlaufbahn",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Umlaufbahn (plural: die Umlaufbahnen). Também \"Orbit\" (neutro) no jargão espacial.",
+                  "collocations": [
+                    "Umlaufbahn berechnen",
+                    "Erdumlaufbahn",
+                    "Orbit"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Satellit bleibt in einer Umlaufbahn in 400 Kilometern Höhe.",
+                  "answer": "Umlaufbahn",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Mond vollendet alle 27 Tage eine Umlaufbahn um die Erde.",
+                  "answer": "Umlaufbahn",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "telescope",
+              "locales": {
+                "PT": {
+                  "text": "telescópio",
+                  "definition": "Instrumento óptico que amplia a imagem de objetos distantes, como estrelas e planetas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Teleskop",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Teleskop (plural: die Teleskope). Também \"Fernrohr\" (mais antigo).",
+                  "collocations": [
+                    "Weltraumteleskop",
+                    "Radioteleskop",
+                    "Fernrohr"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Teleskop nahm ein Bild einer fernen Galaxie auf.",
+                  "answer": "Teleskop",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Teleskop im Weltraum vermeidet die Unschärfe der Atmosphäre.",
+                  "answer": "Teleskop",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "galaxy",
+              "locales": {
+                "PT": {
+                  "text": "galáxia",
+                  "definition": "Enorme conjunto de estrelas, gás e poeira mantido junto pela gravidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Galaxie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Galaxie (plural: die Galaxien). A nossa é \"die Milchstraße\".",
+                  "collocations": [
+                    "Spiralgalaxie",
+                    "Milchstraße",
+                    "Galaxienhaufen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Unsere Galaxie enthält Milliarden von Sternen.",
+                  "answer": "Galaxie",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Licht der nächsten großen Galaxie braucht Millionen Jahre, um anzukommen.",
+                  "answer": "Galaxie",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fossil",
+              "locales": {
+                "PT": {
+                  "text": "fóssil",
+                  "definition": "Restos ou marcas preservados de um ser vivo antigo, geralmente em rocha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fossil",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Fossil (plural: die Fossilien). \"Fossile Brennstoffe\" são os combustíveis fósseis.",
+                  "collocations": [
+                    "fossile Brennstoffe",
+                    "Fossil finden",
+                    "Versteinerung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Wissenschaftler fanden ein Fossil eines uralten Fisches.",
+                  "answer": "Fossil",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Fossil ist etwa 300 Millionen Jahre alt.",
+                  "answer": "Fossil",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tectonic-plate",
+              "locales": {
+                "PT": {
+                  "text": "placa tectônica",
+                  "definition": "Grande bloco rígido da litosfera que se move lentamente sobre o manto da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "tektonische Platte",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die tektonische Platte (plural: die tektonischen Platten). Também \"Lithosphärenplatte\" e \"Kontinentalplatte\".",
+                  "collocations": [
+                    "Plattentektonik",
+                    "Kontinentalplatte",
+                    "Verwerfung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede tektonische Platte bewegt sich pro Jahr einige Zentimeter.",
+                  "answer": "tektonische Platte",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Erdbeben entstehen dort, wo eine tektonische Platte unter eine andere gleitet.",
+                  "answer": "tektonische Platte",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "etica-e-publicacao",
+      "title": "Ética e financiamento",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "boas-praticas",
+          "title": "Boas práticas de pesquisa",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "research-grant",
+              "locales": {
+                "PT": {
+                  "text": "bolsa de pesquisa",
+                  "definition": "Quantia concedida por uma instituição para financiar um projeto de pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Forschungsförderung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Forschungsförderung (sem plural usual). Também \"Drittmittel\" (fundos externos).",
+                  "collocations": [
+                    "Forschungsförderung beantragen",
+                    "Drittmittel",
+                    "Förderantrag"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Sie erhielt eine Forschungsförderung von zweihunderttausend Euro.",
+                  "answer": "Forschungsförderung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Forschungsförderung deckt Geräte und Gehälter.",
+                  "answer": "Forschungsförderung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ethics-committee",
+              "locales": {
+                "PT": {
+                  "text": "comitê de ética",
+                  "definition": "Grupo que avalia se um estudo respeita os direitos e a segurança dos participantes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ethikkommission",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Ethikkommission (plural: die Ethikkommissionen). Existe uma por universidade ou estado.",
+                  "collocations": [
+                    "Ethikkommission anrufen",
+                    "Votum",
+                    "Studienprotokoll"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Ethikkommission genehmigte das Studienprotokoll.",
+                  "answer": "Ethikkommission",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Forschenden müssen den Plan zuerst der Ethikkommission vorlegen.",
+                  "answer": "Ethikkommission",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "participant-consent",
+              "locales": {
+                "PT": {
+                  "text": "consentimento informado",
+                  "definition": "Concordância voluntária de uma pessoa em participar, depois de entender os riscos e objetivos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "informierte Einwilligung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die informierte Einwilligung (sem plural usual). Também \"Einverständniserklärung\" (o documento).",
+                  "collocations": [
+                    "informierte Einwilligung einholen",
+                    "Einverständniserklärung",
+                    "Aufklärung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jede Teilnehmerin gab ihre informierte Einwilligung schriftlich ab.",
+                  "answer": "informierte Einwilligung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Forschung ohne informierte Einwilligung ist unethisch.",
+                  "answer": "informierte Einwilligung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conflict-of-interest",
+              "locales": {
+                "PT": {
+                  "text": "conflito de interesses",
+                  "definition": "Situação em que interesses pessoais ou financeiros podem influenciar o julgamento do pesquisador.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Interessenkonflikt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Interessenkonflikt (plural: die Interessenkonflikte). Declaração: \"Interessenkonflikt offenlegen\".",
+                  "collocations": [
+                    "Interessenkonflikt offenlegen",
+                    "möglicher Interessenkonflikt",
+                    "Offenlegung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Autor erklärte einen Interessenkonflikt.",
+                  "answer": "Interessenkonflikt",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Interessenkonflikt kann das Vertrauen in die Ergebnisse schwächen.",
+                  "answer": "Interessenkonflikt",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "preprint",
+              "locales": {
+                "PT": {
+                  "text": "pré-publicação",
+                  "definition": "Versão de um artigo divulgada publicamente antes de passar pela revisão por pares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Preprint",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Preprint (plural: die Preprints). Também \"Vorabdruck\".",
+                  "collocations": [
+                    "Preprint veröffentlichen",
+                    "Vorabdruck",
+                    "Begutachtung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Team veröffentlichte ein Preprint vor der Begutachtung.",
+                  "answer": "Preprint",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Preprint wurde noch nicht von Gutachtern geprüft.",
+                  "answer": "Preprint",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "retraction",
+              "locales": {
+                "PT": {
+                  "text": "retratação",
+                  "definition": "Retirada formal de um artigo publicado por conter erro grave ou má conduta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zurückziehung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Zurückziehung (plural: die Zurückziehungen). Também \"Retraktion\" no jargão.",
+                  "collocations": [
+                    "Zurückziehung veröffentlichen",
+                    "Retraktion",
+                    "Fälschung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Zeitschrift veröffentlichte eine Zurückziehung, nachdem sich die Daten als gefälscht erwiesen.",
+                  "answer": "Zurückziehung",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Hinweis zur Zurückziehung erklärt, warum der Artikel zurückgenommen wurde.",
+                  "answer": "Zurückziehung",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

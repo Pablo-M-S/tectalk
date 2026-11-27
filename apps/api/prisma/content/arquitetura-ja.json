@@ -1517,6 +1517,1014 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "envoltoria-e-estrutura",
+      "title": "Envoltória e estrutura",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "fachada-e-cobertura",
+          "title": "Fachada e cobertura",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "curtain-wall",
+              "locales": {
+                "PT": {
+                  "text": "fachada cortina",
+                  "definition": "Parede externa leve, geralmente de vidro e metal, que não suporta as cargas do edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "カーテンウォール",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (カーテンウォール, do inglês \"curtain wall\"). Abreviado CW; a versão de vidro: ガラスカーテンウォール.",
+                  "collocations": [
+                    "ガラスカーテンウォール",
+                    "カーテンウォール工事",
+                    "外壁"
+                  ],
+                  "romanization": "kaatenwooru"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "カーテンウォールは、床の荷重を負担しません。",
+                  "answer": "カーテンウォール",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ガラスのカーテンウォールは、昼光をたくさん取り込みます。",
+                  "answer": "カーテンウォール",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cladding",
+              "locales": {
+                "PT": {
+                  "text": "revestimento externo",
+                  "definition": "Camada de material aplicada à parte externa de uma parede para proteger e dar acabamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "外装材",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がいそうざい",
+                  "usageNote": "Kango (外装 = parte externa + 材 = material). Também 外壁材 e サイディング (gairaigo, \"siding\").",
+                  "collocations": [
+                    "外壁材",
+                    "サイディング",
+                    "外装を張り替える"
+                  ],
+                  "romanization": "gaisouzai"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "外装材は、木のパネルでできています。",
+                  "answer": "外装材",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "新しい外装材で、建物の断熱性が高まりました。",
+                  "answer": "外装材",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "parapet",
+              "locales": {
+                "PT": {
+                  "text": "platibanda",
+                  "definition": "Muro baixo que contorna a borda de um telhado, terraço ou ponte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パラペット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (パラペット, do inglês \"parapet\"). Em obra, a altura é 立ち上がり.",
+                  "collocations": [
+                    "パラペットの高さ",
+                    "立ち上がり",
+                    "屋上防水"
+                  ],
+                  "romanization": "parapetto"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "パラペットが、空調機を隠しています。",
+                  "answer": "パラペット",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "低いパラペットが屋上テラスを囲んでいます。",
+                  "answer": "パラペット",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "lintel-beam",
+              "locales": {
+                "PT": {
+                  "text": "verga",
+                  "definition": "Viga horizontal que cobre uma abertura de porta ou janela e sustenta a parede acima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "まぐさ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Hiragana (まぐさ, escrito também 楣). Em obra costuma-se dizer 開口部の梁 (viga do vão).",
+                  "collocations": [
+                    "まぐさ石",
+                    "まぐさ梁",
+                    "開口部"
+                  ],
+                  "romanization": "magusa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "まぐさが窓の開口部に架かっています。",
+                  "answer": "まぐさ",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ドアの上のまぐさにひびが入りました。",
+                  "answer": "まぐさ",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "atrium-space",
+              "locales": {
+                "PT": {
+                  "text": "átrio",
+                  "definition": "Espaço central amplo e coberto, geralmente de vários pavimentos e iluminado por cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アトリウム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (アトリウム, do latim \"atrium\"). Usado em shoppings e hotéis; \"吹き抜け\" é o vazio de pé-direito múltiplo.",
+                  "collocations": [
+                    "吹き抜け",
+                    "ガラスのアトリウム",
+                    "アトリウム空間"
+                  ],
+                  "romanization": "atoriumu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "アトリウムは、建物の中心まで光を届けます。",
+                  "answer": "アトリウム",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "どの階の事務所からも、アトリウムが見えます。",
+                  "answer": "アトリウム",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "skylight",
+              "locales": {
+                "PT": {
+                  "text": "claraboia",
+                  "definition": "Abertura envidraçada no telhado ou no forro que deixa entrar a luz natural.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "天窓",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てんまど",
+                  "usageNote": "Kango (天 = céu + 窓 = janela). Também トップライト (gairaigo, \"top light\").",
+                  "collocations": [
+                    "トップライト",
+                    "天窓を付ける",
+                    "採光"
+                  ],
+                  "romanization": "tenmado"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "天窓が階段を明るくしています。",
+                  "answer": "天窓",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "雨が天窓から漏れました。",
+                  "answer": "天窓",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "espacos-interiores",
+      "title": "Espaços interiores",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "circulacao-e-ambientes",
+          "title": "Circulação e ambientes",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "lobby",
+              "locales": {
+                "PT": {
+                  "text": "saguão",
+                  "definition": "Espaço de entrada e espera de um edifício, onde fica a recepção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ロビー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ロビー, do inglês \"lobby\"). Ex.: ホテルのロビー, エントランスロビー.",
+                  "collocations": [
+                    "ホテルのロビー",
+                    "エントランスロビー",
+                    "受付"
+                  ],
+                  "romanization": "robii"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ロビーは、二層分の高さの天井があります。",
+                  "answer": "ロビー",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "エレベーターが来るまで、客はロビーで待ちます。",
+                  "answer": "ロビー",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mezzanine",
+              "locales": {
+                "PT": {
+                  "text": "mezanino",
+                  "definition": "Pavimento intermediário entre dois andares principais, geralmente aberto para o pé-direito duplo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "中二階",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちゅうにかい",
+                  "usageNote": "Kango (中 = meio + 二階 = segundo andar). Também ロフト (gairaigo, parecido mas sob o telhado) e メザニン.",
+                  "collocations": [
+                    "中二階を設ける",
+                    "ロフト",
+                    "メザニン"
+                  ],
+                  "romanization": "chuunikai"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "中二階は、メインホールを見下ろしています。",
+                  "answer": "中二階",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "余った高さを使うために、中二階を設けました。",
+                  "answer": "中二階",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "open-plan",
+              "locales": {
+                "PT": {
+                  "text": "planta livre",
+                  "definition": "Layout sem divisões internas fixas, em que os ambientes se integram em um só espaço.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "オープンプラン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (オープンプラン, do inglês \"open plan\"). Também 大空間 e ワンルーム.",
+                  "collocations": [
+                    "オープンプランのオフィス",
+                    "大空間",
+                    "ワンルーム"
+                  ],
+                  "romanization": "oopunpuran"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "事務所はオープンプランで、壁がありません。",
+                  "answer": "オープンプラン",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "オープンプランなら、光がフロア全体に届きます。",
+                  "answer": "オープンプラン",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "partition",
+              "locales": {
+                "PT": {
+                  "text": "divisória",
+                  "definition": "Parede leve e não portante que divide um ambiente em dois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "間仕切り",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "まじきり",
+                  "usageNote": "Hiragana/kango (間 = espaço + 仕切り = divisão). Tipos: 可動間仕切り (móvel) e 間仕切り壁.",
+                  "collocations": [
+                    "可動間仕切り",
+                    "間仕切り壁",
+                    "ガラス間仕切り"
+                  ],
+                  "romanization": "majikiri"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ガラスの間仕切りが、会議室を区切っています。",
+                  "answer": "間仕切り",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "間仕切りを動かして、空間を広げることができます。",
+                  "answer": "間仕切り",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ramp",
+              "locales": {
+                "PT": {
+                  "text": "rampa",
+                  "definition": "Superfície inclinada que liga dois níveis e permite acesso de cadeira de rodas e carrinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スロープ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (スロープ, do inglês \"slope\"). Em acessibilidade: 車いす用スロープ.",
+                  "collocations": [
+                    "車いす用スロープ",
+                    "スロープの勾配",
+                    "バリアフリー"
+                  ],
+                  "romanization": "suroopu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "スロープがあるので、車いすでも入口に入れます。",
+                  "answer": "スロープ",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "スロープの勾配は、八パーセントを超えてはいけません。",
+                  "answer": "スロープ",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "handrail",
+              "locales": {
+                "PT": {
+                  "text": "corrimão",
+                  "definition": "Barra horizontal ou inclinada que se segura com a mão ao longo de escadas e rampas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "手すり",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てすり",
+                  "usageNote": "Hiragana/kango (手 = mão + すり = esfregar). Obrigatório em escadas; 階段手すり.",
+                  "collocations": [
+                    "階段手すり",
+                    "手すりを付ける",
+                    "連続手すり"
+                  ],
+                  "romanization": "tesuri"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "階段の両側に、手すりがついています。",
+                  "answer": "手すり",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "手すりは、高さ九十センチに固定しなければなりません。",
+                  "answer": "手すり",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "paisagem-e-cidade",
+      "title": "Paisagem e cidade",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "espaco-publico",
+          "title": "Espaço público",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "landscape-architecture",
+              "locales": {
+                "PT": {
+                  "text": "paisagismo",
+                  "definition": "Projeto de espaços abertos, como parques, jardins e ruas, em harmonia com o ambiente natural e construído.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "造園",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぞうえん",
+                  "usageNote": "Kango (造 = construir + 園 = jardim). Também ランドスケープ (gairaigo) e 景観設計.",
+                  "collocations": [
+                    "ランドスケープ",
+                    "造園工事",
+                    "景観設計"
+                  ],
+                  "romanization": "zouen"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼女は事務所に入る前に、造園を学びました。",
+                  "answer": "造園",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "造園は、公園や庭や道路をつなぎます。",
+                  "answer": "造園",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "courtyard",
+              "locales": {
+                "PT": {
+                  "text": "pátio interno",
+                  "definition": "Espaço aberto, cercado por paredes ou edifícios, no interior de um lote ou construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "中庭",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "なかにわ",
+                  "usageNote": "Kango (中 = dentro + 庭 = jardim). Também 坪庭 (pequeno pátio tradicional) e パティオ.",
+                  "collocations": [
+                    "坪庭",
+                    "パティオ",
+                    "中庭のある家"
+                  ],
+                  "romanization": "nakaniwa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "中庭は、二本の古い木の影になっています。",
+                  "answer": "中庭",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "部屋は四方から中庭に開いています。",
+                  "answer": "中庭",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pedestrian-zone",
+              "locales": {
+                "PT": {
+                  "text": "zona de pedestres",
+                  "definition": "Área urbana fechada ao tráfego de veículos e reservada a quem anda a pé.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "歩行者天国",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほこうしゃてんごく",
+                  "usageNote": "Kango (歩行者 = pedestre + 天国 = paraíso). Muitas vezes abreviado ホコ天; fechamento temporário aos domingos.",
+                  "collocations": [
+                    "歩行者専用道路",
+                    "ホコ天",
+                    "商店街"
+                  ],
+                  "romanization": "hokoushatengoku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "旧市街は、歩行者天国になりました。",
+                  "answer": "歩行者天国",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "歩行者天国の店は、訪れる人が増えて助かります。",
+                  "answer": "歩行者天国",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "public-square",
+              "locales": {
+                "PT": {
+                  "text": "praça",
+                  "definition": "Espaço aberto urbano de uso coletivo, para encontros, eventos e circulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "広場",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひろば",
+                  "usageNote": "Hiragana/kango (広 = amplo + 場 = lugar). Também 駅前広場 (praça da estação).",
+                  "collocations": [
+                    "駅前広場",
+                    "中央広場",
+                    "広場恐怖症"
+                  ],
+                  "romanization": "hiroba"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "広場では、毎週土曜日に市が開かれます。",
+                  "answer": "広場",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "広場の真ん中に、噴水があります。",
+                  "answer": "広場",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mixed-use",
+              "locales": {
+                "PT": {
+                  "text": "uso misto",
+                  "definition": "Combinação de usos diferentes, como comércio, escritório e moradia, no mesmo edifício ou bairro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "複合用途",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふくごうようと",
+                  "usageNote": "Kango (複合 = composto + 用途 = uso). Também 複合施設 (complexo multiuso) e 商住混合.",
+                  "collocations": [
+                    "複合施設",
+                    "複合用途ビル",
+                    "用途地域"
+                  ],
+                  "romanization": "fukugouyouto"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "複合用途の建物には、店、事務所、住宅が入っています。",
+                  "answer": "複合用途",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "都市計画者は、通りを活気づけるために複合用途の地区を好みます。",
+                  "answer": "複合用途",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "density",
+              "locales": {
+                "PT": {
+                  "text": "densidade urbana",
+                  "definition": "Quantidade de pessoas, moradias ou construções por unidade de área em uma cidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "密度",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "みつど",
+                  "usageNote": "Kango (密 = denso + 度 = grau). Ex.: 人口密度, 建ぺい率 (taxa de ocupação).",
+                  "collocations": [
+                    "人口密度",
+                    "高密度",
+                    "建ぺい率"
+                  ],
+                  "romanization": "mitsudo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "高密度の住宅は、土地とエネルギーを節約します。",
+                  "answer": "密度",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "市は、駅の近くで密度を高める計画です。",
+                  "answer": "密度",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fases-do-projeto",
+      "title": "Fases do projeto",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "do-estudo-a-obra",
+          "title": "Do estudo à obra",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schematic-design",
+              "locales": {
+                "PT": {
+                  "text": "estudo preliminar",
+                  "definition": "Primeira fase do projeto, em que o arquiteto define o partido, a distribuição e os volumes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "基本設計",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きほんせっけい",
+                  "usageNote": "Kango (基本 = básico + 設計 = projeto). Segue-se 実施設計 (projeto executivo).",
+                  "collocations": [
+                    "基本設計図",
+                    "実施設計",
+                    "設計監理"
+                  ],
+                  "romanization": "kihonsekkei"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "施主は先週、基本設計を承認しました。",
+                  "answer": "基本設計",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "基本設計で、建築家は間取りとボリュームを決めます。",
+                  "answer": "基本設計",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "construction-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto executivo",
+                  "definition": "Desenho técnico detalhado usado pela obra para executar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "施工図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せこうず",
+                  "usageNote": "Kango (施工 = execução da obra + 図 = desenho). Elaborado pelo executor; o do arquiteto é 実施設計図.",
+                  "collocations": [
+                    "施工図を描く",
+                    "実施設計図",
+                    "施工図面"
+                  ],
+                  "romanization": "sekouzu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "施工業者は、施工図に従って作業します。",
+                  "answer": "施工図",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "それぞれの施工図に、一つの部材の詳細が描かれています。",
+                  "answer": "施工図",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "design-specification",
+              "locales": {
+                "PT": {
+                  "text": "memorial descritivo",
+                  "definition": "Documento escrito que descreve os materiais, a qualidade e os métodos de execução de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "仕様書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しようしょ",
+                  "usageNote": "Kango (仕様 = especificação + 書 = documento). Também 仕上表 (tabela de acabamentos).",
+                  "collocations": [
+                    "仕様書を作成する",
+                    "仕上表",
+                    "特記仕様書"
+                  ],
+                  "romanization": "shiyousho"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "仕様書には、すべての材料のメーカーと仕上げが書かれています。",
+                  "answer": "仕様書",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "仕様書の変更で、予算が増えました。",
+                  "answer": "仕様書",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mock-up",
+              "locales": {
+                "PT": {
+                  "text": "protótipo em escala real",
+                  "definition": "Modelo em tamanho real de parte do projeto, feito para avaliar materiais, cores e execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "モックアップ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (モックアップ, do inglês \"mock-up\"). Também 実物大模型 e サンプル施工.",
+                  "collocations": [
+                    "実物大模型",
+                    "サンプル施工",
+                    "モックアップを作る"
+                  ],
+                  "romanization": "mokkuappu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "チームは現場で、ファサードのモックアップを作りました。",
+                  "answer": "モックアップ",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "実物大のモックアップは、施主が材料を判断する助けになります。",
+                  "answer": "モックアップ",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cost-estimate",
+              "locales": {
+                "PT": {
+                  "text": "estimativa de custos",
+                  "definition": "Cálculo aproximado do custo total de um projeto antes da execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "概算見積",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がいさんみつもり",
+                  "usageNote": "Kango (概算 = estimativa grosseira + 見積 = orçamento). Mais preciso: 積算 (orçamento por quantitativos).",
+                  "collocations": [
+                    "概算を出す",
+                    "積算",
+                    "見積書"
+                  ],
+                  "romanization": "gaisanmitsumori"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "概算見積は、施主の予算を一割超えています。",
+                  "answer": "概算見積",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "設計変更のあと、概算見積を更新しました。",
+                  "answer": "概算見積",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drawing-revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão",
+                  "definition": "Versão corrigida de um desenho ou documento, identificada por letra ou número.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "改訂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいてい",
+                  "usageNote": "Kango (改 = alterar + 訂 = corrigir). Em desenhos: 改訂履歴 (histórico de revisões) e 改訂番号.",
+                  "collocations": [
+                    "改訂履歴",
+                    "改訂番号",
+                    "改訂する"
+                  ],
+                  "romanization": "kaitei"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "図面は改訂Cの段階です。",
+                  "answer": "改訂",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "それぞれの改訂には、日付と建築家の署名が入ります。",
+                  "answer": "改訂",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

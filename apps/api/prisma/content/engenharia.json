@@ -2433,6 +2433,1617 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "fluidos-e-termica",
+      "title": "Fluidos e térmica",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "tubulacoes-e-calor",
+          "title": "Tubulações e calor",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "pipe",
+              "locales": {
+                "PT": {
+                  "text": "tubulação",
+                  "definition": "Tubo ou conjunto de tubos por onde escoam líquidos ou gases.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pipe",
+                  "definition": "A tube or system of tubes through which liquids or gases flow.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pipe é o tubo; pipeline é a linha longa, como um oleoduto. Em informática, pipeline tem outro sentido.",
+                  "collocations": [
+                    "steel pipe",
+                    "pipe diameter",
+                    "pipe network",
+                    "pipe joint"
+                  ]
+                },
+                "ES": {
+                  "text": "tubería",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rohr",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "配管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいかん",
+                  "romanization": "haikan"
+                },
+                "ZH": {
+                  "text": "管道",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guǎndào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The pipe carries cooling water to the pump room.",
+                  "answer": "pipe",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A leak was found in the pipe near the boiler.",
+                  "answer": "pipe",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "flow-rate",
+              "locales": {
+                "PT": {
+                  "text": "vazão",
+                  "definition": "Volume de fluido que passa por uma seção por unidade de tempo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "flow rate",
+                  "definition": "The volume of fluid passing through a section per unit of time.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em inglês britânico, litres; em americano, liters. Mass flow rate é a vazão em massa.",
+                  "collocations": [
+                    "measure the flow rate",
+                    "maximum flow rate",
+                    "flow rate sensor",
+                    "volumetric flow rate"
+                  ]
+                },
+                "ES": {
+                  "text": "caudal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Durchfluss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "流量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りゅうりょう",
+                  "romanization": "ryuuryou"
+                },
+                "ZH": {
+                  "text": "流量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "liúliàng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The flow rate drops when the filter is blocked.",
+                  "answer": "flow rate",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The pump maintains a constant flow rate of ten litres per second.",
+                  "answer": "flow rate",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "pressure",
+              "locales": {
+                "PT": {
+                  "text": "pressão",
+                  "definition": "Força exercida por um fluido por unidade de área.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pressure",
+                  "definition": "The force exerted by a fluid per unit of area.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Unidades: pascal (Pa), bar, psi. Pressure gauge é o manômetro.",
+                  "collocations": [
+                    "working pressure",
+                    "pressure drop",
+                    "pressure gauge",
+                    "high pressure"
+                  ]
+                },
+                "ES": {
+                  "text": "presión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Druck",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "圧力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あつりょく",
+                  "romanization": "atsuryoku"
+                },
+                "ZH": {
+                  "text": "压力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yālì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The pressure in the tank must not exceed six bar.",
+                  "answer": "pressure",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A sudden pressure drop indicated a leak.",
+                  "answer": "pressure",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "heat-exchanger",
+              "locales": {
+                "PT": {
+                  "text": "trocador de calor",
+                  "definition": "Equipamento que transfere calor de um fluido para outro sem misturá-los.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "heat exchanger",
+                  "definition": "A device that transfers heat from one fluid to another without mixing them.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Termo de duas palavras; plate heat exchanger é o de placas. O radiador do carro é um tipo de heat exchanger.",
+                  "collocations": [
+                    "plate heat exchanger",
+                    "shell-and-tube heat exchanger",
+                    "heat exchanger efficiency",
+                    "clean the heat exchanger"
+                  ]
+                },
+                "ES": {
+                  "text": "intercambiador de calor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Wärmetauscher",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "熱交換器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ねつこうかんき",
+                  "romanization": "netsukoukanki"
+                },
+                "ZH": {
+                  "text": "换热器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huànrèqì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The heat exchanger recovers waste heat from the exhaust gas.",
+                  "answer": "heat exchanger",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We cleaned the heat exchanger to restore its efficiency.",
+                  "answer": "heat exchanger",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "insulation",
+              "locales": {
+                "PT": {
+                  "text": "isolamento térmico",
+                  "definition": "Material ou camada que reduz a troca de calor entre dois ambientes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "thermal insulation",
+                  "definition": "A material or layer that reduces heat transfer between two environments.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Insulation sozinho também vale para isolamento elétrico (electrical insulation). Para calor, diz-se thermal insulation.",
+                  "collocations": [
+                    "thermal insulation",
+                    "insulation material",
+                    "insulation thickness",
+                    "pipe insulation"
+                  ]
+                },
+                "ES": {
+                  "text": "aislamiento térmico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dämmung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "断熱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だんねつ",
+                  "romanization": "dannetsu"
+                },
+                "ZH": {
+                  "text": "隔热",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gérè"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The thermal insulation of the pipes reduces energy losses.",
+                  "answer": "thermal insulation",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Good thermal insulation keeps the process temperature stable.",
+                  "answer": "thermal insulation",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "turbine",
+              "locales": {
+                "PT": {
+                  "text": "turbina",
+                  "definition": "Máquina que converte a energia de um fluido em movimento de rotação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "turbine",
+                  "definition": "A machine that converts the energy of a fluid into rotary motion.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tipos comuns: steam turbine (a vapor), gas turbine, wind turbine (eólica) e hydraulic turbine.",
+                  "collocations": [
+                    "steam turbine",
+                    "wind turbine",
+                    "gas turbine",
+                    "turbine blade"
+                  ]
+                },
+                "ES": {
+                  "text": "turbina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Turbine",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "タービン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "taabin"
+                },
+                "ZH": {
+                  "text": "涡轮机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wōlúnjī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The turbine drives the generator at three thousand rpm.",
+                  "answer": "turbine",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Steam from the boiler spins the turbine.",
+                  "answer": "turbine",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "controle-e-automacao",
+      "title": "Controle e automação",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "sensores-e-controle",
+          "title": "Sensores e controle",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "sensor",
+              "locales": {
+                "PT": {
+                  "text": "sensor",
+                  "definition": "Dispositivo que mede uma grandeza física e a converte em sinal elétrico.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sensor",
+                  "definition": "A device that measures a physical quantity and converts it into an electrical signal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Transducer é o termo mais amplo; sensor costuma ser a parte que detecta.",
+                  "collocations": [
+                    "temperature sensor",
+                    "pressure sensor",
+                    "sensor reading",
+                    "install a sensor"
+                  ]
+                },
+                "ES": {
+                  "text": "sensor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sensor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "センサー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sensaa"
+                },
+                "ZH": {
+                  "text": "传感器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuángǎnqì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The sensor measures the temperature inside the reactor.",
+                  "answer": "sensor",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A faulty sensor sent the wrong reading to the system.",
+                  "answer": "sensor",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "actuator",
+              "locales": {
+                "PT": {
+                  "text": "atuador",
+                  "definition": "Dispositivo que converte um sinal de controle em movimento ou força.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "actuator",
+                  "definition": "A device that converts a control signal into motion or force.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Do verbo to actuate. Sensor mede, actuator age: o par aparece junto em sistemas de controle.",
+                  "collocations": [
+                    "hydraulic actuator",
+                    "linear actuator",
+                    "electric actuator",
+                    "actuator failure"
+                  ]
+                },
+                "ES": {
+                  "text": "actuador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Aktor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アクチュエータ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "akuchueeta"
+                },
+                "ZH": {
+                  "text": "执行器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhíxíngqì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The actuator opens the valve when the pressure rises.",
+                  "answer": "actuator",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A hydraulic actuator moves the crane arm.",
+                  "answer": "actuator",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "controller",
+              "locales": {
+                "PT": {
+                  "text": "controlador",
+                  "definition": "Dispositivo ou programa que compara um valor medido com o desejado e ajusta a saída.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "controller",
+                  "definition": "A device or program that compares a measured value with the desired one and adjusts the output.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "PID controller (proporcional, integral, derivativo) é o mais comum. PLC = programmable logic controller.",
+                  "collocations": [
+                    "PID controller",
+                    "programmable controller",
+                    "controller output",
+                    "tune the controller"
+                  ]
+                },
+                "ES": {
+                  "text": "controlador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Regler",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コントローラ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kontoroora"
+                },
+                "ZH": {
+                  "text": "控制器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kòngzhìqì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The controller keeps the temperature at eighty degrees.",
+                  "answer": "controller",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We replaced the old controller with a digital model.",
+                  "answer": "controller",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "feedback-loop",
+              "locales": {
+                "PT": {
+                  "text": "malha de realimentação",
+                  "definition": "Ciclo em que a saída do sistema é medida e devolvida à entrada para corrigir o desvio.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "feedback loop",
+                  "definition": "A cycle in which a system's output is measured and fed back to the input to correct the deviation.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Closed-loop é malha fechada (com feedback); open-loop é malha aberta (sem feedback).",
+                  "collocations": [
+                    "closed feedback loop",
+                    "feedback loop gain",
+                    "stabilize the feedback loop",
+                    "control feedback loop"
+                  ]
+                },
+                "ES": {
+                  "text": "lazo de realimentación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Regelkreis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "フィードバックループ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "fiidobakkuruupu"
+                },
+                "ZH": {
+                  "text": "反馈回路",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fǎnkuì huílù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The feedback loop corrects the motor speed within milliseconds.",
+                  "answer": "feedback loop",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An unstable feedback loop caused the temperature to oscillate.",
+                  "answer": "feedback loop",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "automation",
+              "locales": {
+                "PT": {
+                  "text": "automação",
+                  "definition": "Uso de sistemas de controle para operar um processo com pouca ou nenhuma intervenção humana.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "automation",
+                  "definition": "The use of control systems to operate a process with little or no human intervention.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Automatic é adjetivo e automation é o substantivo (to automate = automatizar). Não confundir com automaton.",
+                  "collocations": [
+                    "industrial automation",
+                    "process automation",
+                    "automation system",
+                    "building automation"
+                  ]
+                },
+                "ES": {
+                  "text": "automatización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Automatisierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "自動化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じどうか",
+                  "romanization": "jidouka"
+                },
+                "ZH": {
+                  "text": "自动化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zìdònghuà"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Greater automation reduced the number of manual inspections.",
+                  "answer": "automation",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The plant invested in automation to raise its output.",
+                  "answer": "automation",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "signal",
+              "locales": {
+                "PT": {
+                  "text": "sinal",
+                  "definition": "Grandeza elétrica ou óptica que transporta uma informação, como 4–20 mA.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "signal",
+                  "definition": "An electrical or optical quantity that carries information, such as 4–20 mA.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em engenharia, signal-to-noise ratio é a relação sinal-ruído. Também é a palavra para sinal de trânsito.",
+                  "collocations": [
+                    "analog signal",
+                    "digital signal",
+                    "signal noise",
+                    "control signal"
+                  ]
+                },
+                "ES": {
+                  "text": "señal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Signal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "信号",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しんごう",
+                  "romanization": "shingou"
+                },
+                "ZH": {
+                  "text": "信号",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xìnhào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The signal from the sensor is amplified before processing.",
+                  "answer": "signal",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Noise in the signal distorted the measurement.",
+                  "answer": "signal",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "producao-industrial",
+      "title": "Produção industrial",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "processos-de-fabricacao",
+          "title": "Processos de fabricação",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "welding",
+              "locales": {
+                "PT": {
+                  "text": "soldagem",
+                  "definition": "Processo de união de peças metálicas por fusão, com ou sem metal de adição.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "welding",
+                  "definition": "A process of joining metal parts by melting them, with or without filler metal.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Weld é o cordão ou a junta; to weld é soldar; welder é o soldador. Soldering é a soldagem branda, de eletrônicos.",
+                  "collocations": [
+                    "arc welding",
+                    "welding procedure",
+                    "welding defect",
+                    "welding inspection"
+                  ]
+                },
+                "ES": {
+                  "text": "soldadura",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schweißen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "溶接",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようせつ",
+                  "romanization": "yousetsu"
+                },
+                "ZH": {
+                  "text": "焊接",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hànjiē"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The welding of the pipe joints was inspected by X-ray.",
+                  "answer": "welding",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Poor welding caused the crack in the frame.",
+                  "answer": "welding",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "casting",
+              "locales": {
+                "PT": {
+                  "text": "fundição",
+                  "definition": "Processo de fabricar peças despejando metal fundido em um molde.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "casting",
+                  "definition": "A process of making parts by pouring molten metal into a mould.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Casting é o processo e também a peça fundida. Em outro sentido, é a seleção de atores.",
+                  "collocations": [
+                    "sand casting",
+                    "die casting",
+                    "casting defect",
+                    "investment casting"
+                  ]
+                },
+                "ES": {
+                  "text": "fundición",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Gießen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "鋳造",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちゅうぞう",
+                  "romanization": "chuuzou"
+                },
+                "ZH": {
+                  "text": "铸造",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhùzào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The casting of the engine block takes place in sand moulds.",
+                  "answer": "casting",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Gas bubbles in the casting weakened the part.",
+                  "answer": "casting",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "machining",
+              "locales": {
+                "PT": {
+                  "text": "usinagem",
+                  "definition": "Fabricação de peças pela remoção de material com ferramentas de corte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "machining",
+                  "definition": "The production of parts by removing material with cutting tools.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "CNC significa controle numérico computadorizado. Lathe é o torno e milling machine é a fresadora.",
+                  "collocations": [
+                    "CNC machining",
+                    "machining centre",
+                    "machining allowance",
+                    "precision machining"
+                  ]
+                },
+                "ES": {
+                  "text": "mecanizado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zerspanung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "機械加工",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きかいかこう",
+                  "romanization": "kikaikakou"
+                },
+                "ZH": {
+                  "text": "机械加工",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jīxiè jiāgōng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The machining of the shaft requires a tolerance of 0.01 mm.",
+                  "answer": "machining",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "CNC machining reduced the production time.",
+                  "answer": "machining",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "assembly-line",
+              "locales": {
+                "PT": {
+                  "text": "linha de montagem",
+                  "definition": "Sequência de postos onde peças são montadas em etapas até formar o produto final.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "assembly line",
+                  "definition": "A sequence of stations where parts are assembled step by step into the final product.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Foi popularizada por Henry Ford. A expressão \"on the assembly line\" indica quem trabalha nela.",
+                  "collocations": [
+                    "assembly line worker",
+                    "automated assembly line",
+                    "speed up the assembly line",
+                    "assembly line balancing"
+                  ]
+                },
+                "ES": {
+                  "text": "línea de montaje",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Montagelinie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "組立ライン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "くみたてライン",
+                  "romanization": "kumitaterain"
+                },
+                "ZH": {
+                  "text": "装配线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhuāngpèixiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each worker on the assembly line fits one component.",
+                  "answer": "assembly line",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The assembly line stopped for twenty minutes.",
+                  "answer": "assembly line",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "quality-control",
+              "locales": {
+                "PT": {
+                  "text": "controle de qualidade",
+                  "definition": "Conjunto de inspeções e testes que verifica se o produto atende às especificações.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "quality control",
+                  "definition": "A set of inspections and tests that verifies whether a product meets specifications.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Quality assurance (QA) é a garantia da qualidade, voltada ao processo; quality control (QC) verifica o produto.",
+                  "collocations": [
+                    "quality control inspector",
+                    "quality control check",
+                    "statistical quality control",
+                    "pass quality control"
+                  ]
+                },
+                "ES": {
+                  "text": "control de calidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Qualitätskontrolle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "品質管理",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひんしつかんり",
+                  "romanization": "hinshitsukanri"
+                },
+                "ZH": {
+                  "text": "质量控制",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhìliàng kòngzhì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The quality control team rejected the whole batch.",
+                  "answer": "quality control",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Our quality control team samples ten units per hour.",
+                  "answer": "quality control",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "prototype",
+              "locales": {
+                "PT": {
+                  "text": "protótipo",
+                  "definition": "Primeiro modelo funcional de um produto, usado para testar e validar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "prototype",
+                  "definition": "A first working model of a product, used to test and validate the design.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Rapid prototyping inclui a impressão 3D. Mock-up é uma maquete sem função; prototype funciona.",
+                  "collocations": [
+                    "build a prototype",
+                    "working prototype",
+                    "rapid prototyping",
+                    "prototype testing"
+                  ]
+                },
+                "ES": {
+                  "text": "prototipo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Prototyp",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "試作品",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しさくひん",
+                  "romanization": "shisakuhin"
+                },
+                "ZH": {
+                  "text": "原型",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yuánxíng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The prototype passed the vibration test.",
+                  "answer": "prototype",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We built a prototype before starting mass production.",
+                  "answer": "prototype",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "normas-e-confiabilidade",
+      "title": "Normas e confiabilidade",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "manutencao-e-normas",
+          "title": "Manutenção e normas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "standard",
+              "locales": {
+                "PT": {
+                  "text": "norma técnica",
+                  "definition": "Documento que define requisitos e métodos aceitos por uma comunidade técnica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "standard",
+                  "definition": "A document that defines requirements and methods accepted by a technical community.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em engenharia, standard é a norma (ISO, ASTM). Também significa \"padrão\" e, como adjetivo, \"comum\".",
+                  "collocations": [
+                    "international standard",
+                    "meet the standard",
+                    "industry standard",
+                    "standard requirements"
+                  ]
+                },
+                "ES": {
+                  "text": "norma técnica",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Norm",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "規格",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きかく",
+                  "romanization": "kikaku"
+                },
+                "ZH": {
+                  "text": "标准",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biāozhǔn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The design follows the international standard for pressure vessels.",
+                  "answer": "standard",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "This standard specifies the test method.",
+                  "answer": "standard",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "certification",
+              "locales": {
+                "PT": {
+                  "text": "certificação",
+                  "definition": "Confirmação formal, por uma entidade independente, de que um produto ou pessoa atende a requisitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "certification",
+                  "definition": "Formal confirmation, by an independent body, that a product or person meets requirements.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo é to certify e o documento é certificate. Certification body é o organismo certificador.",
+                  "collocations": [
+                    "ISO certification",
+                    "certification body",
+                    "obtain certification",
+                    "certification process"
+                  ]
+                },
+                "ES": {
+                  "text": "certificación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zertifizierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "認証",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "にんしょう",
+                  "romanization": "ninshou"
+                },
+                "ZH": {
+                  "text": "认证",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rènzhèng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The company obtained ISO certification last year.",
+                  "answer": "certification",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Product certification is required before the product goes on sale.",
+                  "answer": "certification",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "failure-mode",
+              "locales": {
+                "PT": {
+                  "text": "modo de falha",
+                  "definition": "A forma específica pela qual um componente ou sistema deixa de cumprir sua função.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "failure mode",
+                  "definition": "The specific way in which a component or system stops performing its function.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "FMEA significa failure mode and effects analysis (análise de modos e efeitos de falha).",
+                  "collocations": [
+                    "failure mode analysis",
+                    "dominant failure mode",
+                    "identify the failure mode",
+                    "failure mode and effects"
+                  ]
+                },
+                "ES": {
+                  "text": "modo de fallo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausfallart",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "故障モード",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こしょうモード",
+                  "romanization": "koshoumoodo"
+                },
+                "ZH": {
+                  "text": "失效模式",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shīxiào móshì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Fatigue cracking is the dominant failure mode of the bracket.",
+                  "answer": "failure mode",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We listed every possible failure mode in the analysis.",
+                  "answer": "failure mode",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "maintenance",
+              "locales": {
+                "PT": {
+                  "text": "manutenção",
+                  "definition": "Conjunto de ações para manter equipamentos funcionando ou restaurá-los após uma falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "maintenance",
+                  "definition": "A set of actions to keep equipment working or to restore it after a failure.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Preventive é a preventiva, corrective a corretiva e predictive a preditiva. Não se diz \"manutention\".",
+                  "collocations": [
+                    "preventive maintenance",
+                    "corrective maintenance",
+                    "maintenance schedule",
+                    "maintenance crew"
+                  ]
+                },
+                "ES": {
+                  "text": "mantenimiento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Wartung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "保全",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほぜん",
+                  "romanization": "hozen"
+                },
+                "ZH": {
+                  "text": "维护",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wéihù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Routine maintenance includes lubrication and inspection.",
+                  "answer": "maintenance",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The pump is out of service for maintenance.",
+                  "answer": "maintenance",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "service-life",
+              "locales": {
+                "PT": {
+                  "text": "vida útil",
+                  "definition": "Período durante o qual um componente ou estrutura cumpre sua função em condições normais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "service life",
+                  "definition": "The period during which a component or structure performs its function under normal conditions.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Útil também: lifespan (vida em geral) e shelf life (validade de produto).",
+                  "collocations": [
+                    "design service life",
+                    "extend the service life",
+                    "remaining service life",
+                    "service life prediction"
+                  ]
+                },
+                "ES": {
+                  "text": "vida útil",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Nutzungsdauer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "耐用年数",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たいようねんすう",
+                  "romanization": "taiyounensuu"
+                },
+                "ZH": {
+                  "text": "使用寿命",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shǐyòng shòumìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The design service life of the bridge is one hundred years.",
+                  "answer": "service life",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Regular lubrication extends the service life of the bearings.",
+                  "answer": "service life",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            },
+            {
+              "slug": "redundancy",
+              "locales": {
+                "PT": {
+                  "text": "redundância",
+                  "definition": "Inclusão de componentes ou caminhos extras para que o sistema continue funcionando se um falhar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "redundancy",
+                  "definition": "The inclusion of extra components or paths so that the system keeps working if one fails.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em RH, redundancy significa demissão por corte de pessoal (British English): to be made redundant.",
+                  "collocations": [
+                    "built-in redundancy",
+                    "redundancy in the system",
+                    "provide redundancy",
+                    "double redundancy"
+                  ]
+                },
+                "ES": {
+                  "text": "redundancia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Redundanz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "冗長性",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じょうちょうせい",
+                  "romanization": "jouchousei"
+                },
+                "ZH": {
+                  "text": "冗余",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rǒngyú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Built-in redundancy in the power supply prevents a total shutdown.",
+                  "answer": "redundancy",
+                  "documentType": "TECHNICAL_REPORT"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The system has double redundancy for critical sensors.",
+                  "answer": "redundancy",
+                  "documentType": "TECHNICAL_REPORT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1523,6 +1523,1016 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "maquinas-de-obra",
+      "title": "Máquinas de obra",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "equipamentos-pesados",
+          "title": "Equipamentos pesados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "crane",
+              "locales": {
+                "PT": {
+                  "text": "guindaste",
+                  "definition": "Máquina que levanta e desloca cargas pesadas com cabos e lança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "クレーン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (クレーン, do inglês \"crane\"). Tipos: タワークレーン, 移動式クレーン.",
+                  "collocations": [
+                    "タワークレーン",
+                    "クレーン作業",
+                    "移動式クレーン"
+                  ],
+                  "romanization": "kureen"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "クレーンが鉄骨を三階まで持ち上げました。",
+                  "answer": "クレーン",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "資格を持つ人だけが、クレーンを操作できます。",
+                  "answer": "クレーン",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "excavator",
+              "locales": {
+                "PT": {
+                  "text": "escavadeira",
+                  "definition": "Máquina de esteiras com braço e caçamba para escavar e carregar terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "油圧ショベル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ゆあつショベル",
+                  "usageNote": "Kango + gairaigo (油圧 = hidráulico + ショベル = pá). Também ユンボ (apelido da marca, coloquial) e バックホー.",
+                  "collocations": [
+                    "ユンボ",
+                    "バックホー",
+                    "油圧ショベルを操作する"
+                  ],
+                  "romanization": "yuatsushoberu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "油圧ショベルが、水道管を入れる溝を掘りました。",
+                  "answer": "油圧ショベル",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "腕の長い油圧ショベルが、穴の底まで届きました。",
+                  "answer": "油圧ショベル",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bulldozer",
+              "locales": {
+                "PT": {
+                  "text": "trator de esteira",
+                  "definition": "Trator de esteiras com lâmina frontal para empurrar terra e nivelar o terreno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ブルドーザー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ブルドーザー, do inglês \"bulldozer\"); abreviação popular ブル.",
+                  "collocations": [
+                    "ブルドーザーを運転する",
+                    "整地",
+                    "ブル"
+                  ],
+                  "romanization": "burudoozaa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ブルドーザーが基礎工事の前に敷地をならしました。",
+                  "answer": "ブルドーザー",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ブルドーザーが、がれきを敷地の端まで押しました。",
+                  "answer": "ブルドーザー",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "concrete-mixer",
+              "locales": {
+                "PT": {
+                  "text": "betoneira",
+                  "definition": "Máquina com tambor giratório que mistura cimento, agregados e água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンクリートミキサー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (コンクリート + ミキサー). O caminhão betoneira é ミキサー車 (ミキサーしゃ).",
+                  "collocations": [
+                    "ミキサー車",
+                    "コンクリートを練る",
+                    "練り混ぜ時間"
+                  ],
+                  "romanization": "konkuriitomikisaa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コンクリートミキサーは、一回に三分間回します。",
+                  "answer": "コンクリートミキサー",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "コンクリートミキサーを積んだ車が、十立方メートルを運んできました。",
+                  "answer": "コンクリートミキサー",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drill",
+              "locales": {
+                "PT": {
+                  "text": "furadeira",
+                  "definition": "Ferramenta elétrica que gira uma broca para furar madeira, metal ou concreto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電動ドリル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんどうドリル",
+                  "usageNote": "Kango + gairaigo (電動 = elétrico + ドリル). Também ドリル sozinho; 充電式 = a bateria.",
+                  "collocations": [
+                    "充電式ドリル",
+                    "ドリルビット",
+                    "電動工具"
+                  ],
+                  "romanization": "dendoudoriru"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コンクリートの壁には、コンクリート用のビットをつけた電動ドリルを使います。",
+                  "answer": "電動ドリル",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "作業の途中で、電動ドリルの電池が切れました。",
+                  "answer": "電動ドリル",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "jackhammer",
+              "locales": {
+                "PT": {
+                  "text": "martelo pneumático",
+                  "definition": "Ferramenta pesada de impacto, a ar comprimido ou elétrica, para quebrar concreto e asfalto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "削岩機",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さくがんき",
+                  "usageNote": "Kango (削 = raspar + 岩 = rocha + 機 = máquina). Também ブレーカー (gairaigo, \"martelo hidráulico\" de escavadeira).",
+                  "collocations": [
+                    "削岩機",
+                    "ブレーカー",
+                    "コンクリートを破砕する"
+                  ],
+                  "romanization": "sakuganki"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "作業員は古い舗装を壊すために、削岩機を使いました。",
+                  "answer": "削岩機",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "削岩機の騒音は、安全な限度を超えています。",
+                  "answer": "削岩機",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instalacoes",
+      "title": "Instalações",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "eletrica-e-hidraulica",
+          "title": "Instalações elétricas e hidráulicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "wiring",
+              "locales": {
+                "PT": {
+                  "text": "fiação",
+                  "definition": "Conjunto de fios e cabos que formam a instalação elétrica de um edifício ou equipamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "配線",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいせん",
+                  "usageNote": "Kango (配 = distribuir + 線 = fio). Verbo: 配線する; 配線図 = diagrama de fiação.",
+                  "collocations": [
+                    "配線図",
+                    "配線工事",
+                    "配線する"
+                  ],
+                  "romanization": "haisen"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "古い配線は、現在の基準を満たしていません。",
+                  "answer": "配線",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "配線の不具合が、ショートの原因でした。",
+                  "answer": "配線",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conduit",
+              "locales": {
+                "PT": {
+                  "text": "eletroduto",
+                  "definition": "Tubo que protege e conduz fios e cabos elétricos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電線管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんせんかん",
+                  "usageNote": "Kango (電線 = fio elétrico + 管 = tubo). Tipos: 金属管, 合成樹脂管 (PF管).",
+                  "collocations": [
+                    "金属製の電線管",
+                    "電線管を通す",
+                    "PF管"
+                  ],
+                  "romanization": "densenkan"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ケーブルは壁に沿って、金属製の電線管の中を通っています。",
+                  "answer": "電線管",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "可とう性の電線管が、ボックスとモーターをつないでいます。",
+                  "answer": "電線管",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "plumbing",
+              "locales": {
+                "PT": {
+                  "text": "encanamento",
+                  "definition": "Sistema de tubos, conexões e aparelhos que leva água para o edifício e retira o esgoto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "給排水設備",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きゅうはいすいせつび",
+                  "usageNote": "Kango (給水 = abastecimento + 排水 = esgoto + 設備 = instalações). Também 水道工事 (obra de água).",
+                  "collocations": [
+                    "給排水衛生設備",
+                    "水道工事",
+                    "配管工"
+                  ],
+                  "romanization": "kyuuhaisuisetsubi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "浴室の給排水設備を、すべて交換する必要があります。",
+                  "answer": "給排水設備",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "古い給排水設備のせいで、水道管が破裂して床が水浸しになりました。",
+                  "answer": "給排水設備",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drain",
+              "locales": {
+                "PT": {
+                  "text": "ralo",
+                  "definition": "Abertura ou tubo por onde a água e os resíduos líquidos escoam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "排水口",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいすいこう",
+                  "usageNote": "Kango (排水 = escoamento + 口 = abertura). Também 排水溝 (vala de drenagem) e 排水管.",
+                  "collocations": [
+                    "排水溝",
+                    "排水管",
+                    "排水口が詰まる"
+                  ],
+                  "romanization": "haisuikou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "床は、排水口に向かって傾斜しています。",
+                  "answer": "排水口",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "髪の毛が、シャワーの排水口を詰まらせました。",
+                  "answer": "排水口",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "circuit-breaker",
+              "locales": {
+                "PT": {
+                  "text": "disjuntor",
+                  "definition": "Dispositivo que interrompe o circuito automaticamente em caso de sobrecarga ou curto-circuito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ブレーカー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ブレーカー, do inglês \"breaker\"). Termo técnico: 配線用遮断器. O \"main breaker\" é メインブレーカー.",
+                  "collocations": [
+                    "ブレーカーが落ちる",
+                    "配線用遮断器",
+                    "分電盤"
+                  ],
+                  "romanization": "bureekaa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ヒーターをつけたら、ブレーカーが落ちました。",
+                  "answer": "ブレーカー",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "故障を直したあと、ブレーカーを上げてください。",
+                  "answer": "ブレーカー",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "duct",
+              "locales": {
+                "PT": {
+                  "text": "duto",
+                  "definition": "Conduto fechado que leva ar, cabos ou outros fluidos de um ponto a outro de um edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ダクト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ダクト, do inglês \"duct\"). Ex.: 空調ダクト (de ar-condicionado), 換気ダクト.",
+                  "collocations": [
+                    "空調ダクト",
+                    "換気ダクト",
+                    "ダクト清掃"
+                  ],
+                  "romanization": "dakuto"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ダクトは天井の上を通っています。",
+                  "answer": "ダクト",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ほこりがダクトにたまって、風量が減りました。",
+                  "answer": "ダクト",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cobertura-e-esquadrias",
+      "title": "Cobertura e esquadrias",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "telhado-e-aberturas",
+          "title": "Telhado e aberturas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "roof",
+              "locales": {
+                "PT": {
+                  "text": "telhado",
+                  "definition": "Cobertura superior de um edifício que o protege da chuva, do sol e do vento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "屋根",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "やね",
+                  "usageNote": "Hiragana/kango (屋根, やね). Tipos: 平屋根 (plano), 切妻屋根 (duas águas).",
+                  "collocations": [
+                    "切妻屋根",
+                    "屋根瓦",
+                    "屋根を葺く"
+                  ],
+                  "romanization": "yane"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "嵐のあと、屋根が修理されました。",
+                  "answer": "屋根",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "屋根の雨漏りが、下の階の天井を傷めました。",
+                  "answer": "屋根",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "rafter",
+              "locales": {
+                "PT": {
+                  "text": "caibro",
+                  "definition": "Peça inclinada de madeira ou aço que sustenta as telhas ou o forro do telhado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "垂木",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たるき",
+                  "usageNote": "Kango/hiragana (垂 = pender + 木 = madeira). Peça inclinada sob a cobertura; 野地板 é o tabuado acima.",
+                  "collocations": [
+                    "垂木を組む",
+                    "野地板",
+                    "垂木の間隔"
+                  ],
+                  "romanization": "taruki"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "垂木は、壁の上の桁に乗っています。",
+                  "answer": "垂木",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "台所の上の腐った垂木を取り替えました。",
+                  "answer": "垂木",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "gutter",
+              "locales": {
+                "PT": {
+                  "text": "calha",
+                  "definition": "Canal na beira do telhado que recolhe a água da chuva e a leva ao tubo de queda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "雨どい",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あまどい",
+                  "usageNote": "Hiragana (雨 = chuva + どい = calha). Também 樋 (とい) em kanji; 軒樋 (calha do beiral).",
+                  "collocations": [
+                    "軒樋",
+                    "雨どいを掃除する",
+                    "縦樋"
+                  ],
+                  "romanization": "amadoi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "落ち葉が雨どいを詰まらせて、水があふれました。",
+                  "answer": "雨どい",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "雨の季節の前に、雨どいを掃除してください。",
+                  "answer": "雨どい",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "window-frame",
+              "locales": {
+                "PT": {
+                  "text": "caixilho de janela",
+                  "definition": "Estrutura que contorna e sustenta o vidro e as folhas de uma janela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "サッシ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (サッシ, do inglês \"sash\"). Em japonês, サッシ refere-se ao caixilho de alumínio; 窓枠 é a moldura em geral.",
+                  "collocations": [
+                    "アルミサッシ",
+                    "サッシを取り付ける",
+                    "窓枠"
+                  ],
+                  "romanization": "sasshi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この窓のサッシはアルミ製です。",
+                  "answer": "サッシ",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "サッシのまわりから、雨水が入ってきました。",
+                  "answer": "サッシ",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "door-frame",
+              "locales": {
+                "PT": {
+                  "text": "batente",
+                  "definition": "Estrutura fixa em que a folha da porta é instalada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "戸枠",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とわく",
+                  "usageNote": "Kango (戸 = porta + 枠 = moldura). Também 建具枠 e ドア枠 (gairaigo).",
+                  "collocations": [
+                    "ドア枠",
+                    "戸枠を取り付ける",
+                    "建具"
+                  ],
+                  "romanization": "towaku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "戸枠が歪んでいたので、ドアが引っかかりました。",
+                  "answer": "戸枠",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "戸枠を四本のねじで壁に固定してください。",
+                  "answer": "戸枠",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ceiling",
+              "locales": {
+                "PT": {
+                  "text": "forro",
+                  "definition": "Superfície interna superior de um cômodo, abaixo da cobertura ou da laje do andar de cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "天井",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てんじょう",
+                  "usageNote": "Kango (天 = céu + 井 = poço). Forro: 天井; 天井裏 = espaço acima do forro; 天井高 = pé-direito.",
+                  "collocations": [
+                    "天井高",
+                    "天井裏",
+                    "天井を張る"
+                  ],
+                  "romanization": "tenjou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "廊下に天井を張りました。",
+                  "answer": "天井",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "雨のあと、天井に水のしみが出ました。",
+                  "answer": "天井",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-da-obra",
+      "title": "Gestão da obra",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "contratos-e-entrega",
+          "title": "Contratos e entrega",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "bill-of-quantities",
+              "locales": {
+                "PT": {
+                  "text": "planilha de quantitativos",
+                  "definition": "Lista detalhada dos itens, medidas e quantidades de materiais e serviços de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "数量調書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "すうりょうちょうしょ",
+                  "usageNote": "Kango (数量 = quantidade + 調書 = relatório). Em obras: 数量調書 ou 数量表; 積算 = orçamento por quantitativos.",
+                  "collocations": [
+                    "数量調書を作成する",
+                    "積算",
+                    "内訳書"
+                  ],
+                  "romanization": "suuryouchousho"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "請負業者は数量調書のすべての項目に値段をつけました。",
+                  "answer": "数量調書",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "数量調書の誤りで、費用が増えました。",
+                  "answer": "数量調書",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "subcontractor",
+              "locales": {
+                "PT": {
+                  "text": "subempreiteiro",
+                  "definition": "Empresa ou profissional contratado pelo contratante principal para executar parte da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "下請け",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "したうけ",
+                  "usageNote": "Hiragana/kango (下請け = receber trabalho por baixo). Também 下請け業者 e 協力会社; o principal é 元請け.",
+                  "collocations": [
+                    "下請け業者",
+                    "元請け",
+                    "協力会社"
+                  ],
+                  "romanization": "shitauke"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "下請けが、電気設備を取り付けました。",
+                  "answer": "下請け",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "各工程の承認後に、下請けへ支払いを行います。",
+                  "answer": "下請け",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "punch-list",
+              "locales": {
+                "PT": {
+                  "text": "lista de pendências",
+                  "definition": "Lista de pequenos defeitos ou itens inacabados a corrigir antes da entrega final da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "指摘事項",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "してきじこう",
+                  "usageNote": "Kango (指摘 = apontar + 事項 = itens). Também 手直し (retrabalho) e 是正 (correção).",
+                  "collocations": [
+                    "指摘事項を是正する",
+                    "手直し",
+                    "検査指摘"
+                  ],
+                  "romanization": "shitekijikou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "建築士は現場を回って、指摘事項をまとめました。",
+                  "answer": "指摘事項",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "金曜日までに、すべての指摘事項を直しました。",
+                  "answer": "指摘事項",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "as-built-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto as built",
+                  "definition": "Desenho que mostra a obra tal como foi realmente executada, com as alterações feitas em campo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "竣工図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しゅんこうず",
+                  "usageNote": "Kango (竣工 = conclusão da obra + 図 = desenho). Também 竣工図書 (conjunto de documentos finais).",
+                  "collocations": [
+                    "竣工図書",
+                    "竣工図を提出する",
+                    "竣工検査"
+                  ],
+                  "romanization": "shunkouzu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "竣工図には、ダクトの新しい位置が描かれています。",
+                  "answer": "竣工図",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "請負業者は引き渡しのときに、竣工図を提出しなければなりません。",
+                  "answer": "竣工図",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "handover",
+              "locales": {
+                "PT": {
+                  "text": "entrega da obra",
+                  "definition": "Transferência formal da obra concluída do construtor para o cliente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引き渡し",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひきわたし",
+                  "usageNote": "Hiragana/kango (引き渡し = entregar). Também 引渡し e 竣工引き渡し; 検査後に行う.",
+                  "collocations": [
+                    "引き渡し日",
+                    "引き渡し検査",
+                    "竣工"
+                  ],
+                  "romanization": "hikiwatashi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "引き渡しは六月の末に予定されています。",
+                  "answer": "引き渡し",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "引き渡しの際に、お客さんは鍵と説明書を受け取りました。",
+                  "answer": "引き渡し",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "work-permit",
+              "locales": {
+                "PT": {
+                  "text": "permissão de trabalho",
+                  "definition": "Autorização escrita para executar uma tarefa de risco, como trabalho a quente ou em altura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "作業許可",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さぎょうきょか",
+                  "usageNote": "Kango (作業 = trabalho + 許可 = permissão). Em segurança: 作業許可書 e 火気使用許可 (uso de fogo).",
+                  "collocations": [
+                    "作業許可書",
+                    "火気使用許可",
+                    "許可を取る"
+                  ],
+                  "romanization": "sagyoukyoka"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "署名された作業許可がなければ、火気を使う作業は始まりません。",
+                  "answer": "作業許可",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "作業許可は、その日の勤務の終わりまでです。",
+                  "answer": "作業許可",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

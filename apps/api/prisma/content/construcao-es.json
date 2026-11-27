@@ -1462,6 +1462,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "maquinas-de-obra",
+      "title": "Máquinas de obra",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "equipamentos-pesados",
+          "title": "Equipamentos pesados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "crane",
+              "locales": {
+                "PT": {
+                  "text": "guindaste",
+                  "definition": "Máquina que levanta e desloca cargas pesadas com cabos e lança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "grúa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la grúa (plural: las grúas). Tipos: grúa torre, grúa móvil.",
+                  "collocations": [
+                    "grúa torre",
+                    "operador de grúa",
+                    "grúa móvil"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La grúa subió las vigas de acero hasta la tercera planta.",
+                  "answer": "grúa",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Solo un operador certificado puede manejar la grúa.",
+                  "answer": "grúa",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "excavator",
+              "locales": {
+                "PT": {
+                  "text": "escavadeira",
+                  "definition": "Máquina de esteiras com braço e caçamba para escavar e carregar terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "excavadora",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la excavadora (plural: las excavadoras). Também \"retroexcavadora\" (com carregadeira).",
+                  "collocations": [
+                    "excavadora hidráulica",
+                    "cuchara de la excavadora",
+                    "miniexcavadora"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La excavadora abrió la zanja para la tubería de agua.",
+                  "answer": "excavadora",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una excavadora de brazo largo llegó al fondo de la excavación.",
+                  "answer": "excavadora",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bulldozer",
+              "locales": {
+                "PT": {
+                  "text": "trator de esteira",
+                  "definition": "Trator de esteiras com lâmina frontal para empurrar terra e nivelar o terreno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "topadora",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la topadora (América) ou \"el buldócer\"; em Espanha diz-se \"bulldozer\".",
+                  "collocations": [
+                    "operar la topadora",
+                    "hoja de la topadora",
+                    "nivelar el terreno"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La topadora niveló el terreno antes de la cimentación.",
+                  "answer": "topadora",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una topadora empujó los escombros hasta el borde del lote.",
+                  "answer": "topadora",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "concrete-mixer",
+              "locales": {
+                "PT": {
+                  "text": "betoneira",
+                  "definition": "Máquina com tambor giratório que mistura cimento, agregados e água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hormigonera",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la hormigonera (plural: las hormigoneras). O caminhão: \"camión hormigonera\".",
+                  "collocations": [
+                    "camión hormigonera",
+                    "hormigonera portátil",
+                    "amasar hormigón"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La hormigonera funciona tres minutos por cada amasada.",
+                  "answer": "hormigonera",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una hormigonera con camión entregó diez metros cúbicos.",
+                  "answer": "hormigonera",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drill",
+              "locales": {
+                "PT": {
+                  "text": "furadeira",
+                  "definition": "Ferramenta elétrica que gira uma broca para furar madeira, metal ou concreto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "taladro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el taladro (plural: los taladros). Em alguns países, \"berbiquí\" e \"barrena\" são ferramentas manuais.",
+                  "collocations": [
+                    "taladro inalámbrico",
+                    "broca",
+                    "taladro percutor"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Usa el taladro con una broca para mampostería en la pared de hormigón.",
+                  "answer": "taladro",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La batería del taladro se agotó a mitad del trabajo.",
+                  "answer": "taladro",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "jackhammer",
+              "locales": {
+                "PT": {
+                  "text": "martelo pneumático",
+                  "definition": "Ferramenta pesada de impacto, a ar comprimido ou elétrica, para quebrar concreto e asfalto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "martillo neumático",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el martillo neumático (plural: los martillos neumáticos). Também \"martillo picador\".",
+                  "collocations": [
+                    "martillo neumático",
+                    "martillo picador",
+                    "romper el pavimento"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los obreros usaron un martillo neumático para romper el pavimento viejo.",
+                  "answer": "martillo neumático",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El ruido del martillo neumático supera el límite de seguridad.",
+                  "answer": "martillo neumático",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instalacoes",
+      "title": "Instalações",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "eletrica-e-hidraulica",
+          "title": "Instalações elétricas e hidráulicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "wiring",
+              "locales": {
+                "PT": {
+                  "text": "fiação",
+                  "definition": "Conjunto de fios e cabos que formam a instalação elétrica de um edifício ou equipamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cableado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el cableado (plural: los cableados). Também \"instalación eléctrica\".",
+                  "collocations": [
+                    "cableado eléctrico",
+                    "esquema de cableado",
+                    "cableado defectuoso"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El cableado antiguo no cumple la normativa vigente.",
+                  "answer": "cableado",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un fallo en el cableado causó el cortocircuito.",
+                  "answer": "cableado",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conduit",
+              "locales": {
+                "PT": {
+                  "text": "eletroduto",
+                  "definition": "Tubo que protege e conduz fios e cabos elétricos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "conducto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el conducto (plural: los conductos); mais preciso: \"tubo conduit\" ou \"canalización eléctrica\".",
+                  "collocations": [
+                    "conducto metálico",
+                    "conducto flexible",
+                    "canalización"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Los cables van dentro de un conducto metálico a lo largo de la pared.",
+                  "answer": "conducto",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un conducto flexible une la caja con el motor.",
+                  "answer": "conducto",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "plumbing",
+              "locales": {
+                "PT": {
+                  "text": "encanamento",
+                  "definition": "Sistema de tubos, conexões e aparelhos que leva água para o edifício e retira o esgoto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "fontanería",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la fontanería (em Espanha); na América, \"plomería\" ou \"gasfitería\". Profissional: fontanero.",
+                  "collocations": [
+                    "instalación de fontanería",
+                    "fontanero",
+                    "plomería"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La fontanería del baño debe sustituirse por completo.",
+                  "answer": "fontanería",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una tubería rota inundó el suelo por culpa de la fontanería antigua.",
+                  "answer": "fontanería",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drain",
+              "locales": {
+                "PT": {
+                  "text": "ralo",
+                  "definition": "Abertura ou tubo por onde a água e os resíduos líquidos escoam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "desagüe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el desagüe (plural: los desagües). Ralo de piso: \"sumidero\" ou \"rejilla\".",
+                  "collocations": [
+                    "desagüe del baño",
+                    "desagüe obstruido",
+                    "sumidero"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El suelo tiene pendiente hacia el desagüe.",
+                  "answer": "desagüe",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El pelo atascó el desagüe de la ducha.",
+                  "answer": "desagüe",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "circuit-breaker",
+              "locales": {
+                "PT": {
+                  "text": "disjuntor",
+                  "definition": "Dispositivo que interrompe o circuito automaticamente em caso de sobrecarga ou curto-circuito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "disyuntor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el disyuntor (América) ou \"interruptor automático\" (Espanha); \"magnetotérmico\" é o termo preciso.",
+                  "collocations": [
+                    "disyuntor general",
+                    "disparar el disyuntor",
+                    "interruptor automático"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El disyuntor saltó al encender el calefactor.",
+                  "answer": "disyuntor",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Rearma el disyuntor después de reparar la avería.",
+                  "answer": "disyuntor",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "duct",
+              "locales": {
+                "PT": {
+                  "text": "duto",
+                  "definition": "Conduto fechado que leva ar, cabos ou outros fluidos de um ponto a outro de um edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "conducto de ventilación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el conducto de ventilación (plural: los conductos de ventilación). Também \"ducto\" na América.",
+                  "collocations": [
+                    "conducto de ventilación",
+                    "conducto de aire",
+                    "limpieza de conductos"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El conducto de ventilación pasa por encima del falso techo.",
+                  "answer": "conducto de ventilación",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El polvo se acumuló en el conducto de ventilación y redujo el caudal de aire.",
+                  "answer": "conducto de ventilación",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cobertura-e-esquadrias",
+      "title": "Cobertura e esquadrias",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "telhado-e-aberturas",
+          "title": "Telhado e aberturas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "roof",
+              "locales": {
+                "PT": {
+                  "text": "telhado",
+                  "definition": "Cobertura superior de um edifício que o protege da chuva, do sol e do vento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "tejado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el tejado (plural: los tejados). Em geral \"cubierta\" é o termo técnico; \"techo\" pode ser o forro.",
+                  "collocations": [
+                    "tejado inclinado",
+                    "cubierta plana",
+                    "teja"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El tejado fue reparado después de la tormenta.",
+                  "answer": "tejado",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una gotera en el tejado dañó el techo de la planta inferior.",
+                  "answer": "tejado",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "rafter",
+              "locales": {
+                "PT": {
+                  "text": "caibro",
+                  "definition": "Peça inclinada de madeira ou aço que sustenta as telhas ou o forro do telhado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "cabio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el cabio (plural: los cabios); em Espanha também \"par\" e \"cabrio\".",
+                  "collocations": [
+                    "cabio de madera",
+                    "separación entre cabios",
+                    "cabrio"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada cabio descansa sobre la solera.",
+                  "answer": "cabio",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Sustituimos el cabio podrido que había sobre la cocina.",
+                  "answer": "cabio",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "gutter",
+              "locales": {
+                "PT": {
+                  "text": "calha",
+                  "definition": "Canal na beira do telhado que recolhe a água da chuva e a leva ao tubo de queda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "canalón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el canalón (plural: los canalones); em alguns países \"canaleta\" ou \"bajante\" (o tubo).",
+                  "collocations": [
+                    "canalón de zinc",
+                    "limpiar el canalón",
+                    "bajante"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las hojas atascaron el canalón y el agua se desbordó.",
+                  "answer": "canalón",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Limpia el canalón antes de la temporada de lluvias.",
+                  "answer": "canalón",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "window-frame",
+              "locales": {
+                "PT": {
+                  "text": "caixilho de janela",
+                  "definition": "Estrutura que contorna e sustenta o vidro e as folhas de uma janela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "marco de ventana",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el marco de ventana (plural: los marcos de ventana). Na prática: \"carpintería\" (de aluminio, de PVC).",
+                  "collocations": [
+                    "marco de ventana de aluminio",
+                    "instalar el marco de ventana",
+                    "carpintería"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El marco de ventana es de aluminio.",
+                  "answer": "marco de ventana",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El agua se filtró alrededor del marco de ventana.",
+                  "answer": "marco de ventana",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "door-frame",
+              "locales": {
+                "PT": {
+                  "text": "batente",
+                  "definition": "Estrutura fixa em que a folha da porta é instalada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "marco de puerta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el marco de puerta (plural: los marcos de puerta); em alguns países \"cerco\" ou \"batiente\".",
+                  "collocations": [
+                    "marco de puerta metálico",
+                    "colocar el marco de puerta",
+                    "hoja de la puerta"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El marco de puerta no estaba a escuadra y la puerta se atascaba.",
+                  "answer": "marco de puerta",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Fija el marco de puerta a la pared con cuatro tornillos.",
+                  "answer": "marco de puerta",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ceiling",
+              "locales": {
+                "PT": {
+                  "text": "forro",
+                  "definition": "Superfície interna superior de um cômodo, abaixo da cobertura ou da laje do andar de cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "techo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el techo (plural: los techos); \"falso techo\" é o forro rebaixado; \"cielorraso\" na América.",
+                  "collocations": [
+                    "falso techo",
+                    "altura del techo",
+                    "cielorraso"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Instalamos un falso techo en el pasillo.",
+                  "answer": "techo",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Aparecieron manchas de agua en el techo después de la lluvia.",
+                  "answer": "techo",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-da-obra",
+      "title": "Gestão da obra",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "contratos-e-entrega",
+          "title": "Contratos e entrega",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "bill-of-quantities",
+              "locales": {
+                "PT": {
+                  "text": "planilha de quantitativos",
+                  "definition": "Lista detalhada dos itens, medidas e quantidades de materiais e serviços de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "estado de mediciones",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el estado de mediciones (plural: los estados de mediciones); também \"cómputo métrico\" na América.",
+                  "collocations": [
+                    "estado de mediciones",
+                    "presupuesto",
+                    "cómputo métrico"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El contratista valoró cada partida del estado de mediciones.",
+                  "answer": "estado de mediciones",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un error en el estado de mediciones aumentó el coste.",
+                  "answer": "estado de mediciones",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "subcontractor",
+              "locales": {
+                "PT": {
+                  "text": "subempreiteiro",
+                  "definition": "Empresa ou profissional contratado pelo contratante principal para executar parte da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "subcontratista",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino/feminino: el/la subcontratista. Verbo: subcontratar.",
+                  "collocations": [
+                    "subcontratista eléctrico",
+                    "contratar a un subcontratista",
+                    "contratista principal"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El subcontratista instaló el sistema eléctrico.",
+                  "answer": "subcontratista",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Pagamos al subcontratista después de aprobar cada fase.",
+                  "answer": "subcontratista",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "punch-list",
+              "locales": {
+                "PT": {
+                  "text": "lista de pendências",
+                  "definition": "Lista de pequenos defeitos ou itens inacabados a corrigir antes da entrega final da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "lista de pendientes",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la lista de pendientes (plural: las listas de pendientes); também \"lista de repasos\" na Espanha.",
+                  "collocations": [
+                    "lista de pendientes",
+                    "lista de repasos",
+                    "cerrar pendientes"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El arquitecto recorrió la obra y redactó una lista de pendientes.",
+                  "answer": "lista de pendientes",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Cerramos todos los puntos de la lista de pendientes antes del viernes.",
+                  "answer": "lista de pendientes",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "as-built-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto as built",
+                  "definition": "Desenho que mostra a obra tal como foi realmente executada, com as alterações feitas em campo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "plano as built",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el plano as built (plural: los planos as built); em português e espanhol mantém-se o inglês; também \"planos de final de obra\".",
+                  "collocations": [
+                    "planos as built",
+                    "planos de final de obra",
+                    "actualizar el plano"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El plano as built muestra la nueva posición del conducto.",
+                  "answer": "plano as built",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El contratista debe entregar el plano as built al finalizar la obra.",
+                  "answer": "plano as built",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "handover",
+              "locales": {
+                "PT": {
+                  "text": "entrega da obra",
+                  "definition": "Transferência formal da obra concluída do construtor para o cliente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "entrega de obra",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la entrega de obra (plural: las entregas de obra). Em geral: \"recepción de obra\".",
+                  "collocations": [
+                    "entrega de obra",
+                    "recepción de obra",
+                    "fecha de entrega"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La entrega de obra está prevista para finales de junio.",
+                  "answer": "entrega de obra",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "En la entrega de obra, el cliente recibió las llaves y los manuales.",
+                  "answer": "entrega de obra",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "work-permit",
+              "locales": {
+                "PT": {
+                  "text": "permissão de trabalho",
+                  "definition": "Autorização escrita para executar uma tarefa de risco, como trabalho a quente ou em altura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "permiso de trabajo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el permiso de trabajo (plural: los permisos de trabajo). Também é o visto de trabalho; em segurança diz-se \"permiso de trabajo especial\".",
+                  "collocations": [
+                    "permiso de trabajo",
+                    "trabajo en caliente",
+                    "firmar el permiso"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Ningún trabajo en caliente empieza sin un permiso de trabajo firmado.",
+                  "answer": "permiso de trabajo",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El permiso de trabajo caduca al final del turno.",
+                  "answer": "permiso de trabajo",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

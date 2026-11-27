@@ -4941,6 +4941,1617 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "ortopedia",
+      "title": "Ortopedia e reumatologia",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "ossos-e-articulacoes",
+          "title": "Ossos e articulações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "fracture",
+              "locales": {
+                "PT": {
+                  "text": "fratura",
+                  "definition": "Rompimento total ou parcial de um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "fracture",
+                  "definition": "A complete or partial break in a bone.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vem do latim fractura. Open fracture é a fratura exposta; closed fracture, a fechada. Também é verbo: to fracture.",
+                  "collocations": [
+                    "open fracture",
+                    "hip fracture",
+                    "stress fracture",
+                    "fracture healing"
+                  ]
+                },
+                "ES": {
+                  "text": "fractura",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fraktur",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "骨折",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こっせつ",
+                  "romanization": "kossetsu"
+                },
+                "ZH": {
+                  "text": "骨折",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gǔzhé"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The X-ray showed a fracture of the left wrist.",
+                  "answer": "fracture",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A fracture of this type needs a cast for six weeks.",
+                  "answer": "fracture",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "ligament",
+              "locales": {
+                "PT": {
+                  "text": "ligamento",
+                  "definition": "Faixa resistente de tecido que liga um osso a outro numa articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "ligament",
+                  "definition": "A tough band of tissue that connects one bone to another at a joint.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tendon liga músculo a osso; ligament liga osso a osso. O cruzado do joelho é o cruciate ligament.",
+                  "collocations": [
+                    "torn ligament",
+                    "knee ligament",
+                    "ligament injury",
+                    "cruciate ligament"
+                  ]
+                },
+                "ES": {
+                  "text": "ligamento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ligament",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "靭帯",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じんたい",
+                  "romanization": "jintai"
+                },
+                "ZH": {
+                  "text": "韧带",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rèndài"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "He tore a ligament in his knee playing football.",
+                  "answer": "ligament",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The ligament connects the two bones.",
+                  "answer": "ligament",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "tendon",
+              "locales": {
+                "PT": {
+                  "text": "tendão",
+                  "definition": "Cordão resistente de tecido que liga um músculo a um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "tendon",
+                  "definition": "A tough cord of tissue that attaches a muscle to a bone.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O maior é o Achilles tendon (calcâneo). Tendinitis é a inflamação do tendão.",
+                  "collocations": [
+                    "Achilles tendon",
+                    "tendon rupture",
+                    "tendon repair",
+                    "tendon sheath"
+                  ]
+                },
+                "ES": {
+                  "text": "tendón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sehne",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "腱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けん",
+                  "romanization": "ken"
+                },
+                "ZH": {
+                  "text": "肌腱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jījiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The tendon attaches the muscle to the bone.",
+                  "answer": "tendon",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Inflammation of the tendon causes pain when moving.",
+                  "answer": "tendon",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "osteoporosis",
+              "locales": {
+                "PT": {
+                  "text": "osteoporose",
+                  "definition": "Doença em que os ossos perdem massa e ficam frágeis e fáceis de fraturar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "osteoporosis",
+                  "definition": "A disease in which bones lose mass and become fragile and easy to break.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Do grego osteon (osso) + póros (poro). Bone density scan é a densitometria óssea.",
+                  "collocations": [
+                    "postmenopausal osteoporosis",
+                    "bone density",
+                    "osteoporosis treatment",
+                    "risk of osteoporosis"
+                  ]
+                },
+                "ES": {
+                  "text": "osteoporosis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Osteoporose",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "骨粗鬆症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こつそしょうしょう",
+                  "romanization": "kotsusoshoushou"
+                },
+                "ZH": {
+                  "text": "骨质疏松症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gǔzhì shūsōngzhèng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Women over fifty are at higher risk of osteoporosis.",
+                  "answer": "osteoporosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The scan confirmed osteoporosis in the spine.",
+                  "answer": "osteoporosis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "arthritis",
+              "locales": {
+                "PT": {
+                  "text": "artrite",
+                  "definition": "Inflamação de uma ou mais articulações, com dor, inchaço e rigidez.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "arthritis",
+                  "definition": "Inflammation of one or more joints, with pain, swelling and stiffness.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Rheumatoid arthritis é a artrite reumatoide, autoimune. Osteoarthritis é o desgaste da articulação.",
+                  "collocations": [
+                    "rheumatoid arthritis",
+                    "arthritis pain",
+                    "joint arthritis",
+                    "severe arthritis"
+                  ]
+                },
+                "ES": {
+                  "text": "artritis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Arthritis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "関節炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんせつえん",
+                  "romanization": "kansetsuen"
+                },
+                "ZH": {
+                  "text": "关节炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guānjiéyán"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "She has had arthritis in her hands for years.",
+                  "answer": "arthritis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Morning stiffness is typical of arthritis.",
+                  "answer": "arthritis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "dislocation",
+              "locales": {
+                "PT": {
+                  "text": "luxação",
+                  "definition": "Deslocamento de um osso para fora da posição normal em uma articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "dislocation",
+                  "definition": "The displacement of a bone out of its normal position in a joint.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Reduce, aqui, é recolocar o osso no lugar. O verbo é to dislocate.",
+                  "collocations": [
+                    "shoulder dislocation",
+                    "dislocation of the hip",
+                    "reduce a dislocation",
+                    "recurrent dislocation"
+                  ]
+                },
+                "ES": {
+                  "text": "luxación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Luxation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "脱臼",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だっきゅう",
+                  "romanization": "dakkyuu"
+                },
+                "ZH": {
+                  "text": "脱位",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tuōwèi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The shoulder dislocation was reduced in the emergency room.",
+                  "answer": "dislocation",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A dislocation must be treated quickly to avoid nerve damage.",
+                  "answer": "dislocation",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dermatologia-e-alergia",
+      "title": "Dermatologia e alergia",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "pele-e-reacoes",
+          "title": "Pele e reações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "rash",
+              "locales": {
+                "PT": {
+                  "text": "erupção cutânea",
+                  "definition": "Alteração da pele com manchas vermelhas, bolhas ou coceira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "rash",
+                  "definition": "A change in the skin with red patches, bumps or itching.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Rash é incontável em geral: a rash (uma erupção) ou rashes. Diaper rash é assadura.",
+                  "collocations": [
+                    "skin rash",
+                    "itchy rash",
+                    "rash on the arms",
+                    "allergic rash"
+                  ]
+                },
+                "ES": {
+                  "text": "erupción cutánea",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hautausschlag",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "発疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほっしん",
+                  "romanization": "hosshin"
+                },
+                "ZH": {
+                  "text": "皮疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "pízhěn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A red rash appeared on his chest.",
+                  "answer": "rash",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The rash spreads when he scratches it.",
+                  "answer": "rash",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "eczema",
+              "locales": {
+                "PT": {
+                  "text": "eczema",
+                  "definition": "Doença crônica da pele com ressecamento, coceira e inflamação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "eczema",
+                  "definition": "A chronic skin condition with dryness, itching and inflammation.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também chamada atopic dermatitis. Pronuncia-se /ˈeksɪmə/ ou /ˈɛgzɪmə/.",
+                  "collocations": [
+                    "atopic eczema",
+                    "eczema flare-up",
+                    "severe eczema",
+                    "eczema cream"
+                  ]
+                },
+                "ES": {
+                  "text": "eccema",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ekzem",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "湿疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しっしん",
+                  "romanization": "shisshin"
+                },
+                "ZH": {
+                  "text": "湿疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shīzhěn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The child has eczema behind the knees.",
+                  "answer": "eczema",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Moisturiser helps control eczema.",
+                  "answer": "eczema",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "allergy",
+              "locales": {
+                "PT": {
+                  "text": "alergia",
+                  "definition": "Reação exagerada do sistema imunológico a uma substância normalmente inofensiva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "allergy",
+                  "definition": "An exaggerated reaction of the immune system to a normally harmless substance.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O adjetivo é allergic: allergic to nuts. Allergist é o alergologista.",
+                  "collocations": [
+                    "food allergy",
+                    "pollen allergy",
+                    "drug allergy",
+                    "allergy test"
+                  ]
+                },
+                "ES": {
+                  "text": "alergia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Allergie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アレルギー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "arerugii"
+                },
+                "ZH": {
+                  "text": "过敏",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòmǐn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "She has an allergy to penicillin.",
+                  "answer": "allergy",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The allergy causes sneezing in spring.",
+                  "answer": "allergy",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "anaphylaxis",
+              "locales": {
+                "PT": {
+                  "text": "anafilaxia",
+                  "definition": "Reação alérgica grave e súbita que pode ser fatal sem tratamento imediato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "anaphylaxis",
+                  "definition": "A severe, sudden allergic reaction that can be fatal without immediate treatment.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O tratamento é epinephrine (EUA) ou adrenaline (Reino Unido). Adjetivo: anaphylactic.",
+                  "collocations": [
+                    "anaphylaxis shock",
+                    "severe anaphylaxis",
+                    "treat anaphylaxis",
+                    "risk of anaphylaxis"
+                  ]
+                },
+                "ES": {
+                  "text": "anafilaxia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Anaphylaxie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アナフィラキシー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "anafirakishii"
+                },
+                "ZH": {
+                  "text": "过敏性休克",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòmǐnxìng xiūkè"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Treat anaphylaxis with an adrenaline injection at once.",
+                  "answer": "anaphylaxis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A bee sting triggered anaphylaxis in the patient.",
+                  "answer": "anaphylaxis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "melanoma",
+              "locales": {
+                "PT": {
+                  "text": "melanoma",
+                  "definition": "Câncer de pele grave que se origina nas células produtoras de pigmento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "melanoma",
+                  "definition": "A serious skin cancer that starts in the pigment-producing cells.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tem a ver com melanin (pigmento). Regra do ABCDE para avaliar pintas suspeitas.",
+                  "collocations": [
+                    "malignant melanoma",
+                    "melanoma screening",
+                    "melanoma stage",
+                    "skin melanoma"
+                  ]
+                },
+                "ES": {
+                  "text": "melanoma",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Melanom",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "悪性黒色腫",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あくせいこくしょくしゅ",
+                  "romanization": "akuseikokushokushu"
+                },
+                "ZH": {
+                  "text": "黑色素瘤",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hēisèsùliú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The biopsy confirmed a melanoma on her back.",
+                  "answer": "melanoma",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Early melanoma is usually curable by surgery.",
+                  "answer": "melanoma",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "inflammation",
+              "locales": {
+                "PT": {
+                  "text": "inflamação",
+                  "definition": "Resposta do corpo a lesão ou infecção, com vermelhidão, calor, inchaço e dor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "inflammation",
+                  "definition": "The body's response to injury or infection, with redness, heat, swelling and pain.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O adjetivo é inflammatory; anti-inflammatory é o anti-inflamatório. Verbo: to inflame.",
+                  "collocations": [
+                    "chronic inflammation",
+                    "reduce inflammation",
+                    "signs of inflammation",
+                    "inflammation marker"
+                  ]
+                },
+                "ES": {
+                  "text": "inflamación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Entzündung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "炎症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "えんしょう",
+                  "romanization": "enshou"
+                },
+                "ZH": {
+                  "text": "炎症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yánzhèng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The blood test showed signs of inflammation.",
+                  "answer": "inflammation",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Cooling reduces inflammation and pain.",
+                  "answer": "inflammation",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "infeccao-e-imunidade",
+      "title": "Infecção e imunidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "agentes-e-defesas",
+          "title": "Agentes e defesas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "antibiotic",
+              "locales": {
+                "PT": {
+                  "text": "antibiótico",
+                  "definition": "Medicamento que mata bactérias ou impede seu crescimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "antibiotic",
+                  "definition": "A drug that kills bacteria or stops their growth.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Não age contra vírus. Antibiotic resistance é a resistência bacteriana.",
+                  "collocations": [
+                    "broad-spectrum antibiotic",
+                    "antibiotic resistance",
+                    "course of antibiotics",
+                    "oral antibiotic"
+                  ]
+                },
+                "ES": {
+                  "text": "antibiótico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Antibiotikum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抗生物質",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうせいぶっしつ",
+                  "romanization": "kouseibusshitsu"
+                },
+                "ZH": {
+                  "text": "抗生素",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kàngshēngsù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The doctor prescribed an antibiotic for the infection.",
+                  "answer": "antibiotic",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "This antibiotic must be taken for seven days.",
+                  "answer": "antibiotic",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "vaccine",
+              "locales": {
+                "PT": {
+                  "text": "vacina",
+                  "definition": "Preparado que estimula o corpo a criar defesa contra uma doença específica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "vaccine",
+                  "definition": "A preparation that stimulates the body to build defences against a specific disease.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O ato é vaccination; o verbo é to vaccinate. Do latim vacca (vaca), pelo primeiro uso contra a varíola.",
+                  "collocations": [
+                    "flu vaccine",
+                    "vaccine schedule",
+                    "receive a vaccine",
+                    "vaccine safety"
+                  ]
+                },
+                "ES": {
+                  "text": "vacuna",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Impfstoff",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ワクチン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "wakuchin"
+                },
+                "ZH": {
+                  "text": "疫苗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìmiáo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The vaccine protects against measles.",
+                  "answer": "vaccine",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Children receive the vaccine at twelve months.",
+                  "answer": "vaccine",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "fever",
+              "locales": {
+                "PT": {
+                  "text": "febre",
+                  "definition": "Elevação da temperatura do corpo acima do normal, em geral sinal de infecção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "fever",
+                  "definition": "A rise in body temperature above normal, usually a sign of infection.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também se diz temperature na linguagem comum: \"he has a temperature\". Antipyretic é o antitérmico.",
+                  "collocations": [
+                    "high fever",
+                    "mild fever",
+                    "reduce a fever",
+                    "fever and chills"
+                  ]
+                },
+                "ES": {
+                  "text": "fiebre",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fieber",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "熱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ねつ",
+                  "romanization": "netsu"
+                },
+                "ZH": {
+                  "text": "发烧",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fāshāo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The child has had a fever since Monday.",
+                  "answer": "fever",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A fever above 39 degrees needs medical attention.",
+                  "answer": "fever",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "sepsis",
+              "locales": {
+                "PT": {
+                  "text": "sepse",
+                  "definition": "Reação extrema do corpo a uma infecção, que pode levar à falência de órgãos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "sepsis",
+                  "definition": "An extreme reaction of the body to an infection, which can lead to organ failure.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Septic shock é o choque séptico. O adjetivo é septic.",
+                  "collocations": [
+                    "severe sepsis",
+                    "septic shock",
+                    "sepsis screening",
+                    "early sepsis"
+                  ]
+                },
+                "ES": {
+                  "text": "sepsis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sepsis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "敗血症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいけつしょう",
+                  "romanization": "haiketsushou"
+                },
+                "ZH": {
+                  "text": "脓毒症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nóngdúzhèng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Untreated, sepsis can cause organ failure within hours.",
+                  "answer": "sepsis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The patient was admitted to intensive care with sepsis.",
+                  "answer": "sepsis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "virus",
+              "locales": {
+                "PT": {
+                  "text": "vírus",
+                  "definition": "Agente infeccioso muito pequeno que só se multiplica dentro de células vivas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "virus",
+                  "definition": "A very small infectious agent that can only multiply inside living cells.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: viruses (nunca \"viri\"). Em informática, computer virus é o vírus de computador.",
+                  "collocations": [
+                    "flu virus",
+                    "virus infection",
+                    "spread a virus",
+                    "computer virus"
+                  ]
+                },
+                "ES": {
+                  "text": "virus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Virus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ウイルス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "uirusu"
+                },
+                "ZH": {
+                  "text": "病毒",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bìngdú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A virus causes the common cold.",
+                  "answer": "virus",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The virus spreads through the air.",
+                  "answer": "virus",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "antibody",
+              "locales": {
+                "PT": {
+                  "text": "anticorpo",
+                  "definition": "Proteína produzida pelo sistema imunológico que reconhece e neutraliza um agente estranho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "antibody",
+                  "definition": "A protein made by the immune system that recognises and neutralises a foreign agent.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: antibodies. O agente que provoca a resposta é o antigen.",
+                  "collocations": [
+                    "antibody test",
+                    "produce antibodies",
+                    "neutralising antibody",
+                    "antibody level"
+                  ]
+                },
+                "ES": {
+                  "text": "anticuerpo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Antikörper",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抗体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうたい",
+                  "romanization": "koutai"
+                },
+                "ZH": {
+                  "text": "抗体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kàngtǐ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The test detects the antibody against the virus.",
+                  "answer": "antibody",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The body makes an antibody after vaccination.",
+                  "answer": "antibody",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tratamento-e-cuidado",
+      "title": "Tratamento e cuidado",
+      "position": 14,
+      "lessons": [
+        {
+          "slug": "terapias-e-receitas",
+          "title": "Terapias e receitas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "prescription",
+              "locales": {
+                "PT": {
+                  "text": "receita médica",
+                  "definition": "Ordem escrita do médico para que o paciente receba um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "prescription",
+                  "definition": "A doctor's written order for a patient to receive a medicine or treatment.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo é to prescribe. Over-the-counter (OTC) é o medicamento vendido sem receita.",
+                  "collocations": [
+                    "write a prescription",
+                    "prescription drug",
+                    "repeat prescription",
+                    "fill a prescription"
+                  ]
+                },
+                "ES": {
+                  "text": "receta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rezept",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "処方箋",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょほうせん",
+                  "romanization": "shohousen"
+                },
+                "ZH": {
+                  "text": "处方",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chǔfāng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "You need a prescription to buy this drug.",
+                  "answer": "prescription",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The pharmacist filled the prescription.",
+                  "answer": "prescription",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "dosage",
+              "locales": {
+                "PT": {
+                  "text": "dosagem",
+                  "definition": "Quantidade de medicamento e frequência com que deve ser tomada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "dosage",
+                  "definition": "The amount of a medicine and how often it should be taken.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Dose é uma única administração; dosage é o regime completo. Overdose é a dose excessiva.",
+                  "collocations": [
+                    "recommended dosage",
+                    "adjust the dosage",
+                    "daily dosage",
+                    "dosage form"
+                  ]
+                },
+                "ES": {
+                  "text": "dosis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dosierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "用量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようりょう",
+                  "romanization": "youryou"
+                },
+                "ZH": {
+                  "text": "剂量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìliàng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The dosage depends on the patient's weight.",
+                  "answer": "dosage",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Do not exceed the recommended dosage.",
+                  "answer": "dosage",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "side-effect",
+              "locales": {
+                "PT": {
+                  "text": "efeito colateral",
+                  "definition": "Efeito indesejado e secundário de um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "side effect",
+                  "definition": "An unwanted, secondary effect of a medicine or treatment.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Adverse reaction é o termo clínico mais forte. A bula lista os possible side effects.",
+                  "collocations": [
+                    "common side effect",
+                    "serious side effect",
+                    "side effect profile",
+                    "cause a side effect"
+                  ]
+                },
+                "ES": {
+                  "text": "efecto secundario",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Nebenwirkung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "副作用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふくさよう",
+                  "romanization": "fukusayou"
+                },
+                "ZH": {
+                  "text": "副作用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fùzuòyòng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Nausea is a common side effect of this drug.",
+                  "answer": "side effect",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Report any side effect to your doctor.",
+                  "answer": "side effect",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "chemotherapy",
+              "locales": {
+                "PT": {
+                  "text": "quimioterapia",
+                  "definition": "Tratamento do câncer com medicamentos que destroem as células tumorais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "chemotherapy",
+                  "definition": "Cancer treatment with drugs that destroy tumour cells.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado chemo na fala. Radiotherapy é a radioterapia.",
+                  "collocations": [
+                    "round of chemotherapy",
+                    "adjuvant chemotherapy",
+                    "chemotherapy session",
+                    "receive chemotherapy"
+                  ]
+                },
+                "ES": {
+                  "text": "quimioterapia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Chemotherapie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "化学療法",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かがくりょうほう",
+                  "romanization": "kagakuryouhou"
+                },
+                "ZH": {
+                  "text": "化疗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huàliáo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "She started chemotherapy after the surgery.",
+                  "answer": "chemotherapy",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Hair loss is common during chemotherapy.",
+                  "answer": "chemotherapy",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "physiotherapy",
+              "locales": {
+                "PT": {
+                  "text": "fisioterapia",
+                  "definition": "Tratamento que usa exercícios, massagem e técnicas físicas para restaurar o movimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "physiotherapy",
+                  "definition": "Treatment that uses exercise, massage and physical techniques to restore movement.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Nos EUA, physical therapy é o equivalente; o profissional é physiotherapist ou physical therapist.",
+                  "collocations": [
+                    "physiotherapy session",
+                    "undergo physiotherapy",
+                    "physiotherapy exercises",
+                    "physiotherapy clinic"
+                  ]
+                },
+                "ES": {
+                  "text": "fisioterapia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Physiotherapie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "理学療法",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りがくりょうほう",
+                  "romanization": "rigakuryouhou"
+                },
+                "ZH": {
+                  "text": "物理治疗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wùlǐ zhìliáo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "He needs physiotherapy twice a week.",
+                  "answer": "physiotherapy",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Regular physiotherapy restores movement after an injury.",
+                  "answer": "physiotherapy",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            },
+            {
+              "slug": "rehabilitation",
+              "locales": {
+                "PT": {
+                  "text": "reabilitação",
+                  "definition": "Processo de recuperar funções e autonomia depois de doença, lesão ou cirurgia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "rehabilitation",
+                  "definition": "The process of regaining function and independence after illness, injury or surgery.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado rehab. Também é a reabilitação de dependentes químicos, em outro contexto.",
+                  "collocations": [
+                    "cardiac rehabilitation",
+                    "rehabilitation centre",
+                    "rehabilitation programme",
+                    "physical rehabilitation"
+                  ]
+                },
+                "ES": {
+                  "text": "rehabilitación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rehabilitation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リハビリテーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "rihabiriteeshon"
+                },
+                "ZH": {
+                  "text": "康复",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kāngfù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Full rehabilitation after a stroke can take months.",
+                  "answer": "rehabilitation",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The rehabilitation programme includes walking exercises.",
+                  "answer": "rehabilitation",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2798,6 +2798,1017 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "ortopedia",
+      "title": "Ortopedia e reumatologia",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "ossos-e-articulacoes",
+          "title": "Ossos e articulações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "fracture",
+              "locales": {
+                "PT": {
+                  "text": "fratura",
+                  "definition": "Rompimento total ou parcial de um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "骨折",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こっせつ",
+                  "usageNote": "Kango (骨 = osso + 折 = quebrar). Verbo: 骨折する. Tipos: 疲労骨折 (por estresse).",
+                  "collocations": [
+                    "疲労骨折",
+                    "骨折する",
+                    "大腿骨骨折"
+                  ],
+                  "romanization": "kossetsu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "レントゲンで、左手首の骨折が見つかりました。",
+                  "answer": "骨折",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この種の骨折は、六週間ギプスで固定する必要があります。",
+                  "answer": "骨折",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ligament",
+              "locales": {
+                "PT": {
+                  "text": "ligamento",
+                  "definition": "Faixa resistente de tecido que liga um osso a outro numa articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "靭帯",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "じんたい",
+                  "usageNote": "Kango (靭 = flexível e resistente + 帯 = faixa). Joelho: 前十字靭帯 (LCA).",
+                  "collocations": [
+                    "前十字靭帯",
+                    "靭帯損傷",
+                    "靭帯を切る"
+                  ],
+                  "romanization": "jintai"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼はサッカーをしていて、膝の靭帯を切りました。",
+                  "answer": "靭帯",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "靭帯は、二つの骨をつなぎます。",
+                  "answer": "靭帯",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tendon",
+              "locales": {
+                "PT": {
+                  "text": "tendão",
+                  "definition": "Cordão resistente de tecido que liga um músculo a um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "腱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けん",
+                  "usageNote": "Kango (腱, um único caractere, pronuncia-se けん). Aquiles: アキレス腱.",
+                  "collocations": [
+                    "アキレス腱",
+                    "腱鞘炎",
+                    "腱断裂"
+                  ],
+                  "romanization": "ken"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "腱は、筋肉を骨につなげています。",
+                  "answer": "腱",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "腱が炎症を起こすと、動かすときに痛みが出ます。",
+                  "answer": "腱",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "osteoporosis",
+              "locales": {
+                "PT": {
+                  "text": "osteoporose",
+                  "definition": "Doença em que os ossos perdem massa e ficam frágeis e fáceis de fraturar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "骨粗鬆症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こつそしょうしょう",
+                  "usageNote": "Kango (骨 = osso + 粗鬆 = poroso + 症 = doença). Exame: 骨密度検査.",
+                  "collocations": [
+                    "骨密度検査",
+                    "骨粗鬆症の予防",
+                    "カルシウム"
+                  ],
+                  "romanization": "kotsusoshoushou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "五十歳を過ぎた女性は、骨粗鬆症のリスクが高くなります。",
+                  "answer": "骨粗鬆症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "検査で、背骨の骨粗鬆症が確認されました。",
+                  "answer": "骨粗鬆症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "arthritis",
+              "locales": {
+                "PT": {
+                  "text": "artrite",
+                  "definition": "Inflamação de uma ou mais articulações, com dor, inchaço e rigidez.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "関節炎",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんせつえん",
+                  "usageNote": "Kango (関節 = articulação + 炎 = inflamação). Reumatoide: 関節リウマチ.",
+                  "collocations": [
+                    "関節リウマチ",
+                    "変形性関節症",
+                    "関節痛"
+                  ],
+                  "romanization": "kansetsuen"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼女は何年も前から、手の関節炎に悩んでいます。",
+                  "answer": "関節炎",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "朝のこわばりは、関節炎の典型的な症状です。",
+                  "answer": "関節炎",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dislocation",
+              "locales": {
+                "PT": {
+                  "text": "luxação",
+                  "definition": "Deslocamento de um osso para fora da posição normal em uma articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "脱臼",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "だっきゅう",
+                  "usageNote": "Kango (脱 = sair + 臼 = encaixe). Verbo: 脱臼する. Ombro: 肩関節脱臼.",
+                  "collocations": [
+                    "肩関節脱臼",
+                    "脱臼する",
+                    "整復"
+                  ],
+                  "romanization": "dakkyuu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "肩の脱臼は、救急外来で整復されました。",
+                  "answer": "脱臼",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "神経の損傷を防ぐため、脱臼はすぐに治療しなければなりません。",
+                  "answer": "脱臼",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dermatologia-e-alergia",
+      "title": "Dermatologia e alergia",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "pele-e-reacoes",
+          "title": "Pele e reações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "rash",
+              "locales": {
+                "PT": {
+                  "text": "erupção cutânea",
+                  "definition": "Alteração da pele com manchas vermelhas, bolhas ou coceira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "発疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほっしん",
+                  "usageNote": "Kango (発 = surgir + 疹 = erupção). Também 湿疹 e じんましん (urticária).",
+                  "collocations": [
+                    "発疹が出る",
+                    "じんましん",
+                    "かゆみ"
+                  ],
+                  "romanization": "hosshin"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼の胸に、赤い発疹が出ました。",
+                  "answer": "発疹",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "かくと、発疹が広がります。",
+                  "answer": "発疹",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "eczema",
+              "locales": {
+                "PT": {
+                  "text": "eczema",
+                  "definition": "Doença crônica da pele com ressecamento, coceira e inflamação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "湿疹",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しっしん",
+                  "usageNote": "Kango (湿 = úmido + 疹 = erupção). Atópico: アトピー性皮膚炎.",
+                  "collocations": [
+                    "アトピー性皮膚炎",
+                    "湿疹が出る",
+                    "保湿"
+                  ],
+                  "romanization": "shisshin"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "その子は、膝の裏に湿疹があります。",
+                  "answer": "湿疹",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "保湿剤は、湿疹を抑えるのに役立ちます。",
+                  "answer": "湿疹",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "allergy",
+              "locales": {
+                "PT": {
+                  "text": "alergia",
+                  "definition": "Reação exagerada do sistema imunológico a uma substância normalmente inofensiva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アレルギー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (アレルギー, do alemão \"Allergie\"). Também 花粉症 (alergia a pólen).",
+                  "collocations": [
+                    "食物アレルギー",
+                    "花粉症",
+                    "アレルギー検査"
+                  ],
+                  "romanization": "arerugii"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼女はペニシリンのアレルギーがあります。",
+                  "answer": "アレルギー",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "このアレルギーのせいで、春にくしゃみが出ます。",
+                  "answer": "アレルギー",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "anaphylaxis",
+              "locales": {
+                "PT": {
+                  "text": "anafilaxia",
+                  "definition": "Reação alérgica grave e súbita que pode ser fatal sem tratamento imediato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アナフィラキシー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (アナフィラキシー, do inglês \"anaphylaxis\"). Choque: アナフィラキシーショック.",
+                  "collocations": [
+                    "アナフィラキシーショック",
+                    "アドレナリン注射",
+                    "緊急対応"
+                  ],
+                  "romanization": "anafirakishii"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "アナフィラキシーには、すぐにアドレナリンを注射します。",
+                  "answer": "アナフィラキシー",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ハチに刺されて、患者はアナフィラキシーを起こしました。",
+                  "answer": "アナフィラキシー",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "melanoma",
+              "locales": {
+                "PT": {
+                  "text": "melanoma",
+                  "definition": "Câncer de pele grave que se origina nas células produtoras de pigmento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "悪性黒色腫",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あくせいこくしょくしゅ",
+                  "usageNote": "Kango (悪性 = maligno + 黒色腫 = tumor negro). Também メラノーマ (gairaigo).",
+                  "collocations": [
+                    "メラノーマ",
+                    "皮膚がん",
+                    "ほくろ"
+                  ],
+                  "romanization": "akuseikokushokushu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "生検で、彼女の背中の悪性黒色腫が確認されました。",
+                  "answer": "悪性黒色腫",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "早期の悪性黒色腫は、たいてい手術で治せます。",
+                  "answer": "悪性黒色腫",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inflammation",
+              "locales": {
+                "PT": {
+                  "text": "inflamação",
+                  "definition": "Resposta do corpo a lesão ou infecção, com vermelhidão, calor, inchaço e dor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "炎症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "えんしょう",
+                  "usageNote": "Kango (炎 = chama + 症 = doença). Sinal no exame: 炎症反応 (CRP).",
+                  "collocations": [
+                    "炎症反応",
+                    "慢性炎症",
+                    "消炎薬"
+                  ],
+                  "romanization": "enshou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "血液検査で、炎症の兆候が見られました。",
+                  "answer": "炎症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "消炎薬は、炎症と痛みをやわらげます。",
+                  "answer": "炎症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "infeccao-e-imunidade",
+      "title": "Infecção e imunidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "agentes-e-defesas",
+          "title": "Agentes e defesas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "antibiotic",
+              "locales": {
+                "PT": {
+                  "text": "antibiótico",
+                  "definition": "Medicamento que mata bactérias ou impede seu crescimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抗生物質",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうせいぶっしつ",
+                  "usageNote": "Kango (抗 = contra + 生物質 = substância biológica). Também 抗菌薬 (antibacteriano).",
+                  "collocations": [
+                    "抗菌薬",
+                    "耐性菌",
+                    "抗生物質を飲む"
+                  ],
+                  "romanization": "kouseibusshitsu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "医師は、感染症に対して抗生物質を処方しました。",
+                  "answer": "抗生物質",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "この抗生物質は、七日間飲み続けなければなりません。",
+                  "answer": "抗生物質",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "vaccine",
+              "locales": {
+                "PT": {
+                  "text": "vacina",
+                  "definition": "Preparado que estimula o corpo a criar defesa contra uma doença específica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ワクチン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ワクチン, do alemão \"Vakzin\"). Ato: 予防接種.",
+                  "collocations": [
+                    "予防接種",
+                    "ワクチンを打つ",
+                    "接種"
+                  ],
+                  "romanization": "wakuchin"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このワクチンは、はしかを防ぎます。",
+                  "answer": "ワクチン",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "子どもは、生後十二か月でワクチンを接種します。",
+                  "answer": "ワクチン",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fever",
+              "locales": {
+                "PT": {
+                  "text": "febre",
+                  "definition": "Elevação da temperatura do corpo acima do normal, em geral sinal de infecção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "熱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ねつ",
+                  "usageNote": "Hiragana/kango (熱, um caractere, pronuncia-se ねつ). Ter febre: 熱がある; 高熱 (febre alta).",
+                  "collocations": [
+                    "高熱",
+                    "熱がある",
+                    "解熱剤"
+                  ],
+                  "romanization": "netsu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "その子は月曜日から熱があります。",
+                  "answer": "熱",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "三十九度を超える熱が出たら、受診が必要です。",
+                  "answer": "熱",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "sepsis",
+              "locales": {
+                "PT": {
+                  "text": "sepse",
+                  "definition": "Reação extrema do corpo a uma infecção, que pode levar à falência de órgãos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "敗血症",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいけつしょう",
+                  "usageNote": "Kango (敗 = falhar + 血 = sangue + 症). Choque: 敗血症性ショック.",
+                  "collocations": [
+                    "敗血症性ショック",
+                    "集中治療",
+                    "臓器不全"
+                  ],
+                  "romanization": "haiketsushou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "治療しないと、敗血症は数時間で臓器不全を起こすことがあります。",
+                  "answer": "敗血症",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "患者は敗血症で、集中治療室に入院しました。",
+                  "answer": "敗血症",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "virus",
+              "locales": {
+                "PT": {
+                  "text": "vírus",
+                  "definition": "Agente infeccioso muito pequeno que só se multiplica dentro de células vivas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ウイルス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ウイルス, do inglês \"virus\"). Doença viral: ウイルス感染症.",
+                  "collocations": [
+                    "ウイルス感染症",
+                    "インフルエンザウイルス",
+                    "感染"
+                  ],
+                  "romanization": "uirusu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ウイルスが、普通の風邪を起こします。",
+                  "answer": "ウイルス",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "このウイルスは、空気を通じて広がります。",
+                  "answer": "ウイルス",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "antibody",
+              "locales": {
+                "PT": {
+                  "text": "anticorpo",
+                  "definition": "Proteína produzida pelo sistema imunológico que reconhece e neutraliza um agente estranho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "抗体",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうたい",
+                  "usageNote": "Kango (抗 = contra + 体 = corpo). Exame: 抗体検査; produzir: 抗体をつくる.",
+                  "collocations": [
+                    "抗体検査",
+                    "抗体をつくる",
+                    "抗原"
+                  ],
+                  "romanization": "koutai"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この検査は、ウイルスに対する抗体を検出します。",
+                  "answer": "抗体",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ワクチン接種のあと、体は抗体をつくります。",
+                  "answer": "抗体",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tratamento-e-cuidado",
+      "title": "Tratamento e cuidado",
+      "position": 14,
+      "lessons": [
+        {
+          "slug": "terapias-e-receitas",
+          "title": "Terapias e receitas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "prescription",
+              "locales": {
+                "PT": {
+                  "text": "receita médica",
+                  "definition": "Ordem escrita do médico para que o paciente receba um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "処方箋",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しょほうせん",
+                  "usageNote": "Kango (処方 = prescrever + 箋 = papel). Farmácia: 薬局.",
+                  "collocations": [
+                    "処方箋薬局",
+                    "処方する",
+                    "薬局"
+                  ],
+                  "romanization": "shohousen"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "この薬を買うには、処方箋が必要です。",
+                  "answer": "処方箋",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "薬剤師が処方箋どおりに薬を出しました。",
+                  "answer": "処方箋",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dosage",
+              "locales": {
+                "PT": {
+                  "text": "dosagem",
+                  "definition": "Quantidade de medicamento e frequência com que deve ser tomada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "用量",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ようりょう",
+                  "usageNote": "Kango (用 = uso + 量 = quantidade). Também 投与量 (quantidade administrada).",
+                  "collocations": [
+                    "用量を守る",
+                    "投与量",
+                    "過量投与"
+                  ],
+                  "romanization": "youryou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "用量は、患者の体重によって決まります。",
+                  "answer": "用量",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "決められた用量を超えないでください。",
+                  "answer": "用量",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "side-effect",
+              "locales": {
+                "PT": {
+                  "text": "efeito colateral",
+                  "definition": "Efeito indesejado e secundário de um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "副作用",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふくさよう",
+                  "usageNote": "Kango (副 = secundário + 作用 = ação). A bula: 添付文書.",
+                  "collocations": [
+                    "副作用が出る",
+                    "添付文書",
+                    "重い副作用"
+                  ],
+                  "romanization": "fukusayou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "吐き気は、この薬の一般的な副作用です。",
+                  "answer": "副作用",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "副作用が出たら、医師に知らせてください。",
+                  "answer": "副作用",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "chemotherapy",
+              "locales": {
+                "PT": {
+                  "text": "quimioterapia",
+                  "definition": "Tratamento do câncer com medicamentos que destroem as células tumorais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "化学療法",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かがくりょうほう",
+                  "usageNote": "Kango (化学 = química + 療法 = terapia). Abreviado 化療 e 抗がん剤治療.",
+                  "collocations": [
+                    "抗がん剤治療",
+                    "放射線治療",
+                    "化学療法を行う"
+                  ],
+                  "romanization": "kagakuryouhou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼女は手術のあと、化学療法を始めました。",
+                  "answer": "化学療法",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "化学療法の間は、脱毛がよく起こります。",
+                  "answer": "化学療法",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "physiotherapy",
+              "locales": {
+                "PT": {
+                  "text": "fisioterapia",
+                  "definition": "Tratamento que usa exercícios, massagem e técnicas físicas para restaurar o movimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "理学療法",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "りがくりょうほう",
+                  "usageNote": "Kango (理学 = física + 療法 = terapia). Profissional: 理学療法士 (PT).",
+                  "collocations": [
+                    "理学療法士",
+                    "リハビリ",
+                    "理学療法を受ける"
+                  ],
+                  "romanization": "rigakuryouhou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "彼は週に二回、理学療法が必要です。",
+                  "answer": "理学療法",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "継続的な理学療法で、けがのあとの動きが戻ります。",
+                  "answer": "理学療法",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "rehabilitation",
+              "locales": {
+                "PT": {
+                  "text": "reabilitação",
+                  "definition": "Processo de recuperar funções e autonomia depois de doença, lesão ou cirurgia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "リハビリテーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (リハビリテーション, do inglês \"rehabilitation\"); abreviado リハビリ.",
+                  "collocations": [
+                    "リハビリ",
+                    "機能回復",
+                    "訓練"
+                  ],
+                  "romanization": "rihabiriteeshon"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "脳卒中のあとの本格的なリハビリテーションには、数か月かかることがあります。",
+                  "answer": "リハビリテーション",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "リハビリテーションのプログラムには、歩行訓練が含まれます。",
+                  "answer": "リハビリテーション",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

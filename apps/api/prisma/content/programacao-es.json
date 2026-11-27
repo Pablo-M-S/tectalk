@@ -2893,6 +2893,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "orientacao-a-objetos",
+      "title": "Orientação a objetos",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "classes-e-tipos",
+          "title": "Classes e tipos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "class",
+              "locales": {
+                "PT": {
+                  "text": "classe",
+                  "definition": "Modelo que define os dados e os comportamentos dos objetos criados a partir dele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "clase",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la clase (plural: las clases). Termo central da programação orientada a objetos.",
+                  "collocations": [
+                    "definir una clase",
+                    "clase abstracta",
+                    "método de clase"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La clase contiene tres métodos.",
+                  "answer": "clase",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Cada clase debería tener una sola responsabilidad.",
+                  "answer": "clase",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interface",
+              "locales": {
+                "PT": {
+                  "text": "interface",
+                  "definition": "Contrato que lista os métodos que uma classe deve oferecer, sem dizer como funcionam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "interfaz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la interfaz (plural: las interfaces). Também \"interfaz de usuario\" (UI).",
+                  "collocations": [
+                    "implementar una interfaz",
+                    "interfaz pública",
+                    "interfaz de usuario"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La clase implementa la interfaz de pago.",
+                  "answer": "interfaz",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una interfaz limpia oculta los detalles internos.",
+                  "answer": "interfaz",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inheritance",
+              "locales": {
+                "PT": {
+                  "text": "herança",
+                  "definition": "Mecanismo pelo qual uma classe filha reaproveita os atributos e métodos de uma classe pai.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "herencia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la herencia (plural: las herencias). Também é a herança de bens, em direito.",
+                  "collocations": [
+                    "herencia múltiple",
+                    "jerarquía de herencia",
+                    "clase hija"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Usa herencia solo cuando el hijo realmente es un tipo del padre.",
+                  "answer": "herencia",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La herencia profunda dificulta entender el código.",
+                  "answer": "herencia",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "polymorphism",
+              "locales": {
+                "PT": {
+                  "text": "polimorfismo",
+                  "definition": "Capacidade de objetos de tipos diferentes responderem à mesma chamada, cada um à sua maneira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "polimorfismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el polimorfismo (sem plural usual). Em tempo de execução: \"polimorfismo en tiempo de ejecución\".",
+                  "collocations": [
+                    "polimorfismo en tiempo de ejecución",
+                    "método sobrescrito",
+                    "objeto"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Gracias al polimorfismo, objetos distintos responden a la misma llamada.",
+                  "answer": "polimorfismo",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Usamos polimorfismo para evitar una larga cadena de if-else.",
+                  "answer": "polimorfismo",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "compiler",
+              "locales": {
+                "PT": {
+                  "text": "compilador",
+                  "definition": "Programa que traduz o código-fonte em código executável pela máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "compilador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el compilador (plural: los compiladores). Verbo: compilar.",
+                  "collocations": [
+                    "error del compilador",
+                    "compilar el código",
+                    "intérprete"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El compilador informa de un error en la línea doce.",
+                  "answer": "compilador",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un compilador más rápido reduce el tiempo de construcción.",
+                  "answer": "compilador",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "syntax-error",
+              "locales": {
+                "PT": {
+                  "text": "erro de sintaxe",
+                  "definition": "Erro em que o código viola as regras da linguagem e não pode ser lido ou compilado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "error de sintaxis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el error de sintaxis (plural: los errores de sintaxis). Mensagem típica: \"unexpected token\".",
+                  "collocations": [
+                    "error de sintaxis",
+                    "corregir un error",
+                    "mensaje de error"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un paréntesis que faltaba causó un error de sintaxis.",
+                  "answer": "error de sintaxis",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Corrige el error de sintaxis antes de ejecutar las pruebas.",
+                  "answer": "error de sintaxis",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "banco-de-dados",
+      "title": "Banco de dados",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "modelagem-e-consistencia",
+          "title": "Modelagem e consistência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "primary-key",
+              "locales": {
+                "PT": {
+                  "text": "chave primária",
+                  "definition": "Coluna ou conjunto de colunas que identifica cada linha de uma tabela de forma única.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "clave primaria",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la clave primaria (plural: las claves primarias). Abreviado PK.",
+                  "collocations": [
+                    "clave primaria compuesta",
+                    "restricción",
+                    "identificador único"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Cada fila tiene una clave primaria única.",
+                  "answer": "clave primaria",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La clave primaria no puede ser nula.",
+                  "answer": "clave primaria",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "foreign-key",
+              "locales": {
+                "PT": {
+                  "text": "chave estrangeira",
+                  "definition": "Coluna que aponta para a chave primária de outra tabela e garante a integridade da relação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "clave foránea",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la clave foránea (plural: las claves foráneas). Também \"clave externa\" ou \"clave ajena\".",
+                  "collocations": [
+                    "clave foránea",
+                    "clave ajena",
+                    "integridad referencial"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La clave foránea enlaza los pedidos con los clientes.",
+                  "answer": "clave foránea",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una clave foránea evita registros huérfanos.",
+                  "answer": "clave foránea",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "join",
+              "locales": {
+                "PT": {
+                  "text": "join",
+                  "definition": "Operação que combina linhas de duas ou mais tabelas com base em uma coluna em comum.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "join",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el join (plural: los joins). Também \"unión\" ou \"combinación\" de tablas.",
+                  "collocations": [
+                    "inner join",
+                    "condición de join",
+                    "combinación de tablas"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La consulta usa un join para combinar dos tablas.",
+                  "answer": "join",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un left join conserva todas las filas de la primera tabla.",
+                  "answer": "join",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "normalization",
+              "locales": {
+                "PT": {
+                  "text": "normalização",
+                  "definition": "Organização das tabelas de um banco para reduzir repetição de dados e evitar inconsistências.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "normalización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la normalización (sem plural usual). Formas normales: 1FN, 2FN, 3FN.",
+                  "collocations": [
+                    "tercera forma normal",
+                    "desnormalización",
+                    "eliminar redundancia"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Una normalización adecuada elimina datos duplicados de las tablas.",
+                  "answer": "normalización",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Detuvimos la normalización en la tercera forma normal.",
+                  "answer": "normalización",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "data-replication",
+              "locales": {
+                "PT": {
+                  "text": "replicação",
+                  "definition": "Cópia contínua dos dados de um servidor de banco de dados para outros servidores.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "replicación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la replicación (plural: las replicaciones). Cópia: \"réplica de lectura\".",
+                  "collocations": [
+                    "réplica de lectura",
+                    "retraso de replicación",
+                    "replicación de datos"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La replicación de la base de datos mantiene una copia en otro servidor.",
+                  "answer": "replicación",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Vigilamos de cerca el retraso de la replicación.",
+                  "answer": "replicación",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "deadlock",
+              "locales": {
+                "PT": {
+                  "text": "impasse",
+                  "definition": "Situação em que duas ou mais transações esperam uma pela outra e nenhuma consegue continuar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "interbloqueo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el interbloqueo (plural: los interbloqueos); também \"deadlock\" em jargão.",
+                  "collocations": [
+                    "detectar un interbloqueo",
+                    "evitar interbloqueos",
+                    "transacción"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Dos transacciones provocaron un interbloqueo.",
+                  "answer": "interbloqueo",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La base de datos detecta un interbloqueo y cancela una de ellas.",
+                  "answer": "interbloqueo",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "concorrencia-e-desempenho",
+      "title": "Concorrência e desempenho",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "threads-e-memoria",
+          "title": "Threads e memória",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "thread",
+              "locales": {
+                "PT": {
+                  "text": "thread",
+                  "definition": "Sequência de instruções que um programa executa de forma independente, dentro do mesmo processo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "hilo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el hilo (plural: los hilos). Também \"thread\" em jargão; \"multihilo\" (multithreading).",
+                  "collocations": [
+                    "hilo principal",
+                    "grupo de hilos",
+                    "multihilo"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El servidor atiende cada petición en un hilo separado.",
+                  "answer": "hilo",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Un hilo bloqueado puede ralentizar el sistema.",
+                  "answer": "hilo",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "race-condition",
+              "locales": {
+                "PT": {
+                  "text": "condição de corrida",
+                  "definition": "Erro em que o resultado depende da ordem imprevisível em que threads acessam um mesmo recurso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "condición de carrera",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la condición de carrera (plural: las condiciones de carrera). Solução: \"bloqueo\" ou \"mutex\".",
+                  "collocations": [
+                    "condición de carrera",
+                    "carrera de datos",
+                    "bloqueo"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Una condición de carrera corrompió el contador compartido.",
+                  "answer": "condición de carrera",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Corregimos la condición de carrera con un bloqueo.",
+                  "answer": "condición de carrera",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "asynchronous",
+              "locales": {
+                "PT": {
+                  "text": "assíncrono",
+                  "definition": "Que não espera a conclusão de uma operação para continuar executando outras tarefas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "asíncrono",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Adjetivo: asíncrono/a. Oposto: \"síncrono\". Termos: \"async/await\".",
+                  "collocations": [
+                    "llamada asíncrona",
+                    "programación asíncrona",
+                    "síncrono"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El método asíncrono no bloquea el hilo principal.",
+                  "answer": "asíncrono",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Escribir código asíncrono requiere un manejo cuidadoso de errores.",
+                  "answer": "asíncrono",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "callback",
+              "locales": {
+                "PT": {
+                  "text": "callback",
+                  "definition": "Função passada como argumento para ser executada mais tarde, quando um evento ou tarefa terminar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "callback",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el callback (plural: los callbacks). Também \"función de retorno de llamada\".",
+                  "collocations": [
+                    "función de callback",
+                    "infierno de callbacks",
+                    "registrar un callback"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Pasa un callback que se ejecute cuando termine la descarga.",
+                  "answer": "callback",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El callback recibe el resultado como argumento.",
+                  "answer": "callback",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "memory-leak",
+              "locales": {
+                "PT": {
+                  "text": "vazamento de memória",
+                  "definition": "Falha em que o programa reserva memória e não a libera, consumindo cada vez mais recursos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "fuga de memoria",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la fuga de memoria (plural: las fugas de memoria). Também \"pérdida de memoria\".",
+                  "collocations": [
+                    "fuga de memoria",
+                    "recolector de basura",
+                    "detectar una fuga"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Una fuga de memoria bloqueó el servidor tras dos días.",
+                  "answer": "fuga de memoria",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Encontramos la fuga de memoria con un profiler.",
+                  "answer": "fuga de memoria",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "profiling",
+              "locales": {
+                "PT": {
+                  "text": "análise de desempenho",
+                  "definition": "Medição do tempo e da memória gastos por cada parte do programa para achar gargalos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "perfilado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el perfilado (plural: los perfilados); também \"profiling\" no jargão.",
+                  "collocations": [
+                    "perfilado de CPU",
+                    "herramienta de perfilado",
+                    "cuello de botella"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un perfilado cuidadoso mostró que la ordenación tardaba más.",
+                  "answer": "perfilado",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Usamos el perfilado para encontrar funciones lentas.",
+                  "answer": "perfilado",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "operacoes",
+      "title": "Operações e confiabilidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "entrega-e-observabilidade",
+          "title": "Entrega e observabilidade",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "continuous-integration",
+              "locales": {
+                "PT": {
+                  "text": "integração contínua",
+                  "definition": "Prática de integrar o código ao repositório várias vezes ao dia, com testes automáticos a cada mudança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "integración continua",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la integración continua (sem plural usual). Abreviado CI; com \"entrega continua\": CI/CD.",
+                  "collocations": [
+                    "integración continua",
+                    "entrega continua",
+                    "CI/CD"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Nuestra integración continua ejecuta las pruebas en cada commit.",
+                  "answer": "integración continua",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una buena integración continua detecta errores pronto.",
+                  "answer": "integración continua",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "monitoring",
+              "locales": {
+                "PT": {
+                  "text": "monitoramento",
+                  "definition": "Acompanhamento contínuo da saúde e do desempenho de um sistema em produção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "monitorización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la monitorización (sem plural usual); na América também \"monitoreo\".",
+                  "collocations": [
+                    "monitorización continua",
+                    "panel de monitorización",
+                    "monitoreo"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Una buena monitorización nos avisa cuando sube la tasa de errores.",
+                  "answer": "monitorización",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Añadimos monitorización a cada servicio.",
+                  "answer": "monitorización",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "logging",
+              "locales": {
+                "PT": {
+                  "text": "registro de logs",
+                  "definition": "Gravação de mensagens sobre o que o programa faz, para ajudar a entender falhas depois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "logging",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el logging (sem plural usual). Também \"registro de eventos\" ou \"registro\".",
+                  "collocations": [
+                    "nivel de logging",
+                    "registro de eventos",
+                    "logs estructurados"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El logging detallado nos ayudó a encontrar el error.",
+                  "answer": "logging",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Redujimos el logging para ahorrar espacio en disco.",
+                  "answer": "logging",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "alert",
+              "locales": {
+                "PT": {
+                  "text": "alerta",
+                  "definition": "Notificação automática enviada quando uma métrica passa de um limite ou algo falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "alerta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la alerta (plural: las alertas). Verbo: \"alertar\".",
+                  "collocations": [
+                    "regla de alerta",
+                    "fatiga de alertas",
+                    "umbral"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Saltó una alerta cuando el disco estaba casi lleno.",
+                  "answer": "alerta",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Configura una alerta para tiempos de respuesta superiores a dos segundos.",
+                  "answer": "alerta",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "incident",
+              "locales": {
+                "PT": {
+                  "text": "incidente",
+                  "definition": "Evento inesperado que interrompe ou degrada um serviço e exige resposta da equipe.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "incidente",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el incidente (plural: los incidentes). Resposta: \"respuesta a incidentes\".",
+                  "collocations": [
+                    "respuesta a incidentes",
+                    "incidente grave",
+                    "informe de incidente"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El incidente duró cuarenta minutos.",
+                  "answer": "incidente",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Después de cada incidente escribimos un breve informe.",
+                  "answer": "incidente",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "feature-flag",
+              "locales": {
+                "PT": {
+                  "text": "flag de funcionalidade",
+                  "definition": "Chave que liga ou desliga uma funcionalidade sem precisar publicar uma nova versão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "feature flag",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el feature flag (plural: los feature flags). Também \"interruptor de funcionalidad\".",
+                  "collocations": [
+                    "activar un feature flag",
+                    "interruptor de funcionalidad",
+                    "lanzamiento gradual"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un feature flag nos permite lanzar el cambio al diez por ciento de los usuarios.",
+                  "answer": "feature flag",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Eliminamos el feature flag tras el despliegue.",
+                  "answer": "feature flag",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2672,6 +2672,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "ortopedia",
+      "title": "Ortopedia e reumatologia",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "ossos-e-articulacoes",
+          "title": "Ossos e articulações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "fracture",
+              "locales": {
+                "PT": {
+                  "text": "fratura",
+                  "definition": "Rompimento total ou parcial de um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "fractura",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la fractura (plural: las fracturas). Tipos: \"fractura abierta\", \"fractura por estrés\".",
+                  "collocations": [
+                    "fractura de cadera",
+                    "fractura abierta",
+                    "consolidación"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La radiografía mostró una fractura de la muñeca izquierda.",
+                  "answer": "fractura",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una fractura de este tipo necesita yeso durante seis semanas.",
+                  "answer": "fractura",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ligament",
+              "locales": {
+                "PT": {
+                  "text": "ligamento",
+                  "definition": "Faixa resistente de tecido que liga um osso a outro numa articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "ligamento",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el ligamento (plural: los ligamentos). Joelho: \"ligamento cruzado\".",
+                  "collocations": [
+                    "ligamento cruzado",
+                    "rotura de ligamento",
+                    "esguince"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Se rompió un ligamento de la rodilla jugando al fútbol.",
+                  "answer": "ligamento",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El ligamento une los dos huesos.",
+                  "answer": "ligamento",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tendon",
+              "locales": {
+                "PT": {
+                  "text": "tendão",
+                  "definition": "Cordão resistente de tecido que liga um músculo a um osso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "tendón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el tendón (plural: los tendones). O maior: \"tendón de Aquiles\".",
+                  "collocations": [
+                    "tendón de Aquiles",
+                    "rotura del tendón",
+                    "tendinitis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El tendón une el músculo al hueso.",
+                  "answer": "tendón",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La inflamación del tendón causa dolor al moverse.",
+                  "answer": "tendón",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "osteoporosis",
+              "locales": {
+                "PT": {
+                  "text": "osteoporose",
+                  "definition": "Doença em que os ossos perdem massa e ficam frágeis e fáceis de fraturar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "osteoporosis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la osteoporosis (invariável). Exame: \"densitometría ósea\".",
+                  "collocations": [
+                    "densitometría ósea",
+                    "osteoporosis posmenopáusica",
+                    "calcio"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las mujeres mayores de cincuenta años tienen más riesgo de osteoporosis.",
+                  "answer": "osteoporosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La densitometría confirmó osteoporosis en la columna.",
+                  "answer": "osteoporosis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "arthritis",
+              "locales": {
+                "PT": {
+                  "text": "artrite",
+                  "definition": "Inflamação de uma ou mais articulações, com dor, inchaço e rigidez.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "artritis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la artritis (invariável). Tipos: \"artritis reumatoide\", \"artrosis\" (desgaste).",
+                  "collocations": [
+                    "artritis reumatoide",
+                    "artrosis",
+                    "dolor articular"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Ella tiene artritis en las manos desde hace años.",
+                  "answer": "artritis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La rigidez matutina es típica de la artritis.",
+                  "answer": "artritis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dislocation",
+              "locales": {
+                "PT": {
+                  "text": "luxação",
+                  "definition": "Deslocamento de um osso para fora da posição normal em uma articulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "luxación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la luxación (plural: las luxaciones). Reduzir: \"reducir la luxación\".",
+                  "collocations": [
+                    "luxación de hombro",
+                    "reducir una luxación",
+                    "inmovilización"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La luxación de hombro se redujo en urgencias.",
+                  "answer": "luxación",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una luxación debe tratarse rápido para evitar daño nervioso.",
+                  "answer": "luxación",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dermatologia-e-alergia",
+      "title": "Dermatologia e alergia",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "pele-e-reacoes",
+          "title": "Pele e reações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "rash",
+              "locales": {
+                "PT": {
+                  "text": "erupção cutânea",
+                  "definition": "Alteração da pele com manchas vermelhas, bolhas ou coceira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "erupción cutánea",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la erupción cutánea (plural: las erupciones cutáneas). Também \"sarpullido\" (coloquial).",
+                  "collocations": [
+                    "erupción cutánea",
+                    "sarpullido",
+                    "picor"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Le apareció una erupción cutánea roja en el pecho.",
+                  "answer": "erupción cutánea",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La erupción cutánea se extiende cuando se rasca.",
+                  "answer": "erupción cutánea",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "eczema",
+              "locales": {
+                "PT": {
+                  "text": "eczema",
+                  "definition": "Doença crônica da pele com ressecamento, coceira e inflamação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "eccema",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el eccema (plural: los eccemas); também escrito \"eczema\". Tipo comum: \"dermatitis atópica\".",
+                  "collocations": [
+                    "dermatitis atópica",
+                    "brote de eccema",
+                    "crema hidratante"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El niño tiene eccema detrás de las rodillas.",
+                  "answer": "eccema",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La crema hidratante ayuda a controlar el eccema.",
+                  "answer": "eccema",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "allergy",
+              "locales": {
+                "PT": {
+                  "text": "alergia",
+                  "definition": "Reação exagerada do sistema imunológico a uma substância normalmente inofensiva.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "alergia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la alergia (plural: las alergias). Tipos: \"alergia alimentaria\", \"alergia al polen\".",
+                  "collocations": [
+                    "alergia alimentaria",
+                    "prueba de alergia",
+                    "alergólogo"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Tiene alergia a la penicilina.",
+                  "answer": "alergia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La alergia provoca estornudos en primavera.",
+                  "answer": "alergia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "anaphylaxis",
+              "locales": {
+                "PT": {
+                  "text": "anafilaxia",
+                  "definition": "Reação alérgica grave e súbita que pode ser fatal sem tratamento imediato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "anafilaxia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la anafilaxia (plural: las anafilaxias). Tratamento: \"adrenalina\" intramuscular.",
+                  "collocations": [
+                    "shock anafiláctico",
+                    "inyección de adrenalina",
+                    "reacción grave"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Trate la anafilaxia con una inyección de adrenalina de inmediato.",
+                  "answer": "anafilaxia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una picadura de abeja desencadenó anafilaxia en el paciente.",
+                  "answer": "anafilaxia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "melanoma",
+              "locales": {
+                "PT": {
+                  "text": "melanoma",
+                  "definition": "Câncer de pele grave que se origina nas células produtoras de pigmento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "melanoma",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el melanoma (plural: los melanomas). \"Melanoma maligno\" é a forma completa.",
+                  "collocations": [
+                    "melanoma maligno",
+                    "cribado de melanoma",
+                    "lunar sospechoso"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La biopsia confirmó un melanoma en su espalda.",
+                  "answer": "melanoma",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El melanoma precoz suele curarse con cirugía.",
+                  "answer": "melanoma",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inflammation",
+              "locales": {
+                "PT": {
+                  "text": "inflamação",
+                  "definition": "Resposta do corpo a lesão ou infecção, com vermelhidão, calor, inchaço e dor.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "inflamación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la inflamación (plural: las inflamaciones). Medicamento: \"antiinflamatorio\".",
+                  "collocations": [
+                    "inflamación crónica",
+                    "antiinflamatorio",
+                    "signos de inflamación"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El análisis de sangre mostró signos de inflamación.",
+                  "answer": "inflamación",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El hielo reduce la inflamación y el dolor.",
+                  "answer": "inflamación",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "infeccao-e-imunidade",
+      "title": "Infecção e imunidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "agentes-e-defesas",
+          "title": "Agentes e defesas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "antibiotic",
+              "locales": {
+                "PT": {
+                  "text": "antibiótico",
+                  "definition": "Medicamento que mata bactérias ou impede seu crescimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "antibiótico",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el antibiótico (plural: los antibióticos). Resistência: \"resistencia a los antibióticos\".",
+                  "collocations": [
+                    "resistencia a los antibióticos",
+                    "pauta de antibióticos",
+                    "antibiótico oral"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El médico recetó un antibiótico para la infección.",
+                  "answer": "antibiótico",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Este antibiótico debe tomarse durante siete días.",
+                  "answer": "antibiótico",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "vaccine",
+              "locales": {
+                "PT": {
+                  "text": "vacina",
+                  "definition": "Preparado que estimula o corpo a criar defesa contra uma doença específica.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "vacuna",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la vacuna (plural: las vacunas). Ato: \"vacunación\".",
+                  "collocations": [
+                    "calendario de vacunación",
+                    "vacuna contra la gripe",
+                    "vacunación"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La vacuna protege contra el sarampión.",
+                  "answer": "vacuna",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Los niños reciben la vacuna a los doce meses.",
+                  "answer": "vacuna",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fever",
+              "locales": {
+                "PT": {
+                  "text": "febre",
+                  "definition": "Elevação da temperatura do corpo acima do normal, em geral sinal de infecção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "fiebre",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la fiebre (plural: las fiebres). Também \"calentura\" (coloquial, América).",
+                  "collocations": [
+                    "fiebre alta",
+                    "bajar la fiebre",
+                    "febrícula"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "El niño tiene fiebre desde el lunes.",
+                  "answer": "fiebre",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Una fiebre por encima de 39 grados requiere atención médica.",
+                  "answer": "fiebre",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "sepsis",
+              "locales": {
+                "PT": {
+                  "text": "sepse",
+                  "definition": "Reação extrema do corpo a uma infecção, que pode levar à falência de órgãos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "sepsis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la sepsis (invariável). Choque: \"shock séptico\".",
+                  "collocations": [
+                    "shock séptico",
+                    "sepsis grave",
+                    "cuidados intensivos"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Sin tratamiento, la sepsis puede causar fallo orgánico en horas.",
+                  "answer": "sepsis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El paciente ingresó en cuidados intensivos con sepsis.",
+                  "answer": "sepsis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "virus",
+              "locales": {
+                "PT": {
+                  "text": "vírus",
+                  "definition": "Agente infeccioso muito pequeno que só se multiplica dentro de células vivas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "virus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el virus (invariável). Doença: \"infección viral\".",
+                  "collocations": [
+                    "infección viral",
+                    "virus de la gripe",
+                    "propagación"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Un virus causa el resfriado común.",
+                  "answer": "virus",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El virus se propaga por el aire.",
+                  "answer": "virus",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "antibody",
+              "locales": {
+                "PT": {
+                  "text": "anticorpo",
+                  "definition": "Proteína produzida pelo sistema imunológico que reconhece e neutraliza um agente estranho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "anticuerpo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el anticuerpo (plural: los anticuerpos). Prueba: \"prueba de anticuerpos\".",
+                  "collocations": [
+                    "prueba de anticuerpos",
+                    "producir anticuerpos",
+                    "antígeno"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La prueba detecta el anticuerpo contra el virus.",
+                  "answer": "anticuerpo",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El cuerpo produce un anticuerpo tras la vacunación.",
+                  "answer": "anticuerpo",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tratamento-e-cuidado",
+      "title": "Tratamento e cuidado",
+      "position": 14,
+      "lessons": [
+        {
+          "slug": "terapias-e-receitas",
+          "title": "Terapias e receitas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "prescription",
+              "locales": {
+                "PT": {
+                  "text": "receita médica",
+                  "definition": "Ordem escrita do médico para que o paciente receba um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "receta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la receta (plural: las recetas). Também \"prescripción\" (formal).",
+                  "collocations": [
+                    "receta médica",
+                    "sin receta",
+                    "renovar la receta"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Necesitas una receta para comprar este medicamento.",
+                  "answer": "receta",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El farmacéutico despachó la receta.",
+                  "answer": "receta",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dosage",
+              "locales": {
+                "PT": {
+                  "text": "dosagem",
+                  "definition": "Quantidade de medicamento e frequência com que deve ser tomada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "dosis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la dosis (plural: las dosis); em espanhol \"dosis\" cobre também dose única.",
+                  "collocations": [
+                    "dosis recomendada",
+                    "ajustar la dosis",
+                    "sobredosis"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La dosis depende del peso del paciente.",
+                  "answer": "dosis",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "No supere la dosis recomendada.",
+                  "answer": "dosis",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "side-effect",
+              "locales": {
+                "PT": {
+                  "text": "efeito colateral",
+                  "definition": "Efeito indesejado e secundário de um medicamento ou tratamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "efecto secundario",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: el efecto secundario (plural: los efectos secundarios). Também \"reacción adversa\".",
+                  "collocations": [
+                    "efecto secundario frecuente",
+                    "reacción adversa",
+                    "prospecto"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Las náuseas son un efecto secundario frecuente de este fármaco.",
+                  "answer": "efecto secundario",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "Informe a su médico de cualquier efecto secundario.",
+                  "answer": "efecto secundario",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "chemotherapy",
+              "locales": {
+                "PT": {
+                  "text": "quimioterapia",
+                  "definition": "Tratamento do câncer com medicamentos que destroem as células tumorais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "quimioterapia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la quimioterapia (plural: las quimioterapias); coloquial \"quimio\".",
+                  "collocations": [
+                    "ciclo de quimioterapia",
+                    "quimioterapia adyuvante",
+                    "radioterapia"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Empezó la quimioterapia después de la cirugía.",
+                  "answer": "quimioterapia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La caída del cabello es frecuente durante la quimioterapia.",
+                  "answer": "quimioterapia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "physiotherapy",
+              "locales": {
+                "PT": {
+                  "text": "fisioterapia",
+                  "definition": "Tratamento que usa exercícios, massagem e técnicas físicas para restaurar o movimento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "fisioterapia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la fisioterapia (sem plural usual). Profissional: fisioterapeuta.",
+                  "collocations": [
+                    "sesión de fisioterapia",
+                    "fisioterapeuta",
+                    "ejercicios de rehabilitación"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "Necesita fisioterapia dos veces por semana.",
+                  "answer": "fisioterapia",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "La fisioterapia regular devuelve el movimiento tras una lesión.",
+                  "answer": "fisioterapia",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "rehabilitation",
+              "locales": {
+                "PT": {
+                  "text": "reabilitação",
+                  "definition": "Processo de recuperar funções e autonomia depois de doença, lesão ou cirurgia.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ES": {
+                  "text": "rehabilitación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: la rehabilitación (plural: las rehabilitaciones). Também \"rehabilitación cardíaca\".",
+                  "collocations": [
+                    "rehabilitación cardíaca",
+                    "programa de rehabilitación",
+                    "recuperación"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ES",
+                  "sentence": "La rehabilitación completa tras un ictus puede durar meses.",
+                  "answer": "rehabilitación",
+                  "documentType": "CLINICAL_NOTE"
+                },
+                {
+                  "language": "ES",
+                  "sentence": "El programa de rehabilitación incluye ejercicios de marcha.",
+                  "answer": "rehabilitación",
+                  "documentType": "CLINICAL_NOTE"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2417,6 +2417,1614 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "envoltoria-e-estrutura",
+      "title": "Envoltória e estrutura",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "fachada-e-cobertura",
+          "title": "Fachada e cobertura",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "curtain-wall",
+              "locales": {
+                "PT": {
+                  "text": "fachada cortina",
+                  "definition": "Parede externa leve, geralmente de vidro e metal, que não suporta as cargas do edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "curtain wall",
+                  "definition": "A light outer wall, usually of glass and metal, that carries no load from the building.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O nome vem da ideia de uma \"cortina\" pendurada na estrutura. Fica fora da estrutura portante.",
+                  "collocations": [
+                    "glass curtain wall",
+                    "curtain wall system",
+                    "curtain wall panel",
+                    "unitised curtain wall"
+                  ]
+                },
+                "ES": {
+                  "text": "muro cortina",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorhangfassade",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "カーテンウォール",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kaatenwooru"
+                },
+                "ZH": {
+                  "text": "幕墙",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mùqiáng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The curtain wall carries no load from the floors.",
+                  "answer": "curtain wall",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A glass curtain wall lets in a lot of daylight.",
+                  "answer": "curtain wall",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "cladding",
+              "locales": {
+                "PT": {
+                  "text": "revestimento externo",
+                  "definition": "Camada de material aplicada à parte externa de uma parede para proteger e dar acabamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cladding",
+                  "definition": "A layer of material applied to the outside of a wall to protect it and give it a finish.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Incontável. O verbo é to clad. Deriva da mesma raiz de clothe (vestir).",
+                  "collocations": [
+                    "timber cladding",
+                    "metal cladding",
+                    "cladding panel",
+                    "replace the cladding"
+                  ]
+                },
+                "ES": {
+                  "text": "revestimiento de fachada",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fassadenverkleidung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "外装材",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がいそうざい",
+                  "romanization": "gaisouzai"
+                },
+                "ZH": {
+                  "text": "外墙饰面",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wàiqiáng shìmiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cladding is made of timber panels.",
+                  "answer": "cladding",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "New cladding improved the insulation of the building.",
+                  "answer": "cladding",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "parapet",
+              "locales": {
+                "PT": {
+                  "text": "platibanda",
+                  "definition": "Muro baixo que contorna a borda de um telhado, terraço ou ponte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "parapet",
+                  "definition": "A low wall along the edge of a roof, terrace or bridge.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pronuncia-se /ˈpærəpɪt/. Em pontes e sacadas, é também o guarda-corpo de alvenaria.",
+                  "collocations": [
+                    "roof parapet",
+                    "parapet wall",
+                    "parapet height",
+                    "parapet coping"
+                  ]
+                },
+                "ES": {
+                  "text": "antepecho",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Brüstung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "パラペット",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "parapetto"
+                },
+                "ZH": {
+                  "text": "女儿墙",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nǚ'érqiáng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The parapet hides the air conditioning units.",
+                  "answer": "parapet",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A low parapet runs around the roof terrace.",
+                  "answer": "parapet",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "lintel-beam",
+              "locales": {
+                "PT": {
+                  "text": "verga",
+                  "definition": "Viga horizontal que cobre uma abertura de porta ou janela e sustenta a parede acima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "lintel",
+                  "definition": "A horizontal beam that spans a door or window opening and supports the wall above.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pronuncia-se /ˈlɪntəl/. A peça sob o vão é sill (peitoril); acima, lintel.",
+                  "collocations": [
+                    "concrete lintel",
+                    "steel lintel",
+                    "lintel beam",
+                    "window lintel"
+                  ]
+                },
+                "ES": {
+                  "text": "dintel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sturz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "まぐさ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "magusa"
+                },
+                "ZH": {
+                  "text": "过梁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòliáng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A steel lintel spans the window opening.",
+                  "answer": "lintel",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The lintel above the door cracked.",
+                  "answer": "lintel",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "atrium-space",
+              "locales": {
+                "PT": {
+                  "text": "átrio",
+                  "definition": "Espaço central amplo e coberto, geralmente de vários pavimentos e iluminado por cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "atrium",
+                  "definition": "A large, covered central space, often several storeys high and lit from above.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plural: atria ou atriums. Em anatomia, atrium é o átrio do coração.",
+                  "collocations": [
+                    "glass atrium",
+                    "central atrium",
+                    "atrium roof",
+                    "atrium space"
+                  ]
+                },
+                "ES": {
+                  "text": "atrio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Atrium",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アトリウム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "atoriumu"
+                },
+                "ZH": {
+                  "text": "中庭",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhōngtíng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The atrium brings daylight into the centre of the building.",
+                  "answer": "atrium",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Offices overlook the atrium on every floor.",
+                  "answer": "atrium",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "skylight",
+              "locales": {
+                "PT": {
+                  "text": "claraboia",
+                  "definition": "Abertura envidraçada no telhado ou no forro que deixa entrar a luz natural.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "skylight",
+                  "definition": "A glazed opening in a roof or ceiling that admits natural light.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Roof light é o termo britânico equivalente. Vem de sky (céu) + light (luz).",
+                  "collocations": [
+                    "fixed skylight",
+                    "roof skylight",
+                    "skylight window",
+                    "install a skylight"
+                  ]
+                },
+                "ES": {
+                  "text": "lucernario",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Oberlicht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "天窓",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てんまど",
+                  "romanization": "tenmado"
+                },
+                "ZH": {
+                  "text": "天窗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tiānchuāng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The skylight lights the staircase.",
+                  "answer": "skylight",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Rain leaked through the skylight.",
+                  "answer": "skylight",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "espacos-interiores",
+      "title": "Espaços interiores",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "circulacao-e-ambientes",
+          "title": "Circulação e ambientes",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "lobby",
+              "locales": {
+                "PT": {
+                  "text": "saguão",
+                  "definition": "Espaço de entrada e espera de um edifício, onde fica a recepção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "lobby",
+                  "definition": "The entrance and waiting area of a building, where the reception is.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No inglês americano, elevator; no britânico, lift. Lobby também é o grupo de pressão política.",
+                  "collocations": [
+                    "hotel lobby",
+                    "main lobby",
+                    "lobby area",
+                    "lobby reception"
+                  ]
+                },
+                "ES": {
+                  "text": "vestíbulo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Eingangshalle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ロビー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "robii"
+                },
+                "ZH": {
+                  "text": "大堂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dàtáng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The lobby has a double-height ceiling.",
+                  "answer": "lobby",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Guests wait in the lobby until the lift arrives.",
+                  "answer": "lobby",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "mezzanine",
+              "locales": {
+                "PT": {
+                  "text": "mezanino",
+                  "definition": "Pavimento intermediário entre dois andares principais, geralmente aberto para o pé-direito duplo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "mezzanine",
+                  "definition": "An intermediate floor between two main storeys, often open to a double-height space below.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pronuncia-se /ˈmezəniːn/. Do italiano mezzano (do meio).",
+                  "collocations": [
+                    "mezzanine floor",
+                    "mezzanine level",
+                    "steel mezzanine",
+                    "add a mezzanine"
+                  ]
+                },
+                "ES": {
+                  "text": "entreplanta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Zwischengeschoss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "中二階",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ちゅうにかい",
+                  "romanization": "chuunikai"
+                },
+                "ZH": {
+                  "text": "夹层",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiācéng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The mezzanine overlooks the main hall.",
+                  "answer": "mezzanine",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We added a mezzanine to use the extra height.",
+                  "answer": "mezzanine",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "open-plan",
+              "locales": {
+                "PT": {
+                  "text": "planta livre",
+                  "definition": "Layout sem divisões internas fixas, em que os ambientes se integram em um só espaço.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "open plan",
+                  "definition": "A layout without fixed interior walls in which spaces flow into one large area.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vira adjetivo composto com hífen: an open-plan office. Antônimo: cellular office.",
+                  "collocations": [
+                    "open plan office",
+                    "open plan kitchen",
+                    "open plan living",
+                    "open plan layout"
+                  ]
+                },
+                "ES": {
+                  "text": "planta abierta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "offener Grundriss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "オープンプラン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "oopunpuran"
+                },
+                "ZH": {
+                  "text": "开放式布局",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kāifàngshì bùjú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The office has an open plan layout with no walls.",
+                  "answer": "open plan",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An open plan lets light travel across the floor.",
+                  "answer": "open plan",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "partition",
+              "locales": {
+                "PT": {
+                  "text": "divisória",
+                  "definition": "Parede leve e não portante que divide um ambiente em dois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "partition",
+                  "definition": "A light, non-load-bearing wall that divides a room in two.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Partition também é divisão de disco ou de um país; em obra, é o drywall ou o painel.",
+                  "collocations": [
+                    "glass partition",
+                    "movable partition",
+                    "partition wall",
+                    "fire-rated partition"
+                  ]
+                },
+                "ES": {
+                  "text": "tabique",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Trennwand",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "間仕切り",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "まじきり",
+                  "romanization": "majikiri"
+                },
+                "ZH": {
+                  "text": "隔墙",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "géqiáng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A glass partition separates the meeting room.",
+                  "answer": "partition",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The partition can be moved to enlarge the space.",
+                  "answer": "partition",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "ramp",
+              "locales": {
+                "PT": {
+                  "text": "rampa",
+                  "definition": "Superfície inclinada que liga dois níveis e permite acesso de cadeira de rodas e carrinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "ramp",
+                  "definition": "An inclined surface that joins two levels and allows access for wheelchairs and trolleys.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gradient ou slope é a inclinação; o limite costuma ser 1:12 (cerca de 8%).",
+                  "collocations": [
+                    "wheelchair ramp",
+                    "access ramp",
+                    "ramp gradient",
+                    "entrance ramp"
+                  ]
+                },
+                "ES": {
+                  "text": "rampa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Rampe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スロープ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "suroopu"
+                },
+                "ZH": {
+                  "text": "坡道",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "pōdào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A ramp gives wheelchair access to the entrance.",
+                  "answer": "ramp",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The slope of the ramp must not exceed eight percent.",
+                  "answer": "ramp",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "handrail",
+              "locales": {
+                "PT": {
+                  "text": "corrimão",
+                  "definition": "Barra horizontal ou inclinada que se segura com a mão ao longo de escadas e rampas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "handrail",
+                  "definition": "A bar, level or sloped, held by hand along stairs and ramps.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Balustrade é o conjunto de balaústres e guarda-corpo; handrail é só a barra de apoio.",
+                  "collocations": [
+                    "stair handrail",
+                    "fix the handrail",
+                    "continuous handrail",
+                    "handrail height"
+                  ]
+                },
+                "ES": {
+                  "text": "pasamanos",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Handlauf",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "手すり",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てすり",
+                  "romanization": "tesuri"
+                },
+                "ZH": {
+                  "text": "扶手",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fúshǒu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A handrail runs along both sides of the stairs.",
+                  "answer": "handrail",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The handrail must be fixed at a height of 90 centimetres.",
+                  "answer": "handrail",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "paisagem-e-cidade",
+      "title": "Paisagem e cidade",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "espaco-publico",
+          "title": "Espaço público",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "landscape-architecture",
+              "locales": {
+                "PT": {
+                  "text": "paisagismo",
+                  "definition": "Projeto de espaços abertos, como parques, jardins e ruas, em harmonia com o ambiente natural e construído.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "landscape architecture",
+                  "definition": "The design of open spaces such as parks, gardens and streets, in harmony with the natural and built environment.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O profissional é o landscape architect. Garden design é só o projeto de jardins.",
+                  "collocations": [
+                    "landscape architecture firm",
+                    "landscape architecture project",
+                    "study landscape architecture",
+                    "urban landscape architecture"
+                  ]
+                },
+                "ES": {
+                  "text": "paisajismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Landschaftsarchitektur",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "造園",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ぞうえん",
+                  "romanization": "zouen"
+                },
+                "ZH": {
+                  "text": "景观设计",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jǐngguān shèjì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "She studied landscape architecture before joining the firm.",
+                  "answer": "landscape architecture",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Good landscape architecture connects parks, gardens and streets.",
+                  "answer": "landscape architecture",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "courtyard",
+              "locales": {
+                "PT": {
+                  "text": "pátio interno",
+                  "definition": "Espaço aberto, cercado por paredes ou edifícios, no interior de um lote ou construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "courtyard",
+                  "definition": "An open space surrounded by walls or buildings inside a plot or structure.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Yard é qualquer quintal; courtyard é fechado ou semifechado. Typical em casas mediterrâneas e árabes.",
+                  "collocations": [
+                    "inner courtyard",
+                    "courtyard garden",
+                    "courtyard house",
+                    "paved courtyard"
+                  ]
+                },
+                "ES": {
+                  "text": "patio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Innenhof",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "中庭",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "なかにわ",
+                  "romanization": "nakaniwa"
+                },
+                "ZH": {
+                  "text": "庭院",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tíngyuàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The courtyard is shaded by two old trees.",
+                  "answer": "courtyard",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Rooms open onto the courtyard on all four sides.",
+                  "answer": "courtyard",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "pedestrian-zone",
+              "locales": {
+                "PT": {
+                  "text": "zona de pedestres",
+                  "definition": "Área urbana fechada ao tráfego de veículos e reservada a quem anda a pé.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "pedestrian zone",
+                  "definition": "An urban area closed to vehicles and reserved for people on foot.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em inglês britânico também se diz pedestrianised area. O pedestre é pedestrian.",
+                  "collocations": [
+                    "create a pedestrian zone",
+                    "pedestrian zone sign",
+                    "car-free pedestrian zone",
+                    "shopping pedestrian zone"
+                  ]
+                },
+                "ES": {
+                  "text": "zona peatonal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fußgängerzone",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "歩行者天国",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ほこうしゃてんごく",
+                  "romanization": "hokoushatengoku"
+                },
+                "ZH": {
+                  "text": "步行街",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bùxíngjiē"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The old town centre became a pedestrian zone.",
+                  "answer": "pedestrian zone",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Shops in the pedestrian zone benefit from more visitors.",
+                  "answer": "pedestrian zone",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "public-square",
+              "locales": {
+                "PT": {
+                  "text": "praça",
+                  "definition": "Espaço aberto urbano de uso coletivo, para encontros, eventos e circulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "public square",
+                  "definition": "An open urban space for collective use, for meetings, events and movement.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Square também é \"quadrado\". Plaza é o equivalente do espanhol, usado nos EUA.",
+                  "collocations": [
+                    "main public square",
+                    "public square design",
+                    "revitalise a public square",
+                    "city public square"
+                  ]
+                },
+                "ES": {
+                  "text": "plaza",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Platz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "広場",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひろば",
+                  "romanization": "hiroba"
+                },
+                "ZH": {
+                  "text": "广场",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guǎngchǎng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The public square hosts a market every Saturday.",
+                  "answer": "public square",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A fountain stands in the middle of the public square.",
+                  "answer": "public square",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "mixed-use",
+              "locales": {
+                "PT": {
+                  "text": "uso misto",
+                  "definition": "Combinação de usos diferentes, como comércio, escritório e moradia, no mesmo edifício ou bairro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "mixed use",
+                  "definition": "A combination of different uses, such as retail, office and housing, in one building or district.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Como adjetivo, com hífen: mixed-use building. Antônimo: single-use zoning.",
+                  "collocations": [
+                    "mixed use development",
+                    "mixed use zoning",
+                    "mixed use building",
+                    "mixed use district"
+                  ]
+                },
+                "ES": {
+                  "text": "uso mixto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mischnutzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "複合用途",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ふくごうようと",
+                  "romanization": "fukugouyouto"
+                },
+                "ZH": {
+                  "text": "混合用途",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hùnhé yòngtú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The mixed use building combines shops, offices and flats.",
+                  "answer": "mixed use",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Planners prefer mixed use districts to keep streets lively.",
+                  "answer": "mixed use",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "density",
+              "locales": {
+                "PT": {
+                  "text": "densidade urbana",
+                  "definition": "Quantidade de pessoas, moradias ou construções por unidade de área em uma cidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "density",
+                  "definition": "The number of people, homes or buildings per unit of area in a city.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Dense é o adjetivo (denso). Em física, density também é massa por volume.",
+                  "collocations": [
+                    "population density",
+                    "housing density",
+                    "high density",
+                    "increase density"
+                  ]
+                },
+                "ES": {
+                  "text": "densidad",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dichte",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "密度",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "みつど",
+                  "romanization": "mitsudo"
+                },
+                "ZH": {
+                  "text": "密度",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mìdù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "High density housing saves land and energy.",
+                  "answer": "density",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The city plans to increase density near the station.",
+                  "answer": "density",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fases-do-projeto",
+      "title": "Fases do projeto",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "do-estudo-a-obra",
+          "title": "Do estudo à obra",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schematic-design",
+              "locales": {
+                "PT": {
+                  "text": "estudo preliminar",
+                  "definition": "Primeira fase do projeto, em que o arquiteto define o partido, a distribuição e os volumes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "schematic design",
+                  "definition": "The first design phase, in which the architect sets the concept, layout and volumes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vem antes de design development e de construction documents, as fases seguintes.",
+                  "collocations": [
+                    "complete the schematic design",
+                    "schematic design phase",
+                    "approve the schematic design",
+                    "schematic design drawings"
+                  ]
+                },
+                "ES": {
+                  "text": "anteproyecto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorentwurf",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "基本設計",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きほんせっけい",
+                  "romanization": "kihonsekkei"
+                },
+                "ZH": {
+                  "text": "方案设计",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fāng'àn shèjì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The client approved the schematic design last week.",
+                  "answer": "schematic design",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "In schematic design the architect fixes the layout and volumes.",
+                  "answer": "schematic design",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "construction-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto executivo",
+                  "definition": "Desenho técnico detalhado usado pela obra para executar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "construction drawing",
+                  "definition": "A detailed technical drawing the builder uses to carry out the design.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O conjunto é chamado construction documents (CDs). Working drawing é sinônimo.",
+                  "collocations": [
+                    "issue a construction drawing",
+                    "construction drawing set",
+                    "detailed construction drawing",
+                    "construction drawing review"
+                  ]
+                },
+                "ES": {
+                  "text": "plano de ejecución",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Ausführungsplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "施工図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せこうず",
+                  "romanization": "sekouzu"
+                },
+                "ZH": {
+                  "text": "施工图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shīgōngtú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The builder works from the construction drawing.",
+                  "answer": "construction drawing",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each construction drawing shows the details of one element.",
+                  "answer": "construction drawing",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "design-specification",
+              "locales": {
+                "PT": {
+                  "text": "memorial descritivo",
+                  "definition": "Documento escrito que descreve os materiais, a qualidade e os métodos de execução de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "specification",
+                  "definition": "A written document that describes the materials, quality and methods of a project.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado spec. Complementa os desenhos: o desenho mostra, a specification descreve.",
+                  "collocations": [
+                    "write the specification",
+                    "technical specification",
+                    "material specification",
+                    "follow the specification"
+                  ]
+                },
+                "ES": {
+                  "text": "memoria descriptiva",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Baubeschreibung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "仕様書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しようしょ",
+                  "romanization": "shiyousho"
+                },
+                "ZH": {
+                  "text": "技术规格书",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìshù guīgéshū"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The specification lists the brand and finish of every material.",
+                  "answer": "specification",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A change in the specification raised the budget.",
+                  "answer": "specification",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "mock-up",
+              "locales": {
+                "PT": {
+                  "text": "protótipo em escala real",
+                  "definition": "Modelo em tamanho real de parte do projeto, feito para avaliar materiais, cores e execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "mock-up",
+                  "definition": "A full-size model of part of the design, built to assess materials, colours and workmanship.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também escrito mockup. Em tecnologia, mock-up é a maquete de uma tela ou produto.",
+                  "collocations": [
+                    "build a mock-up",
+                    "full-scale mock-up",
+                    "mock-up panel",
+                    "approve the mock-up"
+                  ]
+                },
+                "ES": {
+                  "text": "prototipo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mock-up",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "モックアップ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "mokkuappu"
+                },
+                "ZH": {
+                  "text": "样板",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yàngbǎn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The team built a mock-up of the facade on site.",
+                  "answer": "mock-up",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A full-size mock-up helps the client judge the materials.",
+                  "answer": "mock-up",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "cost-estimate",
+              "locales": {
+                "PT": {
+                  "text": "estimativa de custos",
+                  "definition": "Cálculo aproximado do custo total de um projeto antes da execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "cost estimate",
+                  "definition": "An approximate calculation of the total cost of a project before it is built.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Estimate é aproximado; quote é o preço firme dado por um fornecedor; bid é a proposta de licitação.",
+                  "collocations": [
+                    "prepare a cost estimate",
+                    "rough cost estimate",
+                    "detailed cost estimate",
+                    "cost estimate review"
+                  ]
+                },
+                "ES": {
+                  "text": "estimación de costes",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kostenschätzung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "概算見積",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がいさんみつもり",
+                  "romanization": "gaisanmitsumori"
+                },
+                "ZH": {
+                  "text": "造价估算",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zàojià gūsuàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cost estimate exceeds the client's budget by ten percent.",
+                  "answer": "cost estimate",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We updated the cost estimate after the design change.",
+                  "answer": "cost estimate",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            },
+            {
+              "slug": "drawing-revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão",
+                  "definition": "Versão corrigida de um desenho ou documento, identificada por letra ou número.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "revision",
+                  "definition": "A corrected version of a drawing or document, marked by a letter or number.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Revision cloud é a nuvem desenhada em torno do que mudou. O verbo é to revise.",
+                  "collocations": [
+                    "revision number",
+                    "revision cloud",
+                    "issue a revision",
+                    "latest revision"
+                  ]
+                },
+                "ES": {
+                  "text": "revisión",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Überarbeitung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "改訂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かいてい",
+                  "romanization": "kaitei"
+                },
+                "ZH": {
+                  "text": "修订",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiūdìng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The drawing is at revision C.",
+                  "answer": "revision",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each revision is dated and signed by the architect.",
+                  "answer": "revision",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

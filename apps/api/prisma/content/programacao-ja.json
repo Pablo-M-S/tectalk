@@ -2993,6 +2993,1009 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "orientacao-a-objetos",
+      "title": "Orientação a objetos",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "classes-e-tipos",
+          "title": "Classes e tipos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "class",
+              "locales": {
+                "PT": {
+                  "text": "classe",
+                  "definition": "Modelo que define os dados e os comportamentos dos objetos criados a partir dele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "クラス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (クラス, do inglês \"class\"). Instância: インスタンス; o método: メソッド.",
+                  "collocations": [
+                    "クラスを定義する",
+                    "抽象クラス",
+                    "インスタンス"
+                  ],
+                  "romanization": "kurasu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このクラスには、三つのメソッドがあります。",
+                  "answer": "クラス",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "それぞれのクラスは、一つの責任だけを持つべきです。",
+                  "answer": "クラス",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interface",
+              "locales": {
+                "PT": {
+                  "text": "interface",
+                  "definition": "Contrato que lista os métodos que uma classe deve oferecer, sem dizer como funcionam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インターフェース",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (インターフェース, do inglês \"interface\"). Também インタフェース (sem o ー final).",
+                  "collocations": [
+                    "インターフェースを実装する",
+                    "公開インターフェース",
+                    "ユーザーインターフェース"
+                  ],
+                  "romanization": "intaafeesu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "このクラスは、支払いのインターフェースを実装しています。",
+                  "answer": "インターフェース",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "整ったインターフェースは、内部の詳細を隠します。",
+                  "answer": "インターフェース",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inheritance",
+              "locales": {
+                "PT": {
+                  "text": "herança",
+                  "definition": "Mecanismo pelo qual uma classe filha reaproveita os atributos e métodos de uma classe pai.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "継承",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいしょう",
+                  "usageNote": "Kango (継 = suceder + 承 = receber). Também significa herança de bens. Subclasse: サブクラス.",
+                  "collocations": [
+                    "多重継承",
+                    "継承階層",
+                    "サブクラス"
+                  ],
+                  "romanization": "keishou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "子クラスが本当に親クラスの一種であるときだけ、継承を使います。",
+                  "answer": "継承",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "継承が深いと、コードを理解しにくくなります。",
+                  "answer": "継承",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "polymorphism",
+              "locales": {
+                "PT": {
+                  "text": "polimorfismo",
+                  "definition": "Capacidade de objetos de tipos diferentes responderem à mesma chamada, cada um à sua maneira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ポリモーフィズム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (ポリモーフィズム). Também 多態性 (たたいせい, kango).",
+                  "collocations": [
+                    "多態性",
+                    "メソッドのオーバーライド",
+                    "オブジェクト指向"
+                  ],
+                  "romanization": "porimoofizumu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ポリモーフィズムのおかげで、異なるオブジェクトが同じ呼び出しに応答できます。",
+                  "answer": "ポリモーフィズム",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "長いif-elseの連なりを避けるために、ポリモーフィズムを使いました。",
+                  "answer": "ポリモーフィズム",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "compiler",
+              "locales": {
+                "PT": {
+                  "text": "compilador",
+                  "definition": "Programa que traduz o código-fonte em código executável pela máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンパイラ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (コンパイラ, do inglês \"compiler\"); também コンパイラー. Verbo: コンパイルする.",
+                  "collocations": [
+                    "コンパイルエラー",
+                    "コンパイルする",
+                    "インタプリタ"
+                  ],
+                  "romanization": "konpaira"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "コンパイラは、十二行目でエラーを報告しています。",
+                  "answer": "コンパイラ",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "コンパイラが速くなると、ビルド時間が短くなります。",
+                  "answer": "コンパイラ",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "syntax-error",
+              "locales": {
+                "PT": {
+                  "text": "erro de sintaxe",
+                  "definition": "Erro em que o código viola as regras da linguagem e não pode ser lido ou compilado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "構文エラー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうぶんえらー",
+                  "usageNote": "Kango + gairaigo (構文 = sintaxe + エラー). Execução: 実行時エラー.",
+                  "collocations": [
+                    "構文エラーを直す",
+                    "実行時エラー",
+                    "エラーメッセージ"
+                  ],
+                  "romanization": "koubuneraa"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "かっこが足りなかったせいで、構文エラーが出ました。",
+                  "answer": "構文エラー",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "テストを実行する前に、構文エラーを直してください。",
+                  "answer": "構文エラー",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "banco-de-dados",
+      "title": "Banco de dados",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "modelagem-e-consistencia",
+          "title": "Modelagem e consistência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "primary-key",
+              "locales": {
+                "PT": {
+                  "text": "chave primária",
+                  "definition": "Coluna ou conjunto de colunas que identifica cada linha de uma tabela de forma única.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "主キー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しゅきー",
+                  "usageNote": "Kango + gairaigo (主 = principal + キー = chave). Abreviado PK.",
+                  "collocations": [
+                    "主キーを設定する",
+                    "複合主キー",
+                    "一意制約"
+                  ],
+                  "romanization": "shukii"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "それぞれの行には、一意の主キーがあります。",
+                  "answer": "主キー",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "主キーは、空であってはいけません。",
+                  "answer": "主キー",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "foreign-key",
+              "locales": {
+                "PT": {
+                  "text": "chave estrangeira",
+                  "definition": "Coluna que aponta para a chave primária de outra tabela e garante a integridade da relação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "外部キー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がいぶきー",
+                  "usageNote": "Kango + gairaigo (外部 = externo + キー). Abreviado FK. Integridade referencial: 参照整合性.",
+                  "collocations": [
+                    "外部キー制約",
+                    "参照整合性",
+                    "リレーション"
+                  ],
+                  "romanization": "gaibukii"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "外部キーが、注文と顧客を結びつけます。",
+                  "answer": "外部キー",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "外部キーがあれば、孤立したレコードを防げます。",
+                  "answer": "外部キー",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "join",
+              "locales": {
+                "PT": {
+                  "text": "join",
+                  "definition": "Operação que combina linhas de duas ou mais tabelas com base em uma coluna em comum.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "結合",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けつごう",
+                  "usageNote": "Kango (結合 = unir). Tipos: 内部結合 (inner) e 外部結合 (outer).",
+                  "collocations": [
+                    "内部結合",
+                    "結合条件",
+                    "テーブル結合"
+                  ],
+                  "romanization": "ketsugou"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "クエリは、結合を使って二つのテーブルをまとめます。",
+                  "answer": "結合",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "左外部結合は、最初のテーブルのすべての行を残します。",
+                  "answer": "結合",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "normalization",
+              "locales": {
+                "PT": {
+                  "text": "normalização",
+                  "definition": "Organização das tabelas de um banco para reduzir repetição de dados e evitar inconsistências.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "正規化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいきか",
+                  "usageNote": "Kango (正規 = normal + 化 = tornar). Em dados também 非正規化 (desnormalização).",
+                  "collocations": [
+                    "第三正規形",
+                    "非正規化",
+                    "重複を排除する"
+                  ],
+                  "romanization": "seikika"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "適切な正規化は、テーブルから重複データを取り除きます。",
+                  "answer": "正規化",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "第三正規形のところで、正規化をやめました。",
+                  "answer": "正規化",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "data-replication",
+              "locales": {
+                "PT": {
+                  "text": "replicação",
+                  "definition": "Cópia contínua dos dados de um servidor de banco de dados para outros servidores.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レプリケーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (レプリケーション, do inglês \"replication\"). Também 複製 (cópia) em geral.",
+                  "collocations": [
+                    "リードレプリカ",
+                    "複製遅延",
+                    "同期"
+                  ],
+                  "romanization": "repurikeeshon"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "レプリケーションは、データベースの複製を別のサーバーに保ちます。",
+                  "answer": "レプリケーション",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "レプリケーションの遅れを、注意深く監視しています。",
+                  "answer": "レプリケーション",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "deadlock",
+              "locales": {
+                "PT": {
+                  "text": "impasse",
+                  "definition": "Situação em que duas ou mais transações esperam uma pela outra e nenhuma consegue continuar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デッドロック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (デッドロック, do inglês \"deadlock\"). Também 行き詰まり (impasse geral).",
+                  "collocations": [
+                    "デッドロックを検出する",
+                    "トランザクション",
+                    "排他制御"
+                  ],
+                  "romanization": "deddorokku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "二つのトランザクションが、デッドロックを起こしました。",
+                  "answer": "デッドロック",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "データベースはデッドロックを検出して、片方を取り消します。",
+                  "answer": "デッドロック",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "concorrencia-e-desempenho",
+      "title": "Concorrência e desempenho",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "threads-e-memoria",
+          "title": "Threads e memória",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "thread",
+              "locales": {
+                "PT": {
+                  "text": "thread",
+                  "definition": "Sequência de instruções que um programa executa de forma independente, dentro do mesmo processo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スレッド",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (スレッド, do inglês \"thread\"). Multithread: マルチスレッド.",
+                  "collocations": [
+                    "メインスレッド",
+                    "スレッドプール",
+                    "マルチスレッド"
+                  ],
+                  "romanization": "sureddo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "サーバーは、リクエストごとに別のスレッドで処理します。",
+                  "answer": "スレッド",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "スレッドが多すぎると、システムが遅くなります。",
+                  "answer": "スレッド",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "race-condition",
+              "locales": {
+                "PT": {
+                  "text": "condição de corrida",
+                  "definition": "Erro em que o resultado depende da ordem imprevisível em que threads acessam um mesmo recurso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "競合状態",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きょうごうじょうたい",
+                  "usageNote": "Kango (競合 = competição + 状態 = estado). Também レースコンディション (gairaigo) e データ競合.",
+                  "collocations": [
+                    "レースコンディション",
+                    "データ競合",
+                    "ロック"
+                  ],
+                  "romanization": "kyougoujoutai"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "競合状態が、共有カウンターを壊しました。",
+                  "answer": "競合状態",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ロックを使って、競合状態を直しました。",
+                  "answer": "競合状態",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "asynchronous",
+              "locales": {
+                "PT": {
+                  "text": "assíncrono",
+                  "definition": "Que não espera a conclusão de uma operação para continuar executando outras tarefas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "非同期",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひどうき",
+                  "usageNote": "Kango (非 = não + 同期 = sincronização). Oposto: 同期. Também async/await: 非同期処理.",
+                  "collocations": [
+                    "非同期処理",
+                    "同期",
+                    "async/await"
+                  ],
+                  "romanization": "hidouki"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "非同期の呼び出しは、メインスレッドをブロックしません。",
+                  "answer": "非同期",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "非同期のコードを書くときは、エラー処理に注意が必要です。",
+                  "answer": "非同期",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "callback",
+              "locales": {
+                "PT": {
+                  "text": "callback",
+                  "definition": "Função passada como argumento para ser executada mais tarde, quando um evento ou tarefa terminar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コールバック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (コールバック, do inglês \"callback\"). Ex.: コールバック関数.",
+                  "collocations": [
+                    "コールバック関数",
+                    "コールバック地獄",
+                    "非同期処理"
+                  ],
+                  "romanization": "koorubakku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ダウンロードが終わったときに実行するコールバックを渡します。",
+                  "answer": "コールバック",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "コールバックは、結果を引数として受け取ります。",
+                  "answer": "コールバック",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "memory-leak",
+              "locales": {
+                "PT": {
+                  "text": "vazamento de memória",
+                  "definition": "Falha em que o programa reserva memória e não a libera, consumindo cada vez mais recursos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "メモリリーク",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (メモリリーク, do inglês \"memory leak\"). Ex.: メモリリークを調べる.",
+                  "collocations": [
+                    "メモリリークを調べる",
+                    "ガベージコレクション",
+                    "メモリ使用量"
+                  ],
+                  "romanization": "memoririiku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "メモリリークのせいで、サーバーが二日後に落ちました。",
+                  "answer": "メモリリーク",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "プロファイラーで、メモリリークを見つけました。",
+                  "answer": "メモリリーク",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "profiling",
+              "locales": {
+                "PT": {
+                  "text": "análise de desempenho",
+                  "definition": "Medição do tempo e da memória gastos por cada parte do programa para achar gargalos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "プロファイリング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (プロファイリング, do inglês \"profiling\"). Gargalo: ボトルネック.",
+                  "collocations": [
+                    "ボトルネック",
+                    "プロファイラー",
+                    "計測"
+                  ],
+                  "romanization": "purofairingu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "丁寧なプロファイリングで、並べ替えが時間の大半を占めていると分かりました。",
+                  "answer": "プロファイリング",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "遅い関数を見つけるために、プロファイリングを使っています。",
+                  "answer": "プロファイリング",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "operacoes",
+      "title": "Operações e confiabilidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "entrega-e-observabilidade",
+          "title": "Entrega e observabilidade",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "continuous-integration",
+              "locales": {
+                "PT": {
+                  "text": "integração contínua",
+                  "definition": "Prática de integrar o código ao repositório várias vezes ao dia, com testes automáticos a cada mudança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "継続的インテグレーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいぞくてきいんてぐれーしょん",
+                  "usageNote": "Kango + gairaigo (継続的 = contínuo + インテグレーション). Abreviado CI.",
+                  "collocations": [
+                    "CI/CD",
+                    "自動テスト",
+                    "ビルド"
+                  ],
+                  "romanization": "keizokutekiintegureeshon"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "継続的インテグレーションは、コミットのたびにテストを実行します。",
+                  "answer": "継続的インテグレーション",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "良い継続的インテグレーションは、エラーを早く見つけます。",
+                  "answer": "継続的インテグレーション",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "monitoring",
+              "locales": {
+                "PT": {
+                  "text": "monitoramento",
+                  "definition": "Acompanhamento contínuo da saúde e do desempenho de um sistema em produção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "監視",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんし",
+                  "usageNote": "Kango (監 = vigiar + 視 = observar). Também モニタリング (gairaigo).",
+                  "collocations": [
+                    "モニタリング",
+                    "監視ツール",
+                    "ダッシュボード"
+                  ],
+                  "romanization": "kanshi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "良い監視は、エラー率が上がると知らせてくれます。",
+                  "answer": "監視",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "すべてのサービスに、監視を追加しました。",
+                  "answer": "監視",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "logging",
+              "locales": {
+                "PT": {
+                  "text": "registro de logs",
+                  "definition": "Gravação de mensagens sobre o que o programa faz, para ajudar a entender falhas depois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ログ出力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ろぐしゅつりょく",
+                  "usageNote": "Kango + gairaigo (ログ = registro + 出力 = saída). Também ロギング.",
+                  "collocations": [
+                    "ロギング",
+                    "ログレベル",
+                    "ログを確認する"
+                  ],
+                  "romanization": "rogushutsuryoku"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "詳しいログ出力のおかげで、バグを見つけられました。",
+                  "answer": "ログ出力",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "ディスク容量を節約するため、ログ出力を減らしました。",
+                  "answer": "ログ出力",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "alert",
+              "locales": {
+                "PT": {
+                  "text": "alerta",
+                  "definition": "Notificação automática enviada quando uma métrica passa de um limite ou algo falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アラート",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (アラート, do inglês \"alert\"). Também 警報 (aviso) e 通知.",
+                  "collocations": [
+                    "アラートを設定する",
+                    "しきい値",
+                    "通知"
+                  ],
+                  "romanization": "araato"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "ディスクがほぼ満杯になると、アラートが出ました。",
+                  "answer": "アラート",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "応答時間が二秒を超えたらアラートを出すよう設定します。",
+                  "answer": "アラート",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "incident",
+              "locales": {
+                "PT": {
+                  "text": "incidente",
+                  "definition": "Evento inesperado que interrompe ou degrada um serviço e exige resposta da equipe.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インシデント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (インシデント, do inglês \"incident\"). Também 障害 (falha) e 事故.",
+                  "collocations": [
+                    "障害対応",
+                    "インシデント対応",
+                    "報告書"
+                  ],
+                  "romanization": "inshidento"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "インシデントは、四十分間続きました。",
+                  "answer": "インシデント",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "インシデントのたびに、短い報告書を書きます。",
+                  "answer": "インシデント",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "feature-flag",
+              "locales": {
+                "PT": {
+                  "text": "flag de funcionalidade",
+                  "definition": "Chave que liga ou desliga uma funcionalidade sem precisar publicar uma nova versão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "フィーチャーフラグ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Gairaigo (フィーチャーフラグ, do inglês \"feature flag\"). Também フィーチャートグル.",
+                  "collocations": [
+                    "フィーチャートグル",
+                    "段階的リリース",
+                    "機能の切り替え"
+                  ],
+                  "romanization": "fiichaafuragu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "JA",
+                  "sentence": "フィーチャーフラグを使えば、変更を利用者の一割にだけ公開できます。",
+                  "answer": "フィーチャーフラグ",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "JA",
+                  "sentence": "展開が終わったあと、フィーチャーフラグを削除しました。",
+                  "answer": "フィーチャーフラグ",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

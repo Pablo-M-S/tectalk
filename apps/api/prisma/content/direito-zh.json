@@ -1489,6 +1489,998 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "direito-civil",
+      "title": "Direito civil",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "bens-e-obrigacoes",
+          "title": "Bens e obrigações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "property",
+              "locales": {
+                "PT": {
+                  "text": "propriedade",
+                  "definition": "Direito de usar, usufruir e dispor de um bem, e o próprio bem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "所有权",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "suoyǒuquán",
+                  "usageNote": "Pinyin suǒyǒuquán (所有 = possuir + 权 = direito). Diferente de 占有权 (posse) e 使用权 (uso).",
+                  "collocations": [
+                    "取得所有权",
+                    "所有权转移",
+                    "财产权"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "房产的所有权在过户时转给了买方。",
+                  "answer": "所有权",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "她对这块地拥有完整的所有权。",
+                  "answer": "所有权",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tort",
+              "locales": {
+                "PT": {
+                  "text": "ato ilícito civil",
+                  "definition": "Ato que causa dano a outra pessoa e obriga o autor a indenizar, sem relação com um contrato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "侵权行为",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qīnquán xíngwéi",
+                  "usageNote": "Pinyin qīnquán xíngwéi (侵权 = violar direito + 行为 = ato). Regido pela Lei de Responsabilidade por Atos Ilícitos (侵权责任法).",
+                  "collocations": [
+                    "侵权责任",
+                    "侵权诉讼",
+                    "承担侵权责任"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "侵权行为人必须赔偿造成的损失。",
+                  "answer": "侵权行为",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这起诉讼基于侵权行为，而不是合同。",
+                  "answer": "侵权行为",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "negligence",
+              "locales": {
+                "PT": {
+                  "text": "negligência",
+                  "definition": "Falha em agir com o cuidado que uma pessoa razoável teria, causando dano a outro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "过失",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòshī",
+                  "usageNote": "Pinyin guòshī (过 = erro + 失 = falha). Graus: 重大过失 (grave) e 一般过失. Oposto de 故意 (dolo).",
+                  "collocations": [
+                    "重大过失",
+                    "医疗过失",
+                    "过失责任"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "手术之后，医生因过失被起诉。",
+                  "answer": "过失",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "重大过失可能使免责条款无效。",
+                  "answer": "过失",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "damages",
+              "locales": {
+                "PT": {
+                  "text": "indenização por perdas e danos",
+                  "definition": "Quantia em dinheiro que o tribunal manda pagar para compensar um prejuízo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "损害赔偿",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sǔnhài péicháng",
+                  "usageNote": "Pinyin sǔnhài péicháng (损害 = prejuízo + 赔偿 = compensar). Também 赔偿金 (a quantia) e 精神损害赔偿 (dano moral).",
+                  "collocations": [
+                    "赔偿金",
+                    "精神损害赔偿",
+                    "请求损害赔偿"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法院判令被告支付五万欧元的损害赔偿。",
+                  "answer": "损害赔偿",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "她就延误提出了损害赔偿的请求。",
+                  "answer": "损害赔偿",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "easement",
+              "locales": {
+                "PT": {
+                  "text": "servidão",
+                  "definition": "Direito de usar o imóvel de outra pessoa para um fim limitado, como passar por ele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "地役权",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dìyìquán",
+                  "usageNote": "Pinyin dìyìquán (地 = terra + 役 = serviço + 权). Também 通行权 (passagem). Previsto no Código Civil chinês.",
+                  "collocations": [
+                    "设立地役权",
+                    "通行权",
+                    "供役地"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "邻居享有使用我们车道的地役权。",
+                  "answer": "地役权",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "地役权允许通行而不转移所有权。",
+                  "answer": "地役权",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "lease",
+              "locales": {
+                "PT": {
+                  "text": "contrato de locação",
+                  "definition": "Contrato pelo qual o dono cede o uso de um imóvel ou bem por um prazo, em troca de pagamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "租赁合同",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zūlìn hétong",
+                  "usageNote": "Pinyin zūlìn hétong (租赁 = alugar + 合同 = contrato). O locador é 出租人 e o locatário 承租人.",
+                  "collocations": [
+                    "签订租赁合同",
+                    "承租人",
+                    "续租"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "租赁合同的期限为五年，可以选择续租。",
+                  "answer": "租赁合同",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "双方在星期一签署了租赁合同。",
+                  "answer": "租赁合同",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-do-trabalho",
+      "title": "Direito do trabalho",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "relacoes-de-trabalho",
+          "title": "Relações de trabalho",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "severance-pay",
+              "locales": {
+                "PT": {
+                  "text": "verbas rescisórias",
+                  "definition": "Quantia paga ao empregado quando o contrato de trabalho termina por iniciativa do empregador.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "遣散费",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qiǎnsànfèi",
+                  "usageNote": "Pinyin qiǎnsànfèi (遣散 = dispensar + 费 = taxa). Formalmente 经济补偿金 (compensação econômica).",
+                  "collocations": [
+                    "经济补偿金",
+                    "领取遣散费",
+                    "遣散员工"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "公司关闭后，他领到了遣散费。",
+                  "answer": "遣散费",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "遣散费取决于工作年限。",
+                  "answer": "遣散费",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dismissal",
+              "locales": {
+                "PT": {
+                  "text": "demissão",
+                  "definition": "Ato do empregador de pôr fim ao contrato de trabalho do empregado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "解雇",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiěgù",
+                  "usageNote": "Pinyin jiěgù (解 = soltar + 雇 = contratar). Também 辞退 (dispensar) e 开除 (expulsar, mais severo).",
+                  "collocations": [
+                    "违法解雇",
+                    "解雇通知",
+                    "开除"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "法庭认定这次解雇不合法。",
+                  "answer": "解雇",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "解雇之前必须发出书面通知。",
+                  "answer": "解雇",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "probation",
+              "locales": {
+                "PT": {
+                  "text": "período de experiência",
+                  "definition": "Fase inicial do contrato em que as partes avaliam se o vínculo continuará.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "试用期",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shìyòngqī",
+                  "usageNote": "Pinyin shìyòngqī (试用 = testar + 期 = período). Na China, depende da duração do contrato; no máximo seis meses.",
+                  "collocations": [
+                    "试用期工资",
+                    "通过试用期",
+                    "转正"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "她通过了试用期，签了长期合同。",
+                  "answer": "试用期",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "试用期为三个月。",
+                  "answer": "试用期",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "overtime",
+              "locales": {
+                "PT": {
+                  "text": "hora extra",
+                  "definition": "Trabalho além da jornada normal, geralmente pago com adicional.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "加班",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiābān",
+                  "usageNote": "Pinyin jiābān (加 = acrescentar + 班 = turno). Pagamento: 加班费. Também 超时工作 (formal).",
+                  "collocations": [
+                    "加班费",
+                    "超时工作",
+                    "申请加班"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "员工工作超过四十小时，有权获得加班费。",
+                  "answer": "加班",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "没有书面协议，他拒绝加班。",
+                  "answer": "加班",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "collective-agreement",
+              "locales": {
+                "PT": {
+                  "text": "acordo coletivo",
+                  "definition": "Acordo escrito entre sindicato e empregador sobre salários e condições de trabalho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "集体合同",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jítǐ hétong",
+                  "usageNote": "Pinyin jítǐ hétong (集体 = coletivo + 合同 = contrato). Negociação: 集体协商; sindicato: 工会.",
+                  "collocations": [
+                    "集体协商",
+                    "签订集体合同",
+                    "工会"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "集体合同规定了行业的最低工资。",
+                  "answer": "集体合同",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "工会谈判达成了新的集体合同。",
+                  "answer": "集体合同",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "whistleblower",
+              "locales": {
+                "PT": {
+                  "text": "denunciante",
+                  "definition": "Pessoa que denuncia irregularidades dentro da própria organização.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "吹哨人",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuīshàorén",
+                  "usageNote": "Pinyin chuīshàorén (吹 = soprar + 哨 = apito + 人). Também 举报人 (denunciante em geral).",
+                  "collocations": [
+                    "举报人",
+                    "保护吹哨人",
+                    "内部举报"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "吹哨人向监管机构举报了这起欺诈。",
+                  "answer": "吹哨人",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "吹哨人受到保护，不会遭到报复。",
+                  "answer": "吹哨人",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "recursos-e-execucao",
+      "title": "Recursos e execução",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "decisoes-e-recursos",
+          "title": "Decisões e recursos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "appeal",
+              "locales": {
+                "PT": {
+                  "text": "recurso",
+                  "definition": "Pedido para que uma instância superior reexamine uma decisão judicial.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "上诉",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shàngsù",
+                  "usageNote": "Pinyin shàngsù (上 = acima + 诉 = recorrer). Em segunda instância: 二审; recurso especial: 再审申请.",
+                  "collocations": [
+                    "提起上诉",
+                    "二审",
+                    "驳回上诉"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "被告在三十天内提起了上诉。",
+                  "answer": "上诉",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "上级法院驳回了上诉。",
+                  "answer": "上诉",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ruling",
+              "locales": {
+                "PT": {
+                  "text": "decisão judicial",
+                  "definition": "Decisão formal do juiz ou do tribunal sobre um ponto do caso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "裁定",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "cáidìng",
+                  "usageNote": "Pinyin cáidìng (裁 = julgar + 定 = fixar). Também 判决 (sentença) e 决定 (decisão em geral).",
+                  "collocations": [
+                    "作出裁定",
+                    "判决",
+                    "行政裁定"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "裁定在星期二公布。",
+                  "answer": "裁定",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法官以书面形式解释了裁定。",
+                  "answer": "裁定",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "hearing",
+              "locales": {
+                "PT": {
+                  "text": "audiência",
+                  "definition": "Sessão perante um juiz ou tribunal em que as partes apresentam seus argumentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "庭审",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tíngshěn",
+                  "usageNote": "Pinyin tíngshěn (庭 = tribunal + 审 = julgar). Também 开庭 (abrir a sessão) e 听证会 (audiência pública).",
+                  "collocations": [
+                    "开庭审理",
+                    "听证会",
+                    "公开庭审"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "庭审定于九点开始。",
+                  "answer": "庭审",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "双方律师都出席了庭审。",
+                  "answer": "庭审",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "summons",
+              "locales": {
+                "PT": {
+                  "text": "intimação",
+                  "definition": "Documento que ordena ao réu comparecer perante o tribunal ou responder a uma ação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "传票",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuánpiào",
+                  "usageNote": "Pinyin chuánpiào (传 = chamar + 票 = bilhete). Também 出庭通知 e 传唤 (o ato de intimar).",
+                  "collocations": [
+                    "传唤",
+                    "送达传票",
+                    "出庭通知"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "被告通过邮寄收到了传票。",
+                  "answer": "传票",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "无视传票可能被罚款。",
+                  "answer": "传票",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "enforcement",
+              "locales": {
+                "PT": {
+                  "text": "execução",
+                  "definition": "Aplicação forçada de uma decisão judicial ou de uma lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "强制执行",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qiángzhì zhíxíng",
+                  "usageNote": "Pinyin qiángzhì zhíxíng (强制 = compulsório + 执行 = executar). O oficial: 执行员; sequestro de bens: 查封.",
+                  "collocations": [
+                    "申请强制执行",
+                    "执行员",
+                    "查封"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "债权人申请强制执行判决。",
+                  "answer": "强制执行",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "执行员负责强制执行未缴纳的罚款。",
+                  "answer": "强制执行",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "statute-of-limitations",
+              "locales": {
+                "PT": {
+                  "text": "prescrição",
+                  "definition": "Prazo legal depois do qual uma ação não pode mais ser proposta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "诉讼时效",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sùsòng shíxiào",
+                  "usageNote": "Pinyin sùsòng shíxiào (诉讼 = ação judicial + 时效 = prazo). Na China, o prazo geral é de três anos.",
+                  "collocations": [
+                    "诉讼时效期间",
+                    "时效中断",
+                    "超过诉讼时效"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这项请求的诉讼时效是三年。",
+                  "answer": "诉讼时效",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "诉讼时效已经届满，所以请求落空了。",
+                  "answer": "诉讼时效",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-publico",
+      "title": "Direito público",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "estado-e-cidadao",
+          "title": "Estado e cidadão",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "constitution",
+              "locales": {
+                "PT": {
+                  "text": "constituição",
+                  "definition": "Lei fundamental de um Estado, que organiza os poderes e garante direitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "宪法",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiànfǎ",
+                  "usageNote": "Pinyin xiànfǎ (宪 = norma + 法 = lei). Revisão: 修宪; tribunal constitucional (em outros países): 宪法法院.",
+                  "collocations": [
+                    "修改宪法",
+                    "违宪",
+                    "宪法法院"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "宪法保障言论自由。",
+                  "answer": "宪法",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "法院裁定这项法律违反了宪法。",
+                  "answer": "宪法",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "due-process",
+              "locales": {
+                "PT": {
+                  "text": "devido processo legal",
+                  "definition": "Princípio pelo qual ninguém pode ser privado de direitos sem um procedimento justo previsto em lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "正当程序",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhèngdàng chéngxù",
+                  "usageNote": "Pinyin zhèngdàng chéngxù (正当 = legítimo + 程序 = procedimento). Também 正当法律程序 (forma completa).",
+                  "collocations": [
+                    "正当法律程序",
+                    "程序正义",
+                    "违反正当程序"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每个被告人都有权享受正当程序。",
+                  "answer": "正当程序",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "没有遵守正当程序，所以逮捕无效。",
+                  "answer": "正当程序",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "habeas-corpus",
+              "locales": {
+                "PT": {
+                  "text": "habeas corpus",
+                  "definition": "Ordem judicial que obriga a autoridade a apresentar o detido e justificar a prisão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "人身保护令",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rénshēn bǎohùlìng",
+                  "usageNote": "Pinyin rénshēn bǎohùlìng (人身 = pessoa + 保护 + 令 = ordem). Instituto típico de países de common law.",
+                  "collocations": [
+                    "申请人身保护令",
+                    "非法拘禁",
+                    "人身自由"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "律师为当事人申请了人身保护令。",
+                  "answer": "人身保护令",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "人身保护令可以防止非法拘禁。",
+                  "answer": "人身保护令",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "prosecutor",
+              "locales": {
+                "PT": {
+                  "text": "promotor",
+                  "definition": "Agente público que representa o Estado na acusação em processos penais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "检察官",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiǎncháguān",
+                  "usageNote": "Pinyin jiǎncháguān (检察 = investigar + 官 = oficial). A instituição: 检察院. Acusar: 起诉.",
+                  "collocations": [
+                    "检察院",
+                    "公诉",
+                    "起诉"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "检察官向法庭出示了证据。",
+                  "answer": "检察官",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "检察官决定是否提起公诉。",
+                  "answer": "检察官",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "power-of-attorney",
+              "locales": {
+                "PT": {
+                  "text": "procuração",
+                  "definition": "Documento pelo qual uma pessoa dá a outra poderes para agir em seu nome.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "授权委托书",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shòuquán wěituōshū",
+                  "usageNote": "Pinyin shòuquán wěituōshū (授权 = outorgar + 委托书 = carta de mandato). Também 委托书 (abreviado) e 代理权.",
+                  "collocations": [
+                    "授权委托",
+                    "委托书",
+                    "代理权"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "她签署了授权委托书，好让儿子出售房子。",
+                  "answer": "授权委托书",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "授权委托书可以随时撤销。",
+                  "answer": "授权委托书",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "notary",
+              "locales": {
+                "PT": {
+                  "text": "tabelião",
+                  "definition": "Oficial público autorizado a autenticar assinaturas e documentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "公证员",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngzhèngyuán",
+                  "usageNote": "Pinyin gōngzhèngyuán (公证 = autenticar + 员 = oficial). O cartório: 公证处.",
+                  "collocations": [
+                    "公证处",
+                    "办理公证",
+                    "公证书"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "公证员证明了契约上的签名。",
+                  "answer": "公证员",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "要认证这份文件，需要公证员。",
+                  "answer": "公证员",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

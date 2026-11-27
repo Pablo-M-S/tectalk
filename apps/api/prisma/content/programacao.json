@@ -4865,6 +4865,1609 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "orientacao-a-objetos",
+      "title": "Orientação a objetos",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "classes-e-tipos",
+          "title": "Classes e tipos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "class",
+              "locales": {
+                "PT": {
+                  "text": "classe",
+                  "definition": "Modelo que define os dados e os comportamentos dos objetos criados a partir dele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "class",
+                  "definition": "A blueprint that defines the data and behaviour of the objects created from it.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Class também é \"turma\" ou \"classe social\" fora da programação. Em JavaScript, class é açúcar sintático sobre protótipos.",
+                  "collocations": [
+                    "define a class",
+                    "abstract class",
+                    "class method",
+                    "class name"
+                  ]
+                },
+                "ES": {
+                  "text": "clase",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Klasse",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "クラス",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kurasu"
+                },
+                "ZH": {
+                  "text": "类",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lèi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The class contains three methods.",
+                  "answer": "class",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Each class should have a single responsibility.",
+                  "answer": "class",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "interface",
+              "locales": {
+                "PT": {
+                  "text": "interface",
+                  "definition": "Contrato que lista os métodos que uma classe deve oferecer, sem dizer como funcionam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "interface",
+                  "definition": "A contract that lists the methods a class must offer, without saying how they work.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "User interface (UI) é a interface do usuário, em outro sentido. API é a interface entre programas.",
+                  "collocations": [
+                    "implement an interface",
+                    "public interface",
+                    "user interface",
+                    "interface definition"
+                  ]
+                },
+                "ES": {
+                  "text": "interfaz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schnittstelle",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インターフェース",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "intaafeesu"
+                },
+                "ZH": {
+                  "text": "接口",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiēkǒu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The class implements the payment interface.",
+                  "answer": "interface",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A clean interface hides the internal details.",
+                  "answer": "interface",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "inheritance",
+              "locales": {
+                "PT": {
+                  "text": "herança",
+                  "definition": "Mecanismo pelo qual uma classe filha reaproveita os atributos e métodos de uma classe pai.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "inheritance",
+                  "definition": "A mechanism by which a child class reuses the attributes and methods of a parent class.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Vem do verbo to inherit. O oposto recomendado é composition. Parent class é a superclasse.",
+                  "collocations": [
+                    "multiple inheritance",
+                    "class inheritance",
+                    "inheritance hierarchy",
+                    "avoid inheritance"
+                  ]
+                },
+                "ES": {
+                  "text": "herencia",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vererbung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "継承",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいしょう",
+                  "romanization": "keishou"
+                },
+                "ZH": {
+                  "text": "继承",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìchéng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Use inheritance only when the child really is a kind of the parent.",
+                  "answer": "inheritance",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Deep inheritance makes the code hard to understand.",
+                  "answer": "inheritance",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "polymorphism",
+              "locales": {
+                "PT": {
+                  "text": "polimorfismo",
+                  "definition": "Capacidade de objetos de tipos diferentes responderem à mesma chamada, cada um à sua maneira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "polymorphism",
+                  "definition": "The ability of objects of different types to respond to the same call, each in its own way.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Do grego: poly (muitas) + morphe (formas). Pronuncia-se /ˌpɒlɪˈmɔːfɪzəm/.",
+                  "collocations": [
+                    "runtime polymorphism",
+                    "subtype polymorphism",
+                    "use polymorphism",
+                    "polymorphism example"
+                  ]
+                },
+                "ES": {
+                  "text": "polimorfismo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Polymorphie",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ポリモーフィズム",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "porimoofizumu"
+                },
+                "ZH": {
+                  "text": "多态",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duōtài"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Thanks to polymorphism, different objects respond to the same call.",
+                  "answer": "polymorphism",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We used polymorphism to avoid a long if-else chain.",
+                  "answer": "polymorphism",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "compiler",
+              "locales": {
+                "PT": {
+                  "text": "compilador",
+                  "definition": "Programa que traduz o código-fonte em código executável pela máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "compiler",
+                  "definition": "A program that translates source code into code the machine can run.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo é to compile. Interpreter executa linha a linha sem gerar o executável.",
+                  "collocations": [
+                    "compiler error",
+                    "compiler warning",
+                    "optimising compiler",
+                    "run the compiler"
+                  ]
+                },
+                "ES": {
+                  "text": "compilador",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Compiler",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンパイラ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "konpaira"
+                },
+                "ZH": {
+                  "text": "编译器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biānyìqì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The compiler reports an error on line twelve.",
+                  "answer": "compiler",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A faster compiler shortens the build time.",
+                  "answer": "compiler",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "syntax-error",
+              "locales": {
+                "PT": {
+                  "text": "erro de sintaxe",
+                  "definition": "Erro em que o código viola as regras da linguagem e não pode ser lido ou compilado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "syntax error",
+                  "definition": "An error in which the code breaks the rules of the language and cannot be parsed or compiled.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Diferente de runtime error (ocorre durante a execução) e logic error (resultado errado).",
+                  "collocations": [
+                    "fix a syntax error",
+                    "unexpected syntax error",
+                    "syntax error on line",
+                    "syntax error message"
+                  ]
+                },
+                "ES": {
+                  "text": "error de sintaxis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Syntaxfehler",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "構文エラー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "こうぶんえらー",
+                  "romanization": "koubuneraa"
+                },
+                "ZH": {
+                  "text": "语法错误",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yǔfǎ cuòwù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A missing bracket caused a syntax error.",
+                  "answer": "syntax error",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Fix the syntax error before running the tests.",
+                  "answer": "syntax error",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "banco-de-dados",
+      "title": "Banco de dados",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "modelagem-e-consistencia",
+          "title": "Modelagem e consistência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "primary-key",
+              "locales": {
+                "PT": {
+                  "text": "chave primária",
+                  "definition": "Coluna ou conjunto de colunas que identifica cada linha de uma tabela de forma única.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "primary key",
+                  "definition": "A column or set of columns that uniquely identifies each row in a table.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado PK. Pode ser composite (composta por várias colunas).",
+                  "collocations": [
+                    "define a primary key",
+                    "composite primary key",
+                    "auto-increment primary key",
+                    "primary key constraint"
+                  ]
+                },
+                "ES": {
+                  "text": "clave primaria",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Primärschlüssel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "主キー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しゅきー",
+                  "romanization": "shukii"
+                },
+                "ZH": {
+                  "text": "主键",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhǔjiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each row has a unique primary key.",
+                  "answer": "primary key",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The primary key cannot be null.",
+                  "answer": "primary key",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "foreign-key",
+              "locales": {
+                "PT": {
+                  "text": "chave estrangeira",
+                  "definition": "Coluna que aponta para a chave primária de outra tabela e garante a integridade da relação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "foreign key",
+                  "definition": "A column that points to another table's primary key and keeps the relationship consistent.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado FK. A restrição impede deletar uma linha que ainda é referenciada.",
+                  "collocations": [
+                    "add a foreign key",
+                    "foreign key constraint",
+                    "foreign key column",
+                    "foreign key reference"
+                  ]
+                },
+                "ES": {
+                  "text": "clave foránea",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fremdschlüssel",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "外部キー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "がいぶきー",
+                  "romanization": "gaibukii"
+                },
+                "ZH": {
+                  "text": "外键",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wàijiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The foreign key links orders to customers.",
+                  "answer": "foreign key",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A foreign key prevents orphan records.",
+                  "answer": "foreign key",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "join",
+              "locales": {
+                "PT": {
+                  "text": "join",
+                  "definition": "Operação que combina linhas de duas ou mais tabelas com base em uma coluna em comum.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "join",
+                  "definition": "An operation that combines rows from two or more tables based on a shared column.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tipos: inner, left, right e full join. Em inglês comum, to join é juntar-se.",
+                  "collocations": [
+                    "inner join",
+                    "left join",
+                    "join condition",
+                    "join tables"
+                  ]
+                },
+                "ES": {
+                  "text": "join",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Join",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "結合",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けつごう",
+                  "romanization": "ketsugou"
+                },
+                "ZH": {
+                  "text": "表连接",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biǎo liánjiē"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The query uses a join to combine two tables.",
+                  "answer": "join",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A left join keeps all rows from the first table.",
+                  "answer": "join",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "normalization",
+              "locales": {
+                "PT": {
+                  "text": "normalização",
+                  "definition": "Organização das tabelas de um banco para reduzir repetição de dados e evitar inconsistências.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "normalization",
+                  "definition": "Organising a database's tables to reduce repeated data and avoid inconsistencies.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Denormalization é o caminho oposto, usado para ganhar velocidade de leitura.",
+                  "collocations": [
+                    "database normalization",
+                    "third normal form",
+                    "denormalization",
+                    "normalization rules"
+                  ]
+                },
+                "ES": {
+                  "text": "normalización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Normalisierung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "正規化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "せいきか",
+                  "romanization": "seikika"
+                },
+                "ZH": {
+                  "text": "规范化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guīfànhuà"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Proper normalization removes duplicate data from the tables.",
+                  "answer": "normalization",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We stopped normalization at the third normal form.",
+                  "answer": "normalization",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "data-replication",
+              "locales": {
+                "PT": {
+                  "text": "replicação",
+                  "definition": "Cópia contínua dos dados de um servidor de banco de dados para outros servidores.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "replication",
+                  "definition": "The continuous copying of data from one database server to others.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Replica é a cópia. Replication lag é o atraso entre o servidor principal e a réplica.",
+                  "collocations": [
+                    "database replication",
+                    "read replica",
+                    "replication lag",
+                    "master-slave replication"
+                  ]
+                },
+                "ES": {
+                  "text": "replicación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Replikation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "レプリケーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "repurikeeshon"
+                },
+                "ZH": {
+                  "text": "数据复制",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shùjù fùzhì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Database replication keeps a copy on another server.",
+                  "answer": "replication",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We monitor the lag of the replication closely.",
+                  "answer": "replication",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "deadlock",
+              "locales": {
+                "PT": {
+                  "text": "impasse",
+                  "definition": "Situação em que duas ou mais transações esperam uma pela outra e nenhuma consegue continuar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "deadlock",
+                  "definition": "A situation in which two or more transactions wait for each other and none can continue.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Fora da TI, deadlock também é um impasse em negociações.",
+                  "collocations": [
+                    "detect a deadlock",
+                    "avoid a deadlock",
+                    "deadlock victim",
+                    "deadlock error"
+                  ]
+                },
+                "ES": {
+                  "text": "interbloqueo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Deadlock",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "デッドロック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "deddorokku"
+                },
+                "ZH": {
+                  "text": "死锁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sǐsuǒ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Two transactions caused a deadlock.",
+                  "answer": "deadlock",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The database detects a deadlock and cancels one of them.",
+                  "answer": "deadlock",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "concorrencia-e-desempenho",
+      "title": "Concorrência e desempenho",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "threads-e-memoria",
+          "title": "Threads e memória",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "thread",
+              "locales": {
+                "PT": {
+                  "text": "thread",
+                  "definition": "Sequência de instruções que um programa executa de forma independente, dentro do mesmo processo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "thread",
+                  "definition": "An independent sequence of instructions that a program runs within the same process.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Thread também é \"fio\" (de costura). Thread-safe significa seguro para uso por várias threads.",
+                  "collocations": [
+                    "main thread",
+                    "worker thread",
+                    "thread pool",
+                    "thread safe"
+                  ]
+                },
+                "ES": {
+                  "text": "hilo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Thread",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "スレッド",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sureddo"
+                },
+                "ZH": {
+                  "text": "线程",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiànchéng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The server handles each request in a separate thread.",
+                  "answer": "thread",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Too many threads can slow the system down.",
+                  "answer": "thread",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "race-condition",
+              "locales": {
+                "PT": {
+                  "text": "condição de corrida",
+                  "definition": "Erro em que o resultado depende da ordem imprevisível em que threads acessam um mesmo recurso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "race condition",
+                  "definition": "A bug in which the result depends on the unpredictable order in which threads access a shared resource.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Difícil de reproduzir. Lock (mutex) e operações atômicas são as soluções comuns.",
+                  "collocations": [
+                    "cause a race condition",
+                    "fix a race condition",
+                    "data race",
+                    "race condition bug"
+                  ]
+                },
+                "ES": {
+                  "text": "condición de carrera",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Race Condition",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "競合状態",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きょうごうじょうたい",
+                  "romanization": "kyougoujoutai"
+                },
+                "ZH": {
+                  "text": "竞态条件",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìngtài tiáojiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A race condition corrupted the shared counter.",
+                  "answer": "race condition",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We fixed the race condition with a lock.",
+                  "answer": "race condition",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "asynchronous",
+              "locales": {
+                "PT": {
+                  "text": "assíncrono",
+                  "definition": "Que não espera a conclusão de uma operação para continuar executando outras tarefas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "asynchronous",
+                  "definition": "Not waiting for one operation to finish before carrying on with other tasks.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado async. O oposto é synchronous (sync). Em JavaScript, usa-se async/await.",
+                  "collocations": [
+                    "asynchronous call",
+                    "asynchronous programming",
+                    "asynchronous function",
+                    "asynchronous request"
+                  ]
+                },
+                "ES": {
+                  "text": "asíncrono",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "asynchron",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "非同期",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひどうき",
+                  "romanization": "hidouki"
+                },
+                "ZH": {
+                  "text": "异步",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìbù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The asynchronous call does not block the main thread.",
+                  "answer": "asynchronous",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Writing asynchronous code needs careful error handling.",
+                  "answer": "asynchronous",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "callback",
+              "locales": {
+                "PT": {
+                  "text": "callback",
+                  "definition": "Função passada como argumento para ser executada mais tarde, quando um evento ou tarefa terminar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "callback",
+                  "definition": "A function passed as an argument to be run later, when an event or task finishes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "\"Callback hell\" é o aninhamento excessivo de callbacks. Promises e async/await o evitam.",
+                  "collocations": [
+                    "register a callback",
+                    "callback function",
+                    "callback hell",
+                    "success callback"
+                  ]
+                },
+                "ES": {
+                  "text": "callback",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Callback",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コールバック",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "koorubakku"
+                },
+                "ZH": {
+                  "text": "回调",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huídiào"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Pass a callback to run when the download ends.",
+                  "answer": "callback",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The callback receives the result as its argument.",
+                  "answer": "callback",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "memory-leak",
+              "locales": {
+                "PT": {
+                  "text": "vazamento de memória",
+                  "definition": "Falha em que o programa reserva memória e não a libera, consumindo cada vez mais recursos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "memory leak",
+                  "definition": "A flaw in which a program reserves memory and never frees it, using more and more resources.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Garbage collector reduz o risco, mas não elimina leaks (referências esquecidas).",
+                  "collocations": [
+                    "fix a memory leak",
+                    "detect a memory leak",
+                    "memory leak detection",
+                    "cause a memory leak"
+                  ]
+                },
+                "ES": {
+                  "text": "fuga de memoria",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Speicherleck",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "メモリリーク",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "memoririiku"
+                },
+                "ZH": {
+                  "text": "内存泄漏",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nèicún xièlòu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A memory leak crashed the server after two days.",
+                  "answer": "memory leak",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We found the memory leak with a profiler.",
+                  "answer": "memory leak",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "profiling",
+              "locales": {
+                "PT": {
+                  "text": "análise de desempenho",
+                  "definition": "Medição do tempo e da memória gastos por cada parte do programa para achar gargalos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "profiling",
+                  "definition": "Measuring the time and memory each part of a program uses in order to find bottlenecks.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Profiler é a ferramenta. Bottleneck é o gargalo que a análise procura.",
+                  "collocations": [
+                    "CPU profiling",
+                    "run profiling",
+                    "profiling tool",
+                    "memory profiling"
+                  ]
+                },
+                "ES": {
+                  "text": "perfilado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Profiling",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "プロファイリング",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "purofairingu"
+                },
+                "ZH": {
+                  "text": "性能分析",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xìngnéng fēnxī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Careful profiling showed that the sort took most of the time.",
+                  "answer": "profiling",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We use profiling to find slow functions.",
+                  "answer": "profiling",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "operacoes",
+      "title": "Operações e confiabilidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "entrega-e-observabilidade",
+          "title": "Entrega e observabilidade",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "continuous-integration",
+              "locales": {
+                "PT": {
+                  "text": "integração contínua",
+                  "definition": "Prática de integrar o código ao repositório várias vezes ao dia, com testes automáticos a cada mudança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "continuous integration",
+                  "definition": "The practice of merging code into the repository many times a day, with automatic tests on every change.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado CI. CI/CD junta integração contínua e entrega contínua (continuous delivery).",
+                  "collocations": [
+                    "continuous integration server",
+                    "continuous integration pipeline",
+                    "set up continuous integration",
+                    "continuous integration build"
+                  ]
+                },
+                "ES": {
+                  "text": "integración continua",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "kontinuierliche Integration",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "継続的インテグレーション",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "けいぞくてきいんてぐれーしょん",
+                  "romanization": "keizokutekiintegureeshon"
+                },
+                "ZH": {
+                  "text": "持续集成",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chíxù jíchéng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Our continuous integration runs the tests on every commit.",
+                  "answer": "continuous integration",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Good continuous integration catches errors early.",
+                  "answer": "continuous integration",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "monitoring",
+              "locales": {
+                "PT": {
+                  "text": "monitoramento",
+                  "definition": "Acompanhamento contínuo da saúde e do desempenho de um sistema em produção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "monitoring",
+                  "definition": "Continuous tracking of the health and performance of a system in production.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Observability é o conceito mais amplo: entender o estado do sistema a partir de logs, métricas e traces.",
+                  "collocations": [
+                    "application monitoring",
+                    "real-time monitoring",
+                    "monitoring dashboard",
+                    "monitoring tool"
+                  ]
+                },
+                "ES": {
+                  "text": "monitorización",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Überwachung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "監視",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "かんし",
+                  "romanization": "kanshi"
+                },
+                "ZH": {
+                  "text": "监控",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiānkòng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Good monitoring alerts us when the error rate rises.",
+                  "answer": "monitoring",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We added monitoring to every service.",
+                  "answer": "monitoring",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "logging",
+              "locales": {
+                "PT": {
+                  "text": "registro de logs",
+                  "definition": "Gravação de mensagens sobre o que o programa faz, para ajudar a entender falhas depois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "logging",
+                  "definition": "Recording messages about what a program does, to help understand failures later.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Níveis típicos: DEBUG, INFO, WARN, ERROR. Log é a mensagem; logging, a prática.",
+                  "collocations": [
+                    "structured logging",
+                    "enable logging",
+                    "logging level",
+                    "centralised logging"
+                  ]
+                },
+                "ES": {
+                  "text": "logging",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Logging",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ログ出力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ろぐしゅつりょく",
+                  "romanization": "rogushutsuryoku"
+                },
+                "ZH": {
+                  "text": "日志记录",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rìzhì jìlù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Detailed logging helped us find the bug.",
+                  "answer": "logging",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We reduced the logging to save disk space.",
+                  "answer": "logging",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "alert",
+              "locales": {
+                "PT": {
+                  "text": "alerta",
+                  "definition": "Notificação automática enviada quando uma métrica passa de um limite ou algo falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "alert",
+                  "definition": "An automatic notification sent when a metric crosses a threshold or something fails.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Alert fatigue é o cansaço da equipe com alertas demais. Alert também é verbo e adjetivo (atento).",
+                  "collocations": [
+                    "trigger an alert",
+                    "alert threshold",
+                    "set up an alert",
+                    "alert rule"
+                  ]
+                },
+                "ES": {
+                  "text": "alerta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Alarm",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "アラート",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "araato"
+                },
+                "ZH": {
+                  "text": "告警",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gàojǐng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "An alert fired when the disk was almost full.",
+                  "answer": "alert",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Set an alert for response times above two seconds.",
+                  "answer": "alert",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "incident",
+              "locales": {
+                "PT": {
+                  "text": "incidente",
+                  "definition": "Evento inesperado que interrompe ou degrada um serviço e exige resposta da equipe.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "incident",
+                  "definition": "An unexpected event that interrupts or degrades a service and requires a team response.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Depois do incident vem o postmortem. On-call é o plantão de quem responde.",
+                  "collocations": [
+                    "major incident",
+                    "incident response",
+                    "incident report",
+                    "declare an incident"
+                  ]
+                },
+                "ES": {
+                  "text": "incidente",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorfall",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "インシデント",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "inshidento"
+                },
+                "ZH": {
+                  "text": "事故",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shìgù"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The incident lasted forty minutes.",
+                  "answer": "incident",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "After each incident we write a short report.",
+                  "answer": "incident",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            },
+            {
+              "slug": "feature-flag",
+              "locales": {
+                "PT": {
+                  "text": "flag de funcionalidade",
+                  "definition": "Chave que liga ou desliga uma funcionalidade sem precisar publicar uma nova versão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "feature flag",
+                  "definition": "A switch that turns a feature on or off without releasing a new version.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também chamado feature toggle. Permite canary release e A/B tests.",
+                  "collocations": [
+                    "enable a feature flag",
+                    "feature flag service",
+                    "toggle a feature flag",
+                    "remove a feature flag"
+                  ]
+                },
+                "ES": {
+                  "text": "feature flag",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Feature-Flag",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "フィーチャーフラグ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "fiichaafuragu"
+                },
+                "ZH": {
+                  "text": "功能开关",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngnéng kāiguān"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "A feature flag lets us release the change to ten percent of users.",
+                  "answer": "feature flag",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We removed the feature flag after the rollout.",
+                  "answer": "feature flag",
+                  "documentType": "TECH_SPEC"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

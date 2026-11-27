@@ -1489,6 +1489,998 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "envoltoria-e-estrutura",
+      "title": "Envoltória e estrutura",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "fachada-e-cobertura",
+          "title": "Fachada e cobertura",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "curtain-wall",
+              "locales": {
+                "PT": {
+                  "text": "fachada cortina",
+                  "definition": "Parede externa leve, geralmente de vidro e metal, que não suporta as cargas do edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "幕墙",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mùqiáng",
+                  "usageNote": "Pinyin mùqiáng (幕 = cortina + 墙 = parede). Também 玻璃幕墙 (de vidro) e 金属幕墙 (de metal).",
+                  "collocations": [
+                    "玻璃幕墙",
+                    "金属幕墙",
+                    "幕墙工程"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "幕墙不承担楼板的荷载。",
+                  "answer": "幕墙",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "玻璃幕墙能引入大量自然光。",
+                  "answer": "幕墙",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cladding",
+              "locales": {
+                "PT": {
+                  "text": "revestimento externo",
+                  "definition": "Camada de material aplicada à parte externa de uma parede para proteger e dar acabamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "外墙饰面",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wàiqiáng shìmiàn",
+                  "usageNote": "Pinyin wàiqiáng shìmiàn (外墙 = parede externa + 饰面 = acabamento). Também 外墙保温 (isolamento externo).",
+                  "collocations": [
+                    "外墙保温",
+                    "饰面板",
+                    "更换饰面"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "外墙饰面由木板制成。",
+                  "answer": "外墙饰面",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "新的外墙饰面改善了建筑的保温性能。",
+                  "answer": "外墙饰面",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "parapet",
+              "locales": {
+                "PT": {
+                  "text": "platibanda",
+                  "definition": "Muro baixo que contorna a borda de um telhado, terraço ou ponte.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "女儿墙",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nǚ'érqiáng",
+                  "usageNote": "Pinyin nǚ'érqiáng (女儿 = filha + 墙 = parede, nome tradicional). Altura mínima regulada pela norma.",
+                  "collocations": [
+                    "屋顶女儿墙",
+                    "女儿墙高度",
+                    "压顶"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "女儿墙遮住了空调设备。",
+                  "answer": "女儿墙",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "一道矮矮的女儿墙围着屋顶露台。",
+                  "answer": "女儿墙",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "lintel-beam",
+              "locales": {
+                "PT": {
+                  "text": "verga",
+                  "definition": "Viga horizontal que cobre uma abertura de porta ou janela e sustenta a parede acima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "过梁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guòliáng",
+                  "usageNote": "Pinyin guòliáng (过 = atravessar + 梁 = viga). Também 门窗过梁 (verga de portas e janelas).",
+                  "collocations": [
+                    "门窗过梁",
+                    "钢过梁",
+                    "混凝土过梁"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "一根钢过梁跨过窗洞。",
+                  "answer": "过梁",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "门上方的过梁出现了裂缝。",
+                  "answer": "过梁",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "atrium-space",
+              "locales": {
+                "PT": {
+                  "text": "átrio",
+                  "definition": "Espaço central amplo e coberto, geralmente de vários pavimentos e iluminado por cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "中庭",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhōngtíng",
+                  "usageNote": "Pinyin zhōngtíng (中 = meio + 庭 = pátio). Em edifícios modernos, o átrio coberto. Também 共享空间.",
+                  "collocations": [
+                    "采光中庭",
+                    "共享空间",
+                    "玻璃顶"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "中庭把自然光引入建筑的中心。",
+                  "answer": "中庭",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每一层的办公室都面向中庭。",
+                  "answer": "中庭",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "skylight",
+              "locales": {
+                "PT": {
+                  "text": "claraboia",
+                  "definition": "Abertura envidraçada no telhado ou no forro que deixa entrar a luz natural.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "天窗",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tiānchuāng",
+                  "usageNote": "Pinyin tiānchuāng (天 = céu + 窗 = janela). Também 采光顶 (cobertura de captação de luz).",
+                  "collocations": [
+                    "采光顶",
+                    "安装天窗",
+                    "天窗开启"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "天窗照亮了楼梯间。",
+                  "answer": "天窗",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "雨水从天窗渗了进来。",
+                  "answer": "天窗",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "espacos-interiores",
+      "title": "Espaços interiores",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "circulacao-e-ambientes",
+          "title": "Circulação e ambientes",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "lobby",
+              "locales": {
+                "PT": {
+                  "text": "saguão",
+                  "definition": "Espaço de entrada e espera de um edifício, onde fica a recepção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "大堂",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "dàtáng",
+                  "usageNote": "Pinyin dàtáng (大 = grande + 堂 = salão). Em hotéis: 酒店大堂; entrada: 门厅.",
+                  "collocations": [
+                    "酒店大堂",
+                    "门厅",
+                    "前台"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "大堂的天花板是两层楼高。",
+                  "answer": "大堂",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "客人在大堂等电梯。",
+                  "answer": "大堂",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mezzanine",
+              "locales": {
+                "PT": {
+                  "text": "mezanino",
+                  "definition": "Pavimento intermediário entre dois andares principais, geralmente aberto para o pé-direito duplo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "夹层",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiācéng",
+                  "usageNote": "Pinyin jiācéng (夹 = entre + 层 = andar). Também 阁楼 (sótão/loft).",
+                  "collocations": [
+                    "钢结构夹层",
+                    "增设夹层",
+                    "阁楼"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "夹层俯瞰着主大厅。",
+                  "answer": "夹层",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们加了一个夹层，以利用多出来的层高。",
+                  "answer": "夹层",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "open-plan",
+              "locales": {
+                "PT": {
+                  "text": "planta livre",
+                  "definition": "Layout sem divisões internas fixas, em que os ambientes se integram em um só espaço.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "开放式布局",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kāifàngshì bùjú",
+                  "usageNote": "Pinyin kāifàngshì bùjú (开放式 = aberto + 布局 = layout). Também 大开间 (grande vão livre).",
+                  "collocations": [
+                    "大开间",
+                    "开放式办公室",
+                    "开放式厨房"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "办公室采用开放式布局，没有隔墙。",
+                  "answer": "开放式布局",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "开放式布局让光线照到整个楼层。",
+                  "answer": "开放式布局",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "partition",
+              "locales": {
+                "PT": {
+                  "text": "divisória",
+                  "definition": "Parede leve e não portante que divide um ambiente em dois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "隔墙",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "géqiáng",
+                  "usageNote": "Pinyin géqiáng (隔 = separar + 墙 = parede). Também 隔断 (divisória leve) e 轻质隔墙.",
+                  "collocations": [
+                    "隔断",
+                    "轻质隔墙",
+                    "玻璃隔墙"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "一面玻璃隔墙把会议室隔开。",
+                  "answer": "隔墙",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "隔墙可以移动，以扩大空间。",
+                  "answer": "隔墙",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ramp",
+              "locales": {
+                "PT": {
+                  "text": "rampa",
+                  "definition": "Superfície inclinada que liga dois níveis e permite acesso de cadeira de rodas e carrinhos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "坡道",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "pōdào",
+                  "usageNote": "Pinyin pōdào (坡 = ladeira + 道 = caminho). Acessível: 无障碍坡道.",
+                  "collocations": [
+                    "无障碍坡道",
+                    "坡度",
+                    "轮椅坡道"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "坡道让轮椅可以进入入口。",
+                  "answer": "坡道",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "坡道的坡度不得超过百分之八。",
+                  "answer": "坡道",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "handrail",
+              "locales": {
+                "PT": {
+                  "text": "corrimão",
+                  "definition": "Barra horizontal ou inclinada que se segura com a mão ao longo de escadas e rampas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "扶手",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fúshǒu",
+                  "usageNote": "Pinyin fúshǒu (扶 = apoiar + 手 = mão). Também 栏杆 (guarda-corpo).",
+                  "collocations": [
+                    "楼梯扶手",
+                    "栏杆",
+                    "安装扶手"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "楼梯两侧都装有扶手。",
+                  "answer": "扶手",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "扶手必须固定在九十厘米的高度。",
+                  "answer": "扶手",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "paisagem-e-cidade",
+      "title": "Paisagem e cidade",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "espaco-publico",
+          "title": "Espaço público",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "landscape-architecture",
+              "locales": {
+                "PT": {
+                  "text": "paisagismo",
+                  "definition": "Projeto de espaços abertos, como parques, jardins e ruas, em harmonia com o ambiente natural e construído.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "景观设计",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jǐngguān shèjì",
+                  "usageNote": "Pinyin jǐngguān shèjì (景观 = paisagem + 设计 = projeto). Também 园林 (jardins tradicionais) e 风景园林.",
+                  "collocations": [
+                    "风景园林",
+                    "园林",
+                    "景观规划"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "她进事务所之前学的是景观设计。",
+                  "answer": "景观设计",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "景观设计把公园、花园和街道连接起来。",
+                  "answer": "景观设计",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "courtyard",
+              "locales": {
+                "PT": {
+                  "text": "pátio interno",
+                  "definition": "Espaço aberto, cercado por paredes ou edifícios, no interior de um lote ou construção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "庭院",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tíngyuàn",
+                  "usageNote": "Pinyin tíngyuàn (庭 = pátio + 院 = recinto). A casa tradicional: 四合院 (siheyuan).",
+                  "collocations": [
+                    "四合院",
+                    "内庭",
+                    "庭院景观"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "庭院被两棵老树遮住了阳光。",
+                  "answer": "庭院",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "四面的房间都朝庭院敞开。",
+                  "answer": "庭院",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "pedestrian-zone",
+              "locales": {
+                "PT": {
+                  "text": "zona de pedestres",
+                  "definition": "Área urbana fechada ao tráfego de veículos e reservada a quem anda a pé.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "步行街",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bùxíngjiē",
+                  "usageNote": "Pinyin bùxíngjiē (步行 = a pé + 街 = rua). Também 步行区 e 行人专用区.",
+                  "collocations": [
+                    "步行区",
+                    "商业步行街",
+                    "行人专用区"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "老城区变成了步行街。",
+                  "answer": "步行街",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "步行街上的商店因游客增多而受益。",
+                  "answer": "步行街",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "public-square",
+              "locales": {
+                "PT": {
+                  "text": "praça",
+                  "definition": "Espaço aberto urbano de uso coletivo, para encontros, eventos e circulação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "广场",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guǎngchǎng",
+                  "usageNote": "Pinyin guǎngchǎng (广 = amplo + 场 = lugar). Também 市民广场 (praça cívica).",
+                  "collocations": [
+                    "市民广场",
+                    "中心广场",
+                    "广场舞"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "广场每周六举办集市。",
+                  "answer": "广场",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "广场中央有一座喷泉。",
+                  "answer": "广场",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mixed-use",
+              "locales": {
+                "PT": {
+                  "text": "uso misto",
+                  "definition": "Combinação de usos diferentes, como comércio, escritório e moradia, no mesmo edifício ou bairro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "混合用途",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hùnhé yòngtú",
+                  "usageNote": "Pinyin hùnhé yòngtú (混合 = misturado + 用途 = uso). Também 综合体 (complexo).",
+                  "collocations": [
+                    "城市综合体",
+                    "混合功能",
+                    "用地性质"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这栋混合用途的建筑集商店、办公室和住宅于一体。",
+                  "answer": "混合用途",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "规划师偏爱混合用途的街区，因为这样街道才有活力。",
+                  "answer": "混合用途",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "density",
+              "locales": {
+                "PT": {
+                  "text": "densidade urbana",
+                  "definition": "Quantidade de pessoas, moradias ou construções por unidade de área em uma cidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "密度",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "mìdù",
+                  "usageNote": "Pinyin mìdù (密 = denso + 度 = grau). Ex.: 人口密度, 容积率 (coeficiente de aproveitamento).",
+                  "collocations": [
+                    "人口密度",
+                    "容积率",
+                    "高密度"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "高密度住宅可以节约土地和能源。",
+                  "answer": "密度",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "市政府计划提高车站附近的密度。",
+                  "answer": "密度",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fases-do-projeto",
+      "title": "Fases do projeto",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "do-estudo-a-obra",
+          "title": "Do estudo à obra",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "schematic-design",
+              "locales": {
+                "PT": {
+                  "text": "estudo preliminar",
+                  "definition": "Primeira fase do projeto, em que o arquiteto define o partido, a distribuição e os volumes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "方案设计",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fāng'àn shèjì",
+                  "usageNote": "Pinyin fāng'àn shèjì (方案 = proposta + 设计). Segue-se 初步设计 e 施工图设计.",
+                  "collocations": [
+                    "初步设计",
+                    "施工图设计",
+                    "方案评审"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "客户上周批准了方案设计。",
+                  "answer": "方案设计",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "在方案设计中，建筑师确定布局和体量。",
+                  "answer": "方案设计",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "construction-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto executivo",
+                  "definition": "Desenho técnico detalhado usado pela obra para executar o projeto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "施工图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shīgōngtú",
+                  "usageNote": "Pinyin shīgōngtú (施工 = executar a obra + 图). O conjunto: 施工图纸.",
+                  "collocations": [
+                    "施工图纸",
+                    "施工图设计",
+                    "审图"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "施工方按照施工图进行施工。",
+                  "answer": "施工图",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每一张施工图都标明一个构件的细部。",
+                  "answer": "施工图",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "design-specification",
+              "locales": {
+                "PT": {
+                  "text": "memorial descritivo",
+                  "definition": "Documento escrito que descreve os materiais, a qualidade e os métodos de execução de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "技术规格书",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìshù guīgéshū",
+                  "usageNote": "Pinyin jìshù guīgéshū (技术 = técnica + 规格书 = documento de especificações). Abreviado 规格书; também 施工说明.",
+                  "collocations": [
+                    "规格书",
+                    "施工说明",
+                    "材料清单"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "技术规格书列出了每种材料的品牌和饰面。",
+                  "answer": "技术规格书",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "技术规格书的一处修改使预算增加了。",
+                  "answer": "技术规格书",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "mock-up",
+              "locales": {
+                "PT": {
+                  "text": "protótipo em escala real",
+                  "definition": "Modelo em tamanho real de parte do projeto, feito para avaliar materiais, cores e execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "样板",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yàngbǎn",
+                  "usageNote": "Pinyin yàngbǎn (样 = amostra + 板 = painel). Em obra, 样板间 é o apartamento-modelo.",
+                  "collocations": [
+                    "样板间",
+                    "实体样板",
+                    "做样板"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "团队在现场做了一块外立面样板。",
+                  "answer": "样板",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "足尺样板有助于客户判断材料。",
+                  "answer": "样板",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "cost-estimate",
+              "locales": {
+                "PT": {
+                  "text": "estimativa de custos",
+                  "definition": "Cálculo aproximado do custo total de um projeto antes da execução.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "造价估算",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zàojià gūsuàn",
+                  "usageNote": "Pinyin zàojià gūsuàn (造价 = custo de construção + 估算 = estimar). Mais detalhado: 概算 e 预算.",
+                  "collocations": [
+                    "概算",
+                    "工程预算",
+                    "控制造价"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "造价估算比客户的预算高出百分之十。",
+                  "answer": "造价估算",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "设计变更之后，我们更新了造价估算。",
+                  "answer": "造价估算",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "drawing-revision",
+              "locales": {
+                "PT": {
+                  "text": "revisão",
+                  "definition": "Versão corrigida de um desenho ou documento, identificada por letra ou número.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "修订",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiūdìng",
+                  "usageNote": "Pinyin xiūdìng (修 = reparar + 订 = rever). Em desenhos: 修订记录 (registro) e 修订版.",
+                  "collocations": [
+                    "修订记录",
+                    "修订版",
+                    "版本号"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这张图纸已是修订版C。",
+                  "answer": "修订",
+                  "documentType": "DESIGN_BRIEF"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每次修订都由建筑师注明日期并签字。",
+                  "answer": "修订",
+                  "documentType": "DESIGN_BRIEF"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

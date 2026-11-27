@@ -2965,6 +2965,998 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "orientacao-a-objetos",
+      "title": "Orientação a objetos",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "classes-e-tipos",
+          "title": "Classes e tipos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "class",
+              "locales": {
+                "PT": {
+                  "text": "classe",
+                  "definition": "Modelo que define os dados e os comportamentos dos objetos criados a partir dele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "类",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lèi",
+                  "usageNote": "Pinyin lèi (类 = categoria/tipo). Instância: 实例; método: 方法; subclasse: 子类.",
+                  "collocations": [
+                    "定义类",
+                    "抽象类",
+                    "实例"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个类包含三个方法。",
+                  "answer": "类",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每个类都应只负责一件事。",
+                  "answer": "类",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "interface",
+              "locales": {
+                "PT": {
+                  "text": "interface",
+                  "definition": "Contrato que lista os métodos que uma classe deve oferecer, sem dizer como funcionam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "接口",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiēkǒu",
+                  "usageNote": "Pinyin jiēkǒu (接 = ligar + 口 = abertura). Também 界面 (interface do usuário).",
+                  "collocations": [
+                    "实现接口",
+                    "公共接口",
+                    "用户界面"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这个类实现了支付接口。",
+                  "answer": "接口",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "一个清晰的接口会隐藏内部细节。",
+                  "answer": "接口",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "inheritance",
+              "locales": {
+                "PT": {
+                  "text": "herança",
+                  "definition": "Mecanismo pelo qual uma classe filha reaproveita os atributos e métodos de uma classe pai.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "继承",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìchéng",
+                  "usageNote": "Pinyin jìchéng (继 = suceder + 承 = receber). Subclasse: 子类; superclasse: 父类.",
+                  "collocations": [
+                    "多重继承",
+                    "继承层次",
+                    "子类"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "只有子类确实是父类的一种时，才使用继承。",
+                  "answer": "继承",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "继承层次太深会让代码难以理解。",
+                  "answer": "继承",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "polymorphism",
+              "locales": {
+                "PT": {
+                  "text": "polimorfismo",
+                  "definition": "Capacidade de objetos de tipos diferentes responderem à mesma chamada, cada um à sua maneira.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "多态",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duōtài",
+                  "usageNote": "Pinyin duōtài (多 = muitas + 态 = formas). Pilar da programação orientada a objetos: 面向对象.",
+                  "collocations": [
+                    "面向对象",
+                    "方法重写",
+                    "动态多态"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "借助多态，不同的对象可以响应同一个调用。",
+                  "answer": "多态",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们用多态来避免一长串if-else。",
+                  "answer": "多态",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "compiler",
+              "locales": {
+                "PT": {
+                  "text": "compilador",
+                  "definition": "Programa que traduz o código-fonte em código executável pela máquina.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "编译器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biānyìqì",
+                  "usageNote": "Pinyin biānyìqì (编译 = traduzir + 器 = ferramenta). Verbo: 编译. Interpretador: 解释器.",
+                  "collocations": [
+                    "编译错误",
+                    "编译代码",
+                    "解释器"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "编译器在第十二行报告了一个错误。",
+                  "answer": "编译器",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "更快的编译器能缩短构建时间。",
+                  "answer": "编译器",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "syntax-error",
+              "locales": {
+                "PT": {
+                  "text": "erro de sintaxe",
+                  "definition": "Erro em que o código viola as regras da linguagem e não pode ser lido ou compilado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "语法错误",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yǔfǎ cuòwù",
+                  "usageNote": "Pinyin yǔfǎ cuòwù (语法 = gramática + 错误 = erro). Execução: 运行时错误.",
+                  "collocations": [
+                    "修复语法错误",
+                    "运行时错误",
+                    "错误信息"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "少了一个括号导致了语法错误。",
+                  "answer": "语法错误",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "运行测试之前请先修复语法错误。",
+                  "answer": "语法错误",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "banco-de-dados",
+      "title": "Banco de dados",
+      "position": 11,
+      "lessons": [
+        {
+          "slug": "modelagem-e-consistencia",
+          "title": "Modelagem e consistência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "primary-key",
+              "locales": {
+                "PT": {
+                  "text": "chave primária",
+                  "definition": "Coluna ou conjunto de colunas que identifica cada linha de uma tabela de forma única.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "主键",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhǔjiàn",
+                  "usageNote": "Pinyin zhǔjiàn (主 = principal + 键 = chave). Também 主码.",
+                  "collocations": [
+                    "设置主键",
+                    "复合主键",
+                    "唯一约束"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每一行都有唯一的主键。",
+                  "answer": "主键",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "主键不能为空。",
+                  "answer": "主键",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "foreign-key",
+              "locales": {
+                "PT": {
+                  "text": "chave estrangeira",
+                  "definition": "Coluna que aponta para a chave primária de outra tabela e garante a integridade da relação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "外键",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wàijiàn",
+                  "usageNote": "Pinyin wàijiàn (外 = externo + 键 = chave). Integridade referencial: 参照完整性.",
+                  "collocations": [
+                    "外键约束",
+                    "参照完整性",
+                    "关联"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "外键把订单和客户关联起来。",
+                  "answer": "外键",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "外键可以防止出现孤立记录。",
+                  "answer": "外键",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "join",
+              "locales": {
+                "PT": {
+                  "text": "join",
+                  "definition": "Operação que combina linhas de duas ou mais tabelas com base em uma coluna em comum.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "表连接",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "biǎo liánjiē",
+                  "usageNote": "Pinyin biǎo liánjiē (表 = tabela + 连接 = ligar). Também 联结 e 多表查询.",
+                  "collocations": [
+                    "内连接",
+                    "连接条件",
+                    "多表查询"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "查询使用表连接来合并两张表。",
+                  "answer": "表连接",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "左表连接会保留第一张表的所有行。",
+                  "answer": "表连接",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "normalization",
+              "locales": {
+                "PT": {
+                  "text": "normalização",
+                  "definition": "Organização das tabelas de um banco para reduzir repetição de dados e evitar inconsistências.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "规范化",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guīfànhuà",
+                  "usageNote": "Pinyin guīfànhuà (规范 = norma + 化 = tornar). Formas: 第三范式 (3NF). Também 标准化.",
+                  "collocations": [
+                    "第三范式",
+                    "反规范化",
+                    "消除冗余"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "恰当的规范化可以消除表中的重复数据。",
+                  "answer": "规范化",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们在第三范式处停止了规范化。",
+                  "answer": "规范化",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "data-replication",
+              "locales": {
+                "PT": {
+                  "text": "replicação",
+                  "definition": "Cópia contínua dos dados de um servidor de banco de dados para outros servidores.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "数据复制",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shùjù fùzhì",
+                  "usageNote": "Pinyin shùjù fùzhì (数据 = dados + 复制 = copiar). Réplica: 副本 ou 从库.",
+                  "collocations": [
+                    "主从复制",
+                    "副本",
+                    "复制延迟"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "数据复制会在另一台服务器上保留一份数据库副本。",
+                  "answer": "数据复制",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们密切监控数据复制的延迟。",
+                  "answer": "数据复制",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "deadlock",
+              "locales": {
+                "PT": {
+                  "text": "impasse",
+                  "definition": "Situação em que duas ou mais transações esperam uma pela outra e nenhuma consegue continuar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "死锁",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "sǐsuǒ",
+                  "usageNote": "Pinyin sǐsuǒ (死 = morto + 锁 = trava). Evitar: 避免死锁.",
+                  "collocations": [
+                    "避免死锁",
+                    "事务",
+                    "锁等待"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "两个事务造成了死锁。",
+                  "answer": "死锁",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "数据库检测到死锁后会取消其中一个。",
+                  "answer": "死锁",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "concorrencia-e-desempenho",
+      "title": "Concorrência e desempenho",
+      "position": 12,
+      "lessons": [
+        {
+          "slug": "threads-e-memoria",
+          "title": "Threads e memória",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "thread",
+              "locales": {
+                "PT": {
+                  "text": "thread",
+                  "definition": "Sequência de instruções que um programa executa de forma independente, dentro do mesmo processo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "线程",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiànchéng",
+                  "usageNote": "Pinyin xiànchéng (线 = fio + 程 = processo). Multithread: 多线程; processo: 进程.",
+                  "collocations": [
+                    "主线程",
+                    "线程池",
+                    "多线程"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "服务器在单独的线程中处理每个请求。",
+                  "answer": "线程",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "线程太多会拖慢系统。",
+                  "answer": "线程",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "race-condition",
+              "locales": {
+                "PT": {
+                  "text": "condição de corrida",
+                  "definition": "Erro em que o resultado depende da ordem imprevisível em que threads acessam um mesmo recurso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "竞态条件",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jìngtài tiáojiàn",
+                  "usageNote": "Pinyin jìngtài tiáojiàn (竞态 = corrida + 条件 = condição). Também 竞争条件.",
+                  "collocations": [
+                    "竞争条件",
+                    "数据竞争",
+                    "互斥锁"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "竞态条件破坏了共享计数器。",
+                  "answer": "竞态条件",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们用锁修复了竞态条件。",
+                  "answer": "竞态条件",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "asynchronous",
+              "locales": {
+                "PT": {
+                  "text": "assíncrono",
+                  "definition": "Que não espera a conclusão de uma operação para continuar executando outras tarefas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "异步",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yìbù",
+                  "usageNote": "Pinyin yìbù (异 = diferente + 步 = passo). Oposto: 同步. Também 异步编程.",
+                  "collocations": [
+                    "异步编程",
+                    "同步",
+                    "异步调用"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "异步调用不会阻塞主线程。",
+                  "answer": "异步",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "编写异步代码时需要仔细处理错误。",
+                  "answer": "异步",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "callback",
+              "locales": {
+                "PT": {
+                  "text": "callback",
+                  "definition": "Função passada como argumento para ser executada mais tarde, quando um evento ou tarefa terminar.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "回调",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huídiào",
+                  "usageNote": "Pinyin huídiào (回 = voltar + 调 = chamar). Ex.: 回调函数, 回调地狱.",
+                  "collocations": [
+                    "回调函数",
+                    "回调地狱",
+                    "注册回调"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "传入一个回调，在下载结束时执行。",
+                  "answer": "回调",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "回调会把结果作为参数接收。",
+                  "answer": "回调",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "memory-leak",
+              "locales": {
+                "PT": {
+                  "text": "vazamento de memória",
+                  "definition": "Falha em que o programa reserva memória e não a libera, consumindo cada vez mais recursos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "内存泄漏",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "nèicún xièlòu",
+                  "usageNote": "Pinyin nèicún xièlòu (内存 = memória + 泄漏 = vazamento). Também 内存溢出 (estouro).",
+                  "collocations": [
+                    "内存溢出",
+                    "垃圾回收",
+                    "排查内存"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "内存泄漏使服务器在两天后崩溃。",
+                  "answer": "内存泄漏",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们用性能分析器找到了内存泄漏。",
+                  "answer": "内存泄漏",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "profiling",
+              "locales": {
+                "PT": {
+                  "text": "análise de desempenho",
+                  "definition": "Medição do tempo e da memória gastos por cada parte do programa para achar gargalos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "性能分析",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xìngnéng fēnxī",
+                  "usageNote": "Pinyin xìngnéng fēnxī (性能 = desempenho + 分析 = análise). Gargalo: 瓶颈.",
+                  "collocations": [
+                    "瓶颈",
+                    "性能分析工具",
+                    "火焰图"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "细致的性能分析显示，排序占用了大部分时间。",
+                  "answer": "性能分析",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们用性能分析来找出慢函数。",
+                  "answer": "性能分析",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "operacoes",
+      "title": "Operações e confiabilidade",
+      "position": 13,
+      "lessons": [
+        {
+          "slug": "entrega-e-observabilidade",
+          "title": "Entrega e observabilidade",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "continuous-integration",
+              "locales": {
+                "PT": {
+                  "text": "integração contínua",
+                  "definition": "Prática de integrar o código ao repositório várias vezes ao dia, com testes automáticos a cada mudança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "持续集成",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chíxù jíchéng",
+                  "usageNote": "Pinyin chíxù jíchéng (持续 = contínuo + 集成 = integração). Abreviado CI; entrega: 持续交付.",
+                  "collocations": [
+                    "持续交付",
+                    "持续部署",
+                    "自动化测试"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我们的持续集成会在每次提交时运行测试。",
+                  "answer": "持续集成",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "好的持续集成能及早发现错误。",
+                  "answer": "持续集成",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "monitoring",
+              "locales": {
+                "PT": {
+                  "text": "monitoramento",
+                  "definition": "Acompanhamento contínuo da saúde e do desempenho de um sistema em produção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "监控",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jiānkòng",
+                  "usageNote": "Pinyin jiānkòng (监 = vigiar + 控 = controlar). Painel: 监控面板.",
+                  "collocations": [
+                    "监控面板",
+                    "实时监控",
+                    "监控系统"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "好的监控会在错误率上升时通知我们。",
+                  "answer": "监控",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们给每个服务都加了监控。",
+                  "answer": "监控",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "logging",
+              "locales": {
+                "PT": {
+                  "text": "registro de logs",
+                  "definition": "Gravação de mensagens sobre o que o programa faz, para ajudar a entender falhas depois.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "日志记录",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "rìzhì jìlù",
+                  "usageNote": "Pinyin rìzhì jìlù (日志 = diário + 记录 = registrar). Nível: 日志级别.",
+                  "collocations": [
+                    "日志级别",
+                    "查看日志",
+                    "日志系统"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "详细的日志记录帮助我们找到了错误。",
+                  "answer": "日志记录",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为了节省磁盘空间，我们减少了日志记录。",
+                  "answer": "日志记录",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "alert",
+              "locales": {
+                "PT": {
+                  "text": "alerta",
+                  "definition": "Notificação automática enviada quando uma métrica passa de um limite ou algo falha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "告警",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gàojǐng",
+                  "usageNote": "Pinyin gàojǐng (告 = avisar + 警 = alertar). Também 报警 e 预警 (aviso prévio).",
+                  "collocations": [
+                    "告警规则",
+                    "阈值",
+                    "预警"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "磁盘快满时触发了告警。",
+                  "answer": "告警",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为超过两秒的响应时间设置一个告警。",
+                  "answer": "告警",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "incident",
+              "locales": {
+                "PT": {
+                  "text": "incidente",
+                  "definition": "Evento inesperado que interrompe ou degrada um serviço e exige resposta da equipe.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "事故",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shìgù",
+                  "usageNote": "Pinyin shìgù (事 = evento + 故 = acidente). Também 故障 (falha) e 事件.",
+                  "collocations": [
+                    "故障",
+                    "事故报告",
+                    "应急响应"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这次事故持续了四十分钟。",
+                  "answer": "事故",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "每次事故之后，我们都会写一份简短的报告。",
+                  "answer": "事故",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "feature-flag",
+              "locales": {
+                "PT": {
+                  "text": "flag de funcionalidade",
+                  "definition": "Chave que liga ou desliga uma funcionalidade sem precisar publicar uma nova versão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "功能开关",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngnéng kāiguān",
+                  "usageNote": "Pinyin gōngnéng kāiguān (功能 = funcionalidade + 开关 = interruptor). Também 特性开关; lançamento gradual: 灰度发布.",
+                  "collocations": [
+                    "灰度发布",
+                    "特性开关",
+                    "开启功能"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "借助功能开关，我们可以只向百分之十的用户发布这项改动。",
+                  "answer": "功能开关",
+                  "documentType": "TECH_SPEC"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "全量发布之后，我们移除了功能开关。",
+                  "answer": "功能开关",
+                  "documentType": "TECH_SPEC"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ]
 }

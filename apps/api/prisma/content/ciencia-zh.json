@@ -1489,6 +1489,998 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "analise-de-dados",
+      "title": "Análise de dados",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "modelos-e-inferencia",
+          "title": "Modelos e inferência",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "linear-regression",
+              "locales": {
+                "PT": {
+                  "text": "regressão",
+                  "definition": "Técnica estatística que descreve como uma variável muda em função de outra ou de várias.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "回归",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huíguī",
+                  "usageNote": "Pinyin huíguī (回 = voltar + 归 = retornar). Também 回归分析 e 线性回归.",
+                  "collocations": [
+                    "回归分析",
+                    "线性回归",
+                    "回归直线"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "回归显示出正向趋势。",
+                  "answer": "回归",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "我们对调查数据做了回归。",
+                  "answer": "回归",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "confidence-interval",
+              "locales": {
+                "PT": {
+                  "text": "intervalo de confiança",
+                  "definition": "Faixa de valores que provavelmente contém o valor verdadeiro de um parâmetro, com um nível de confiança dado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "置信区间",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhìxìn qūjiān",
+                  "usageNote": "Pinyin zhìxìn qūjiān (置信 = confiança + 区间 = intervalo). Nível: 置信水平.",
+                  "collocations": [
+                    "置信水平",
+                    "计算置信区间",
+                    "区间估计"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "百分之九十五的置信区间很窄。",
+                  "answer": "置信区间",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "置信区间很宽，说明不确定性很大。",
+                  "answer": "置信区间",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "null-hypothesis",
+              "locales": {
+                "PT": {
+                  "text": "hipótese nula",
+                  "definition": "Afirmação de que não há efeito ou diferença, testada contra os dados.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "零假设",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "língjiǎshè",
+                  "usageNote": "Pinyin língjiǎshè (零 = zero + 假设 = hipótese). Alternativa: 备择假设.",
+                  "collocations": [
+                    "拒绝零假设",
+                    "备择假设",
+                    "假设检验"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我们无法拒绝零假设。",
+                  "answer": "零假设",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "零假设认为两者没有差异。",
+                  "answer": "零假设",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "variance",
+              "locales": {
+                "PT": {
+                  "text": "variância",
+                  "definition": "Medida de quanto os valores se dispersam em torno da média, igual ao desvio padrão ao quadrado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "方差",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fāngchā",
+                  "usageNote": "Pinyin fāngchā (方 = quadrado + 差 = diferença). Também 方差分析 (ANOVA).",
+                  "collocations": [
+                    "方差分析",
+                    "样本方差",
+                    "标准差"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "这一组的方差异常大。",
+                  "answer": "方差",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "方差的平方根就是标准差。",
+                  "answer": "方差",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "bias",
+              "locales": {
+                "PT": {
+                  "text": "viés",
+                  "definition": "Erro sistemático que desloca os resultados de um estudo sempre na mesma direção.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "偏倚",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "piānyǐ",
+                  "usageNote": "Pinyin piānyǐ (偏 = desviar + 倚 = inclinar). Em estatística; em linguagem geral, 偏见 (preconceito).",
+                  "collocations": [
+                    "选择偏倚",
+                    "发表偏倚",
+                    "减少偏倚"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "选择偏倚可能扭曲结果。",
+                  "answer": "偏倚",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这项研究试图用盲法减少偏倚。",
+                  "answer": "偏倚",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "normal-distribution",
+              "locales": {
+                "PT": {
+                  "text": "distribuição normal",
+                  "definition": "Distribuição simétrica em forma de sino, em que a maioria dos valores fica perto da média.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "正态分布",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhèngtài fēnbù",
+                  "usageNote": "Pinyin zhèngtài fēnbù (正态 = normal + 分布 = distribuição). Também 高斯分布.",
+                  "collocations": [
+                    "标准正态分布",
+                    "高斯分布",
+                    "服从正态分布"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "在大样本中，身高服从正态分布。",
+                  "answer": "正态分布",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "正态分布的图形像一口钟。",
+                  "answer": "正态分布",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumentos",
+      "title": "Instrumentos de laboratório",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "medicao-e-vidraria",
+          "title": "Medição e vidraria",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "spectrometer",
+              "locales": {
+                "PT": {
+                  "text": "espectrômetro",
+                  "definition": "Aparelho que mede a intensidade da luz ou de outras radiações em função do comprimento de onda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "光谱仪",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guāngpǔyí",
+                  "usageNote": "Pinyin guāngpǔyí (光谱 = espectro + 仪 = instrumento). Tipos: 质谱仪 (de massa).",
+                  "collocations": [
+                    "质谱仪",
+                    "红外光谱仪",
+                    "光谱分析"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "光谱仪测量光的波长。",
+                  "answer": "光谱仪",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "光谱仪可以通过分析光来鉴定物质。",
+                  "answer": "光谱仪",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "thermometer",
+              "locales": {
+                "PT": {
+                  "text": "termômetro",
+                  "definition": "Instrumento que mede a temperatura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "温度计",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wēndùjì",
+                  "usageNote": "Pinyin wēndùjì (温度 = temperatura + 计 = medidor). Clínico: 体温计.",
+                  "collocations": [
+                    "体温计",
+                    "数字温度计",
+                    "读温度计"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "温度计显示二十度。",
+                  "answer": "温度计",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "实验前请校准温度计。",
+                  "answer": "温度计",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "voltmeter",
+              "locales": {
+                "PT": {
+                  "text": "voltímetro",
+                  "definition": "Instrumento que mede a diferença de potencial elétrico entre dois pontos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "电压表",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànyābiǎo",
+                  "usageNote": "Pinyin diànyābiǎo (电压 = tensão + 表 = medidor). Corrente: 电流表.",
+                  "collocations": [
+                    "电流表",
+                    "万用表",
+                    "读数"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "电压表要与元件并联。",
+                  "answer": "电压表",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "电压表显示为4.8伏。",
+                  "answer": "电压表",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "graduated-cylinder",
+              "locales": {
+                "PT": {
+                  "text": "proveta",
+                  "definition": "Recipiente cilíndrico com escala usado para medir volumes de líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "量筒",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "liángtǒng",
+                  "usageNote": "Pinyin liángtǒng (量 = medir + 筒 = tubo). Também 量杯 (copo medidor) e 刻度.",
+                  "collocations": [
+                    "量杯",
+                    "刻度",
+                    "读取体积"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "把溶液倒入量筒。",
+                  "answer": "量筒",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "量筒比烧杯更精确。",
+                  "answer": "量筒",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "beaker",
+              "locales": {
+                "PT": {
+                  "text": "béquer",
+                  "definition": "Recipiente cilíndrico de vidro, de boca larga, usado para misturar e aquecer líquidos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "烧杯",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "shāobēi",
+                  "usageNote": "Pinyin shāobēi (烧 = queimar/aquecer + 杯 = copo). Instrumento básico de laboratório.",
+                  "collocations": [
+                    "玻璃烧杯",
+                    "烧杯加热",
+                    "实验器材"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "在烧杯里加热水。",
+                  "answer": "烧杯",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "烧杯冷却得太快，裂开了。",
+                  "answer": "烧杯",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "incubator",
+              "locales": {
+                "PT": {
+                  "text": "incubadora",
+                  "definition": "Aparelho que mantém temperatura e condições constantes para cultivar células ou micro-organismos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "培养箱",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "péiyǎngxiāng",
+                  "usageNote": "Pinyin péiyǎngxiāng (培养 = cultivar + 箱 = caixa). Também 恒温箱 e 孵育箱.",
+                  "collocations": [
+                    "恒温箱",
+                    "孵育箱",
+                    "细胞培养"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "细胞在37度的培养箱里生长。",
+                  "answer": "培养箱",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "为保持温度，请关好培养箱的门。",
+                  "answer": "培养箱",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "terra-e-espaco",
+      "title": "Terra e espaço",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "planeta-e-universo",
+          "title": "Planeta e universo",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "gravity",
+              "locales": {
+                "PT": {
+                  "text": "gravidade",
+                  "definition": "Força de atração entre corpos com massa, que mantém os objetos no chão e os planetas em órbita.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "重力",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhònglì",
+                  "usageNote": "Pinyin zhònglì (重 = pesado + 力 = força). Também 万有引力 (gravitação universal).",
+                  "collocations": [
+                    "重力加速度",
+                    "失重",
+                    "万有引力"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "月球上的重力比地球小。",
+                  "answer": "重力",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "宇航员会漂浮，是因为轨道上的重力很小。",
+                  "answer": "重力",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "orbit",
+              "locales": {
+                "PT": {
+                  "text": "órbita",
+                  "definition": "Trajetória curva de um corpo ao redor de outro, como um satélite ao redor da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "轨道",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "guǐdào",
+                  "usageNote": "Pinyin guǐdào (轨 = trilho + 道 = caminho). Também 地球轨道 e 椭圆轨道.",
+                  "collocations": [
+                    "椭圆轨道",
+                    "近地轨道",
+                    "轨道运行"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "卫星保持在四百公里高的轨道上。",
+                  "answer": "轨道",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "月球每二十七天绕地球轨道运行一周。",
+                  "answer": "轨道",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "telescope",
+              "locales": {
+                "PT": {
+                  "text": "telescópio",
+                  "definition": "Instrumento óptico que amplia a imagem de objetos distantes, como estrelas e planetas.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "望远镜",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wàngyuǎnjìng",
+                  "usageNote": "Pinyin wàngyuǎnjìng (望远 = ver ao longe + 镜 = lente). Tipos: 射电望远镜 (rádio).",
+                  "collocations": [
+                    "射电望远镜",
+                    "太空望远镜",
+                    "天文望远镜"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "望远镜拍到了一个遥远星系的图像。",
+                  "answer": "望远镜",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "太空中的望远镜可以避开大气的模糊。",
+                  "answer": "望远镜",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "galaxy",
+              "locales": {
+                "PT": {
+                  "text": "galáxia",
+                  "definition": "Enorme conjunto de estrelas, gás e poeira mantido junto pela gravidade.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "星系",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xīngxì",
+                  "usageNote": "Pinyin xīngxì (星 = estrela + 系 = sistema). A nossa: 银河系. Também 河外星系 (outras galáxias).",
+                  "collocations": [
+                    "银河系",
+                    "旋涡星系",
+                    "河外星系"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "我们所在的星系含有数十亿颗恒星。",
+                  "answer": "星系",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "最近的大星系发出的光要走几百万年才能到达。",
+                  "answer": "星系",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "fossil",
+              "locales": {
+                "PT": {
+                  "text": "fóssil",
+                  "definition": "Restos ou marcas preservados de um ser vivo antigo, geralmente em rocha.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "化石",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "huàshí",
+                  "usageNote": "Pinyin huàshí (化 = transformar + 石 = pedra). Combustível fóssil: 化石燃料.",
+                  "collocations": [
+                    "化石燃料",
+                    "恐龙化石",
+                    "发掘化石"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "科学家发现了一块古代鱼类的化石。",
+                  "answer": "化石",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "这块化石大约有三亿年的历史。",
+                  "answer": "化石",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tectonic-plate",
+              "locales": {
+                "PT": {
+                  "text": "placa tectônica",
+                  "definition": "Grande bloco rígido da litosfera que se move lentamente sobre o manto da Terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "板块",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bǎnkuài",
+                  "usageNote": "Pinyin bǎnkuài (板 = placa + 块 = bloco). Teoria: 板块构造学说. Também 地壳板块.",
+                  "collocations": [
+                    "板块构造",
+                    "板块边界",
+                    "地壳板块"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每一块板块每年移动几厘米。",
+                  "answer": "板块",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "地震发生在一块板块滑入另一块岩层之下的地方。",
+                  "answer": "板块",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "etica-e-publicacao",
+      "title": "Ética e financiamento",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "boas-praticas",
+          "title": "Boas práticas de pesquisa",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "research-grant",
+              "locales": {
+                "PT": {
+                  "text": "bolsa de pesquisa",
+                  "definition": "Quantia concedida por uma instituição para financiar um projeto de pesquisa.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "科研经费",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "kēyán jīngfèi",
+                  "usageNote": "Pinyin kēyán jīngfèi (科研 = pesquisa científica + 经费 = verba). Também 研究基金 e 项目经费.",
+                  "collocations": [
+                    "申请科研经费",
+                    "研究基金",
+                    "项目经费"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "她获得了二十万欧元的科研经费。",
+                  "answer": "科研经费",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "科研经费用于设备和薪酬。",
+                  "answer": "科研经费",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ethics-committee",
+              "locales": {
+                "PT": {
+                  "text": "comitê de ética",
+                  "definition": "Grupo que avalia se um estudo respeita os direitos e a segurança dos participantes.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "伦理委员会",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lúnlǐ wěiyuánhuì",
+                  "usageNote": "Pinyin lúnlǐ wěiyuánhuì (伦理 = ética + 委员会 = comitê). Nos hospitais: 医学伦理委员会.",
+                  "collocations": [
+                    "伦理审查",
+                    "医学伦理委员会",
+                    "获得批准"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "伦理委员会批准了研究方案。",
+                  "answer": "伦理委员会",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "研究人员必须先把计划提交给伦理委员会。",
+                  "answer": "伦理委员会",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "participant-consent",
+              "locales": {
+                "PT": {
+                  "text": "consentimento informado",
+                  "definition": "Concordância voluntária de uma pessoa em participar, depois de entender os riscos e objetivos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "知情同意",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zhīqíng tóngyì",
+                  "usageNote": "Pinyin zhīqíng tóngyì (知情 = ciente + 同意 = concordar). Documento: 知情同意书.",
+                  "collocations": [
+                    "知情同意书",
+                    "获得同意",
+                    "撤回同意"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "每位参与者都以书面形式给出了知情同意。",
+                  "answer": "知情同意",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "没有知情同意的研究是不道德的。",
+                  "answer": "知情同意",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "conflict-of-interest",
+              "locales": {
+                "PT": {
+                  "text": "conflito de interesses",
+                  "definition": "Situação em que interesses pessoais ou financeiros podem influenciar o julgamento do pesquisador.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "利益冲突",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "lìyì chōngtū",
+                  "usageNote": "Pinyin lìyì chōngtū (利益 = interesse + 冲突 = conflito). Em artigos: 利益冲突声明.",
+                  "collocations": [
+                    "利益冲突声明",
+                    "声明利益冲突",
+                    "回避"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "作者声明存在利益冲突。",
+                  "answer": "利益冲突",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "利益冲突可能削弱人们对结果的信任。",
+                  "answer": "利益冲突",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "preprint",
+              "locales": {
+                "PT": {
+                  "text": "pré-publicação",
+                  "definition": "Versão de um artigo divulgada publicamente antes de passar pela revisão por pares.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "预印本",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yùyìnběn",
+                  "usageNote": "Pinyin yùyìnběn (预 = antes + 印本 = cópia impressa). Servidores como arXiv; revisão: 同行评审.",
+                  "collocations": [
+                    "预印本服务器",
+                    "同行评审",
+                    "发布预印本"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "团队在同行评审之前发布了预印本。",
+                  "answer": "预印本",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "预印本还没有经过审稿人的检查。",
+                  "answer": "预印本",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "retraction",
+              "locales": {
+                "PT": {
+                  "text": "retratação",
+                  "definition": "Retirada formal de um artigo publicado por conter erro grave ou má conduta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "ZH": {
+                  "text": "撤稿",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chègǎo",
+                  "usageNote": "Pinyin chègǎo (撤 = retirar + 稿 = manuscrito). Também 撤回论文; má conduta: 学术不端.",
+                  "collocations": [
+                    "撤回论文",
+                    "学术不端",
+                    "撤稿声明"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "ZH",
+                  "sentence": "发现数据造假后，期刊发布了撤稿声明。",
+                  "answer": "撤稿",
+                  "documentType": "RESEARCH_PAPER"
+                },
+                {
+                  "language": "ZH",
+                  "sentence": "撤稿通知说明了论文被撤回的原因。",
+                  "answer": "撤稿",
+                  "documentType": "RESEARCH_PAPER"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {

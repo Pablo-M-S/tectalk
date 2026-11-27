@@ -2425,6 +2425,1616 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "maquinas-de-obra",
+      "title": "Máquinas de obra",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "equipamentos-pesados",
+          "title": "Equipamentos pesados",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "crane",
+              "locales": {
+                "PT": {
+                  "text": "guindaste",
+                  "definition": "Máquina que levanta e desloca cargas pesadas com cabos e lança.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "crane",
+                  "definition": "A machine that lifts and moves heavy loads with cables and a boom.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Tower crane é o guindaste de torre e mobile crane o autopropelido. Também é o nome da ave (grou).",
+                  "collocations": [
+                    "tower crane",
+                    "crane operator",
+                    "mobile crane",
+                    "crane hook"
+                  ]
+                },
+                "ES": {
+                  "text": "grúa",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kran",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "クレーン",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "kureen"
+                },
+                "ZH": {
+                  "text": "起重机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "qǐzhòngjī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The crane lifted the steel beams onto the third floor.",
+                  "answer": "crane",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Only a certified operator may use the crane.",
+                  "answer": "crane",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "excavator",
+              "locales": {
+                "PT": {
+                  "text": "escavadeira",
+                  "definition": "Máquina de esteiras com braço e caçamba para escavar e carregar terra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "excavator",
+                  "definition": "A tracked machine with an arm and bucket for digging and loading soil.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Nos EUA também se ouve backhoe para a retroescavadeira; digger é a forma coloquial britânica.",
+                  "collocations": [
+                    "hydraulic excavator",
+                    "excavator bucket",
+                    "mini excavator",
+                    "excavator operator"
+                  ]
+                },
+                "ES": {
+                  "text": "excavadora",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bagger",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "油圧ショベル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ゆあつショベル",
+                  "romanization": "yuatsushoberu"
+                },
+                "ZH": {
+                  "text": "挖掘机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wājuéjī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The excavator dug the trench for the water main.",
+                  "answer": "excavator",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An excavator with a long arm reached the bottom of the pit.",
+                  "answer": "excavator",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "bulldozer",
+              "locales": {
+                "PT": {
+                  "text": "trator de esteira",
+                  "definition": "Trator de esteiras com lâmina frontal para empurrar terra e nivelar o terreno.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "bulldozer",
+                  "definition": "A tracked tractor with a front blade for pushing soil and levelling ground.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo to bulldoze significa demolir ou aplainar; no sentido figurado, atropelar uma oposição.",
+                  "collocations": [
+                    "operate a bulldozer",
+                    "bulldozer blade",
+                    "bulldozer operator",
+                    "bulldozer track"
+                  ]
+                },
+                "ES": {
+                  "text": "topadora",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Planierraupe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ブルドーザー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "burudoozaa"
+                },
+                "ZH": {
+                  "text": "推土机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tuītǔjī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The bulldozer levelled the site before the foundation work.",
+                  "answer": "bulldozer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A bulldozer pushed the rubble to the edge of the lot.",
+                  "answer": "bulldozer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "concrete-mixer",
+              "locales": {
+                "PT": {
+                  "text": "betoneira",
+                  "definition": "Máquina com tambor giratório que mistura cimento, agregados e água.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "concrete mixer",
+                  "definition": "A machine with a rotating drum that mixes cement, aggregate and water.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Cement mixer é a mesma máquina em inglês britânico; o caminhão betoneira é a ready-mix truck.",
+                  "collocations": [
+                    "concrete mixer truck",
+                    "portable concrete mixer",
+                    "drum of the concrete mixer",
+                    "mixer capacity"
+                  ]
+                },
+                "ES": {
+                  "text": "hormigonera",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Betonmischer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "コンクリートミキサー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "konkuriitomikisaa"
+                },
+                "ZH": {
+                  "text": "混凝土搅拌机",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "hùnníngtǔ jiǎobànjī"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The concrete mixer runs for three minutes per batch.",
+                  "answer": "concrete mixer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A concrete mixer truck delivered ten cubic metres.",
+                  "answer": "concrete mixer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "drill",
+              "locales": {
+                "PT": {
+                  "text": "furadeira",
+                  "definition": "Ferramenta elétrica que gira uma broca para furar madeira, metal ou concreto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "drill",
+                  "definition": "A power tool that turns a bit to bore holes in wood, metal or concrete.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Drill é a furadeira; drill bit é a broca. Hammer drill é a furadeira de impacto.",
+                  "collocations": [
+                    "cordless drill",
+                    "hammer drill",
+                    "drill bit",
+                    "electric drill"
+                  ]
+                },
+                "ES": {
+                  "text": "taladro",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bohrmaschine",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電動ドリル",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんどうドリル",
+                  "romanization": "dendoudoriru"
+                },
+                "ZH": {
+                  "text": "电钻",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "diànzuàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Use the drill with a masonry bit for the concrete wall.",
+                  "answer": "drill",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The battery of the drill ran out in the middle of the job.",
+                  "answer": "drill",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "jackhammer",
+              "locales": {
+                "PT": {
+                  "text": "martelo pneumático",
+                  "definition": "Ferramenta pesada de impacto, a ar comprimido ou elétrica, para quebrar concreto e asfalto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "jackhammer",
+                  "definition": "A heavy impact tool, powered by compressed air or electricity, for breaking concrete and asphalt.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No inglês britânico, pneumatic drill é o termo equivalente. Exige proteção auricular.",
+                  "collocations": [
+                    "operate a jackhammer",
+                    "jackhammer noise",
+                    "electric jackhammer",
+                    "pneumatic jackhammer"
+                  ]
+                },
+                "ES": {
+                  "text": "martillo neumático",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Presslufthammer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "削岩機",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さくがんき",
+                  "romanization": "sakuganki"
+                },
+                "ZH": {
+                  "text": "风镐",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēnggǎo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Workers used a jackhammer to break up the old pavement.",
+                  "answer": "jackhammer",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The noise of the jackhammer is above the safe limit.",
+                  "answer": "jackhammer",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instalacoes",
+      "title": "Instalações",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "eletrica-e-hidraulica",
+          "title": "Instalações elétricas e hidráulicas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "wiring",
+              "locales": {
+                "PT": {
+                  "text": "fiação",
+                  "definition": "Conjunto de fios e cabos que formam a instalação elétrica de um edifício ou equipamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "wiring",
+                  "definition": "The set of wires and cables that form the electrical installation of a building or machine.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Wiring é incontável; um fio isolado é wire. Rewiring é refazer a fiação.",
+                  "collocations": [
+                    "electrical wiring",
+                    "wiring diagram",
+                    "rewire the building",
+                    "faulty wiring"
+                  ]
+                },
+                "ES": {
+                  "text": "cableado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verkabelung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "配線",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいせん",
+                  "romanization": "haisen"
+                },
+                "ZH": {
+                  "text": "布线",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "bùxiàn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The old wiring does not meet the current code.",
+                  "answer": "wiring",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A fault in the wiring caused the short circuit.",
+                  "answer": "wiring",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "conduit",
+              "locales": {
+                "PT": {
+                  "text": "eletroduto",
+                  "definition": "Tubo que protege e conduz fios e cabos elétricos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "conduit",
+                  "definition": "A tube that protects and carries electrical wires and cables.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em instalações, pipe e tube são para fluidos; conduit é para fios. Pronuncia-se /ˈkɒndjuɪt/.",
+                  "collocations": [
+                    "metal conduit",
+                    "flexible conduit",
+                    "conduit run",
+                    "conduit fitting"
+                  ]
+                },
+                "ES": {
+                  "text": "conducto",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Leerrohr",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "電線管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "でんせんかん",
+                  "romanization": "densenkan"
+                },
+                "ZH": {
+                  "text": "线管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "xiànguǎn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The cables run inside a metal conduit along the wall.",
+                  "answer": "conduit",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A flexible conduit connects the box to the motor.",
+                  "answer": "conduit",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "plumbing",
+              "locales": {
+                "PT": {
+                  "text": "encanamento",
+                  "definition": "Sistema de tubos, conexões e aparelhos que leva água para o edifício e retira o esgoto.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "plumbing",
+                  "definition": "The system of pipes, fittings and fixtures that brings water into a building and carries waste out.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Plumber é o encanador. O b de plumbing é mudo: /ˈplʌmɪŋ/. Vem do latim plumbum (chumbo).",
+                  "collocations": [
+                    "plumbing system",
+                    "plumbing fixture",
+                    "plumbing work",
+                    "plumbing contractor"
+                  ]
+                },
+                "ES": {
+                  "text": "fontanería",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sanitärinstallation",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "給排水設備",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "きゅうはいすいせつび",
+                  "romanization": "kyuuhaisuisetsubi"
+                },
+                "ZH": {
+                  "text": "给排水",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gěipáishuǐ"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The plumbing in the bathroom needs to be replaced.",
+                  "answer": "plumbing",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A burst pipe flooded the floor because of old plumbing.",
+                  "answer": "plumbing",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "drain",
+              "locales": {
+                "PT": {
+                  "text": "ralo",
+                  "definition": "Abertura ou tubo por onde a água e os resíduos líquidos escoam.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "drain",
+                  "definition": "An opening or pipe through which water and liquid waste flow away.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Drain é verbo e substantivo: drain the tank é esvaziar. Storm drain é o bueiro de águas pluviais.",
+                  "collocations": [
+                    "floor drain",
+                    "drain pipe",
+                    "blocked drain",
+                    "storm drain"
+                  ]
+                },
+                "ES": {
+                  "text": "desagüe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Abfluss",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "排水口",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "はいすいこう",
+                  "romanization": "haisuikou"
+                },
+                "ZH": {
+                  "text": "排水口",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "páishuǐkǒu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The floor slopes towards the drain.",
+                  "answer": "drain",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Hair blocked the drain in the shower.",
+                  "answer": "drain",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "circuit-breaker",
+              "locales": {
+                "PT": {
+                  "text": "disjuntor",
+                  "definition": "Dispositivo que interrompe o circuito automaticamente em caso de sobrecarga ou curto-circuito.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "circuit breaker",
+                  "definition": "A device that automatically interrupts a circuit in case of overload or short circuit.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O fusível (fuse) queima e é trocado; o circuit breaker desarma (trips) e é rearmado.",
+                  "collocations": [
+                    "trip the circuit breaker",
+                    "reset the circuit breaker",
+                    "main circuit breaker",
+                    "circuit breaker panel"
+                  ]
+                },
+                "ES": {
+                  "text": "disyuntor",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Leitungsschutzschalter",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ブレーカー",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "bureekaa"
+                },
+                "ZH": {
+                  "text": "断路器",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "duànlùqì"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The circuit breaker tripped when the heater was switched on.",
+                  "answer": "circuit breaker",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Reset the circuit breaker after fixing the fault.",
+                  "answer": "circuit breaker",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "duct",
+              "locales": {
+                "PT": {
+                  "text": "duto",
+                  "definition": "Conduto fechado que leva ar, cabos ou outros fluidos de um ponto a outro de um edifício.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "duct",
+                  "definition": "An enclosed channel that carries air, cables or other fluids from one point to another in a building.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Ductwork é o conjunto de dutos. Duct tape é a fita adesiva, também usada para vedar dutos.",
+                  "collocations": [
+                    "air duct",
+                    "ventilation duct",
+                    "duct work",
+                    "duct cleaning"
+                  ]
+                },
+                "ES": {
+                  "text": "conducto de ventilación",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Lüftungskanal",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "ダクト",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "dakuto"
+                },
+                "ZH": {
+                  "text": "风管",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēngguǎn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The air duct runs above the false ceiling.",
+                  "answer": "duct",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Dust built up inside the duct and reduced the airflow.",
+                  "answer": "duct",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cobertura-e-esquadrias",
+      "title": "Cobertura e esquadrias",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "telhado-e-aberturas",
+          "title": "Telhado e aberturas",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "roof",
+              "locales": {
+                "PT": {
+                  "text": "telhado",
+                  "definition": "Cobertura superior de um edifício que o protege da chuva, do sol e do vento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "roof",
+                  "definition": "The top covering of a building that protects it from rain, sun and wind.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Pitched roof é o telhado inclinado e flat roof o plano. Roofer é o telhadista.",
+                  "collocations": [
+                    "flat roof",
+                    "pitched roof",
+                    "roof tile",
+                    "roof truss"
+                  ]
+                },
+                "ES": {
+                  "text": "tejado",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dach",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "屋根",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "やね",
+                  "romanization": "yane"
+                },
+                "ZH": {
+                  "text": "屋顶",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "wūdǐng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The roof was repaired after the storm.",
+                  "answer": "roof",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "A leak in the roof damaged the ceiling below.",
+                  "answer": "roof",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "rafter",
+              "locales": {
+                "PT": {
+                  "text": "caibro",
+                  "definition": "Peça inclinada de madeira ou aço que sustenta as telhas ou o forro do telhado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "rafter",
+                  "definition": "A sloping timber or steel member that supports the roof covering.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Rafters sustentam as ripas (battens); purlins são as terças horizontais.",
+                  "collocations": [
+                    "timber rafter",
+                    "roof rafter",
+                    "rafter spacing",
+                    "rafter length"
+                  ]
+                },
+                "ES": {
+                  "text": "cabio",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Sparren",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "垂木",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "たるき",
+                  "romanization": "taruki"
+                },
+                "ZH": {
+                  "text": "椽子",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuánzi"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Each rafter rests on the wall plate.",
+                  "answer": "rafter",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We replaced the rotten rafter above the kitchen.",
+                  "answer": "rafter",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "gutter",
+              "locales": {
+                "PT": {
+                  "text": "calha",
+                  "definition": "Canal na beira do telhado que recolhe a água da chuva e a leva ao tubo de queda.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "gutter",
+                  "definition": "A channel along the edge of a roof that collects rainwater and carries it to a downpipe.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Downpipe (ou downspout nos EUA) é o tubo de queda. Gutter também é a sarjeta da rua.",
+                  "collocations": [
+                    "roof gutter",
+                    "clean the gutter",
+                    "gutter and downpipe",
+                    "blocked gutter"
+                  ]
+                },
+                "ES": {
+                  "text": "canalón",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dachrinne",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "雨どい",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "あまどい",
+                  "romanization": "amadoi"
+                },
+                "ZH": {
+                  "text": "檐沟",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yángōu"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "Leaves blocked the gutter and water overflowed.",
+                  "answer": "gutter",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Clean the gutter before the rainy season.",
+                  "answer": "gutter",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "window-frame",
+              "locales": {
+                "PT": {
+                  "text": "caixilho de janela",
+                  "definition": "Estrutura que contorna e sustenta o vidro e as folhas de uma janela.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "window frame",
+                  "definition": "The structure that surrounds and holds the glass and sashes of a window.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Sash é a folha móvel da janela; frame é a moldura fixa.",
+                  "collocations": [
+                    "aluminium window frame",
+                    "wooden window frame",
+                    "install a window frame",
+                    "window frame seal"
+                  ]
+                },
+                "ES": {
+                  "text": "marco de ventana",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fensterrahmen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "サッシ",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "romanization": "sasshi"
+                },
+                "ZH": {
+                  "text": "窗框",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "chuāngkuàng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The window frame is made of aluminium.",
+                  "answer": "window frame",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Water seeped in around the window frame.",
+                  "answer": "window frame",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "door-frame",
+              "locales": {
+                "PT": {
+                  "text": "batente",
+                  "definition": "Estrutura fixa em que a folha da porta é instalada.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "door frame",
+                  "definition": "The fixed structure in which the door leaf is mounted.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Door leaf é a folha da porta; jamb é cada lateral do batente.",
+                  "collocations": [
+                    "steel door frame",
+                    "wooden door frame",
+                    "fit the door frame",
+                    "door frame size"
+                  ]
+                },
+                "ES": {
+                  "text": "marco de puerta",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Türrahmen",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "戸枠",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "とわく",
+                  "romanization": "towaku"
+                },
+                "ZH": {
+                  "text": "门框",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ménkuàng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The door frame was not square, so the door jammed.",
+                  "answer": "door frame",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Fix the door frame to the wall with four screws.",
+                  "answer": "door frame",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "ceiling",
+              "locales": {
+                "PT": {
+                  "text": "forro",
+                  "definition": "Superfície interna superior de um cômodo, abaixo da cobertura ou da laje do andar de cima.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "ceiling",
+                  "definition": "The upper interior surface of a room, below the roof or the slab above.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Suspended ceiling e false ceiling são o forro rebaixado. Em economia, ceiling também é \"teto\" de preço.",
+                  "collocations": [
+                    "suspended ceiling",
+                    "false ceiling",
+                    "ceiling height",
+                    "ceiling tile"
+                  ]
+                },
+                "ES": {
+                  "text": "techo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Decke",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "天井",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "てんじょう",
+                  "romanization": "tenjou"
+                },
+                "ZH": {
+                  "text": "天花板",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "tiānhuābǎn"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "We installed a suspended ceiling in the corridor.",
+                  "answer": "ceiling",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "Water stains appeared on the ceiling after the rain.",
+                  "answer": "ceiling",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestao-da-obra",
+      "title": "Gestão da obra",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "contratos-e-entrega",
+          "title": "Contratos e entrega",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "bill-of-quantities",
+              "locales": {
+                "PT": {
+                  "text": "planilha de quantitativos",
+                  "definition": "Lista detalhada dos itens, medidas e quantidades de materiais e serviços de uma obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "bill of quantities",
+                  "definition": "A detailed list of the items, measurements and quantities of materials and work in a project.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Abreviado BoQ. Quantity surveyor é o profissional que mede e orça.",
+                  "collocations": [
+                    "prepare the bill of quantities",
+                    "priced bill of quantities",
+                    "bill of quantities item",
+                    "check the bill of quantities"
+                  ]
+                },
+                "ES": {
+                  "text": "estado de mediciones",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Leistungsverzeichnis",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "数量調書",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "すうりょうちょうしょ",
+                  "romanization": "suuryouchousho"
+                },
+                "ZH": {
+                  "text": "工程量清单",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "gōngchéngliàng qīngdān"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The contractor priced every item in the bill of quantities.",
+                  "answer": "bill of quantities",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "An error in the bill of quantities raised the cost.",
+                  "answer": "bill of quantities",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "subcontractor",
+              "locales": {
+                "PT": {
+                  "text": "subempreiteiro",
+                  "definition": "Empresa ou profissional contratado pelo contratante principal para executar parte da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "subcontractor",
+                  "definition": "A company or professional hired by the main contractor to carry out part of the work.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O contratante principal é o main contractor ou general contractor; o verbo é to subcontract.",
+                  "collocations": [
+                    "hire a subcontractor",
+                    "electrical subcontractor",
+                    "subcontractor agreement",
+                    "main contractor and subcontractor"
+                  ]
+                },
+                "ES": {
+                  "text": "subcontratista",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Subunternehmer",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "下請け",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "したうけ",
+                  "romanization": "shitauke"
+                },
+                "ZH": {
+                  "text": "分包商",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "fēnbāoshāng"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The subcontractor installed the electrical system.",
+                  "answer": "subcontractor",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We pay the subcontractor after each stage is approved.",
+                  "answer": "subcontractor",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "punch-list",
+              "locales": {
+                "PT": {
+                  "text": "lista de pendências",
+                  "definition": "Lista de pequenos defeitos ou itens inacabados a corrigir antes da entrega final da obra.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "punch list",
+                  "definition": "A list of minor defects or unfinished items to be fixed before the final handover of a project.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "No inglês britânico diz-se snagging list; snag é um pequeno defeito.",
+                  "collocations": [
+                    "prepare a punch list",
+                    "punch list item",
+                    "complete the punch list",
+                    "final punch list"
+                  ]
+                },
+                "ES": {
+                  "text": "lista de pendientes",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mängelliste",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "指摘事項",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "してきじこう",
+                  "romanization": "shitekijikou"
+                },
+                "ZH": {
+                  "text": "缺陷清单",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "quēxiàn qīngdān"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The architect walked through the site and made a punch list.",
+                  "answer": "punch list",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "We closed every item on the punch list by Friday.",
+                  "answer": "punch list",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "as-built-drawing",
+              "locales": {
+                "PT": {
+                  "text": "projeto as built",
+                  "definition": "Desenho que mostra a obra tal como foi realmente executada, com as alterações feitas em campo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "as-built drawing",
+                  "definition": "A drawing that shows the project as it was actually built, including changes made on site.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Também aparece só como as-builts. Contrasta com o desenho de projeto (design drawing).",
+                  "collocations": [
+                    "submit as-built drawings",
+                    "update the as-built drawing",
+                    "as-built drawing set",
+                    "as-built drawing revision"
+                  ]
+                },
+                "ES": {
+                  "text": "plano as built",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Bestandsplan",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "竣工図",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "しゅんこうず",
+                  "romanization": "shunkouzu"
+                },
+                "ZH": {
+                  "text": "竣工图",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "jùngōngtú"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The as-built drawing shows the new position of the duct.",
+                  "answer": "as-built drawing",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The contractor must deliver the as-built drawing at handover.",
+                  "answer": "as-built drawing",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "handover",
+              "locales": {
+                "PT": {
+                  "text": "entrega da obra",
+                  "definition": "Transferência formal da obra concluída do construtor para o cliente.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "handover",
+                  "definition": "The formal transfer of the finished project from the builder to the client.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "O verbo é to hand over; o substantivo vem em uma palavra, handover. No inglês americano, turnover também aparece.",
+                  "collocations": [
+                    "handover date",
+                    "handover inspection",
+                    "formal handover",
+                    "project handover"
+                  ]
+                },
+                "ES": {
+                  "text": "entrega de obra",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Übergabe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "引き渡し",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "ひきわたし",
+                  "romanization": "hikiwatashi"
+                },
+                "ZH": {
+                  "text": "移交",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "yíjiāo"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "The handover is scheduled for the end of June.",
+                  "answer": "handover",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "At handover, the client received the keys and the manuals.",
+                  "answer": "handover",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            },
+            {
+              "slug": "work-permit",
+              "locales": {
+                "PT": {
+                  "text": "permissão de trabalho",
+                  "definition": "Autorização escrita para executar uma tarefa de risco, como trabalho a quente ou em altura.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "EN": {
+                  "text": "work permit",
+                  "definition": "Written authorization to carry out a hazardous task, such as hot work or work at height.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Em inglês, work permit também significa visto de trabalho; em obras, o sentido de segurança é permit to work.",
+                  "collocations": [
+                    "issue a work permit",
+                    "hot work permit",
+                    "sign the work permit",
+                    "work permit system"
+                  ]
+                },
+                "ES": {
+                  "text": "permiso de trabajo",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Arbeitsfreigabe",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "JA": {
+                  "text": "作業許可",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "さぎょうきょか",
+                  "romanization": "sagyoukyoka"
+                },
+                "ZH": {
+                  "text": "作业许可",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "ipa": "zuòyè xǔkě"
+                }
+              },
+              "examples": [
+                {
+                  "language": "EN",
+                  "sentence": "No hot work starts without a signed work permit.",
+                  "answer": "work permit",
+                  "documentType": "SITE_INSTRUCTION"
+                },
+                {
+                  "language": "EN",
+                  "sentence": "The work permit expires at the end of the shift.",
+                  "answer": "work permit",
+                  "documentType": "SITE_INSTRUCTION"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

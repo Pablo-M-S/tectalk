@@ -1453,6 +1453,974 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "direito-civil",
+      "title": "Direito civil",
+      "position": 7,
+      "lessons": [
+        {
+          "slug": "bens-e-obrigacoes",
+          "title": "Bens e obrigações",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "property",
+              "locales": {
+                "PT": {
+                  "text": "propriedade",
+                  "definition": "Direito de usar, usufruir e dispor de um bem, e o próprio bem.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Eigentum",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das Eigentum (sem plural em uso comum). Diferente de \"Besitz\" (posse).",
+                  "collocations": [
+                    "Eigentum erwerben",
+                    "Eigentum übertragen",
+                    "Eigentumsrecht"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Eigentum ging bei der Beurkundung auf den Käufer über.",
+                  "answer": "Eigentum",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Sie hat das volle Eigentum an dem Grundstück.",
+                  "answer": "Eigentum",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "tort",
+              "locales": {
+                "PT": {
+                  "text": "ato ilícito civil",
+                  "definition": "Ato que causa dano a outra pessoa e obriga o autor a indenizar, sem relação com um contrato.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "unerlaubte Handlung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die unerlaubte Handlung (plural: die unerlaubten Handlungen). Base legal: §§ 823 ss. BGB.",
+                  "collocations": [
+                    "Schadensersatz aus unerlaubter Handlung",
+                    "Haftung",
+                    "Delikt"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Eine unerlaubte Handlung verpflichtet zum Ersatz des Schadens.",
+                  "answer": "unerlaubte Handlung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Klage stützt sich auf eine unerlaubte Handlung, nicht auf einen Vertrag.",
+                  "answer": "unerlaubte Handlung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "negligence",
+              "locales": {
+                "PT": {
+                  "text": "negligência",
+                  "definition": "Falha em agir com o cuidado que uma pessoa razoável teria, causando dano a outro.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Fahrlässigkeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Fahrlässigkeit (sem plural usual). Graus: \"grobe Fahrlässigkeit\" e \"leichte Fahrlässigkeit\". Oposto de Vorsatz (dolo).",
+                  "collocations": [
+                    "grobe Fahrlässigkeit",
+                    "Fahrlässigkeit vorwerfen",
+                    "fahrlässig handeln"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Arzt wurde nach der Operation wegen Fahrlässigkeit verklagt.",
+                  "answer": "Fahrlässigkeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Grobe Fahrlässigkeit kann die Haftungsklausel unwirksam machen.",
+                  "answer": "Fahrlässigkeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "damages",
+              "locales": {
+                "PT": {
+                  "text": "indenização por perdas e danos",
+                  "definition": "Quantia em dinheiro que o tribunal manda pagar para compensar um prejuízo.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Schadensersatz",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Schadensersatz (sem plural usual). Também \"Schadenersatz\" na ortografia austríaca e suíça.",
+                  "collocations": [
+                    "Schadensersatz fordern",
+                    "Schadensersatz leisten",
+                    "Schmerzensgeld"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht sprach Schadensersatz in Höhe von fünfzigtausend Euro zu.",
+                  "answer": "Schadensersatz",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Sie forderte Schadensersatz für die Verzögerung.",
+                  "answer": "Schadensersatz",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "easement",
+              "locales": {
+                "PT": {
+                  "text": "servidão",
+                  "definition": "Direito de usar o imóvel de outra pessoa para um fim limitado, como passar por ele.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Dienstbarkeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Dienstbarkeit (plural: die Dienstbarkeiten). Tipo comum: \"Wegerecht\" (direito de passagem).",
+                  "collocations": [
+                    "Dienstbarkeit eintragen",
+                    "Wegerecht",
+                    "Grundbuch"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Nachbar hat eine Dienstbarkeit zur Nutzung unserer Einfahrt.",
+                  "answer": "Dienstbarkeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Dienstbarkeit erlaubt den Zugang, ohne das Eigentum zu übertragen.",
+                  "answer": "Dienstbarkeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "lease",
+              "locales": {
+                "PT": {
+                  "text": "contrato de locação",
+                  "definition": "Contrato pelo qual o dono cede o uso de um imóvel ou bem por um prazo, em troca de pagamento.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Mietvertrag",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Mietvertrag (plural: die Mietverträge); para imóveis comerciais, \"Pachtvertrag\" se for com frutos.",
+                  "collocations": [
+                    "Mietvertrag unterschreiben",
+                    "Mietvertrag kündigen",
+                    "Gewerbemietvertrag"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Mietvertrag läuft fünf Jahre mit Verlängerungsoption.",
+                  "answer": "Mietvertrag",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Beide Parteien unterschrieben den Mietvertrag am Montag.",
+                  "answer": "Mietvertrag",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-do-trabalho",
+      "title": "Direito do trabalho",
+      "position": 8,
+      "lessons": [
+        {
+          "slug": "relacoes-de-trabalho",
+          "title": "Relações de trabalho",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "severance-pay",
+              "locales": {
+                "PT": {
+                  "text": "verbas rescisórias",
+                  "definition": "Quantia paga ao empregado quando o contrato de trabalho termina por iniciativa do empregador.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Abfindung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Abfindung (plural: die Abfindungen). Normalmente negociada num acordo ou fixada em juízo.",
+                  "collocations": [
+                    "Abfindung zahlen",
+                    "Abfindung aushandeln",
+                    "Aufhebungsvertrag"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Er erhielt eine Abfindung, als die Firma schloss.",
+                  "answer": "Abfindung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Abfindung hängt von den Dienstjahren ab.",
+                  "answer": "Abfindung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "dismissal",
+              "locales": {
+                "PT": {
+                  "text": "demissão",
+                  "definition": "Ato do empregador de pôr fim ao contrato de trabalho do empregado.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Kündigung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Kündigung (plural: die Kündigungen). Serve também para a demissão pelo empregado. Ex.: \"fristlose Kündigung\".",
+                  "collocations": [
+                    "fristlose Kündigung",
+                    "Kündigung aussprechen",
+                    "Kündigungsschutz"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht hielt die Kündigung für unwirksam.",
+                  "answer": "Kündigung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Der Kündigung muss eine schriftliche Mitteilung vorausgehen.",
+                  "answer": "Kündigung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "probation",
+              "locales": {
+                "PT": {
+                  "text": "período de experiência",
+                  "definition": "Fase inicial do contrato em que as partes avaliam se o vínculo continuará.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Probezeit",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Probezeit (plural: die Probezeiten). Na Alemanha, no máximo seis meses; o aviso prévio é de duas semanas.",
+                  "collocations": [
+                    "Probezeit bestehen",
+                    "Probezeit verlängern",
+                    "unbefristeter Vertrag"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Sie bestand die Probezeit und erhielt einen unbefristeten Vertrag.",
+                  "answer": "Probezeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Probezeit dauert drei Monate.",
+                  "answer": "Probezeit",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "overtime",
+              "locales": {
+                "PT": {
+                  "text": "hora extra",
+                  "definition": "Trabalho além da jornada normal, geralmente pago com adicional.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Überstunden",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino plural: die Überstunden (singular: die Überstunde). Compensação: \"Überstundenvergütung\" ou \"Freizeitausgleich\".",
+                  "collocations": [
+                    "Überstunden machen",
+                    "Überstunden ausbezahlen",
+                    "Freizeitausgleich"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Mitarbeiter haben nach vierzig Stunden Anspruch auf bezahlte Überstunden.",
+                  "answer": "Überstunden",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Er weigerte sich, ohne schriftliche Vereinbarung Überstunden zu machen.",
+                  "answer": "Überstunden",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "collective-agreement",
+              "locales": {
+                "PT": {
+                  "text": "acordo coletivo",
+                  "definition": "Acordo escrito entre sindicato e empregador sobre salários e condições de trabalho.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Tarifvertrag",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Tarifvertrag (plural: die Tarifverträge). Parceiros: Gewerkschaft e Arbeitgeberverband.",
+                  "collocations": [
+                    "Tarifvertrag abschließen",
+                    "Tarifverhandlung",
+                    "Gewerkschaft"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Tarifvertrag legt das Mindestgehalt der Branche fest.",
+                  "answer": "Tarifvertrag",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Gewerkschaft verhandelte einen neuen Tarifvertrag.",
+                  "answer": "Tarifvertrag",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "whistleblower",
+              "locales": {
+                "PT": {
+                  "text": "denunciante",
+                  "definition": "Pessoa que denuncia irregularidades dentro da própria organização.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Hinweisgeber",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Hinweisgeber (plural: die Hinweisgeber); feminino: die Hinweisgeberin. Lei: Hinweisgeberschutzgesetz.",
+                  "collocations": [
+                    "Hinweisgeber schützen",
+                    "Meldestelle",
+                    "Hinweisgeberschutzgesetz"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Hinweisgeber meldete den Betrug der Aufsichtsbehörde.",
+                  "answer": "Hinweisgeber",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Hinweisgeber ist vor Vergeltung geschützt.",
+                  "answer": "Hinweisgeber",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "recursos-e-execucao",
+      "title": "Recursos e execução",
+      "position": 9,
+      "lessons": [
+        {
+          "slug": "decisoes-e-recursos",
+          "title": "Decisões e recursos",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "appeal",
+              "locales": {
+                "PT": {
+                  "text": "recurso",
+                  "definition": "Pedido para que uma instância superior reexamine uma decisão judicial.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Berufung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Berufung (plural: die Berufungen). Contra sentença de primeira instância; \"Revision\" é o recurso de direito.",
+                  "collocations": [
+                    "Berufung einlegen",
+                    "Berufung zurückweisen",
+                    "Berufungsgericht"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Beklagte legte innerhalb von dreißig Tagen Berufung ein.",
+                  "answer": "Berufung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das höhere Gericht wies die Berufung zurück.",
+                  "answer": "Berufung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "ruling",
+              "locales": {
+                "PT": {
+                  "text": "decisão judicial",
+                  "definition": "Decisão formal do juiz ou do tribunal sobre um ponto do caso.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Entscheidung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Entscheidung (plural: die Entscheidungen). Específicos: Urteil (sentença), Beschluss (decisão interlocutória).",
+                  "collocations": [
+                    "Entscheidung treffen",
+                    "gerichtliche Entscheidung",
+                    "Beschluss"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Entscheidung wurde am Dienstag veröffentlicht.",
+                  "answer": "Entscheidung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Richterin begründete die Entscheidung schriftlich.",
+                  "answer": "Entscheidung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "hearing",
+              "locales": {
+                "PT": {
+                  "text": "audiência",
+                  "definition": "Sessão perante um juiz ou tribunal em que as partes apresentam seus argumentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verhandlung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verhandlung (plural: die Verhandlungen). Mündliche Verhandlung é a audiência oral; também significa \"negociação\".",
+                  "collocations": [
+                    "mündliche Verhandlung",
+                    "Verhandlung vertagen",
+                    "Termin"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Verhandlung ist für neun Uhr angesetzt.",
+                  "answer": "Verhandlung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Beide Anwälte nahmen an der Verhandlung teil.",
+                  "answer": "Verhandlung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "summons",
+              "locales": {
+                "PT": {
+                  "text": "intimação",
+                  "definition": "Documento que ordena ao réu comparecer perante o tribunal ou responder a uma ação.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vorladung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Vorladung (plural: die Vorladungen). Para o réu civil, também \"Ladung\".",
+                  "collocations": [
+                    "Vorladung erhalten",
+                    "Vorladung zustellen",
+                    "Ladung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Beklagte erhielt eine Vorladung per Post.",
+                  "answer": "Vorladung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Wer eine Vorladung ignoriert, riskiert eine Geldstrafe.",
+                  "answer": "Vorladung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "enforcement",
+              "locales": {
+                "PT": {
+                  "text": "execução",
+                  "definition": "Aplicação forçada de uma decisão judicial ou de uma lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vollstreckung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Vollstreckung (plural: die Vollstreckungen). \"Zwangsvollstreckung\" é a execução forçada.",
+                  "collocations": [
+                    "Zwangsvollstreckung",
+                    "Vollstreckung beantragen",
+                    "Gerichtsvollzieher"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Gläubiger beantragte die Vollstreckung des Urteils.",
+                  "answer": "Vollstreckung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Gerichtsvollzieher übernehmen die Vollstreckung unbezahlter Bußgelder.",
+                  "answer": "Vollstreckung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "statute-of-limitations",
+              "locales": {
+                "PT": {
+                  "text": "prescrição",
+                  "definition": "Prazo legal depois do qual uma ação não pode mais ser proposta.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verjährung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verjährung (sem plural usual). O prazo regular é de três anos (§ 195 BGB).",
+                  "collocations": [
+                    "Verjährung eintreten",
+                    "Verjährungsfrist",
+                    "Verjährung hemmen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Verjährung dieses Anspruchs beträgt drei Jahre.",
+                  "answer": "Verjährung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Klage scheiterte, weil die Verjährung eingetreten war.",
+                  "answer": "Verjährung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direito-publico",
+      "title": "Direito público",
+      "position": 10,
+      "lessons": [
+        {
+          "slug": "estado-e-cidadao",
+          "title": "Estado e cidadão",
+          "position": 1,
+          "terms": [
+            {
+              "slug": "constitution",
+              "locales": {
+                "PT": {
+                  "text": "constituição",
+                  "definition": "Lei fundamental de um Estado, que organiza os poderes e garante direitos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Verfassung",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Verfassung (plural: die Verfassungen). A alemã é o \"Grundgesetz\"; \"Verfassungsgericht\" é o tribunal constitucional.",
+                  "collocations": [
+                    "Verfassung ändern",
+                    "Verfassungsgericht",
+                    "verfassungswidrig"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Verfassung garantiert die Meinungsfreiheit.",
+                  "answer": "Verfassung",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht entschied, dass das Gesetz die Verfassung verletzte.",
+                  "answer": "Verfassung",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "due-process",
+              "locales": {
+                "PT": {
+                  "text": "devido processo legal",
+                  "definition": "Princípio pelo qual ninguém pode ser privado de direitos sem um procedimento justo previsto em lei.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "faires Verfahren",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro: das faire Verfahren (plural: die fairen Verfahren). Garantia: \"Recht auf ein faires Verfahren\" (art. 6 CEDH).",
+                  "collocations": [
+                    "Recht auf ein faires Verfahren",
+                    "rechtliches Gehör",
+                    "Verfahrensgarantie"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Jeder Angeklagte hat Anspruch auf ein faires Verfahren.",
+                  "answer": "faires Verfahren",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Die Festnahme war ungültig, weil kein faires Verfahren eingehalten wurde.",
+                  "answer": "faires Verfahren",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "habeas-corpus",
+              "locales": {
+                "PT": {
+                  "text": "habeas corpus",
+                  "definition": "Ordem judicial que obriga a autoridade a apresentar o detido e justificar a prisão.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Habeas Corpus",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Neutro (latinismo): das Habeas Corpus; na Alemanha o equivalente é o controle judicial da prisão (Art. 104 GG).",
+                  "collocations": [
+                    "Habeas Corpus beantragen",
+                    "Freiheitsentziehung",
+                    "richterliche Kontrolle"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Die Anwältin stellte für ihren Mandanten einen Antrag auf Habeas Corpus.",
+                  "answer": "Habeas Corpus",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Das Gericht prüfte den Antrag auf Habeas Corpus sofort.",
+                  "answer": "Habeas Corpus",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "prosecutor",
+              "locales": {
+                "PT": {
+                  "text": "promotor",
+                  "definition": "Agente público que representa o Estado na acusação em processos penais.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Staatsanwalt",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Staatsanwalt (plural: die Staatsanwälte); feminino: die Staatsanwältin. Órgão: Staatsanwaltschaft.",
+                  "collocations": [
+                    "Staatsanwaltschaft",
+                    "Anklage erheben",
+                    "Generalstaatsanwalt"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Staatsanwalt legte dem Gericht die Beweise vor.",
+                  "answer": "Staatsanwalt",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Ein Staatsanwalt entscheidet, ob er Anklage erhebt.",
+                  "answer": "Staatsanwalt",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "power-of-attorney",
+              "locales": {
+                "PT": {
+                  "text": "procuração",
+                  "definition": "Documento pelo qual uma pessoa dá a outra poderes para agir em seu nome.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Vollmacht",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Feminino: die Vollmacht (plural: die Vollmachten). Tipos: \"Generalvollmacht\", \"Vorsorgevollmacht\".",
+                  "collocations": [
+                    "Vollmacht erteilen",
+                    "Generalvollmacht",
+                    "Vollmacht widerrufen"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Sie unterschrieb eine Vollmacht, damit ihr Sohn das Haus verkaufen konnte.",
+                  "answer": "Vollmacht",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Eine Vollmacht kann jederzeit widerrufen werden.",
+                  "answer": "Vollmacht",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            },
+            {
+              "slug": "notary",
+              "locales": {
+                "PT": {
+                  "text": "tabelião",
+                  "definition": "Oficial público autorizado a autenticar assinaturas e documentos.",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN"
+                },
+                "DE": {
+                  "text": "Notar",
+                  "definition": "",
+                  "informalForms": [],
+                  "partOfSpeech": "NOUN",
+                  "usageNote": "Masculino: der Notar (plural: die Notare); feminino: die Notarin. Obrigatório para compra de imóveis.",
+                  "collocations": [
+                    "Notar beauftragen",
+                    "notarielle Beurkundung",
+                    "Beglaubigung"
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "language": "DE",
+                  "sentence": "Der Notar beglaubigte die Unterschrift auf der Urkunde.",
+                  "answer": "Notar",
+                  "documentType": "LEGAL_DOCUMENT"
+                },
+                {
+                  "language": "DE",
+                  "sentence": "Sie brauchen einen Notar, um das Dokument zu beglaubigen.",
+                  "answer": "Notar",
+                  "documentType": "LEGAL_DOCUMENT"
+                }
+              ],
+              "segments": {}
+            }
+          ]
+        }
+      ]
     }
   ],
   "track": {
